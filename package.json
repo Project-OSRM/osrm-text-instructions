@@ -1,0 +1,22 @@
+{
+  "name": "osrm",
+  "description": "OSRM Text Instructions",
+  "url": "https://github.com/Project-OSRM/osrm-text-instructions.js",
+  "homepage": "http://project-osrm.org",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Project-OSRM/osrm-text-instructions.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Project-OSRM/osrm-text-instructions.js/"
+  },
+  "devDependencies": {
+    "tape": "^4.2.2"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  }
+}

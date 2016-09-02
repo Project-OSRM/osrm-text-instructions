@@ -1,0 +1,12 @@
+{
+  "5": {
+    "turn": {
+      "right": {
+        "high": "Turn right[ onto {way_name} ]"
+      },
+      "left": {
+        "high": "Turn left[ onto {way_name} ]"
+      }
+    }
+  }
+}

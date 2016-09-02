@@ -1,0 +1,19 @@
+{
+    "legs": [
+        {
+            "steps": [
+                {
+                    "name": "Lítla Tvørgøta",
+                    "maneuver": {
+                        "modifier": "left",
+                        "bearing_before": 150.70120590083536,
+                        "exit": 2,
+                        "bearing_after": 57.89840278792711,
+                        "type": "turn"
+                    },
+                    "mode": "driving"
+                }
+            ]
+        }
+    ]
+}
