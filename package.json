@@ -1,5 +1,5 @@
 {
-  "name": "osrm",
+  "name": "osrm-text-instructions",
   "description": "OSRM Text Instructions",
   "url": "https://github.com/Project-OSRM/osrm-text-instructions.js",
   "homepage": "http://project-osrm.org",
