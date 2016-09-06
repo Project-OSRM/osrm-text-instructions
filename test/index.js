@@ -141,5 +141,49 @@ tape.test('compile', function(t) {
                 assert.end();
             });
         });
+
+        tt.test('use lane turn default case', function(assert) {
+            var step = {
+                maneuver: {
+                    type: 'use lane',
+                    modifier: 'straight'
+                },
+                'intersections': [{
+                    'lanes': [{
+                        valid: true
+                    }]
+                }]
+            };
+
+            instructions.compile(step, '5', function(err, instruction) {
+                assert.error(err);
+                assert.equal(instruction, 'Take any lane and continue straight');
+                assert.end();
+            });
+        });
+
+        tt.test('use lane turn default case left lane', function(assert) {
+            var step = {
+                maneuver: {
+                    type: 'use lane',
+                    modifier: 'straight'
+                },
+                'intersections': [{
+                    'lanes': [{
+                        valid: true
+                    }, {
+                        valid: false
+                    }, {
+                        valid: false
+                    }]
+                }]
+            };
+
+            instructions.compile(step, '5', function(err, instruction) {
+                assert.error(err);
+                assert.equal(instruction, 'Use the left lane and continue straight');
+                assert.end();
+            });
+        });
     });
 });

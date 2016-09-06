@@ -1,22 +1,91 @@
 {
     "5": {
-        "turn": {
-            "defaultInstruction": "Turn {modifier}[ onto {way_name} ]"
+        "arrive": {
+            "defaultInstruction": "You have arrived at your {nth} destination",
+            "left": "You have arrived at your {nth} destination, on the left",
+            "right": "You have arrived at your {nth} destination, on the right",
+            "sharp left": "You have arrived at your {nth} destination, sharply to the left",
+            "sharp right": "You have arrived at your {nth} destination, sharply to the right",
+            "slight right": "You have arrived at your {nth} destination, slightly to the right",
+            "straight": "You have arrived at your {nth} destination, straight ahead"
+        },
+        "continue": {
+            "defaultInstruction": "Continue {modifier}[ onto {way_name}]",
+            "slight left": "Continue slightly left[ onto {way_name}]",
+            "slight right": "Continue slightly right[ onto {way_name}]"
+        },
+        "depart": {
+            "defaultInstruction": "Head {modifier}[ on {way_name}]"
+        },
+        "end of road": {
+            "defaultInstruction": "Turn {modifier}[ onto {way_name}]"
+        },
+        "ferry": {
+            "defaultInstruction": "Take the ferry[ - {way_name}]"
+        },
+        "fork": {
+            "defaultInstruction": "Keep {modifier} at the fork[ onto {way_name}]",
+            "slight left": "Keep left at the fork[ onto {way_name}]",
+            "slight right": "Keep right at the fork[ onto {way_name}]"
+        },
+        "merge": {
+            "defaultInstruction": "Merge {modifier}[ onto {way_name}]",
+            "slight left": "Merge slightly left[ onto {way_name}]",
+            "slight right": "Merge slightly right[ onto {way_name}]"
+        },
+        "modturn": {
+            "defaultInstruction": "Make a {modifier}[ onto {way_name}]"
+        },
+        "new name": {
+            "defaultInstruction": "Continue {modifier}[ onto {way_name}]",
+            "slight left": "Continue slightly left[ onto {way_name}]",
+            "slight right": "Continue slightly right[ onto {way_name}]"
+        },
+        "notification": {
+            "defaultInstruction": "Continue {modifier}[ onto {way_name}]"
         },
         "off ramp": {
             "defaultInstruction": "Take the ramp",
-
             "left": "Take the ramp on the left",
             "right": "Take the ramp on the right",
             "slight left": "Take the ramp on the left",
             "slight right": "Take the ramp on the right"
         },
+        "on ramp": {
+            "defaultInstruction": "Take the ramp on the {modifier}"
+        },
+        "pushing bike": {
+            "defaultInstruction": "Get off the bike and push[ onto {way_name}]"
+        },
+        "rotary": {
+            "defaultInstruction": "Enter {rotary_name}"
+        },
+        "roundabout": {
+            "defaultInstruction": "Enter the roundabout"
+        },
         "roundabout turn": {
             "defaultInstruction": "At the roundabout make a {modifier}[ onto {way_name}]",
-
             "left": "At the roundabout turn left[ onto {way_name}]",
             "right": "At the roundabout turn right[ onto {way_name}]",
             "straight": "At the roundabout continue straight"
+        },
+        "train": {
+            "defaultInstruction": "Take the train[ - {way_name}]"
+        },
+        "turn": {
+            "defaultInstruction": "Make a {modifier}[ onto {way_name}]",
+            "left": "Turn left[ onto {way_name}]",
+            "right": "Turn right[ onto {way_name}]",
+            "straight": "Go straight[ onto {way_name}]"
+        },
+        "use lane": {
+            "defaultInstruction": "Continue {modifier}"
+        },
+        "uturn": {
+            "defaultInstruction": "Make a U-turn[ onto {way_name}]"
+        },
+        "waypoint": {
+            "defaultInstruction": "Reach waypoint and continue {modifier}[ onto {way_name}]"
         }
     }
 }
