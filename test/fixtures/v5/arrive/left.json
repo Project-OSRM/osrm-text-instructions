@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "left",
+            "type": "end of road"
+        }
+    },
+    "instruction": "",
+    "testName": "left"
+}

@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "slight left",
+            "type": "pushing bike"
+        }
+    },
+    "instruction": "",
+    "testName": "slight left"
+}

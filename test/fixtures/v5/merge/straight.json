@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "slight",
+            "type": "merge"
+        }
+    },
+    "instruction": "",
+    "testName": "slight"
+}

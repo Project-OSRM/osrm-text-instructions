@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "slight",
+            "type": "on ramp"
+        }
+    },
+    "instruction": "",
+    "testName": "slight"
+}
