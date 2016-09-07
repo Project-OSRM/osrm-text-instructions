@@ -16,8 +16,14 @@ module.exports = function(_version) {
             if (!instructions[version]) { throw new Error('Invalid version'); }
             if (!type) { throw new Error('Missing step maneuver type'); }
             if (!modifier) { throw new Error('Missing step maneuver modifier'); }
-            if (!instructions[version][type]) throw new Error('Unknown type', type);
             if (!step.maneuver.modifier) throw new Error('No maneuver provided');
+
+            if (!instructions[version][type]) {
+                // osrm specification assumes turn types can be added without
+                // major voersion changes and unknown types are treated
+                // as type `turn` by clients
+                type = 'turn';
+            }
 
             // First check if the modifier for this maneuver has a special instruction
             // If not, use the `defaultInstruction`
