@@ -1,11 +1,11 @@
 {
     "step": {
         "maneuver": {
-            "modifier": "slight",
+            "modifier": "straight",
             "type": "depart",
             "bearing_after": 0
         }
     },
     "instruction": "Head north",
-    "testName": "slight"
+    "testName": "straight"
 }

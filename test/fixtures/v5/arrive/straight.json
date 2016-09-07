@@ -1,10 +1,10 @@
 {
     "step": {
         "maneuver": {
-            "modifier": "slight",
+            "modifier": "straight",
             "type": "arrive"
         }
     },
-    "instruction": "You have arrived at your {nth} destination",
-    "testName": "slight"
+    "instruction": "You have arrived at your {nth} destination, straight ahead",
+    "testName": "straight"
 }

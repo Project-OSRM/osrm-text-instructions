@@ -1,7 +1,7 @@
 {
     "step": {
         "maneuver": {
-            "modifier": "slight",
+            "modifier": "straight",
             "type": "use lane"
         },
         "intersections": [
@@ -14,6 +14,6 @@
             }
         ]
     },
-    "instruction": "Take any lane and continue slight",
-    "testName": "slight"
+    "instruction": "Take any lane and continue straight",
+    "testName": "straight"
 }
