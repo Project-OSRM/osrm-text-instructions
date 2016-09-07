@@ -19,7 +19,7 @@
   },
   "scripts": {
     "lint": "eslint *.js",
-    "test": "npm run lint && node test/index.js"
+    "test": "npm run lint && node test/*_test.js"
   },
   "dependencies": {
     "number-to-words": "^1.2.3"
