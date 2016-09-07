@@ -5,6 +5,6 @@
             "type": "end of road"
         }
     },
-    "instruction": "",
+    "instruction": "Turn slight left",
     "testName": "slight left"
 }

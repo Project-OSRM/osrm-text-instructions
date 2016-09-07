@@ -3,8 +3,17 @@
         "maneuver": {
             "modifier": "slight left",
             "type": "use lane"
-        }
+        },
+        "intersections": [
+            {
+                "lanes": [
+                    {
+                        "valid": true
+                    }
+                ]
+            }
+        ]
     },
-    "instruction": "",
+    "instruction": "Take any lane and continue slight left",
     "testName": "slight left"
 }

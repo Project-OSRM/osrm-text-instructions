@@ -5,6 +5,6 @@
             "type": "roundabout"
         }
     },
-    "instruction": "",
+    "instruction": "Enter the roundabout",
     "testName": "left"
 }

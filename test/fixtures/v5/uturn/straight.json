@@ -5,6 +5,6 @@
             "type": "uturn"
         }
     },
-    "instruction": "",
+    "instruction": "Make a U-turn",
     "testName": "slight"
 }

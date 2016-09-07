@@ -5,6 +5,6 @@
             "type": "merge"
         }
     },
-    "instruction": "",
+    "instruction": "Merge right",
     "testName": "right"
 }

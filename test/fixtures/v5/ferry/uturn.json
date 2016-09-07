@@ -5,6 +5,6 @@
             "type": "ferry"
         }
     },
-    "instruction": "",
+    "instruction": "Take the ferry",
     "testName": "uturn"
 }

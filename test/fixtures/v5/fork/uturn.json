@@ -5,6 +5,6 @@
             "type": "fork"
         }
     },
-    "instruction": "",
+    "instruction": "Keep uturn at the fork",
     "testName": "uturn"
 }

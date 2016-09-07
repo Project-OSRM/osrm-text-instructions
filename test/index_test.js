@@ -14,9 +14,15 @@ tape.test('v5 compile', function(t) {
             if (folder === '.DS_Store') return;
             fs.readdirSync(d + folder).forEach(function(p) {
                 if (p.match(/json$/)) {
-                    var fixture = JSON.parse(fs.readFileSync(path.join(d, folder, p)));
+                    var b = path.join(d, folder, p);
+                    var fixture = JSON.parse(fs.readFileSync(b));
 
-                    assert.equal(v5Instructions.compile(fixture.step), fixture.instruction, fixture.testName);
+                    if (process.env.UPDATE) {
+                        fixture.instruction = v5Instructions.compile(fixture.step);
+                        fs.writeFileSync(b, JSON.stringify(fixture, null, 4));
+                    } else {
+                        assert.equal(v5Instructions.compile(fixture.step), fixture.instruction, fixture.testName);
+                    }
                 }
             });
         });

@@ -5,6 +5,6 @@
             "type": "train"
         }
     },
-    "instruction": "",
+    "instruction": "Take the train",
     "testName": "left"
 }

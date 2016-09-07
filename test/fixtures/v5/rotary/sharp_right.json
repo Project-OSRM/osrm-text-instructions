@@ -5,6 +5,6 @@
             "type": "rotary"
         }
     },
-    "instruction": "",
+    "instruction": "Enter the rotary",
     "testName": "sharp right"
 }

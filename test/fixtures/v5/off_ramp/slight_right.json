@@ -5,6 +5,6 @@
             "type": "off ramp"
         }
     },
-    "instruction": "",
+    "instruction": "Take the ramp on the right",
     "testName": "slight right"
 }

@@ -2,9 +2,9 @@
     "step": {
         "maneuver": {
             "modifier": "slight left",
-            "type": "end of road"
+            "type": "arrive"
         }
     },
-    "instruction": "",
+    "instruction": "You have arrived at your {nth} destination",
     "testName": "slight left"
 }

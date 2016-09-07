@@ -5,6 +5,6 @@
             "type": "waypoint"
         }
     },
-    "instruction": "",
+    "instruction": "Reach waypoint and continue sharp left",
     "testName": "sharp left"
 }

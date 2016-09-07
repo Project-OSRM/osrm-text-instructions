@@ -5,6 +5,6 @@
             "type": "roundabout turn"
         }
     },
-    "instruction": "",
+    "instruction": "At the roundabout turn left",
     "testName": "left"
 }

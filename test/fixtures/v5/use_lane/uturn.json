@@ -3,8 +3,17 @@
         "maneuver": {
             "modifier": "uturn",
             "type": "use lane"
-        }
+        },
+        "intersections": [
+            {
+                "lanes": [
+                    {
+                        "valid": true
+                    }
+                ]
+            }
+        ]
     },
-    "instruction": "",
+    "instruction": "Take any lane and continue uturn",
     "testName": "uturn"
 }
