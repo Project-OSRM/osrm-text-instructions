@@ -1,5 +1,5 @@
 {
-    "5": {
+    "v5": {
         "arrive": {
             "defaultInstruction": "You have arrived at your {nth} destination",
             "left": "You have arrived at your {nth} destination, on the left",

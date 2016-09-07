@@ -6,6 +6,20 @@ __WIP: This project is under heavy development and should not be integrated yet.
 
 osrm-text-instructions.js is a library to transform OSRM steps into text instructions.
 
+### Usage
+
+```
+var osrmTextInstructions = require('osrm-text-instructions')('v5');
+
+// make your request against the API
+
+response.legs.forEach(function(leg) {
+  leg.steps.forEach(function(step) {
+    instruction = osrmTextInstructions.compile(step)
+  });
+});
+```
+
 ### Design goals
 
 - __Customization__ Users should be able to easily fork or monkey patch the results to adjust to their own likings
