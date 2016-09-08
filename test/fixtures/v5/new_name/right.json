@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "right",
+            "type": "new name"
+        }
+    },
+    "instruction": "Continue right",
+    "testName": "right"
+}

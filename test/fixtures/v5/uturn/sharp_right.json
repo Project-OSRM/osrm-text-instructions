@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "sharp right",
+            "type": "uturn"
+        }
+    },
+    "instruction": "Make a U-turn",
+    "testName": "sharp right"
+}

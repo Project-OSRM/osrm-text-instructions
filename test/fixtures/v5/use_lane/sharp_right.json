@@ -1,0 +1,19 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "sharp right",
+            "type": "use lane"
+        },
+        "intersections": [
+            {
+                "lanes": [
+                    {
+                        "valid": true
+                    }
+                ]
+            }
+        ]
+    },
+    "instruction": "Take any lane and continue sharp right",
+    "testName": "sharp right"
+}

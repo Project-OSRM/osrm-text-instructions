@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "sharp left",
+            "type": "waypoint"
+        }
+    },
+    "instruction": "Reach waypoint and continue sharp left",
+    "testName": "sharp left"
+}

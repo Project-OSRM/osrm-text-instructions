@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "sharp right",
+            "type": "fork"
+        }
+    },
+    "instruction": "Keep sharp right at the fork",
+    "testName": "sharp right"
+}

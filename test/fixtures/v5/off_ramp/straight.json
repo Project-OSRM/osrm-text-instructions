@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "straight",
+            "type": "off ramp"
+        }
+    },
+    "instruction": "Take the ramp",
+    "testName": "straight"
+}
