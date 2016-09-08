@@ -1,0 +1,11 @@
+{
+    "step": {
+        "name": "Street Name",
+        "maneuver": {
+            "type": "deliberatly_unknown_type",
+            "modifier": "left"
+        }
+    },
+    "instruction": "Turn left onto Street Name",
+    "testName": "unknown types are treated as turns"
+}
