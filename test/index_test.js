@@ -34,7 +34,7 @@ tape.test('v5 compile', function(t) {
         var basePath = path.join(__dirname, 'fixtures', 'v5/');
 
         fs.readdirSync(basePath).forEach(function(type) {
-            if (type === '.DS_Store') return;
+            if (type === '.DS_Store' || type === 'other') return;
             fs.readdirSync(basePath + type).forEach(function() {
                 constants.modifiers.forEach(function(modifier) {
                     assert.ok(fs.existsSync(path.join(basePath, type, modifier.replace(' ', '_') + '.json')), type + '/' + modifier);
