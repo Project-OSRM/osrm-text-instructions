@@ -2,7 +2,7 @@ var fs = require('fs');
 var tape = require('tape');
 var path = require('path');
 var instructions = require('../index.js');
-var constants = require('../lib/constants');
+var constants = require('./constants');
 
 tape.test('v5 compile', function(t) {
     var v5Instructions = instructions('v5');
