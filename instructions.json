@@ -80,12 +80,6 @@
         },
         "use lane": {
             "defaultInstruction": "Continue {modifier}"
-        },
-        "uturn": {
-            "defaultInstruction": "Make a U-turn[ onto {way_name}]"
-        },
-        "waypoint": {
-            "defaultInstruction": "Reach waypoint and continue {modifier}[ onto {way_name}]"
         }
     }
 }
