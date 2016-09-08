@@ -1,11 +1,10 @@
 {
     "step": {
-        "name": "Street Name",
         "maneuver": {
             "type": "turn",
             "modifier": "left"
         }
     },
-    "instruction": "Turn left onto Street Name",
-    "testName": "turn left with name"
+    "instruction": "Turn left",
+    "testName": "turn left"
 }

@@ -2,7 +2,7 @@
     "step": {
         "maneuver": {
             "modifier": "left",
-            "type": "arrive"
+            "type": "continue"
         }
     },
     "instruction": "You have arrived at your {nth} destination, on the left",

@@ -1,8 +1,8 @@
 {
     "step": {
         "maneuver": {
-            "modifier": "sharp right",
-            "type": "arrive"
+            "type": "turn",
+            "modifier": "sharp right"
         }
     },
     "instruction": "You have arrived at your {nth} destination, sharply to the right",
