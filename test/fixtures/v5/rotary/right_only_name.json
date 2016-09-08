@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "right",
+            "type": "rotary"
+        },
+        "name": "Street Name"
+    },
+    "instruction": "Enter the rotary and exit onto Street Name"
+}
