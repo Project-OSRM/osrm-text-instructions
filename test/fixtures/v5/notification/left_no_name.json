@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "left",
+            "type": "notification"
+        },
+        "name": ""
+    },
+    "instruction": "Continue left"
+}

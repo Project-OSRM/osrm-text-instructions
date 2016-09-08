@@ -3,8 +3,8 @@
         "maneuver": {
             "modifier": "straight",
             "type": "end of road"
-        }
+        },
+        "name": "Street Name"
     },
-    "instruction": "Turn straight",
-    "testName": "straight"
+    "instruction": "Turn straight onto Street Name"
 }

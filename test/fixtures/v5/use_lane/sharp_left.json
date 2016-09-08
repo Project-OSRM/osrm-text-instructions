@@ -12,8 +12,8 @@
                     }
                 ]
             }
-        ]
+        ],
+        "name": "Street Name"
     },
-    "instruction": "Take any lane and continue sharp left",
-    "testName": "sharp left"
+    "instruction": "Take any lane and continue sharp left"
 }

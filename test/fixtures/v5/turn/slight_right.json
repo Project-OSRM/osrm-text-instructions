@@ -3,8 +3,8 @@
         "maneuver": {
             "type": "turn",
             "modifier": "slight right"
-        }
+        },
+        "name": "Street Name"
     },
-    "instruction": "You have arrived at your {nth} destination, slightly to the right",
-    "testName": "slight right"
+    "instruction": "Make a slight right onto Street Name"
 }

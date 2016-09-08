@@ -3,8 +3,8 @@
         "maneuver": {
             "modifier": "uturn",
             "type": "fork"
-        }
+        },
+        "name": "Street Name"
     },
-    "instruction": "Keep uturn at the fork",
-    "testName": "uturn"
+    "instruction": "Keep uturn at the fork onto Street Name"
 }

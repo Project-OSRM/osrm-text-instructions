@@ -3,8 +3,8 @@
         "maneuver": {
             "modifier": "straight",
             "type": "off ramp"
-        }
+        },
+        "name": "Street Name"
     },
-    "instruction": "Take the ramp",
-    "testName": "straight"
+    "instruction": "Take the ramp"
 }

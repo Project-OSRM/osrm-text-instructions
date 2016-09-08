@@ -3,8 +3,8 @@
         "maneuver": {
             "modifier": "uturn",
             "type": "rotary"
-        }
+        },
+        "name": "Street Name"
     },
-    "instruction": "Enter the rotary",
-    "testName": "uturn"
+    "instruction": "Enter the rotary and exit onto Street Name"
 }

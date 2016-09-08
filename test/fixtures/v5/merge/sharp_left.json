@@ -3,8 +3,8 @@
         "maneuver": {
             "modifier": "sharp left",
             "type": "merge"
-        }
+        },
+        "name": "Street Name"
     },
-    "instruction": "Merge sharp left",
-    "testName": "sharp left"
+    "instruction": "Merge sharp left onto Street Name"
 }

@@ -3,8 +3,8 @@
         "maneuver": {
             "modifier": "left",
             "type": "modturn"
-        }
+        },
+        "name": "Street Name"
     },
-    "instruction": "Make a left",
-    "testName": "left"
+    "instruction": "Make a left onto Street Name"
 }

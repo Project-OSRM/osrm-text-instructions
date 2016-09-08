@@ -3,8 +3,8 @@
         "maneuver": {
             "modifier": "slight left",
             "type": "end of road"
-        }
+        },
+        "name": "Street Name"
     },
-    "instruction": "Turn slight left",
-    "testName": "slight left"
+    "instruction": "Turn slight left onto Street Name"
 }

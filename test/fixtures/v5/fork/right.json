@@ -3,8 +3,8 @@
         "maneuver": {
             "modifier": "right",
             "type": "fork"
-        }
+        },
+        "name": "Street Name"
     },
-    "instruction": "Keep right at the fork",
-    "testName": "right"
+    "instruction": "Keep right at the fork onto Street Name"
 }

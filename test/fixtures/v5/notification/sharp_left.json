@@ -3,8 +3,8 @@
         "maneuver": {
             "modifier": "sharp left",
             "type": "notification"
-        }
+        },
+        "name": "Street Name"
     },
-    "instruction": "Continue sharp left",
-    "testName": "sharp left"
+    "instruction": "Continue sharp left onto Street Name"
 }
