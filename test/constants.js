@@ -8,7 +8,6 @@ constants.types = [
     'ferry',
     'fork',
     'merge',
-    'modturn',
     'new name',
     'notification',
     'off ramp',

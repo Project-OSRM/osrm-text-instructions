@@ -33,9 +33,6 @@
             "slight left": "Merge slightly left[ onto {way_name}]",
             "slight right": "Merge slightly right[ onto {way_name}]"
         },
-        "modturn": {
-            "defaultInstruction": "Make a {modifier}[ onto {way_name}]"
-        },
         "new name": {
             "defaultInstruction": "Continue {modifier}[ onto {way_name}]",
             "slight left": "Continue slightly left[ onto {way_name}]",
