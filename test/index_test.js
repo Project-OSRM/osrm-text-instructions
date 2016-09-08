@@ -11,16 +11,20 @@ tape.test('v5 compile', function(t) {
         var instructions = require('../instructions');
         var basePath = path.join(__dirname, 'fixtures', 'v5/');
 
+        function underscorify(input) {
+            return input.replace(/ /g, '_');
+        }
+
         constants.types.forEach(function(type) {
             constants.modifiers.forEach(function(modifier) {
                 // check normal fixture
-                var p = path.join(basePath, type, modifier.replace(' ', '_') + '.json');
+                var p = path.join(basePath, underscorify(type), underscorify(modifier) + '.json');
                  assert.ok(fs.existsSync(p), type + '/' + modifier);
 
                 // check no_name fixture if should exist
-                var noNamePath = path.join(basePath, type, modifier.replace(' ', '_') + '_no_name.json');
+                var noNamePath = path.join(basePath, underscorify(type), underscorify(modifier) + '_no_name.json');
                 if (instructions['v5'][type.replace(/_/g, ' ')]['defaultInstruction'].match('way_name')) {
-                     assert.ok(fs.existsSync(noNamePath), type + '/' + modifier + '/no_name');
+                     assert.ok(fs.existsSync(noNamePath), type + '/' + modifier + '/no name');
                 };
             });
         });
