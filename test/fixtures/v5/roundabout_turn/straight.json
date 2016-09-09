@@ -6,6 +6,5 @@
             "modifier": "straight"
         }
     },
-    "instruction": "At the roundabout continue straight",
-    "testName": "roundabout turn straight non-default case"
+    "instruction": "At the roundabout continue straight"
 }

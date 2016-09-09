@@ -3,8 +3,8 @@
         "maneuver": {
             "modifier": "sharp right",
             "type": "roundabout turn"
-        }
+        },
+        "name": "Street Name"
     },
-    "instruction": "At the roundabout make a sharp right",
-    "testName": "sharp right"
+    "instruction": "At the roundabout make a sharp right onto Street Name"
 }

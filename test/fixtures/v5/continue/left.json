@@ -2,9 +2,9 @@
     "step": {
         "maneuver": {
             "modifier": "left",
-            "type": "arrive"
-        }
+            "type": "continue"
+        },
+        "name": "Street Name"
     },
-    "instruction": "You have arrived at your {nth} destination, on the left",
-    "testName": "left"
+    "instruction": "Continue left onto Street Name"
 }

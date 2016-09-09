@@ -3,8 +3,8 @@
         "maneuver": {
             "modifier": "straight",
             "type": "pushing bike"
-        }
+        },
+        "name": "Street Name"
     },
-    "instruction": "Get off the bike and push",
-    "testName": "straight"
+    "instruction": "Get off the bike and push onto Street Name"
 }

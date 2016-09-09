@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "right",
+            "type": "roundabout"
+        },
+        "name": "Street Name"
+    },
+    "instruction": "Enter the roundabout and exit onto Street Name"
+}

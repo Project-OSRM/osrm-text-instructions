@@ -1,0 +1,11 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "uturn",
+            "type": "depart",
+            "bearing_after": 0
+        },
+        "name": ""
+    },
+    "instruction": "Head north"
+}

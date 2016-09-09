@@ -1,0 +1,11 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "straight",
+            "type": "depart",
+            "bearing_after": 339
+        },
+        "name": "Street Name"
+    },
+    "instruction": "Head northwest on Street Name"
+}

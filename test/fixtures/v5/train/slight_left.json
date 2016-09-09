@@ -3,8 +3,8 @@
         "maneuver": {
             "modifier": "slight left",
             "type": "train"
-        }
+        },
+        "name": "Street Name"
     },
-    "instruction": "Take the train",
-    "testName": "slight left"
+    "instruction": "Take the train - Street Name"
 }

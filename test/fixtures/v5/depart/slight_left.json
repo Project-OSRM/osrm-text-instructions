@@ -4,8 +4,8 @@
             "modifier": "slight left",
             "type": "depart",
             "bearing_after": 0
-        }
+        },
+        "name": "Street Name"
     },
-    "instruction": "Head north",
-    "testName": "slight left"
+    "instruction": "Head north on Street Name"
 }

@@ -2,9 +2,10 @@
     "step": {
         "maneuver": {
             "modifier": "right",
-            "type": "roundabout"
-        }
+            "type": "roundabout",
+            "exit": 9
+        },
+        "name": "Street Name"
     },
-    "instruction": "Enter the roundabout",
-    "testName": "right"
+    "instruction": "Enter the roundabout and take the ninth exit onto Street Name"
 }

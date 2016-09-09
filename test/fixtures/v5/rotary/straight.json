@@ -3,8 +3,8 @@
         "maneuver": {
             "modifier": "straight",
             "type": "rotary"
-        }
+        },
+        "name": "Street Name"
     },
-    "instruction": "Enter the rotary",
-    "testName": "straight"
+    "instruction": "Enter the rotary and exit onto Street Name"
 }

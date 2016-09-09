@@ -3,8 +3,8 @@
         "maneuver": {
             "modifier": "straight",
             "type": "arrive"
-        }
+        },
+        "name": "Street Name"
     },
-    "instruction": "You have arrived at your {nth} destination, straight ahead",
-    "testName": "straight"
+    "instruction": "You have arrived at your {nth} destination, straight ahead"
 }

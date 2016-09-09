@@ -45,6 +45,7 @@ module.exports = function(_version) {
             case 'notification':
                 // TODO
                 break;
+            case 'roundabout':
             case 'rotary':
                 instruction = instruction.replace('{rotary_name}', step.rotary_name || 'the rotary');
                 if (step.name && step.maneuver.exit) {
