@@ -6,5 +6,5 @@
         },
         "name": "Street Name"
     },
-    "instruction": "Turn uturn onto Street Name"
+    "instruction": "Make a U-turn onto Street Name at the end of the road"
 }

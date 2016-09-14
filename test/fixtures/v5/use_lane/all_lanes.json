@@ -15,6 +15,5 @@
             }
         ]
     },
-    "instruction": "Take any lane and continue straight",
-    "testName": "use lane straight all lanes default case"
+    "instruction": "Take any lane and continue straight"
 }

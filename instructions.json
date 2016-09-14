@@ -18,7 +18,9 @@
             "defaultInstruction": "Head {modifier}[ on {way_name}]"
         },
         "end of road": {
-            "defaultInstruction": "Turn {modifier}[ onto {way_name}]"
+            "defaultInstruction": "Turn {modifier}[ onto {way_name}] at the end of the road",
+            "straight": "Continue straight[ onto {way_name}]",
+            "uturn": "Make a U-turn[ onto {way_name}] at the end of the road"
         },
         "ferry": {
             "defaultInstruction": "Take the ferry[ - {way_name}]"
@@ -26,17 +28,25 @@
         "fork": {
             "defaultInstruction": "Keep {modifier} at the fork[ onto {way_name}]",
             "slight left": "Keep left at the fork[ onto {way_name}]",
-            "slight right": "Keep right at the fork[ onto {way_name}]"
+            "slight right": "Keep right at the fork[ onto {way_name}]",
+            "sharp left": "Take a sharp left at the fork[ onto {way_name}]",
+            "sharp right": "Take a sharp right at the fork[ onto {way_name}]",
+            "uturn": "Make a U-turn [ onto {way_name}]"
         },
         "merge": {
             "defaultInstruction": "Merge {modifier}[ onto {way_name}]",
             "slight left": "Merge slightly left[ onto {way_name}]",
-            "slight right": "Merge slightly right[ onto {way_name}]"
+            "slight right": "Merge slightly right[ onto {way_name}]",
+            "sharp left": "Merge sharply left[ onto {way_name}]",
+            "sharp right": "Merge sharply right[ onto {way_name}]"
         },
         "new name": {
             "defaultInstruction": "Continue {modifier}[ onto {way_name}]",
+            "sharp left": "Take a sharp left[ onto {way_name}]",
+            "sharp right": "Take a sharp right[ onto {way_name}]",
             "slight left": "Continue slightly left[ onto {way_name}]",
-            "slight right": "Continue slightly right[ onto {way_name}]"
+            "slight right": "Continue slightly right[ onto {way_name}]",
+            "uturn": "Make a U-turn[ onto {way_name}]"
         },
         "notification": {
             "defaultInstruction": "Continue {modifier}[ onto {way_name}]"
@@ -49,7 +59,14 @@
             "slight right": "Take the ramp on the right"
         },
         "on ramp": {
-            "defaultInstruction": "Take the ramp on the {modifier}"
+            "defaultInstruction": "Take the ramp on the {modifier}",
+            "left": "Take the ramp on the left",
+            "right": "Take the ramp on the right",
+            "sharp left": "Take the ramp on the left",
+            "sharp right": "Take the ramp on the right",
+            "slight left": "Take the ramp on the left",
+            "slight right": "Take the ramp on the right",
+            "straight": "Take the ramp"
         },
         "pushing bike": {
             "defaultInstruction": "Get off the bike and push[ onto {way_name}]"
