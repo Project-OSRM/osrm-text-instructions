@@ -12,14 +12,23 @@
                         "valid": true
                     },
                     {
+                        "valid": true
+                    },
+                    {
+                        "valid": true
+                    },
+                    {
                         "valid": false
                     },
                     {
                         "valid": false
+                    },
+                    {
+                        "valid": true
                     }
                 ]
             }
         ]
     },
-    "instruction": "Use the left lane and continue straight"
+    "instruction": "Use the left or right lane and continue straight onto Street Name"
 }

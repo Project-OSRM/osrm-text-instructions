@@ -57,7 +57,10 @@ module.exports = function(_version) {
                 }
                 break;
             case 'use lane':
-                instruction = useLane(step, instruction);
+                var laneDiagram = useLane(step);
+                var laneInstruction = instructions[version][type].laneTypes[laneDiagram];
+
+                instruction = instruction.replace('{laneInstruction}', laneInstruction);
                 break;
             default:
                 break;
