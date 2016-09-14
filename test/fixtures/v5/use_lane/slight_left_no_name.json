@@ -1,0 +1,18 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "slight left",
+            "type": "use lane"
+        },
+        "intersections": [
+            {
+                "lanes": [
+                    {
+                        "valid": true
+                    }
+                ]
+            }
+        ]
+    },
+    "instruction": "Take any lane and make a slight left"
+}

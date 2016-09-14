@@ -1,0 +1,33 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "use lane",
+            "modifier": "straight"
+        },
+        "intersections": [
+            {
+                "lanes": [
+                    {
+                        "valid": true
+                    },
+                    {
+                        "valid": true
+                    },
+                    {
+                        "valid": true
+                    },
+                    {
+                        "valid": false
+                    },
+                    {
+                        "valid": false
+                    },
+                    {
+                        "valid": true
+                    }
+                ]
+            }
+        ]
+    },
+    "instruction": "Use the left or right lane and continue straight"
+}
