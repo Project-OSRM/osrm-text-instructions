@@ -1,6 +1,5 @@
 {
     "step": {
-        "name": "Street Name",
         "maneuver": {
             "type": "use lane",
             "modifier": "straight"
@@ -30,5 +29,5 @@
             }
         ]
     },
-    "instruction": "Continue straight onto Street Name"
+    "instruction": "Continue straight"
 }

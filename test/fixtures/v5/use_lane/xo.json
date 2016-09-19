@@ -3,11 +3,14 @@
         "name": "Street Name",
         "maneuver": {
             "type": "use lane",
-            "modifier": "straight"
+            "modifier": "left"
         },
         "intersections": [
             {
                 "lanes": [
+                    {
+                        "valid": false
+                    },
                     {
                         "valid": true
                     }
@@ -15,5 +18,5 @@
             }
         ]
     },
-    "instruction": "Continue straight onto Street Name"
+    "instruction": "Keep right to turn left onto Street Name"
 }

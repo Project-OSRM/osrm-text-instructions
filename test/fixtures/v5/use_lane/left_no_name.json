@@ -1,7 +1,7 @@
 {
     "step": {
         "maneuver": {
-            "modifier": "sharp right",
+            "modifier": "left",
             "type": "use lane"
         },
         "intersections": [
@@ -12,8 +12,7 @@
                     }
                 ]
             }
-        ],
-        "name": "Street Name"
+        ]
     },
-    "instruction": "Continue straight onto Street Name"
+    "instruction": "Continue straight"
 }

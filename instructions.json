@@ -93,7 +93,24 @@
             "straight": "Go straight[ onto {way_name}]"
         },
         "use lane": {
-            "defaultInstruction": "Continue {modifier}"
+            "defaultInstruction": "Continue straight[ onto {way_name}]",
+            "left": "{laneInstruction} to turn left[ onto {way_name}]",
+            "right": "{laneInstruction} to turn right[ onto {way_name}]",
+            "sharp left": "{laneInstruction} to make a sharp left[ onto {way_name}]",
+            "sharp right": "{laneInstruction} to make a sharp right[ onto {way_name}]",
+            "slight left": "{laneInstruction} to make a slight left[ onto {way_name}]",
+            "slight right": "{laneInstruction} to make a slight right[ onto {way_name}]",
+            "uturn": "{laneInstruction} to make a U-turn[ onto {way_name}]",
+            "laneTypes": {
+                "xo": "Keep right",
+                "ox": "Keep left",
+                "oox": "Keep left",
+                "xoo": "Keep right",
+                "xxo": "Keep right",
+                "oxx": "Keep left",
+                "xox": "Use the middle lane",
+                "oxo": "Use the left or right lane"
+            }
         }
     }
 }
