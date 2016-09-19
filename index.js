@@ -60,7 +60,12 @@ module.exports = function(_version) {
                 var laneDiagram = useLane(step);
                 var laneInstruction = instructions[version][type].laneTypes[laneDiagram];
 
-                instruction = instruction.replace('{laneInstruction}', laneInstruction);
+                if (laneInstruction) {
+                    instruction = instruction.replace('{laneInstruction}', laneInstruction);
+                } else {
+                    // If the lane combination is not found, default to continue
+                    instruction = instructions[version][type].defaultInstruction;
+                }
                 break;
             default:
                 break;

@@ -1,12 +1,16 @@
 {
     "step": {
+        "name": "Street Name",
         "maneuver": {
-            "modifier": "sharp right",
-            "type": "use lane"
+            "type": "use lane",
+            "modifier": "left"
         },
         "intersections": [
             {
                 "lanes": [
+                    {
+                        "valid": false
+                    },
                     {
                         "valid": true
                     }
@@ -14,5 +18,5 @@
             }
         ]
     },
-    "instruction": "Continue straight"
+    "instruction": "Keep right to turn left onto Street Name"
 }

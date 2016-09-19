@@ -3,22 +3,19 @@
         "name": "Street Name",
         "maneuver": {
             "type": "use lane",
-            "modifier": "straight"
+            "modifier": "left"
         },
         "intersections": [
             {
                 "lanes": [
                     {
-                        "valid": true
-                    },
-                    {
-                        "valid": true
-                    },
-                    {
-                        "valid": true
+                        "valid": false
                     },
                     {
                         "valid": false
+                    },
+                    {
+                        "valid": true
                     },
                     {
                         "valid": false
