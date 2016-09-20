@@ -36,8 +36,10 @@ module.exports = function(_version) {
             // This switch statement is for specical cases that occur at runtime
             switch (type) {
             case 'arrive':
-                // TODO, add wayPoint argument
-                // instruction = instruction.replace('{nth}', nthWaypoint).replace('  ', ' ');
+                // TODO, add correct waypoint counting
+                var nthWaypoint = '';
+
+                instruction = instruction.replace('{nth}', nthWaypoint).replace('  ', ' ');
                 break;
             case 'depart':
                 // Always use cardinal direction for departure.

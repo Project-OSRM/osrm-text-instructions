@@ -5,5 +5,5 @@
             "type": "arrive"
         }
     },
-    "instruction": "You have arrived at your {nth} destination"
+    "instruction": "You have arrived at your destination"
 }

@@ -6,5 +6,5 @@
         },
         "name": "Street Name"
     },
-    "instruction": "You have arrived at your {nth} destination, sharply to the right"
+    "instruction": "You have arrived at your destination, on the right"
 }
