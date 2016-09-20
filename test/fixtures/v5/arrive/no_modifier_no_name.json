@@ -1,0 +1,9 @@
+{
+    "step": {
+        "maneuver": {
+            "bearing_after": 0,
+            "type": "arrive"
+        }
+    },
+    "instruction": "You have arrived at your {nth} destination"
+}
