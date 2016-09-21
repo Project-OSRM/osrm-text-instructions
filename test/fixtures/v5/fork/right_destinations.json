@@ -1,0 +1,11 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "right",
+            "type": "fork"
+        },
+        "name": "Street Name",
+        "destinations": "City 1,City 2"
+    },
+    "instruction": "Keep right at the fork towards City 1"
+}

@@ -1,0 +1,11 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "sharp right",
+            "type": "off ramp"
+        },
+        "name": "Street Name",
+        "destinations": "City 1,City 2"
+    },
+    "instruction": "Take the ramp on the right towards City 1"
+}
