@@ -74,13 +74,22 @@ module.exports = function(_version) {
                 break;
             }
 
-            // Handle instructions with names
-            if (step.name && step.name !== '') {
+            // Handle instructions with destinations and names
+            if (step.destinations && step.destinations !== '') {
+                // only use the first destination for text instruction
+                var d = step.destinations.split(',')[0];
+                var t = instructions[version].templates.destination;
+
+                instruction = instruction
+                    .replace(/\[.+\]/, t.replace('{destination}', d));
+            } else if (step.name && step.name !== '') {
+                // if no destination found, try name
                 instruction = instruction
                     .replace('[', '')
                     .replace(']', '')
                     .replace('{way_name}', step.name);
             } else {
+                // do not use name information if not included in step
                 instruction = instruction.replace(/\[.+\]/, '');
             }
 

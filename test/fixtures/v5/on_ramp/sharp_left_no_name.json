@@ -4,7 +4,7 @@
             "modifier": "sharp left",
             "type": "on ramp"
         },
-        "name": "Street Name"
+        "name": ""
     },
-    "instruction": "Take the ramp on the left onto Street Name"
+    "instruction": "Take the ramp on the left"
 }
