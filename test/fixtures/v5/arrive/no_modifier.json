@@ -1,10 +1,10 @@
 {
     "step": {
         "maneuver": {
-            "modifier": "sharp left",
+            "bearing_after": 0,
             "type": "arrive"
         },
         "name": "Street Name"
     },
-    "instruction": "You have arrived at your destination, on the left"
+    "instruction": "You have arrived at your destination"
 }

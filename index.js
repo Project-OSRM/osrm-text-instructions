@@ -10,13 +10,14 @@ module.exports = function(_version) {
 
     return {
         compile: function(step) {
+            if (!instructions[version]) { throw new Error('Invalid version'); }
+            if (!step.maneuver) throw new Error('No step maneuver provided');
+
             var type = step.maneuver.type;
             var modifier = step.maneuver.modifier;
 
-            if (!instructions[version]) { throw new Error('Invalid version'); }
             if (!type) { throw new Error('Missing step maneuver type'); }
-            if (!modifier) { throw new Error('Missing step maneuver modifier'); }
-            if (!step.maneuver.modifier) throw new Error('No maneuver provided');
+            if (type !== 'depart' && type !== 'arrive' && !modifier) { throw new Error('Missing step maneuver modifier'); }
 
             if (!instructions[version][type]) {
                 // osrm specification assumes turn types can be added without
@@ -35,8 +36,10 @@ module.exports = function(_version) {
             // This switch statement is for specical cases that occur at runtime
             switch (type) {
             case 'arrive':
-                // TODO, add wayPoint argument
-                // instruction = instruction.replace('{nth}', nthWaypoint).replace('  ', ' ');
+                // TODO, add correct waypoint counting
+                var nthWaypoint = '';
+
+                instruction = instruction.replace('{nth}', nthWaypoint).replace('  ', ' ');
                 break;
             case 'depart':
                 // Always use cardinal direction for departure.

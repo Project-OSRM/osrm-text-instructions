@@ -4,9 +4,10 @@
             "defaultInstruction": "You have arrived at your {nth} destination",
             "left": "You have arrived at your {nth} destination, on the left",
             "right": "You have arrived at your {nth} destination, on the right",
-            "sharp left": "You have arrived at your {nth} destination, sharply to the left",
-            "sharp right": "You have arrived at your {nth} destination, sharply to the right",
-            "slight right": "You have arrived at your {nth} destination, slightly to the right",
+            "sharp left": "You have arrived at your {nth} destination, on the left",
+            "sharp right": "You have arrived at your {nth} destination, on the right",
+            "slight right": "You have arrived at your {nth} destination, on the right",
+            "slight left": "You have arrived at your {nth} destination, on the left",
             "straight": "You have arrived at your {nth} destination, straight ahead"
         },
         "continue": {
