@@ -22,7 +22,7 @@ response.legs.forEach(function(leg) {
 
 ### Design goals
 
+- __Cross platform__ Use a translation table in JSON and short logic to allow easy implementations in other languages
+- __Heavily tests__ We have a data-driven test suite with fixtures which can be used cross-platform
 - __Customization__ Users should be able to easily fork or monkey patch the results to adjust to their own likings
-- __Cross platform__ Use a translation table in JSON and few logic to allow easy implementations in other languages
-- __Alarm levels__ Support different alarm levels for the complete announcement lifecycle of step
-- __Localization__ Allow for translations via [Transifex](https://www.transifex.com/)
+- __Translation__ Allow for translations via [Transifex](https://www.transifex.com/)
