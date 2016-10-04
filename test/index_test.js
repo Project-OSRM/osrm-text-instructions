@@ -25,7 +25,9 @@ tape.test('v5 compile', function(t) {
                 // check no_name fixture if should exist
                 var noNamePath = path.join(basePath, underscorify(type), underscorify(modifier) + '_no_name.json');
 
-                if (instructions.v5[type.replace(/_/g, ' ')].defaultInstruction.match('way_name')) {
+                if (instructions.v5[type.replace(/_/g, ' ')].default.name ||
+                    instructions.v5[type.replace(/_/g, ' ')].default.default.name
+                ) {
                     assert.ok(fs.existsSync(noNamePath), type + '/' + modifier + '/no name');
                 }
             });

@@ -20,84 +20,73 @@ module.exports = function(_version) {
             if (type !== 'depart' && type !== 'arrive' && !modifier) { throw new Error('Missing step maneuver modifier'); }
 
             if (!instructions[version][type]) {
-                // osrm specification assumes turn types can be added without
-                // major voersion changes and unknown types are treated
-                // as type `turn` by clients
+                // OSRM specification assumes turn types can be added without
+                // major version changes. Unknown types are to be treated as
+                // type `turn` by clients
                 type = 'turn';
             }
 
-            // First check if the modifier for this maneuver has a special instruction
-            // If not, use the `defaultInstruction`
-            var instruction = instructions[version][type][modifier]
-                ? instructions[version][type][modifier] : instructions[version][type].defaultInstruction;
+            // Use special instructions if available, otherwise `defaultinstruction`
+            var instructionObject;
+            if (instructions[version][type][modifier]) {
+                instructionObject = instructions[version][type][modifier];
+            } else {
+                instructionObject = instructions[version][type].default;
+            }
 
-            // Special cases, code here should be kept to a minimum
-            // If possible, change the instruction in `instructions.json`
-            // This switch statement is for specical cases that occur at runtime
+            // Special case handling
+            var laneInstruction;
             switch (type) {
-            case 'arrive':
-                // TODO, add correct waypoint counting
-                var nthWaypoint = '';
-
-                instruction = instruction.replace('{nth}', nthWaypoint).replace('  ', ' ');
-                break;
-            case 'depart':
-                // Always use cardinal direction for departure.
-                instruction = instruction.replace('{modifier}', utils.getDirectionFromDegree(step.maneuver.bearing_after)[0]);
-                break;
-            case 'notification':
-                // TODO
-                break;
-            case 'roundabout':
-            case 'rotary':
-                instruction = instruction.replace('{rotary_name}', step.rotary_name || 'the rotary');
-                if (step.name && step.maneuver.exit) {
-                    instruction += ' and take the ' + ordinalize(step.maneuver.exit) + ' exit onto {way_name}';
-                } else if (step.maneuver.exit) {
-                    instruction += ' and take the ' + ordinalize(step.maneuver.exit) + ' exit';
-                } else if (step.name) {
-                    instruction += ' and exit onto {way_name}';
-                }
-                break;
             case 'use lane':
                 var laneDiagram = useLane(step);
-                var laneInstruction = instructions[version][type].laneTypes[laneDiagram];
+                laneInstruction = instructions[version][type].laneTypes[laneDiagram];
 
-                if (laneInstruction) {
-                    instruction = instruction.replace('{laneInstruction}', laneInstruction);
-                } else {
+                if (!laneInstruction) {
                     // If the lane combination is not found, default to continue
-                    instruction = instructions[version][type].defaultInstruction;
+                    instructionObject = instructions[version][type].default;
+                }
+                break;
+            case 'rotary':
+            case 'roundabout':
+                if (type === 'rotary' || type === 'roundabout') {
+                    if (step.rotary_name && step.maneuver.exit && instructionObject.name_exit) {
+                        instructionObject = instructionObject.name_exit;
+                    } else if (step.rotary_name && instructionObject.name) {
+                        instructionObject = instructionObject.name;
+                    } else if (step.maneuver.exit && instructionObject.exit) {
+                        instructionObject = instructionObject.exit;
+                    } else {
+                        instructionObject = instructionObject.default;
+                    }
                 }
                 break;
             default:
-                break;
             }
 
-            // Handle instructions with destinations and names
-            if (step.destinations && step.destinations !== '') {
-                // only use the first destination for text instruction
-                var d = step.destinations.split(',')[0];
-                var t = instructions[version].templates.destination;
-
-                instruction = instruction
-                    .replace(/\[.+\]/, t.replace('{destination}', d));
-            } else if (step.name && step.name !== '') {
-                // if no destination found, try name
-                instruction = instruction
-                    .replace('[', '')
-                    .replace(']', '')
-                    .replace('{way_name}', step.name);
+            // Decide which instruction string to use
+            // Destination takes precedence over name
+            var instruction;
+            if (step.destinations && instructionObject.destination) {
+                instruction = instructionObject.destination;
+            } else if (step.name && instructionObject.name) {
+                instruction = instructionObject.name;
             } else {
-                // do not use name information if not included in step
-                instruction = instruction.replace(/\[.+\]/, '');
+                instruction = instructionObject.default;
             }
 
-            // Cleaning for all instructions
+            // Replace tokens
+            // NOOP if they don't exist
+            var nthWaypoint = ''; // TODO, add correct waypoint counting
             instruction = instruction
-                // If a modifier is not provided, calculate direction given bearing
-                .replace('{modifier}', modifier || utils.getDirectionFromDegree(step.maneuver.bearing_after)[0])
-                .trim();
+                .replace('{nth}', nthWaypoint)
+                .replace('{destination}', (step.destinations || '').split(',')[0])
+                .replace('{exit_number}', ordinalize(step.maneuver.exit || 1))
+                .replace('{rotary_name}', step.rotary_name)
+                .replace('{laneInstruction}', laneInstruction)
+                .replace('{modifier}', modifier)
+                .replace('{direction}', utils.getDirectionFromDegree(step)[0])
+                .replace('{way_name}', step.name)
+                .replace('  ', ' ');
 
             return instruction;
         }
