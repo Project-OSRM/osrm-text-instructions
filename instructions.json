@@ -145,7 +145,7 @@
             "sharp right": {
                 "default": "Take a sharp right",
                 "name": "Take a sharp right onto {way_name}",
-                "destination": "Take a sharp right towards {way_name}"
+                "destination": "Take a sharp right towards {destination}"
             },
             "slight left": {
                 "default": "Continue slightly left",
@@ -166,7 +166,8 @@
         "notification": {
             "default": {
                 "default": "Continue {modifier}",
-                "name": "Continue {modifier} onto {way_name}"
+                "name": "Continue {modifier} onto {way_name}",
+                "destination" : "Continue {modifier} towards {destination}"
             }
         },
         "off ramp": {
@@ -251,10 +252,10 @@
         },
         "rotary": {
             "default": {
-                "name_exit": {
-                    "default": "Enter {rotary_name} and take the {exit_number} exit",
-                    "name": "Enter {rotary_name} and take the {exit_number} exit onto {way_name}",
-                    "destination": "Enter {rotary_name} and take the {exit_number} exit towards {destination}"
+                "default": {
+                    "default": "Enter the rotary",
+                    "name": "Enter the rotary and exit onto {way_name}",
+                    "destination": "Enter the rotary and exit towards {destination}"
                 },
                 "name": {
                     "default": "Enter {rotary_name}",
@@ -266,10 +267,10 @@
                     "name": "Enter the rotary and take the {exit_number} exit onto {way_name}",
                     "destination": "Enter the rotary and take the {exit_number} exit towards {destination}"
                 },
-                "default": {
-                    "default": "Enter the rotary",
-                    "name": "Enter the rotary and exit onto {way_name}",
-                    "destination": "Enter the rotary and exit towards {destination}"
+                "name_exit": {
+                    "default": "Enter {rotary_name} and take the {exit_number} exit",
+                    "name": "Enter {rotary_name} and take the {exit_number} exit onto {way_name}",
+                    "destination": "Enter {rotary_name} and take the {exit_number} exit towards {destination}"
                 }
             }
         },
@@ -336,47 +337,37 @@
             }
         },
         "use lane": {
-            "default": {
+            "no_lanes": {
                 "default": "Continue straight",
                 "name": "Continue straight onto {way_name}",
                 "destination": "Continue straight towards {destination}"
             },
+            "default": {
+                "default": "{lane_instruction} to make a {modifier}",
+                "name": "{lane_instruction} to make a {modifier} onto {way_name}",
+                "destination": "{lane_instruction} to make a {modifier} towards {destination}"
+            },
+            "straight": {
+                "default": "{lane_instruction}",
+                "name": "{lane_instruction} onto {way_name}",
+                "destination": "{lane_instruction} towards {destination}"
+            },
             "left": {
-                "default": "{laneInstruction} to turn left",
-                "name": "{laneInstruction} to turn left onto {way_name}",
-                "destination": "{laneInstruction} to turn left towards {destination}"
+                "default": "{lane_instruction} to turn left",
+                "name": "{lane_instruction} to turn left onto {way_name}",
+                "destination": "{lane_instruction} to turn left towards {destination}"
             },
             "right": {
-                "default": "{laneInstruction} to turn right",
-                "name": "{laneInstruction} to turn right onto {way_name}",
-                "destination": "{laneInstruction} to turn right towards {way_name}"
-            },
-            "sharp left": {
-                "default": "{laneInstruction} to make a sharp left",
-                "name": "{laneInstruction} to make a sharp left onto {way_name}",
-                "destination": "{laneInstruction} to make a sharp left towards {destination}"
-            },
-            "sharp right": {
-                "default": "{laneInstruction} to make a sharp right",
-                "name": "{laneInstruction} to make a sharp right onto {way_name}",
-                "destination": "{laneInstruction} to make a sharp right towards {destination}"
-            },
-            "slight left": {
-                "default": "{laneInstruction} to make a slight left",
-                "name": "{laneInstruction} to make a slight left onto {way_name}",
-                "destination": "{laneInstruction} to make a slight left towards {destination}"
-            },
-            "slight right": {
-                "default": "{laneInstruction} to make a slight right",
-                "name": "{laneInstruction} to make a slight right onto {way_name}",
-                "destination": "{laneInstruction} to make a slight right towards {destination}"
+                "default": "{lane_instruction} to turn right",
+                "name": "{lane_instruction} to turn right onto {way_name}",
+                "destination": "{lane_instruction} to turn right towards {way_name}"
             },
             "uturn": {
-                "default": "{laneInstruction} to make a U-turn",
-                "name": "{laneInstruction} to make a U-turn onto {way_name}",
-                "destination": "{laneInstruction} to make a U-turn towards {destination}"
+                "default": "{lane_instruction} to make a U-turn",
+                "name": "{lane_instruction} to make a U-turn onto {way_name}",
+                "destination": "{lane_instruction} to make a U-turn towards {destination}"
             },
-            "laneTypes": {
+            "lane_types": {
                 "xo": "Keep right",
                 "ox": "Keep left",
                 "oox": "Keep left",

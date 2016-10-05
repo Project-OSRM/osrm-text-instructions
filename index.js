@@ -39,28 +39,27 @@ module.exports = function(_version) {
             switch (type) {
             case 'use lane':
                 var laneDiagram = useLane(step);
-                laneInstruction = instructions[version][type].laneTypes[laneDiagram];
+                laneInstruction = instructions[version][type].lane_types[laneDiagram];
 
                 if (!laneInstruction) {
                     // If the lane combination is not found, default to continue
-                    instructionObject = instructions[version][type].default;
+                    instructionObject = instructions[version][type].no_lanes;
                 }
                 break;
             case 'rotary':
             case 'roundabout':
-                if (type === 'rotary' || type === 'roundabout') {
-                    if (step.rotary_name && step.maneuver.exit && instructionObject.name_exit) {
-                        instructionObject = instructionObject.name_exit;
-                    } else if (step.rotary_name && instructionObject.name) {
-                        instructionObject = instructionObject.name;
-                    } else if (step.maneuver.exit && instructionObject.exit) {
-                        instructionObject = instructionObject.exit;
-                    } else {
-                        instructionObject = instructionObject.default;
-                    }
+                if (step.rotary_name && step.maneuver.exit && instructionObject.name_exit) {
+                    instructionObject = instructionObject.name_exit;
+                } else if (step.rotary_name && instructionObject.name) {
+                    instructionObject = instructionObject.name;
+                } else if (step.maneuver.exit && instructionObject.exit) {
+                    instructionObject = instructionObject.exit;
+                } else {
+                    instructionObject = instructionObject.default;
                 }
                 break;
             default:
+                // NOOP, since no special logic for that type
             }
 
             // Decide which instruction string to use
@@ -82,11 +81,11 @@ module.exports = function(_version) {
                 .replace('{destination}', (step.destinations || '').split(',')[0])
                 .replace('{exit_number}', ordinalize(step.maneuver.exit || 1))
                 .replace('{rotary_name}', step.rotary_name)
-                .replace('{laneInstruction}', laneInstruction)
+                .replace('{lane_instruction}', laneInstruction)
                 .replace('{modifier}', modifier)
                 .replace('{direction}', utils.getDirectionFromDegree(step)[0])
                 .replace('{way_name}', step.name)
-                .replace('  ', ' ');
+                .replace(/ {2}/g, ' '); // remove excess spaces
 
             return instruction;
         }
