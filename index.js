@@ -109,7 +109,7 @@ module.exports = function(_version) {
                 .replace('{exit_number}', this.ordinalize(step.maneuver.exit || 1))
                 .replace('{rotary_name}', step.rotary_name)
                 .replace('{lane_instruction}', laneInstruction)
-                .replace('{modifier}', modifier)
+                .replace('{modifier}', instructions[version].constants.modifier[modifier])
                 .replace('{direction}', this.directionFromDegree(step.maneuver.bearing_after))
                 .replace('{way_name}', step.name)
                 .replace(/ {2}/g, ' '); // remove excess spaces

@@ -22,6 +22,16 @@
                 "southwest": "southwest",
                 "west": "west",
                 "northwest": "northwest"
+            },
+            "modifier": {
+                "left": "left",
+                "right": "right",
+                "sharp left": "sharp left",
+                "sharp right": "sharp right",
+                "slight left": "slight left",
+                "slight right": "slight right",
+                "straight": "straight",
+                "uturn": "uturn"
             }
         },
         "arrive": {
