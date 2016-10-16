@@ -49,7 +49,7 @@ tape.test('v5 compile', function(t) {
                 });
 
                 // special fixtures for ordinalization
-                for (i = 2; i <= 10; i++) {
+                for (i = 2; i <= 11; i++) {
                     assert.ok(
                         fs.existsSync(path.join(basePath, 'rotary', `exit_${i}_default.json`)),
                         `${type}/exit_${i}_default`);

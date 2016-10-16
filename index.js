@@ -1,4 +1,3 @@
-var ordinalize = require('number-to-words').toWordsOrdinal;
 var useLane = require('./lib/use-lane');
 var utils = require('./lib/utils');
 var instructions = require('./instructions.json');
@@ -8,7 +7,10 @@ if (Object !== instructions.constructor) throw 'instructions must be object';
 module.exports = function(_version) {
     var version = _version || 'v5';
 
-    return {
+    var o = {
+        ordinalize: function(number) {
+            return instructions[version].constants.ordinalize[number.toString()] || '';
+        },
         compile: function(step) {
             if (!instructions[version]) { throw new Error('Invalid version'); }
             if (!step.maneuver) throw new Error('No step maneuver provided');
@@ -79,7 +81,7 @@ module.exports = function(_version) {
             instruction = instruction
                 .replace('{nth}', nthWaypoint)
                 .replace('{destination}', (step.destinations || '').split(',')[0])
-                .replace('{exit_number}', ordinalize(step.maneuver.exit || 1))
+                .replace('{exit_number}', this.ordinalize(step.maneuver.exit || 1))
                 .replace('{rotary_name}', step.rotary_name)
                 .replace('{lane_instruction}', laneInstruction)
                 .replace('{modifier}', modifier)
@@ -90,4 +92,6 @@ module.exports = function(_version) {
             return instruction;
         }
     };
+
+    return o;
 };

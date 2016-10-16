@@ -87,7 +87,7 @@ function execute() {
         writeVariations(basePath, baseStep);
 
         // exit - all possible exit numbers
-        for (i = 2; i <= 10; i++) {
+        for (i = 2; i <= 11; i++) {
             basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'rotary', `exit_${i}`);
             baseStep = {
                 maneuver: {
