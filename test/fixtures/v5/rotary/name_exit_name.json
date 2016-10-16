@@ -1,0 +1,12 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "left",
+            "type": "rotary",
+            "exit": 2
+        },
+        "name": "Way Name",
+        "rotary_name": "Rotary Name"
+    },
+    "instruction": "Enter Rotary Name and take the second exit onto Way Name"
+}

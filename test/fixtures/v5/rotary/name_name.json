@@ -1,0 +1,11 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "left",
+            "type": "rotary"
+        },
+        "name": "Way Name",
+        "rotary_name": "Rotary Name"
+    },
+    "instruction": "Enter Rotary Name onto Way Name"
+}

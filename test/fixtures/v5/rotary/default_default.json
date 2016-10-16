@@ -4,7 +4,7 @@
             "modifier": "left",
             "type": "rotary"
         },
-        "name": "Street Name"
+        "name": ""
     },
-    "instruction": "Enter the rotary and exit onto Street Name"
+    "instruction": "Enter the rotary"
 }

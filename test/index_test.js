@@ -9,13 +9,13 @@ tape.test('v5 compile', function(t) {
 
     t.test('fixtures exist for every type/modifier combinations', function(assert) {
         var instructions = require('../instructions');
-        var basePath = path.join(__dirname, 'fixtures', 'v5/');
+        var basePath = path.join(__dirname, 'fixtures', 'v5');
 
         function underscorify(input) {
             return input.replace(/ /g, '_');
         }
 
-        constants.types.forEach(function(type) {
+        function checkModifiers(type) {
             constants.modifiers.forEach(function(modifier) {
                 // check normal fixture
                 var p = path.join(basePath, underscorify(type), underscorify(modifier) + '.json');
@@ -25,12 +25,53 @@ tape.test('v5 compile', function(t) {
                 // check no_name fixture if should exist
                 var noNamePath = path.join(basePath, underscorify(type), underscorify(modifier) + '_no_name.json');
 
-                if (instructions.v5[type.replace(/_/g, ' ')].default.name ||
-                    instructions.v5[type.replace(/_/g, ' ')].default.default.name
+                if (instructions.v5[type].default.name ||
+                    instructions.v5[type].default.default.name
                 ) {
                     assert.ok(fs.existsSync(noNamePath), type + '/' + modifier + '/no name');
                 }
             });
+        }
+
+        constants.types.forEach(function(type) {
+            switch(type) {
+            case 'rotary':
+                [ 'default', 'exit_1', 'name', 'name_exit' ].forEach((s) => {
+                    assert.ok(
+                        fs.existsSync(path.join(basePath, 'rotary', `${s}_default.json`)),
+                        `${type}/${s}_default`);
+                    assert.ok(
+                        fs.existsSync(path.join(basePath, 'rotary', `${s}_destination.json`)),
+                        `${type}/${s}_destination`);
+                    assert.ok(
+                        fs.existsSync(path.join(basePath, 'rotary', `${s}_name.json`)),
+                        `${type}/${s}_name`);
+                });
+
+                // special fixtures for ordinalization
+                for (i = 2; i <= 10; i++) {
+                    assert.ok(
+                        fs.existsSync(path.join(basePath, 'rotary', `exit_${i}_default.json`)),
+                        `${type}/exit_${i}_default`);
+                };
+                break;
+            case 'roundabout':
+                [ 'default', 'exit' ].forEach((s) => {
+                    assert.ok(
+                        fs.existsSync(path.join(basePath, 'roundabout', `${s}_default.json`)),
+                        `${type}/${s}_default`);
+                    assert.ok(
+                        fs.existsSync(path.join(basePath, 'roundabout', `${s}_destination.json`)),
+                        `${type}/${s}_destination`);
+                    assert.ok(
+                        fs.existsSync(path.join(basePath, 'roundabout', `${s}_name.json`)),
+                        `${type}/${s}_name`);
+                });
+                break;
+            default:
+                checkModifiers(type);
+                break
+            };
         });
 
         assert.end();
