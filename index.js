@@ -1,5 +1,4 @@
 var useLane = require('./lib/use-lane');
-var utils = require('./lib/utils');
 var instructions = require('./instructions.json');
 
 if (Object !== instructions.constructor) throw 'instructions must be object';
@@ -10,6 +9,32 @@ module.exports = function(_version) {
     var o = {
         ordinalize: function(number) {
             return instructions[version].constants.ordinalize[number.toString()] || '';
+        },
+        directionFromDegree: function(degree) {
+            if (!degree && degree !== 0) {
+                // step had no bearing_after degree, ignoring
+                return '';
+            } else if (degree >= 0 && degree <= 20) {
+                return instructions[version].constants.direction.north;
+            } else if (degree > 20 && degree < 70) {
+                return instructions[version].constants.direction.northeast;
+            } else if (degree >= 70 && degree < 110) {
+                return instructions[version].constants.direction.east;
+            } else if (degree >= 110 && degree <= 160) {
+                return instructions[version].constants.direction.southeast;
+            } else if (degree > 160 && degree <= 200) {
+                return instructions[version].constants.direction.south;
+            } else if (degree > 200 && degree < 250) {
+                return instructions[version].constants.direction.southwest;
+            } else if (degree >= 250 && degree <= 290) {
+                return instructions[version].constants.direction.west;
+            } else if (degree > 290 && degree < 340) {
+                return instructions[version].constants.direction.northwest;
+            } else if (degree >= 340 && degree <= 360) {
+                return instructions[version].constants.direction.north;
+            } else {
+                throw new Error('Degree ' + degree + ' invalid');
+            }
         },
         compile: function(step) {
             if (!instructions[version]) { throw new Error('Invalid version'); }
@@ -85,7 +110,7 @@ module.exports = function(_version) {
                 .replace('{rotary_name}', step.rotary_name)
                 .replace('{lane_instruction}', laneInstruction)
                 .replace('{modifier}', modifier)
-                .replace('{direction}', utils.getDirectionFromDegree(step)[0])
+                .replace('{direction}', this.directionFromDegree(step.maneuver.bearing_after))
                 .replace('{way_name}', step.name)
                 .replace(/ {2}/g, ' '); // remove excess spaces
 

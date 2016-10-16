@@ -4,6 +4,51 @@ var path = require('path');
 var instructions = require('../index.js');
 var constants = require('./constants');
 
+tape.test('v5 directionFromDegree', function(assert) {
+    var v5Instructions = instructions('v5');
+
+    assert.equal(
+        v5Instructions.directionFromDegree(undefined),
+        '',
+        'empty string for undefined'
+    );
+
+    [
+        [ 0,   'north' ],
+        [ 1,   'north' ],
+        [ 20,  'north' ],
+        [ 21,  'northeast' ],
+        [ 69,  'northeast' ],
+        [ 70,  'east' ],
+        [ 109, 'east' ],
+        [ 110, 'southeast' ],
+        [ 160, 'southeast' ],
+        [ 161, 'south' ],
+        [ 200, 'south' ],
+        [ 201, 'southwest' ],
+        [ 249, 'southwest' ],
+        [ 250, 'west' ],
+        [ 290, 'west' ],
+        [ 291, 'northwest' ],
+        [ 339, 'northwest' ],
+        [ 340, 'north' ],
+        [ 360, 'north' ]
+    ].forEach((d) => {
+        assert.equal(
+            v5Instructions.directionFromDegree(d[0]),
+            d[1],
+            `${d[0]} degrees is ${d[1]}`
+        );
+    });
+
+    assert.throws(
+        () => { v5Instructions.directionFromDegree(361) },
+        'throws on out of bounds degree'
+    );
+
+    assert.end();
+});
+
 tape.test('v5 compile', function(t) {
     var v5Instructions = instructions('v5');
 
