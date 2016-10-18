@@ -22,7 +22,12 @@ response.legs.forEach(function(leg) {
 
 ### Design goals
 
-- __Cross platform__ Use a translation table in JSON and short logic to allow easy implementations in other languages
-- __Heavily tests__ We have a data-driven test suite with fixtures which can be used cross-platform
-- __Customization__ Users should be able to easily fork or monkey patch the results to adjust to their own likings
+- __Cross platform__ Use a data-driven approach that makes implementations in other programming environments easy to write
+- __Test suite__ Have a data-driven test suite with fixtures which can be used cross-platform
 - __Translation__ Allow for translations via [Transifex](https://www.transifex.com/)
+- __Customization__ Users should be able to easily fork or monkey patch the results to adjust to their own likings
+
+### Development
+#### Generate Fixtures
+
+Fixtures can be programatically created and updated via `scripts/generate_fixtures.js`.

@@ -4,7 +4,7 @@
             "modifier": "left",
             "type": "roundabout"
         },
-        "name": "Street Name"
+        "name": "Way Name"
     },
-    "instruction": "Enter the roundabout and exit onto Street Name"
+    "instruction": "Enter the roundabout and exit onto Way Name"
 }

@@ -4,18 +4,101 @@ var path = require('path');
 var instructions = require('../index.js');
 var constants = require('./constants');
 
+tape.test('v5 directionFromDegree', function(assert) {
+    var v5Instructions = instructions('v5');
+
+    assert.equal(
+        v5Instructions.directionFromDegree(undefined),
+        '',
+        'empty string for undefined'
+    );
+
+    [
+        [ 0,   'north' ],
+        [ 1,   'north' ],
+        [ 20,  'north' ],
+        [ 21,  'northeast' ],
+        [ 69,  'northeast' ],
+        [ 70,  'east' ],
+        [ 109, 'east' ],
+        [ 110, 'southeast' ],
+        [ 160, 'southeast' ],
+        [ 161, 'south' ],
+        [ 200, 'south' ],
+        [ 201, 'southwest' ],
+        [ 249, 'southwest' ],
+        [ 250, 'west' ],
+        [ 290, 'west' ],
+        [ 291, 'northwest' ],
+        [ 339, 'northwest' ],
+        [ 340, 'north' ],
+        [ 360, 'north' ]
+    ].forEach((d) => {
+        assert.equal(
+            v5Instructions.directionFromDegree(d[0]),
+            d[1],
+            `${d[0]} degrees is ${d[1]}`
+        );
+    });
+
+    assert.throws(
+        () => { v5Instructions.directionFromDegree(361) },
+        'throws on out of bounds degree'
+    );
+
+    assert.end();
+});
+
+tape.test('v5 laneDiagram', function(assert) {
+    var v5Instructions = instructions('v5');
+
+    function makeStep(config) {
+        return {
+            intersections: [
+                {
+                    lanes: config.map((v) => { return { "valid": v }})
+                }
+            ]
+        };
+    };
+
+    [
+        [ [ true, true, true ], 'o' ],
+        [ [ true, true, false], 'ox' ],
+        [ [ true, true, false, false], 'ox' ],
+        [ [ true, false, true], 'oxo' ],
+        [ [ false, true, true, false], 'xox' ],
+        [ [ false, true, false, true, false], 'xoxox' ],
+        [ [ false, false, false], 'x' ]
+    ].forEach((c) => {
+        assert.equal(v5Instructions.laneConfig(makeStep(c[0])), c[1], `correct Diagram ${c[1]}`);
+    });
+
+    assert.throws(
+        () => { v5Instructions.laneConfig({}); },
+        'throws on non-existing intersections'
+    );
+
+    assert.throws(
+        () => { v5Instructions.laneConfig({ intersections: [ {} ] }); },
+        'throws on non-existing lanes'
+    );
+
+    assert.end();
+});
+
 tape.test('v5 compile', function(t) {
     var v5Instructions = instructions('v5');
 
     t.test('fixtures exist for every type/modifier combinations', function(assert) {
         var instructions = require('../instructions');
-        var basePath = path.join(__dirname, 'fixtures', 'v5/');
+        var basePath = path.join(__dirname, 'fixtures', 'v5');
 
         function underscorify(input) {
             return input.replace(/ /g, '_');
         }
 
-        constants.types.forEach(function(type) {
+        function checkModifiers(type) {
             constants.modifiers.forEach(function(modifier) {
                 // check normal fixture
                 var p = path.join(basePath, underscorify(type), underscorify(modifier) + '.json');
@@ -25,10 +108,53 @@ tape.test('v5 compile', function(t) {
                 // check no_name fixture if should exist
                 var noNamePath = path.join(basePath, underscorify(type), underscorify(modifier) + '_no_name.json');
 
-                if (instructions.v5[type.replace(/_/g, ' ')].defaultInstruction.match('way_name')) {
+                if (instructions.v5[type].default.name ||
+                    instructions.v5[type].default.default.name
+                ) {
                     assert.ok(fs.existsSync(noNamePath), type + '/' + modifier + '/no name');
                 }
             });
+        }
+
+        constants.types.forEach(function(type) {
+            switch(type) {
+            case 'rotary':
+                [ 'default', 'exit_1', 'name', 'name_exit' ].forEach((s) => {
+                    assert.ok(
+                        fs.existsSync(path.join(basePath, 'rotary', `${s}_default.json`)),
+                        `${type}/${s}_default`);
+                    assert.ok(
+                        fs.existsSync(path.join(basePath, 'rotary', `${s}_destination.json`)),
+                        `${type}/${s}_destination`);
+                    assert.ok(
+                        fs.existsSync(path.join(basePath, 'rotary', `${s}_name.json`)),
+                        `${type}/${s}_name`);
+                });
+
+                // special fixtures for ordinalization
+                for (i = 2; i <= 11; i++) {
+                    assert.ok(
+                        fs.existsSync(path.join(basePath, 'rotary', `exit_${i}_default.json`)),
+                        `${type}/exit_${i}_default`);
+                };
+                break;
+            case 'roundabout':
+                [ 'default', 'exit' ].forEach((s) => {
+                    assert.ok(
+                        fs.existsSync(path.join(basePath, 'roundabout', `${s}_default.json`)),
+                        `${type}/${s}_default`);
+                    assert.ok(
+                        fs.existsSync(path.join(basePath, 'roundabout', `${s}_destination.json`)),
+                        `${type}/${s}_destination`);
+                    assert.ok(
+                        fs.existsSync(path.join(basePath, 'roundabout', `${s}_name.json`)),
+                        `${type}/${s}_name`);
+                });
+                break;
+            default:
+                checkModifiers(type);
+                break
+            };
         });
 
         assert.end();
