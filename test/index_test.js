@@ -174,7 +174,7 @@ tape.test('v5 compile', function(t) {
 
                 if (process.env.UPDATE) {
                     fixture.instruction = v5Instructions.compile(fixture.step);
-                    fs.writeFileSync(p, JSON.stringify(fixture, null, 4));
+                    fs.writeFileSync(p, JSON.stringify(fixture, null, 4) + '\n');
                 } else {
                     assert.equal(
                         v5Instructions.compile(fixture.step),
