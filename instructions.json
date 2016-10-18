@@ -91,9 +91,9 @@
         },
         "end of road": {
             "default": {
-                "default": "Turn {modifier} at the end of the road",
-                "name": "Turn {modifier} onto {way_name} at the end of the road",
-                "destination": "Turn {modifier} towards {destination} at the end of the road"
+                "default": "Turn {modifier}",
+                "name": "Turn {modifier} onto {way_name}",
+                "destination": "Turn {modifier} towards {destination}"
             },
             "straight": {
                 "default": "Continue straight",

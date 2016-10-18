@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. For change 
 # Unreleased
 
 - Fix rotary names instruction `exit onto`
+- Only mention end-of-road on uturn intructions
 
 ## 0.0.2 2016-10-18
 
