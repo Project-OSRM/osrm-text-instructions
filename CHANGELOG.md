@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+# Unreleased
+
+- Fix rotary names instruction `exit onto`
+
 ## 0.0.2 2016-10-18
 
 - Big refactoring of instructions.json, making it more verbose for localizaion

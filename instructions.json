@@ -299,8 +299,8 @@
                 },
                 "name": {
                     "default": "Enter {rotary_name}",
-                    "name": "Enter {rotary_name} onto {way_name}",
-                    "destination": "Enter {rotary_name} towards {destination}"
+                    "name": "Enter {rotary_name} and exit onto {way_name}",
+                    "destination": "Enter {rotary_name} and exit towards {destination}"
                 },
                 "exit": {
                     "default": "Enter the rotary and take the {exit_number} exit",
