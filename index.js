@@ -1,4 +1,3 @@
-var useLane = require('./lib/use-lane');
 var instructions = require('./instructions.json');
 
 if (Object !== instructions.constructor) throw 'instructions must be object';
@@ -8,9 +7,11 @@ module.exports = function(_version) {
 
     var o = {
         ordinalize: function(number) {
+            // Transform numbers to their translated ordinalized value
             return instructions[version].constants.ordinalize[number.toString()] || '';
         },
         directionFromDegree: function(degree) {
+            // Transform degrees to their translated compass direction
             if (!degree && degree !== 0) {
                 // step had no bearing_after degree, ignoring
                 return '';
@@ -35,6 +36,26 @@ module.exports = function(_version) {
             } else {
                 throw new Error('Degree ' + degree + ' invalid');
             }
+        },
+        laneConfig: function(step) {
+            // Reduce any lane combination down to a contracted lane diagram
+            if (!step.intersections || !step.intersections[0].lanes) throw new Error('No lanes object');
+
+            var config = [];
+            var currentLaneValidity = null;
+
+            step.intersections[0].lanes.forEach(function (lane) {
+                if (currentLaneValidity === null || currentLaneValidity !== lane.valid) {
+                    if (lane.valid) {
+                        config.push('o');
+                    } else {
+                        config.push('x');
+                    }
+                    currentLaneValidity = lane.valid;
+                }
+            });
+
+            return config.join('');
         },
         compile: function(step) {
             if (!instructions[version]) { throw new Error('Invalid version'); }
@@ -65,12 +86,11 @@ module.exports = function(_version) {
             var laneInstruction;
             switch (type) {
             case 'use lane':
-                var laneDiagram = useLane(step);
-                laneInstruction = instructions[version][type].lane_types[laneDiagram];
+                laneInstruction = instructions[version].constants.lanes[this.laneConfig(step)];
 
                 if (!laneInstruction) {
                     // If the lane combination is not found, default to continue
-                    instructionObject = instructions[version][type].no_lanes;
+                    instructionObject = instructions[version]['use lane'].no_lanes;
                 }
                 break;
             case 'rotary':

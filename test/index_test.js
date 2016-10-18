@@ -49,6 +49,44 @@ tape.test('v5 directionFromDegree', function(assert) {
     assert.end();
 });
 
+tape.test('v5 laneDiagram', function(assert) {
+    var v5Instructions = instructions('v5');
+
+    function makeStep(config) {
+        return {
+            intersections: [
+                {
+                    lanes: config.map((v) => { return { "valid": v }})
+                }
+            ]
+        };
+    };
+
+    [
+        [ [ true, true, true ], 'o' ],
+        [ [ true, true, false], 'ox' ],
+        [ [ true, true, false, false], 'ox' ],
+        [ [ true, false, true], 'oxo' ],
+        [ [ false, true, true, false], 'xox' ],
+        [ [ false, true, false, true, false], 'xoxox' ],
+        [ [ false, false, false], 'x' ]
+    ].forEach((c) => {
+        assert.equal(v5Instructions.laneConfig(makeStep(c[0])), c[1], `correct Diagram ${c[1]}`);
+    });
+
+    assert.throws(
+        () => { v5Instructions.laneConfig({}); },
+        'throws on non-existing intersections'
+    );
+
+    assert.throws(
+        () => { v5Instructions.laneConfig({ intersections: [ {} ] }); },
+        'throws on non-existing lanes'
+    );
+
+    assert.end();
+});
+
 tape.test('v5 compile', function(t) {
     var v5Instructions = instructions('v5');
 

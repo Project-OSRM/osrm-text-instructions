@@ -32,6 +32,12 @@
                 "slight right": "slight right",
                 "straight": "straight",
                 "uturn": "uturn"
+            },
+            "lanes": {
+                "xo": "Keep right",
+                "ox": "Keep left",
+                "xox": "Use the middle lane",
+                "oxo": "Use the left or right lane"
             }
         },
         "arrive": {
@@ -400,16 +406,6 @@
                 "default": "{lane_instruction} to make a U-turn",
                 "name": "{lane_instruction} to make a U-turn onto {way_name}",
                 "destination": "{lane_instruction} to make a U-turn towards {destination}"
-            },
-            "lane_types": {
-                "xo": "Keep right",
-                "ox": "Keep left",
-                "oox": "Keep left",
-                "xoo": "Keep right",
-                "xxo": "Keep right",
-                "oxx": "Keep left",
-                "xox": "Use the middle lane",
-                "oxo": "Use the left or right lane"
             }
         }
     }
