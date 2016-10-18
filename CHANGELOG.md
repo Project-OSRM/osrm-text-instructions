@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. For change 
 # Unreleased
 
 - Better u-turn instructions
+- Do not use name/destination on use lane
 - Fix rotary names instruction `exit onto`
 - Only mention end-of-road on uturn intructions
 

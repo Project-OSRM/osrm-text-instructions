@@ -36,8 +36,8 @@
             "lanes": {
                 "xo": "Keep right",
                 "ox": "Keep left",
-                "xox": "Use the middle lane",
-                "oxo": "Use the left or right lane"
+                "xox": "Keep in the middle",
+                "oxo": "Keep left or right"
             }
         },
         "arrive": {
@@ -395,34 +395,19 @@
         },
         "use lane": {
             "no_lanes": {
-                "default": "Continue straight",
-                "name": "Continue straight onto {way_name}",
-                "destination": "Continue straight towards {destination}"
+                "default": "Continue straight"
             },
             "default": {
-                "default": "{lane_instruction} to make a {modifier}",
-                "name": "{lane_instruction} to make a {modifier} onto {way_name}",
-                "destination": "{lane_instruction} to make a {modifier} towards {destination}"
+                "default": "{lane_instruction} to make a {modifier}"
             },
             "straight": {
-                "default": "{lane_instruction}",
-                "name": "{lane_instruction} onto {way_name}",
-                "destination": "{lane_instruction} towards {destination}"
+                "default": "{lane_instruction}"
             },
             "left": {
-                "default": "{lane_instruction} to turn left",
-                "name": "{lane_instruction} to turn left onto {way_name}",
-                "destination": "{lane_instruction} to turn left towards {destination}"
+                "default": "{lane_instruction} to turn left"
             },
             "right": {
-                "default": "{lane_instruction} to turn right",
-                "name": "{lane_instruction} to turn right onto {way_name}",
-                "destination": "{lane_instruction} to turn right towards {way_name}"
-            },
-            "uturn": {
-                "default": "{lane_instruction} to make a U-turn",
-                "name": "{lane_instruction} to make a U-turn onto {way_name}",
-                "destination": "{lane_instruction} to make a U-turn towards {destination}"
+                "default": "{lane_instruction} to turn right"
             }
         }
     }
