@@ -4,7 +4,7 @@
             "type": "turn",
             "modifier": "slight right"
         },
-        "name": "Street Name"
+        "name": "Way Name"
     },
-    "instruction": "Make a slight right onto Street Name"
+    "instruction": "Make a slight right onto Way Name"
 }

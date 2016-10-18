@@ -4,7 +4,7 @@
             "type": "turn",
             "modifier": "sharp right"
         },
-        "name": "Street Name"
+        "name": "Way Name"
     },
-    "instruction": "Make a sharp right onto Street Name"
+    "instruction": "Make a sharp right onto Way Name"
 }
