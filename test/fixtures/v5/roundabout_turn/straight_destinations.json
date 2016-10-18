@@ -7,5 +7,5 @@
         "name": "Street Name",
         "destinations": "City 1,City 2"
     },
-    "instruction": "At the roundabout continue straight"
+    "instruction": "At the roundabout continue straight towards City 1"
 }
