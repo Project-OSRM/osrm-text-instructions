@@ -7,5 +7,5 @@
         "name": "Street Name",
         "destinations": "City 1,City 2"
     },
-    "instruction": "Turn right towards City 1 at the end of the road"
+    "instruction": "Turn right towards City 1"
 }
