@@ -360,7 +360,9 @@
                 "destination": "At the roundabout turn right towards {destination}"
             },
             "straight": {
-                "default": "At the roundabout continue straight"
+                "default": "At the roundabout continue straight",
+                "name": "At the roundabout continue straight onto {way_name}",
+                "destination": "At the roundabout continue straight towards {destination}"
             }
         },
         "train": {
