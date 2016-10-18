@@ -31,7 +31,7 @@
                 "slight left": "slight left",
                 "slight right": "slight right",
                 "straight": "straight",
-                "uturn": "uturn"
+                "uturn": "U-turn"
             },
             "lanes": {
                 "xo": "Keep right",
@@ -81,6 +81,11 @@
                 "default": "Continue slightly right",
                 "name": "Continue slightly right onto {way_name}",
                 "destination": "Continue slightly right towards {destination}"
+            },
+            "uturn": {
+                "default": "Make a U-turn",
+                "name": "Make a U-turn onto {way_name}",
+                "destination": "Make a U-turn towards {destination}"
             }
         },
         "depart": {
@@ -169,6 +174,11 @@
                 "default": "Merge sharply right",
                 "name": "Merge sharply right onto {way_name}",
                 "destination": "Merge sharply right towards {destination}"
+            },
+            "uturn": {
+                "default": "Make a U-turn",
+                "name": "Make a U-turn onto {way_name}",
+                "destination": "Make a U-turn towards {destination}"
             }
         },
         "new name": {
@@ -208,6 +218,11 @@
                 "default": "Continue {modifier}",
                 "name": "Continue {modifier} onto {way_name}",
                 "destination" : "Continue {modifier} towards {destination}"
+            },
+            "uturn": {
+                "default": "Make a U-turn",
+                "name": "Make a U-turn onto {way_name}",
+                "destination": "Make a U-turn towards {destination}"
             }
         },
         "off ramp": {
