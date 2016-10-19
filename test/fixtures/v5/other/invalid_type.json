@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "deliberatly_unknown_type",
+            "modifier": "left"
+        },
+        "name": "Way Name"
+    },
+    "instruction": "Turn left onto Way Name"
+}
