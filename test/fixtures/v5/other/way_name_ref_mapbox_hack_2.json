@@ -4,8 +4,8 @@
             "type": "turn",
             "modifier": "left"
         },
-        "name": "Way Name (Ref1;Ref2)",
-        "ref": "Ref1;Ref2"
+        "name": "Way Name (Ref0;Ref1 (Another Way (Ref1.1));Ref2)",
+        "ref": "Ref0;Ref1 (Another Way (Ref1.1));Ref2"
     },
-    "instruction": "Turn left onto Way Name (Ref1;Ref2) (Ref1)"
+    "instruction": "Turn left onto Way Name (Ref0)"
 }
