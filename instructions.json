@@ -40,6 +40,13 @@
                 "oxo": "Keep left or right"
             }
         },
+        "modes": {
+            "ferry": {
+                "default": "Take the ferry",
+                "name": "Take the ferry {way_name}",
+                "destination": "Take the ferry towards {destination}"
+            }
+        },
         "arrive": {
             "default": {
                 "default": "You have arrived at your {nth} destination"
@@ -109,12 +116,6 @@
                 "default": "Make a U-turn at the end of the road",
                 "name": "Make a U-turn onto {way_name} at the end of the road",
                 "destination": "Make a U-turn towards {destination} at the end of the road"
-            }
-        },
-        "ferry": {
-            "default": {
-                "default": "Take the ferry",
-                "name": "Take the ferry - {way_name}"
             }
         },
         "fork": {
@@ -299,12 +300,6 @@
                 "destination": "Take the ramp on the right towards {destination}"
             }
         },
-        "pushing bike": {
-            "default": {
-                "default": "Get off the bike and push",
-                "name": "Get off the bike and push onto {way_name}"
-            }
-        },
         "rotary": {
             "default": {
                 "default": {
@@ -363,12 +358,6 @@
                 "default": "At the roundabout continue straight",
                 "name": "At the roundabout continue straight onto {way_name}",
                 "destination": "At the roundabout continue straight towards {destination}"
-            }
-        },
-        "train": {
-            "default": {
-                "default": "Take the train",
-                "name": "Take the train - {way_name}"
             }
         },
         "turn": {

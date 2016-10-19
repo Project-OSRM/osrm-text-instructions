@@ -24,47 +24,68 @@ function underscorify(input) {
 }
 
 function write(step, p) {
-    fs.writeFileSync(p, JSON.stringify(step, null, 4) + '\n');
+    fs.writeFileSync(
+        `${p}.json`,
+        JSON.stringify({
+            step: step,
+            instruction: v5Instructions.compile(step)
+        }, null, 4) + '\n'
+    );
 }
 
-function writeVariations(basePath, baseStep, onlyDefault) {
+function writeVariations(baseStep, basePath) {
     var step;
     // default
-    write({
-            step: baseStep,
-            instruction: v5Instructions.compile(baseStep)
-        },
-        onlyDefault ? `${basePath}.json` : `${basePath}_default.json`
-    );
-    if(onlyDefault) return;
+    write(baseStep, `${basePath}_default`);
 
     // name
     step = Object.assign(clone(baseStep), { name: 'Way Name' });
-    write({
-            step: step,
-            instruction: v5Instructions.compile(step)
-        },
-        `${basePath}_name.json`
-    );
+    write(step, `${basePath}_name`);
 
     // destination
     step = Object.assign(clone(baseStep), {
         name: 'Way Name',
         destinations: 'Destination 1,Destination 2'
     });
-    write({
-            step: step,
-            instruction: v5Instructions.compile(step)
-        },
-        `${basePath}_destination.json`
-    );
+    write(step, `${basePath}_destination`);
 };
 
 function execute() {
-    switch (type) {
-    case 'other':
-        var basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'other');
+    var basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', type);
 
+    switch (type) {
+    case 'modes':
+        baseStep = {
+            maneuver: {
+                type: 'continue',
+                modifier: 'straight'
+            },
+            mode: 'ferry',
+            name: ''
+        };
+        writeVariations(baseStep, path.join(basePath, 'ferry_turn_left'));
+
+        baseStep = {
+            maneuver: {
+                type: 'fork',
+                modifier: 'left'
+            },
+            mode: 'ferry',
+            name: ''
+        };
+        writeVariations(baseStep, path.join(basePath, 'ferry_fork_left'));
+
+        baseStep = {
+            maneuver: {
+                type: 'fork',
+                modifier: 'left'
+            },
+            mode: 'driving',
+            name: 'Way Name'
+        };
+        write(baseStep, path.join(basePath, 'driving_turn_left'));
+        break;
+    case 'other':
         // invalid type
         baseStep = {
             maneuver: {
@@ -73,7 +94,7 @@ function execute() {
             },
             name: 'Way Name',
         };
-        writeVariations(path.join(basePath, 'invalid_type'), baseStep, true);
+        write(baseStep, path.join(basePath, 'invalid_type'));
 
         // way_name name/ref combinations
         baseStep = {
@@ -84,7 +105,7 @@ function execute() {
             name: '',
             ref: 'Ref1;Ref2'
         };
-        writeVariations(path.join(basePath, 'way_name_ref'), baseStep, true);
+        write(baseStep, path.join(basePath, 'way_name_ref'));
         baseStep = {
             maneuver: {
                 type: 'turn',
@@ -93,7 +114,7 @@ function execute() {
             name: 'Way Name',
             ref: 'Ref1;Ref2'
         };
-        writeVariations(path.join(basePath, 'way_name_ref_name'), baseStep, true);
+        write(baseStep, path.join(basePath, 'way_name_ref_name'));
         baseStep = {
             maneuver: {
                 type: 'turn',
@@ -103,7 +124,7 @@ function execute() {
             ref: 'Ref1;Ref2',
             destinations: 'Destination 1,Destination 2'
         };
-        writeVariations(path.join(basePath, 'way_name_ref_destinations'), baseStep, true);
+        write(baseStep, path.join(basePath, 'way_name_ref_destinations'));
         baseStep = {
             maneuver: {
                 type: 'turn',
@@ -112,7 +133,7 @@ function execute() {
             name: 'Way Name (Ref1)',
             ref: 'Ref1'
         };
-        writeVariations(path.join(basePath, 'way_name_ref_mapbox_hack_1'), baseStep, true);
+        write(baseStep, path.join(basePath, 'way_name_ref_mapbox_hack_1'));
         baseStep = {
             maneuver: {
                 type: 'turn',
@@ -121,26 +142,24 @@ function execute() {
             name: 'Way Name (Ref1;Ref2)',
             ref: 'Ref1;Ref2'
         };
-        writeVariations(path.join(basePath, 'way_name_ref_mapbox_hack_2'), baseStep, true);
+        write(baseStep, path.join(basePath, 'way_name_ref_mapbox_hack_2'));
         break;
     case 'turn':
-        var basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'turn');
-
         // do variation per modifier
         constants.modifiers.forEach((modifier) => {
             baseStep = {
                 maneuver: {
-                    type: 'turn',
+                    type: type,
                     modifier: modifier
                 },
                 name: ''
             };
-            writeVariations(path.join(basePath, underscorify(modifier)), baseStep);
+            writeVariations(baseStep, path.join(basePath, underscorify(modifier)));
         });
         break;
     case 'rotary':
         // default
-        var basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'rotary', 'default');
+        basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'rotary', 'default');
         var baseStep = {
             maneuver: {
                 modifier: 'left', // rotaries don't care about modifiers
@@ -148,7 +167,7 @@ function execute() {
             },
             name: ''
         };
-        writeVariations(basePath, baseStep);
+        writeVariations(baseStep, basePath);
 
         // name
         basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'rotary', 'name');
@@ -160,7 +179,7 @@ function execute() {
             name: '',
             rotary_name: 'Rotary Name'
         };
-        writeVariations(basePath, baseStep);
+        writeVariations(baseStep, basePath);
 
         // exit
         basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'rotary', 'exit_1');
@@ -172,7 +191,7 @@ function execute() {
             },
             name: '',
         };
-        writeVariations(basePath, baseStep);
+        writeVariations(baseStep, basePath);
 
         // exit - all possible exit numbers
         for (i = 2; i <= 11; i++) {
@@ -185,7 +204,7 @@ function execute() {
                 },
                 name: '',
             };
-            writeVariations(basePath, baseStep, true);
+            write(baseStep, basePath);
         };
 
         // name_exit
@@ -199,11 +218,11 @@ function execute() {
             name: '',
             rotary_name: 'Rotary Name'
         };
-        writeVariations(basePath, baseStep);
+        writeVariations(baseStep, basePath);
         break;
     case 'roundabout':
         // default
-        var basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'roundabout', 'default');
+        basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'roundabout', 'default');
         var baseStep = {
             maneuver: {
                 modifier: 'left', // roundabouts don't care about modifiers
@@ -211,7 +230,7 @@ function execute() {
             },
             name: ''
         };
-        writeVariations(basePath, baseStep);
+        writeVariations(baseStep, basePath);
 
         // exit
         basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'roundabout', 'exit');
@@ -223,7 +242,7 @@ function execute() {
             },
             name: '',
         };
-        writeVariations(basePath, baseStep);
+        writeVariations(baseStep, basePath);
         break;
     default:
         console.error('Need to provide a type as first argument. Supported values:' + types.join(' ,'));

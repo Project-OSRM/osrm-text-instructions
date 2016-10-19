@@ -5,18 +5,15 @@ constants.types = [
     'continue',
     'depart',
     'end of road',
-    'ferry',
     'fork',
     'merge',
     'new name',
     'notification',
     'off ramp',
     'on ramp',
-    'pushing bike',
     'rotary',
     'roundabout',
     'roundabout turn',
-    'train',
     'turn',
     'use lane'
 ];
