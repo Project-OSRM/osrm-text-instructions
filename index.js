@@ -63,6 +63,7 @@ module.exports = function(_version) {
 
             var type = step.maneuver.type;
             var modifier = step.maneuver.modifier;
+            var mode = step.mode;
 
             if (!type) { throw new Error('Missing step maneuver type'); }
             if (type !== 'depart' && type !== 'arrive' && !modifier) { throw new Error('Missing step maneuver modifier'); }
@@ -78,7 +79,9 @@ module.exports = function(_version) {
 
             // Use special instructions if available, otherwise `defaultinstruction`
             var instructionObject;
-            if (instructions[version][type][modifier]) {
+            if (instructions[version].modes[mode]) {
+                instructionObject = instructions[version].modes[mode];
+            } else if (instructions[version][type][modifier]) {
                 instructionObject = instructions[version][type][modifier];
             } else {
                 instructionObject = instructions[version][type].default;

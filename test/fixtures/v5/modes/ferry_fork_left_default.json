@@ -1,0 +1,11 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "fork",
+            "modifier": "left"
+        },
+        "mode": "ferry",
+        "name": ""
+    },
+    "instruction": "Take the ferry"
+}

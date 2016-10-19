@@ -54,6 +54,37 @@ function execute() {
     var basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', type);
 
     switch (type) {
+    case 'modes':
+        baseStep = {
+            maneuver: {
+                type: 'continue',
+                modifier: 'straight'
+            },
+            mode: 'ferry',
+            name: ''
+        };
+        writeVariations(baseStep, path.join(basePath, 'ferry_turn_left'));
+
+        baseStep = {
+            maneuver: {
+                type: 'fork',
+                modifier: 'left'
+            },
+            mode: 'ferry',
+            name: ''
+        };
+        writeVariations(baseStep, path.join(basePath, 'ferry_fork_left'));
+
+        baseStep = {
+            maneuver: {
+                type: 'fork',
+                modifier: 'left'
+            },
+            mode: 'driving',
+            name: 'Way Name'
+        };
+        write(baseStep, path.join(basePath, 'driving_turn_left'));
+        break;
     case 'other':
         // invalid type
         baseStep = {

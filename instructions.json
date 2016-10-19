@@ -40,6 +40,13 @@
                 "oxo": "Keep left or right"
             }
         },
+        "modes": {
+            "ferry": {
+                "default": "Take the ferry",
+                "name": "Take the ferry {way_name}",
+                "destination": "Take the ferry towards {destination}"
+            }
+        },
         "arrive": {
             "default": {
                 "default": "You have arrived at your {nth} destination"

@@ -1,0 +1,11 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "continue",
+            "modifier": "straight"
+        },
+        "mode": "ferry",
+        "name": "Way Name"
+    },
+    "instruction": "Take the ferry Way Name"
+}
