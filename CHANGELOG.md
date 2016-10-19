@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file. For change 
 
 ## Unreleased
 
+- put future changes here
+
+## 0.0.3 2016-10-19
+
 - Better u-turn instructions
 - Do not use name/destination on use lane
 - Fix rotary names instruction `exit onto`
