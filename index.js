@@ -68,6 +68,8 @@ module.exports = function(_version) {
             if (type !== 'depart' && type !== 'arrive' && !modifier) { throw new Error('Missing step maneuver modifier'); }
 
             if (!instructions[version][type]) {
+                // Log for debugging
+                console.log('Encountered unknown instruction type: ' + type); // eslint-disable-line no-console
                 // OSRM specification assumes turn types can be added without
                 // major version changes. Unknown types are to be treated as
                 // type `turn` by clients
