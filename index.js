@@ -1,9 +1,13 @@
-var instructions = require('./instructions.json');
-
-if (Object !== instructions.constructor) throw 'instructions must be object';
-
-module.exports = function(_version) {
+module.exports = function(_language, _version) {
     var version = _version || 'v5';
+    var language = _language || 'en';
+
+    var instructions = require('./instructions').get(language);
+    if (Object !== instructions.constructor) throw 'instructions must be object';
+
+    function capitalizeFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
 
     var o = {
         ordinalize: function(number) {
@@ -136,7 +140,7 @@ module.exports = function(_version) {
                 .replace('{way_name}', step.name)
                 .replace(/ {2}/g, ' '); // remove excess spaces
 
-            return instruction;
+            return capitalizeFirstLetter(instruction);
         }
     };
 
