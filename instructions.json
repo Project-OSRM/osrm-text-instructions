@@ -111,12 +111,6 @@
                 "destination": "Make a U-turn towards {destination} at the end of the road"
             }
         },
-        "ferry": {
-            "default": {
-                "default": "Take the ferry",
-                "name": "Take the ferry - {way_name}"
-            }
-        },
         "fork": {
             "default": {
                 "default": "Keep {modifier} at the fork",
@@ -299,12 +293,6 @@
                 "destination": "Take the ramp on the right towards {destination}"
             }
         },
-        "pushing bike": {
-            "default": {
-                "default": "Get off the bike and push",
-                "name": "Get off the bike and push onto {way_name}"
-            }
-        },
         "rotary": {
             "default": {
                 "default": {
@@ -363,12 +351,6 @@
                 "default": "At the roundabout continue straight",
                 "name": "At the roundabout continue straight onto {way_name}",
                 "destination": "At the roundabout continue straight towards {destination}"
-            }
-        },
-        "train": {
-            "default": {
-                "default": "Take the train",
-                "name": "Take the train - {way_name}"
             }
         },
         "turn": {
