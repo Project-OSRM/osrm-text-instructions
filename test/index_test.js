@@ -91,7 +91,7 @@ tape.test('v5 compile', function(t) {
     var v5Instructions = instructions('v5');
 
     t.test('fixtures exist for every type/modifier combinations', function(assert) {
-        var instructions = require('../instructions');
+        var instructions = require('../instructions').get('en');
         var basePath = path.join(__dirname, 'fixtures', 'v5');
 
         function underscorify(input) {
