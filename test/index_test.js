@@ -131,23 +131,26 @@ tape.test('v5 compile', function(t) {
             });
         }
 
-        constants.types.forEach(function(type) {
+        var types = constants.types;
+        types.push('other');
+        types.forEach(function(type) {
             switch(type) {
+            case 'other':
+                [
+                    'invalid_type',
+                    'way_name_ref',
+                    'way_name_ref_name',
+                    'way_name_ref_destinations',
+                    'way_name_ref_mapbox_hack_1',
+                    'way_name_ref_mapbox_hack_2'
+                ].forEach((f) => {
+                    assert.ok(
+                        fs.existsSync(path.join(basePath, 'other', `${f}.json`)),
+                        `${type}/${f}`);
+                });
+                break;
             case 'turn':
-                // name_ref combinations
-                assert.ok(
-                    fs.existsSync(path.join(basePath, 'turn', `left_ref_default.json`)),
-                    `${type}/left_ref_default`);
-                assert.ok(
-                    fs.existsSync(path.join(basePath, 'turn', `left_ref_default.json`)),
-                    `${type}/left_ref_name`);
-                assert.ok(
-                    fs.existsSync(path.join(basePath, 'turn', `left_ref_default.json`)),
-                    `${type}/left_destination_ref_name`);
-
-                // regular combinations
                 checkModifiers(type);
-
                 break;
             case 'rotary':
                 [ 'default', 'exit_1', 'name', 'name_exit' ].forEach((s) => {
@@ -165,7 +168,7 @@ tape.test('v5 compile', function(t) {
                 // special fixtures for ordinalization
                 for (i = 2; i <= 11; i++) {
                     assert.ok(
-                        fs.existsSync(path.join(basePath, 'rotary', `exit_${i}_default.json`)),
+                        fs.existsSync(path.join(basePath, 'rotary', `exit_${i}.json`)),
                         `${type}/exit_${i}_default`);
                 };
                 break;
