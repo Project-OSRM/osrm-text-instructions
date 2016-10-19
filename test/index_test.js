@@ -100,6 +100,21 @@ tape.test('v5 compile', function(t) {
 
         function checkModifiers(type) {
             constants.modifiers.forEach(function(modifier) {
+                assert.ok(
+                    fs.existsSync(path.join(basePath, underscorify(type), `${underscorify(modifier)}_default.json`)),
+                    `${type}/${modifier}_default`);
+                assert.ok(
+                    fs.existsSync(path.join(basePath, underscorify(type), `${underscorify(modifier)}_destination.json`)),
+                    `${type}/${modifier}_destination`);
+                assert.ok(
+                    fs.existsSync(path.join(basePath, underscorify(type), `${underscorify(modifier)}_name.json`)),
+                    `${type}/${modifier}_name`);
+            });
+        }
+
+        function checkModifiersNoName(type) {
+            // TODO: Remove this function and replace it complately by checkModifiers
+            constants.modifiers.forEach(function(modifier) {
                 // check normal fixture
                 var p = path.join(basePath, underscorify(type), underscorify(modifier) + '.json');
 
@@ -118,6 +133,22 @@ tape.test('v5 compile', function(t) {
 
         constants.types.forEach(function(type) {
             switch(type) {
+            case 'turn':
+                // name_ref combinations
+                assert.ok(
+                    fs.existsSync(path.join(basePath, 'turn', `left_ref_default.json`)),
+                    `${type}/left_ref_default`);
+                assert.ok(
+                    fs.existsSync(path.join(basePath, 'turn', `left_ref_default.json`)),
+                    `${type}/left_ref_name`);
+                assert.ok(
+                    fs.existsSync(path.join(basePath, 'turn', `left_ref_default.json`)),
+                    `${type}/left_destination_ref_name`);
+
+                // regular combinations
+                checkModifiers(type);
+
+                break;
             case 'rotary':
                 [ 'default', 'exit_1', 'name', 'name_exit' ].forEach((s) => {
                     assert.ok(
@@ -152,7 +183,7 @@ tape.test('v5 compile', function(t) {
                 });
                 break;
             default:
-                checkModifiers(type);
+                checkModifiersNoName(type);
                 break
             };
         });

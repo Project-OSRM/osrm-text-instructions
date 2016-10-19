@@ -1,0 +1,12 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "turn",
+            "modifier": "left"
+        },
+        "name": "Way Name",
+        "ref": "Ref1;Ref2",
+        "destinations": "Destination 1,Destination 2"
+    },
+    "instruction": "Turn left towards Destination 1"
+}

@@ -4,7 +4,7 @@
             "type": "turn",
             "modifier": "straight"
         },
-        "name": "Street Name"
+        "name": "Way Name"
     },
-    "instruction": "Go straight onto Street Name"
+    "instruction": "Go straight onto Way Name"
 }

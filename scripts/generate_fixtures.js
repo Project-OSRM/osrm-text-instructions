@@ -5,14 +5,19 @@ var path = require('path');
 
 var instructions = require('../index.js');
 var v5Instructions = instructions('v5');
+var constants = require('../test/constants');
 var type = process.argv[2];
 
 function clone(obj) {
     return JSON.parse(JSON.stringify(obj));
 }
 
+function underscorify(input) {
+    return input.replace(/ /g, '_');
+}
+
 function write(step, p) {
-    fs.writeFileSync(p, JSON.stringify(step, null, 4));
+    fs.writeFileSync(p, JSON.stringify(step, null, 4) + '\n');
 }
 
 function writeVariations(basePath, baseStep, onlyDefault) {
@@ -50,6 +55,51 @@ function writeVariations(basePath, baseStep, onlyDefault) {
 
 function execute() {
     switch (type) {
+    case 'turn':
+        var basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'turn');
+
+        // do name_ref combinations
+        var baseStep = {
+            maneuver: {
+                type: 'turn',
+                modifier: 'left'
+            },
+            name: '',
+            ref: 'Ref1;Ref2'
+        };
+        writeVariations(path.join(basePath, 'left_ref'), baseStep, true);
+        baseStep = {
+            maneuver: {
+                type: 'turn',
+                modifier: 'left'
+            },
+            name: 'Way Name',
+            ref: 'Ref1;Ref2'
+        };
+        writeVariations(path.join(basePath, 'left_ref_name'), baseStep, true);
+        baseStep = {
+            maneuver: {
+                type: 'turn',
+                modifier: 'left'
+            },
+            name: 'Way Name',
+            ref: 'Ref1;Ref2',
+            destinations: 'Destination 1,Destination 2'
+        };
+        writeVariations(path.join(basePath, 'left_destination_ref_name'), baseStep, true);
+
+        // do variation per modifier
+        constants.modifiers.forEach((modifier) => {
+            baseStep = {
+                maneuver: {
+                    type: 'turn',
+                    modifier: modifier
+                },
+                name: ''
+            };
+            writeVariations(path.join(basePath, underscorify(modifier)), baseStep);
+        });
+        break;
     case 'rotary':
         // default
         var basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'rotary', 'default');

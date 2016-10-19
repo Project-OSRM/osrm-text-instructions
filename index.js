@@ -111,12 +111,24 @@ module.exports = function(_version) {
                 // NOOP, since no special logic for that type
             }
 
+            // Decide way_name with special handling for name and ref
+            var wayName;
+            var name = (step.name || '').replace(new RegExp(' (' + step.ref + ')$'), ''); // Remove hack from Mapbox Directions mixing ref into name
+            var ref = (step.ref || '').split(';')[0];
+            if (name && ref && name !== ref) {
+                wayName = name + ' (' + ref + ')';
+            } else if (!name && ref) {
+                wayName = ref;
+            } else {
+                wayName = name;
+            }
+
             // Decide which instruction string to use
             // Destination takes precedence over name
             var instruction;
             if (step.destinations && instructionObject.destination) {
                 instruction = instructionObject.destination;
-            } else if (step.name && instructionObject.name) {
+            } else if (wayName && instructionObject.name) {
                 instruction = instructionObject.name;
             } else {
                 instruction = instructionObject.default;
@@ -126,14 +138,14 @@ module.exports = function(_version) {
             // NOOP if they don't exist
             var nthWaypoint = ''; // TODO, add correct waypoint counting
             instruction = instruction
-                .replace('{nth}', nthWaypoint)
+                .replace('{way_name}', wayName)
                 .replace('{destination}', (step.destinations || '').split(',')[0])
                 .replace('{exit_number}', this.ordinalize(step.maneuver.exit || 1))
                 .replace('{rotary_name}', step.rotary_name)
                 .replace('{lane_instruction}', laneInstruction)
                 .replace('{modifier}', instructions[version].constants.modifier[modifier])
                 .replace('{direction}', this.directionFromDegree(step.maneuver.bearing_after))
-                .replace('{way_name}', step.name)
+                .replace('{nth}', nthWaypoint)
                 .replace(/ {2}/g, ' '); // remove excess spaces
 
             return instruction;
