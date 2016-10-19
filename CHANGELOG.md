@@ -9,6 +9,7 @@ All notable changes to this project will be documented in this file. For change 
 - Only mention end-of-road on uturn intructions
 - Respect name and ref for way_name
 - Handle ferry mode
+- Allow for runtime customizations of instructions.json
 
 ## 0.0.2 2016-10-18
 
