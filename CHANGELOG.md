@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file. For change 
 
 - put future changes here
 
+## 0.0.4 2016-10-20
+
+- Fix Mapbox API inconsistency with ref/name
+
 ## 0.0.3 2016-10-19
 
 - Better u-turn instructions
