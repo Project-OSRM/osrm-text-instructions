@@ -117,8 +117,17 @@ module.exports = function(_version) {
 
             // Decide way_name with special handling for name and ref
             var wayName;
-            var name = (step.name || '').replace(' (' + step.ref + ')', ''); // Remove hack from Mapbox Directions mixing ref into name
+            var name = step.name || '';
             var ref = (step.ref || '').split(';')[0];
+
+            // Remove hacks from Mapbox Directions mixing ref into name
+            if (name === step.ref) {
+                // if both are the same we assume that there used to be an empty name, with the ref being filled in for it
+                // we only need to retain the ref then
+                name = '';
+            }
+            name = name.replace(' (' + step.ref + ')', '');
+
             if (name && ref && name !== ref) {
                 wayName = name + ' (' + ref + ')';
             } else if (!name && ref) {
