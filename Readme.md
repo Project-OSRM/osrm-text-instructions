@@ -1,17 +1,24 @@
-# osrm-text-instructions.js
+# osrm-text-instructions
+
+[![Build Status](https://travis-ci.org/Project-OSRM/osrm-text-instructions.svg?branch=master)](https://travis-ci.org/Project-OSRM/osrm-text-instructions)
 
 ----
 
 __WIP: This project is under heavy development and should not be integrated yet.__
 
-osrm-text-instructions.js is a library to transform OSRM route responses into text instructions.
+osrm-text-instructions transforms OSRM route responses into text instructions. It currently has only an implementation in JavaScript, with more to come.
 
-[![Build Status](https://travis-ci.org/Project-OSRM/osrm-text-instructions.svg?branch=master)](https://travis-ci.org/Project-OSRM/osrm-text-instructions)
+### Design goals
 
-### Javascipt Usage
+- __Cross platform__ Use a data-driven approach that makes implementations in other programming environments easy to write
+- __Test suite__ Have a data-driven test suite with fixtures which can be used cross-platform
+- __Translation__ Allow for translations via [Transifex](https://www.transifex.com/)
+- __Customization__ Users should be able to easily fork or monkey patch the results to adjust to their own likings
+
+### Javascript Usage
 
 ```
-var osrmTextInstructions = require('osrm-text-instructions')('v5');
+var osrmTextInstructions = require('osrm-text-instructions')('v5', 'en');
 
 // make your request against the API
 
@@ -22,14 +29,38 @@ response.legs.forEach(function(leg) {
 });
 ```
 
-### Design goals
-
-- __Cross platform__ Use a data-driven approach that makes implementations in other programming environments easy to write
-- __Test suite__ Have a data-driven test suite with fixtures which can be used cross-platform
-- __Translation__ Allow for translations via [Transifex](https://www.transifex.com/)
-- __Customization__ Users should be able to easily fork or monkey patch the results to adjust to their own likings
-
 ### Development
-#### Generate Fixtures
+#### Architecture
 
-Fixtures can be programatically created and updated via `scripts/generate_fixtures.js`.
+- `index.js` holds the main transformation logic in javascript
+- `instructions/` holds the translateable strings
+
+#### Tests
+
+Tests are data-driven integration tests for the english language.
+
+To run them yourself for the JavaScript implementation:
+
+```
+npm install
+npm test
+```
+
+##### Generate Fixtures
+
+Fixtures can be programatically created and updated via `scripts/generate_fixtures.js`. To update the instructions in the fixture files, run `UPDATE=1 npm test`.
+
+#### Translations
+
+To add own translations:
+
+- Create a new file in `instructions/`
+  - base it off of `instructions/en.json`
+  - use a [IETF language tag](https://en.wikipedia.org/wiki/IETF_language_tag) after [RFC 5646](https://en.wikipedia.org/wiki/IETF_language_tag) as name
+- Translate
+- Add the new local file to `instructions.js`
+- To manually look at the changes:
+  - Change the locale in `test/index_test.js`
+  - Run `UPDATE=1 npm test` and look at the changes in `git diff`
+  - When done, revert via `git checkout test`
+- Make a PR
