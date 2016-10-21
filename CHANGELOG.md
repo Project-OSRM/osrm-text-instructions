@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. For change 
 ## Unreleased
 
 - put future changes here
+- Put under Simplified BSD License
 
 ## 0.0.4 2016-10-20
 
