@@ -87,24 +87,6 @@ tape.test('v5 laneDiagram', function(assert) {
 });
 
 tape.test('v5 compile', function(t) {
-    t.test('language loading', function(assert) {
-        var step = {
-            maneuver: {
-                'type': 'turn',
-                'modifier': 'left'
-            }
-        };
-
-        assert.equal(instructions('v5', 'en').compile(step), 'Turn left', 'has en');
-        assert.equal(instructions('v5', 'de').compile(step), 'Links abbiegen', 'has de');
-        assert.throws(
-            () => { instructions('v5', 'this-will-never-exist') },
-            'throws on non-existing language'
-        );
-
-        assert.end();
-    });
-
     t.test('fixtures match generated instructions', function(assert) {
         var v5Instructions = instructions('v5', 'en');
         var basePath = path.join(__dirname, 'fixtures', 'v5/');
