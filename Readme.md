@@ -4,9 +4,11 @@
 
 __WIP: This project is under heavy development and should not be integrated yet.__
 
-osrm-text-instructions.js is a library to transform OSRM steps into text instructions.
+osrm-text-instructions.js is a library to transform OSRM route responses into text instructions.
 
-### Usage
+[![Build Status](https://travis-ci.org/Project-OSRM/osrm-text-instructions.svg?branch=master)](https://travis-ci.org/Project-OSRM/osrm-text-instructions)
+
+### Javascipt Usage
 
 ```
 var osrmTextInstructions = require('osrm-text-instructions')('v5');
