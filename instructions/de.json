@@ -40,6 +40,13 @@
                 "oxo": "Rechts oder links halten"
             }
         },
+        "modes": {
+            "ferry": {
+                "default": "Fähre nehmen",
+                "name": "Fähre nehmen {way_name}",
+                "destination": "Fähre nehmen Richtung {destination}"
+            }
+        },
         "arrive": {
             "default": {
                 "default": "Sie haben Ihr {nth} Ziel erreicht"
@@ -109,12 +116,6 @@
                 "default": "180°-Wendung am Ende der Straße",
                 "name": "180°-Wendung auf {way_name} am Ende der Straße",
                 "destination": "180°-Wendung Richtung {destination} am Ende der Straße"
-            }
-        },
-        "ferry": {
-            "default": {
-                "default": "Fähre nehmen",
-                "name": "Fähre nehmen - {way_name}"
             }
         },
         "fork": {
