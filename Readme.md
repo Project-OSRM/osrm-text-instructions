@@ -58,7 +58,8 @@ To add own translations:
   - base it off of `instructions/en.json`
   - use a [IETF language tag](https://en.wikipedia.org/wiki/IETF_language_tag) after [RFC 5646](https://en.wikipedia.org/wiki/IETF_language_tag) as name
 - Translate
-- Add the new local file to `instructions.js`
+- Add the new instructions file to `instructions.js`
+- Add the new instructions file to the `language loading` test in `test/index_test.js`
 - To manually look at the changes:
   - Change the locale in `test/index_test.js`
   - Run `UPDATE=1 npm test` and look at the changes in `git diff`

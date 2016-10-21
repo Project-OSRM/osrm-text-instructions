@@ -1,9 +1,8 @@
-module.exports = function(_language, _version) {
-    var version = _version || 'v5';
-    var language = _language || 'en';
-
+module.exports = function(version, language) {
     var instructions = require('./instructions').get(language);
     if (Object !== instructions.constructor) throw 'instructions must be object';
+
+    if (!instructions[version]) { throw 'invalid version ' + version; }
 
     function capitalizeFirstLetter(string) {
         return string.charAt(0).toUpperCase() + string.slice(1);
@@ -63,7 +62,6 @@ module.exports = function(_language, _version) {
             return config.join('');
         },
         compile: function(step) {
-            if (!this.instructions[version]) { throw new Error('Invalid version'); }
             if (!step.maneuver) throw new Error('No step maneuver provided');
 
             var type = step.maneuver.type;
