@@ -303,12 +303,6 @@
                 "destination": "Rampe auf der rechten Seite nehmen Richtung {destination}"
             }
         },
-        "pushing bike": {
-            "default": {
-                "default": "Vom Fahrrad absteigen und schieben",
-                "name": "Vom Fahrrad absteigen und schieben auf {way_name}"
-            }
-        },
         "rotary": {
             "default": {
                 "default": {
@@ -367,12 +361,6 @@
                 "default": "Am Kreisverkehr geradeaus weiterfahren",
                 "name": "Am Kreisverkehr geradeaus weiterfahren auf {way_name}",
                 "destination": "Am Kreisverkehr geradeaus weiterfahren Richtung {destination}"
-            }
-        },
-        "train": {
-            "default": {
-                "default": "Zug nehmen",
-                "name": "Zug nehmen - {way_name}"
             }
         },
         "turn": {
