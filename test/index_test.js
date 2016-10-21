@@ -198,10 +198,10 @@ tape.test('v5 compile', function(t) {
         var basePath = path.join(__dirname, 'fixtures', 'v5/');
 
         fs.readdirSync(basePath).forEach(function(type) {
-            if (type === '.DS_Store') return;
+            if (type.match(/^\./)) return; // ignore temporary files
 
-            fs.readdirSync(basePath + type).forEach(function(file) {
-                if (!file.match(/json$/)) return;
+            fs.readdirSync(path.join(basePath, type)).forEach(function(file) {
+                if (!file.match(/\.json$/)) return;
 
                 var p = path.join(basePath, type, file);
                 var fixture = JSON.parse(fs.readFileSync(p));
