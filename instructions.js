@@ -1,5 +1,5 @@
-var instructionsDe = require('./instructions_de.json');
-var instructionsEn = require('./instructions_en.json');
+var instructionsDe = require('./instructions/de.json');
+var instructionsEn = require('./instructions/en.json');
 
 module.exports = {
     get: function(_language) {
