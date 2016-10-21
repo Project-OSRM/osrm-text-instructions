@@ -4,12 +4,11 @@ module.exports = function(version, language) {
 
     if (!instructions[version]) { throw 'invalid version ' + version; }
 
-    function capitalizeFirstLetter(string) {
-        return string.charAt(0).toUpperCase() + string.slice(1);
-    }
-
     var o = {
         instructions: instructions,
+        capitalizeFirstLetter: function(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1);
+        },
         ordinalize: function(number) {
             // Transform numbers to their translated ordinalized value
             return this.instructions[version].constants.ordinalize[number.toString()] || '';
@@ -163,7 +162,11 @@ module.exports = function(version, language) {
                 .replace('{nth}', nthWaypoint)
                 .replace(/ {2}/g, ' '); // remove excess spaces
 
-            return capitalizeFirstLetter(instruction);
+            if (this.instructions.meta.capitalize_first_letter) {
+                instruction = this.capitalizeFirstLetter(instruction);
+            }
+
+            return instruction;
         }
     };
 

@@ -1,4 +1,7 @@
 {
+    "meta": {
+        "capitalize_first_letter": true
+    },
     "v5": {
         "constants": {
             "ordinalize": {
