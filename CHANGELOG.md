@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. For change 
 ## Unreleased
 
 - put future changes here
+- Run tests per language via LANGUAGE=de npm test
 
 # 0.0.5 2016-10-26
 

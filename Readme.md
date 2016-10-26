@@ -60,8 +60,5 @@ To add own translations:
 - Translate
 - Add the new instructions file to `instructions.js`
 - Add the new instructions file to the `languages` array in `test/instructions_test.js`
-- To manually look at the changes:
-  - Change the locale in `test/index_test.js`
-  - Run `UPDATE=1 npm test` and look at the changes in `git diff`
-  - When done, revert via `git checkout test`
+- To manually look at your changes, run `LANGUAGE=<language_tag> npm test`. This will give you failing (since untranslated) tests
 - Make a PR
