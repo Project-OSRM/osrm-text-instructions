@@ -88,7 +88,7 @@ tape.test('v5 laneDiagram', function(assert) {
 
 tape.test('v5 compile', function(t) {
     t.test('fixtures match generated instructions', function(assert) {
-        var v5Instructions = instructions('v5', 'en');
+        var v5Instructions = instructions('v5', process.env.LANGUAGE || 'en');
         var basePath = path.join(__dirname, 'fixtures', 'v5/');
 
         fs.readdirSync(basePath).forEach(function(type) {
