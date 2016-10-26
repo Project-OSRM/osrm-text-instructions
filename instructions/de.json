@@ -367,7 +367,7 @@
             "default": {
                 "default": "{modifier} abbiegen",
                 "name": "{modifier} abbiegen auf {way_name}",
-                "destination": "{modifier} abbiegen auf {destination}"
+                "destination": "{modifier} abbiegen Richtung {destination}"
             },
             "left": {
                 "default": "Links abbiegen",
@@ -387,34 +387,22 @@
         },
         "use lane": {
             "no_lanes": {
-                "default": "Geradeaus weiterfahren",
-                "name": "Geradeaus weiterfahren auf {way_name}",
-                "destination": "Geradeaus weiterfahren Richtung {destination}"
+                "default": "Geradeaus weiterfahren"
             },
             "default": {
-                "default": "{lane_instruction} um {modifier} abzubiegen",
-                "name": "{lane_instruction} um {modifier} abzubiegen auf {way_name}",
-                "destination": "{lane_instruction} um {modifier} abzubiegen Richtung {destination}"
+                "default": "{lane_instruction} um {modifier} abzubiegen"
             },
             "straight": {
-                "default": "{lane_instruction}",
-                "name": "{lane_instruction} auf {way_name}",
-                "destination": "{lane_instruction} Richtung {destination}"
+                "default": "{lane_instruction}"
             },
             "left": {
-                "default": "{lane_instruction} um links abzubiegen",
-                "name": "{lane_instruction} um links abzubiegen auf {way_name}",
-                "destination": "{lane_instruction} um links abzubiegen Richtung {destination}"
+                "default": "{lane_instruction} um links abzubiegen"
             },
             "right": {
-                "default": "{lane_instruction} um rechts abzubiegen",
-                "name": "{lane_instruction} um rechts abzubiegen auf {way_name}",
-                "destination": "{lane_instruction} um rechts abzubiegen Richtung {way_name}"
+                "default": "{lane_instruction} um rechts abzubiegen"
             },
             "uturn": {
-                "default": "{lane_instruction} für eine 180°-Wendung",
-                "name": "{lane_instruction} für eine 180°-Wendung auf {way_name}",
-                "destination": "{lane_instruction} für eine 180°-Wendung Richtung {destination}"
+                "default": "{lane_instruction} für eine 180°-Wendung"
             }
         }
     }
