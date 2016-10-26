@@ -1,12 +1,14 @@
-var instructions = require('./instructions.json');
+module.exports = function(version, language) {
+    var instructions = require('./instructions').get(language);
+    if (Object !== instructions.constructor) throw 'instructions must be object';
 
-if (Object !== instructions.constructor) throw 'instructions must be object';
-
-module.exports = function(_version) {
-    var version = _version || 'v5';
+    if (!instructions[version]) { throw 'invalid version ' + version; }
 
     var o = {
         instructions: instructions,
+        capitalizeFirstLetter: function(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1);
+        },
         ordinalize: function(number) {
             // Transform numbers to their translated ordinalized value
             return this.instructions[version].constants.ordinalize[number.toString()] || '';
@@ -59,7 +61,6 @@ module.exports = function(_version) {
             return config.join('');
         },
         compile: function(step) {
-            if (!this.instructions[version]) { throw new Error('Invalid version'); }
             if (!step.maneuver) throw new Error('No step maneuver provided');
 
             var type = step.maneuver.type;
@@ -160,6 +161,10 @@ module.exports = function(_version) {
                 .replace('{direction}', this.directionFromDegree(step.maneuver.bearing_after))
                 .replace('{nth}', nthWaypoint)
                 .replace(/ {2}/g, ' '); // remove excess spaces
+
+            if (this.instructions.meta.capitalize_first_letter) {
+                instruction = this.capitalizeFirstLetter(instruction);
+            }
 
             return instruction;
         }

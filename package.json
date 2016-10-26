@@ -19,6 +19,6 @@
   },
   "scripts": {
     "lint": "eslint *.js",
-    "test": "npm run lint && node test/*_test.js"
+    "test": "npm run lint && tape test/*_test.js"
   }
 }
