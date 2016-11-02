@@ -142,7 +142,7 @@ module.exports = function(version, language) {
             var instruction;
             if (step.destinations && instructionObject.destination) {
                 instruction = instructionObject.destination;
-            } else if (wayName && instructionObject.name) {
+            } else if (wayName && instructionObject.name && wayName.indexOf('{') < 0) {
                 instruction = instructionObject.name;
             } else {
                 instruction = instructionObject.default;
