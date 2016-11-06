@@ -13,6 +13,10 @@ const languages = [
     {
         tag: 'fr',
         leftTurn: 'Tourner à gauche'
+    },
+    {
+        tag: 'nl',
+        leftTurn: 'Ga linksaf'
     }
 ];
 
