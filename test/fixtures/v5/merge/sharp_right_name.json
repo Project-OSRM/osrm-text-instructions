@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "merge",
+            "modifier": "sharp right"
+        },
+        "name": "Way Name"
+    },
+    "instruction": "Merge right onto Way Name"
+}

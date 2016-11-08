@@ -1,0 +1,11 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "merge",
+            "modifier": "slight left"
+        },
+        "name": "Way Name",
+        "destinations": "Destination 1,Destination 2"
+    },
+    "instruction": "Merge left towards Destination 1"
+}
