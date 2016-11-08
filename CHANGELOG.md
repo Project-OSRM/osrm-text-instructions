@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file. For change 
 - put future changes here
 - Run tests per language via LANGUAGE=de npm test
 - Shorter merge instructions (Merge slightly left -> Merge left)
+- Numeric ordinals (1st, 2nd) instead of word ordinals (first, second)
 
 # 0.0.5 2016-10-26
 

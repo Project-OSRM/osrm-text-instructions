@@ -8,5 +8,5 @@
         "name": "Way Name",
         "destinations": "Destination 1,Destination 2"
     },
-    "instruction": "Enter the roundabout and take the first exit towards Destination 1"
+    "instruction": "Enter the roundabout and take the 1st exit towards Destination 1"
 }
