@@ -160,24 +160,24 @@
                 "destination": "Merge {modifier} towards {destination}"
             },
             "slight left": {
-                "default": "Merge slightly left",
-                "name": "Merge slightly left onto {way_name}",
-                "destination": "Merge slightly left towards {destination}"
+                "default": "Merge left",
+                "name": "Merge left onto {way_name}",
+                "destination": "Merge left towards {destination}"
             },
             "slight right": {
-                "default": "Merge slightly right",
-                "name": "Merge slightly right onto {way_name}",
-                "destination": "Merge slightly right towards {destination}"
+                "default": "Merge right",
+                "name": "Merge right onto {way_name}",
+                "destination": "Merge right towards {destination}"
             },
             "sharp left": {
-                "default": "Merge sharply left",
-                "name": "Merge sharply left onto {way_name}",
-                "destination": "Merge sharply left towards {destination}"
+                "default": "Merge left",
+                "name": "Merge left onto {way_name}",
+                "destination": "Merge left towards {destination}"
             },
             "sharp right": {
-                "default": "Merge sharply right",
-                "name": "Merge sharply right onto {way_name}",
-                "destination": "Merge sharply right towards {destination}"
+                "default": "Merge right",
+                "name": "Merge right onto {way_name}",
+                "destination": "Merge right towards {destination}"
             },
             "uturn": {
                 "default": "Make a U-turn",

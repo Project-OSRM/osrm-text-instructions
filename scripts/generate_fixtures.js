@@ -4,7 +4,7 @@ var fs = require('fs');
 var path = require('path');
 
 var instructions = require('../index.js');
-var v5Instructions = instructions('v5');
+var v5Instructions = instructions('v5', 'en');
 var constants = require('../test/constants');
 var type = process.argv[2];
 
@@ -144,6 +144,7 @@ function execute() {
         };
         write(baseStep, path.join(basePath, 'way_name_ref_mapbox_hack_2'));
         break;
+    case 'merge':
     case 'turn':
         // do variation per modifier
         constants.modifiers.forEach((modifier) => {

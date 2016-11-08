@@ -62,6 +62,7 @@ tape.test('fixtures exist for every type/modifier combinations', function(assert
                     `${type}/${f}`);
             });
             break;
+        case 'merge':
         case 'turn':
             checkModifiers(type);
             break;

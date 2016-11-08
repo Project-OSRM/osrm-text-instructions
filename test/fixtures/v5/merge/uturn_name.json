@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "merge",
+            "modifier": "uturn"
+        },
+        "name": "Way Name"
+    },
+    "instruction": "Make a U-turn onto Way Name"
+}
