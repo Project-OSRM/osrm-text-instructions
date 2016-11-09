@@ -9,6 +9,10 @@ const languages = [
     {
         tag: 'de',
         leftTurn: 'Links abbiegen'
+    },
+    {
+        tag: 'fr',
+        leftTurn: 'Tourner à gauche'
     }
 ];
 
