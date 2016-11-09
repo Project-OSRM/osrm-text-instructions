@@ -25,13 +25,13 @@
                         "indications": [
                             "straight"
                         ],
-                        "valid": false
+                        "valid": true
                     },
                     {
                         "indications": [
                             "straight"
                         ],
-                        "valid": true
+                        "valid": false
                     },
                     {
                         "indications": [
@@ -44,5 +44,5 @@
         ],
         "name": ""
     },
-    "instruction": "Keep right"
+    "instruction": "Keep left or right"
 }

@@ -25,7 +25,7 @@
                         "indications": [
                             "straight"
                         ],
-                        "valid": false
+                        "valid": true
                     },
                     {
                         "indications": [
@@ -44,5 +44,5 @@
         ],
         "name": ""
     },
-    "instruction": "Keep right"
+    "instruction": "Continue straight"
 }

@@ -37,12 +37,12 @@
                         "indications": [
                             "straight"
                         ],
-                        "valid": true
+                        "valid": false
                     }
                 ]
             }
         ],
         "name": ""
     },
-    "instruction": "Keep right"
+    "instruction": "Keep in the middle"
 }

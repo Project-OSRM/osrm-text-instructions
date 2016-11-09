@@ -1,28 +1,54 @@
 {
     "step": {
-        "name": "Street Name",
         "maneuver": {
-            "type": "use lane",
-            "modifier": "left"
+            "modifier": "straight",
+            "type": "use lane"
         },
         "intersections": [
             {
+                "location": [
+                    13.39677,
+                    52.54366
+                ],
+                "in": 1,
+                "out": 2,
+                "bearings": [
+                    10,
+                    20
+                ],
+                "entry": [
+                    true,
+                    false
+                ],
                 "lanes": [
                     {
+                        "indications": [
+                            "straight"
+                        ],
                         "valid": false
                     },
                     {
+                        "indications": [
+                            "straight"
+                        ],
                         "valid": false
                     },
                     {
+                        "indications": [
+                            "straight"
+                        ],
                         "valid": true
                     },
                     {
+                        "indications": [
+                            "straight"
+                        ],
                         "valid": true
                     }
                 ]
             }
-        ]
+        ],
+        "name": ""
     },
-    "instruction": "Keep right to turn left"
+    "instruction": "Keep right"
 }

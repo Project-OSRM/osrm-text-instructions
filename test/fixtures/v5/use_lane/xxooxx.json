@@ -31,6 +31,12 @@
                         "indications": [
                             "straight"
                         ],
+                        "valid": false
+                    },
+                    {
+                        "indications": [
+                            "straight"
+                        ],
                         "valid": true
                     },
                     {
@@ -38,11 +44,23 @@
                             "straight"
                         ],
                         "valid": true
+                    },
+                    {
+                        "indications": [
+                            "straight"
+                        ],
+                        "valid": false
+                    },
+                    {
+                        "indications": [
+                            "straight"
+                        ],
+                        "valid": false
                     }
                 ]
             }
         ],
         "name": ""
     },
-    "instruction": "Keep right"
+    "instruction": "Keep in the middle"
 }

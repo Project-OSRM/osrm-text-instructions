@@ -390,16 +390,7 @@
                 "default": "Continue straight"
             },
             "default": {
-                "default": "{lane_instruction} to make a {modifier}"
-            },
-            "straight": {
                 "default": "{lane_instruction}"
-            },
-            "left": {
-                "default": "{lane_instruction} to turn left"
-            },
-            "right": {
-                "default": "{lane_instruction} to turn right"
             }
         }
     }

@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file. For change 
 - Run tests per language via LANGUAGE=de npm test
 - Shorter merge instructions (Merge slightly left -> Merge left)
 - Numeric ordinals (1st, 2nd) instead of word ordinals (first, second)
+- use lane only has straight as modifier, so simplify instructions.json and tests
 
 # 0.0.5 2016-10-26
 
