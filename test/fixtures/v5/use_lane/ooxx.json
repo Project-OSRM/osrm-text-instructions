@@ -25,24 +25,30 @@
                         "indications": [
                             "straight"
                         ],
+                        "valid": true
+                    },
+                    {
+                        "indications": [
+                            "straight"
+                        ],
+                        "valid": true
+                    },
+                    {
+                        "indications": [
+                            "straight"
+                        ],
                         "valid": false
                     },
                     {
                         "indications": [
                             "straight"
                         ],
-                        "valid": true
-                    },
-                    {
-                        "indications": [
-                            "straight"
-                        ],
-                        "valid": true
+                        "valid": false
                     }
                 ]
             }
         ],
         "name": ""
     },
-    "instruction": "Keep right"
+    "instruction": "Keep left"
 }

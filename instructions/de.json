@@ -390,19 +390,7 @@
                 "default": "Geradeaus weiterfahren"
             },
             "default": {
-                "default": "{lane_instruction} um {modifier} abzubiegen"
-            },
-            "straight": {
                 "default": "{lane_instruction}"
-            },
-            "left": {
-                "default": "{lane_instruction} um links abzubiegen"
-            },
-            "right": {
-                "default": "{lane_instruction} um rechts abzubiegen"
-            },
-            "uturn": {
-                "default": "{lane_instruction} für eine 180°-Wendung"
             }
         }
     }

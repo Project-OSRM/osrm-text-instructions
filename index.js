@@ -96,7 +96,7 @@ module.exports = function(version, language) {
                 laneInstruction = this.instructions[version].constants.lanes[this.laneConfig(step)];
 
                 if (!laneInstruction) {
-                    // If the lane combination is not found, default to continue
+                    // If the lane combination is not found, default to continue straight
                     instructionObject = this.instructions[version]['use lane'].no_lanes;
                 }
                 break;

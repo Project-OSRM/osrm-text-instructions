@@ -51,7 +51,7 @@ function writeVariations(baseStep, basePath) {
 };
 
 function execute() {
-    var basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', type);
+    var basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', underscorify(type));
 
     switch (type) {
     case 'modes':
@@ -237,13 +237,76 @@ function execute() {
         basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'roundabout', 'exit');
         baseStep = {
             maneuver: {
-                modifier: 'left', // roundaboouts don't care about modifiers
+                modifier: 'left', // roundabouts don't care about modifiers
                 type: 'roundabout',
                 exit: 1
             },
             name: '',
         };
         writeVariations(baseStep, basePath);
+        break;
+    case 'use lane':
+        function lanesFromConfig(config) {
+            var lanes = [];
+            config.split('').forEach((c) => {
+                switch (c) {
+                case 'x':
+                    lanes.push({
+                        indications: ["straight"],
+                        valid: false
+                    });
+                    break;
+                case 'o':
+                    lanes.push({
+                        indications: ["straight"],
+                        valid: true
+                    });
+                    break;
+                default:
+                    throw 'Invalid config ' + c
+                }
+            });
+            return lanes;
+        }
+        function writeLaneConfig(config) {
+            var step = Object.assign(clone(baseStep));
+            step.intersections[0].lanes = lanesFromConfig(config);
+            write(step, `${basePath}/${config}`);
+        }
+
+        var baseStep = {
+            maneuver: {
+                modifier: 'straight',
+                type: 'use lane'
+            },
+            intersections: [
+                {
+                    location: [ 13.39677,52.54366 ],
+                    in: 1,
+                    out: 2,
+                    bearings: [ 10, 20 ],
+                    entry: [ true, false ]
+                }
+            ],
+            name: '',
+        };
+
+        // lane combinations
+        [
+            'o',
+            'ooo',
+            'oox',
+            'xoo',
+            'xox',
+            'oxo',
+            'xxoo',
+            'ooxx',
+            'xxoxo',
+            'xxooxx',
+            'oooxxo'
+        ].forEach((c) => {
+            writeLaneConfig(c);
+        });
         break;
     default:
         console.error('Need to provide a type as first argument. Supported values:' + types.join(' ,'));

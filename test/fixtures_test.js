@@ -99,9 +99,29 @@ tape.test('fixtures exist for every type/modifier combinations', function(assert
                     `${type}/${s}_name`);
             });
             break;
+        case 'use lane':
+            [
+                'o',
+                'ooo',
+                'oox',
+                'xoo',
+                'xox',
+                'oxo',
+                'xxoo',
+                'ooxx',
+                'xxoxo',
+                'xxooxx',
+                'oooxxo'
+            ].forEach((c) => {
+                assert.ok(
+                    fs.existsSync(path.join(basePath, 'use_lane', `${c}.json`)),
+                    `use_lane/${c}`
+                );
+            });
+            break;
         default:
             checkModifiersNoName(type);
-            break
+            break;
         };
     });
 
