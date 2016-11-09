@@ -80,22 +80,22 @@
             "default": {
                 "default": "Continuer {modifier}",
                 "name": "Continuer {modifier} sur {way_name}",
-                "destination": "Continuer {modifier} en direction {destination}"
+                "destination": "Continuer {modifier} en direction de {destination}"
             },
             "slight left": {
                 "default": "Continuer légèrement à gauche",
                 "name": "Continuer légèrement à gauche sur {way_name}",
-                "destination": "Continuer légèrement à gauche en direction {destination}"
+                "destination": "Continuer légèrement à gauche en direction de {destination}"
             },
             "slight right": {
                 "default": "Continuer légèrement à droite",
                 "name": "Continuer légèrement à droite sur {way_name}",
-                "destination": "Continuer légèrement à droite en direction {destination}"
+                "destination": "Continuer légèrement à droite en direction de {destination}"
             },
             "uturn": {
                 "default": "Faire demi-tour",
                 "name": "Faire demi-tour sur {way_name}",
-                "destination": "Faire demi-tour en direction {destination}"
+                "destination": "Faire demi-tour en direction de {destination}"
             }
         },
         "depart": {
@@ -108,7 +108,7 @@
             "default": {
                 "default": "Tourner {modifier}",
                 "name": "Tourner {modifier} sur {way_name}",
-                "destination": "Tourner {modifier} en direction {destination}"
+                "destination": "Tourner {modifier} en direction de {destination}"
             },
             "straight": {
                 "default": "Continuer tout droit",
@@ -125,27 +125,27 @@
             "default": {
                 "default": "Rester {modifier} à l'embranchement",
                 "name": "Rester {modifier} à l'embranchement sur {way_name}",
-                "destination": "Rester {modifier} à l'embranchement en direction {destination}"
+                "destination": "Rester {modifier} à l'embranchement en direction de {destination}"
             },
             "slight left": {
                 "default": "Rester à gauche à l'embranchement",
                 "name": "Rester à gauche à l'embranchement sur {way_name}",
-                "destination": "Rester à gauche à l'embranchement en direction {destination}"
+                "destination": "Rester à gauche à l'embranchement en direction de {destination}"
             },
             "slight right": {
                 "default": "Rester à droite à l'embranchement",
                 "name": "Rester à droite à l'embranchement sur {way_name}",
-                "destination": "Rester à droite à l'embranchement en direction {destination}"
+                "destination": "Rester à droite à l'embranchement en direction de {destination}"
             },
             "sharp left": {
                 "default": "Prendre à gauche à l'embranchement",
                 "name": "Prendre à gauche à l'embranchement sur {way_name}",
-                "destination": "Prendre à gauche à l'embranchement en direction {destination}"
+                "destination": "Prendre à gauche à l'embranchement en direction de {destination}"
             },
             "sharp right": {
                 "default": "Prendre à droite à l'embranchement",
                 "name": "Prendre à droite à l'embranchement sur {way_name}",
-                "destination": "Prendre à droite à l'embranchement en direction {destination}"
+                "destination": "Prendre à droite à l'embranchement en direction de {destination}"
             },
             "uturn": {
                 "default": "Faire demi-tour",
@@ -233,7 +233,7 @@
             "default": {
                 "default": "Prendre la sortie",
                 "name": "Prendre la sortie sur {way_name}",
-                "destination": "Prendre la sortie en direction {destination}"
+                "destination": "Prendre la sortie en direction de {destination}"
             },
             "left": {
                 "default": "Prendre la sortie à gauche",
@@ -270,7 +270,7 @@
             "default": {
                 "default": "Prendre la sortie",
                 "name": "Prendre la sortie sur {way_name}",
-                "destination": "Prendre la sortie en direction {destination}"
+                "destination": "Prendre la sortie en direction de {destination}"
             },
             "left": {
                 "default": "Prendre la sortie à gauche",
