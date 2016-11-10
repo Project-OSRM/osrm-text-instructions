@@ -70,5 +70,5 @@ To add own translations:
 - Bump version in package.json
 - `git commit -am "vx.y.z"` with Changelog list in commit message
 - `git tag vx.y.z -a` with Changelog list in tag message
-- `git push; git push --tags`
+- `git push origin master; git push origin --tags`
 - `npm publish`
