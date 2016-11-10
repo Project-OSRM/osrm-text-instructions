@@ -4,10 +4,16 @@ All notable changes to this project will be documented in this file. For change 
 ## Unreleased
 
 - put future changes here
+
+# 0.0.6 2016-11-10
+
 - Run tests per language via LANGUAGE=de npm test
 - Shorter merge instructions (Merge slightly left -> Merge left)
 - Numeric ordinals (1st, 2nd) instead of word ordinals (first, second)
-- use lane only has straight as modifier, so simplify instructions.json and tests
+- Use lane only has straight as modifier, so simplify instructions.json and tests
+- Add French translation (thanks @guillaumerose)
+- Add Dutch translation (thanks @milovanderlinden)
+- Add Chinese translation (thanks @YunjieLi)
 
 # 0.0.5 2016-10-26
 

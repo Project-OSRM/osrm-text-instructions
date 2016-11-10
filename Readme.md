@@ -62,3 +62,13 @@ To add own translations:
 - Add the new instructions file to the `languages` array in `test/instructions_test.js`
 - To manually look at your changes, run `LANGUAGE=<language_tag> npm test`. This will give you failing (since untranslated) tests
 - Make a PR
+
+#### Release
+
+- `git checkout master`
+- Update Changelog.md
+- Bump version in package.json
+- `git commit -am "vx.y.z"` with Changelog list in commit message
+- `git tag vx.y.z -a` with Changelog list in tag message
+- `git push; git push --tags`
+- `npm publish`
