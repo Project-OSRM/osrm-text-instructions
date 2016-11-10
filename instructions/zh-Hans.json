@@ -1,6 +1,6 @@
 {
     "meta": {
-        "capitalizeFirstLetter": true
+        "capitalizeFirstLetter": false
     },
     "v5": {
         "constants": {
@@ -31,8 +31,8 @@
                 "right": "向右",
                 "sharp left": "向左",
                 "sharp right": "向右",
-                "slight left": "稍向左",
-                "slight right": "稍向右",
+                "slight left": "向左",
+                "slight right": "向右",
                 "straight": "直行",
                 "uturn": "调头"
             },
@@ -55,25 +55,25 @@
                 "default": "您已经到达您的{nth}个目的地"
             },
             "left": {
-                "default": "您已经到达您的{nth}个目的地, 在道路左侧"
+                "default": "您已经到达您的{nth}个目的地，在道路左侧"
             },
             "right": {
-                "default": "您已经到达您的{nth}个目的地, 在道路右侧"
+                "default": "您已经到达您的{nth}个目的地，在道路右侧"
             },
             "sharp left": {
-                "default": "您已经到达您的{nth}个目的地, 在道路左侧"
+                "default": "您已经到达您的{nth}个目的地，在道路左侧"
             },
             "sharp right": {
-                "default": "您已经到达您的{nth}个目的地, 在道路右侧"
+                "default": "您已经到达您的{nth}个目的地，在道路右侧"
             },
             "slight right": {
-                "default": "您已经到达您的{nth}个目的地, 在道路右侧"
+                "default": "您已经到达您的{nth}个目的地，在道路右侧"
             },
             "slight left": {
-                "default": "您已经到达您的{nth}个目的地, 在道路左侧"
+                "default": "您已经到达您的{nth}个目的地，在道路左侧"
             },
             "straight": {
-                "default": "您已经到达您的{nth}个目的地, 在您正前方"
+                "default": "您已经到达您的{nth}个目的地，在您正前方"
             }
         },
         "continue": {
@@ -90,8 +90,8 @@
         },
         "depart": {
             "default": {
-                "default": "朝{direction}方向出发",
-                "name": "朝{direction}方向上{way_name}"
+                "default": "出发向{direction}",
+                "name": "出发向{direction}，上{way_name}"
             }
         },
         "end of road": {
@@ -138,8 +138,8 @@
         "new name": {
             "default": {
                 "default": "继续{modifier}",
-                "name": "继续{modifier}， 上{way_name}",
-                "destination": "继续{modifier}， 前往{destination}"
+                "name": "继续{modifier}，上{way_name}",
+                "destination": "继续{modifier}，前往{destination}"
             },
              "uturn": {
                 "default": "调头",
@@ -161,7 +161,7 @@
         },
         "off ramp": {
             "default": {
-                "default": "通过匝道",
+                "default": "上匝道",
                 "name": "通过匝道驶入{way_name}",
                 "destination": "通过匝道前往{destination}"
             },
@@ -234,8 +234,8 @@
         "roundabout turn": {
             "default": {
                 "default": "在环岛{modifier}行驶",
-                "name": "在环岛{modifier}行驶前往{way_name}",
-                "destination": "At the roundabout make a {modifier} towards {destination}"
+                "name": "在环岛{modifier}行驶，上{way_name}",
+                "destination": "在环岛{modifier}行驶，前往{destination}"
             },
             "left": {
                 "default": "在环岛左转",

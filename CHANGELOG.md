@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. For change 
 ## Unreleased
 
 - put future changes here
+- Improve chinese translation
 
 # 0.0.7 2016-11-10
 
