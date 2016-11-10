@@ -17,6 +17,14 @@ const languages = [
     {
         tag: 'nl',
         leftTurn: 'Ga linksaf'
+    },
+    {
+        tag: 'zh',
+        leftTurn: '左转'
+    },
+    {
+        tag: 'zh-Hans',
+        leftTurn: '左转'
     }
 ];
 
