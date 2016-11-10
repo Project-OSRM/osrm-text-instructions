@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file. For change 
 
 - put future changes here
 
+# 0.0.7 2016-11-10
+
+- Fix name of chinese translation file
+
 # 0.0.6 2016-11-10
 
 - Run tests per language via LANGUAGE=de npm test
