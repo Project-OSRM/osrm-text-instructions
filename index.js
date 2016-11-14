@@ -162,7 +162,7 @@ module.exports = function(version, language) {
                 .replace('{nth}', nthWaypoint)
                 .replace(/ {2}/g, ' '); // remove excess spaces
 
-            if (this.instructions.meta.capitalize_first_letter) {
+            if (this.instructions.meta.capitalizeFirstLetter) {
                 instruction = this.capitalizeFirstLetter(instruction);
             }
 

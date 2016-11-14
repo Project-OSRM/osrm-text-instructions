@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file. For change 
 
 - put future changes here
 - Improve chinese translation
+- Standardize on capitalizeFirstLetter meta key
 
 # 0.0.7 2016-11-10
 
