@@ -1,6 +1,6 @@
 {
     "meta": {
-        "capitalize_first_letter": true
+        "capitalizeFirstLetter": true
     },
     "v5": {
         "constants": {
