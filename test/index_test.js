@@ -116,3 +116,68 @@ tape.test('v5 compile', function(t) {
         assert.end();
     });
 });
+
+tape.only('v5 precompileLookupTable and compile', function(t) {
+    var v5Instructions = instructions('v5', process.env.LANGUAGE || 'en');
+    var lookupTable;
+    var fixture = {
+        steps: [
+            {
+                maneuver: {
+                    type: 'depart',
+                    modifier: 'right',
+                    bearing_after: 270
+                },
+                name: "Chain Bridge Road",
+                ref: "VA 123"
+            },
+            {
+                maneuver: {
+                    type: 'turn',
+                    modifier: 'left',
+                    bearing_after: 270
+                },
+                name: "George Washington Memorial Parkway",
+                ref: "VA 123"
+            },
+            {
+                maneuver: {
+                    type: 'arrive',
+                    modifier: 'right',
+                    bearing_after: 270
+                },
+                name: "Chain Bridge Road",
+                ref: "VA 123"
+            }
+        ]
+    };
+
+    t.test('generates expected lookup table', function(assert) {
+        lookupTable = v5Instructions.precompilePriorityTable(fixture);
+
+        assert.deepEqual(lookupTable, {
+            "Chain Bridge Road": 2,
+            "VA 123": 3,
+            "George Washington Memorial Parkway": 1
+        });
+
+        assert.end();
+    });
+
+    t.test('has expected compile results', function(assert) {
+        assert.deepEqual(fixture.steps.map((step) => {
+            return v5Instructions.compile(step, lookupTable);
+        }), [
+            'Head west on VA 123',
+            'Turn left onto VA 123',
+            'You have arrived at your destination, on the right'
+        ]);
+
+        // Previously:
+        // 'Head west on Chain Bridge Road (VA 123)',
+        // 'Turn left onto George Washington Memorial Parkway (VA 123)',
+        // 'You have arrived at your destination, on the right'
+
+        assert.end();
+    });
+});
