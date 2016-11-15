@@ -7,7 +7,7 @@ tape.test('v5 directionFromDegree', function(assert) {
     var v5Instructions = instructions('v5', 'en');
 
     assert.equal(
-        v5Instructions.directionFromDegree(undefined),
+        v5Instructions.directionFromDegree(undefined), // eslint-disable-line no-undefined
         '',
         'empty string for undefined'
     );
@@ -41,7 +41,7 @@ tape.test('v5 directionFromDegree', function(assert) {
     });
 
     assert.throws(
-        () => { v5Instructions.directionFromDegree(361) },
+        () => { v5Instructions.directionFromDegree(361); },
         'throws on out of bounds degree'
     );
 
@@ -55,11 +55,11 @@ tape.test('v5 laneDiagram', function(assert) {
         return {
             intersections: [
                 {
-                    lanes: config.map((v) => { return { "valid": v }})
+                    lanes: config.map((v) => ({'valid': v}))
                 }
             ]
         };
-    };
+    }
 
     [
         [ [ true, true, true ], 'o' ],
@@ -79,7 +79,13 @@ tape.test('v5 laneDiagram', function(assert) {
     );
 
     assert.throws(
-        () => { v5Instructions.laneConfig({ intersections: [ {} ] }); },
+        () => {
+            v5Instructions.laneConfig({
+                intersections: [
+                    {}
+                ]
+            });
+        },
         'throws on non-existing lanes'
     );
 

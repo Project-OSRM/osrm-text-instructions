@@ -41,7 +41,7 @@ tape.test('verify language files load', function(assert) {
     });
 
     assert.throws(
-        () => { instructions('v5', 'this-will-never-exist') },
+        () => { instructions('v5', 'this-will-never-exist'); },
         'throws on non-existing language'
     );
 

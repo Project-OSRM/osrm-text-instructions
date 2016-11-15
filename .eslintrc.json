@@ -1,12 +1,13 @@
 {
     "env": {
         "browser": true,
-        "node": true
+        "node": true,
+        "es6": true
     },
     "extends": "eslint:recommended",
     "rules": {
         "accessor-pairs": "error",
-        "array-bracket-spacing": "error",
+        "array-bracket-spacing": "off",
         "array-callback-return": "error",
         "arrow-body-style": "error",
         "arrow-parens": "error",
@@ -122,7 +123,7 @@
         "no-loop-func": "error",
         "no-mixed-operators": "error",
         "no-mixed-requires": "error",
-        "no-multi-spaces": "error",
+        "no-multi-spaces": "off",
         "no-multi-str": "error",
         "no-negated-condition": "error",
         "no-nested-ternary": "error",

@@ -47,7 +47,7 @@ tape.test('fixtures exist for every type/modifier combinations', function(assert
     var types = constants.types;
     types.push('other');
     types.forEach(function(type) {
-        switch(type) {
+        switch (type) {
         case 'other':
             [
                 'invalid_type',
@@ -67,7 +67,7 @@ tape.test('fixtures exist for every type/modifier combinations', function(assert
             checkModifiers(type);
             break;
         case 'rotary':
-            [ 'default', 'exit_1', 'name', 'name_exit' ].forEach((s) => {
+            ['default', 'exit_1', 'name', 'name_exit'].forEach((s) => {
                 assert.ok(
                     fs.existsSync(path.join(basePath, 'rotary', `${s}_default.json`)),
                     `${type}/${s}_default`);
@@ -80,14 +80,14 @@ tape.test('fixtures exist for every type/modifier combinations', function(assert
             });
 
             // special fixtures for ordinalization
-            for (i = 2; i <= 11; i++) {
+            for (var i = 2; i <= 11; i += 1) {
                 assert.ok(
                     fs.existsSync(path.join(basePath, 'rotary', `exit_${i}.json`)),
                     `${type}/exit_${i}_default`);
-            };
+            }
             break;
         case 'roundabout':
-            [ 'default', 'exit' ].forEach((s) => {
+            ['default', 'exit'].forEach((s) => {
                 assert.ok(
                     fs.existsSync(path.join(basePath, 'roundabout', `${s}_default.json`)),
                     `${type}/${s}_default`);
@@ -122,7 +122,7 @@ tape.test('fixtures exist for every type/modifier combinations', function(assert
         default:
             checkModifiersNoName(type);
             break;
-        };
+        }
     });
 
     assert.end();
