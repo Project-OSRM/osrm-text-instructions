@@ -3,7 +3,8 @@
         "maneuver": {
             "bearing_after": 0,
             "type": "arrive"
-        }
+        },
+        "name": ""
     },
     "instruction": "You have arrived at your destination"
 }
