@@ -18,7 +18,10 @@ osrm-text-instructions transforms OSRM route responses into text instructions. I
 ### Javascript Usage
 
 ```
-var osrmTextInstructions = require('osrm-text-instructions')('v5', 'en');
+var version = 'v5';
+var language = 'en';
+var options = {};
+var osrmTextInstructions = require('osrm-text-instructions')(version, language, options);
 
 // make your request against the API
 
@@ -28,6 +31,12 @@ response.legs.forEach(function(leg) {
   });
 });
 ```
+
+parameter | required? | values | description
+---|----|----|---
+`version` | required | `v5` | Major OSRM version
+`language` | required | `en` `de` `zh-Hans` `fr` `nl` | Language identifier
+`options.hooks.tokenizedIstruction` | optional | `function(instruction)` | A function to change the raw instruction string before tokens are replaced. Useful to inject custom markup for tokens
 
 ### Development
 #### Architecture
