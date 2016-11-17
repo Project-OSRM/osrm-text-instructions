@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file. For change 
 ## Unreleased
 
 - put future changes here
+
+# 0.1.0 2016-11-17
+
 - Improve chinese translation
 - Standardize capitalizeFirstLetter meta key
 - Change instructions object customization to options.hooks.tokenizedInstruction

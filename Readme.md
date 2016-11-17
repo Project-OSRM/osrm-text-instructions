@@ -75,7 +75,7 @@ To add own translations:
 #### Release
 
 - `git checkout master`
-- Update Changelog.md
+- Update CHANGELOG.md
 - Bump version in package.json
 - `git commit -am "vx.y.z"` with Changelog list in commit message
 - `git tag vx.y.z -a` with Changelog list in tag message
