@@ -132,11 +132,11 @@ tape.test('v5 compile', function(t) {
         });
 
         assert.equal(v5Instructions.compile({
-            "maneuver": {
-                "type": "turn",
-                "modifier": "left"
+            maneuver: {
+                type: 'turn',
+                modifier: 'left'
             },
-            "name": "Way Name"
+            name: 'Way Name'
         }), 'Turn left onto <blink>Way Name</blink>');
         assert.end();
     });
