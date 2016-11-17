@@ -115,4 +115,23 @@ tape.test('v5 compile', function(t) {
 
         assert.end();
     });
+
+    t.test('respects options.instructionStringHook', function(assert) {
+        var v5Instructions = instructions('v5', 'en', {
+            hooks: {
+                tokenizedInstruction: function(instruction) {
+                    return instruction.replace('{way_name}', '<blink>{way_name}</blink>');
+                }
+            }
+        });
+
+        assert.equal(v5Instructions.compile({
+            "maneuver": {
+                "type": "turn",
+                "modifier": "left"
+            },
+            "name": "Way Name"
+        }), 'Turn left onto <blink>Way Name</blink>');
+        assert.end();
+    });
 });
