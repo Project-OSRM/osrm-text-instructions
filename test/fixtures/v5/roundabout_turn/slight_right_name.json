@@ -4,7 +4,7 @@
             "type": "roundabout turn",
             "modifier": "slight right"
         },
-        "name": "Street Name"
+        "name": "Way Name"
     },
-    "instruction": "At the roundabout make a slight right onto Street Name"
+    "instruction": "At the roundabout make a slight right onto Way Name"
 }

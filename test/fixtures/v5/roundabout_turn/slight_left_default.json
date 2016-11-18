@@ -1,8 +1,8 @@
 {
     "step": {
         "maneuver": {
-            "modifier": "slight left",
-            "type": "roundabout turn"
+            "type": "roundabout turn",
+            "modifier": "slight left"
         },
         "name": ""
     },

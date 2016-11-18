@@ -189,6 +189,7 @@ function execute() {
     case 'notification':
     case 'on ramp':
     case 'off ramp':
+    case 'roundabout turn':
     case 'turn':
         // do variation per modifier
         constants.modifiers.forEach((modifier) => {
