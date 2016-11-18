@@ -74,6 +74,30 @@ function execute() {
             write(step, path.join(basePath, underscorify(modifier)));
         });
         break;
+    case 'depart':
+        var step = {
+            maneuver: {
+                bearing_after: 0,
+                type: 'depart',
+                modifier: 'left'
+            },
+            name: ''
+        };
+        writeVariations(step, path.join(basePath, 'modifier'));
+
+        constants.directions.forEach((direction) => {
+            direction.slice(1).forEach((bearing) => {
+                var step = {
+                    maneuver: {
+                        bearing_after: bearing,
+                        type: 'depart'
+                    },
+                    name: ''
+                };
+                write(step, path.join(basePath, `${direction[0]}_${bearing}`));
+            });
+        });
+        break;
     case 'modes':
         baseStep = {
             maneuver: {

@@ -1,8 +1,8 @@
 {
     "step": {
         "maneuver": {
-            "type": "depart",
-            "bearing_after": 0
+            "bearing_after": 340,
+            "type": "depart"
         },
         "name": ""
     },

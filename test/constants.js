@@ -29,4 +29,16 @@ constants.modifiers = [
     'uturn'
 ];
 
+// semantic direction (also: key of translation), start bearing, end bearing
+constants.directions = [
+    [ 'north',     340, 20  ],
+    [ 'northeast', 21,  69  ],
+    [ 'east',      70,  109 ],
+    [ 'southeast', 110, 160 ],
+    [ 'south',     161, 200 ],
+    [ 'southwest', 201, 249 ],
+    [ 'west',      250, 290 ],
+    [ 'northwest', 291, 339 ]
+];
+
 module.exports = constants;

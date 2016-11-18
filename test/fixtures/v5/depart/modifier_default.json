@@ -1,9 +1,9 @@
 {
     "step": {
         "maneuver": {
-            "modifier": "uturn",
+            "bearing_after": 0,
             "type": "depart",
-            "bearing_after": 0
+            "modifier": "left"
         },
         "name": ""
     },
