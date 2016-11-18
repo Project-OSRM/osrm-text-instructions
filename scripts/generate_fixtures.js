@@ -187,6 +187,8 @@ function execute() {
     case 'merge':
     case 'new name':
     case 'notification':
+    case 'on ramp':
+    case 'off ramp':
     case 'turn':
         // do variation per modifier
         constants.modifiers.forEach((modifier) => {
