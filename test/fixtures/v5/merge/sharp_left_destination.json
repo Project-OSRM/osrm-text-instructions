@@ -7,5 +7,11 @@
         "name": "Way Name",
         "destinations": "Destination 1,Destination 2"
     },
-    "instruction": "Merge left towards Destination 1"
+    "instructions": {
+        "de": "Scharf links auffahren Richtung Destination 1",
+        "en": "Merge left towards Destination 1",
+        "fr": "Rejoindre par la gauche la route en direction de Destination 1",
+        "nl": "Bij de splitsing linksaf richting Destination 1",
+        "zh-Hans": "向左并道，前往Destination 1"
+    }
 }

@@ -44,5 +44,11 @@
         ],
         "name": ""
     },
-    "instruction": "Keep right"
+    "instructions": {
+        "de": "Rechts halten",
+        "en": "Keep right",
+        "fr": "Serrer à droite",
+        "nl": "Rechts aanhouden",
+        "zh-Hans": "靠右直行"
+    }
 }

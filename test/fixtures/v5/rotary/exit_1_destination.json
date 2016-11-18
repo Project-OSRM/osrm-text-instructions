@@ -8,5 +8,11 @@
         "name": "Way Name",
         "destinations": "Destination 1,Destination 2"
     },
-    "instruction": "Enter the rotary and take the 1st exit towards Destination 1"
+    "instructions": {
+        "de": "In den Kreisverkehr fahren und erste Ausfahrt nehmen Richtung Destination 1",
+        "en": "Enter the rotary and take the 1st exit towards Destination 1",
+        "fr": "Entrer dans le rond-point et prendre la première sortie en direction de Destination 1",
+        "nl": "Ga het knooppunt op en neem afslag eerste richting Destination 1",
+        "zh-Hans": "进入环岛后从第一出口驶出前往Destination 1"
+    }
 }

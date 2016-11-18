@@ -6,5 +6,11 @@
         },
         "name": "Way Name"
     },
-    "instruction": "Take a sharp right onto Way Name"
+    "instructions": {
+        "de": "Scharf rechts auf Way Name",
+        "en": "Take a sharp right onto Way Name",
+        "fr": "Prendre à droite sur Way Name",
+        "nl": "Rechtsaf naar Way Name",
+        "zh-Hans": "继续向右，上Way Name"
+    }
 }

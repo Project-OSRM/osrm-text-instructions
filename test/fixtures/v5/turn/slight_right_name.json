@@ -6,5 +6,11 @@
         },
         "name": "Way Name"
     },
-    "instruction": "Make a slight right onto Way Name"
+    "instructions": {
+        "de": "Leicht rechts abbiegen auf Way Name",
+        "en": "Make a slight right onto Way Name",
+        "fr": "Tourner légèrement à droite sur Way Name",
+        "nl": "Ga rechts naar Way Name",
+        "zh-Hans": "向右转弯，上Way Name"
+    }
 }

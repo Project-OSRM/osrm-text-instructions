@@ -8,5 +8,11 @@
         "name": "Way Name",
         "destinations": "Destination 1,Destination 2"
     },
-    "instruction": "Head north on Way Name"
+    "instructions": {
+        "de": "Fahren Sie Richtung Norden auf Way Name",
+        "en": "Head north on Way Name",
+        "fr": "Rouler vers le nord sur Way Name",
+        "nl": "Neem Way Name in noordelijke richting",
+        "zh-Hans": "出发向北，上Way Name"
+    }
 }

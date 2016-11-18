@@ -62,5 +62,11 @@
         ],
         "name": ""
     },
-    "instruction": "Keep in the middle"
+    "instructions": {
+        "de": "Mittlere Spur nutzen",
+        "en": "Keep in the middle",
+        "fr": "Rester au milieu",
+        "nl": "In het midden blijven",
+        "zh-Hans": "保持在道路中间直行"
+    }
 }

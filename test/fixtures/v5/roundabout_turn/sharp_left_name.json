@@ -6,5 +6,11 @@
         },
         "name": "Way Name"
     },
-    "instruction": "At the roundabout make a sharp left onto Way Name"
+    "instructions": {
+        "de": "Am Kreisverkehr scharf links auf Way Name",
+        "en": "At the roundabout make a sharp left onto Way Name",
+        "fr": "Au rond-point, tourner franchement à gauche sur Way Name",
+        "nl": "Ga linksaf op de rotonde naar Way Name",
+        "zh-Hans": "在环岛向左行驶，上Way Name"
+    }
 }

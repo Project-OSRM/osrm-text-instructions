@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Enter the roundabout"
+    "instructions": {
+        "de": "In den Kreisverkehr fahren",
+        "en": "Enter the roundabout",
+        "fr": "Entrer dans le rond-point",
+        "nl": "Ga de rotonde op",
+        "zh-Hans": "进入环岛"
+    }
 }

@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Keep left at the fork"
+    "instructions": {
+        "de": "Links halten an der Gabelung",
+        "en": "Keep left at the fork",
+        "fr": "Rester à gauche à l'embranchement",
+        "nl": "Ga links op de splitsing",
+        "zh-Hans": "在岔道保持向左"
+    }
 }

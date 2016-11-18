@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Merge right"
+    "instructions": {
+        "de": "Scharf rechts auffahren",
+        "en": "Merge right",
+        "fr": "Rejoindre par la droite",
+        "nl": "Bij de splitsing rechtsaf",
+        "zh-Hans": "向右并道"
+    }
 }

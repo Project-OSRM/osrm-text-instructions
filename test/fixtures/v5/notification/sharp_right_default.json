@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Continue sharp right"
+    "instructions": {
+        "de": "Scharf rechts weiterfahren",
+        "en": "Continue sharp right",
+        "fr": "Continuer franchement à droite",
+        "nl": "Ga rechtsaf",
+        "zh-Hans": "继续向右"
+    }
 }

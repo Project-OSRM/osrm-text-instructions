@@ -6,5 +6,11 @@
         },
         "name": "Way Name"
     },
-    "instruction": "Continue straight onto Way Name"
+    "instructions": {
+        "de": "Geradeaus weiterfahren auf Way Name",
+        "en": "Continue straight onto Way Name",
+        "fr": "Continuer tout droit sur Way Name",
+        "nl": "Ga naar Way Name",
+        "zh-Hans": "继续直行，上Way Name"
+    }
 }

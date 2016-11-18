@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Head southwest"
+    "instructions": {
+        "de": "Fahren Sie Richtung Südwesten",
+        "en": "Head southwest",
+        "fr": "Rouler vers le sud-ouest",
+        "nl": "Vertrek in zuidwestelijke richting",
+        "zh-Hans": "出发向西南"
+    }
 }

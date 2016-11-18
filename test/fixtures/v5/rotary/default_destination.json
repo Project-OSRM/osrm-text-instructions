@@ -7,5 +7,11 @@
         "name": "Way Name",
         "destinations": "Destination 1,Destination 2"
     },
-    "instruction": "Enter the rotary and exit towards Destination 1"
+    "instructions": {
+        "de": "In den Kreisverkehr fahren und Richtung Destination 1 verlassen",
+        "en": "Enter the rotary and exit towards Destination 1",
+        "fr": "Entrer dans le rond-point et sortir en direction de Destination 1",
+        "nl": "Verlaat het knooppunt richting Destination 1",
+        "zh-Hans": "通过环岛前往Destination 1"
+    }
 }

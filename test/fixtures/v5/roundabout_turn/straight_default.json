@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "At the roundabout continue straight"
+    "instructions": {
+        "de": "Am Kreisverkehr geradeaus weiterfahren",
+        "en": "At the roundabout continue straight",
+        "fr": "Au rond-point, continuer tout droit",
+        "nl": "Rechtdoor op de rotonde",
+        "zh-Hans": "在环岛继续直行"
+    }
 }

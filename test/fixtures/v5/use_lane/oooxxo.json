@@ -62,5 +62,11 @@
         ],
         "name": ""
     },
-    "instruction": "Keep left or right"
+    "instructions": {
+        "de": "Rechts oder links halten",
+        "en": "Keep left or right",
+        "fr": "Rester à gauche ou à droite",
+        "nl": "Links of rechts blijven",
+        "zh-Hans": "保持在道路两侧直行"
+    }
 }

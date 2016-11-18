@@ -8,5 +8,11 @@
         "name": "Way Name",
         "destinations": "Destination 1,Destination 2"
     },
-    "instruction": "Take the ferry towards Destination 1"
+    "instructions": {
+        "de": "Fähre nehmen Richtung Destination 1",
+        "en": "Take the ferry towards Destination 1",
+        "fr": "Prendre le ferry en direction de Destination 1",
+        "nl": "Neem het veer naar Destination 1",
+        "zh-Hans": "乘坐开往Destination 1的轮渡"
+    }
 }

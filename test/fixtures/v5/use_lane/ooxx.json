@@ -50,5 +50,11 @@
         ],
         "name": ""
     },
-    "instruction": "Keep left"
+    "instructions": {
+        "de": "Links halten",
+        "en": "Keep left",
+        "fr": "Serrer à gauche",
+        "nl": "Links aanhouden",
+        "zh-Hans": "靠左直行"
+    }
 }

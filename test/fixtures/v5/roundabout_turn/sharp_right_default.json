@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "At the roundabout make a sharp right"
+    "instructions": {
+        "de": "Am Kreisverkehr scharf rechts",
+        "en": "At the roundabout make a sharp right",
+        "fr": "Au rond-point, tourner franchement à droite",
+        "nl": "Ga rechtsaf op de rotonde",
+        "zh-Hans": "在环岛向右行驶"
+    }
 }

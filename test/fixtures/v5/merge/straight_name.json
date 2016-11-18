@@ -6,5 +6,11 @@
         },
         "name": "Way Name"
     },
-    "instruction": "Merge straight onto Way Name"
+    "instructions": {
+        "de": "Geradeaus auffahren auf Way Name",
+        "en": "Merge straight onto Way Name",
+        "fr": "Rejoindre tout droit sur Way Name",
+        "nl": "Bij de splitsing rechtdoor naar Way Name",
+        "zh-Hans": "直行并道，上Way Name"
+    }
 }

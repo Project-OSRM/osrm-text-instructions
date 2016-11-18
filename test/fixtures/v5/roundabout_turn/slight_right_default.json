@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "At the roundabout make a slight right"
+    "instructions": {
+        "de": "Am Kreisverkehr leicht rechts",
+        "en": "At the roundabout make a slight right",
+        "fr": "Au rond-point, tourner légèrement à droite",
+        "nl": "Ga rechts op de rotonde",
+        "zh-Hans": "在环岛向右行驶"
+    }
 }

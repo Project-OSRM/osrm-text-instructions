@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Merge left"
+    "instructions": {
+        "de": "Links auffahren",
+        "en": "Merge left",
+        "fr": "Rejoindre à gauche",
+        "nl": "Bij de splitsing links",
+        "zh-Hans": "向左并道"
+    }
 }

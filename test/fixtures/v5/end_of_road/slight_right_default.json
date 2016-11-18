@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Turn slight right"
+    "instructions": {
+        "de": "Leicht rechts abbiegen",
+        "en": "Turn slight right",
+        "fr": "Tourner légèrement à droite",
+        "nl": "Ga rechts",
+        "zh-Hans": "向右行驶"
+    }
 }

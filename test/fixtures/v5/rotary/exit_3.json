@@ -7,5 +7,11 @@
         },
         "name": ""
     },
-    "instruction": "Enter the rotary and take the 3rd exit"
+    "instructions": {
+        "de": "In den Kreisverkehr fahren und dritte Ausfahrt nehmen",
+        "en": "Enter the rotary and take the 3rd exit",
+        "fr": "Entrer dans le rond-point et prendre la troisième sortie",
+        "nl": "Ga het knooppunt op en neem afslag derde",
+        "zh-Hans": "进入环岛并从第三出口驶出"
+    }
 }

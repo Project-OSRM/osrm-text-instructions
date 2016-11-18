@@ -7,5 +7,11 @@
         "name": "Ref0;Ref1 (Another Way (Ref1.1));Ref2",
         "ref": "Ref0;Ref1 (Another Way (Ref1.1));Ref2"
     },
-    "instruction": "Turn left onto Ref0"
+    "instructions": {
+        "de": "Links abbiegen auf Ref0",
+        "en": "Turn left onto Ref0",
+        "fr": "Tourner à gauche sur Ref0",
+        "nl": "Ga linksaf naar Ref0",
+        "zh-Hans": "左转，上Ref0"
+    }
 }

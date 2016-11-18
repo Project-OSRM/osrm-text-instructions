@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Continue slightly left"
+    "instructions": {
+        "de": "Leicht links weiter",
+        "en": "Continue slightly left",
+        "fr": "Continuer légèrement à gauche",
+        "nl": "Links aanhouden",
+        "zh-Hans": "继续向左"
+    }
 }

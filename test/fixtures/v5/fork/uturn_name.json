@@ -6,5 +6,11 @@
         },
         "name": "Way Name"
     },
-    "instruction": "Make a U-turn onto Way Name"
+    "instructions": {
+        "de": "180°-Wendung auf Way Name",
+        "en": "Make a U-turn onto Way Name",
+        "fr": "Faire demi-tour sur Way Name",
+        "nl": "Keer om naar Way Name",
+        "zh-Hans": "调头，上Way Name"
+    }
 }

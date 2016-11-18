@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Take a sharp right at the fork"
+    "instructions": {
+        "de": "Scharf rechts abbiegen an der Gabelung",
+        "en": "Take a sharp right at the fork",
+        "fr": "Prendre à droite à l'embranchement",
+        "nl": "Rechtsaf op de splitsing",
+        "zh-Hans": "在岔道保持向右"
+    }
 }

@@ -56,5 +56,11 @@
         ],
         "name": ""
     },
-    "instruction": "Continue straight"
+    "instructions": {
+        "de": "Geradeaus weiterfahren",
+        "en": "Continue straight",
+        "fr": "Continuer tout droit",
+        "nl": "Rechtdoor",
+        "zh-Hans": "继续直行"
+    }
 }

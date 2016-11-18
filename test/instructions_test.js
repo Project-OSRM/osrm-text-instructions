@@ -1,32 +1,18 @@
 var tape = require('tape');
 var instructions = require('../index.js');
+var languageInstructions = require('../instructions');
 
-const languages = [
-    {
-        tag: 'en',
-        leftTurn: 'Turn left'
-    },
-    {
-        tag: 'de',
-        leftTurn: 'Links abbiegen'
-    },
-    {
-        tag: 'fr',
-        leftTurn: 'Tourner à gauche'
-    },
-    {
-        tag: 'nl',
-        leftTurn: 'Ga linksaf'
-    },
-    {
-        tag: 'zh',
-        leftTurn: '左转'
-    },
-    {
-        tag: 'zh-Hans',
-        leftTurn: '左转'
-    }
-];
+const languages = Object.keys(languageInstructions.table);
+const distinctLanguages = languages
+    .map((k) => {
+        var v = languageInstructions.table[k];
+        if (v && v.constructor === Object) {
+            return k;
+        } else {
+            return false;
+        }
+    })
+    .filter((l) => l);
 
 tape.test('verify language files load', function(assert) {
     var step = {
@@ -37,7 +23,7 @@ tape.test('verify language files load', function(assert) {
     };
 
     languages.forEach((l) => {
-        assert.equal(instructions('v5', l.tag).compile(step), l.leftTurn, 'has ' + l.tag);
+        assert.ok(instructions('v5', l).compile(step), 'has ' + l);
     });
 
     assert.throws(
@@ -53,28 +39,28 @@ tape.test('verify language files structure', function(assert) {
     // the reference english language file
     var english = require('../instructions').get('en');
 
-    languages.forEach((l) => {
-        if (l.tag === 'en') return; // do not need to compare to self
-        var translation = require('../instructions').get(l.tag);
+    distinctLanguages.forEach((l) => {
+        if (l === 'en') return; // do not need to compare to self
+        var translation = require('../instructions').get(l);
 
         assert.deepEqual(
             Object.keys(translation.v5),
             Object.keys(english.v5),
-            l.tag + ' has correct type keys'
+            l + ' has correct type keys'
         );
 
         Object.keys(english.v5.constants).forEach((c) => {
-            assert.ok(translation.v5.constants[c], l.tag + ' has constant ' + c);
+            assert.ok(translation.v5.constants[c], l + ' has constant ' + c);
             assert.deepEqual(
                 Object.keys(translation.v5.constants[c]),
                 Object.keys(english.v5.constants[c]),
-                l.tag + ' has correct contant ' + c + ' keys');
+                l + ' has correct contant ' + c + ' keys');
         });
 
         assert.deepEqual(
             Object.keys(translation.v5.rotary.default),
             Object.keys(english.v5.rotary.default),
-            l.tag + ' has correct rotary variance keys'
+            l + ' has correct rotary variance keys'
         );
     });
 
