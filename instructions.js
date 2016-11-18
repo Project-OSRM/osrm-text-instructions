@@ -4,6 +4,7 @@ var instructionsDe = require('./instructions/de.json');
 var instructionsEn = require('./instructions/en.json');
 var instructionsFr = require('./instructions/fr.json');
 var instructionsNl = require('./instructions/nl.json');
+var instructionsVi = require('./instructions/vi.json');
 var instructionsZhHans = require('./instructions/zh-Hans.json');
 
 // Table to match tag to required language files
@@ -13,6 +14,7 @@ var table = {
     'en': instructionsEn,
     'fr': instructionsFr,
     'nl': instructionsNl,
+    'vi': instructionsVi,
     'zh-Hans': instructionsZhHans,
     'zh': 'zh-Hans'
 };
