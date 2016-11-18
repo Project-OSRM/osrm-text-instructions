@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "bearing_after": 110,
+            "type": "depart"
+        },
+        "name": ""
+    },
+    "instruction": "Head southeast"
+}

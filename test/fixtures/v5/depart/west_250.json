@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "bearing_after": 250,
+            "type": "depart"
+        },
+        "name": ""
+    },
+    "instruction": "Head west"
+}

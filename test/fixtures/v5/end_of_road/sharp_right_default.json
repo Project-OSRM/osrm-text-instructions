@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "end of road",
+            "modifier": "sharp right"
+        },
+        "name": ""
+    },
+    "instruction": "Turn sharp right"
+}

@@ -1,0 +1,11 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "off ramp",
+            "modifier": "straight"
+        },
+        "name": "Way Name",
+        "destinations": "Destination 1,Destination 2"
+    },
+    "instruction": "Take the ramp towards Destination 1"
+}

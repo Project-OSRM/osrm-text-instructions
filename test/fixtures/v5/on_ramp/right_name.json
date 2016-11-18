@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "on ramp",
+            "modifier": "right"
+        },
+        "name": "Way Name"
+    },
+    "instruction": "Take the ramp on the right onto Way Name"
+}

@@ -1,105 +1,375 @@
+/* eslint max-lines: "off", no-inner-declarations: "off" */
+
 var path = require('path');
 var fs = require('fs');
 var tape = require('tape');
-var constants = require('./constants');
+var mkdirp = require('mkdirp');
 
-tape.test('fixtures exist for every type/modifier combinations', function(assert) {
-    var instructions = require('../instructions').get('en');
-    var basePath = path.join(__dirname, 'fixtures', 'v5');
+var constants = require('./constants');
+var instructions = require('../index.js');
+
+tape.test('verify existance/update fixtures', function(assert) {
+    var v5Instructions = instructions('v5', 'en');
+
+    function clone(obj) {
+        return JSON.parse(JSON.stringify(obj));
+    }
 
     function underscorify(input) {
         return input.replace(/ /g, '_');
     }
 
-    function checkModifiers(type) {
-        constants.modifiers.forEach(function(modifier) {
+    function checkOrWrite(step, p) {
+        var fileName = `${p}.json`;
+        var testName = p
+            .split('/')
+            .slice(-2)
+            .join('/');
+
+        if (process.env.UPDATE) {
+            // write fixture
+            fs.writeFileSync(
+                fileName,
+                JSON.stringify({
+                    step: step,
+                    instruction: v5Instructions.compile(step)
+                }, null, 4) + '\n'
+            );
+            assert.ok(true, `updated ${testName}`);
+        } else {
+            // check for existance
             assert.ok(
-                fs.existsSync(path.join(basePath, underscorify(type), `${underscorify(modifier)}_default.json`)),
-                `${type}/${modifier}_default`);
-            assert.ok(
-                fs.existsSync(path.join(basePath, underscorify(type), `${underscorify(modifier)}_destination.json`)),
-                `${type}/${modifier}_destination`);
-            assert.ok(
-                fs.existsSync(path.join(basePath, underscorify(type), `${underscorify(modifier)}_name.json`)),
-                `${type}/${modifier}_name`);
-        });
+                fs.existsSync(fileName),
+                `verified existance of ${testName}`
+            );
+        }
     }
 
-    function checkModifiersNoName(type) {
-        // TODO: Remove this function and replace it complately by checkModifiers
-        constants.modifiers.forEach(function(modifier) {
-            // check normal fixture
-            var p = path.join(basePath, underscorify(type), underscorify(modifier) + '.json');
+    function checkOrWriteVariations(baseStep, basePath) {
+        var step;
+        // default
+        checkOrWrite(baseStep, `${basePath}_default`);
 
-            assert.ok(fs.existsSync(p), type + '/' + modifier);
+        // name
+        step = Object.assign(clone(baseStep), {name: 'Way Name'});
+        checkOrWrite(step, `${basePath}_name`);
 
-            // check no_name fixture if should exist
-            var noNamePath = path.join(basePath, underscorify(type), underscorify(modifier) + '_no_name.json');
-
-            if (instructions.v5[type].default.name ||
-                instructions.v5[type].default.default.name
-            ) {
-                assert.ok(fs.existsSync(noNamePath), type + '/' + modifier + '/no name');
-            }
+        // destination
+        step = Object.assign(clone(baseStep), {
+            name: 'Way Name',
+            destinations: 'Destination 1,Destination 2'
         });
+        checkOrWrite(step, `${basePath}_destination`);
     }
 
-    var types = constants.types;
-    types.push('other');
-    types.forEach(function(type) {
+    [ 'modes', 'other' ].concat(constants.types).forEach((type) => {
+        var basePath = path.join(__dirname, 'fixtures', 'v5', underscorify(type));
+        var baseStep, step;
+
+        // verify directory exists
+        mkdirp.sync(basePath);
+
         switch (type) {
-        case 'other':
-            [
-                'invalid_type',
-                'way_name_ref',
-                'way_name_ref_name',
-                'way_name_ref_destinations',
-                'way_name_ref_mapbox_hack_1',
-                'way_name_ref_mapbox_hack_2'
-            ].forEach((f) => {
-                assert.ok(
-                    fs.existsSync(path.join(basePath, 'other', `${f}.json`)),
-                    `${type}/${f}`);
+        case 'arrive':
+            step = {
+                maneuver: {
+                    type: 'arrive'
+                },
+                name: 'Street Name'
+            };
+            checkOrWrite(step, path.join(basePath, 'no_modifier'));
+
+            constants.modifiers.forEach((modifier) => {
+                var step = {
+                    maneuver: {
+                        type: 'arrive',
+                        modifier: modifier
+                    },
+                    name: 'Street Name'
+                };
+                checkOrWrite(step, path.join(basePath, underscorify(modifier)));
             });
             break;
+        case 'depart':
+            step = {
+                maneuver: {
+                    'bearing_after': 0,
+                    type: 'depart',
+                    modifier: 'left'
+                },
+                name: ''
+            };
+            checkOrWriteVariations(step, path.join(basePath, 'modifier'));
+
+            constants.directions.forEach((direction) => {
+                direction.slice(1).forEach((bearing) => {
+                    var step = {
+                        maneuver: {
+                            'bearing_after': bearing,
+                            type: 'depart'
+                        },
+                        name: ''
+                    };
+                    checkOrWrite(step, path.join(basePath, `${direction[0]}_${bearing}`));
+                });
+            });
+            break;
+        case 'modes':
+            baseStep = {
+                maneuver: {
+                    type: 'continue',
+                    modifier: 'straight'
+                },
+                mode: 'ferry',
+                name: ''
+            };
+            checkOrWriteVariations(baseStep, path.join(basePath, 'ferry_turn_left'));
+
+            baseStep = {
+                maneuver: {
+                    type: 'fork',
+                    modifier: 'left'
+                },
+                mode: 'ferry',
+                name: ''
+            };
+            checkOrWriteVariations(baseStep, path.join(basePath, 'ferry_fork_left'));
+
+            baseStep = {
+                maneuver: {
+                    type: 'turn',
+                    modifier: 'left'
+                },
+                mode: 'driving',
+                name: 'Way Name'
+            };
+            checkOrWrite(baseStep, path.join(basePath, 'driving_turn_left'));
+            break;
+        case 'other':
+            // invalid type
+            baseStep = {
+                maneuver: {
+                    type: 'deliberatly_unknown_type',
+                    modifier: 'left'
+                },
+                name: 'Way Name'
+            };
+            checkOrWrite(baseStep, path.join(basePath, 'invalid_type'));
+
+            // way_name name/ref combinations
+            baseStep = {
+                maneuver: {
+                    type: 'turn',
+                    modifier: 'left'
+                },
+                name: '',
+                ref: 'Ref1;Ref2'
+            };
+            checkOrWrite(baseStep, path.join(basePath, 'way_name_ref'));
+            baseStep = {
+                maneuver: {
+                    type: 'turn',
+                    modifier: 'left'
+                },
+                name: 'Way Name',
+                ref: 'Ref1;Ref2'
+            };
+            checkOrWrite(baseStep, path.join(basePath, 'way_name_ref_name'));
+            baseStep = {
+                maneuver: {
+                    type: 'turn',
+                    modifier: 'left'
+                },
+                name: 'Way Name',
+                ref: 'Ref1;Ref2',
+                destinations: 'Destination 1,Destination 2'
+            };
+            checkOrWrite(baseStep, path.join(basePath, 'way_name_ref_destinations'));
+            baseStep = {
+                maneuver: {
+                    type: 'turn',
+                    modifier: 'left'
+                },
+                name: 'Way Name (Ref1 (Another+Way \\ (Ref1.1)))',
+                ref: 'Ref1 (Another+Way \\ (Ref1.1))'
+            };
+            checkOrWrite(baseStep, path.join(basePath, 'way_name_ref_mapbox_hack_1'));
+            baseStep = {
+                maneuver: {
+                    type: 'turn',
+                    modifier: 'left'
+                },
+                name: 'Way Name (Ref0;Ref1 (Another Way (Ref1.1));Ref2)',
+                ref: 'Ref0;Ref1 (Another Way (Ref1.1));Ref2'
+            };
+            checkOrWrite(baseStep, path.join(basePath, 'way_name_ref_mapbox_hack_2'));
+            baseStep = {
+                maneuver: {
+                    type: 'turn',
+                    modifier: 'left'
+                },
+                name: 'Ref0;Ref1 (Another Way (Ref1.1));Ref2',
+                ref: 'Ref0;Ref1 (Another Way (Ref1.1));Ref2'
+            };
+            checkOrWrite(baseStep, path.join(basePath, 'way_name_ref_mapbox_hack_3'));
+            break;
+        case 'continue':
+        case 'end of road':
+        case 'fork':
         case 'merge':
+        case 'new name':
+        case 'notification':
+        case 'on ramp':
+        case 'off ramp':
+        case 'roundabout turn':
         case 'turn':
-            checkModifiers(type);
+            // do variation per modifier
+            constants.modifiers.forEach((modifier) => {
+                baseStep = {
+                    maneuver: {
+                        type: type,
+                        modifier: modifier
+                    },
+                    name: ''
+                };
+                checkOrWriteVariations(baseStep, path.join(basePath, underscorify(modifier)));
+            });
             break;
         case 'rotary':
-            ['default', 'exit_1', 'name', 'name_exit'].forEach((s) => {
-                assert.ok(
-                    fs.existsSync(path.join(basePath, 'rotary', `${s}_default.json`)),
-                    `${type}/${s}_default`);
-                assert.ok(
-                    fs.existsSync(path.join(basePath, 'rotary', `${s}_destination.json`)),
-                    `${type}/${s}_destination`);
-                assert.ok(
-                    fs.existsSync(path.join(basePath, 'rotary', `${s}_name.json`)),
-                    `${type}/${s}_name`);
-            });
+            // default
+            basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'rotary', 'default');
+            baseStep = {
+                maneuver: {
+                    modifier: 'left', // rotaries don't care about modifiers
+                    type: 'rotary'
+                },
+                name: ''
+            };
+            checkOrWriteVariations(baseStep, basePath);
 
-            // special fixtures for ordinalization
+            // name
+            basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'rotary', 'name');
+            baseStep = {
+                maneuver: {
+                    modifier: 'left', // rotaries don't care about modifiers
+                    type: 'rotary'
+                },
+                name: '',
+                'rotary_name': 'Rotary Name'
+            };
+            checkOrWriteVariations(baseStep, basePath);
+
+            // exit
+            basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'rotary', 'exit_1');
+            baseStep = {
+                maneuver: {
+                    modifier: 'left', // rotaries don't care about modifiers
+                    type: 'rotary',
+                    exit: 1
+                },
+                name: ''
+            };
+            checkOrWriteVariations(baseStep, basePath);
+
+            // exit - all possible exit numbers
             for (var i = 2; i <= 11; i += 1) {
-                assert.ok(
-                    fs.existsSync(path.join(basePath, 'rotary', `exit_${i}.json`)),
-                    `${type}/exit_${i}_default`);
+                basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'rotary', `exit_${i}`);
+                baseStep = {
+                    maneuver: {
+                        modifier: 'left', // rotaries don't care about modifiers
+                        type: 'rotary',
+                        exit: i
+                    },
+                    name: ''
+                };
+                checkOrWrite(baseStep, basePath);
             }
+
+            // name_exit
+            basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'rotary', 'name_exit');
+            baseStep = {
+                maneuver: {
+                    modifier: 'left', // rotaries don't care about modifiers
+                    type: 'rotary',
+                    exit: 2 // no need to check ordinalization, already done in exit before
+                },
+                name: '',
+                'rotary_name': 'Rotary Name'
+            };
+            checkOrWriteVariations(baseStep, basePath);
             break;
         case 'roundabout':
-            ['default', 'exit'].forEach((s) => {
-                assert.ok(
-                    fs.existsSync(path.join(basePath, 'roundabout', `${s}_default.json`)),
-                    `${type}/${s}_default`);
-                assert.ok(
-                    fs.existsSync(path.join(basePath, 'roundabout', `${s}_destination.json`)),
-                    `${type}/${s}_destination`);
-                assert.ok(
-                    fs.existsSync(path.join(basePath, 'roundabout', `${s}_name.json`)),
-                    `${type}/${s}_name`);
-            });
+            // default
+            basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'roundabout', 'default');
+            baseStep = {
+                maneuver: {
+                    modifier: 'left', // roundabouts don't care about modifiers
+                    type: 'roundabout'
+                },
+                name: ''
+            };
+            checkOrWriteVariations(baseStep, basePath);
+
+            // exit
+            basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', 'roundabout', 'exit');
+            baseStep = {
+                maneuver: {
+                    modifier: 'left', // roundabouts don't care about modifiers
+                    type: 'roundabout',
+                    exit: 1
+                },
+                name: ''
+            };
+            checkOrWriteVariations(baseStep, basePath);
             break;
-        case 'use lane':
+        case 'use lane': {
+            function lanesFromConfig(config) {
+                var lanes = [];
+                config.split('').forEach((c) => {
+                    switch (c) {
+                    case 'x':
+                        lanes.push({
+                            indications: ['straight'],
+                            valid: false
+                        });
+                        break;
+                    case 'o':
+                        lanes.push({
+                            indications: ['straight'],
+                            valid: true
+                        });
+                        break;
+                    default:
+                        throw 'Invalid config ' + c;
+                    }
+                });
+
+                return lanes;
+            }
+            function writeLaneConfig(config) {
+                var step = Object.assign(clone(baseStep));
+                step.intersections[0].lanes = lanesFromConfig(config);
+                checkOrWrite(step, `${basePath}/${config}`);
+            }
+
+            baseStep = {
+                maneuver: {
+                    modifier: 'straight',
+                    type: 'use lane'
+                },
+                intersections: [
+                    {
+                        location: [ 13.39677, 52.54366 ],
+                        in: 1,
+                        out: 2,
+                        bearings: [ 10, 20 ],
+                        entry: [ true, false ]
+                    }
+                ],
+                name: ''
+            };
+
+            // lane combinations
             [
                 'o',
                 'ooo',
@@ -113,15 +383,12 @@ tape.test('fixtures exist for every type/modifier combinations', function(assert
                 'xxooxx',
                 'oooxxo'
             ].forEach((c) => {
-                assert.ok(
-                    fs.existsSync(path.join(basePath, 'use_lane', `${c}.json`)),
-                    `use_lane/${c}`
-                );
+                writeLaneConfig(c);
             });
             break;
+        }
         default:
-            checkModifiersNoName(type);
-            break;
+            throw `Unsupported type ${type}. Supported types: ${constants.types.join(' ,')}`;
         }
     });
 
