@@ -1,0 +1,11 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "new name",
+            "modifier": "slight right"
+        },
+        "name": "Way Name",
+        "destinations": "Destination 1,Destination 2"
+    },
+    "instruction": "Continue slightly right towards Destination 1"
+}

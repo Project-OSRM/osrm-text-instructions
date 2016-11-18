@@ -192,6 +192,7 @@ function execute() {
     case 'end of road':
     case 'fork':
     case 'merge':
+    case 'new name':
     case 'turn':
         // do variation per modifier
         constants.modifiers.forEach((modifier) => {

@@ -1,8 +1,8 @@
 {
     "step": {
         "maneuver": {
-            "modifier": "left",
-            "type": "new name"
+            "type": "new name",
+            "modifier": "left"
         },
         "name": ""
     },
