@@ -1,0 +1,10 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "continue",
+            "modifier": "right"
+        },
+        "name": "Way Name"
+    },
+    "instruction": "Continue right onto Way Name"
+}
