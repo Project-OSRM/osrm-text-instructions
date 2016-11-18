@@ -8,13 +8,6 @@ var v5Instructions = instructions('v5', 'en');
 var constants = require('../test/constants');
 var type = process.argv[2];
 
-var types = [
-    'other',
-    'turn',
-    'roundabout',
-    'rotary'
-];
-
 function clone(obj) {
     return JSON.parse(JSON.stringify(obj));
 }
@@ -193,6 +186,7 @@ function execute() {
     case 'fork':
     case 'merge':
     case 'new name':
+    case 'notification':
     case 'turn':
         // do variation per modifier
         constants.modifiers.forEach((modifier) => {
@@ -357,7 +351,7 @@ function execute() {
         });
         break;
     default:
-        console.error('Need to provide a type as first argument. Supported values:' + types.join(' ,'));
+        console.error('Need to provide a type as first argument. Supported values:' + constants.types.join(' ,'));
         process.exit(1);
     }
 }

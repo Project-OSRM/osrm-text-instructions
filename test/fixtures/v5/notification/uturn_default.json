@@ -1,8 +1,8 @@
 {
     "step": {
         "maneuver": {
-            "modifier": "uturn",
-            "type": "notification"
+            "type": "notification",
+            "modifier": "uturn"
         },
         "name": ""
     },

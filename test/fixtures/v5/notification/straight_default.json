@@ -1,8 +1,8 @@
 {
     "step": {
         "maneuver": {
-            "modifier": "straight",
-            "type": "notification"
+            "type": "notification",
+            "modifier": "straight"
         },
         "name": ""
     },
