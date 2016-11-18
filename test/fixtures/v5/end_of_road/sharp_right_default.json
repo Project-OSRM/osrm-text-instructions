@@ -1,8 +1,8 @@
 {
     "step": {
         "maneuver": {
-            "modifier": "sharp right",
-            "type": "end of road"
+            "type": "end of road",
+            "modifier": "sharp right"
         },
         "name": ""
     },

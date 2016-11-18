@@ -1,8 +1,8 @@
 {
     "step": {
         "maneuver": {
-            "modifier": "uturn",
-            "type": "end of road"
+            "type": "end of road",
+            "modifier": "uturn"
         },
         "name": ""
     },

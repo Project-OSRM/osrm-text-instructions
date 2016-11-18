@@ -188,6 +188,7 @@ function execute() {
         };
         write(baseStep, path.join(basePath, 'way_name_ref_mapbox_hack_2'));
         break;
+    case 'end of road':
     case 'continue':
     case 'merge':
     case 'turn':
