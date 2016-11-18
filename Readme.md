@@ -68,8 +68,7 @@ To add own translations:
   - use a [IETF language tag](https://en.wikipedia.org/wiki/IETF_language_tag) after [RFC 5646](https://en.wikipedia.org/wiki/IETF_language_tag) as name
 - Translate the string values
 - Add the new instructions file to `instructions.js`
-- Add the new instructions file to the `languages` array in `test/instructions_test.js`
-- To manually look at your changes, run `LANGUAGE=<language_tag> npm test`. This will give you failing (since untranslated) tests
+- Generate fixture strings for the tests via `UPDATE=1 npm test` (see changes in `git diff`)
 - Make a PR
 
 #### Release

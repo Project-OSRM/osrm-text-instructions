@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file. For change 
 
 - put future changes here
 - Development: Completely automated fixture generation
+- Development: Fixture instructions in all languages
 
 # 0.1.0 2016-11-17
 

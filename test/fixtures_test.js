@@ -8,15 +8,34 @@ var mkdirp = require('mkdirp');
 var constants = require('./constants');
 var instructions = require('../index.js');
 
-tape.test('verify existance/update fixtures', function(assert) {
-    var v5Instructions = instructions('v5', 'en');
+// Load instructions files for each language
+var languageInstructions = require('../instructions');
+var distinctLanguages = {};
+Object.keys(languageInstructions.table)
+    .forEach((k) => {
+        var v = languageInstructions.table[k];
+        if (v && v.constructor === Object) {
+            // distinct language, let's load it
+            distinctLanguages[k] = instructions('v5', k);
+        }
+    });
 
+tape.test('verify existance/update fixtures', function(assert) {
     function clone(obj) {
         return JSON.parse(JSON.stringify(obj));
     }
 
     function underscorify(input) {
         return input.replace(/ /g, '_');
+    }
+
+    function instructionsForLanguages(step) {
+        var result = {};
+        Object.keys(distinctLanguages).forEach((k) => {
+            result[k] = distinctLanguages[k].compile(step);
+        });
+
+        return result;
     }
 
     function checkOrWrite(step, p) {
@@ -32,7 +51,7 @@ tape.test('verify existance/update fixtures', function(assert) {
                 fileName,
                 JSON.stringify({
                     step: step,
-                    instruction: v5Instructions.compile(step)
+                    instructions: instructionsForLanguages(step)
                 }, null, 4) + '\n'
             );
             assert.ok(true, `updated ${testName}`);

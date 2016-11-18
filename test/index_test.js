@@ -2,6 +2,7 @@ var path = require('path');
 var fs = require('fs');
 var tape = require('tape');
 var instructions = require('../index.js');
+var languageInstructions = require('../instructions');
 
 tape.test('v5 directionFromDegree', function(assert) {
     var v5Instructions = instructions('v5', 'en');
@@ -93,30 +94,6 @@ tape.test('v5 laneDiagram', function(assert) {
 });
 
 tape.test('v5 compile', function(t) {
-    t.test('fixtures match generated instructions', function(assert) {
-        var v5Instructions = instructions('v5', process.env.LANGUAGE || 'en');
-        var basePath = path.join(__dirname, 'fixtures', 'v5/');
-
-        fs.readdirSync(basePath).forEach(function(type) {
-            if (type.match(/^\./)) return; // ignore temporary files
-
-            fs.readdirSync(path.join(basePath, type)).forEach(function(file) {
-                if (!file.match(/\.json$/)) return;
-
-                var p = path.join(basePath, type, file);
-                var fixture = JSON.parse(fs.readFileSync(p));
-
-                assert.equal(
-                    v5Instructions.compile(fixture.step),
-                    fixture.instruction,
-                    type + '/' + file
-                );
-            });
-        });
-
-        assert.end();
-    });
-
     t.test('respects options.instructionStringHook', function(assert) {
         var v5Instructions = instructions('v5', 'en', {
             hooks: {
@@ -133,6 +110,38 @@ tape.test('v5 compile', function(t) {
             },
             name: 'Way Name'
         }), 'Turn left onto <blink>Way Name</blink>');
+        assert.end();
+    });
+
+    t.test('fixtures match generated instructions', function(assert) {
+        // pre-load instructions
+        var instructionsPerLanguage = {};
+        Object.keys(languageInstructions.table)
+            .forEach((k) => {
+                instructionsPerLanguage[k] = instructions('v5', k);
+            });
+
+        var basePath = path.join(__dirname, 'fixtures', 'v5');
+
+        fs.readdirSync(basePath).forEach(function(type) {
+            if (type.match(/^\./)) return; // ignore temporary files
+
+            fs.readdirSync(path.join(basePath, type)).forEach(function(file) {
+                if (!file.match(/\.json$/)) return;
+
+                var p = path.join(basePath, type, file);
+                var fixture = JSON.parse(fs.readFileSync(p));
+
+                Object.keys(fixture.instructions).forEach((l) => {
+                    assert.equal(
+                        instructionsPerLanguage[l].compile(fixture.step),
+                        fixture.instructions[l],
+                        `${type}/${file}/${l}`
+                    );
+                });
+            });
+        });
+
         assert.end();
     });
 });
