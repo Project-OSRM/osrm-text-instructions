@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. For change 
 ## Unreleased
 
 - put future changes here
+- Consistify bearings to prefer simple directions
 - Development: Completely automated fixture generation
 - Development: Fixture instructions in all languages
 
