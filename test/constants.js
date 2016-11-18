@@ -33,9 +33,9 @@ constants.modifiers = [
 constants.directions = [
     [ 'north',     340, 20  ],
     [ 'northeast', 21,  69  ],
-    [ 'east',      70,  109 ],
-    [ 'southeast', 110, 160 ],
-    [ 'south',     161, 200 ],
+    [ 'east',      70,  110 ],
+    [ 'southeast', 111, 159 ],
+    [ 'south',     160, 200 ],
     [ 'southwest', 201, 249 ],
     [ 'west',      250, 290 ],
     [ 'northwest', 291, 339 ]

@@ -21,11 +21,11 @@ module.exports = function(version, language, options) {
                 return instructions[version].constants.direction.north;
             } else if (degree > 20 && degree < 70) {
                 return instructions[version].constants.direction.northeast;
-            } else if (degree >= 70 && degree < 110) {
+            } else if (degree >= 70 && degree <= 110) {
                 return instructions[version].constants.direction.east;
-            } else if (degree >= 110 && degree <= 160) {
+            } else if (degree > 110 && degree < 160) {
                 return instructions[version].constants.direction.southeast;
-            } else if (degree > 160 && degree <= 200) {
+            } else if (degree >= 160 && degree <= 200) {
                 return instructions[version].constants.direction.south;
             } else if (degree > 200 && degree < 250) {
                 return instructions[version].constants.direction.southwest;
