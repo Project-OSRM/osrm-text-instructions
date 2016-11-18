@@ -7,5 +7,11 @@
         "name": "Way Name",
         "destinations": "Destination 1,Destination 2"
     },
-    "instruction": "Take the ramp on the left towards Destination 1"
+    "instructions": {
+        "de": "Rampe auf der linken Seite nehmen Richtung Destination 1",
+        "en": "Take the ramp on the left towards Destination 1",
+        "fr": "Prendre la sortie à gauche en direction de Destination 1",
+        "nl": "Neem de oprit links richting Destination 1",
+        "zh-Hans": "通过左边的匝道前往Destination 1"
+    }
 }

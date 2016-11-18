@@ -7,5 +7,11 @@
         "name": "Way Name",
         "destinations": "Destination 1,Destination 2"
     },
-    "instruction": "Make a U-turn towards Destination 1"
+    "instructions": {
+        "de": "180°-Wendung Richtung Destination 1",
+        "en": "Make a U-turn towards Destination 1",
+        "fr": "Faire demi-tour en direction de Destination 1",
+        "nl": "Keer om richting Destination 1",
+        "zh-Hans": "调头，前往Destination 1"
+    }
 }

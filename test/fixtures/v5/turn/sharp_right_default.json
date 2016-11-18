@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Make a sharp right"
+    "instructions": {
+        "de": "Scharf rechts abbiegen",
+        "en": "Make a sharp right",
+        "fr": "Tourner franchement à droite",
+        "nl": "Ga rechtsaf",
+        "zh-Hans": "向右转弯"
+    }
 }

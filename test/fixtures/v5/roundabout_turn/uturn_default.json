@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "At the roundabout make a U-turn"
+    "instructions": {
+        "de": "Am Kreisverkehr 180°-Wendung",
+        "en": "At the roundabout make a U-turn",
+        "fr": "Au rond-point, tourner demi-tour",
+        "nl": "Ga omkeren op de rotonde",
+        "zh-Hans": "在环岛调头行驶"
+    }
 }

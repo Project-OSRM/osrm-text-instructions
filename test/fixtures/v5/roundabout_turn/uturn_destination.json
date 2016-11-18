@@ -7,5 +7,11 @@
         "name": "Way Name",
         "destinations": "Destination 1,Destination 2"
     },
-    "instruction": "At the roundabout make a U-turn towards Destination 1"
+    "instructions": {
+        "de": "Am Kreisverkehr 180°-Wendung Richtung Destination 1",
+        "en": "At the roundabout make a U-turn towards Destination 1",
+        "fr": "Au rond-point, tourner demi-tour en direction de Destination 1",
+        "nl": "Ga omkeren op de rotonde richting Destination 1",
+        "zh-Hans": "在环岛调头行驶，前往Destination 1"
+    }
 }

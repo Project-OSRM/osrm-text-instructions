@@ -7,5 +7,11 @@
         },
         "name": ""
     },
-    "instruction": "Enter the rotary and take the 9th exit"
+    "instructions": {
+        "de": "In den Kreisverkehr fahren und neunte Ausfahrt nehmen",
+        "en": "Enter the rotary and take the 9th exit",
+        "fr": "Entrer dans le rond-point et prendre la neuvième sortie",
+        "nl": "Ga het knooppunt op en neem afslag negende",
+        "zh-Hans": "进入环岛并从第九出口驶出"
+    }
 }

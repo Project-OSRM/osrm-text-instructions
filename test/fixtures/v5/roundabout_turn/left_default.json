@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "At the roundabout turn left"
+    "instructions": {
+        "de": "Am Kreisverkehr links",
+        "en": "At the roundabout turn left",
+        "fr": "Au rond-point, tourner à gauche",
+        "nl": "Ga links op de rotonde",
+        "zh-Hans": "在环岛左转"
+    }
 }

@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Merge straight"
+    "instructions": {
+        "de": "Geradeaus auffahren",
+        "en": "Merge straight",
+        "fr": "Rejoindre tout droit",
+        "nl": "Bij de splitsing rechtdoor",
+        "zh-Hans": "直行并道"
+    }
 }

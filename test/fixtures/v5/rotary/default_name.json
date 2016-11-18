@@ -6,5 +6,11 @@
         },
         "name": "Way Name"
     },
-    "instruction": "Enter the rotary and exit onto Way Name"
+    "instructions": {
+        "de": "In den Kreisverkehr fahren und auf Way Name verlassen",
+        "en": "Enter the rotary and exit onto Way Name",
+        "fr": "Entrer dans le rond-point et sortir par Way Name",
+        "nl": "Verlaat het knooppunt naar Way Name",
+        "zh-Hans": "通过环岛后驶入Way Name"
+    }
 }

@@ -6,5 +6,11 @@
         },
         "name": "Way Name"
     },
-    "instruction": "Make a sharp left onto Way Name"
+    "instructions": {
+        "de": "Scharf links abbiegen auf Way Name",
+        "en": "Make a sharp left onto Way Name",
+        "fr": "Tourner franchement à gauche sur Way Name",
+        "nl": "Ga linksaf naar Way Name",
+        "zh-Hans": "向左转弯，上Way Name"
+    }
 }

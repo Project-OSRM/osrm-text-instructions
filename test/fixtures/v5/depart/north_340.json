@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Head north"
+    "instructions": {
+        "de": "Fahren Sie Richtung Norden",
+        "en": "Head north",
+        "fr": "Rouler vers le nord",
+        "nl": "Vertrek in noordelijke richting",
+        "zh-Hans": "出发向北"
+    }
 }

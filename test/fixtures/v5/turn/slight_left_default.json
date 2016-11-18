@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Make a slight left"
+    "instructions": {
+        "de": "Leicht links abbiegen",
+        "en": "Make a slight left",
+        "fr": "Tourner légèrement à gauche",
+        "nl": "Ga links",
+        "zh-Hans": "向左转弯"
+    }
 }

@@ -6,5 +6,11 @@
         },
         "name": "Way Name"
     },
-    "instruction": "Merge right onto Way Name"
+    "instructions": {
+        "de": "Leicht rechts auffahren auf Way Name",
+        "en": "Merge right onto Way Name",
+        "fr": "Rejoindre Way Name légèrement par la droite",
+        "nl": "Bij de splitsing rechts aanhouden naar Way Name",
+        "zh-Hans": "向右并道，上Way Name"
+    }
 }

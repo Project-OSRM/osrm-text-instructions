@@ -7,5 +7,11 @@
         },
         "name": ""
     },
-    "instruction": "Enter the rotary and take the 1st exit"
+    "instructions": {
+        "de": "In den Kreisverkehr fahren und erste Ausfahrt nehmen",
+        "en": "Enter the rotary and take the 1st exit",
+        "fr": "Entrer dans le rond-point et prendre la première sortie",
+        "nl": "Ga het knooppunt op en neem afslag eerste",
+        "zh-Hans": "进入环岛并从第一出口驶出"
+    }
 }

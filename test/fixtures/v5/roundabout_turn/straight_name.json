@@ -6,5 +6,11 @@
         },
         "name": "Way Name"
     },
-    "instruction": "At the roundabout continue straight onto Way Name"
+    "instructions": {
+        "de": "Am Kreisverkehr geradeaus weiterfahren auf Way Name",
+        "en": "At the roundabout continue straight onto Way Name",
+        "fr": "Au rond-point, continuer tout droit sur Way Name",
+        "nl": "Rechtdoor op de rotonde naar Way Name",
+        "zh-Hans": "在环岛继续直行，上Way Name"
+    }
 }

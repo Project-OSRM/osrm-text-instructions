@@ -7,5 +7,11 @@
         "name": "Way Name",
         "destinations": "Destination 1,Destination 2"
     },
-    "instruction": "Take the ramp towards Destination 1"
+    "instructions": {
+        "de": "Rampe nehmen Richtung Destination 1",
+        "en": "Take the ramp towards Destination 1",
+        "fr": "Prendre la sortie en direction de Destination 1",
+        "nl": "Neem de oprit richting Destination 1",
+        "zh-Hans": "通过匝道前往Destination 1"
+    }
 }

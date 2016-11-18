@@ -7,5 +7,11 @@
         "name": "Way Name",
         "destinations": "Destination 1,Destination 2"
     },
-    "instruction": "Turn sharp left towards Destination 1"
+    "instructions": {
+        "de": "Scharf links abbiegen Richtung Destination 1",
+        "en": "Turn sharp left towards Destination 1",
+        "fr": "Tourner franchement à gauche en direction de Destination 1",
+        "nl": "Ga linksaf richting Destination 1",
+        "zh-Hans": "向左行驶，前往Destination 1"
+    }
 }

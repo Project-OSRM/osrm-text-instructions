@@ -7,5 +7,11 @@
         "name": "Way Name",
         "destinations": "Destination 1,Destination 2"
     },
-    "instruction": "At the roundabout make a sharp left towards Destination 1"
+    "instructions": {
+        "de": "Am Kreisverkehr scharf links Richtung Destination 1",
+        "en": "At the roundabout make a sharp left towards Destination 1",
+        "fr": "Au rond-point, tourner franchement à gauche en direction de Destination 1",
+        "nl": "Ga linksaf op de rotonde richting Destination 1",
+        "zh-Hans": "在环岛向左行驶，前往Destination 1"
+    }
 }

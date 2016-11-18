@@ -7,5 +7,11 @@
         "name": "",
         "ref": "Ref1;Ref2"
     },
-    "instruction": "Turn left onto Ref1"
+    "instructions": {
+        "de": "Links abbiegen auf Ref1",
+        "en": "Turn left onto Ref1",
+        "fr": "Tourner à gauche sur Ref1",
+        "nl": "Ga linksaf naar Ref1",
+        "zh-Hans": "左转，上Ref1"
+    }
 }

@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Take a sharp right"
+    "instructions": {
+        "de": "Scharf rechts",
+        "en": "Take a sharp right",
+        "fr": "Prendre à droite",
+        "nl": "Rechtsaf",
+        "zh-Hans": "继续向右"
+    }
 }

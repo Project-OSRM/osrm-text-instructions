@@ -7,5 +7,11 @@
         "name": "Way Name",
         "destinations": "Destination 1,Destination 2"
     },
-    "instruction": "Make a U-turn towards Destination 1 at the end of the road"
+    "instructions": {
+        "de": "180°-Wendung Richtung Destination 1 am Ende der Straße",
+        "en": "Make a U-turn towards Destination 1 at the end of the road",
+        "fr": "Faire demi-tour à la fin de la route en direction de Destination 1",
+        "nl": "Keer om richting Destination 1",
+        "zh-Hans": "在道路尽头调头，前往Destination 1"
+    }
 }

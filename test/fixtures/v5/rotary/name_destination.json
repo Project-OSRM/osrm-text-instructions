@@ -8,5 +8,11 @@
         "rotary_name": "Rotary Name",
         "destinations": "Destination 1,Destination 2"
     },
-    "instruction": "Enter Rotary Name and exit towards Destination 1"
+    "instructions": {
+        "de": "In Rotary Name fahren und Richtung Destination 1 verlassen",
+        "en": "Enter Rotary Name and exit towards Destination 1",
+        "fr": "Entrer dans le rond-point Rotary Name et sortir en direction de Destination 1",
+        "nl": "Verlaat het knooppunt Rotary Name richting Destination 1",
+        "zh-Hans": "通过Rotary Name环岛后前往Destination 1"
+    }
 }

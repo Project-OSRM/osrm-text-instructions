@@ -7,5 +7,11 @@
         "name": "Way Name",
         "destinations": "Destination 1,Destination 2"
     },
-    "instruction": "Continue slightly right towards Destination 1"
+    "instructions": {
+        "de": "Leicht rechts weiter Richtung Destination 1",
+        "en": "Continue slightly right towards Destination 1",
+        "fr": "Continuer légèrement à droite en direction de Destination 1",
+        "nl": "Rechts aanhouden richting Destination 1",
+        "zh-Hans": "继续向右，前往Destination 1"
+    }
 }

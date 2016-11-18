@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Make a U-turn"
+    "instructions": {
+        "de": "180°-Wendung abbiegen",
+        "en": "Make a U-turn",
+        "fr": "Tourner demi-tour",
+        "nl": "Ga omkeren",
+        "zh-Hans": "调头转弯"
+    }
 }

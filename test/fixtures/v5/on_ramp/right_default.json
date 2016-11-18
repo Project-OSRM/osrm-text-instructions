@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Take the ramp on the right"
+    "instructions": {
+        "de": "Rampe auf der rechten Seite nehmen",
+        "en": "Take the ramp on the right",
+        "fr": "Prendre la sortie à droite",
+        "nl": "Neem de oprit rechts",
+        "zh-Hans": "通过右边的匝道"
+    }
 }

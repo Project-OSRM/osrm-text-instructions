@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Turn right"
+    "instructions": {
+        "de": "Rechts abbiegen",
+        "en": "Turn right",
+        "fr": "Tourner à droite",
+        "nl": "Ga rechts",
+        "zh-Hans": "向右行驶"
+    }
 }

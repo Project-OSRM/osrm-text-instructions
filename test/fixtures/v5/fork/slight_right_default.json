@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Keep right at the fork"
+    "instructions": {
+        "de": "Rechts halten an der Gabelung",
+        "en": "Keep right at the fork",
+        "fr": "Rester à droite à l'embranchement",
+        "nl": "Rechts aanhouden op de splitsing",
+        "zh-Hans": "在岔道保持向右"
+    }
 }

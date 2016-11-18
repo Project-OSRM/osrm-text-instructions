@@ -6,5 +6,11 @@
         },
         "name": "Way Name"
     },
-    "instruction": "Take the ramp on the left onto Way Name"
+    "instructions": {
+        "de": "Rampe auf der linken Seite nehmen auf Way Name",
+        "en": "Take the ramp on the left onto Way Name",
+        "fr": "Prendre la sortie à gauche sur Way Name",
+        "nl": "Neem de oprit links naar Way Name",
+        "zh-Hans": "通过左边的匝道驶入Way Name"
+    }
 }

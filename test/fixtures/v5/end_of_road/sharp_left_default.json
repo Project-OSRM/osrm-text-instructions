@@ -6,5 +6,11 @@
         },
         "name": ""
     },
-    "instruction": "Turn sharp left"
+    "instructions": {
+        "de": "Scharf links abbiegen",
+        "en": "Turn sharp left",
+        "fr": "Tourner franchement à gauche",
+        "nl": "Ga linksaf",
+        "zh-Hans": "向左行驶"
+    }
 }

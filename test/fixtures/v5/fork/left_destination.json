@@ -7,5 +7,11 @@
         "name": "Way Name",
         "destinations": "Destination 1,Destination 2"
     },
-    "instruction": "Keep left at the fork towards Destination 1"
+    "instructions": {
+        "de": "Links halten an der Gabelung Richtung Destination 1",
+        "en": "Keep left at the fork towards Destination 1",
+        "fr": "Rester à gauche à l'embranchement en direction de Destination 1",
+        "nl": "Ga links op de splitsing richting Destination 1",
+        "zh-Hans": "在岔道保持向左，前往Destination 1"
+    }
 }
