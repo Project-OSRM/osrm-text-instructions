@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. For change 
 ## Unreleased
 
 - put future changes here
+- Development: Completely automated fixture generation
 
 # 0.1.0 2016-11-17
 

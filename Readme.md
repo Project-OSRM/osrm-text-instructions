@@ -57,7 +57,7 @@ npm test
 
 ##### Generate Fixtures
 
-Fixtures can be programatically created and updated via `scripts/generate_fixtures.js`. To update the instructions in the fixture files, run `UPDATE=1 npm test`.
+Fixtures are programatically created and updated via `test/fixtures_test`. To update the instructions in the fixture files, run `UPDATE=1 npm test`. To create new fixtures, add them to `test/fixtures_test`, then run `UPDATE=1 npm test`.
 
 #### Translations
 

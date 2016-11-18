@@ -106,16 +106,11 @@ tape.test('v5 compile', function(t) {
                 var p = path.join(basePath, type, file);
                 var fixture = JSON.parse(fs.readFileSync(p));
 
-                if (process.env.UPDATE) {
-                    fixture.instruction = v5Instructions.compile(fixture.step);
-                    fs.writeFileSync(p, JSON.stringify(fixture, null, 4) + '\n');
-                } else {
-                    assert.equal(
-                        v5Instructions.compile(fixture.step),
-                        fixture.instruction,
-                        type + '/' + file
-                    );
-                }
+                assert.equal(
+                    v5Instructions.compile(fixture.step),
+                    fixture.instruction,
+                    type + '/' + file
+                );
             });
         });
 
