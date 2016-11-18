@@ -1,8 +1,8 @@
 {
     "step": {
         "maneuver": {
-            "modifier": "sharp right",
-            "type": "fork"
+            "type": "fork",
+            "modifier": "sharp right"
         },
         "name": ""
     },
