@@ -176,7 +176,7 @@
             },
             "sharp left": {
                 "default": "Nhập sang trái",
-                "name": "Nhập sang trái vo {way_name}",
+                "name": "Nhập sang trái vào {way_name}",
                 "destination": "Nhập sang trái đến {destination}"
             },
             "sharp right": {
@@ -376,7 +376,7 @@
             },
             "left": {
                 "default": "Quẹo trái",
-                "name": "Quẹo trái vo {way_name}",
+                "name": "Quẹo trái vào {way_name}",
                 "destination": "Quẹo trái đến {destination}"
             },
             "right": {
