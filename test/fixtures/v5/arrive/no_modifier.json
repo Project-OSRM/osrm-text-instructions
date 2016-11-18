@@ -1,7 +1,6 @@
 {
     "step": {
         "maneuver": {
-            "bearing_after": 0,
             "type": "arrive"
         },
         "name": "Street Name"

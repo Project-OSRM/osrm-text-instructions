@@ -1,8 +1,8 @@
 {
     "step": {
         "maneuver": {
-            "modifier": "slight left",
-            "type": "arrive"
+            "type": "arrive",
+            "modifier": "slight left"
         },
         "name": "Street Name"
     },

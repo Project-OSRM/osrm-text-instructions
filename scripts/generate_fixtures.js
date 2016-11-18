@@ -54,6 +54,26 @@ function execute() {
     var basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', underscorify(type));
 
     switch (type) {
+    case 'arrive':
+        step = {
+            maneuver: {
+                type: 'arrive'
+            },
+            name: 'Street Name'
+        };
+        write(step, path.join(basePath, 'no_modifier'));
+
+        constants.modifiers.forEach((modifier) => {
+            var step = {
+                maneuver: {
+                    type: 'arrive',
+                    modifier: modifier
+                },
+                name: 'Street Name'
+            };
+            write(step, path.join(basePath, underscorify(modifier)));
+        });
+        break;
     case 'modes':
         baseStep = {
             maneuver: {
@@ -77,7 +97,7 @@ function execute() {
 
         baseStep = {
             maneuver: {
-                type: 'fork',
+                type: 'turn',
                 modifier: 'left'
             },
             mode: 'driving',
