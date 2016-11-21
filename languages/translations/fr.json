@@ -82,6 +82,11 @@
                 "name": "Continuer {modifier} sur {way_name}",
                 "destination": "Continuer {modifier} en direction de {destination}"
             },
+            "straight": {
+                "default": "Continuer tout droit",
+                "name": "Continuer tout droit sur {way_name}",
+                "destination": "Continuer tout droit en direction de {destination}"
+            },
             "slight left": {
                 "default": "Continuer légèrement à gauche",
                 "name": "Continuer légèrement à gauche sur {way_name}",
@@ -221,7 +226,7 @@
             "default": {
                 "default": "Continuer {modifier}",
                 "name": "Continuer {modifier} sur {way_name}",
-                "destination" : "Continuer {modifier} en direction de {destination}"
+                "destination": "Continuer {modifier} en direction de {destination}"
             },
             "uturn": {
                 "default": "Fair demi-tour",
@@ -390,16 +395,7 @@
                 "default": "Continuer tout droit"
             },
             "default": {
-                "default": "{lane_instruction} pour continuer {modifier}"
-            },
-            "straight": {
                 "default": "{lane_instruction}"
-            },
-            "left": {
-                "default": "{lane_instruction} pour tourner à gauche"
-            },
-            "right": {
-                "default": "{lane_instruction} pour tourner à droite"
             }
         }
     }

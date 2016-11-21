@@ -226,7 +226,7 @@
             "default": {
                 "default": "Continue {modifier}",
                 "name": "Continue {modifier} onto {way_name}",
-                "destination" : "Continue {modifier} towards {destination}"
+                "destination": "Continue {modifier} towards {destination}"
             },
             "uturn": {
                 "default": "Make a U-turn",

@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. For change 
 ## Unreleased
 
 - put future changes here
+- Manage translations via Transifex
 - Consistify bearings to prefer simple directions
 - en: Make continue straight instructions briefer
 - Development: Completely automated fixture generation

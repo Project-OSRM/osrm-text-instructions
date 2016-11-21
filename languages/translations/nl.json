@@ -82,6 +82,11 @@
                 "name": "Ga {modifier} naar {way_name}",
                 "destination": "Ga {modifier} richting {destination}"
             },
+            "straight": {
+                "default": "Ga rechtdoor",
+                "name": "Ga rechtdoor naar {way_name}",
+                "destination": "Ga rechtdoor richting {destination}"
+            },
             "slight left": {
                 "default": "Links aanhouden",
                 "name": "Links aanhouden naar {way_name}",
@@ -143,9 +148,9 @@
                 "destination": "Linksaf op de splitsing richting {destination}"
             },
             "sharp right": {
-              "default": "Rechtsaf op de splitsing",
-              "name": "Rechtsaf op de splitsing naar {way_name}",
-              "destination": "Rechtsaf op de splitsing richting {destination}"
+                "default": "Rechtsaf op de splitsing",
+                "name": "Rechtsaf op de splitsing naar {way_name}",
+                "destination": "Rechtsaf op de splitsing richting {destination}"
             },
             "uturn": {
                 "default": "Keer om",
@@ -221,7 +226,7 @@
             "default": {
                 "default": "Ga {modifier}",
                 "name": "Ga {modifier} naar {way_name}",
-                "destination" : "Ga {modifier} richting {destination}"
+                "destination": "Ga {modifier} richting {destination}"
             },
             "uturn": {
                 "default": "Keer om",
@@ -241,9 +246,9 @@
                 "destination": "Neem de afrit links richting {destination}"
             },
             "right": {
-              "default": "Neem de afrit rechts",
-              "name": "Neem de afrit rechts naar {way_name}",
-              "destination": "Neem de afrit rechts richting {destination}"
+                "default": "Neem de afrit rechts",
+                "name": "Neem de afrit rechts naar {way_name}",
+                "destination": "Neem de afrit rechts richting {destination}"
             },
             "sharp left": {
                 "default": "Neem de afrit links",
@@ -278,9 +283,9 @@
                 "destination": "Neem de oprit links richting {destination}"
             },
             "right": {
-              "default": "Neem de oprit rechts",
-              "name": "Neem de oprit rechts naar {way_name}",
-              "destination": "Neem de oprit rechts richting {destination}"
+                "default": "Neem de oprit rechts",
+                "name": "Neem de oprit rechts naar {way_name}",
+                "destination": "Neem de oprit rechts richting {destination}"
             },
             "sharp left": {
                 "default": "Neem de oprit links",
@@ -324,7 +329,6 @@
                     "default": "Ga het knooppunt {rotary_name} op en neem afslag {exit_number}",
                     "name": "Ga het knooppunt {rotary_name} op en neem afslag {exit_number} naar {way_name}",
                     "destination": "Ga het knooppunt {rotary_name} op en neem afslag {exit_number} richting {destination}"
-
                 }
             }
         },
@@ -391,16 +395,7 @@
                 "default": "Rechtdoor"
             },
             "default": {
-                "default": "{lane_instruction} ga {modifier}"
-            },
-            "straight": {
                 "default": "{lane_instruction}"
-            },
-            "left": {
-                "default": "{lane_instruction} om links te gaan"
-            },
-            "right": {
-                "default": "{lane_instruction} om rechts te gaan"
             }
         }
     }
