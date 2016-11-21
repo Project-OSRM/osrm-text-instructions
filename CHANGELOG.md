@@ -5,8 +5,9 @@ All notable changes to this project will be documented in this file. For change 
 
 - put future changes here
 - Manage translations via Transifex
+- Add Vietnamese translation (thanks @1ec5)
 - Consistify bearings to prefer simple directions
-- en: Make continue straight instructions briefer
+- Make continue straight instructions briefer
 - Development: Completely automated fixture generation
 - Development: Fixture instructions in all languages
 

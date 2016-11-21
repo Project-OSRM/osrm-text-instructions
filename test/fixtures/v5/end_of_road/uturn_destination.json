@@ -12,6 +12,7 @@
         "en": "Make a U-turn towards Destination 1 at the end of the road",
         "fr": "Faire demi-tour à la fin de la route en direction de Destination 1",
         "nl": "Keer om richting Destination 1",
+        "vi": "Quẹo ngược đến Destination 1 tại cuối đường",
         "zh-Hans": "在道路尽头调头，前往Destination 1"
     }
 }
