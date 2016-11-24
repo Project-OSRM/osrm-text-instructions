@@ -37,10 +37,10 @@
                 "uturn": "دور برگردان"
             },
             "lanes": {
-                "xo": "Keep right",
-                "ox": "Keep left",
-                "xox": "Keep in the middle",
-                "oxo": "Keep left or right"
+                "xo": "به راست بروید",
+                "ox": "به چپ بروید",
+                "xox": "وسط برانید",
+                "oxo": "به چپ یا راست بروید"
             }
         },
         "modes": {
