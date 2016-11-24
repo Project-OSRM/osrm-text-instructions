@@ -29,10 +29,10 @@
             "modifier": {
                 "left": "چپ",
                 "right": "راست",
-                "sharp left": "sharp left",
-                "sharp right": "sharp right",
-                "slight left": "slight left",
-                "slight right": "slight right",
+                "sharp left": "کاملا به چپ بپیچید",
+                "sharp right": "کاملا به راست بپیچید",
+                "slight left": "کمی به چپ بپیچید",
+                "slight right": "کمی به راست بپیچید",
                 "straight": "مستقیم",
                 "uturn": "دور برگردان"
             },
