@@ -5,7 +5,7 @@ var instructionsEn = require('./instructions/en.json');
 var instructionsFr = require('./instructions/fr.json');
 var instructionsNl = require('./instructions/nl.json');
 var instructionsZhHans = require('./instructions/zh-Hans.json');
-
+var instructionsFa = require('./instructions/fa.json'); 
 // Table to match tag to required language files
 // A tag can redirect to another tag via the language tag as string value
 var table = {
@@ -14,7 +14,8 @@ var table = {
     'fr': instructionsFr,
     'nl': instructionsNl,
     'zh-Hans': instructionsZhHans,
-    'zh': 'zh-Hans'
+    'zh': 'zh-Hans',
+    'fa': instructionsFa
 };
 
 module.exports = {
