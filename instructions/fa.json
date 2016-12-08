@@ -52,28 +52,28 @@
         },
         "arrive": {
             "default": {
-                "default": "You have arrived at your {nth} destination"
+                "default": "شما به مقصد {nth} خود رسیدید"
             },
             "left": {
-                "default": "You have arrived at your {nth} destination, on the left"
+                "default": "شما به مقصد {nth} خود رسیدید. مقصد در سمت چپ قرار دارد."
             },
             "right": {
-                "default": "You have arrived at your {nth} destination, on the right"
+                "default": "شما به مقصد {nth} خود رسیدید. مقصد در سمت راست قرار دارد."
             },
             "sharp left": {
-                "default": "You have arrived at your {nth} destination, on the left"
+                "default": "شما به مقصد {nth} خود رسیدید. مقصد در سمت چپ قرار دارد."
             },
             "sharp right": {
-                "default": "You have arrived at your {nth} destination, on the right"
+                "default": "شما به مقصد {nth} خود رسیدید. مقصد در سمت راست قرار دارد."
             },
             "slight right": {
-                "default": "You have arrived at your {nth} destination, on the right"
+                "default": "شما به مقصد {nth} خود رسیدید. مقصد در سمت راست قرار دارد."
             },
             "slight left": {
-                "default": "You have arrived at your {nth} destination, on the left"
+                "default": "شما به مقصد {nth} خود رسیدید. مقصد در سمت چپ قرار دارد."
             },
             "straight": {
-                "default": "You have arrived at your {nth} destination, straight ahead"
+                "default": "شما به مسیر {nth} خود رسیدید، این مسیر روبروی شما در مسیر مستقیم قرار دارد."
             }
         },
         "continue": {
