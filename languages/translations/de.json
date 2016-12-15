@@ -221,7 +221,7 @@
             "default": {
                 "default": "{modifier} weiterfahren",
                 "name": "{modifier} weiterfahren auf {way_name}",
-                "destination" : "{modifier} weiterfahren Richtung {destination}"
+                "destination": "{modifier} weiterfahren Richtung {destination}"
             },
             "uturn": {
                 "default": "180°-Wendung",

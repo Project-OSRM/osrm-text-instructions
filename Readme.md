@@ -61,13 +61,18 @@ Fixtures are programatically created and updated via `test/fixtures_test`. To up
 
 #### Translations
 
-To add own translations:
+The main language of this project is English `en`. We support other languages via translations, as seen in `languages/translations`.
 
-- Create a new file in `instructions/`
-  - base it off of `instructions/en.json`
-  - use a [IETF language tag](https://en.wikipedia.org/wiki/IETF_language_tag) after [RFC 5646](https://en.wikipedia.org/wiki/IETF_language_tag) as name
-- Translate the string values
-- Add the new instructions file to `instructions.js`
+You can help translating on the web via [Transifex](https://www.transifex.com/project-osrm/osrm-text-instructions/)
+
+To add an own translations:
+
+- Go to [Transifex](https://www.transifex.com/project-osrm/osrm-text-instructions/) and create the new translation there
+- When the translation on Transifex is ready, pull in the translation file:
+  - Create an empty translation file `echo "{}" > languages/translations/{language_tag}.json`
+  - Add the new translation file and language tag to `./languages.js`
+  - If needed: make overrides in `languages/overrides/{language_tag}.json`
+  - `npm run transifex`
 - Generate fixture strings for the tests via `UPDATE=1 npm test` (see changes in `git diff`)
 - Make a PR
 

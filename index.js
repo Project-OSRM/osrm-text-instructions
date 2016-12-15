@@ -1,6 +1,6 @@
 module.exports = function(version, language, options) {
     // load instructions
-    var instructions = require('./instructions').get(language);
+    var instructions = require('./languages').get(language);
     if (Object !== instructions.constructor) throw 'instructions must be object';
     if (!instructions[version]) { throw 'invalid version ' + version; }
 

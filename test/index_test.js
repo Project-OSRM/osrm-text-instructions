@@ -1,8 +1,9 @@
 var path = require('path');
 var fs = require('fs');
 var tape = require('tape');
-var instructions = require('../index.js');
-var languageInstructions = require('../instructions');
+
+var instructions = require('../index');
+var languageInstructions = require('../languages');
 
 tape.test('v5 directionFromDegree', function(assert) {
     var v5Instructions = instructions('v5', 'en');
@@ -116,9 +117,9 @@ tape.test('v5 compile', function(t) {
     t.test('fixtures match generated instructions', function(assert) {
         // pre-load instructions
         var instructionsPerLanguage = {};
-        Object.keys(languageInstructions.table)
-            .forEach((k) => {
-                instructionsPerLanguage[k] = instructions('v5', k);
+        Object.keys(languageInstructions.tags)
+            .forEach((t) => {
+                instructionsPerLanguage[t] = instructions('v5', t);
             });
 
         var basePath = path.join(__dirname, 'fixtures', 'v5');

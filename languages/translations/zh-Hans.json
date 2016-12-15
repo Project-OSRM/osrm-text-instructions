@@ -141,7 +141,7 @@
                 "name": "继续{modifier}，上{way_name}",
                 "destination": "继续{modifier}，前往{destination}"
             },
-             "uturn": {
+            "uturn": {
                 "default": "调头",
                 "name": "调头，上{way_name}",
                 "destination": "调头，前往{destination}"
@@ -151,7 +151,7 @@
             "default": {
                 "default": "继续{modifier}",
                 "name": "继续{modifier}，上{way_name}",
-                "destination" : "继续{modifier}，前往{destination}"
+                "destination": "继续{modifier}，前往{destination}"
             },
             "uturn": {
                 "default": "调头",
@@ -280,16 +280,7 @@
                 "default": "继续直行"
             },
             "default": {
-                "default": "{lane_instruction}然后{modifier}"
-            },
-            "straight": {
                 "default": "{lane_instruction}"
-            },
-            "left": {
-                "default": "{lane_instruction}然后左转"
-            },
-            "right": {
-                "default": "{lane_instruction}然后右转"
             }
         }
     }

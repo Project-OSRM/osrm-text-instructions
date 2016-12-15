@@ -16,11 +16,13 @@
   "devDependencies": {
     "eslint": "^3.4.0",
     "tape": "^4.2.2",
-    "mkdirp": "0.5.1"
+    "mkdirp": "0.5.1",
+    "request": "2.79.0"
   },
   "scripts": {
     "lint": "eslint *.js test/*.js",
     "pretest": "npm run lint",
-    "test": "tape test/*_test.js"
+    "test": "tape test/*_test.js",
+    "transifex": "node scripts/transifex.js"
   }
 }

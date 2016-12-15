@@ -9,16 +9,10 @@ var constants = require('./constants');
 var instructions = require('../index.js');
 
 // Load instructions files for each language
-var languageInstructions = require('../instructions');
-var distinctLanguages = {};
-Object.keys(languageInstructions.table)
-    .forEach((k) => {
-        var v = languageInstructions.table[k];
-        if (v && v.constructor === Object) {
-            // distinct language, let's load it
-            distinctLanguages[k] = instructions('v5', k);
-        }
-    });
+var languages = {};
+Object.keys(require('../languages').tags).forEach((l) => {
+    languages[l] = instructions('v5', l);
+});
 
 tape.test('verify existance/update fixtures', function(assert) {
     function clone(obj) {
@@ -31,8 +25,8 @@ tape.test('verify existance/update fixtures', function(assert) {
 
     function instructionsForLanguages(step) {
         var result = {};
-        Object.keys(distinctLanguages).forEach((k) => {
-            result[k] = distinctLanguages[k].compile(step);
+        Object.keys(languages).forEach((k) => {
+            result[k] = languages[k].compile(step);
         });
 
         return result;
