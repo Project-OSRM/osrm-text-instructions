@@ -3,6 +3,7 @@ All notable changes to this project will be documented in this file. For change 
 
 ## Unreleased
 
+- Add Russian translation
 - put future changes here
 - Manage translations via Transifex
 - Add Vietnamese translation (thanks @1ec5)
