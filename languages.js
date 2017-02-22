@@ -4,6 +4,8 @@ var instructionsDe = require('./languages/translations/de.json');
 var instructionsEn = require('./languages/translations/en.json');
 var instructionsFr = require('./languages/translations/fr.json');
 var instructionsNl = require('./languages/translations/nl.json');
+var instructionsRu = require('./languages/translations/ru.json');
+var instructionsSv = require('./languages/translations/sv.json');
 var instructionsVi = require('./languages/translations/vi.json');
 var instructionsZhHans = require('./languages/translations/zh-Hans.json');
 
@@ -13,6 +15,8 @@ var tags = {
     'en': instructionsEn,
     'fr': instructionsFr,
     'nl': instructionsNl,
+    'ru': instructionsRu,
+    'sv': instructionsSv,
     'vi': instructionsVi,
     'zh-Hans': instructionsZhHans
 };
