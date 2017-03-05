@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. For change 
 ## Unreleased
 
 - put future changes here
+- Add Russian translation
 - Manage translations via Transifex
 - Add Vietnamese translation (thanks @1ec5)
 - Consistify bearings to prefer simple directions

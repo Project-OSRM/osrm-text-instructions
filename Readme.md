@@ -35,8 +35,8 @@ response.legs.forEach(function(leg) {
 parameter | required? | values | description
 ---|----|----|---
 `version` | required | `v5` | Major OSRM version
-`language` | required | `en` `de` `zh-Hans` `fr` `nl` | Language identifier
-`options.hooks.tokenizedIstruction` | optional | `function(instruction)` | A function to change the raw instruction string before tokens are replaced. Useful to inject custom markup for tokens
+`language` | required | `en` `de` `zh-Hans` `fr` `nl` `ru` | Language identifier
+`options.hooks.tokenizedInstruction` | optional | `function(instruction)` | A function to change the raw instruction string before tokens are replaced. Useful to inject custom markup for tokens
 
 ### Development
 #### Architecture
