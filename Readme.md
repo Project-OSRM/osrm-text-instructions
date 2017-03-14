@@ -12,7 +12,7 @@ osrm-text-instructions transforms OSRM route responses into text instructions. I
 
 - __Cross platform__ Use a data-driven approach that makes implementations in other programming environments easy to write
 - __Test suite__ Have a data-driven test suite with fixtures which can be used cross-platform
-- __Translation__ Allow for translations via [Transifex](https://www.transifex.com/)
+- __Translation__ Allow for translations via [Transifex](https://www.transifex.com/project-osrm/osrm-text-instructions/)
 - __Customization__ Users should be able to easily fork or monkey patch the results to adjust to their own likings
 
 ### Javascript Usage
