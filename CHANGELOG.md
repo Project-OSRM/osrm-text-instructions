@@ -4,11 +4,15 @@ All notable changes to this project will be documented in this file. For change 
 ## Unreleased
 
 - put future changes here
-- Add Russian translation
+
+# 0.2.0 2017-03-14
+
 - Manage translations via Transifex
+- Add Russian translation (thanks @yuryleb @oxidase)
+- Add Swedish translation
 - Add Vietnamese translation (thanks @1ec5)
-- Consistify bearings to prefer simple directions
-- Make continue straight instructions briefer
+- English: Make continue straight instructions briefer
+- English: Consistify bearings to prefer simple directions
 - Development: Completely automated fixture generation
 - Development: Fixture instructions in all languages
 
