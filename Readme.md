@@ -1,21 +1,21 @@
-# osrm-text-instructions
+# OSRM Text Instructions
 
 [![Build Status](https://travis-ci.org/Project-OSRM/osrm-text-instructions.svg?branch=master)](https://travis-ci.org/Project-OSRM/osrm-text-instructions)
 
 ----
 
-__WIP: This project is under heavy development and should not be integrated yet.__
+OSRM Text Instructions transforms [OSRM](http://www.project-osrm.org/) route responses into localized text instructions. This repository contains the canonical implementation of this library written in JavaScript. OSRM Text Instructions is also available [in Swift and Objective-C](https://github.com/Project-OSRM/osrm-text-instructions.swift/) and experimentally [in Java](https://github.com/mapbox/mapbox-java/tree/master/mapbox/libjava-services/src/main/java/com/mapbox/services/api/navigation/v5/osrm/).
 
-osrm-text-instructions transforms OSRM route responses into text instructions. It currently has only an implementation in JavaScript, with more to come.
+OSRM Text Instructions has been translated into [several languages](https://github.com/Project-OSRM/osrm-text-instructions/tree/master/languages/translations/). Please help us add support for the languages you speak [using Transifex](https://www.transifex.com/project-osrm/osrm-text-instructions/).
 
 ### Design goals
 
 - __Cross platform__ Use a data-driven approach that makes implementations in other programming environments easy to write
 - __Test suite__ Have a data-driven test suite with fixtures which can be used cross-platform
 - __Translation__ Allow for translations via [Transifex](https://www.transifex.com/project-osrm/osrm-text-instructions/)
-- __Customization__ Users should be able to easily fork or monkey patch the results to adjust to their own likings
+- __Customization__ Users should be able to easily fork or monkey-patch the results to adjust to their own liking
 
-### Javascript Usage
+### JavaScript Usage
 
 ```
 var version = 'v5';
