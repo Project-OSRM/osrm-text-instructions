@@ -112,8 +112,8 @@
         "end of road": {
             "default": {
                 "default": "Поверните {modifier}",
-                "name": "Двигайтесь {modifier} на {way_name}",
-                "destination": "Двигайтесь {modifier} в направлении {destination}"
+                "name": "Поверните {modifier} на {way_name}",
+                "destination": "Поверните {modifier} в направлении {destination}"
             },
             "straight": {
                 "default": "Двигайтесь прямо",
@@ -122,7 +122,7 @@
             },
             "uturn": {
                 "default": "В конце дороги развернитесь",
-                "name": "В конце дороги развернитесь на {way_name}",
+                "name": "Развернитесь в конце {way_name}",
                 "destination": "В конце дороги развернитесь в направлении {destination}"
             }
         },
@@ -192,9 +192,9 @@
         },
         "new name": {
             "default": {
-                "default": "Поверните {modifier}",
-                "name": "Поверните {modifier} на {way_name}",
-                "destination": "Поверните {modifier} и продолжайте движение в направлении {destination}"
+                "default": "Двигайтесь {modifier}",
+                "name": "Двигайтесь {modifier} на {way_name}",
+                "destination": "Двигайтесь {modifier} в направлении {destination}"
             },
             "sharp left": {
                 "default": "Резко поверните налево",
