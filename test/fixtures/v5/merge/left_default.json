@@ -9,6 +9,7 @@
     "instructions": {
         "de": "Links auffahren",
         "en": "Merge left",
+        "es": "Gire a izquierda",
         "fr": "Rejoindre à gauche",
         "nl": "Bij de splitsing links",
         "ru": "Перестройтесь налево",

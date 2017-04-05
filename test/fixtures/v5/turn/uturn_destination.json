@@ -10,6 +10,7 @@
     "instructions": {
         "de": "180°-Wendung abbiegen Richtung Destination 1",
         "en": "Make a U-turn towards Destination 1",
+        "es": "Siga cambio de sentido hacia Destination 1",
         "fr": "Tourner demi-tour en direction de Destination 1",
         "nl": "Ga omkeren richting Destination 1",
         "ru": "Двигайтесь на разворот в направлении Destination 1",
