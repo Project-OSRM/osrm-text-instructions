@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file. For change 
 
 - put future changes here
 
+# 0.2.1 2017-04-05
+
+- Add Spanish translation (thanks @josek5494)
+- Update Russian translation
+
 # 0.2.0 2017-03-14
 
 - Manage translations via Transifex
