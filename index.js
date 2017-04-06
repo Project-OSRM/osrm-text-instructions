@@ -1,5 +1,6 @@
 var languages = require('./languages');
 var instructions = languages.instructions;
+var grammars = languages.grammars;
 
 module.exports = function(version, _options) {
     var opts = {};
@@ -104,7 +105,6 @@ module.exports = function(version, _options) {
             switch (type) {
             case 'use lane':
                 laneInstruction = instructions[language][version].constants.lanes[this.laneConfig(step)];
-
                 if (!laneInstruction) {
                     // If the lane combination is not found, default to continue straight
                     instructionObject = instructions[language][version]['use lane'].no_lanes;
@@ -136,8 +136,9 @@ module.exports = function(version, _options) {
                 // if both are the same we assume that there used to be an empty name, with the ref being filled in for it
                 // we only need to retain the ref then
                 name = '';
+            } else {
+                name = name.replace(' (' + step.ref + ')', '');
             }
-            name = name.replace(' (' + step.ref + ')', '');
 
             // In attempt to avoid using the highway name of a way,
             // check and see if the step has a class which should signal
@@ -199,10 +200,36 @@ module.exports = function(version, _options) {
 
             return this.tokenize(language, instruction, replaceTokens);
         },
+        grammarize: function(language, name, grammar) {
+            // Process way/rotary name with applying grammar rules if any
+            if (name && grammar && grammars && grammars[language] && grammars[language][version]) {
+                var rules = grammars[language][version][grammar];
+                if (rules) {
+                    // Pass original name to rules' regular expressions enclosed with spaces for simplier parsing
+                    var n = ' ' + name + ' ';
+                    rules.forEach(function(rule) {
+                        var re = new RegExp(rule[0]);
+                        n = n.replace(re, rule[1]);
+                    });
+
+                    return n.trim();
+                }
+            }
+
+            return name;
+        },
         tokenize: function(language, instruction, tokens) {
-            var output =  Object.keys(tokens).reduce(function(memo, token) {
-                return memo.replace('{' + token + '}', tokens[token]);
-            }, instruction)
+            // Keep this function context to use in inline function below (no arrow functions in ES4)
+            var that = this;
+            var output = instruction.replace(/\{(\w+):?(\w+)?\}/g, function(token, tag, grammar) {
+                var name = tokens[tag];
+                if (typeof name !== 'undefined') {
+                    return that.grammarize(language, name, grammar);
+                }
+
+                // Return unknown token unchanged
+                return token;
+            })
             .replace(/ {2}/g, ' '); // remove excess spaces
 
             if (instructions[language].meta.capitalizeFirstLetter) {
