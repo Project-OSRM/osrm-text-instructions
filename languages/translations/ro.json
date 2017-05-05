@@ -1,0 +1,397 @@
+{
+    "meta": {
+        "capitalizeFirstLetter": true
+    },
+    "v5": {
+        "constants": {
+            "ordinalize": {
+                "1": "prima",
+                "2": "a 2-a",
+                "3": "a 3-a",
+                "4": "a 4-a",
+                "5": "a 5-a",
+                "6": "a 6-a",
+                "7": "a 7-a",
+                "8": "a 8-a",
+                "9": "a 9-a",
+                "10": "a 10-a"
+            },
+            "direction": {
+                "north": "nord",
+                "northeast": "nord-est",
+                "east": "est",
+                "southeast": "sud-est",
+                "south": "sud",
+                "southwest": "sud-vest",
+                "west": "vest",
+                "northwest": "nord-vest"
+            },
+            "modifier": {
+                "left": "stânga",
+                "right": "dreapta",
+                "sharp left": "brusc stânga",
+                "sharp right": "brusc dreapta",
+                "slight left": "ușor stânga",
+                "slight right": "ușor dreapta",
+                "straight": "înainte",
+                "uturn": "întoarcere"
+            },
+            "lanes": {
+                "xo": "Menține dreapta",
+                "ox": "Menține dreapta",
+                "xox": "Menține pe interior",
+                "oxo": "Menține pe laterale"
+            }
+        },
+        "modes": {
+            "ferry": {
+                "default": "Ia feribotul",
+                "name": "Ia feribotul {way_name}",
+                "destination": "Ia feribotul spre {destination}"
+            }
+        },
+        "arrive": {
+            "default": {
+                "default": "Ați ajuns la {nth} destinație"
+            },
+            "left": {
+                "default": "Ați ajuns la {nth} destinație, pe stânga"
+            },
+            "right": {
+                "default": "Ați ajuns la {nth} destinație, pe dreapta"
+            },
+            "sharp left": {
+                "default": "Ați ajuns la {nth} destinație, pe stânga"
+            },
+            "sharp right": {
+                "default": "Ați ajuns la {nth} destinație, pe dreapta"
+            },
+            "slight right": {
+                "default": "Ați ajuns la {nth} destinație, pe dreapta"
+            },
+            "slight left": {
+                "default": "Ați ajuns la {nth} destinație, pe stânga"
+            },
+            "straight": {
+                "default": "Ați ajuns la {nth} destinație, în față"
+            }
+        },
+        "continue": {
+            "default": {
+                "default": "Continuați {modifier}",
+                "name": "Continuați {modifier} pe {way_name}",
+                "destination": "Continuați {modifier} spre {destination}"
+            },
+            "slight left": {
+                "default": "Continuați ușor stânga",
+                "name": "Continuați ușor stânga pe {way_name}",
+                "destination": "Continuați ușor stânga spre {destination}"
+            },
+            "slight right": {
+                "default": "Continuați ușor dreapta",
+                "name": "Continuați ușor dreapta pe {way_name}",
+                "destination": "Continuați ușor dreapta spre {destination}"
+            },
+            "uturn": {
+                "default": "Întoarceți-vă",
+                "name": "Întoarceți-vă pe {way_name}",
+                "destination": "Întoarceți-vă spre {destination}"
+            }
+        },
+        "depart": {
+            "default": {
+                "default": "Mergeți {direction}",
+                "name": "Mergeți {direction} pe {way_name}"
+            }
+        },
+        "end of road": {
+            "default": {
+                "default": "Virați {modifier}",
+                "name": "Virați {modifier} pe {way_name}",
+                "destination": "Virați {modifier} spre {destination}"
+            },
+            "straight": {
+                "default": "Continuați înainte",
+                "name": "Continuați înainte pe {way_name}",
+                "destination": "Continuați înainte spre {destination}"
+            },
+            "uturn": {
+                "default": "Întoarceți-vă la sfârșitul drumului",
+                "name": "Întoarceți-vă pe {way_name} la sfârșitul drumului",
+                "destination": "Întoarceți-vă spre {destination} la sfârșitul drumului"
+            }
+        },
+        "fork": {
+            "default": {
+                "default": "Mențineți {modifier} la bifurcație",
+                "name": "Mențineți {modifier} la bifurcație pe {way_name}",
+                "destination": "Mențineți {modifier} la bifurcație spre {destination}"
+            },
+            "slight left": {
+                "default": "Mențineți stânga la bifurcație",
+                "name": "Mențineți stânga la bifurcație pe {way_name}",
+                "destination": "Mențineți stânga la bifurcație spre {destination}"
+            },
+            "slight right": {
+                "default": "Mențineți dreapta la bifurcație",
+                "name": "Mențineți dreapta la bifurcație pe {way_name}",
+                "destination": "Mențineți dreapta la bifurcație spre {destination}"
+            },
+            "sharp left": {
+                "default": "Virați brusc stânga la bifurcație",
+                "name": "Virați brusc stânga la bifurcație pe {way_name}",
+                "destination": "Virați brusc stânga la bifurcație spre {destination}"
+            },
+            "sharp right": {
+                "default": "Virați brusc dreapta la bifurcație",
+                "name": "Virați brusc dreapta la bifurcație pe {way_name}",
+                "destination": "Virați brusc dreapta la bifurcație spre {destination}"
+            },
+            "uturn": {
+                "default": "Întoarceți-vă",
+                "name": "Întoarceți-vă pe {way_name}",
+                "destination": "Întoarceți-vă spre {destination}"
+            }
+        },
+        "merge": {
+            "default": {
+                "default": "Intrați în {modifier}",
+                "name": "Intrați în {modifier} pe {way_name}",
+                "destination": "Intrați în {modifier} spre {destination}"
+            },
+            "slight left": {
+                "default": "Intrați în stânga",
+                "name": "Intrați în stânga pe {way_name}",
+                "destination": "Intrați în stânga spre {destination}"
+            },
+            "slight right": {
+                "default": "Intrați în dreapta",
+                "name": "Intrați în dreapta pe {way_name}",
+                "destination": "Intrați în dreapta spre {destination}"
+            },
+            "sharp left": {
+                "default": "Intrați în stânga",
+                "name": "Intrați în stânga pe {way_name}",
+                "destination": "Intrați în stânga spre {destination}"
+            },
+            "sharp right": {
+                "default": "Intrați în dreapta",
+                "name": "Intrați în dreapta pe {way_name}",
+                "destination": "Intrați în dreapta spre {destination}"
+            },
+            "uturn": {
+                "default": "Întoarceți-vă",
+                "name": "Întoarceți-vă pe {way_name}",
+                "destination": "Întoarceți-vă spre {destination}"
+            }
+        },
+        "new name": {
+            "default": {
+                "default": "Continuați {modifier}",
+                "name": "Continuați {modifier} pe {way_name}",
+                "destination": "Continuați {modifier} spre {destination}"
+            },
+            "sharp left": {
+                "default": "Virați brusc stânga",
+                "name": "Virați brusc stânga pe {way_name}",
+                "destination": "Virați brusc stânga spre {destination}"
+            },
+            "sharp right": {
+                "default": "Virați brusc dreapta",
+                "name": "Virați brusc dreapta pe {way_name}",
+                "destination": "Virați brusc dreapta spre {destination}"
+            },
+            "slight left": {
+                "default": "Continuați ușor stânga",
+                "name": "Continuați ușor stânga pe {way_name}",
+                "destination": "Continuați ușor stânga spre {destination}"
+            },
+            "slight right": {
+                "default": "Continuați ușor dreapta",
+                "name": "Continuați ușor dreapta pe {way_name}",
+                "destination": "Continuați ușor dreapta spre {destination}"
+            },
+            "uturn": {
+                "default": "Întoarceți-vă",
+                "name": "Întoarceți-vă pe {way_name}",
+                "destination": "Întoarceți-vă spre {destination}"
+            }
+        },
+        "notification": {
+            "default": {
+                "default": "Continuați {modifier}",
+                "name": "Continuați {modifier} pe {way_name}",
+                "destinație" : "Continuați {modifier} spre {destination}"
+            },
+            "uturn": {
+                "default": "Întoarceți-vă",
+                "name": "Întoarceți-vă pe {way_name}",
+                "destination": "Întoarceți-vă spre {destination}"
+            }
+        },
+        "off ramp": {
+            "default": {
+                "default": "Urmați rampa",
+                "name": "Urmați rampa pe {way_name}",
+                "destination": "Urmați rampa spre {destination}"
+            },
+            "left": {
+                "default": "Urmați rampa pe stânga",
+                "name": "Urmați rampa pe stânga pe {way_name}",
+                "destination": "Urmați rampa pe stânga spre {destination}"
+            },
+            "right": {
+                "default": "Urmați rampa pe dreapta",
+                "name": "Urmați rampa pe dreapta pe {way_name}",
+                "destination": "Urmați rampa pe dreapta spre {destination}"
+            },
+            "sharp left": {
+                "default": "Urmați rampa pe stânga",
+                "name": "Urmați rampa pe stânga pe {way_name}",
+                "destination": "Urmați rampa pe stânga spre {destination}"
+            },
+            "sharp right": {
+                "default": "Urmați rampa pe dreapta",
+                "name": "Urmați rampa pe dreapta pe {way_name}",
+                "destination": "Urmați rampa pe dreapta spre {destination}"
+            },
+            "slight left": {
+                "default": "Urmați rampa pe stânga",
+                "name": "Urmați rampa pe stânga pe {way_name}",
+                "destination": "Urmați rampa pe stânga spre {destination}"
+            },
+            "slight right": {
+                "default": "Urmați rampa pe dreapta",
+                "name": "Urmați rampa pe dreapta pe {way_name}",
+                "destination": "Urmați rampa pe dreapta spre {destination}"
+            }
+        },
+        "on ramp": {
+            "default": {
+                "default": "Urmați rampa",
+                "name": "Urmați rampa pe {way_name}",
+                "destination": "Urmați rampa spre {destination}"
+            },
+            "left": {
+                "default": "Urmați rampa pe stânga",
+                "name": "Urmați rampa pe stânga pe {way_name}",
+                "destination": "Urmați rampa pe stânga spre {destination}"
+            },
+            "right": {
+                "default": "Urmați rampa pe dreapta",
+                "name": "Urmați rampa pe dreapta pe {way_name}",
+                "destination": "Urmați rampa pe dreapta spre {destination}"
+            },
+            "sharp left": {
+                "default": "Urmați rampa pe stânga",
+                "name": "Urmați rampa pe stânga pe {way_name}",
+                "destination": "Urmați rampa pe stânga spre {destination}"
+            },
+            "sharp right": {
+                "default": "Urmați rampa pe dreapta",
+                "name": "Urmați rampa pe dreapta pe {way_name}",
+                "destination": "Urmați rampa pe dreapta spre {destination}"
+            },
+            "slight left": {
+                "default": "Urmați rampa pe stânga",
+                "name": "Urmați rampa pe stânga pe {way_name}",
+                "destination": "Urmați rampa pe stânga spre {destination}"
+            },
+            "slight right": {
+                "default": "Urmați rampa pe dreapta",
+                "name": "Urmați rampa pe dreapta pe {way_name}",
+                "destination": "Urmați rampa pe dreapta spre {destination}"
+            }
+        },
+        "rotary": {
+            "default": {
+                "default": {
+                    "default": "Intrați în sensul giratoriu",
+                    "name": "Intrați în sensul giratoriu și ieșiți pe {way_name}",
+                    "destination": "Intrați în sensul giratoriu și ieșiți spre {destination}"
+                },
+                "name": {
+                    "default": "Intrați în  {rotary_name}",
+                    "name": "Intrați în  {rotary_name} și ieșiți pe {way_name}",
+                    "destination": "Intrați în  {rotary_name} și ieșiți spre {destination}"
+                },
+                "exit": {
+                    "default": "Intrați în sensul giratoriu și mergeți spre ieșirea {exit_number}",
+                    "name": "Intrați în sensul giratoriu și mergeți spre ieșirea {exit_number} pe {way_name}",
+                    "destination": "Intrați în sensul giratoriu și mergeți spre ieșirea {exit_number} spre {destination}"
+                },
+                "name_exit": {
+                    "default": "Intrați în  {rotary_name} și mergeți spre ieșirea {exit_number}",
+                    "name": "Intrați în  {rotary_name} și mergeți spre ieșirea {exit_number} pe {way_name}",
+                    "destination": "Intrați în  {rotary_name} și mergeți spre ieșirea {exit_number} spre {destination}"
+                }
+            }
+        },
+        "roundabout": {
+            "default": {
+                "exit": {
+                    "default": "Intrați în sensul giratoriu și mergeți spre ieșirea {exit_number}",
+                    "name": "Intrați în sensul giratoriu și mergeți spre ieșirea {exit_number} pe {way_name}",
+                    "destination": "Intrați în sensul giratoriu și mergeți spre ieșirea {exit_number} spre {destination}"
+                },
+                "default": {
+                    "default": "Intrați în sensul giratoriu",
+                    "name": "Intrați în sensul giratoriu și ieșiți pe {way_name}",
+                    "destination": "Intrați în sensul giratoriu și ieșiți spre {destination}"
+                }
+            }
+        },
+        "roundabout turn": {
+            "default": {
+                "default": "La sensul giratoriu virați {modifier}",
+                "name": "La sensul giratoriu virați {modifier} pe {way_name}",
+                "destination": "La sensul giratoriu virați {modifier} spre {destination}"
+            },
+            "left": {
+                "default": "La sensul giratoriu virați stânga",
+                "name": "La sensul giratoriu virați stânga pe {way_name}",
+                "destination": "La sensul giratoriu virați stânga spre {destination}"
+            },
+            "right": {
+                "default": "La sensul giratoriu virați dreapta",
+                "name": "La sensul giratoriu virați dreapta pe {way_name}",
+                "destination": "La sensul giratoriu virați dreapta spre {destination}"
+            },
+            "straight": {
+                "default": "La sensul giratoriu continuați înainte",
+                "name": "La sensul giratoriu continuați înainte pe {way_name}",
+                "destination": "La sensul giratoriu continuați înainte spre {destination}"
+            }
+        },
+        "turn": {
+            "default": {
+                "default": "Virați {modifier}",
+                "name": "Virați {modifier} pe {way_name}",
+                "destination": "Virați {modifier} spre {destination}"
+            },
+            "left": {
+                "default": "Virați stânga",
+                "name": "Virați stânga pe {way_name}",
+                "destination": "Virați stânga spre {destination}"
+            },
+            "right": {
+                "default": "Virați dreapta",
+                "name": "Virați dreapta pe {way_name}",
+                "destination": "Virați dreapta spre {destination}"
+            },
+            "straight": {
+                "default": "Mergeți înainte",
+                "name": "Mergeți înainte pe {way_name}",
+                "destination": "Mergeți înainte spre {destination}"
+            }
+        },
+        "use lane": {
+            "no_lanes": {
+                "default": "Mergeți înainte"
+            },
+            "default": {
+                "default": "{lane_instruction}"
+            }
+        }
+    }
+}
