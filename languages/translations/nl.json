@@ -5,16 +5,16 @@
     "v5": {
         "constants": {
             "ordinalize": {
-                "1": "eerste",
-                "2": "tweede",
-                "3": "derde",
-                "4": "vierde",
-                "5": "vijfde",
-                "6": "zesde",
-                "7": "zevende",
-                "8": "achtste",
-                "9": "negende",
-                "10": "tiende"
+                "1": "1e",
+                "2": "2e",
+                "3": "3e",
+                "4": "4e",
+                "5": "5e",
+                "6": "6e",
+                "7": "7e",
+                "8": "8e",
+                "9": "9e",
+                "10": "10e"
             },
             "direction": {
                 "north": "noord",
