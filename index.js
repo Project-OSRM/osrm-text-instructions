@@ -59,7 +59,35 @@ module.exports = function(version, language, options) {
 
             return config.join('');
         },
-        compile: function(step) {
+        precompilePriorityTable: function(route) {
+            priorityTable = {};
+
+            function safeIncrease(obj, key) {
+                if (obj[key]) {
+                    obj[key] = obj[key] + 1
+                } else {
+                    obj[key] = 1
+                }
+            }
+
+            route.legs.forEach(function(leg) {
+                leg.steps.forEach(function(step) {
+                    if (step.name) {
+                        safeIncrease(priorityTable, step.name);
+                    }
+                    if (step.ref) {
+                        step.ref.split(';').forEach(function(ref) {
+                            safeIncrease(priorityTable, ref.trim())
+                        })
+                    }
+                });
+            });
+
+            console.log(priorityTable);
+
+            return priorityTable;
+        },
+        compile: function(step, priorityTable) {
             if (!step.maneuver) throw new Error('No step maneuver provided');
 
             var type = step.maneuver.type;
@@ -128,6 +156,53 @@ module.exports = function(version, language, options) {
             }
             name = name.replace(' (' + step.ref + ')', '');
 
+            // alter by priority
+            if (priorityTable) {
+                // get all scores
+                collect = [];
+                if (name) {
+                    if (!priorityTable[name]) throw new Error('name ' + name + ' not in priorityTable');
+                    collect.push({
+                        type: 'name',
+                        value: name,
+                        score: priorityTable[name]
+                    });
+                }
+                if (step.ref) {
+                    step.ref.split(';').forEach(function(_ref) {
+                        const ref = _ref.trim();
+                        if(!priorityTable[ref]) throw new Error('ref ' + ref + ' not in priorityTable');
+                        collect.push({
+                            type: 'ref',
+                            value: ref,
+                            score: priorityTable[ref]
+                        });
+                    });
+                }
+
+                if (collect.length > 0) {
+                    // find the highest score
+                    res = collect.reduce(function(a, b) {
+                        return (a.score > b.score) ? a : b;
+                    }, { score: 0 });
+                    console.log(collect, res);
+
+                    if (res) {
+                        // save for later
+                        if (res.type === 'name') {
+                            name = res.value;
+                            ref = null;
+                        } else if (res.type === 'ref') {
+                            name = null;
+                            ref = res.value;
+                        } else {
+                            throw new Error('unknown type ' + res.type + 'in ' + JSON.stringify(res));
+                        }
+                    }
+                }
+            }
+
+            // select
             if (name && ref && name !== ref) {
                 wayName = name + ' (' + ref + ')';
             } else if (!name && ref) {
