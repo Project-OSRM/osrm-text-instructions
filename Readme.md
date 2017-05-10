@@ -17,17 +17,18 @@ OSRM Text Instructions has been translated into [several languages](https://gith
 
 ### JavaScript Usage
 
-```
+```js
 var version = 'v5';
-var language = 'en';
-var options = {};
-var osrmTextInstructions = require('osrm-text-instructions')(version, language, options);
+var options = {
+    languages: [ 'en', 'fr' ]
+};
+var osrmTextInstructions = require('osrm-text-instructions')(version, options);
 
-// make your request against the API
+// make your request against the API, save result to response variable
 
 response.legs.forEach(function(leg) {
   leg.steps.forEach(function(step) {
-    instruction = osrmTextInstructions.compile(step)
+    instruction = osrmTextInstructions.compile(step, 'en')
   });
 });
 ```
@@ -35,8 +36,8 @@ response.legs.forEach(function(leg) {
 parameter | required? | values | description
 ---|----|----|---
 `version` | required | `v5` | Major OSRM version
-`language` | required | `en` `de` `zh-Hans` `fr` `nl` `ru` | Language identifier
 `options.hooks.tokenizedInstruction` | optional | `function(instruction)` | A function to change the raw instruction string before tokens are replaced. Useful to inject custom markup for tokens
+`options.languages` | optional | `en` `de` `zh-Hans` `fr` `nl` `ru` | Array of language identifiers that should be supported. Default is loading all language files, which can be huge on websites
 
 ### Development
 #### Architecture
