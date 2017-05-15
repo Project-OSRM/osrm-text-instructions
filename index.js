@@ -1,6 +1,13 @@
-module.exports = function(version, language, options) {
+module.exports = function(version, _options) {
     // load instructions
-    var instructions = require('./languages').get(language);
+    var options = {};
+    options.hook = {};
+    options.hook.tokeninzedInstruction = ((_options || {}).hook || {}).tokeninzedInstruction;
+    options.languages = _options.languages || ['en', 'fr'];
+
+        // TODO Validate language
+
+    var instructions = require('./languages').get(options.languages);
     if (Object !== instructions.constructor) throw 'instructions must be object';
     if (!instructions[version]) { throw 'invalid version ' + version; }
 
@@ -147,9 +154,8 @@ module.exports = function(version, language, options) {
                 instruction = instructionObject.default;
             }
 
-            var tokenizedInstructionHook = ((options || {}).hooks || {}).tokenizedInstruction;
-            if (tokenizedInstructionHook) {
-                instruction = tokenizedInstructionHook(instruction);
+            if (options.tokenizedInstruction) {
+                instruction = options.tokenizedInstruction(instruction);
             }
 
             // Replace tokens
