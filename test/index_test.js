@@ -6,10 +6,10 @@ var instructions = require('../index');
 var languageInstructions = require('../languages');
 
 tape.test('v5 directionFromDegree', function(assert) {
-    var v5Instructions = instructions('v5', 'en');
+    var v5Instructions = instructions('v5', {languages: ['en']});
 
     assert.equal(
-        v5Instructions.directionFromDegree(undefined), // eslint-disable-line no-undefined
+        v5Instructions.directionFromDegree('en', undefined), // eslint-disable-line no-undefined
         '',
         'empty string for undefined'
     );
@@ -36,14 +36,14 @@ tape.test('v5 directionFromDegree', function(assert) {
         [ 360, 'north' ]
     ].forEach((d) => {
         assert.equal(
-            v5Instructions.directionFromDegree(d[0]),
+            v5Instructions.directionFromDegree('en', d[0]),
             d[1],
             `${d[0]} degrees is ${d[1]}`
         );
     });
 
     assert.throws(
-        () => { v5Instructions.directionFromDegree(361); },
+        () => { v5Instructions.directionFromDegree('en', 361); },
         'throws on out of bounds degree'
     );
 
@@ -51,7 +51,7 @@ tape.test('v5 directionFromDegree', function(assert) {
 });
 
 tape.test('v5 laneDiagram', function(assert) {
-    var v5Instructions = instructions('v5', 'en');
+    var v5Instructions = instructions('v5');
 
     function makeStep(config) {
         return {
@@ -95,16 +95,39 @@ tape.test('v5 laneDiagram', function(assert) {
 });
 
 tape.test('v5 compile', function(t) {
+    t.test('throws an error if no language code provided', function(assert) {
+        var v5Instructions = instructions('v5');
+
+        assert.throws(function() {
+            v5Instructions.compile();
+        }, /No language code provided/
+    );
+
+        assert.end();
+    });
+
+    t.test('throws an error if a non supported language code is provided', function(assert) {
+        var v5Instructions = instructions('v5', {languages: ['en']});
+
+        assert.throws(function() {
+            v5Instructions.compile('foo');
+        }, /language code foo not loaded/
+    );
+
+        assert.end();
+    });
+
     t.test('respects options.instructionStringHook', function(assert) {
-        var v5Instructions = instructions('v5', 'en', {
+        var v5Instructions = instructions('v5', {
             hooks: {
                 tokenizedInstruction: function(instruction) {
                     return instruction.replace('{way_name}', '<blink>{way_name}</blink>');
                 }
-            }
+            },
+            languages: ['en']
         });
 
-        assert.equal(v5Instructions.compile({
+        assert.equal(v5Instructions.compile('en', {
             maneuver: {
                 type: 'turn',
                 modifier: 'left'
@@ -116,11 +139,7 @@ tape.test('v5 compile', function(t) {
 
     t.test('fixtures match generated instructions', function(assert) {
         // pre-load instructions
-        var instructionsPerLanguage = {};
-        Object.keys(languageInstructions.tags)
-            .forEach((t) => {
-                instructionsPerLanguage[t] = instructions('v5', t);
-            });
+        var instructionsPerLanguage = instructions('v5');
 
         var basePath = path.join(__dirname, 'fixtures', 'v5');
 
@@ -135,7 +154,7 @@ tape.test('v5 compile', function(t) {
 
                 Object.keys(fixture.instructions).forEach((l) => {
                     assert.equal(
-                        instructionsPerLanguage[l].compile(fixture.step),
+                        instructionsPerLanguage.compile(l, fixture.step),
                         fixture.instructions[l],
                         `${type}/${file}/${l}`
                     );
