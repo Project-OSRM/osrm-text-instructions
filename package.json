@@ -20,7 +20,7 @@
     "request": "2.79.0"
   },
   "scripts": {
-    "lint": "eslint *.js test/*.js",
+    "lint": "eslint *.js test/*.js scripts/*.js",
     "pretest": "npm run lint",
     "test": "tape test/*_test.js",
     "transifex": "node scripts/transifex.js"

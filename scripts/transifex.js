@@ -25,7 +25,7 @@ urls.translation = `${urls.api}/${urls.project}/resource/enjson/translation`;
 
 Object.keys(languages.codes).forEach((code) => {
     // no need to download english
-    if (code === 'en') { return };
+    if (code === 'en') return;
 
     // Download from Transifex
     request.get(`${urls.translation}/${code}`, {auth: auth}, (err, resp, body) => {
