@@ -27,7 +27,7 @@ var osrmTextInstructions = require('osrm-text-instructions')(version, options);
 // make your request against the API, save result to response variable
 
 response.legs.forEach(function(leg) {
-  leg.steps.forEach(function(language, step) {
+  leg.steps.forEach(function(step) {
     instruction = osrmTextInstructions.compile(language, step)
   });
 });
