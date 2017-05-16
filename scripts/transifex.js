@@ -21,23 +21,24 @@ if (!auth.user || !auth.pass) throw 'invalid transifex.auth';
 var urls = {};
 urls.api = 'https://www.transifex.com/api/2';
 urls.project = 'project/osrm-text-instructions';
-urls.translation = `${urls.api}/${urls.project}/resource/enjson/translation`
+urls.translation = `${urls.api}/${urls.project}/resource/enjson/translation`;
 
-Object.keys(languages.tags).forEach((tag) => {
-    if (tag === 'en') { return }; // no need to download english
+Object.keys(languages.codes).forEach((code) => {
+    // no need to download english
+    if (code === 'en') { return };
 
     // Download from Transifex
-    request.get(`${urls.translation}/${tag}`, { auth: auth }, (err, resp, body) => {
+    request.get(`${urls.translation}/${code}`, {auth: auth}, (err, resp, body) => {
         if (err) throw err;
         var content = JSON.parse(JSON.parse(body).content);
 
         // Apply language-specific overrides
-        var override = `${__dirname}/../languages/overrides/${tag}.js`
-        if(fs.existsSync(override)) {
+        var override = `${__dirname}/../languages/overrides/${code}.js`;
+        if (fs.existsSync(override)) {
             content = require(override)(content);
         }
 
         // Write language file
-        fs.writeFileSync(`${__dirname}/../languages/translations/${tag}.json`, JSON.stringify(content, null, 4));
+        fs.writeFileSync(`${__dirname}/../languages/translations/${code}.json`, JSON.stringify(content, null, 4));
     });
 });

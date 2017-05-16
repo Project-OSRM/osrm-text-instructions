@@ -1,5 +1,5 @@
-// Create a list of supported tags
-var supportedTags = [
+// Create a list of supported codes
+var supportedCodes = [
     'de',
     'en',
     'es',
@@ -13,18 +13,18 @@ var supportedTags = [
 ];
 
 module.exports = {
-    get: function(tags) {
-        // Loads translation files for only supported and user requested tags
+    get: function(codes) {
+        // Loads translation files for only supported and user requested codes
         var languages = {};
-        tags.forEach(function(tag) {
-            if (supportedTags.indexOf(tag) === -1) {
-                throw 'Unsupported language tag: ' + tag;
+        codes.forEach(function(code) {
+            if (supportedCodes.indexOf(code) === -1) {
+                throw 'Unsupported language code: ' + code;
             } else {
-                languages[tag] = require('./languages/translations/' + tag + '.json');
+                languages[code] = require('./languages/translations/' + code + '.json');
             }
         });
 
         return languages;
     },
-    supportedTags: supportedTags
+    supportedCodes: supportedCodes
 };

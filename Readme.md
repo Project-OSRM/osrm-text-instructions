@@ -70,9 +70,9 @@ To add an own translations:
 
 - Go to [Transifex](https://www.transifex.com/project-osrm/osrm-text-instructions/) and create the new translation there
 - When the translation on Transifex is ready, pull in the translation file:
-  - Create an empty translation file `echo "{}" > languages/translations/{language_tag}.json`
-  - Add the new translation file and language tag to `./languages.js`
-  - If needed: make overrides in `languages/overrides/{language_tag}.json`
+  - Create an empty translation file `echo "{}" > languages/translations/{language_code}.json`
+  - Add the new translation file and language code to `./languages.js`
+  - If needed: make overrides in `languages/overrides/{language_code}.json`
   - `npm run transifex`
 - Generate fixture strings for the tests via `UPDATE=1 npm test` (see changes in `git diff`)
 - Make a PR

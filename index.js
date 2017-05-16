@@ -5,7 +5,7 @@ module.exports = function(version, _options) {
     var options = {};
     options.hooks = {};
     options.hooks.tokenizedInstruction = ((_options || {}).hooks || {}).tokenizedInstruction;
-    options.languages = (_options || {}).languages || languages.supportedTags;
+    options.languages = (_options || {}).languages || languages.supportedCodes;
 
         // TODO Validate language
 

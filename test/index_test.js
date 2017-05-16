@@ -3,7 +3,6 @@ var fs = require('fs');
 var tape = require('tape');
 
 var instructions = require('../index');
-var languageInstructions = require('../languages');
 
 tape.test('v5 directionFromDegree', function(assert) {
     var v5Instructions = instructions('v5', {languages: ['en']});

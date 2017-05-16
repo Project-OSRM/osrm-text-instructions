@@ -2,12 +2,12 @@ var tape = require('tape');
 
 var languages = require('../languages');
 
-tape.test('throws on invalid tags', function(assert) {
+tape.test('throws on invalid codes', function(assert) {
     assert.throws(function() {
         languages.get(['en', 'foo']);
     },
-    /Unsupported language tag: foo/,
-    'throws error when gets foo language tag'
+    /Unsupported language code: foo/,
+    'throws error when gets foo language code'
     );
 
     assert.end();
@@ -16,7 +16,7 @@ tape.test('throws on invalid tags', function(assert) {
 tape.test('verify language files structure', function(assert) {
     // check that language files have about the same structure as
     // the reference english language file
-    var translations = languages.get(languages.supportedTags);
+    var translations = languages.get(languages.supportedCodes);
     var english = translations.en;
 
     Object.keys(translations).forEach((l) => {
