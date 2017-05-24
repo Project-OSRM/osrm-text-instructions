@@ -50,8 +50,11 @@ tape.test('verify language files structure', function(assert) {
 tape.test('verify that instructions are only returned for user requested languages', function(assert) {
     var translations = languages.get(['en', 'fr']);
 
-    assert.deepEqual(Object.keys(translations).sort(), ['fr', 'en'].sort(),
-    'only returns en and fr');
+    assert.deepEqual(
+        Object.keys(translations).sort(),
+        ['fr', 'en'].sort(),
+        'only returns en and fr'
+    );
 
     assert.end();
 });
