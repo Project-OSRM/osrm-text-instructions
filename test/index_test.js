@@ -5,7 +5,7 @@ var tape = require('tape');
 var instructions = require('../index');
 
 tape.test('v5 directionFromDegree', function(assert) {
-    var v5Instructions = instructions('v5', {languages: ['en']});
+    var v5Instructions = instructions('v5');
 
     assert.equal(
         v5Instructions.directionFromDegree('en', undefined), // eslint-disable-line no-undefined
@@ -106,7 +106,7 @@ tape.test('v5 compile', function(t) {
     });
 
     t.test('throws an error if a non supported language code is provided', function(assert) {
-        var v5Instructions = instructions('v5', {languages: ['en']});
+        var v5Instructions = instructions('v5');
 
         assert.throws(function() {
             v5Instructions.compile('foo');
@@ -122,8 +122,7 @@ tape.test('v5 compile', function(t) {
                 tokenizedInstruction: function(instruction) {
                     return instruction.replace('{way_name}', '<blink>{way_name}</blink>');
                 }
-            },
-            languages: ['en']
+            }
         });
 
         assert.equal(v5Instructions.compile('en', {

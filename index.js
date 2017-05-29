@@ -1,18 +1,14 @@
 var languages = require('./languages');
+var instructions = languages.instructions;
 
 module.exports = function(version, _options) {
     // load instructions
     var options = {};
     options.hooks = {};
     options.hooks.tokenizedInstruction = ((_options || {}).hooks || {}).tokenizedInstruction;
-    options.languages = (_options || {}).languages || languages.supportedCodes;
 
-        // TODO Validate language
-
-    var instructions = require('./languages').get(options.languages);
-    if (Object !== instructions.constructor) throw 'instructions must be object';
     Object.keys(instructions).forEach(function(code) {
-        if (!instructions[code][version]) { throw 'invalid version ' + version; }
+        if (!instructions[code][version]) { throw 'invalid version ' + version + ': ' + code + ' not supported'; }
     });
 
     return {
@@ -75,7 +71,7 @@ module.exports = function(version, _options) {
         },
         compile: function(language, step) {
             if (!language) throw new Error('No language code provided');
-            if (options.languages.indexOf(language) === -1) throw new Error('language code ' + language + ' not loaded');
+            if (languages.supportedCodes.indexOf(language) === -1) throw new Error('language code ' + language + ' not loaded');
             if (!step.maneuver) throw new Error('No step maneuver provided');
 
             var type = step.maneuver.type;

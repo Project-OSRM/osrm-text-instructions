@@ -19,13 +19,11 @@ OSRM Text Instructions has been translated into [several languages](https://gith
 
 ```js
 var version = 'v5';
-var options = {
-    languages: [ 'en', 'fr' ]
-};
-var osrmTextInstructions = require('osrm-text-instructions')(version, options);
+var osrmTextInstructions = require('osrm-text-instructions')(version);
 
 // make your request against the API, save result to response variable
 
+var language = 'en';
 response.legs.forEach(function(leg) {
   leg.steps.forEach(function(step) {
     instruction = osrmTextInstructions.compile(language, step)
@@ -71,7 +69,7 @@ To add an own translations:
 - Go to [Transifex](https://www.transifex.com/project-osrm/osrm-text-instructions/) and create the new translation there
 - When the translation on Transifex is ready, pull in the translation file:
   - Create an empty translation file `echo "{}" > languages/translations/{language_code}.json`
-  - Add the language code to `./languages.js`
+  - Add the new translation file and language code to `./languages.js`
   - If needed: make overrides in `languages/overrides/{language_code}.json`
   - `npm run transifex`
 - Generate fixture strings for the tests via `UPDATE=1 npm test` (see changes in `git diff`)
