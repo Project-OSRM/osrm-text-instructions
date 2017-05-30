@@ -9,10 +9,7 @@ var constants = require('./constants');
 var instructions = require('../index.js');
 
 // Load instructions files for each language
-var languages = {};
-Object.keys(require('../languages').tags).forEach((l) => {
-    languages[l] = instructions('v5', l);
-});
+var languages = instructions('v5');
 
 tape.test('verify existance/update fixtures', function(assert) {
     function clone(obj) {

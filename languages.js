@@ -11,8 +11,9 @@ var instructionsSv = require('./languages/translations/sv.json');
 var instructionsVi = require('./languages/translations/vi.json');
 var instructionsZhHans = require('./languages/translations/zh-Hans.json');
 
-// Match tag to required language files
-var tags = {
+
+// Create a list of supported codes
+var instructions = {
     'de': instructionsDe,
     'en': instructionsEn,
     'es': instructionsEs,
@@ -25,25 +26,7 @@ var tags = {
     'zh-Hans': instructionsZhHans
 };
 
-// A tag can redirect to another tag via the language tag as string value
-var redirects = {
-    'zh': 'zh-Hans'
-};
-
 module.exports = {
-    tags: tags,
-    redirects: redirects,
-    get: function(tag) {
-        if (this.redirects[tag]) {
-            // redirect to other tag
-            this.get(this.redirects[tag]);
-        }
-
-        var language = this.tags[tag];
-        if (!language) {
-            throw 'invalid language ' + tag;
-        }
-
-        return language;
-    }
+    supportedCodes: Object.keys(instructions),
+    instructions: instructions
 };

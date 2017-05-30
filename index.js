@@ -1,40 +1,49 @@
-module.exports = function(version, language, options) {
-    // load instructions
-    var instructions = require('./languages').get(language);
-    if (Object !== instructions.constructor) throw 'instructions must be object';
-    if (!instructions[version]) { throw 'invalid version ' + version; }
+var languages = require('./languages');
+var instructions = languages.instructions;
+
+module.exports = function(version, _options) {
+    var options = {};
+    options.hooks = {};
+    options.hooks.tokenizedInstruction = ((_options || {}).hooks || {}).tokenizedInstruction;
+
+    Object.keys(instructions).forEach(function(code) {
+        if (!instructions[code][version]) { throw 'invalid version ' + version + ': ' + code + ' not supported'; }
+    });
 
     return {
         capitalizeFirstLetter: function(string) {
             return string.charAt(0).toUpperCase() + string.slice(1);
         },
-        ordinalize: function(number) {
+        ordinalize: function(language, number) {
             // Transform numbers to their translated ordinalized value
-            return instructions[version].constants.ordinalize[number.toString()] || '';
+            if (!language) throw new Error('No language code provided');
+
+            return instructions[language][version].constants.ordinalize[number.toString()] || '';
         },
-        directionFromDegree: function(degree) {
+        directionFromDegree: function(language, degree) {
             // Transform degrees to their translated compass direction
+            if (!language) throw new Error('No language code provided');
             if (!degree && degree !== 0) {
                 // step had no bearing_after degree, ignoring
                 return '';
             } else if (degree >= 0 && degree <= 20) {
-                return instructions[version].constants.direction.north;
+                return instructions[language][version].constants.direction.north;
             } else if (degree > 20 && degree < 70) {
-                return instructions[version].constants.direction.northeast;
+                return instructions[language][version].constants.direction.northeast;
             } else if (degree >= 70 && degree <= 110) {
-                return instructions[version].constants.direction.east;
+                return instructions[language][version].constants.direction.east;
             } else if (degree > 110 && degree < 160) {
-                return instructions[version].constants.direction.southeast;
+                return instructions[language][version].constants.direction.southeast;
             } else if (degree >= 160 && degree <= 200) {
-                return instructions[version].constants.direction.south;
+                return instructions[language][version].constants.direction.south;
             } else if (degree > 200 && degree < 250) {
-                return instructions[version].constants.direction.southwest;
+                return instructions[language][version].constants.direction.southwest;
             } else if (degree >= 250 && degree <= 290) {
-                return instructions[version].constants.direction.west;
+                return instructions[language][version].constants.direction.west;
             } else if (degree > 290 && degree < 340) {
-                return instructions[version].constants.direction.northwest;
+                return instructions[language][version].constants.direction.northwest;
             } else if (degree >= 340 && degree <= 360) {
-                return instructions[version].constants.direction.north;
+                return instructions[language][version].constants.direction.north;
             } else {
                 throw new Error('Degree ' + degree + ' invalid');
             }
@@ -59,7 +68,9 @@ module.exports = function(version, language, options) {
 
             return config.join('');
         },
-        compile: function(step) {
+        compile: function(language, step) {
+            if (!language) throw new Error('No language code provided');
+            if (languages.supportedCodes.indexOf(language) === -1) throw new Error('language code ' + language + ' not loaded');
             if (!step.maneuver) throw new Error('No step maneuver provided');
 
             var type = step.maneuver.type;
@@ -69,7 +80,7 @@ module.exports = function(version, language, options) {
             if (!type) { throw new Error('Missing step maneuver type'); }
             if (type !== 'depart' && type !== 'arrive' && !modifier) { throw new Error('Missing step maneuver modifier'); }
 
-            if (!instructions[version][type]) {
+            if (!instructions[language][version][type]) {
                 // Log for debugging
                 console.log('Encountered unknown instruction type: ' + type); // eslint-disable-line no-console
                 // OSRM specification assumes turn types can be added without
@@ -80,23 +91,23 @@ module.exports = function(version, language, options) {
 
             // Use special instructions if available, otherwise `defaultinstruction`
             var instructionObject;
-            if (instructions[version].modes[mode]) {
-                instructionObject = instructions[version].modes[mode];
-            } else if (instructions[version][type][modifier]) {
-                instructionObject = instructions[version][type][modifier];
+            if (instructions[language][version].modes[mode]) {
+                instructionObject = instructions[language][version].modes[mode];
+            } else if (instructions[language][version][type][modifier]) {
+                instructionObject = instructions[language][version][type][modifier];
             } else {
-                instructionObject = instructions[version][type].default;
+                instructionObject = instructions[language][version][type].default;
             }
 
             // Special case handling
             var laneInstruction;
             switch (type) {
             case 'use lane':
-                laneInstruction = instructions[version].constants.lanes[this.laneConfig(step)];
+                laneInstruction = instructions[language][version].constants.lanes[this.laneConfig(step)];
 
                 if (!laneInstruction) {
                     // If the lane combination is not found, default to continue straight
-                    instructionObject = instructions[version]['use lane'].no_lanes;
+                    instructionObject = instructions[language][version]['use lane'].no_lanes;
                 }
                 break;
             case 'rotary':
@@ -147,9 +158,8 @@ module.exports = function(version, language, options) {
                 instruction = instructionObject.default;
             }
 
-            var tokenizedInstructionHook = ((options || {}).hooks || {}).tokenizedInstruction;
-            if (tokenizedInstructionHook) {
-                instruction = tokenizedInstructionHook(instruction);
+            if (options.hooks.tokenizedInstruction) {
+                instruction = options.hooks.tokenizedInstruction(instruction);
             }
 
             // Replace tokens
@@ -158,15 +168,15 @@ module.exports = function(version, language, options) {
             instruction = instruction
                 .replace('{way_name}', wayName)
                 .replace('{destination}', (step.destinations || '').split(',')[0])
-                .replace('{exit_number}', this.ordinalize(step.maneuver.exit || 1))
+                .replace('{exit_number}', this.ordinalize(language, step.maneuver.exit || 1))
                 .replace('{rotary_name}', step.rotary_name)
                 .replace('{lane_instruction}', laneInstruction)
-                .replace('{modifier}', instructions[version].constants.modifier[modifier])
-                .replace('{direction}', this.directionFromDegree(step.maneuver.bearing_after))
+                .replace('{modifier}', instructions[language][version].constants.modifier[modifier])
+                .replace('{direction}', this.directionFromDegree(language, step.maneuver.bearing_after))
                 .replace('{nth}', nthWaypoint)
                 .replace(/ {2}/g, ' '); // remove excess spaces
 
-            if (instructions.meta.capitalizeFirstLetter) {
+            if (instructions[language].meta.capitalizeFirstLetter) {
                 instruction = this.capitalizeFirstLetter(instruction);
             }
 
