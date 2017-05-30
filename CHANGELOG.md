@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file. For change 
 
 - put future changes here
 
+# 0.3 2017-05-30
+
 - Breaking API change: move language selection from module loading to `compile(language, step)`
 
 # 0.2.1 2017-04-05
