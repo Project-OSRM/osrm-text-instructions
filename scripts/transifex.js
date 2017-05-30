@@ -23,7 +23,7 @@ urls.api = 'https://www.transifex.com/api/2';
 urls.project = 'project/osrm-text-instructions';
 urls.translation = `${urls.api}/${urls.project}/resource/enjson/translation`;
 
-Object.keys(languages.codes).forEach((code) => {
+languages.supportedCodes.forEach((code) => {
     // no need to download english
     if (code === 'en') return;
 
