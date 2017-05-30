@@ -2,7 +2,6 @@ var languages = require('./languages');
 var instructions = languages.instructions;
 
 module.exports = function(version, _options) {
-    // load instructions
     var options = {};
     options.hooks = {};
     options.hooks.tokenizedInstruction = ((_options || {}).hooks || {}).tokenizedInstruction;

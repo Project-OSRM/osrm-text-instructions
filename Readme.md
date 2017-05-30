@@ -35,7 +35,7 @@ parameter | required? | values | description
 ---|----|----|---
 `version` | required | `v5` | Major OSRM version
 `options.hooks.tokenizedInstruction` | optional | `function(instruction)` | A function to change the raw instruction string before tokens are replaced. Useful to inject custom markup for tokens
-`options.languages` | optional | `en` `de` `zh-Hans` `fr` `nl` `ru` [`etc`](https://github.com/Project-OSRM/osrm-text-instructions/tree/master/languages/translations/) | Array of language identifiers that should be supported. Default is loading all language files, which can be huge on websites
+`language` | required | `en` `de` `zh-Hans` `fr` `nl` `ru` [and more](https://github.com/Project-OSRM/osrm-text-instructions/tree/master/languages/translations/) | Compiling instructions for the selected language code.
 
 ### Development
 #### Architecture
