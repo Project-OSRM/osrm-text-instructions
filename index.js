@@ -72,6 +72,7 @@ module.exports = function(version, _options) {
             if (!language) throw new Error('No language code provided');
             if (languages.supportedCodes.indexOf(language) === -1) throw new Error('language code ' + language + ' not loaded');
             if (!step.maneuver) throw new Error('No step maneuver provided');
+            if (arguments.length === 3) throw new Error('Either 2 or 4 arguments are required');
 
             var type = step.maneuver.type;
             var modifier = step.maneuver.modifier;
