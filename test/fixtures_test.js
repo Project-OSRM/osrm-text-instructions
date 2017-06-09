@@ -80,8 +80,7 @@ tape.test('verify existance/update fixtures', function(assert) {
         checkOrWrite(step, `${basePath}_destination`);
     }
 
-    // ['arriveWaypoint', 'arriveWaypointLast'].forEach((type) => {
-    [ 'modes', 'other', 'arriveWaypoint', 'arriveWaypointLast'].concat(constants.types).forEach((type) => {
+    ['modes', 'other', 'arriveWaypoint', 'arriveWaypointLast'].concat(constants.types).forEach((type) => {
         var basePath = path.join(__dirname, 'fixtures', 'v5', underscorify(type));
         var baseStep, step;
 
