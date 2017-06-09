@@ -1,0 +1,20 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "arrive"
+        },
+        "name": "Street Name"
+    },
+    "instructions": {
+        "de": "Sie haben Ihr erste Ziel erreicht",
+        "en": "You have arrived at your 1st destination",
+        "es": "Has llegado a tu 1ª destino",
+        "fr": "Vous êtes arrivés à votre première destination",
+        "id": "Anda telah tiba di tujuan ke-1",
+        "nl": "Je bent gearriveerd op de 1e bestemming.",
+        "ru": "Вы прибыли в первый пункт назначения",
+        "sv": "Du är framme vid din 1:a destination",
+        "vi": "Đến nơi đầu tiên",
+        "zh-Hans": "您已经到达您的第一个目的地"
+    }
+}

@@ -68,7 +68,7 @@ module.exports = function(version, _options) {
 
             return config.join('');
         },
-        compile: function(language, step) {
+        compile: function(language, step, legIndex) {
             if (!language) throw new Error('No language code provided');
             if (languages.supportedCodes.indexOf(language) === -1) throw new Error('language code ' + language + ' not loaded');
             if (!step.maneuver) throw new Error('No step maneuver provided');
@@ -164,7 +164,6 @@ module.exports = function(version, _options) {
 
             // Replace tokens
             // NOOP if they don't exist
-            var nthWaypoint = ''; // TODO, add correct waypoint counting
             instruction = instruction
                 .replace('{way_name}', wayName)
                 .replace('{destination}', (step.destinations || '').split(',')[0])
@@ -173,7 +172,7 @@ module.exports = function(version, _options) {
                 .replace('{lane_instruction}', laneInstruction)
                 .replace('{modifier}', instructions[language][version].constants.modifier[modifier])
                 .replace('{direction}', this.directionFromDegree(language, step.maneuver.bearing_after))
-                .replace('{nth}', nthWaypoint)
+                .replace('{nth}', legIndex && legIndex > 0 ? this.ordinalize(language, legIndex) : '')
                 .replace(/ {2}/g, ' '); // remove excess spaces
 
             if (instructions[language].meta.capitalizeFirstLetter) {

@@ -1,0 +1,21 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "arrive",
+            "modifier": "straight"
+        },
+        "name": "Street Name"
+    },
+    "instructions": {
+        "de": "Sie haben Ihr erste Ziel erreicht, es befindet sich direkt vor Ihnen",
+        "en": "You have arrived at your 1st destination, straight ahead",
+        "es": "Has llegado a tu 1ª destino, en frente",
+        "fr": "Vous êtes arrivés à votre première destination, droit devant",
+        "id": "Anda telah tiba di tujuan ke-1, lurus saja",
+        "nl": "Je bent gearriveerd. De 1e bestemming bevindt zich voor je.",
+        "ru": "Вы прибыли в первый пункт назначения, он находится перед вами",
+        "sv": "Du är framme vid din 1:a destination, rakt fram",
+        "vi": "Đến nơi đầu tiên ở trước mặt",
+        "zh-Hans": "您已经到达您的第一个目的地，在您正前方"
+    }
+}
