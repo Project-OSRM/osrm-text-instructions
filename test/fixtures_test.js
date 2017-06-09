@@ -44,7 +44,8 @@ tape.test('verify existance/update fixtures', function(assert) {
                 fileName,
                 JSON.stringify({
                     step: step,
-                    instructions: instructionsForLanguages(step, legIndex)
+                    instructions: instructionsForLanguages(step, legIndex),
+                    metadata: legIndex && legIndex > 0 ? {'legIndex': legIndex} : {}
                 }, null, 4) + '\n'
             );
             assert.ok(true, `updated ${testName}`);

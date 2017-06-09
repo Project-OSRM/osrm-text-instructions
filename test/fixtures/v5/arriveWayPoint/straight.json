@@ -17,5 +17,8 @@
         "sv": "Du är framme vid din 1:a destination, rakt fram",
         "vi": "Đến nơi đầu tiên ở trước mặt",
         "zh-Hans": "您已经到达您的第一个目的地，在您正前方"
+    },
+    "metadata": {
+        "legIndex": 1
     }
 }
