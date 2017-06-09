@@ -152,7 +152,7 @@ tape.test('v5 compile', function(t) {
 
                 Object.keys(fixture.instructions).forEach((l) => {
                     assert.equal(
-                        instructionsPerLanguage.compile(l, fixture.step, fixture.metadata.legIndex),
+                        instructionsPerLanguage.compile(l, fixture.step, fixture.metadata.legIndex, fixture.metadata.legCount),
                         fixture.instructions[l],
                         `${type}/${file}/${l}`
                     );

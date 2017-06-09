@@ -2,7 +2,7 @@
     "step": {
         "maneuver": {
             "type": "arrive",
-            "modifier": "sharp right"
+            "modifier": "slight right"
         },
         "name": "Street Name"
     },
@@ -14,12 +14,12 @@
         "id": "Anda telah tiba di tujuan ke-, di sebelah kanan",
         "nl": "Je bent gearriveerd. De bestemming bevindt zich rechts.",
         "ru": "Вы прибыли в пункт назначения, он находится справа",
-        "sv": "Du är framme vid din destination, skarpt till höger",
+        "sv": "Du är framme vid din destination, lätt till höger",
         "vi": "Đến nơi ở bên phải",
         "zh-Hans": "您已经到达您的个目的地，在道路右侧"
     },
     "metadata": {
-        "legIndex": 0,
+        "legIndex": 1,
         "legCount": 2
     }
 }

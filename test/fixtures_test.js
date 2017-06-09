@@ -21,17 +21,17 @@ tape.test('verify existance/update fixtures', function(assert) {
         return input.replace(/ /g, '_');
     }
 
-    function instructionsForLanguages(step, legIndex) {
+    function instructionsForLanguages(step, legIndex, legCount) {
         var result = {};
 
         supportedCodes.forEach((k) => {
-            result[k] = languages.compile(k, step, legIndex);
+            result[k] = languages.compile(k, step, legIndex, legCount);
         });
 
         return result;
     }
 
-    function checkOrWrite(step, p, legIndex) {
+    function checkOrWrite(step, p, legIndex, legCount) {
         var fileName = `${p}.json`;
         var testName = p
             .split('/')
@@ -40,12 +40,17 @@ tape.test('verify existance/update fixtures', function(assert) {
 
         if (process.env.UPDATE) {
             // write fixture
+            var metadata = !isNaN(legIndex)  && !isNaN(legCount) ? {
+                'legIndex': legIndex,
+                'legCount': legCount
+            } : {};
+
             fs.writeFileSync(
                 fileName,
                 JSON.stringify({
                     step: step,
-                    instructions: instructionsForLanguages(step, legIndex),
-                    metadata: legIndex && legIndex > 0 ? {'legIndex': legIndex} : {}
+                    instructions: instructionsForLanguages(step, legIndex, legCount),
+                    metadata: metadata
                 }, null, 4) + '\n'
             );
             assert.ok(true, `updated ${testName}`);
@@ -75,7 +80,8 @@ tape.test('verify existance/update fixtures', function(assert) {
         checkOrWrite(step, `${basePath}_destination`);
     }
 
-    [ 'modes', 'other', 'arriveWayPoint'].concat(constants.types).forEach((type) => {
+    // ['arriveWaypoint', 'arriveWaypointLast'].forEach((type) => {
+    [ 'modes', 'other', 'arriveWaypoint', 'arriveWaypointLast'].concat(constants.types).forEach((type) => {
         var basePath = path.join(__dirname, 'fixtures', 'v5', underscorify(type));
         var baseStep, step;
 
@@ -103,14 +109,14 @@ tape.test('verify existance/update fixtures', function(assert) {
                 checkOrWrite(step, path.join(basePath, underscorify(modifier)));
             });
             break;
-        case 'arriveWayPoint':
+        case 'arriveWaypoint':
             step = {
                 maneuver: {
                     type: 'arrive'
                 },
                 name: 'Street Name'
             };
-            checkOrWrite(step, path.join(basePath, 'no_modifier'), 1);
+            checkOrWrite(step, path.join(basePath, 'no_modifier'), 0, 2);
 
             constants.modifiers.forEach((modifier) => {
                 var step = {
@@ -120,7 +126,27 @@ tape.test('verify existance/update fixtures', function(assert) {
                     },
                     name: 'Street Name'
                 };
-                checkOrWrite(step, path.join(basePath, underscorify(modifier)), 1);
+                checkOrWrite(step, path.join(basePath, underscorify(modifier)), 0, 2);
+            });
+            break;
+        case 'arriveWaypointLast':
+            step = {
+                maneuver: {
+                    type: 'arrive'
+                },
+                name: 'Street Name'
+            };
+            checkOrWrite(step, path.join(basePath, 'no_modifier'), 1, 2);
+
+            constants.modifiers.forEach((modifier) => {
+                var step = {
+                    maneuver: {
+                        type: 'arrive',
+                        modifier: modifier
+                    },
+                    name: 'Street Name'
+                };
+                checkOrWrite(step, path.join(basePath, underscorify(modifier)), 1, 2);
             });
             break;
         case 'depart':

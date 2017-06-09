@@ -68,7 +68,7 @@ module.exports = function(version, _options) {
 
             return config.join('');
         },
-        compile: function(language, step, legIndex) {
+        compile: function(language, step, legIndex, legCount) {
             if (!language) throw new Error('No language code provided');
             if (languages.supportedCodes.indexOf(language) === -1) throw new Error('language code ' + language + ' not loaded');
             if (!step.maneuver) throw new Error('No step maneuver provided');
@@ -162,6 +162,8 @@ module.exports = function(version, _options) {
                 instruction = options.hooks.tokenizedInstruction(instruction);
             }
 
+            var waypoint = legIndex && legCount && legIndex >= 0 && legIndex !== legCount - 1 ? this.ordinalize(language, legIndex + 1) : '';
+
             // Replace tokens
             // NOOP if they don't exist
             instruction = instruction
@@ -172,7 +174,7 @@ module.exports = function(version, _options) {
                 .replace('{lane_instruction}', laneInstruction)
                 .replace('{modifier}', instructions[language][version].constants.modifier[modifier])
                 .replace('{direction}', this.directionFromDegree(language, step.maneuver.bearing_after))
-                .replace('{nth}', legIndex && legIndex > 0 ? this.ordinalize(language, legIndex) : '')
+                .replace('{nth}', waypoint)
                 .replace(/ {2}/g, ' '); // remove excess spaces
 
             if (instructions[language].meta.capitalizeFirstLetter) {

@@ -7,18 +7,19 @@
         "name": "Street Name"
     },
     "instructions": {
-        "de": "Sie haben Ihr erste Ziel erreicht, es befindet sich links von Ihnen",
-        "en": "You have arrived at your 1st destination, on the left",
-        "es": "Has llegado a tu 1ª destino, a la izquierda",
-        "fr": "Vous êtes arrivés à votre première destination, sur la gauche",
-        "id": "Anda telah tiba di tujuan ke-1, di sebelah kiri",
-        "nl": "Je bent gearriveerd. De 1e bestemming bevindt zich links.",
-        "ru": "Вы прибыли в первый пункт назначения, он находится слева",
-        "sv": "Du är framme vid din 1:a destination, skarpt till vänster",
-        "vi": "Đến nơi đầu tiên ở bên trái",
-        "zh-Hans": "您已经到达您的第一个目的地，在道路左侧"
+        "de": "Sie haben Ihr Ziel erreicht, es befindet sich links von Ihnen",
+        "en": "You have arrived at your destination, on the left",
+        "es": "Has llegado a tu destino, a la izquierda",
+        "fr": "Vous êtes arrivés à votre destination, sur la gauche",
+        "id": "Anda telah tiba di tujuan ke-, di sebelah kiri",
+        "nl": "Je bent gearriveerd. De bestemming bevindt zich links.",
+        "ru": "Вы прибыли в пункт назначения, он находится слева",
+        "sv": "Du är framme vid din destination, skarpt till vänster",
+        "vi": "Đến nơi ở bên trái",
+        "zh-Hans": "您已经到达您的个目的地，在道路左侧"
     },
     "metadata": {
-        "legIndex": 1
+        "legIndex": 0,
+        "legCount": 2
     }
 }
