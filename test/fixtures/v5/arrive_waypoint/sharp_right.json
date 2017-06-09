@@ -1,0 +1,25 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "arrive",
+            "modifier": "sharp right"
+        },
+        "name": "Street Name"
+    },
+    "instructions": {
+        "de": "Sie haben Ihr erste Ziel erreicht, es befindet sich rechts von Ihnen",
+        "en": "You have arrived at your 1st destination, on the right",
+        "es": "Has llegado a tu 1ª destino, a la derecha",
+        "fr": "Vous êtes arrivés à votre première destination, sur la droite",
+        "id": "Anda telah tiba di tujuan ke-1, di sebelah kanan",
+        "nl": "Je bent gearriveerd. De 1e bestemming bevindt zich rechts.",
+        "ru": "Вы прибыли в первый пункт назначения, он находится справа",
+        "sv": "Du är framme vid din 1:a destination, skarpt till höger",
+        "vi": "Đến nơi đầu tiên ở bên phải",
+        "zh-Hans": "您已经到达您的第一个目的地，在道路右侧"
+    },
+    "metadata": {
+        "legIndex": 0,
+        "legCount": 2
+    }
+}

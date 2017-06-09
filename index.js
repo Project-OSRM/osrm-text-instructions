@@ -163,7 +163,7 @@ module.exports = function(version, _options) {
                 instruction = options.hooks.tokenizedInstruction(instruction);
             }
 
-            var waypoint = legIndex && legCount && legIndex >= 0 && legIndex !== legCount - 1 ? this.ordinalize(language, legIndex + 1) : '';
+            var waypoint = legIndex >= 0 && legIndex !== legCount - 1 ? this.ordinalize(language, legIndex + 1) : '';
 
             // Replace tokens
             // NOOP if they don't exist

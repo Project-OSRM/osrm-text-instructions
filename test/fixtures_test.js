@@ -80,7 +80,7 @@ tape.test('verify existance/update fixtures', function(assert) {
         checkOrWrite(step, `${basePath}_destination`);
     }
 
-    ['modes', 'other', 'arriveWaypoint', 'arriveWaypointLast'].concat(constants.types).forEach((type) => {
+    ['modes', 'other', 'arrive_waypoint', 'arrive_waypoint_last'].concat(constants.types).forEach((type) => {
         var basePath = path.join(__dirname, 'fixtures', 'v5', underscorify(type));
         var baseStep, step;
 
@@ -108,7 +108,7 @@ tape.test('verify existance/update fixtures', function(assert) {
                 checkOrWrite(step, path.join(basePath, underscorify(modifier)));
             });
             break;
-        case 'arriveWaypoint':
+        case 'arrive_waypoint':
             step = {
                 maneuver: {
                     type: 'arrive'
@@ -128,7 +128,7 @@ tape.test('verify existance/update fixtures', function(assert) {
                 checkOrWrite(step, path.join(basePath, underscorify(modifier)), 0, 2);
             });
             break;
-        case 'arriveWaypointLast':
+        case 'arrive_waypoint_last':
             step = {
                 maneuver: {
                     type: 'arrive'
