@@ -7,7 +7,7 @@ var mkdirp = require('mkdirp');
 
 var constants = require('./constants');
 var instructions = require('../index.js');
-var supportedCodes = require('../languages').supportedCodes
+var supportedCodes = require('../languages').supportedCodes;
 
 // Load instructions files for each language
 var languages = instructions('v5');
