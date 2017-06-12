@@ -21,11 +21,11 @@ tape.test('verify existance/update fixtures', function(assert) {
         return input.replace(/ /g, '_');
     }
 
-    function instructionsForLanguages(step, legIndex, legCount) {
+    function instructionsForLanguages(step, legOptions) {
         var result = {};
 
         supportedCodes.forEach((k) => {
-            result[k] = languages.compile(k, step, legIndex, legCount);
+            result[k] = languages.compile(k, step, legOptions);
         });
 
         return result;
@@ -39,19 +39,25 @@ tape.test('verify existance/update fixtures', function(assert) {
             .join('/');
 
         if (process.env.UPDATE) {
-            // write fixture
-            var metadata = !isNaN(legIndex)  && !isNaN(legCount) ? {
-                'legIndex': legIndex,
-                'legCount': legCount
-            } : {};
+            var legOptions;
+            if (!isNaN(legIndex)  && !isNaN(legCount)) {
+                legOptions = {};
+                legOptions = {
+                    'legIndex': legIndex,
+                    'legCount': legCount
+                };
+            }
+
+            var data = {
+                step: step,
+                instructions: instructionsForLanguages(step, legOptions)
+            };
+
+            if (legOptions) data.metadata = legOptions;
 
             fs.writeFileSync(
                 fileName,
-                JSON.stringify({
-                    step: step,
-                    instructions: instructionsForLanguages(step, legIndex, legCount),
-                    metadata: metadata
-                }, null, 4) + '\n'
+                JSON.stringify(data, null, 4) + '\n'
             );
             assert.ok(true, `updated ${testName}`);
         } else {

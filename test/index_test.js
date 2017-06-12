@@ -105,23 +105,6 @@ tape.test('v5 compile', function(t) {
         assert.end();
     });
 
-    t.test('throws an error legIndex provided but no legCount', function(assert) {
-        var v5Instructions = instructions('v5');
-
-        assert.throws(function() {
-            v5Instructions.compile('en', {
-                maneuver: {
-                    type: 'turn',
-                    modifier: 'left'
-                },
-                name: 'Way Name'
-            }, 2);
-        }, /Either 2 or 4 arguments are required/
-    );
-
-        assert.end();
-    });
-
     t.test('throws an error if a non supported language code is provided', function(assert) {
         var v5Instructions = instructions('v5');
 
@@ -166,10 +149,16 @@ tape.test('v5 compile', function(t) {
 
                 var p = path.join(basePath, type, file);
                 var fixture = JSON.parse(fs.readFileSync(p));
+                var options;
+                if (fixture.metadata) {
+                    options = {};
+                    options.legIndex = fixture.metadata.legIndex;
+                    options.legCount = fixture.metadata.legCount;
+                }
 
                 Object.keys(fixture.instructions).forEach((l) => {
                     assert.equal(
-                        instructionsPerLanguage.compile(l, fixture.step, fixture.metadata.legIndex, fixture.metadata.legCount),
+                        instructionsPerLanguage.compile(l, fixture.step, options),
                         fixture.instructions[l],
                         `${type}/${file}/${l}`
                     );
