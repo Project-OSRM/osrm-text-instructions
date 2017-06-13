@@ -31,7 +31,7 @@ tape.test('verify existance/update fixtures', function(assert) {
         return result;
     }
 
-    function checkOrWrite(step, p, legIndex, legCount) {
+    function checkOrWrite(step, p, options) {
         var fileName = `${p}.json`;
         var testName = p
             .split('/')
@@ -39,21 +39,12 @@ tape.test('verify existance/update fixtures', function(assert) {
             .join('/');
 
         if (process.env.UPDATE) {
-            var legOptions;
-            if (!isNaN(legIndex)  && !isNaN(legCount)) {
-                legOptions = {};
-                legOptions = {
-                    'legIndex': legIndex,
-                    'legCount': legCount
-                };
-            }
-
             var data = {
                 step: step,
-                instructions: instructionsForLanguages(step, legOptions)
+                instructions: instructionsForLanguages(step, options)
             };
 
-            if (legOptions) data.metadata = legOptions;
+            if (options) data.metadata = options;
 
             fs.writeFileSync(
                 fileName,
@@ -121,7 +112,10 @@ tape.test('verify existance/update fixtures', function(assert) {
                 },
                 name: 'Street Name'
             };
-            checkOrWrite(step, path.join(basePath, 'no_modifier'), 0, 2);
+            checkOrWrite(step, path.join(basePath, 'no_modifier'), {
+                legIndex: 0,
+                legCount: 2
+            });
 
             constants.modifiers.forEach((modifier) => {
                 var step = {
@@ -131,7 +125,10 @@ tape.test('verify existance/update fixtures', function(assert) {
                     },
                     name: 'Street Name'
                 };
-                checkOrWrite(step, path.join(basePath, underscorify(modifier)), 0, 2);
+                checkOrWrite(step, path.join(basePath, underscorify(modifier)), {
+                    legIndex: 0,
+                    legCount: 2
+                });
             });
             break;
         case 'arrive_waypoint_last':
@@ -141,7 +138,10 @@ tape.test('verify existance/update fixtures', function(assert) {
                 },
                 name: 'Street Name'
             };
-            checkOrWrite(step, path.join(basePath, 'no_modifier'), 1, 2);
+            checkOrWrite(step, path.join(basePath, 'no_modifier'), {
+                legIndex: 1,
+                legCount: 2
+            });
 
             constants.modifiers.forEach((modifier) => {
                 var step = {
@@ -151,7 +151,10 @@ tape.test('verify existance/update fixtures', function(assert) {
                     },
                     name: 'Street Name'
                 };
-                checkOrWrite(step, path.join(basePath, underscorify(modifier)), 1, 2);
+                checkOrWrite(step, path.join(basePath, underscorify(modifier)), {
+                    legIndex: 1,
+                    legCount: 2
+                });
             });
             break;
         case 'depart':
