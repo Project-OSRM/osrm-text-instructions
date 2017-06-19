@@ -26,7 +26,7 @@ var osrmTextInstructions = require('osrm-text-instructions')(version);
 var language = 'en';
 response.legs.forEach(function(leg) {
   leg.steps.forEach(function(step) {
-    instruction = osrmTextInstructions.compile(language, step)
+    instruction = osrmTextInstructions.compile(language, step, options)
   });
 });
 ```
@@ -36,6 +36,7 @@ parameter | required? | values | description
 `version` | required | `v5` | Major OSRM version
 `options.hooks.tokenizedInstruction` | optional | `function(instruction)` | A function to change the raw instruction string before tokens are replaced. Useful to inject custom markup for tokens
 `language` | required | `en` `de` `zh-Hans` `fr` `nl` `ru` [and more](https://github.com/Project-OSRM/osrm-text-instructions/tree/master/languages/translations/) | Compiling instructions for the selected language code.
+`options` | optional | Object with 2 keys: `legIndex` and `legCount`, both having integer values. Used for giving instructions for arriving at waypoints.
 
 ### Development
 #### Architecture

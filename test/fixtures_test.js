@@ -7,6 +7,7 @@ var mkdirp = require('mkdirp');
 
 var constants = require('./constants');
 var instructions = require('../index.js');
+var supportedCodes = require('../languages').supportedCodes;
 
 // Load instructions files for each language
 var languages = instructions('v5');
@@ -20,16 +21,17 @@ tape.test('verify existance/update fixtures', function(assert) {
         return input.replace(/ /g, '_');
     }
 
-    function instructionsForLanguages(step) {
+    function instructionsForLanguages(step, options) {
         var result = {};
-        Object.keys(languages).forEach((k) => {
-            result[k] = languages[k].compile(step);
+
+        supportedCodes.forEach((k) => {
+            result[k] = languages.compile(k, step, options);
         });
 
         return result;
     }
 
-    function checkOrWrite(step, p) {
+    function checkOrWrite(step, p, options) {
         var fileName = `${p}.json`;
         var testName = p
             .split('/')
@@ -37,13 +39,16 @@ tape.test('verify existance/update fixtures', function(assert) {
             .join('/');
 
         if (process.env.UPDATE) {
-            // write fixture
+            var data = {
+                step: step,
+                instructions: instructionsForLanguages(step, options)
+            };
+
+            if (options) data.options = options;
+
             fs.writeFileSync(
                 fileName,
-                JSON.stringify({
-                    step: step,
-                    instructions: instructionsForLanguages(step)
-                }, null, 4) + '\n'
+                JSON.stringify(data, null, 4) + '\n'
             );
             assert.ok(true, `updated ${testName}`);
         } else {
@@ -72,7 +77,7 @@ tape.test('verify existance/update fixtures', function(assert) {
         checkOrWrite(step, `${basePath}_destination`);
     }
 
-    [ 'modes', 'other' ].concat(constants.types).forEach((type) => {
+    ['modes', 'other', 'arrive_waypoint', 'arrive_waypoint_last'].concat(constants.types).forEach((type) => {
         var basePath = path.join(__dirname, 'fixtures', 'v5', underscorify(type));
         var baseStep, step;
 
@@ -98,6 +103,58 @@ tape.test('verify existance/update fixtures', function(assert) {
                     name: 'Street Name'
                 };
                 checkOrWrite(step, path.join(basePath, underscorify(modifier)));
+            });
+            break;
+        case 'arrive_waypoint':
+            step = {
+                maneuver: {
+                    type: 'arrive'
+                },
+                name: 'Street Name'
+            };
+            checkOrWrite(step, path.join(basePath, 'no_modifier'), {
+                legIndex: 0,
+                legCount: 2
+            });
+
+            constants.modifiers.forEach((modifier) => {
+                var step = {
+                    maneuver: {
+                        type: 'arrive',
+                        modifier: modifier
+                    },
+                    name: 'Street Name'
+                };
+                checkOrWrite(step, path.join(basePath, underscorify(modifier)), {
+                    legIndex: 0,
+                    legCount: 2
+                });
+            });
+            break;
+        case 'arrive_waypoint_last':
+            step = {
+                maneuver: {
+                    type: 'arrive'
+                },
+                name: 'Street Name'
+            };
+            checkOrWrite(step, path.join(basePath, 'no_modifier'), {
+                legIndex: 1,
+                legCount: 2
+            });
+
+            constants.modifiers.forEach((modifier) => {
+                var step = {
+                    maneuver: {
+                        type: 'arrive',
+                        modifier: modifier
+                    },
+                    name: 'Street Name'
+                };
+                checkOrWrite(step, path.join(basePath, underscorify(modifier)), {
+                    legIndex: 1,
+                    legCount: 2
+                });
             });
             break;
         case 'depart':

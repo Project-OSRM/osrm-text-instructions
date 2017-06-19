@@ -2,9 +2,9 @@ var languages = require('./languages');
 var instructions = languages.instructions;
 
 module.exports = function(version, _options) {
-    var options = {};
-    options.hooks = {};
-    options.hooks.tokenizedInstruction = ((_options || {}).hooks || {}).tokenizedInstruction;
+    var opts = {};
+    opts.hooks = {};
+    opts.hooks.tokenizedInstruction = ((_options || {}).hooks || {}).tokenizedInstruction;
 
     Object.keys(instructions).forEach(function(code) {
         if (!instructions[code][version]) { throw 'invalid version ' + version + ': ' + code + ' not supported'; }
@@ -68,7 +68,7 @@ module.exports = function(version, _options) {
 
             return config.join('');
         },
-        compile: function(language, step) {
+        compile: function(language, step, options) {
             if (!language) throw new Error('No language code provided');
             if (languages.supportedCodes.indexOf(language) === -1) throw new Error('language code ' + language + ' not loaded');
             if (!step.maneuver) throw new Error('No step maneuver provided');
@@ -158,13 +158,14 @@ module.exports = function(version, _options) {
                 instruction = instructionObject.default;
             }
 
-            if (options.hooks.tokenizedInstruction) {
-                instruction = options.hooks.tokenizedInstruction(instruction);
+            if (opts.hooks.tokenizedInstruction) {
+                instruction = opts.hooks.tokenizedInstruction(instruction);
             }
+
+            var nthWaypoint = options && options.legIndex >= 0 && options.legIndex !== options.legCount - 1 ? this.ordinalize(language, options.legIndex + 1) : '';
 
             // Replace tokens
             // NOOP if they don't exist
-            var nthWaypoint = ''; // TODO, add correct waypoint counting
             instruction = instruction
                 .replace('{way_name}', wayName)
                 .replace('{destination}', (step.destinations || '').split(',')[0])

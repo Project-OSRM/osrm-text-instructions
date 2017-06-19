@@ -149,10 +149,16 @@ tape.test('v5 compile', function(t) {
 
                 var p = path.join(basePath, type, file);
                 var fixture = JSON.parse(fs.readFileSync(p));
+                var options;
+                if (fixture.options) {
+                    options = {};
+                    options.legIndex = fixture.options.legIndex;
+                    options.legCount = fixture.options.legCount;
+                }
 
                 Object.keys(fixture.instructions).forEach((l) => {
                     assert.equal(
-                        instructionsPerLanguage.compile(l, fixture.step),
+                        instructionsPerLanguage.compile(l, fixture.step, options),
                         fixture.instructions[l],
                         `${type}/${file}/${l}`
                     );
