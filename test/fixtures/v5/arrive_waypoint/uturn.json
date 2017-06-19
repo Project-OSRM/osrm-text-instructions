@@ -18,7 +18,7 @@
         "vi": "Đến nơi đầu tiên",
         "zh-Hans": "您已经到达您的第一个目的地"
     },
-    "metadata": {
+    "options": {
         "legIndex": 0,
         "legCount": 2
     }

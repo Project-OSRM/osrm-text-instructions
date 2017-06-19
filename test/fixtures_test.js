@@ -21,11 +21,11 @@ tape.test('verify existance/update fixtures', function(assert) {
         return input.replace(/ /g, '_');
     }
 
-    function instructionsForLanguages(step, legOptions) {
+    function instructionsForLanguages(step, options) {
         var result = {};
 
         supportedCodes.forEach((k) => {
-            result[k] = languages.compile(k, step, legOptions);
+            result[k] = languages.compile(k, step, options);
         });
 
         return result;
@@ -44,7 +44,7 @@ tape.test('verify existance/update fixtures', function(assert) {
                 instructions: instructionsForLanguages(step, options)
             };
 
-            if (options) data.metadata = options;
+            if (options) data.options = options;
 
             fs.writeFileSync(
                 fileName,

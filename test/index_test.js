@@ -150,10 +150,10 @@ tape.test('v5 compile', function(t) {
                 var p = path.join(basePath, type, file);
                 var fixture = JSON.parse(fs.readFileSync(p));
                 var options;
-                if (fixture.metadata) {
+                if (fixture.options) {
                     options = {};
-                    options.legIndex = fixture.metadata.legIndex;
-                    options.legCount = fixture.metadata.legCount;
+                    options.legIndex = fixture.options.legIndex;
+                    options.legCount = fixture.options.legCount;
                 }
 
                 Object.keys(fixture.instructions).forEach((l) => {
