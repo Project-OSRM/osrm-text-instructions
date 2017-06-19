@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file. For change 
 
 - put future changes here
 
+# 0.3.1 2017-06-19
+
+- Adds optional third argument to `compile`: `compile(language, step, options)`. If provided, `options` must be an object with two keys: `legIndex` and `legCount`. This information is used for making more detailed instructions when using waypoints.
+
 # 0.3 2017-05-30
 
 - Breaking API change: move language selection from module loading to `compile(language, step)`
