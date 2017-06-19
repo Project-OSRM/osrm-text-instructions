@@ -31,11 +31,19 @@ response.legs.forEach(function(leg) {
 });
 ```
 
+#### Parameters `require('osrm-text-instructions')(version, options)`
+
 parameter | required? | values | description
 ---|----|----|---
 `version` | required | `v5` | Major OSRM version
 `options.hooks.tokenizedInstruction` | optional | `function(instruction)` | A function to change the raw instruction string before tokens are replaced. Useful to inject custom markup for tokens
+
+#### Parameters `compile(language, step, options)`
+
+parameter | required? | values | description
+---|----|----|---
 `language` | required | `en` `de` `zh-Hans` `fr` `nl` `ru` [and more](https://github.com/Project-OSRM/osrm-text-instructions/tree/master/languages/translations/) | Compiling instructions for the selected language code.
+`step` | required | [OSRM route step object](https://github.com/Project-OSRM/osrm-backend/blob/master/docs/http.md#routestep-object) | The RouteStep as it comes out of OSRM
 `options` | optional | Object with 2 keys: `legIndex` and `legCount`, both having integer values. Used for giving instructions for arriving at waypoints.
 
 ### Development
