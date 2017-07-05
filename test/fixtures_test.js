@@ -75,6 +75,21 @@ tape.test('verify existance/update fixtures', function(assert) {
             destinations: 'Destination 1,Destination 2'
         });
         checkOrWrite(step, `${basePath}_destination`);
+
+        // exit
+        step = Object.assign(clone(baseStep), {
+            name: 'Way Name',
+            exits: '4A,4B'
+        });
+        checkOrWrite(step, `${basePath}_exit`);
+
+        // exit + destination
+        step = Object.assign(clone(baseStep), {
+            name: 'Way Name',
+            destinations: 'Destination 1,Destination 2',
+            exits: '4A,4B'
+        });
+        checkOrWrite(step, `${basePath}_exit_destination`);
     }
 
     ['modes', 'other', 'arrive_waypoint', 'arrive_waypoint_last'].concat(constants.types).forEach((type) => {

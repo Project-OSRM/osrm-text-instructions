@@ -150,8 +150,12 @@ module.exports = function(version, _options) {
             // Decide which instruction string to use
             // Destination takes precedence over name
             var instruction;
-            if (step.destinations && instructionObject.destination) {
+            if (step.destinations && step.exits && instructionObject.exit_destination) {
+                instruction = instructionObject.exit_destination;
+            } else if (step.destinations && instructionObject.destination) {
                 instruction = instructionObject.destination;
+            } else if (step.exits && instructionObject.exit) {
+                instruction = instructionObject.exit;
             } else if (wayName && instructionObject.name) {
                 instruction = instructionObject.name;
             } else {
@@ -169,6 +173,7 @@ module.exports = function(version, _options) {
             instruction = instruction
                 .replace('{way_name}', wayName)
                 .replace('{destination}', (step.destinations || '').split(',')[0])
+                .replace('{exit}', (step.exits || '').split(',')[0])
                 .replace('{exit_number}', this.ordinalize(language, step.maneuver.exit || 1))
                 .replace('{rotary_name}', step.rotary_name)
                 .replace('{lane_instruction}', laneInstruction)
