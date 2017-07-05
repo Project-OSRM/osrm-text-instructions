@@ -53,16 +53,12 @@ module.exports = function(version, _options) {
             if (!step.intersections || !step.intersections[0].lanes) throw new Error('No lanes object');
 
             var config = [];
-            var currentLaneValidity = null;
 
             step.intersections[0].lanes.forEach(function (lane) {
-                if (currentLaneValidity === null || currentLaneValidity !== lane.valid) {
-                    if (lane.valid) {
-                        config.push('o');
-                    } else {
-                        config.push('x');
-                    }
-                    currentLaneValidity = lane.valid;
+                if (lane.valid) {
+                    config.push('o');
+                } else {
+                    config.push('x');
                 }
             });
 
@@ -100,16 +96,7 @@ module.exports = function(version, _options) {
             }
 
             // Special case handling
-            var laneInstruction;
             switch (type) {
-            case 'use lane':
-                laneInstruction = instructions[language][version].constants.lanes[this.laneConfig(step)];
-
-                if (!laneInstruction) {
-                    // If the lane combination is not found, default to continue straight
-                    instructionObject = instructions[language][version]['use lane'].no_lanes;
-                }
-                break;
             case 'rotary':
             case 'roundabout':
                 if (step.rotary_name && step.maneuver.exit && instructionObject.name_exit) {
@@ -176,11 +163,15 @@ module.exports = function(version, _options) {
                 .replace('{exit}', (step.exits || '').split(',')[0])
                 .replace('{exit_number}', this.ordinalize(language, step.maneuver.exit || 1))
                 .replace('{rotary_name}', step.rotary_name)
-                .replace('{lane_instruction}', laneInstruction)
                 .replace('{modifier}', instructions[language][version].constants.modifier[modifier])
                 .replace('{direction}', this.directionFromDegree(language, step.maneuver.bearing_after))
                 .replace('{nth}', nthWaypoint)
                 .replace(/ {2}/g, ' '); // remove excess spaces
+
+            if (step.intersections && step.intersections[0].lanes) {
+                var laneInstruction = instructions[language][version].constants.lanes[this.laneConfig(step)];
+                instruction = laneInstruction + ' to ' + instruction;
+            }
 
             if (instructions[language].meta.capitalizeFirstLetter) {
                 instruction = this.capitalizeFirstLetter(instruction);

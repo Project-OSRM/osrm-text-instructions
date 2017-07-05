@@ -37,10 +37,12 @@
                 "uturn": "U-turn"
             },
             "lanes": {
-                "xo": "Keep right",
-                "ox": "Keep left",
-                "xox": "Keep in the middle",
-                "oxo": "Keep left or right"
+                "xo": "Use the right lane",
+                "ox": "Use the left lane",
+                "xox": "Use the middle lane",
+                "oxo": "Use the left or right lane",
+                "ooxx": "Use the left two lanes",
+                "xxoo": "Use the right two lanes"
             }
         },
         "modes": {
@@ -402,14 +404,6 @@
                 "default": "Go straight",
                 "name": "Go straight onto {way_name}",
                 "destination": "Go straight towards {destination}"
-            }
-        },
-        "use lane": {
-            "no_lanes": {
-                "default": "Continue straight"
-            },
-            "default": {
-                "default": "{lane_instruction}"
             }
         }
     }

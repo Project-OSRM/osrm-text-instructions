@@ -308,6 +308,17 @@ tape.test('verify existance/update fixtures', function(assert) {
             // do variation per modifier
             constants.modifiers.forEach((modifier) => {
                 baseStep = {
+                    intersections: [{
+                        lanes: [{
+                            valid: true
+                        }, {
+                            valid: true
+                        }, {
+                            valid: false
+                        }, {
+                            valid: false
+                        }]
+                    }],
                     maneuver: {
                         type: type,
                         modifier: modifier
