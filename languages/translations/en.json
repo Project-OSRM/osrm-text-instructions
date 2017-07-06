@@ -254,7 +254,7 @@
                 "name": "Take the ramp on the right onto {way_name}",
                 "destination": "Take the ramp on the right towards {destination}",
                 "exit": "Take exit {exit}",
-                "exit_destination": "Take exit {exit} towards {destination}"
+                "exit_destination": "Take exit {exit} on the right towards {destination}"
             },
             "sharp left": {
                 "default": "Take the ramp on the left",
@@ -268,7 +268,7 @@
                 "name": "Take the ramp on the right onto {way_name}",
                 "destination": "Take the ramp on the right towards {destination}",
                 "exit": "Take exit {exit}",
-                "exit_destination": "Take exit {exit} towards {destination}"
+                "exit_destination": "Take exit {exit} on the right towards {destination}"
             },
             "slight left": {
                 "default": "Take the ramp on the left",
@@ -282,7 +282,7 @@
                 "name": "Take the ramp on the right onto {way_name}",
                 "destination": "Take the ramp on the right towards {destination}",
                 "exit": "Take exit {exit}",
-                "exit_destination": "Take exit {exit} towards {destination}"
+                "exit_destination": "Take exit {exit} on the right towards {destination}"
             }
         },
         "on ramp": {
