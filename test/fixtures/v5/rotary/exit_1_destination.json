@@ -9,7 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
-        "de": "In den Kreisverkehr fahren und erste Ausfahrt nehmen Richtung Destination 1",
+        "de": "Im Kreisverkehr die erste Ausfahrt nehmen Richtung Destination 1",
         "en": "Enter the rotary and take the 1st exit towards Destination 1",
         "es": "Entra en la rotonda y toma la 1ª salida hacia Destination 1",
         "fr": "Entrer dans le rond-point et prendre la première sortie en direction de Destination 1",

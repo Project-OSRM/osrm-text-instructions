@@ -8,7 +8,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
-        "de": "Rampe auf der rechten Seite nehmen Richtung Destination 1",
+        "de": "Auffahrt rechts nehmen Richtung Destination 1",
         "en": "Take the ramp on the right towards Destination 1",
         "es": "Ve cuesta abajo en la derecha hacia Destination 1",
         "fr": "Prendre la sortie à droite en direction de Destination 1",

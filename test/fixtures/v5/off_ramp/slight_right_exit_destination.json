@@ -9,7 +9,7 @@
         "exits": "4A,4B"
     },
     "instructions": {
-        "de": "Rampe auf der rechten Seite nehmen Richtung Destination 1",
+        "de": "Abfahrt 4A nehmen Richtung Destination 1",
         "en": "Take exit 4A on the right towards Destination 1",
         "es": "Ve cuesta abajo en la derecha hacia Destination 1",
         "fr": "Prendre la sortie à droite en direction de Destination 1",
