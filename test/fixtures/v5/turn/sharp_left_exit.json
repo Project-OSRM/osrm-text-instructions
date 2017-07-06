@@ -1,0 +1,22 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "turn",
+            "modifier": "sharp left"
+        },
+        "name": "Way Name",
+        "exits": "4A,4B"
+    },
+    "instructions": {
+        "de": "Scharf links abbiegen auf Way Name",
+        "en": "Make a sharp left onto Way Name",
+        "es": "Siga cerrada a la izquierda en Way Name",
+        "fr": "Tourner franchement à gauche sur Way Name",
+        "id": "Lakukan tajam kiri ke arah Way Name",
+        "nl": "Ga linksaf naar Way Name",
+        "ru": "Двигайтесь налево на Way Name",
+        "sv": "Sväng åt skarp vänster in på Way Name",
+        "vi": "Quẹo trái gắt vào Way Name",
+        "zh-Hans": "向左转弯，上Way Name"
+    }
+}

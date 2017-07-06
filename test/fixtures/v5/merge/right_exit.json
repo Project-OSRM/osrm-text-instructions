@@ -1,0 +1,22 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "merge",
+            "modifier": "right"
+        },
+        "name": "Way Name",
+        "exits": "4A,4B"
+    },
+    "instructions": {
+        "de": "Rechts auffahren auf Way Name",
+        "en": "Merge right onto Way Name",
+        "es": "Gire a derecha en Way Name",
+        "fr": "Rejoindre à droite sur Way Name",
+        "id": "Bergabung kanan ke arah Way Name",
+        "nl": "Bij de splitsing rechts naar Way Name",
+        "ru": "Перестройтесь направо на Way Name",
+        "sv": "Körfältsbyte åt höger in på Way Name",
+        "vi": "Nhập sang phải vào Way Name",
+        "zh-Hans": "向右并道，上Way Name"
+    }
+}

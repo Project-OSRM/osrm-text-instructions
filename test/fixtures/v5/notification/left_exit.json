@@ -1,0 +1,22 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "notification",
+            "modifier": "left"
+        },
+        "name": "Way Name",
+        "exits": "4A,4B"
+    },
+    "instructions": {
+        "de": "Links weiterfahren auf Way Name",
+        "en": "Continue left onto Way Name",
+        "es": "Continua izquierda en Way Name",
+        "fr": "Continuer à gauche sur Way Name",
+        "id": "Lanjutkan kiri menuju Way Name",
+        "nl": "Ga links naar Way Name",
+        "ru": "Двигайтесь налево по Way Name",
+        "sv": "Fortsätt vänster på Way Name",
+        "vi": "Chạy tiếp bên trái trên Way Name",
+        "zh-Hans": "继续向左，上Way Name"
+    }
+}
