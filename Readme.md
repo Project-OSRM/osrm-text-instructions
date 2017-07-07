@@ -89,7 +89,7 @@ To add an own translations:
 - `git checkout master`
 - Update CHANGELOG.md
 - Bump version in package.json
-- `git commit -am "vx.y.z"` with Changelog list in commit message
+- `git commit -a | "vx.y.z"` with Changelog list in commit message
 - `git tag vx.y.z -a` with Changelog list in tag message
 - `git push origin master; git push origin --tags`
 - `npm publish`
