@@ -5,7 +5,10 @@ All notable changes to this project will be documented in this file. For change 
 
 - put future changes here
 
-- Support `exit` property on `off ramp` types
+# 0.5.0 2017-07-07
+
+- Support `exit` property on `off ramp` type
+  - Curently supported languages: english, vietnamese, german
 - Polish: Add translation
 - German: Ausfahrt/Abbfahrt instead of Rampe, Shorten Kreisverkehr messages
 
@@ -13,7 +16,7 @@ All notable changes to this project will be documented in this file. For change 
 
 - Adds optional third argument to `compile`: `compile(language, step, options)`. If provided, `options` must be an object with two keys: `legIndex` and `legCount`. This information is used for making more detailed instructions when using waypoints.
 
-# 0.3 2017-05-30
+# 0.3.0 2017-05-30
 
 - Breaking API change: move language selection from module loading to `compile(language, step)`
 
