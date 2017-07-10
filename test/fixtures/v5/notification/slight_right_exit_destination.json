@@ -6,7 +6,7 @@
         },
         "name": "Way Name",
         "destinations": "Destination 1,Destination 2",
-        "exits": "4A,4B"
+        "exits": "4A;4B"
     },
     "instructions": {
         "de": "Leicht rechts weiterfahren Richtung Destination 1",

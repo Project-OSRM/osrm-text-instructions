@@ -173,7 +173,7 @@ module.exports = function(version, _options) {
             instruction = instruction
                 .replace('{way_name}', wayName)
                 .replace('{destination}', (step.destinations || '').split(',')[0])
-                .replace('{exit}', (step.exits || '').split(',')[0])
+                .replace('{exit}', (step.exits || '').split(';')[0])
                 .replace('{exit_number}', this.ordinalize(language, step.maneuver.exit || 1))
                 .replace('{rotary_name}', step.rotary_name)
                 .replace('{lane_instruction}', laneInstruction)

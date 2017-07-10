@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file. For change 
 
 - put future changes here
 
+- Fix exits being correctly separated (by semicolons in OSRM)
+
 # 0.5.0 2017-07-07
 
 - Support `exit` property on `off ramp` type

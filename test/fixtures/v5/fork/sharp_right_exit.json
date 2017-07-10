@@ -5,7 +5,7 @@
             "modifier": "sharp right"
         },
         "name": "Way Name",
-        "exits": "4A,4B"
+        "exits": "4A;4B"
     },
     "instructions": {
         "de": "Scharf rechts abbiegen an der Gabelung auf Way Name",

@@ -5,7 +5,7 @@
             "modifier": "straight"
         },
         "name": "Way Name",
-        "exits": "4A,4B"
+        "exits": "4A;4B"
     },
     "instructions": {
         "de": "Auffahrt nehmen auf Way Name",
