@@ -5,7 +5,7 @@
             "modifier": "sharp left"
         },
         "name": "Way Name",
-        "exits": "4A,4B"
+        "exits": "4A;4B"
     },
     "instructions": {
         "de": "Abfahrt 4A links nehmen",

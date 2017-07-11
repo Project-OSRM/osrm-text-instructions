@@ -5,7 +5,7 @@
             "modifier": "slight right"
         },
         "name": "Way Name",
-        "exits": "4A,4B"
+        "exits": "4A;4B"
     },
     "instructions": {
         "de": "Am Kreisverkehr leicht rechts auf Way Name",

@@ -6,7 +6,7 @@
         },
         "name": "Way Name",
         "rotary_name": "Rotary Name",
-        "exits": "4A,4B"
+        "exits": "4A;4B"
     },
     "instructions": {
         "de": "In Rotary Name die Ausfahrt auf Way Name nehmen",

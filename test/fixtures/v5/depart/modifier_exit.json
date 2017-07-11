@@ -6,7 +6,7 @@
             "modifier": "left"
         },
         "name": "Way Name",
-        "exits": "4A,4B"
+        "exits": "4A;4B"
     },
     "instructions": {
         "de": "Fahren Sie Richtung Norden auf Way Name",

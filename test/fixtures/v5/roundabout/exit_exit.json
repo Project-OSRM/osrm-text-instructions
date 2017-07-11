@@ -6,7 +6,7 @@
             "exit": 1
         },
         "name": "Way Name",
-        "exits": "4A,4B"
+        "exits": "4A;4B"
     },
     "instructions": {
         "de": "Im Kreisverkehr die erste Ausfahrt nehmen auf Way Name",

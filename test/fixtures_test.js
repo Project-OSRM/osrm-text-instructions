@@ -79,7 +79,7 @@ tape.test('verify existance/update fixtures', function(assert) {
         // exit
         step = Object.assign(clone(baseStep), {
             name: 'Way Name',
-            exits: '4A,4B'
+            exits: '4A;4B'
         });
         checkOrWrite(step, `${basePath}_exit`);
 
@@ -87,7 +87,7 @@ tape.test('verify existance/update fixtures', function(assert) {
         step = Object.assign(clone(baseStep), {
             name: 'Way Name',
             destinations: 'Destination 1,Destination 2',
-            exits: '4A,4B'
+            exits: '4A;4B'
         });
         checkOrWrite(step, `${basePath}_exit_destination`);
     }

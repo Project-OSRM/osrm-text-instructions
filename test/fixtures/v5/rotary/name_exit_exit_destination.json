@@ -8,7 +8,7 @@
         "name": "Way Name",
         "rotary_name": "Rotary Name",
         "destinations": "Destination 1,Destination 2",
-        "exits": "4A,4B"
+        "exits": "4A;4B"
     },
     "instructions": {
         "de": "In den Kreisverkehr fahren und zweite Ausfahrt nehmen Richtung Destination 1",
