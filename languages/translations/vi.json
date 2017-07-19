@@ -41,7 +41,8 @@
                 "ox": "Đi bên trái",
                 "xox": "Đi vào giữa",
                 "oxo": "Đi bên trái hay bên phải"
-            }
+            },
+            "ceremonialNamesToAvoid": []
         },
         "modes": {
             "ferry": {

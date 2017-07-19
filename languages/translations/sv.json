@@ -41,7 +41,8 @@
                 "ox": "Håll till vänster",
                 "xox": "Håll till mitten",
                 "oxo": "Håll till vänster eller höger"
-            }
+            },
+            "ceremonialNamesToAvoid": []
         },
         "modes": {
             "ferry": {

@@ -41,7 +41,8 @@
                 "ox": "Links aanhouden",
                 "xox": "In het midden blijven",
                 "oxo": "Links of rechts blijven"
-            }
+            },
+            "ceremonialNamesToAvoid": []
         },
         "modes": {
             "ferry": {

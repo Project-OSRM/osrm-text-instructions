@@ -41,7 +41,8 @@
                 "ox": "Tetap di kiri",
                 "xox": "Tetap di tengah",
                 "oxo": "Tetap di kiri atau kanan"
-            }
+            },
+            "ceremonialNamesToAvoid": []
         },
         "modes": {
             "ferry": {

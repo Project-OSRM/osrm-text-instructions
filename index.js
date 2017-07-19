@@ -139,8 +139,15 @@ module.exports = function(version, _options) {
             }
             name = name.replace(' (' + step.ref + ')', '');
 
-            if (name && ref && name !== ref) {
+            // In attempt to avoid using the ceremonial name of a way,
+            // check and see if the name includes strings like `highway` or `expressway`.
+            // If this is true and there is a ref, use the ref.
+            var nameIsCeremonialName = instructions[language][version].constants.ceremonialNamesToAvoid.some((stringToAvoid) => name.includes(stringToAvoid));
+
+            if (name && ref && name !== ref && !nameIsCeremonialName) {
                 wayName = name + ' (' + ref + ')';
+            } else if (name && ref && nameIsCeremonialName) {
+                wayName = ref;
             } else if (!name && ref) {
                 wayName = ref;
             } else {
