@@ -139,8 +139,8 @@ module.exports = function(version, _options) {
             }
             name = name.replace(' (' + step.ref + ')', '');
 
-            // In attempt to avoid using the ceremonial name of a way,
-            // check and see if the step has class which should signal
+            // In attempt to avoid using the highway name of a way,
+            // check and see if the step has a class which should signal
             // the ref should be used instead of the name.
             var wayIsOnHighway = false;
             if (options && options.classes) {
