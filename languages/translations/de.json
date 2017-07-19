@@ -41,8 +41,7 @@
                 "ox": "Links halten",
                 "xox": "Mittlere Spur nutzen",
                 "oxo": "Rechts oder links halten"
-            },
-            "ceremonialNamesToAvoid": []
+            }
         },
         "modes": {
             "ferry": {

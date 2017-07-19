@@ -41,8 +41,7 @@
                 "ox": "Keep left",
                 "xox": "Keep in the middle",
                 "oxo": "Keep left or right"
-            },
-            "ceremonialNamesToAvoid": ["freeway", "expressway", "highway", "fwy", "hwy", "expy"]
+            }
         },
         "modes": {
             "ferry": {

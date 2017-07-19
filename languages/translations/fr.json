@@ -41,8 +41,7 @@
                 "ox": "Serrer à gauche",
                 "xox": "Rester au milieu",
                 "oxo": "Rester à gauche ou à droite"
-            },
-            "ceremonialNamesToAvoid": []
+            }
         },
         "modes": {
             "ferry": {

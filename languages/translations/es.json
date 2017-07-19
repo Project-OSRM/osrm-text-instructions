@@ -41,8 +41,7 @@
                 "ox": "Mantengase a la izquierda",
                 "xox": "Mantengase en el medio",
                 "oxo": "Mantengase a la izquierda o derecha"
-            },
-            "ceremonialNamesToAvoid": []
+            }
         },
         "modes": {
             "ferry": {
