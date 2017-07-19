@@ -140,13 +140,16 @@ module.exports = function(version, _options) {
             name = name.replace(' (' + step.ref + ')', '');
 
             // In attempt to avoid using the ceremonial name of a way,
-            // check and see if the name includes strings like `highway` or `expressway`.
-            // If this is true and there is a ref, use the ref.
-            var nameIsCeremonialName = instructions[language][version].constants.ceremonialNamesToAvoid.some((stringToAvoid) => name.includes(stringToAvoid));
+            // check and see if the step has class which should signal
+            // the ref should be used instead of the name.
+            var wayIsOnHighway = false;
+            if (options && options.classes) {
+                wayIsOnHighway = options.classes.some((className) => ['toll', 'highway'].indexOf(className) > -1);
+            }
 
-            if (name && ref && name !== ref && !nameIsCeremonialName) {
+            if (name && ref && name !== ref && !wayIsOnHighway) {
                 wayName = name + ' (' + ref + ')';
-            } else if (name && ref && nameIsCeremonialName) {
+            } else if (name && ref && wayIsOnHighway) {
                 wayName = ref;
             } else if (!name && ref) {
                 wayName = ref;

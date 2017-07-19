@@ -9,7 +9,7 @@
     },
     "instructions": {
         "de": "Rechts weiterfahren auf Cool highway (Ref1)",
-        "en": "Continue right onto Ref1",
+        "en": "Continue right onto Cool highway (Ref1)",
         "es": "Continua derecha en Cool highway (Ref1)",
         "fr": "Continuer à droite sur Cool highway (Ref1)",
         "id": "Terus kanan ke Cool highway (Ref1)",
@@ -19,5 +19,10 @@
         "sv": "Fortsätt höger in på Cool highway (Ref1)",
         "vi": "Chạy tiếp bên phải trên Cool highway (Ref1)",
         "zh-Hans": "继续向右，上Cool highway (Ref1)"
+    },
+    "options": {
+        "classes": [
+            "ferry"
+        ]
     }
 }

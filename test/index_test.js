@@ -154,6 +154,7 @@ tape.test('v5 compile', function(t) {
                     options = {};
                     options.legIndex = fixture.options.legIndex;
                     options.legCount = fixture.options.legCount;
+                    options.classes = fixture.options.classes;
                 }
 
                 Object.keys(fixture.instructions).forEach((l) => {

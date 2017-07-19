@@ -9,7 +9,7 @@
     },
     "instructions": {
         "de": "180°-Wendung auf Cool highway (Ref1)",
-        "en": "Make a U-turn onto Ref1",
+        "en": "Make a U-turn onto Cool highway (Ref1)",
         "es": "Haz un cambio de sentido en Cool highway (Ref1)",
         "fr": "Faire demi-tour sur Cool highway (Ref1)",
         "id": "Putar balik ke arah Cool highway (Ref1)",
@@ -19,5 +19,10 @@
         "sv": "Gör en U-sväng in på Cool highway (Ref1)",
         "vi": "Quẹo ngược lại Cool highway (Ref1)",
         "zh-Hans": "调头上Cool highway (Ref1)"
+    },
+    "options": {
+        "classes": [
+            "ferry"
+        ]
     }
 }

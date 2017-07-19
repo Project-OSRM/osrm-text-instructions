@@ -92,7 +92,7 @@ tape.test('verify existance/update fixtures', function(assert) {
         checkOrWrite(step, `${basePath}_exit_destination`);
     }
 
-    ['modes', 'other', 'arrive_waypoint', 'arrive_waypoint_last', 'ceremonial'].concat(constants.types).forEach((type) => {
+    ['modes', 'other', 'arrive_waypoint', 'arrive_waypoint_last'].concat(constants.types).forEach((type) => {
         var basePath = path.join(__dirname, 'fixtures', 'v5', underscorify(type));
         var baseStep, step;
 
@@ -100,19 +100,6 @@ tape.test('verify existance/update fixtures', function(assert) {
         mkdirp.sync(basePath);
 
         switch (type) {
-        case 'ceremonial':
-            constants.modifiers.forEach((modifier) => {
-                var step = {
-                    maneuver: {
-                        type: 'continue',
-                        modifier: modifier
-                    },
-                    name: 'Cool highway',
-                    ref: 'Ref1;Ref2'
-                };
-                checkOrWrite(step, path.join(basePath, underscorify(modifier)));
-            });
-            break;
         case 'arrive':
             step = {
                 maneuver: {
@@ -307,6 +294,32 @@ tape.test('verify existance/update fixtures', function(assert) {
                 ref: 'Ref0;Ref1 (Another Way (Ref1.1));Ref2'
             };
             checkOrWrite(baseStep, path.join(basePath, 'way_name_ref_mapbox_hack_3'));
+            constants.modifiers.forEach((modifier) => {
+                var step = {
+                    maneuver: {
+                        type: 'continue',
+                        modifier: modifier
+                    },
+                    name: 'Cool highway',
+                    ref: 'Ref1;Ref2'
+                };
+                checkOrWrite(step, path.join(basePath, `way_name_class_highway_${modifier}`), {
+                    classes: ['highway']
+                });
+            });
+            constants.modifiers.forEach((modifier) => {
+                var step = {
+                    maneuver: {
+                        type: 'continue',
+                        modifier: modifier
+                    },
+                    name: 'Cool highway',
+                    ref: 'Ref1;Ref2'
+                };
+                checkOrWrite(step, path.join(basePath, `way_name_class_ferry_${modifier}`), {
+                    classes: ['ferry']
+                });
+            });
             break;
         case 'continue':
         case 'end of road':
