@@ -294,6 +294,45 @@ tape.test('verify existance/update fixtures', function(assert) {
                 ref: 'Ref0;Ref1 (Another Way (Ref1.1));Ref2'
             };
             checkOrWrite(baseStep, path.join(basePath, 'way_name_ref_mapbox_hack_3'));
+            constants.modifiers.forEach((modifier) => {
+                var step = {
+                    maneuver: {
+                        type: 'continue',
+                        modifier: modifier
+                    },
+                    name: 'Cool highway',
+                    ref: 'Ref1;Ref2'
+                };
+                checkOrWrite(step, path.join(basePath, `motorway_ref_has_number_${modifier}`), {
+                    classes: ['motorway']
+                });
+            });
+            constants.modifiers.forEach((modifier) => {
+                var step = {
+                    maneuver: {
+                        type: 'continue',
+                        modifier: modifier
+                    },
+                    name: 'Cool highway',
+                    ref: 'Ref no number'
+                };
+                checkOrWrite(step, path.join(basePath, `motorway_ref_has_no_number_${modifier}`), {
+                    classes: ['motorway']
+                });
+            });
+            constants.modifiers.forEach((modifier) => {
+                var step = {
+                    maneuver: {
+                        type: 'continue',
+                        modifier: modifier
+                    },
+                    name: 'Cool highway',
+                    ref: 'Ref1;Ref2'
+                };
+                checkOrWrite(step, path.join(basePath, `way_name_class_ferry_${modifier}`), {
+                    classes: ['ferry']
+                });
+            });
             break;
         case 'continue':
         case 'end of road':

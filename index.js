@@ -139,8 +139,18 @@ module.exports = function(version, _options) {
             }
             name = name.replace(' (' + step.ref + ')', '');
 
-            if (name && ref && name !== ref) {
+            // In attempt to avoid using the highway name of a way,
+            // check and see if the step has a class which should signal
+            // the ref should be used instead of the name.
+            var wayMotorway = false;
+            if (options && options.classes) {
+                wayMotorway = options.classes.some((className) => ['motorway'].indexOf(className) > -1);
+            }
+
+            if (name && ref && name !== ref && !wayMotorway) {
                 wayName = name + ' (' + ref + ')';
+            } else if (name && ref && wayMotorway && (/\d/).test(ref)) {
+                wayName = ref;
             } else if (!name && ref) {
                 wayName = ref;
             } else {
