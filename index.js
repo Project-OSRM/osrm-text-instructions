@@ -142,14 +142,14 @@ module.exports = function(version, _options) {
             // In attempt to avoid using the highway name of a way,
             // check and see if the step has a class which should signal
             // the ref should be used instead of the name.
-            var wayIsOnHighway = false;
+            var wayMotorway = false;
             if (options && options.classes) {
-                wayIsOnHighway = options.classes.some((className) => ['toll', 'highway'].indexOf(className) > -1);
+                wayMotorway = options.classes.some((className) => ['motorway'].indexOf(className) > -1);
             }
 
-            if (name && ref && name !== ref && !wayIsOnHighway) {
+            if (name && ref && name !== ref && !wayMotorway) {
                 wayName = name + ' (' + ref + ')';
-            } else if (name && ref && wayIsOnHighway) {
+            } else if (name && ref && wayMotorway && (/\d/).test(ref)) {
                 wayName = ref;
             } else if (!name && ref) {
                 wayName = ref;

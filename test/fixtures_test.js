@@ -303,8 +303,21 @@ tape.test('verify existance/update fixtures', function(assert) {
                     name: 'Cool highway',
                     ref: 'Ref1;Ref2'
                 };
-                checkOrWrite(step, path.join(basePath, `way_name_class_highway_${modifier}`), {
-                    classes: ['highway']
+                checkOrWrite(step, path.join(basePath, `motorway_ref_has_number_${modifier}`), {
+                    classes: ['motorway']
+                });
+            });
+            constants.modifiers.forEach((modifier) => {
+                var step = {
+                    maneuver: {
+                        type: 'continue',
+                        modifier: modifier
+                    },
+                    name: 'Cool highway',
+                    ref: 'Ref no number'
+                };
+                checkOrWrite(step, path.join(basePath, `motorway_ref_has_no_number_${modifier}`), {
+                    classes: ['motorway']
                 });
             });
             constants.modifiers.forEach((modifier) => {
