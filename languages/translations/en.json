@@ -196,6 +196,11 @@
                 "name": "Continue {modifier} onto {way_name}",
                 "destination": "Continue {modifier} towards {destination}"
             },
+            "straight": {
+                "default": "Continue straight",
+                "name": "Continue onto {way_name}",
+                "destination": "Continue towards {destination}"
+            },
             "sharp left": {
                 "default": "Take a sharp left",
                 "name": "Take a sharp left onto {way_name}",
