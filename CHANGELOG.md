@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file. For change 
 
 - put future changes here
 
+# 0.5.2 2017-07-25
+
+- In cases where the `ref` contains numbers and the road class is motorway, the ref is used for the `way_name`. [#129](https://github.com/Project-OSRM/osrm-text-instructions/pull/129)
+
 # 0.5.1 2017-07-07
 
 - Fix exits being correctly separated (by semicolons in OSRM)
