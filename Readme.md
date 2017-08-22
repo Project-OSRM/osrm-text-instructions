@@ -4,7 +4,7 @@
 
 ----
 
-OSRM Text Instructions transforms [OSRM](http://www.project-osrm.org/) route responses into localized text instructions. This repository contains the canonical implementation of this library written in JavaScript. OSRM Text Instructions is also available [in Swift and Objective-C](https://github.com/Project-OSRM/osrm-text-instructions.swift/) and experimentally [in Java](https://github.com/mapbox/mapbox-java/tree/master/mapbox/libjava-services/src/main/java/com/mapbox/services/api/navigation/v5/osrm/).
+OSRM Text Instructions transforms [OSRM](http://www.project-osrm.org/) route responses into localized text instructions. This repository contains the canonical implementation of this library written in JavaScript. OSRM Text Instructions is also available [in Swift and Objective-C](https://github.com/Project-OSRM/osrm-text-instructions.swift/) (for iOS, macOS, tvOS, and watchOS) and [in Java](https://github.com/Project-OSRM/osrm-text-instructions.java/) (for Android and Java SE).
 
 OSRM Text Instructions has been translated into [several languages](https://github.com/Project-OSRM/osrm-text-instructions/tree/master/languages/translations/). Please help us add support for the languages you speak [using Transifex](https://www.transifex.com/project-osrm/osrm-text-instructions/).
 
