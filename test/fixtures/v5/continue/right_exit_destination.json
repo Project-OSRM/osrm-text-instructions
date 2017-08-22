@@ -14,10 +14,13 @@
         "es": "Continua derecha hacia Destination 1",
         "fr": "Continuer à droite en direction de Destination 1",
         "id": "Teruskan kanan menuju Destination 1",
+        "it": "Continua destra verso Destination 1",
         "nl": "Ga rechts richting Destination 1",
         "pl": "Kontynuuj prawo w kierunku Destination 1",
+        "pt-BR": "Continue direita sentido Destination 1",
         "ru": "Двигайтесь направо в направлении Destination 1",
         "sv": "Fortsätt höger mot Destination 1",
+        "uk": "Рухайтесь праворуч у напрямку Destination 1",
         "vi": "Chạy tiếp bên phải đến Destination 1",
         "zh-Hans": "继续向右行驶，前往Destination 1"
     }
