@@ -198,7 +198,7 @@
             },
             "straight": {
                 "default": "Continue em frente",
-                "name": "Continue em{way_name}",
+                "name": "Continue em {way_name}",
                 "destination": "Continue em direção à {destination}"
             },
             "sharp left": {
@@ -367,9 +367,9 @@
         },
         "roundabout turn": {
             "default": {
-                "default": "Na rotatória, {modifier}",
-                "name": "Na rotatória, {modifier} na {way_name}",
-                "destination": "Na rotatória, {modifier} em direção à {destination}"
+                "default": "Na rotatória, vire {modifier}",
+                "name": "Na rotatória, vire {modifier} na {way_name}",
+                "destination": "Na rotatória, vire {modifier} em direção à {destination}"
             },
             "left": {
                 "default": "Na rotatória vire à esquerda",

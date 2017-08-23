@@ -8,7 +8,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
-        "de": "Abfahrt 4A links nehmen",
+        "de": "Ausfahrt 4A links nehmen",
         "en": "Take exit 4A on the left",
         "es": "Tome la salida 4A en la izquierda",
         "fr": "Prendre la sortie à gauche sur Way Name",
