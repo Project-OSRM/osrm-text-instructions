@@ -243,7 +243,7 @@
             "default": {
                 "default": "Рухайтесь на естакаду",
                 "name": "Рухайтесь на естакаду {way_name}",
-                "destination": "Рухайтесь на естакаду  у напрямку {destination}",
+                "destination": "Рухайтесь на естакаду у напрямку {destination}",
                 "exit": "Оберіть з'їзд {exit}",
                 "exit_destination": "Оберіть з'їзд {exit} у напрямку {destination}"
             },
