@@ -8,9 +8,9 @@
         "exits": "4A;4B"
     },
     "instructions": {
-        "de": "Abfahrt 4A nehmen",
+        "de": "Abfahrt 4A recht nehmen",
         "en": "Take exit 4A on the right",
-        "es": "Ve cuesta abajo en la derecha en Way Name",
+        "es": "Tome la salida 4A en la derecha",
         "fr": "Prendre la sortie à droite sur Way Name",
         "id": "Ambil jalan melandai di sebelah kanan ke Way Name",
         "it": "Prendi la 4A uscita a destra",

@@ -27,10 +27,10 @@
                 "northwest": "noroeste"
             },
             "modifier": {
-                "left": "esquerda",
-                "right": "direita",
-                "sharp left": "esquerda acentuada",
-                "sharp right": "direita acentuada",
+                "left": "à esquerda",
+                "right": "à direita",
+                "sharp left": "acentuadamente à esquerda",
+                "sharp right": "acentuadamente à direita",
                 "slight left": "ligeiramente à esquerda",
                 "slight right": "ligeiramente à direita",
                 "straight": "reto",
@@ -47,7 +47,7 @@
             "ferry": {
                 "default": "Pegue a balsa",
                 "name": "Pegue a balsa {way_name}",
-                "destination": "Pegue a balsa a {destination}"
+                "destination": "Pegue a balsa sentido {destination}"
             }
         },
         "arrive": {
@@ -111,9 +111,9 @@
         },
         "end of road": {
             "default": {
-                "default": "Vire à {modifier}",
-                "name": "Vire à {modifier} em {way_name}",
-                "destination": "Vire à {modifier} sentido {destination}"
+                "default": "Vire {modifier}",
+                "name": "Vire {modifier} em {way_name}",
+                "destination": "Vire {modifier} sentido {destination}"
             },
             "straight": {
                 "default": "Continue reto",
@@ -128,9 +128,9 @@
         },
         "fork": {
             "default": {
-                "default": "Mantenha-se à {modifier} na bifurcação",
-                "name": "Mantenha-se à {modifier} na bifurcação em {way_name}",
-                "destination": "Mantenha-se à {modifier} na bifurcação sentido {destination}"
+                "default": "Mantenha-se {modifier} na bifurcação",
+                "name": "Mantenha-se {modifier} na bifurcação em {way_name}",
+                "destination": "Mantenha-se {modifier} na bifurcação sentido {destination}"
             },
             "slight left": {
                 "default": "Mantenha-se à esquerda na bifurcação",

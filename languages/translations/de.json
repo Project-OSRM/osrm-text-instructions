@@ -191,6 +191,11 @@
                 "name": "{modifier} weiterfahren auf {way_name}",
                 "destination": "{modifier} weiterfahren Richtung {destination}"
             },
+            "straight": {
+                "default": "Geradeaus weiterfahren",
+                "name": "Weiterfahren auf {way_name}",
+                "destination": "Weiterfahren in Richtung {destination}"
+            },
             "sharp left": {
                 "default": "Scharf links",
                 "name": "Scharf links auf {way_name}",
@@ -248,7 +253,7 @@
                 "default": "Abfahrt rechts nehmen",
                 "name": "Abfahrt rechts nehmen Richtung {way_name}",
                 "destination": "Abfahrt rechts nehmen Richtung {destination}",
-                "exit": "Abfahrt {exit} nehmen",
+                "exit": "Abfahrt {exit} recht nehmen",
                 "exit_destination": "Abfahrt {exit} nehmen Richtung {destination}"
             },
             "sharp left": {
@@ -262,7 +267,7 @@
                 "default": "Abfahrt rechts nehmen",
                 "name": "Abfahrt rechts nehmen auf {way_name}",
                 "destination": "Abfahrt rechts nehmen Richtung {destination}",
-                "exit": "Abfahrt {exit} nehmen",
+                "exit": "Abfahrt {exit} recht nehmen",
                 "exit_destination": "Abfahrt {exit} nehmen Richtung {destination}"
             },
             "slight left": {
@@ -276,7 +281,7 @@
                 "default": "Abfahrt rechts nehmen",
                 "name": "Abfahrt rechts nehmen auf {way_name}",
                 "destination": "Abfahrt rechts nehmen Richtung {destination}",
-                "exit": "Abfahrt {exit} nehmen",
+                "exit": "Abfahrt {exit} recht nehmen",
                 "exit_destination": "Abfahrt {exit} nehmen Richtung {destination}"
             }
         },

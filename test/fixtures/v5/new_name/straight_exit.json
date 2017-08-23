@@ -8,9 +8,9 @@
         "exits": "4A;4B"
     },
     "instructions": {
-        "de": "Geradeaus weiterfahren auf Way Name",
+        "de": "Weiterfahren auf Way Name",
         "en": "Continue onto Way Name",
-        "es": "Continua recto en Way Name",
+        "es": "Continúe en Way Name",
         "fr": "Continuer tout droit sur Way Name",
         "id": "Lanjutkan lurus menuju Way Name",
         "it": "Continua in Way Name",

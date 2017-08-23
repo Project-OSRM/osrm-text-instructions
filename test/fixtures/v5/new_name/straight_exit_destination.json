@@ -9,9 +9,9 @@
         "exits": "4A;4B"
     },
     "instructions": {
-        "de": "Geradeaus weiterfahren Richtung Destination 1",
+        "de": "Weiterfahren in Richtung Destination 1",
         "en": "Continue towards Destination 1",
-        "es": "Continua recto hacia Destination 1",
+        "es": "Continúe hacia Destination 1",
         "fr": "Continuer tout droit en direction de Destination 1",
         "id": "Lanjutkan lurus menuju Destination 1",
         "it": "Continua verso Destination 1",

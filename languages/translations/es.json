@@ -78,24 +78,24 @@
         },
         "continue": {
             "default": {
-                "default": "Continua  {modifier}",
-                "name": "Continua  {modifier} en  {way_name}",
-                "destination": "Continua  {modifier} hacia  {destination}"
+                "default": "Continúe {modifier}",
+                "name": "Continúe {modifier} en {way_name}",
+                "destination": "Continúe {modifier} hacia {destination}"
             },
             "straight": {
-                "default": "Continua recto",
-                "name": "Continua en  {way_name}",
-                "destination": "Continua hacia  {destination}"
+                "default": "Continúe recto",
+                "name": "Continúe en {way_name}",
+                "destination": "Continúe hacia {destination}"
             },
             "slight left": {
-                "default": "Continua ligeramente a la izquierda",
-                "name": "Continua ligeramente a la izquierda en  {way_name}",
-                "destination": "Continua ligeramente a la izquierda hacia  {destination}"
+                "default": "Continúe ligeramente a la izquierda",
+                "name": "Continúe ligeramente a la izquierda en {way_name}",
+                "destination": "Continúe ligeramente a la izquierda hacia {destination}"
             },
             "slight right": {
-                "default": "Continua ligeramente a la derecha",
-                "name": "Continua ligeramente a la derecha en  {way_name}",
-                "destination": "Continua ligeramente a la derecha hacia  {destination}"
+                "default": "Continúe ligeramente a la derecha",
+                "name": "Continúe ligeramente a la derecha en {way_name}",
+                "destination": "Continúe ligeramente a la derecha hacia {destination}"
             },
             "uturn": {
                 "default": "Haz un cambio de sentido",
@@ -116,9 +116,9 @@
                 "destination": "Gire a  {modifier} hacia  {destination}"
             },
             "straight": {
-                "default": "Continua recto",
-                "name": "Continua recto en  {way_name}",
-                "destination": "Continua recto hacia  {destination}"
+                "default": "Continúe recto",
+                "name": "Continúe recto en  {way_name}",
+                "destination": "Continúe recto hacia {destination}"
             },
             "uturn": {
                 "default": "Haz un cambio de sentido al final de la via",
@@ -192,9 +192,14 @@
         },
         "new name": {
             "default": {
-                "default": "Continua  {modifier}",
-                "name": "Continua  {modifier} en  {way_name}",
-                "destination": "Continua  {modifier} hacia  {destination}"
+                "default": "Continúe {modifier}",
+                "name": "Continúe {modifier} en {way_name}",
+                "destination": "Continúe {modifier} hacia {destination}"
+            },
+            "straight": {
+                "default": "Continúe recto",
+                "name": "Continúe en {way_name}",
+                "destination": "Continúe hacia {destination}"
             },
             "sharp left": {
                 "default": "Gire a la izquierda",
@@ -207,14 +212,14 @@
                 "destination": "Gire a la derecha hacia {destination}"
             },
             "slight left": {
-                "default": "Continua ligeramente a la izquierda",
-                "name": "Continua ligeramente a la izquierda en  {way_name}",
-                "destination": "Continua ligeramente a la izquierda hacia  {destination}"
+                "default": "Continúe ligeramente a la izquierda",
+                "name": "Continúe ligeramente a la izquierda en {way_name}",
+                "destination": "Continúe ligeramente a la izquierda hacia {destination}"
             },
             "slight right": {
-                "default": "Continua ligeramente a la derecha",
-                "name": "Continua ligeramente a la derecha en  {way_name}",
-                "destination": "Continua ligeramente a la derecha hacia  {destination}"
+                "default": "Continúe ligeramente a la derecha",
+                "name": "Continúe ligeramente a la derecha en {way_name}",
+                "destination": "Continúe ligeramente a la derecha hacia {destination}"
             },
             "uturn": {
                 "default": "Haz un cambio de sentido",
@@ -224,9 +229,9 @@
         },
         "notification": {
             "default": {
-                "default": "Continua  {modifier}",
-                "name": "Continua  {modifier} en  {way_name}",
-                "destination": "Continua  {modifier} hacia  {destination}"
+                "default": "Continúe {modifier}",
+                "name": "Continúe {modifier} en {way_name}",
+                "destination": "Continúe {modifier} hacia {destination}"
             },
             "uturn": {
                 "default": "Haz un cambio de sentido",
@@ -238,37 +243,51 @@
             "default": {
                 "default": "Ve cuesta abajo",
                 "name": "Ve cuesta abajo en {way_name}",
-                "destination": "Ve cuesta abajo hacia {destination}"
+                "destination": "Ve cuesta abajo hacia {destination}",
+                "exit": "Tome la salida {exit}",
+                "exit_destination": "Tome la salida {exit} hacia {destination}"
             },
             "left": {
                 "default": "Ve cuesta abajo en la izquierda",
                 "name": "Ve cuesta abajo en la izquierda en {way_name}",
-                "destination": "Ve cuesta abajo en la izquierda hacia {destination}"
+                "destination": "Ve cuesta abajo en la izquierda hacia {destination}",
+                "exit": "Tome la salida {exit} en la izquierda",
+                "exit_destination": "Tome la salida {exit} en la izquierda hacia {destination}"
             },
             "right": {
                 "default": "Ve cuesta abajo en la derecha",
                 "name": "Ve cuesta abajo en la derecha en {way_name}",
-                "destination": "Ve cuesta abajo en la derecha hacia {destination}"
+                "destination": "Ve cuesta abajo en la derecha hacia {destination}",
+                "exit": "Tome la salida {exit} en la derecha",
+                "exit_destination": "Tome la salida {exit} en la derecha hacia {destination}"
             },
             "sharp left": {
                 "default": "Ve cuesta abajo en la izquierda",
                 "name": "Ve cuesta abajo en la izquierda en {way_name}",
-                "destination": "Ve cuesta abajo en la izquierda hacia {destination}"
+                "destination": "Ve cuesta abajo en la izquierda hacia {destination}",
+                "exit": "Tome la salida {exit} en la izquierda",
+                "exit_destination": "Tome la salida {exit} en la izquierda hacia {destination}"
             },
             "sharp right": {
                 "default": "Ve cuesta abajo en la derecha",
                 "name": "Ve cuesta abajo en la derecha en {way_name}",
-                "destination": "Ve cuesta abajo en la derecha hacia {destination}"
+                "destination": "Ve cuesta abajo en la derecha hacia {destination}",
+                "exit": "Tome la salida {exit} en la derecha",
+                "exit_destination": "Tome la salida {exit} en la derecha hacia {destination}"
             },
             "slight left": {
                 "default": "Ve cuesta abajo en la izquierda",
                 "name": "Ve cuesta abajo en la izquierda en {way_name}",
-                "destination": "Ve cuesta abajo en la izquierda hacia {destination}"
+                "destination": "Ve cuesta abajo en la izquierda hacia {destination}",
+                "exit": "Tome la salida {exit} en la izquierda",
+                "exit_destination": "Tome la salida {exit} en la izquierda hacia {destination}"
             },
             "slight right": {
                 "default": "Ve cuesta abajo en la derecha",
                 "name": "Ve cuesta abajo en la derecha en {way_name}",
-                "destination": "Ve cuesta abajo en la derecha hacia {destination}"
+                "destination": "Ve cuesta abajo en la derecha hacia {destination}",
+                "exit": "Tome la salida {exit} en la derecha",
+                "exit_destination": "Tome la salida {exit} en la derecha hacia {destination}"
             }
         },
         "on ramp": {
@@ -363,9 +382,9 @@
                 "destination": "En la rotonda gira a la derecha hacia {destination}"
             },
             "straight": {
-                "default": "En la rotonda continua recto",
-                "name": "En la rotonda continua recto en {way_name}",
-                "destination": "En la rotonda continua recto hacia {destination}"
+                "default": "En la rotonda continúe recto",
+                "name": "En la rotonda continúe recto en {way_name}",
+                "destination": "En la rotonda continúe recto hacia {destination}"
             }
         },
         "turn": {
@@ -392,7 +411,7 @@
         },
         "use lane": {
             "no_lanes": {
-                "default": "Continua recto"
+                "default": "Continúe recto"
             },
             "default": {
                 "default": "{lane_instruction}"
