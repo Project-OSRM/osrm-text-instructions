@@ -33,7 +33,7 @@
                 "sharp right": "Leggera svolta a destra",
                 "slight left": "leggermente a sinistra",
                 "slight right": "leggermente a destra",
-                "straight": "Continua dritto",
+                "straight": "dritto",
                 "uturn": "inversione a U"
             },
             "lanes": {
@@ -55,22 +55,22 @@
                 "default": "Sei arrivato alla tua {nth} destinazione"
             },
             "left": {
-                "default": "sei arrivato alla tua {nth} destinazione, alla sinistra"
+                "default": "sei arrivato alla tua {nth} destinazione, sulla sinistra"
             },
             "right": {
-                "default": "sei arrivato alla tua {nth} destinazione, alla destra"
+                "default": "sei arrivato alla tua {nth} destinazione, sulla destra"
             },
             "sharp left": {
-                "default": "sei arrivato alla tua {nth} destinazione, alla sinistra"
+                "default": "sei arrivato alla tua {nth} destinazione, sulla sinistra"
             },
             "sharp right": {
-                "default": "sei arrivato alla tua {nth} destinazione, alla destra"
+                "default": "sei arrivato alla tua {nth} destinazione, sulla destra"
             },
             "slight right": {
-                "default": "sei arrivato alla tua {nth} destinazione, alla destra"
+                "default": "sei arrivato alla tua {nth} destinazione, sulla destra"
             },
             "slight left": {
-                "default": "sei arrivato alla tua {nth} destinazione, alla sinistra"
+                "default": "sei arrivato alla tua {nth} destinazione, sulla sinistra"
             },
             "straight": {
                 "default": "sei arrivato alla tua {nth} destinazione, si trova davanti a te"
@@ -78,9 +78,9 @@
         },
         "continue": {
             "default": {
-                "default": "Continua {modifier}",
-                "name": "Continua {modifier} in {way_name}",
-                "destination": "Continua {modifier} verso {destination}"
+                "default": "Continua a {modifier}",
+                "name": "Continua a {modifier} in {way_name}",
+                "destination": "Continua a {modifier} verso {destination}"
             },
             "straight": {
                 "default": "Continua dritto",
@@ -192,9 +192,9 @@
         },
         "new name": {
             "default": {
-                "default": "Continua {modifier}",
-                "name": "Continua {modifier} in {way_name}",
-                "destination": "Continua {modifier} verso {destination}"
+                "default": "Continua a {modifier}",
+                "name": "Continua a {modifier} in {way_name}",
+                "destination": "Continua a {modifier} verso {destination}"
             },
             "straight": {
                 "default": "Continua dritto",
@@ -229,9 +229,9 @@
         },
         "notification": {
             "default": {
-                "default": "Continua {modifier}",
-                "name": "Continua {modifier} in {way_name}",
-                "destination": "Continua {modifier} verso {destination}"
+                "default": "Continua a {modifier}",
+                "name": "Continua a {modifier} in {way_name}",
+                "destination": "Continua a {modifier} verso {destination}"
             },
             "uturn": {
                 "default": "Fai un'inversione a U",
