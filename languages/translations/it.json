@@ -29,10 +29,10 @@
             "modifier": {
                 "left": "sinistra",
                 "right": "destra",
-                "sharp left": "Leggera svolta a sinistra",
-                "sharp right": "Leggera svolta a destra",
-                "slight left": "leggermente a sinistra",
-                "slight right": "leggermente a destra",
+                "sharp left": "sinistra",
+                "sharp right": "destra",
+                "slight left": "sinistra leggermente",
+                "slight right": "destra leggermente",
                 "straight": "dritto",
                 "uturn": "inversione a U"
             },
@@ -143,14 +143,14 @@
                 "destination": "Mantieni la destra al bivio verso {destination}"
             },
             "sharp left": {
-                "default": "Svolta leggermente a sinistra al bivio",
-                "name": "Svolta completamente a sinistra al bivio in {way_name}",
-                "destination": "Svolta completamente a sinistra al bivio verso {destination}"
+                "default": "Svolta a sinistra al bivio",
+                "name": "Svolta a sinistra al bivio in {way_name}",
+                "destination": "Svolta a sinistra al bivio verso {destination}"
             },
             "sharp right": {
-                "default": "Svolta leggermente a destra al bivio",
-                "name": "Svolta completamente a destra al bivio in {way_name}",
-                "destination": "Svolta completamente a destra al bivio verso {destination}"
+                "default": "Svolta a destra al bivio",
+                "name": "Svolta a destra al bivio in {way_name}",
+                "destination": "Svolta a destra al bivio verso {destination}"
             },
             "uturn": {
                 "default": "Fai un'inversione a U",
@@ -202,14 +202,14 @@
                 "destination": "Continua verso {destination}"
             },
             "sharp left": {
-                "default": "Svolta leggermente a sinistra",
-                "name": "Svolta completamente a sinistra in {way_name}",
-                "destination": "Svolta completamente a sinistra verso {destination}"
+                "default": "Svolta a sinistra",
+                "name": "Svolta a sinistra in {way_name}",
+                "destination": "Svolta a sinistra verso {destination}"
             },
             "sharp right": {
-                "default": "Svolta leggermente a destra",
-                "name": "Svolta completamente a destra in {way_name}",
-                "destination": "Svolta completamente a destra verso {destination}"
+                "default": "Svolta a destra",
+                "name": "Svolta a destra in {way_name}",
+                "destination": "Svolta a destra verso {destination}"
             },
             "slight left": {
                 "default": "Continua leggermente a sinistra",
