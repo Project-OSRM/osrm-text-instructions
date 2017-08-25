@@ -8,6 +8,8 @@ OSRM Text Instructions transforms [OSRM](http://www.project-osrm.org/) route res
 
 OSRM Text Instructions has been translated into [several languages](https://github.com/Project-OSRM/osrm-text-instructions/tree/master/languages/translations/). Please help us add support for the languages you speak [using Transifex](https://www.transifex.com/project-osrm/osrm-text-instructions/).
 
+[![NPM](https://nodei.co/npm/osrm-text-instructions.png)](https://npmjs.org/package/osrm-text-instructions/)
+
 ### Design goals
 
 - __Cross platform__ Use a data-driven approach that makes implementations in other programming environments easy to write
