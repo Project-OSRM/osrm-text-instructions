@@ -87,6 +87,16 @@
                 "name": "Fortsätt in på {way_name}",
                 "destination": "Fortsätt mot {destination}"
             },
+            "slight left": {
+                "default": "Fortsätt åt vänster",
+                "name": "Fortsätt åt vänster in på {way_name}",
+                "destination": "Fortsätt åt vänster mot {destination}"
+            },
+            "slight right": {
+                "default": "Fortsätt åt höger",
+                "name": "Fortsätt åt höger in på {way_name}",
+                "destination": "Fortsätt åt höger mot {destination}"
+            },
             "uturn": {
                 "default": "Gör en U-sväng",
                 "name": "Gör en U-sväng in på {way_name}",
