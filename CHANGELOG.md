@@ -3,7 +3,11 @@ All notable changes to this project will be documented in this file. For change 
 
 ## Unreleased
 
-- put future changes here
+- Adds Brazilian Portuguese, Italian, and Ukrainian localizations. [#137](https://github.com/Project-OSRM/osrm-text-instructions/pull/137)
+- Adds the word “right” to right-hand exit instructions. [#125](https://github.com/Project-OSRM/osrm-text-instructions/pull/125)
+- Improves the wording of “continue straight” instructions. [#130](https://github.com/Project-OSRM/osrm-text-instructions/pull/130)
+- Improves the wording of various instructions in Russian and Swedish. [#138](https://github.com/Project-OSRM/osrm-text-instructions/pull/138) [#137](https://github.com/Project-OSRM/osrm-text-instructions/pull/137)
+- The Spanish localization consistently uses _usted_ form. [#137](https://github.com/Project-OSRM/osrm-text-instructions/pull/137)
 
 # 0.5.2 2017-07-25
 
