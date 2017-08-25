@@ -160,9 +160,9 @@
         },
         "merge": {
             "default": {
-                "default": "Körfältsbyte åt {modifier}",
-                "name": "Körfältsbyte åt {modifier} in på {way_name}",
-                "destination": "Körfältsbyte åt {modifier} mot {destination}"
+                "default": "Byt till {modifier} körfält",
+                "name": "Byt till {modifier} körfält in på {way_name}",
+                "destination": "Byt till {modifier} körfält mot {destination}"
             },
             "slight left": {
                 "default": "Byt till vänstra körfältet",
