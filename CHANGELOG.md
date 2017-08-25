@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
-## Unreleased
+# 0.5.3 2017-08-25
 
 - Adds Brazilian Portuguese, Italian, and Ukrainian localizations. [#137](https://github.com/Project-OSRM/osrm-text-instructions/pull/137)
 - Adds the word “right” to right-hand exit instructions. [#125](https://github.com/Project-OSRM/osrm-text-instructions/pull/125)
