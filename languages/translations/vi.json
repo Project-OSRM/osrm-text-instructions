@@ -196,6 +196,11 @@
                 "name": "Chạy tiếp bên {modifier} trên {way_name}",
                 "destination": "Chạy tiếp bên {modifier} đến {destination}"
             },
+            "straight": {
+                "default": "Chạy thẳng",
+                "name": "Chạy tiếp trên {way_name}",
+                "destination": "Chạy tiếp đến {destination}"
+            },
             "sharp left": {
                 "default": "Quẹo gắt bên trái",
                 "name": "Quẹo gắt bên trái vào {way_name}",
@@ -253,7 +258,7 @@
                 "default": "Đi đường nhánh bên phải",
                 "name": "Đi đường nhánh {way_name} bên phải",
                 "destination": "Đi đường nhánh bên phải đến {destination}",
-                "exit": "Đi theo lối ra {exit}",
+                "exit": "Đi theo lối ra {exit} bên phải",
                 "exit_destination": "Đi theo lối ra {exit} bên phải về hướng {destination}"
             },
             "sharp left": {
@@ -267,7 +272,7 @@
                 "default": "Đi đường nhánh bên phải",
                 "name": "Đi đường nhánh {way_name} bên phải",
                 "destination": "Đi đường nhánh bên phải đến {destination}",
-                "exit": "Đi theo lối ra {exit}",
+                "exit": "Đi theo lối ra {exit} bên phải",
                 "exit_destination": "Đi theo lối ra {exit} bên phải về hướng {destination}"
             },
             "slight left": {
@@ -281,7 +286,7 @@
                 "default": "Đi đường nhánh bên phải",
                 "name": "Đi đường nhánh {way_name} bên phải",
                 "destination": "Đi đường nhánh bên phải đến {destination}",
-                "exit": "Đi theo lối ra {exit}",
+                "exit": "Đi theo lối ra {exit} bên phải",
                 "exit_destination": "Đi theo lối ra {exit} bên phải về hướng {destination}"
             }
         },

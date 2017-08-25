@@ -191,6 +191,11 @@
                 "name": "{modifier} weiterfahren auf {way_name}",
                 "destination": "{modifier} weiterfahren Richtung {destination}"
             },
+            "straight": {
+                "default": "Geradeaus weiterfahren",
+                "name": "Weiterfahren auf {way_name}",
+                "destination": "Weiterfahren in Richtung {destination}"
+            },
             "sharp left": {
                 "default": "Scharf links",
                 "name": "Scharf links auf {way_name}",
@@ -231,53 +236,53 @@
         },
         "off ramp": {
             "default": {
-                "default": "Abfahrt nehmen",
-                "name": "Abfahrt nehmen auf {way_name}",
-                "destination": "Abfahrt nehmen Richtung {destination}",
-                "exit": "Abfahrt {exit} nehmen",
-                "exit_destination": "Abfahrt {exit} nehmen Richtung {destination}"
+                "default": "Ausfahrt nehmen",
+                "name": "Ausfahrt nehmen auf {way_name}",
+                "destination": "Ausfahrt nehmen Richtung {destination}",
+                "exit": "Ausfahrt {exit} nehmen",
+                "exit_destination": "Ausfahrt {exit} nehmen Richtung {destination}"
             },
             "left": {
-                "default": "Abfahrt links nehmen",
-                "name": "Abfahrt links nehmen auf {way_name}",
-                "destination": "Abfahrt links nehmen Richtung {destination}",
-                "exit": "Abfahrt {exit} links nehmen",
-                "exit_destination": "Abfahrt {exit} links nehmen Richtung {destination}"
+                "default": "Ausfahrt links nehmen",
+                "name": "Ausfahrt links nehmen auf {way_name}",
+                "destination": "Ausfahrt links nehmen Richtung {destination}",
+                "exit": "Ausfahrt {exit} links nehmen",
+                "exit_destination": "Ausfahrt {exit} links nehmen Richtung {destination}"
             },
             "right": {
-                "default": "Abfahrt rechts nehmen",
-                "name": "Abfahrt rechts nehmen Richtung {way_name}",
-                "destination": "Abfahrt rechts nehmen Richtung {destination}",
-                "exit": "Abfahrt {exit} nehmen",
-                "exit_destination": "Abfahrt {exit} nehmen Richtung {destination}"
+                "default": "Ausfahrt rechts nehmen",
+                "name": "Ausfahrt rechts nehmen Richtung {way_name}",
+                "destination": "Ausfahrt rechts nehmen Richtung {destination}",
+                "exit": "Ausfahrt {exit} rechts nehmen",
+                "exit_destination": "Ausfahrt {exit} nehmen Richtung {destination}"
             },
             "sharp left": {
-                "default": "Abfahrt links nehmen",
-                "name": "Abfahrt links Seite nehmen auf {way_name}",
-                "destination": "Abfahrt links nehmen Richtung {destination}",
-                "exit": "Abfahrt {exit} links nehmen",
-                "exit_destination": "Abfahrt{exit} links nehmen Richtung {destination}"
+                "default": "Ausfahrt links nehmen",
+                "name": "Ausfahrt links Seite nehmen auf {way_name}",
+                "destination": "Ausfahrt links nehmen Richtung {destination}",
+                "exit": "Ausfahrt {exit} links nehmen",
+                "exit_destination": "Ausfahrt{exit} links nehmen Richtung {destination}"
             },
             "sharp right": {
-                "default": "Abfahrt rechts nehmen",
-                "name": "Abfahrt rechts nehmen auf {way_name}",
-                "destination": "Abfahrt rechts nehmen Richtung {destination}",
-                "exit": "Abfahrt {exit} nehmen",
-                "exit_destination": "Abfahrt {exit} nehmen Richtung {destination}"
+                "default": "Ausfahrt rechts nehmen",
+                "name": "Ausfahrt rechts nehmen auf {way_name}",
+                "destination": "Ausfahrt rechts nehmen Richtung {destination}",
+                "exit": "Ausfahrt {exit} rechts nehmen",
+                "exit_destination": "Ausfahrt {exit} nehmen Richtung {destination}"
             },
             "slight left": {
-                "default": "Abfahrt links nehmen",
-                "name": "Abfahrt links nehmen auf {way_name}",
-                "destination": "Abfahrt links nehmen Richtung {destination}",
-                "exit": "Abfahrt {exit} nehmen",
-                "exit_destination": "Abfahrt {exit} links nehmen Richtung {destination}"
+                "default": "Ausfahrt links nehmen",
+                "name": "Ausfahrt links nehmen auf {way_name}",
+                "destination": "Ausfahrt links nehmen Richtung {destination}",
+                "exit": "Ausfahrt {exit} nehmen",
+                "exit_destination": "Ausfahrt {exit} links nehmen Richtung {destination}"
             },
             "slight right": {
-                "default": "Abfahrt rechts nehmen",
-                "name": "Abfahrt rechts nehmen auf {way_name}",
-                "destination": "Abfahrt rechts nehmen Richtung {destination}",
-                "exit": "Abfahrt {exit} nehmen",
-                "exit_destination": "Abfahrt {exit} nehmen Richtung {destination}"
+                "default": "Ausfahrt rechts nehmen",
+                "name": "Ausfahrt rechts nehmen auf {way_name}",
+                "destination": "Ausfahrt rechts nehmen Richtung {destination}",
+                "exit": "Ausfahrt {exit} rechts nehmen",
+                "exit_destination": "Ausfahrt {exit} nehmen Richtung {destination}"
             }
         },
         "on ramp": {

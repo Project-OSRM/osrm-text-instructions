@@ -10,13 +10,16 @@
     "instructions": {
         "de": "Geradeaus weiterfahren auf Ref1",
         "en": "Continue onto Ref1",
-        "es": "Continua en Ref1",
+        "es": "Continúe en Ref1",
         "fr": "Continuer tout droit sur Ref1",
         "id": "Terus ke Ref1",
+        "it": "Continua in Ref1",
         "nl": "Ga rechtdoor naar Ref1",
         "pl": "Kontynuuj na Ref1",
+        "pt-BR": "Continue em Ref1",
         "ru": "Продолжите движение по Ref1",
         "sv": "Fortsätt in på Ref1",
+        "uk": "Рухайтесь по Ref1",
         "vi": "Chạy tiếp trên Ref1",
         "zh-Hans": "继续直行，上Ref1"
     },
