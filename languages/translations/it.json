@@ -166,7 +166,7 @@
             },
             "slight left": {
                 "default": "Immettiti a sinistra",
-                "name": "Immetiti a sinistra in {way_name}",
+                "name": "Immettiti a sinistra in {way_name}",
                 "destination": "Immettiti a sinistra verso {destination}"
             },
             "slight right": {
@@ -176,7 +176,7 @@
             },
             "sharp left": {
                 "default": "Immettiti a sinistra",
-                "name": "Immetiti a sinistra in {way_name}",
+                "name": "Immettiti a sinistra in {way_name}",
                 "destination": "Immettiti a sinistra verso {destination}"
             },
             "sharp right": {
