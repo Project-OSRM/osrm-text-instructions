@@ -50,6 +50,7 @@
                 "destination": "Скористайтесь поромом у напрямку {destination}"
             }
         },
+        "phrase": {},
         "arrive": {
             "default": {
                 "default": "Ви прибули у ваш {nth} пункт призначення"

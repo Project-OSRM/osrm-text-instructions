@@ -50,6 +50,7 @@
                 "destination": "Погрузитесь на паром в направлении {destination}"
             }
         },
+        "phrase": {},
         "arrive": {
             "default": {
                 "default": "Вы прибыли в {nth} пункт назначения"

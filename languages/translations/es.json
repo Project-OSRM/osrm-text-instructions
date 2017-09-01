@@ -50,6 +50,7 @@
                 "destination": "Coge el ferry a  {destination}"
             }
         },
+        "phrase": {},
         "arrive": {
             "default": {
                 "default": "Has llegado a tu {nth} destino"

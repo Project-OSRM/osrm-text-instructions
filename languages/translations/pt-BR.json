@@ -50,6 +50,7 @@
                 "destination": "Pegue a balsa sentido {destination}"
             }
         },
+        "phrase": {},
         "arrive": {
             "default": {
                 "default": "Você chegou ao seu {nth} destino"

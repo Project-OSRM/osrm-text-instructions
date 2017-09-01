@@ -50,6 +50,7 @@
                 "destination": "Naik ferry menuju {destination}"
             }
         },
+        "phrase": {},
         "arrive": {
             "default": {
                 "default": "Anda telah tiba di tujuan ke-{nth}"

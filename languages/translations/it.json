@@ -50,6 +50,7 @@
                 "destination": "Prendi il traghetto verso {destination}"
             }
         },
+        "phrase": {},
         "arrive": {
             "default": {
                 "default": "Sei arrivato alla tua {nth} destinazione"

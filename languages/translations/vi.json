@@ -50,6 +50,7 @@
                 "destination": "Lên phà đi {destination}"
             }
         },
+        "phrase": {},
         "arrive": {
             "default": {
                 "default": "Đến nơi {nth}"
