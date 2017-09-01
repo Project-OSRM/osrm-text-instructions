@@ -180,23 +180,31 @@ module.exports = function(version, _options) {
 
             // Replace tokens
             // NOOP if they don't exist
-            instruction = instruction
-                .replace('{way_name}', wayName)
-                .replace('{destination}', (step.destinations || '').split(',')[0])
-                .replace('{exit}', (step.exits || '').split(';')[0])
-                .replace('{exit_number}', this.ordinalize(language, step.maneuver.exit || 1))
-                .replace('{rotary_name}', step.rotary_name)
-                .replace('{lane_instruction}', laneInstruction)
-                .replace('{modifier}', instructions[language][version].constants.modifier[modifier])
-                .replace('{direction}', this.directionFromDegree(language, step.maneuver.bearing_after))
-                .replace('{nth}', nthWaypoint)
-                .replace(/ {2}/g, ' '); // remove excess spaces
+            var replaceTokens = {
+                'way_name': wayName,
+                'destination': (step.destinations || '').split(',')[0],
+                'exit': (step.exits || '').split(';')[0],
+                'exit_number': this.ordinalize(language, step.maneuver.exit || 1),
+                'rotary_name': step.rotary_name,
+                'lane_instruction': laneInstruction,
+                'modifier': instructions[language][version].constants.modifier[modifier],
+                'direction': this.directionFromDegree(language, step.maneuver.bearing_after),
+                'nth': nthWaypoint
+            };
+
+            return this.tokenize(instruction, replaceTokens, language);
+        },
+        tokenize: function(instruction, tokens, language) {
+            var output =  Object.keys(tokens).reduce(function(memo, token) {
+                return memo.replace('{' + token + '}', tokens[token]);
+            }, instruction)
+            .replace(/ {2}/g, ' '); // remove excess spaces
 
             if (instructions[language].meta.capitalizeFirstLetter) {
-                instruction = this.capitalizeFirstLetter(instruction);
+                return this.capitalizeFirstLetter(output);
             }
 
-            return instruction;
+            return output;
         }
     };
 };
