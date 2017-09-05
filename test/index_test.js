@@ -4,6 +4,38 @@ var tape = require('tape');
 
 var instructions = require('../index');
 
+tape.test('v5 tokenize', function(assert) {
+    var v5Instructions = instructions('v5');
+
+    var tokenString = 'Can {first} {second}';
+
+    var hasBoth = v5Instructions.tokenize(tokenString, {
+        first: 'osrm',
+        second: 'do routing'
+    }, 'en');
+    assert.equal(hasBoth, 'Can osrm do routing', 'does find and replace');
+
+    var hasFirst = v5Instructions.tokenize(tokenString, {
+        first: 'osrm',
+        second: ''
+    }, 'en');
+    assert.equal(hasFirst, 'Can osrm ', 'does find and replace and does not drop trailing spaces');
+
+    var hasSecond = v5Instructions.tokenize(tokenString, {
+        second: 'swim',
+        first: ''
+    }, 'en');
+    assert.equal(hasSecond, 'Can swim', 'does find and replace and drops internal extra spaces');
+
+    var missingSecond = v5Instructions.tokenize(tokenString, {
+        first: 'osrm'
+    }, 'en');
+    assert.equal(missingSecond, 'Can osrm {second}', 'does not replace tokens which are not provided');
+
+
+    assert.end();
+});
+
 tape.test('v5 directionFromDegree', function(assert) {
     var v5Instructions = instructions('v5');
 
