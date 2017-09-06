@@ -50,6 +50,7 @@
                 "destination": "Fähre nehmen Richtung {destination}"
             }
         },
+        "phrase": {},
         "arrive": {
             "default": {
                 "default": "Sie haben Ihr {nth} Ziel erreicht"

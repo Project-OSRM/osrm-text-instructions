@@ -50,6 +50,7 @@
                 "destination": "Neem het veer naar {destination}"
             }
         },
+        "phrase": {},
         "arrive": {
             "default": {
                 "default": "Je bent gearriveerd op de {nth} bestemming."

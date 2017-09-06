@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+# 0.6.0
+
+- Adds `phrase` types to the English localiztion. [#141](https://github.com/Project-OSRM/osrm-text-instructions/pull/141)
+- Adds `distance`, `name` and `namedistance` options to the continue and continue straight instructions. [#141](https://github.com/Project-OSRM/osrm-text-instructions/pull/141)
+- Adds `tokenize` to the top level api so that external users can fill in osrm-text-instructions template strings. [#141](https://github.com/Project-OSRM/osrm-text-instructions/pull/141)
+
 # 0.5.4 2017-09-06
 
 - Improves the wording of "continue" instructions. [#142](https://github.com/Project-OSRM/osrm-text-instructions/pull/142)

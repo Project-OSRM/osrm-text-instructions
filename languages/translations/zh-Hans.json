@@ -50,6 +50,7 @@
                 "destination": "乘坐开往{destination}的轮渡"
             }
         },
+        "phrase": {},
         "arrive": {
             "default": {
                 "default": "您已经到达您的{nth}个目的地"

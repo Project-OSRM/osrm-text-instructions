@@ -50,6 +50,7 @@
                 "destination": "Weź prom w kierunku {destination}"
             }
         },
+        "phrase": {},
         "arrive": {
             "default": {
                 "default": "Dojechano do miejsca docelowego {nth}"

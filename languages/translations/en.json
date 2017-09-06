@@ -50,6 +50,11 @@
                 "destination": "Take the ferry towards {destination}"
             }
         },
+        "phrase": {
+            "two linked by distance": "{instruction_one} then in {distance} {instruction_two}",
+            "two linked": "{instruction_one} then {instruction_two}",
+            "one in distance": "In {distance}, {instruction_one}"
+        },
         "arrive": {
             "default": {
                 "default": "You have arrived at your {nth} destination"
@@ -81,12 +86,15 @@
                 "default": "Continue {modifier}",
                 "name": "Continue {modifier} to stay on {way_name}",
                 "destination": "Continue {modifier} towards {destination}",
-                "exit": "Continue {modifier} onto {way_name}"
+                "exit": "Continue {modifier} onto {way_name}",
+                "distance": "Continue for {distance}",
+                "namedistance": "Continue on {way_name} for {distance}"
             },
             "straight": {
                 "default": "Continue straight",
                 "name": "Continue straight to stay on {way_name}",
-                "destination": "Continue towards {destination}"
+                "destination": "Continue towards {destination}",
+                "distance": "Continue straight for {distance}"
             },
             "slight left": {
                 "default": "Continue slightly left",

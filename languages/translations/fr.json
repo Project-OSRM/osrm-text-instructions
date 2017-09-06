@@ -50,6 +50,7 @@
                 "destination": "Prendre le ferry en direction de {destination}"
             }
         },
+        "phrase": {},
         "arrive": {
             "default": {
                 "default": "Vous êtes arrivés à votre {nth} destination"

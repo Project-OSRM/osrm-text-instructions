@@ -50,6 +50,7 @@
                 "destination": "Ta färjan mot {destination}"
             }
         },
+        "phrase": {},
         "arrive": {
             "default": {
                 "default": "Du är framme vid din {nth} destination"
