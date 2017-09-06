@@ -80,7 +80,8 @@
             "default": {
                 "default": "Continue {modifier}",
                 "name": "Continue {modifier} to stay on {way_name}",
-                "destination": "Continue {modifier} towards {destination}"
+                "destination": "Continue {modifier} towards {destination}",
+                "exit": "Continue {modifier} onto {way_name}"
             },
             "straight": {
                 "default": "Continue straight",
