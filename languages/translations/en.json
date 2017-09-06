@@ -100,7 +100,7 @@
             },
             "uturn": {
                 "default": "Make a U-turn",
-                "name": "Make a U-turn to stay on {way_name}",
+                "name": "Make a U-turn and continue on {way_name}",
                 "destination": "Make a U-turn towards {destination}"
             }
         },
