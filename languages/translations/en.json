@@ -79,27 +79,28 @@
         "continue": {
             "default": {
                 "default": "Continue {modifier}",
-                "name": "Continue {modifier} onto {way_name}",
-                "destination": "Continue {modifier} towards {destination}"
+                "name": "Continue {modifier} to stay on {way_name}",
+                "destination": "Continue {modifier} towards {destination}",
+                "exit": "Continue {modifier} onto {way_name}"
             },
             "straight": {
                 "default": "Continue straight",
-                "name": "Continue onto {way_name}",
+                "name": "Continue straight to stay on {way_name}",
                 "destination": "Continue towards {destination}"
             },
             "slight left": {
                 "default": "Continue slightly left",
-                "name": "Continue slightly left onto {way_name}",
+                "name": "Continue slightly left to stay on {way_name}",
                 "destination": "Continue slightly left towards {destination}"
             },
             "slight right": {
                 "default": "Continue slightly right",
-                "name": "Continue slightly right onto {way_name}",
+                "name": "Continue slightly right to stay on {way_name}",
                 "destination": "Continue slightly right towards {destination}"
             },
             "uturn": {
                 "default": "Make a U-turn",
-                "name": "Make a U-turn onto {way_name}",
+                "name": "Make a U-turn and continue on {way_name}",
                 "destination": "Make a U-turn towards {destination}"
             }
         },

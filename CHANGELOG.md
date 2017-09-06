@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+# 0.5.4 2017-09-06
+
+- Improves the wording of "continue" instructions. [#142](https://github.com/Project-OSRM/osrm-text-instructions/pull/142)
+
 # 0.5.3 2017-08-25
 
 - Adds Brazilian Portuguese, Italian, and Ukrainian localizations. [#137](https://github.com/Project-OSRM/osrm-text-instructions/pull/137)
