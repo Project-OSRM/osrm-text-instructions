@@ -95,6 +95,16 @@
                 "distance": "Continue straight for {distance}",
                 "namedistance": "Continue on {way_name} for {distance}"
             },
+            "sharp left": {
+                "default": "Make a sharp left",
+                "name": "Make a sharp left to stay on {way_name}",
+                "destination": "Make a sharp left towards {destination}"
+            },
+            "sharp right": {
+                "default": "Make a sharp right",
+                "name": "Make a sharp right to stay on {way_name}",
+                "destination": "Make a sharp right towards {destination}"
+            },
             "slight left": {
                 "default": "Make a slight left",
                 "name": "Make a slight left to stay on {way_name}",
