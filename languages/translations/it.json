@@ -84,9 +84,9 @@
         "continue": {
             "default": {
                 "default": "Continua a {modifier}",
-                "name": "Continua {modifier} per stare su {way_name}",
+                "name": "Continua a {modifier} per stare su {way_name}",
                 "destination": "Continua a {modifier} verso {destination}",
-                "exit": "Continua {modifier} in {way_name}",
+                "exit": "Continua a {modifier} in {way_name}",
                 "distance": "Continua per {distance}",
                 "namedistance": "Continua su {way_name} per {distance}"
             },
