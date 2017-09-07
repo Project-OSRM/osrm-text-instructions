@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+# 0.6.1
+
+- Updates `continue` maneuvers in en to read as turns when the road you are staying on turns at the intersection. [#145](https://github.com/Project-OSRM/osrm-text-instructions/pull/145)
+
 # 0.6.0
 
 - Adds `phrase` types to the English localiztion. [#141](https://github.com/Project-OSRM/osrm-text-instructions/pull/141)

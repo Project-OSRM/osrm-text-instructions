@@ -83,28 +83,37 @@
         },
         "continue": {
             "default": {
-                "default": "Continue {modifier}",
-                "name": "Continue {modifier} to stay on {way_name}",
-                "destination": "Continue {modifier} towards {destination}",
-                "exit": "Continue {modifier} onto {way_name}",
-                "distance": "Continue for {distance}",
-                "namedistance": "Continue on {way_name} for {distance}"
+                "default": "Turn {modifier}",
+                "name": "Turn {modifier} to stay on {way_name}",
+                "destination": "Turn {modifier} towards {destination}",
+                "exit": "Turn {modifier} onto {way_name}"
             },
             "straight": {
                 "default": "Continue straight",
                 "name": "Continue straight to stay on {way_name}",
                 "destination": "Continue towards {destination}",
-                "distance": "Continue straight for {distance}"
+                "distance": "Continue straight for {distance}",
+                "namedistance": "Continue on {way_name} for {distance}"
+            },
+            "sharp left": {
+                "default": "Make a sharp left",
+                "name": "Make a sharp left to stay on {way_name}",
+                "destination": "Make a sharp left towards {destination}"
+            },
+            "sharp right": {
+                "default": "Make a sharp right",
+                "name": "Make a sharp right to stay on {way_name}",
+                "destination": "Make a sharp right towards {destination}"
             },
             "slight left": {
-                "default": "Continue slightly left",
-                "name": "Continue slightly left to stay on {way_name}",
-                "destination": "Continue slightly left towards {destination}"
+                "default": "Make a slight left",
+                "name": "Make a slight left to stay on {way_name}",
+                "destination": "Make a slight left towards {destination}"
             },
             "slight right": {
-                "default": "Continue slightly right",
-                "name": "Continue slightly right to stay on {way_name}",
-                "destination": "Continue slightly right towards {destination}"
+                "default": "Make a slight right",
+                "name": "Make a slight right to stay on {way_name}",
+                "destination": "Make a slight right towards {destination}"
             },
             "uturn": {
                 "default": "Make a U-turn",
