@@ -50,7 +50,11 @@
                 "destination": "Prendi il traghetto verso {destination}"
             }
         },
-        "phrase": {},
+        "phrase": {
+            "two linked by distance": "{instruction_one}, poi tra {distance} {instruction_two}",
+            "two linked": "{instruction_one} poi {instruction_two}",
+            "one in distance": "tra {distance} {instruction_one}"
+        },
         "arrive": {
             "default": {
                 "default": "Sei arrivato alla tua {nth} destinazione"
@@ -80,27 +84,31 @@
         "continue": {
             "default": {
                 "default": "Continua a {modifier}",
-                "name": "Continua a {modifier} in {way_name}",
-                "destination": "Continua a {modifier} verso {destination}"
+                "name": "Continua {modifier} per stare su {way_name}",
+                "destination": "Continua a {modifier} verso {destination}",
+                "exit": "Continua {modifier} in {way_name}",
+                "distance": "Continua per {distance}",
+                "namedistance": "Continua su {way_name} per {distance}"
             },
             "straight": {
                 "default": "Continua dritto",
-                "name": "Continua in {way_name}",
-                "destination": "Continua verso {destination}"
+                "name": "Continua dritto per stare su {way_name}",
+                "destination": "Continua verso {destination}",
+                "distance": "Continua dritto per {distance}"
             },
             "slight left": {
                 "default": "Continua leggermente a sinistra",
-                "name": "Continua leggermente a sinistra in {way_name}",
+                "name": "Continua leggermente a sinistra per stare su {way_name}",
                 "destination": "Continua leggermente a sinistra verso {destination}"
             },
             "slight right": {
                 "default": "Continua leggermente a destra",
-                "name": "Continua leggermente a destra in {way_name} ",
+                "name": "Continua leggermente a destra per stare su {way_name}",
                 "destination": "Continua leggermente a destra verso {destination}"
             },
             "uturn": {
                 "default": "Fai un'inversione a U",
-                "name": "Fai un'inversione a U in {way_name}",
+                "name": "Fai un inversione ad U poi continua su {way_name}",
                 "destination": "Fai un'inversione a U verso {destination}"
             }
         },
