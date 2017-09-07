@@ -176,27 +176,51 @@ tape.test('v5 compile', function(t) {
         fs.readdirSync(basePath).forEach(function(type) {
             if (type.match(/^\./)) return; // ignore temporary files
 
-            fs.readdirSync(path.join(basePath, type)).forEach(function(file) {
-                if (!file.match(/\.json$/)) return;
+            if (type === 'phrase') {
+                fs.readdirSync(path.join(basePath, type)).forEach(function(file) {
+                    if (!file.match(/\.json$/)) return;
 
-                var p = path.join(basePath, type, file);
-                var fixture = JSON.parse(fs.readFileSync(p));
-                var options;
-                if (fixture.options) {
-                    options = {};
-                    options.legIndex = fixture.options.legIndex;
-                    options.legCount = fixture.options.legCount;
-                    options.classes = fixture.options.classes;
-                }
+                    var p = path.join(basePath, type, file);
+                    var fixture = JSON.parse(fs.readFileSync(p));
+                    var phrase = file.replace(/\..*/, '').replace(/_/g, ' ');
+                    var options;
+                    if (fixture.options) {
+                        options = {};
+                        options.steps = fixture.options.steps;
+                        options.distance = fixture.options.distance;
+                    }
 
-                Object.keys(fixture.instructions).forEach((l) => {
-                    assert.equal(
-                        instructionsPerLanguage.compile(l, fixture.step, options),
-                        fixture.instructions[l],
-                        `${type}/${file}/${l}`
-                    );
+                    Object.keys(fixture.phrases).forEach((l) => {
+                        assert.equal(
+                            instructionsPerLanguage.compilePhrase(l, phrase, options),
+                            fixture.phrases[l],
+                            `${type}/${file}/${l}`
+                        );
+                    });
                 });
-            });
+            } else {
+                fs.readdirSync(path.join(basePath, type)).forEach(function(file) {
+                    if (!file.match(/\.json$/)) return;
+
+                    var p = path.join(basePath, type, file);
+                    var fixture = JSON.parse(fs.readFileSync(p));
+                    var options;
+                    if (fixture.options) {
+                        options = {};
+                        options.legIndex = fixture.options.legIndex;
+                        options.legCount = fixture.options.legCount;
+                        options.classes = fixture.options.classes;
+                    }
+
+                    Object.keys(fixture.instructions).forEach((l) => {
+                        assert.equal(
+                            instructionsPerLanguage.compile(l, fixture.step, options),
+                            fixture.instructions[l],
+                            `${type}/${file}/${l}`
+                        );
+                    });
+                });
+            }
         });
 
         assert.end();

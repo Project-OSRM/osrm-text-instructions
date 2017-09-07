@@ -50,7 +50,11 @@
                 "destination": "Naik ferry menuju {destination}"
             }
         },
-        "phrase": {},
+        "phrase": {
+            "two linked by distance": "{instruction_one} then in {distance} {instruction_two}",
+            "two linked": "{instruction_one} then {instruction_two}",
+            "one in distance": "In {distance}, {instruction_one}"
+        },
         "arrive": {
             "default": {
                 "default": "Anda telah tiba di tujuan ke-{nth}"

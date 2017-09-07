@@ -1,0 +1,41 @@
+{
+    "steps": [
+        {
+            "maneuver": {
+                "type": "turn",
+                "modifier": "left"
+            },
+            "mode": "driving",
+            "name": "Way Name"
+        }
+    ],
+    "phrases": {
+        "de": "In 0 units, Links abbiegen auf Way Name",
+        "en": "In 0 units, Turn left onto Way Name",
+        "es": "In 0 units, Gire a la izquierda en Way Name",
+        "fr": "In 0 units, Tourner à gauche sur Way Name",
+        "id": "In 0 units, Belok kiri ke Way Name",
+        "it": "In 0 units, Svolta a sinistra in Way Name",
+        "nl": "In 0 units, Ga linksaf naar Way Name",
+        "pl": "In 0 units, Skręć w lewo na Way Name",
+        "pt-BR": "In 0 units, Vire à esquerda em Way Name",
+        "ru": "In 0 units, Поверните налево на Way Name",
+        "sv": "In 0 units, Sväng vänster in på Way Name",
+        "uk": "In 0 units, Поверніть ліворуч на Way Name",
+        "vi": "In 0 units, Quẹo trái vào Way Name",
+        "zh-Hans": "In 0 units, 左转，上Way Name"
+    },
+    "options": {
+        "steps": [
+            {
+                "maneuver": {
+                    "type": "turn",
+                    "modifier": "left"
+                },
+                "mode": "driving",
+                "name": "Way Name"
+            }
+        ],
+        "distance": "0 units"
+    }
+}

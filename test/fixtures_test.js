@@ -515,5 +515,85 @@ tape.test('verify existance/update fixtures', function(assert) {
         }
     });
 
+    function phraseForLanguages(phrase, options) {
+        var result = {};
+
+        supportedCodes.forEach((k) => {
+            result[k] = languages.compilePhrase(k, phrase, options);
+        });
+
+        return result;
+    }
+
+    function checkOrWritePhrase(basePath, phrase, options) {
+        var fileName = path.join(basePath, `${underscorify(phrase)}.json`);
+
+        if (process.env.UPDATE) {
+            var data = {
+                steps: options.steps,
+                phrases: phraseForLanguages(phrase, options)
+            };
+
+            if (options) data.options = options;
+
+            fs.writeFileSync(
+                fileName,
+                JSON.stringify(data, null, 4) + '\n'
+            );
+            assert.ok(true, `updated ${phrase}`);
+        } else {
+            // check for existance
+            assert.ok(
+                fs.existsSync(fileName),
+                `verified existance of ${phrase}`
+            );
+        }
+    }
+
+    function checkOrWritePhrases() {
+        var basePath = path.join(__dirname, 'fixtures', 'v5', 'phrase');
+        var baseSteps = [
+            {
+                maneuver: {
+                    type: 'turn',
+                    modifier: 'left'
+                },
+                mode: 'driving',
+                name: 'Way Name'
+            },
+            {
+                maneuver: {
+                    type: 'turn',
+                    modifier: 'left'
+                },
+                name: 'Way Name',
+                ref: 'Ref1;Ref2'
+            }
+        ];
+        var distance = '0 units';
+
+        // verify directory exists
+        mkdirp.sync(basePath);
+
+        // two linked by distance
+        checkOrWritePhrase(basePath, 'two linked by distance', {
+            steps: baseSteps,
+            distance: distance
+        });
+
+        // two linked
+        checkOrWritePhrase(basePath, 'two linked', {
+            steps: baseSteps
+        });
+
+        // one in distance
+        checkOrWritePhrase(basePath, 'one in distance', {
+            steps: baseSteps.slice(0, 1),
+            distance: distance
+        });
+    }
+
+    checkOrWritePhrases();
+
     assert.end();
 });
