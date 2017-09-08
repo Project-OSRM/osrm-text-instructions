@@ -148,7 +148,7 @@ module.exports = function(version, _options) {
             }
 
             if (name && ref && name !== ref && !wayMotorway) {
-                let phrase = instructions[language][version].phrase['name and ref'] ||
+                var phrase = instructions[language][version].phrase['name and ref'] ||
                     instructions.en[version].phrase['name and ref'];
                 wayName = this.tokenize(phrase, {
                     name: name,
