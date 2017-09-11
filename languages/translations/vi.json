@@ -388,6 +388,50 @@
                 "destination": "Chạy thẳng tại vòng xuyến để đi {destination}"
             }
         },
+        "exit roundabout": {
+            "default": {
+                "default": "Quẹo {modifier}",
+                "name": "Quẹo {modifier} vào {way_name}",
+                "destination": "Quẹo {modifier} đến {destination}"
+            },
+            "left": {
+                "default": "Quẹo trái",
+                "name": "Quẹo trái vào {way_name}",
+                "destination": "Quẹo trái đến {destination}"
+            },
+            "right": {
+                "default": "Quẹo phải",
+                "name": "Quẹo phải vào {way_name}",
+                "destination": "Quẹo phải đến {destination}"
+            },
+            "straight": {
+                "default": "Chạy thẳng",
+                "name": "Chạy thẳng vào {way_name}",
+                "destination": "Chạy thẳng đến {destination}"
+            }
+        },
+        "exit rotary": {
+            "default": {
+                "default": "Quẹo {modifier}",
+                "name": "Quẹo {modifier} vào {way_name}",
+                "destination": "Quẹo {modifier} đến {destination}"
+            },
+            "left": {
+                "default": "Quẹo trái",
+                "name": "Quẹo trái vào {way_name}",
+                "destination": "Quẹo trái đến {destination}"
+            },
+            "right": {
+                "default": "Quẹo phải",
+                "name": "Quẹo phải vào {way_name}",
+                "destination": "Quẹo phải đến {destination}"
+            },
+            "straight": {
+                "default": "Chạy thẳng",
+                "name": "Chạy thẳng vào {way_name}",
+                "destination": "Chạy thẳng đến {destination}"
+            }
+        },
         "turn": {
             "default": {
                 "default": "Quẹo {modifier}",

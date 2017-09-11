@@ -388,6 +388,50 @@
                 "destination": "Na rotatória siga reto sentido {destination}"
             }
         },
+        "exit roundabout": {
+            "default": {
+                "default": "Siga {modifier}",
+                "name": "Siga {modifier} em {way_name}",
+                "destination": "Siga {modifier} sentido {destination}"
+            },
+            "left": {
+                "default": "Vire à esquerda",
+                "name": "Vire à esquerda em {way_name}",
+                "destination": "Vire à esquerda sentido {destination}"
+            },
+            "right": {
+                "default": "Vire à direita",
+                "name": "Vire à direita em {way_name}",
+                "destination": "Vire à direita sentido {destination}"
+            },
+            "straight": {
+                "default": "Siga reto",
+                "name": "Siga reto em {way_name}",
+                "destination": "Siga reto sentido {destination}"
+            }
+        },
+        "exit rotary": {
+            "default": {
+                "default": "Siga {modifier}",
+                "name": "Siga {modifier} em {way_name}",
+                "destination": "Siga {modifier} sentido {destination}"
+            },
+            "left": {
+                "default": "Vire à esquerda",
+                "name": "Vire à esquerda em {way_name}",
+                "destination": "Vire à esquerda sentido {destination}"
+            },
+            "right": {
+                "default": "Vire à direita",
+                "name": "Vire à direita em {way_name}",
+                "destination": "Vire à direita sentido {destination}"
+            },
+            "straight": {
+                "default": "Siga reto",
+                "name": "Siga reto em {way_name}",
+                "destination": "Siga reto sentido {destination}"
+            }
+        },
         "turn": {
             "default": {
                 "default": "Siga {modifier}",

@@ -406,6 +406,50 @@
                 "destination": "At the roundabout continue straight towards {destination}"
             }
         },
+        "exit roundabout": {
+            "default": {
+                "default": "Make a {modifier}",
+                "name": "Make a {modifier} onto {way_name}",
+                "destination": "Make a {modifier} towards {destination}"
+            },
+            "left": {
+                "default": "Turn left",
+                "name": "Turn left onto {way_name}",
+                "destination": "Turn left towards {destination}"
+            },
+            "right": {
+                "default": "Turn right",
+                "name": "Turn right onto {way_name}",
+                "destination": "Turn right towards {destination}"
+            },
+            "straight": {
+                "default": "Go straight",
+                "name": "Go straight onto {way_name}",
+                "destination": "Go straight towards {destination}"
+            }
+        },
+        "exit rotary": {
+            "default": {
+                "default": "Make a {modifier}",
+                "name": "Make a {modifier} onto {way_name}",
+                "destination": "Make a {modifier} towards {destination}"
+            },
+            "left": {
+                "default": "Turn left",
+                "name": "Turn left onto {way_name}",
+                "destination": "Turn left towards {destination}"
+            },
+            "right": {
+                "default": "Turn right",
+                "name": "Turn right onto {way_name}",
+                "destination": "Turn right towards {destination}"
+            },
+            "straight": {
+                "default": "Go straight",
+                "name": "Go straight onto {way_name}",
+                "destination": "Go straight towards {destination}"
+            }
+        },
         "turn": {
             "default": {
                 "default": "Make a {modifier}",

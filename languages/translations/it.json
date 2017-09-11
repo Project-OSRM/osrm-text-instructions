@@ -396,6 +396,50 @@
                 "destination": "Alla rotonda prosegui dritto verso {destination}"
             }
         },
+        "exit roundabout": {
+            "default": {
+                "default": "Fai una {modifier}",
+                "name": "Fai una {modifier} in {way_name}",
+                "destination": "Fai una {modifier} verso {destination}"
+            },
+            "left": {
+                "default": "Svolta a sinistra",
+                "name": "Svolta a sinistra in {way_name}",
+                "destination": "Svolta a sinistra verso {destination}"
+            },
+            "right": {
+                "default": "Gira a destra",
+                "name": "Svolta a destra in {way_name}",
+                "destination": "Svolta a destra verso {destination}"
+            },
+            "straight": {
+                "default": "Prosegui dritto",
+                "name": "Continua su {way_name}",
+                "destination": "Continua verso {destination}"
+            }
+        },
+        "exit rotary": {
+            "default": {
+                "default": "Fai una {modifier}",
+                "name": "Fai una {modifier} in {way_name}",
+                "destination": "Fai una {modifier} verso {destination}"
+            },
+            "left": {
+                "default": "Svolta a sinistra",
+                "name": "Svolta a sinistra in {way_name}",
+                "destination": "Svolta a sinistra verso {destination}"
+            },
+            "right": {
+                "default": "Gira a destra",
+                "name": "Svolta a destra in {way_name}",
+                "destination": "Svolta a destra verso {destination}"
+            },
+            "straight": {
+                "default": "Prosegui dritto",
+                "name": "Continua su {way_name}",
+                "destination": "Continua verso {destination}"
+            }
+        },
         "turn": {
             "default": {
                 "default": "Fai una {modifier}",
