@@ -388,6 +388,50 @@
                 "destination": "En la rotonda continúe recto hacia {destination}"
             }
         },
+        "exit roundabout": {
+            "default": {
+                "default": "Siga {modifier}",
+                "name": "Siga {modifier} en {way_name}",
+                "destination": "Siga {modifier} hacia {destination}"
+            },
+            "left": {
+                "default": "Gire a la izquierda",
+                "name": "Gire a la izquierda en  {way_name}",
+                "destination": "Gire a la izquierda hacia  {destination}"
+            },
+            "right": {
+                "default": "Gire a la derecha",
+                "name": "Gire a la derecha en  {way_name}",
+                "destination": "Gire a la derecha hacia  {destination}"
+            },
+            "straight": {
+                "default": "Ve recto",
+                "name": "Ve recto en  {way_name}",
+                "destination": "Ve recto hacia  {destination}"
+            }
+        },
+        "exit rotary": {
+            "default": {
+                "default": "Siga {modifier}",
+                "name": "Siga {modifier} en {way_name}",
+                "destination": "Siga {modifier} hacia {destination}"
+            },
+            "left": {
+                "default": "Gire a la izquierda",
+                "name": "Gire a la izquierda en  {way_name}",
+                "destination": "Gire a la izquierda hacia  {destination}"
+            },
+            "right": {
+                "default": "Gire a la derecha",
+                "name": "Gire a la derecha en  {way_name}",
+                "destination": "Gire a la derecha hacia  {destination}"
+            },
+            "straight": {
+                "default": "Ve recto",
+                "name": "Ve recto en  {way_name}",
+                "destination": "Ve recto hacia  {destination}"
+            }
+        },
         "turn": {
             "default": {
                 "default": "Siga {modifier}",

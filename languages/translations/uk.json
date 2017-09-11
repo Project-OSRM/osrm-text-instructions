@@ -388,6 +388,50 @@
                 "destination": "На кільці продовжуйте рухатись прямо в напрямку {destination}"
             }
         },
+        "exit roundabout": {
+            "default": {
+                "default": "Рухайтесь {modifier}",
+                "name": "Рухайтесь {modifier} на {way_name}",
+                "destination": "Рухайтесь {modifier} в напрямку {destination}"
+            },
+            "left": {
+                "default": "Поверніть ліворуч",
+                "name": "Поверніть ліворуч на {way_name}",
+                "destination": "Поверніть ліворуч у напрямку {destination}"
+            },
+            "right": {
+                "default": "Поверніть праворуч",
+                "name": "Поверніть праворуч на {way_name}",
+                "destination": "Поверніть праворуч у напрямку {destination}"
+            },
+            "straight": {
+                "default": "Рухайтесь прямо",
+                "name": "Рухайтесь прямо по {way_name}",
+                "destination": "Рухайтесь прямо у напрямку {destination}"
+            }
+        },
+        "exit rotary": {
+            "default": {
+                "default": "Рухайтесь {modifier}",
+                "name": "Рухайтесь {modifier} на {way_name}",
+                "destination": "Рухайтесь {modifier} в напрямку {destination}"
+            },
+            "left": {
+                "default": "Поверніть ліворуч",
+                "name": "Поверніть ліворуч на {way_name}",
+                "destination": "Поверніть ліворуч у напрямку {destination}"
+            },
+            "right": {
+                "default": "Поверніть праворуч",
+                "name": "Поверніть праворуч на {way_name}",
+                "destination": "Поверніть праворуч у напрямку {destination}"
+            },
+            "straight": {
+                "default": "Рухайтесь прямо",
+                "name": "Рухайтесь прямо по {way_name}",
+                "destination": "Рухайтесь прямо у напрямку {destination}"
+            }
+        },
         "turn": {
             "default": {
                 "default": "Рухайтесь {modifier}",

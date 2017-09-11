@@ -369,6 +369,50 @@
                 "destination": "Rechtdoor op de rotonde richting {destination}"
             }
         },
+        "exit roundabout": {
+            "default": {
+                "default": "Ga {modifier}",
+                "name": "Ga {modifier} naar {way_name}",
+                "destination": "Ga {modifier} richting {destination}"
+            },
+            "left": {
+                "default": "Ga linksaf",
+                "name": "Ga linksaf naar {way_name}",
+                "destination": "Ga linksaf richting {destination}"
+            },
+            "right": {
+                "default": "Ga rechtsaf",
+                "name": "Ga rechtsaf naar {way_name}",
+                "destination": "Ga rechtsaf richting {destination}"
+            },
+            "straight": {
+                "default": "Ga rechtdoor",
+                "name": "Ga rechtdoor naar {way_name}",
+                "destination": "Ga rechtdoor richting {destination}"
+            }
+        },
+        "exit rotary": {
+            "default": {
+                "default": "Ga {modifier}",
+                "name": "Ga {modifier} naar {way_name}",
+                "destination": "Ga {modifier} richting {destination}"
+            },
+            "left": {
+                "default": "Ga linksaf",
+                "name": "Ga linksaf naar {way_name}",
+                "destination": "Ga linksaf richting {destination}"
+            },
+            "right": {
+                "default": "Ga rechtsaf",
+                "name": "Ga rechtsaf naar {way_name}",
+                "destination": "Ga rechtsaf richting {destination}"
+            },
+            "straight": {
+                "default": "Ga rechtdoor",
+                "name": "Ga rechtdoor naar {way_name}",
+                "destination": "Ga rechtdoor richting {destination}"
+            }
+        },
         "turn": {
             "default": {
                 "default": "Ga {modifier}",
