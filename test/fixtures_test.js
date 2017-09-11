@@ -343,6 +343,8 @@ tape.test('verify existance/update fixtures', function(assert) {
         case 'on ramp':
         case 'off ramp':
         case 'roundabout turn':
+        case 'exit roundabout':
+        case 'exit rotary':
         case 'turn':
             // do variation per modifier
             constants.modifiers.forEach((modifier) => {

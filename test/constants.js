@@ -14,6 +14,8 @@ constants.types = [
     'rotary',
     'roundabout',
     'roundabout turn',
+    'exit roundabout',
+    'exit rotary',
     'turn',
     'use lane'
 ];
