@@ -192,9 +192,9 @@ module.exports = function(version, _options) {
                 'nth': nthWaypoint
             };
 
-            return this.tokenize(instruction, replaceTokens, language);
+            return this.tokenize(language, instruction, replaceTokens);
         },
-        tokenize: function(instruction, tokens, language) {
+        tokenize: function(language, instruction, tokens) {
             var output =  Object.keys(tokens).reduce(function(memo, token) {
                 return memo.replace('{' + token + '}', tokens[token]);
             }, instruction)
