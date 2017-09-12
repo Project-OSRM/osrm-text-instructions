@@ -1,57 +1,23 @@
 {
-    "steps": [
-        {
-            "maneuver": {
-                "type": "turn",
-                "modifier": "left"
-            },
-            "mode": "driving",
-            "name": "Way Name"
-        },
-        {
-            "maneuver": {
-                "type": "turn",
-                "modifier": "left"
-            },
-            "name": "Way Name",
-            "ref": "Ref1;Ref2"
-        }
-    ],
-    "phrases": {
-        "de": "Links abbiegen auf Way Name then in 0 units Links abbiegen auf Way Name (Ref1)",
-        "en": "Turn left onto Way Name then in 0 units Turn left onto Way Name (Ref1)",
-        "es": "Gire a la izquierda en Way Name then in 0 units Gire a la izquierda en Way Name (Ref1)",
-        "fr": "Tourner à gauche sur Way Name then in 0 units Tourner à gauche sur Way Name (Ref1)",
-        "id": "Belok kiri ke Way Name then in 0 units Belok kiri ke Way Name (Ref1)",
-        "it": "Svolta a sinistra in Way Name, poi tra 0 units Svolta a sinistra in Way Name (Ref1)",
-        "nl": "Ga linksaf naar Way Name then in 0 units Ga linksaf naar Way Name (Ref1)",
-        "pl": "Skręć w lewo na Way Name then in 0 units Skręć w lewo na Way Name (Ref1)",
-        "pt-BR": "Vire à esquerda em Way Name then in 0 units Vire à esquerda em Way Name (Ref1)",
-        "ru": "Поверните налево на Way Name then in 0 units Поверните налево на Way Name (Ref1)",
-        "sv": "Sväng vänster in på Way Name then in 0 units Sväng vänster in på Way Name (Ref1)",
-        "uk": "Поверніть ліворуч на Way Name then in 0 units Поверніть ліворуч на Way Name (Ref1)",
-        "vi": "Quẹo trái vào Way Name then in 0 units Quẹo trái vào Way Name (Ref1)",
-        "zh-Hans": "左转，上Way Name then in 0 units 左转，上Way Name (Ref1)"
-    },
     "options": {
-        "steps": [
-            {
-                "maneuver": {
-                    "type": "turn",
-                    "modifier": "left"
-                },
-                "mode": "driving",
-                "name": "Way Name"
-            },
-            {
-                "maneuver": {
-                    "type": "turn",
-                    "modifier": "left"
-                },
-                "name": "Way Name",
-                "ref": "Ref1;Ref2"
-            }
-        ],
+        "instruction_one": "Do this",
+        "instruction_two": "Do that",
         "distance": "0 units"
+    },
+    "phrases": {
+        "de": "Do this then in 0 units Do that",
+        "en": "Do this then in 0 units Do that",
+        "es": "Do this then in 0 units Do that",
+        "fr": "Do this then in 0 units Do that",
+        "id": "Do this then in 0 units Do that",
+        "it": "Do this, poi tra 0 units Do that",
+        "nl": "Do this then in 0 units Do that",
+        "pl": "Do this then in 0 units Do that",
+        "pt-BR": "Do this then in 0 units Do that",
+        "ru": "Do this then in 0 units Do that",
+        "sv": "Do this then in 0 units Do that",
+        "uk": "Do this then in 0 units Do that",
+        "vi": "Do this then in 0 units Do that",
+        "zh-Hans": "Do this then in 0 units Do that"
     }
 }

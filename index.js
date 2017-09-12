@@ -199,44 +199,6 @@ module.exports = function(version, _options) {
 
             return this.tokenize(language, instruction, replaceTokens);
         },
-        compilePhrase: function(language, phrase, options) {
-            if (!language) throw new Error('No language code provided');
-            if (languages.supportedCodes.indexOf(language) === -1) throw new Error('language code ' + language + ' not loaded');
-            if (!phrase) throw new Error('No phrase code provided');
-            if (!options.steps || options.steps.length === 0) throw new Error('No steps provided');
-
-            var template = instructions[language][version].phrase[phrase];
-            if (!template) throw new Error('Phrase "' + phrase + '" not found');
-
-            switch (phrase) {
-            case 'two linked by distance':
-                if (options.steps.length !== 2) throw new Error('Not enough or too many steps provided');
-                if (!options.distance) throw new Error('No distance provided');
-
-                return this.tokenize(language, template, {
-                    'instruction_one': this.compile(language, options.steps[0], options),
-                    'instruction_two': this.compile(language, options.steps[1], options),
-                    distance: options.distance
-                });
-            case 'two linked':
-                if (options.steps.length !== 2) throw new Error('Not enough or too many steps provided');
-
-                return this.tokenize(language, template, {
-                    'instruction_one': this.compile(language, options.steps[0], options),
-                    'instruction_two': this.compile(language, options.steps[1], options)
-                });
-            case 'one in distance':
-                if (options.steps.length !== 1) throw new Error('Too many steps provided');
-                if (!options.distance) throw new Error('No distance provided');
-
-                return this.tokenize(language, template, {
-                    'instruction_one': this.compile(language, options.steps[0], options),
-                    distance: options.distance
-                });
-            default:
-                throw new Error('Unrecognized phrase code ' + phrase);
-            }
-        },
         tokenize: function(language, instruction, tokens) {
             var output =  Object.keys(tokens).reduce(function(memo, token) {
                 return memo.replace('{' + token + '}', tokens[token]);

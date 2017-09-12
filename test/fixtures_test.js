@@ -6,11 +6,13 @@ var tape = require('tape');
 var mkdirp = require('mkdirp');
 
 var constants = require('./constants');
-var instructions = require('../index.js');
-var supportedCodes = require('../languages').supportedCodes;
+var languages = require('../languages');
+var supportedCodes = languages.supportedCodes;
 
 // Load instructions files for each language
-var languages = instructions('v5');
+var instructions = languages.instructions;
+var version = 'v5';
+var compiler = require('../index.js')(version);
 
 tape.test('verify existance/update fixtures', function(assert) {
     function clone(obj) {
@@ -25,7 +27,7 @@ tape.test('verify existance/update fixtures', function(assert) {
         var result = {};
 
         supportedCodes.forEach((k) => {
-            result[k] = languages.compile(k, step, options);
+            result[k] = compiler.compile(k, step, options);
         });
 
         return result;
@@ -519,7 +521,7 @@ tape.test('verify existance/update fixtures', function(assert) {
         var result = {};
 
         supportedCodes.forEach((k) => {
-            result[k] = languages.compilePhrase(k, phrase, options);
+            result[k] = compiler.tokenize(k, instructions[k][version].phrase[phrase], options);
         });
 
         return result;
@@ -530,11 +532,9 @@ tape.test('verify existance/update fixtures', function(assert) {
 
         if (process.env.UPDATE) {
             var data = {
-                steps: options.steps,
+                options: options,
                 phrases: phraseForLanguages(phrase, options)
             };
-
-            if (options) data.options = options;
 
             fs.writeFileSync(
                 fileName,
@@ -552,24 +552,6 @@ tape.test('verify existance/update fixtures', function(assert) {
 
     function checkOrWritePhrases() {
         var basePath = path.join(__dirname, 'fixtures', 'v5', 'phrase');
-        var baseSteps = [
-            {
-                maneuver: {
-                    type: 'turn',
-                    modifier: 'left'
-                },
-                mode: 'driving',
-                name: 'Way Name'
-            },
-            {
-                maneuver: {
-                    type: 'turn',
-                    modifier: 'left'
-                },
-                name: 'Way Name',
-                ref: 'Ref1;Ref2'
-            }
-        ];
         var distance = '0 units';
 
         // verify directory exists
@@ -577,18 +559,20 @@ tape.test('verify existance/update fixtures', function(assert) {
 
         // two linked by distance
         checkOrWritePhrase(basePath, 'two linked by distance', {
-            steps: baseSteps,
+            'instruction_one': 'Do this',
+            'instruction_two': 'Do that',
             distance: distance
         });
 
         // two linked
         checkOrWritePhrase(basePath, 'two linked', {
-            steps: baseSteps
+            'instruction_one': 'Do this',
+            'instruction_two': 'Do that'
         });
 
         // one in distance
         checkOrWritePhrase(basePath, 'one in distance', {
-            steps: baseSteps.slice(0, 1),
+            'instruction_one': 'Do something',
             distance: distance
         });
     }
