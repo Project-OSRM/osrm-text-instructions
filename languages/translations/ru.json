@@ -51,9 +51,10 @@
             }
         },
         "phrase": {
-            "two linked by distance": "{instruction_one} then in {distance} {instruction_two}",
-            "two linked": "{instruction_one} then {instruction_two}",
-            "one in distance": "In {distance}, {instruction_one}"
+            "two linked by distance": "{instruction_one}, затем через {distance} {instruction_two}",
+            "two linked": "{instruction_one}, затем {instruction_two}",
+            "one in distance": "Через {distance} {instruction_one}",
+            "name and ref": "{name} ({ref})"
         },
         "arrive": {
             "default": {
@@ -84,14 +85,27 @@
         "continue": {
             "default": {
                 "default": "Двигайтесь {modifier}",
-                "name": "Двигайтесь {modifier} по {way_name}",
-                "destination": "Двигайтесь {modifier} в направлении {destination}"
+                "name": "Продолжите движение {modifier} по {way_name}",
+                "destination": "Двигайтесь {modifier} в направлении {destination}",
+                "exit": "Двигайтесь {modifier} по {way_name}"
             },
             "straight": {
                 "default": "Двигайтесь прямо",
                 "name": "Продолжите движение по {way_name}",
-                "destination": "Продолжите движение в направлении {destination}"
+                "destination": "Продолжите движение в направлении {destination}",
+                "distance": "Двигайтесь прямо {distance}",
+                "namedistance": "Двигайтесь прямо {distance} по {way_name}"
             },
+            "sharp left": {
+                "default": "Резко поверните налево",
+                "name": "Резко поверните налево на {way_name}",
+                "destination": "Резко поверните налево в направлении {destination}"
+            },
+            "sharp right": {
+                "default": "Резко поверните направо",
+                "name": "Резко поверните направо на {way_name}",
+                "destination": "Резко поверните направо в направлении {destination}"
+             },
             "slight left": {
                 "default": "Плавно поверните налево",
                 "name": "Плавно поверните налево на {way_name}",
@@ -104,7 +118,7 @@
             },
             "uturn": {
                 "default": "Развернитесь",
-                "name": "Развернитесь на {way_name}",
+                "name": "Развернитесь и продолжите движение по {way_name}",
                 "destination": "Развернитесь в направлении {destination}"
             }
         },

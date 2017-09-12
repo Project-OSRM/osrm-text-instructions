@@ -10,7 +10,7 @@
     "instructions": {
         "de": "Leicht links weiter auf Way Name",
         "en": "Make a slight left to stay on Way Name",
-        "es": "Continúe ligeramente a la izquierda en Way Name",
+        "es": "Make a slight left to stay on Way Name",
         "fr": "Continuer légèrement à gauche sur Way Name",
         "id": "Tetap agak di kiri ke Way Name",
         "it": "Continua leggermente a sinistra per stare su Way Name",
@@ -20,7 +20,7 @@
         "ru": "Плавно поверните налево на Way Name",
         "sv": "Fortsätt åt vänster in på Way Name",
         "uk": "Рухайтесь плавно ліворуч на Way Name",
-        "vi": "Nghiêng về bên trái vào Way Name",
+        "vi": "Nghiêng về bên trái để chạy tiếp trên Way Name",
         "zh-Hans": "继续向左，上Way Name"
     }
 }

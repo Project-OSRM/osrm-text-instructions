@@ -51,9 +51,10 @@
             }
         },
         "phrase": {
-            "two linked by distance": "{instruction_one} then in {distance} {instruction_two}",
-            "two linked": "{instruction_one} then {instruction_two}",
-            "one in distance": "In {distance}, {instruction_one}"
+            "two linked by distance": "{instruction_one}, rồi {distance} nữa thì {instruction_two}",
+            "two linked": "{instruction_one}, rồi {instruction_two}",
+            "one in distance": "{distance} nữa thì {instruction_one}",
+            "name and ref": "{name} ({ref})"
         },
         "arrive": {
             "default": {
@@ -83,28 +84,41 @@
         },
         "continue": {
             "default": {
-                "default": "Chạy tiếp bên {modifier}",
-                "name": "Chạy tiếp bên {modifier} trên {way_name}",
-                "destination": "Chạy tiếp bên {modifier} đến {destination}"
+                "default": "Quẹo {modifier}",
+                "name": "Quẹo {modifier} để chạy tiếp trên {way_name}",
+                "destination": "Quẹo {modifier} đến {destination}",
+                "exit": "Quẹo {modifier} vào {way_name}"
             },
             "straight": {
                 "default": "Chạy thẳng",
                 "name": "Chạy tiếp trên {way_name}",
-                "destination": "Chạy tiếp đến {destination}"
+                "destination": "Chạy tiếp đến {destination}",
+                "distance": "Chạy thẳng cho {distance}",
+                "namedistance": "Chạy tiếp trên {way_name} cho {distance}"
+            },
+            "sharp left": {
+                "default": "Quẹo gắt bên trái",
+                "name": "Quẹo gắt bên trái để chạy tiếp trên {way_name}",
+                "destination": "Quẹo gắt bên trái đến {destination}"
+            },
+            "sharp right": {
+                "default": "Quẹo gắt bên phải",
+                "name": "Quẹo gắt bên phải để chạy tiếp trên {way_name}",
+                "destination": "Quẹo gắt bên phải đến {destination}"
             },
             "slight left": {
                 "default": "Nghiêng về bên trái",
-                "name": "Nghiêng về bên trái vào {way_name}",
+                "name": "Nghiêng về bên trái để chạy tiếp trên {way_name}",
                 "destination": "Nghiêng về bên trái đến {destination}"
             },
             "slight right": {
                 "default": "Nghiêng về bên phải",
-                "name": "Nghiêng về bên phải vào {way_name}",
+                "name": "Nghiêng về bên phải để chạy tiếp trên {way_name}",
                 "destination": "Nghiêng về bên phải đến {destination}"
             },
             "uturn": {
                 "default": "Quẹo ngược lại",
-                "name": "Quẹo ngược lại {way_name}",
+                "name": "Quẹo ngược lại trên {way_name}",
                 "destination": "Quẹo ngược đến {destination}"
             }
         },

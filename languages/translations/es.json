@@ -51,9 +51,10 @@
             }
         },
         "phrase": {
-            "two linked by distance": "{instruction_one} then in {distance} {instruction_two}",
-            "two linked": "{instruction_one} then {instruction_two}",
-            "one in distance": "In {distance}, {instruction_one}"
+            "two linked by distance": "{instruction_one}, entonces a {distance}, {instruction_two}",
+            "two linked": "{instruction_one}, entonces {instruction_two}",
+            "one in distance": "A {distance}, {instruction_one}",
+            "name and ref": "{name} ({ref})"
         },
         "arrive": {
             "default": {
@@ -83,28 +84,41 @@
         },
         "continue": {
             "default": {
-                "default": "Continúe {modifier}",
-                "name": "Continúe {modifier} en {way_name}",
-                "destination": "Continúe {modifier} hacia {destination}"
+                "default": "Gire a {modifier}",
+                "name": "Turn {modifier} to stay on {way_name}",
+                "destination": "Gire a {modifier} hacia {destination}",
+                "exit": "Gire a {modifier} en {way_name}"
             },
             "straight": {
                 "default": "Continúe recto",
-                "name": "Continúe en {way_name}",
-                "destination": "Continúe hacia {destination}"
+                "name": "Continue straight to stay on {way_name}",
+                "destination": "Continúe hacia {destination}",
+                "distance": "Continúe recto por {distance}",
+                "namedistance": "Continúe recto en {way_name} por {distance}"
+            },
+            "sharp left": {
+                "default": "Gire a la izquierda",
+                "name": "Make a sharp left to stay on {way_name}",
+                "destination": "Gire a la izquierda hacia {destination}"
+            },
+            "sharp right": {
+                "default": "Gire a la derecha",
+                "name": "Make a sharp right to stay on {way_name}",
+                "destination": "Gire a la derecha hacia {destination}"
             },
             "slight left": {
-                "default": "Continúe ligeramente a la izquierda",
-                "name": "Continúe ligeramente a la izquierda en {way_name}",
-                "destination": "Continúe ligeramente a la izquierda hacia {destination}"
+                "default": "Gire a la izquierda",
+                "name": "Make a slight left to stay on {way_name}",
+                "destination": "Gire a la izquierda hacia {destination}"
             },
             "slight right": {
-                "default": "Continúe ligeramente a la derecha",
-                "name": "Continúe ligeramente a la derecha en {way_name}",
-                "destination": "Continúe ligeramente a la derecha hacia {destination}"
+                "default": "Gire a la izquierda",
+                "name": "Make a slight right to stay on {way_name}",
+                "destination": "Gire a la izquierda hacia {destination}"
             },
             "uturn": {
                 "default": "Haz un cambio de sentido",
-                "name": "Haz un cambio de sentido en  {way_name}",
+                "name": "Haz un cambio de sentido y continúe en {way_name}",
                 "destination": "Haz un cambio de sentido hacia  {destination}"
             }
         },

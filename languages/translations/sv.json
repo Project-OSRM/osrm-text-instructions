@@ -51,9 +51,10 @@
             }
         },
         "phrase": {
-            "two linked by distance": "{instruction_one} then in {distance} {instruction_two}",
-            "two linked": "{instruction_one} then {instruction_two}",
-            "one in distance": "In {distance}, {instruction_one}"
+            "two linked by distance": "{instruction_one}, sedan om {distance}, {instruction_two}",
+            "two linked": "{instruction_one}, sedan {instruction_two}",
+            "one in distance": "Om {distance}, {instruction_one}",
+            "name and ref": "{name} ({ref})"
         },
         "arrive": {
             "default": {

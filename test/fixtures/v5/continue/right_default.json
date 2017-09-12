@@ -9,7 +9,7 @@
     "instructions": {
         "de": "Rechts weiterfahren",
         "en": "Turn right",
-        "es": "Continúe derecha",
+        "es": "Gire a derecha",
         "fr": "Continuer à droite",
         "id": "Terus kanan",
         "it": "Continua a destra",
@@ -19,7 +19,7 @@
         "ru": "Двигайтесь направо",
         "sv": "Fortsätt höger",
         "uk": "Рухайтесь праворуч",
-        "vi": "Chạy tiếp bên phải",
+        "vi": "Quẹo phải",
         "zh-Hans": "继续向右"
     }
 }

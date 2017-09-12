@@ -9,17 +9,17 @@
     "instructions": {
         "de": "Links weiterfahren auf Way Name",
         "en": "Turn left to stay on Way Name",
-        "es": "Continúe izquierda en Way Name",
+        "es": "Turn izquierda to stay on Way Name",
         "fr": "Continuer à gauche sur Way Name",
         "id": "Terus kiri ke Way Name",
         "it": "Continua a sinistra per stare su Way Name",
         "nl": "Ga links naar Way Name",
         "pl": "Kontynuuj lewo na Way Name",
         "pt-BR": "Continue à esquerda em Way Name",
-        "ru": "Двигайтесь налево по Way Name",
+        "ru": "Продолжите движение налево по Way Name",
         "sv": "Fortsätt vänster in på Way Name",
         "uk": "Рухайтесь ліворуч на Way Name",
-        "vi": "Chạy tiếp bên trái trên Way Name",
+        "vi": "Quẹo trái để chạy tiếp trên Way Name",
         "zh-Hans": "继续向左，上Way Name"
     }
 }
