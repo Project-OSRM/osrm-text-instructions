@@ -9,17 +9,17 @@
     "instructions": {
         "de": "Scharf links weiterfahren",
         "en": "Make a sharp left",
-        "es": "Continúe cerrada a la izquierda",
+        "es": "Gire a la izquierda",
         "fr": "Continuer franchement à gauche",
         "id": "Terus tajam kiri",
         "it": "Continua a sinistra",
         "nl": "Ga linksaf",
         "pl": "Kontynuuj ostro w lewo",
         "pt-BR": "Continue acentuadamente à esquerda",
-        "ru": "Двигайтесь налево",
+        "ru": "Резко поверните налево",
         "sv": "Fortsätt vänster",
         "uk": "Рухайтесь різко ліворуч",
-        "vi": "Chạy tiếp bên trái gắt",
+        "vi": "Quẹo gắt bên trái",
         "zh-Hans": "继续向左"
     }
 }

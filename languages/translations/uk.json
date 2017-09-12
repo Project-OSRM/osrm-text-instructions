@@ -50,7 +50,12 @@
                 "destination": "Скористайтесь поромом у напрямку {destination}"
             }
         },
-        "phrase": {},
+        "phrase": {
+            "two linked by distance": "{instruction_one} then in {distance} {instruction_two}",
+            "two linked": "{instruction_one} then {instruction_two}",
+            "one in distance": "In {distance}, {instruction_one}",
+            "name and ref": "{name} ({ref})"
+        },
         "arrive": {
             "default": {
                 "default": "Ви прибули у ваш {nth} пункт призначення"

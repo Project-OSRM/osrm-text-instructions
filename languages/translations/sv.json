@@ -50,7 +50,12 @@
                 "destination": "Ta färjan mot {destination}"
             }
         },
-        "phrase": {},
+        "phrase": {
+            "two linked by distance": "{instruction_one}, sedan om {distance}, {instruction_two}",
+            "two linked": "{instruction_one}, sedan {instruction_two}",
+            "one in distance": "Om {distance}, {instruction_one}",
+            "name and ref": "{name} ({ref})"
+        },
         "arrive": {
             "default": {
                 "default": "Du är framme vid din {nth} destination"

@@ -53,7 +53,8 @@
         "phrase": {
             "two linked by distance": "{instruction_one}, poi tra {distance} {instruction_two}",
             "two linked": "{instruction_one} poi {instruction_two}",
-            "one in distance": "tra {distance} {instruction_one}"
+            "one in distance": "tra {distance} {instruction_one}",
+            "name and ref": "{name} ({ref})"
         },
         "arrive": {
             "default": {

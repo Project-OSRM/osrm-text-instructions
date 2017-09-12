@@ -50,7 +50,12 @@
                 "destination": "乘坐开往{destination}的轮渡"
             }
         },
-        "phrase": {},
+        "phrase": {
+            "two linked by distance": "{instruction_one} then in {distance} {instruction_two}",
+            "two linked": "{instruction_one} then {instruction_two}",
+            "one in distance": "In {distance}, {instruction_one}",
+            "name and ref": "{name} ({ref})"
+        },
         "arrive": {
             "default": {
                 "default": "您已经到达您的{nth}个目的地"

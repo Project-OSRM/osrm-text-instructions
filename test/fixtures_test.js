@@ -6,11 +6,13 @@ var tape = require('tape');
 var mkdirp = require('mkdirp');
 
 var constants = require('./constants');
-var instructions = require('../index.js');
-var supportedCodes = require('../languages').supportedCodes;
+var languages = require('../languages');
+var supportedCodes = languages.supportedCodes;
 
 // Load instructions files for each language
-var languages = instructions('v5');
+var instructions = languages.instructions;
+var version = 'v5';
+var compiler = require('../index.js')(version);
 
 tape.test('verify existance/update fixtures', function(assert) {
     function clone(obj) {
@@ -25,7 +27,7 @@ tape.test('verify existance/update fixtures', function(assert) {
         var result = {};
 
         supportedCodes.forEach((k) => {
-            result[k] = languages.compile(k, step, options);
+            result[k] = compiler.compile(k, step, options);
         });
 
         return result;
@@ -514,6 +516,68 @@ tape.test('verify existance/update fixtures', function(assert) {
             throw `Unsupported type ${type}. Supported types: ${constants.types.join(' ,')}`;
         }
     });
+
+    function phraseForLanguages(phrase, options) {
+        var result = {};
+
+        supportedCodes.forEach((k) => {
+            result[k] = compiler.tokenize(k, instructions[k][version].phrase[phrase], options);
+        });
+
+        return result;
+    }
+
+    function checkOrWritePhrase(basePath, phrase, options) {
+        var fileName = path.join(basePath, `${underscorify(phrase)}.json`);
+
+        if (process.env.UPDATE) {
+            var data = {
+                options: options,
+                phrases: phraseForLanguages(phrase, options)
+            };
+
+            fs.writeFileSync(
+                fileName,
+                JSON.stringify(data, null, 4) + '\n'
+            );
+            assert.ok(true, `updated ${phrase}`);
+        } else {
+            // check for existance
+            assert.ok(
+                fs.existsSync(fileName),
+                `verified existance of ${phrase}`
+            );
+        }
+    }
+
+    function checkOrWritePhrases() {
+        var basePath = path.join(__dirname, 'fixtures', 'v5', 'phrase');
+        var distance = '0 units';
+
+        // verify directory exists
+        mkdirp.sync(basePath);
+
+        // two linked by distance
+        checkOrWritePhrase(basePath, 'two linked by distance', {
+            'instruction_one': 'Do this',
+            'instruction_two': 'Do that',
+            distance: distance
+        });
+
+        // two linked
+        checkOrWritePhrase(basePath, 'two linked', {
+            'instruction_one': 'Do this',
+            'instruction_two': 'Do that'
+        });
+
+        // one in distance
+        checkOrWritePhrase(basePath, 'one in distance', {
+            'instruction_one': 'Do something',
+            distance: distance
+        });
+    }
+
+    checkOrWritePhrases();
 
     assert.end();
 });

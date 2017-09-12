@@ -11,7 +11,7 @@
                 "4": "quatrième",
                 "5": "cinquième",
                 "6": "sixième",
-                "7": "setpième",
+                "7": "septième",
                 "8": "huitième",
                 "9": "neuvième",
                 "10": "dixième"
@@ -50,7 +50,12 @@
                 "destination": "Prendre le ferry en direction de {destination}"
             }
         },
-        "phrase": {},
+        "phrase": {
+            "two linked by distance": "{instruction_one} then in {distance} {instruction_two}",
+            "two linked": "{instruction_one} then {instruction_two}",
+            "one in distance": "In {distance}, {instruction_one}",
+            "name and ref": "{name} ({ref})"
+        },
         "arrive": {
             "default": {
                 "default": "Vous êtes arrivés à votre {nth} destination"

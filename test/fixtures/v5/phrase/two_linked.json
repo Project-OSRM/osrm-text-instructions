@@ -1,0 +1,22 @@
+{
+    "options": {
+        "instruction_one": "Do this",
+        "instruction_two": "Do that"
+    },
+    "phrases": {
+        "de": "Do this then Do that",
+        "en": "Do this then Do that",
+        "es": "Do this, entonces Do that",
+        "fr": "Do this then Do that",
+        "id": "Do this then Do that",
+        "it": "Do this poi Do that",
+        "nl": "Do this then Do that",
+        "pl": "Do this then Do that",
+        "pt-BR": "Do this then Do that",
+        "ru": "Do this, затем Do that",
+        "sv": "Do this, sedan Do that",
+        "uk": "Do this then Do that",
+        "vi": "Do this, rồi Do that",
+        "zh-Hans": "Do this then Do that"
+    }
+}
