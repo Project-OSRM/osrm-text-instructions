@@ -84,9 +84,9 @@
         },
         "continue": {
             "default": {
-                "default": "Рухайтесь {modifier}",
+                "default": "Поверніть {modifier}",
                 "name": "Рухайтесь {modifier} на {way_name}",
-                "destination": "Рухайтесь {modifier} у напрямку {destination}"
+                "destination": "Поверніть {modifier} у напрямку {destination}"
             },
             "straight": {
                 "default": "Продовжуйте рух прямо",
@@ -94,7 +94,7 @@
                 "destination": "Рухайтесь у напрямку {destination}"
             },
             "slight left": {
-                "default": "Прийміть плавно ліворуч",
+                "default": "Прийміть різко ліворуч",
                 "name": "Рухайтесь плавно ліворуч на {way_name}",
                 "destination": "Рухайтесь плавно ліворуч у напрямку {destination}"
             },

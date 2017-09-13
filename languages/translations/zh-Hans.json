@@ -54,7 +54,7 @@
             "two linked by distance": "{instruction_one} then in {distance} {instruction_two}",
             "two linked": "{instruction_one} then {instruction_two}",
             "one in distance": "In {distance}, {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name}（{ref}）"
         },
         "arrive": {
             "default": {
@@ -84,9 +84,9 @@
         },
         "continue": {
             "default": {
-                "default": "继续{modifier}",
+                "default": "{modifier}行驶",
                 "name": "继续{modifier}，上{way_name}",
-                "destination": "继续{modifier}行驶，前往{destination}"
+                "destination": "{modifier}行驶，前往{destination}"
             },
             "uturn": {
                 "default": "调头",

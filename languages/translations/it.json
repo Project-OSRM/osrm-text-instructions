@@ -84,10 +84,10 @@
         },
         "continue": {
             "default": {
-                "default": "Continua a {modifier}",
+                "default": "Gira a {modifier}",
                 "name": "Continua a {modifier} per stare su {way_name}",
-                "destination": "Continua a {modifier} verso {destination}",
-                "exit": "Continua a {modifier} in {way_name}",
+                "destination": "Gira a {modifier} verso {destination}",
+                "exit": "Gira a {modifier} in {way_name}",
                 "distance": "Continua per {distance}",
                 "namedistance": "Continua su {way_name} per {distance}"
             },
@@ -109,7 +109,7 @@
             },
             "uturn": {
                 "default": "Fai un'inversione a U",
-                "name": "Fai un inversione ad U poi continua su {way_name}",
+                "name": "Fai un'inversione ad U poi continua su {way_name}",
                 "destination": "Fai un'inversione a U verso {destination}"
             }
         },

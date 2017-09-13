@@ -84,9 +84,9 @@
         },
         "continue": {
             "default": {
-                "default": "Terus {modifier}",
+                "default": "Belok {modifier}",
                 "name": "Terus {modifier} ke {way_name}",
-                "destination": "Teruskan {modifier} menuju {destination}"
+                "destination": "Belok {modifier} menuju {destination}"
             },
             "straight": {
                 "default": "Lurus terus",

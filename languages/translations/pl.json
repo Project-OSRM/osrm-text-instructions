@@ -84,9 +84,9 @@
         },
         "continue": {
             "default": {
-                "default": "Kontynuuj {modifier}",
+                "default": "Skręć {modifier}",
                 "name": "Kontynuuj {modifier} na {way_name}",
-                "destination": "Kontynuuj {modifier} w kierunku {destination}"
+                "destination": "Skręć {modifier} w kierunku {destination}"
             },
             "straight": {
                 "default": "Kontynuuj prosto",

@@ -84,12 +84,12 @@
         },
         "continue": {
             "default": {
-                "default": "{modifier} weiterfahren",
+                "default": "{modifier} abbiegen",
                 "name": "{modifier} weiterfahren auf {way_name}",
-                "destination": "{modifier} weiterfahren Richtung {destination}"
+                "destination": "{modifier} abbiegen Richtung {destination}"
             },
             "slight left": {
-                "default": "Leicht links weiter",
+                "default": "Scharf links",
                 "name": "Leicht links weiter auf {way_name}",
                 "destination": "Leicht links weiter Richtung {destination}"
             },

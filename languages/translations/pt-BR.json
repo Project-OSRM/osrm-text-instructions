@@ -84,9 +84,9 @@
         },
         "continue": {
             "default": {
-                "default": "Continue {modifier}",
+                "default": "Vire {modifier}",
                 "name": "Continue {modifier} em {way_name}",
-                "destination": "Continue {modifier} sentido {destination}"
+                "destination": "Vire {modifier} sentido {destination}"
             },
             "straight": {
                 "default": "Continue reto",
