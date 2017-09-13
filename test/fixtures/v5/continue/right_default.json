@@ -7,19 +7,19 @@
         "name": ""
     },
     "instructions": {
-        "de": "Rechts weiterfahren",
+        "de": "Rechts abbiegen",
         "en": "Turn right",
         "es": "Gire a derecha",
-        "fr": "Continuer à droite",
-        "id": "Terus kanan",
-        "it": "Continua a destra",
+        "fr": "Tourner à droite",
+        "id": "Belok kanan",
+        "it": "Gira a destra",
         "nl": "Ga rechts",
-        "pl": "Kontynuuj prawo",
-        "pt-BR": "Continue à direita",
+        "pl": "Skręć prawo",
+        "pt-BR": "Vire à direita",
         "ru": "Двигайтесь направо",
-        "sv": "Fortsätt höger",
-        "uk": "Рухайтесь праворуч",
+        "sv": "Sväng höger",
+        "uk": "Поверніть праворуч",
         "vi": "Quẹo phải",
-        "zh-Hans": "继续向右"
+        "zh-Hans": "向右行驶"
     }
 }

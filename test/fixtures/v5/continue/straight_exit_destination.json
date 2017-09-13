@@ -9,7 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
-        "de": "Geradeaus weiterfahren Richtung Destination 1",
+        "de": "Geradeaus abbiegen Richtung Destination 1",
         "en": "Continue towards Destination 1",
         "es": "Continúe hacia Destination 1",
         "fr": "Continuer tout droit en direction de Destination 1",
@@ -22,6 +22,6 @@
         "sv": "Fortsätt mot Destination 1",
         "uk": "Рухайтесь у напрямку Destination 1",
         "vi": "Chạy tiếp đến Destination 1",
-        "zh-Hans": "继续直行行驶，前往Destination 1"
+        "zh-Hans": "直行行驶，前往Destination 1"
     }
 }
