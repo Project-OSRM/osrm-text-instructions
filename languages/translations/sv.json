@@ -85,7 +85,7 @@
         "continue": {
             "default": {
                 "default": "Sväng {modifier}",
-                "name": "Sväng {modifier}och fortsätt på {way_name}",
+                "name": "Sväng {modifier} och fortsätt på {way_name}",
                 "destination": "Sväng {modifier} mot {destination}"
             },
             "straight": {

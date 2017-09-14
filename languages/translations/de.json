@@ -89,7 +89,7 @@
                 "destination": "{modifier} abbiegen Richtung {destination}"
             },
             "slight left": {
-                "default": "Scharf links",
+                "default": "Leicht links",
                 "name": "Leicht links weiter auf {way_name}",
                 "destination": "Leicht links weiter Richtung {destination}"
             },
