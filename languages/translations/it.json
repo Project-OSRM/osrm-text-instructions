@@ -84,18 +84,27 @@
         },
         "continue": {
             "default": {
-                "default": "Continua a {modifier}",
+                "default": "Gira a {modifier}",
                 "name": "Continua a {modifier} per stare su {way_name}",
-                "destination": "Continua a {modifier} verso {destination}",
-                "exit": "Continua a {modifier} in {way_name}",
-                "distance": "Continua per {distance}",
-                "namedistance": "Continua su {way_name} per {distance}"
+                "destination": "Gira a {modifier} verso {destination}",
+                "exit": "Gira a {modifier} in {way_name}"
             },
             "straight": {
                 "default": "Continua dritto",
                 "name": "Continua dritto per stare su {way_name}",
                 "destination": "Continua verso {destination}",
-                "distance": "Continua dritto per {distance}"
+                "distance": "Continua dritto per {distance}",
+                "namedistance": "Continua su {way_name} per {distance}"
+            },
+            "sharp left": {
+                "default": "Svolta a sinistra",
+                "name": "Make a sharp left to stay on {way_name}",
+                "destination": "Svolta a sinistra verso {destination}"
+            },
+            "sharp right": {
+                "default": "Svolta a destra",
+                "name": "Make a sharp right to stay on {way_name}",
+                "destination": "Svolta a destra verso {destination}"
             },
             "slight left": {
                 "default": "Continua leggermente a sinistra",
@@ -109,7 +118,7 @@
             },
             "uturn": {
                 "default": "Fai un'inversione a U",
-                "name": "Fai un inversione ad U poi continua su {way_name}",
+                "name": "Fai un'inversione ad U poi continua su {way_name}",
                 "destination": "Fai un'inversione a U verso {destination}"
             }
         },

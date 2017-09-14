@@ -86,12 +86,25 @@
             "default": {
                 "default": "Ga {modifier}",
                 "name": "Ga {modifier} naar {way_name}",
-                "destination": "Ga {modifier} richting {destination}"
+                "destination": "Ga {modifier} richting {destination}",
+                "exit": "Ga {modifier} naar {way_name}"
             },
             "straight": {
                 "default": "Ga rechtdoor",
                 "name": "Ga rechtdoor naar {way_name}",
-                "destination": "Ga rechtdoor richting {destination}"
+                "destination": "Ga rechtdoor richting {destination}",
+                "distance": "Continue straight for {distance}",
+                "namedistance": "Continue on {way_name} for {distance}"
+            },
+            "sharp left": {
+                "default": "Linksaf",
+                "name": "Make a sharp left to stay on {way_name}",
+                "destination": "Linksaf richting {destination}"
+            },
+            "sharp right": {
+                "default": "Rechtsaf",
+                "name": "Make a sharp right to stay on {way_name}",
+                "destination": "Rechtsaf richting {destination}"
             },
             "slight left": {
                 "default": "Links aanhouden",
@@ -202,6 +215,11 @@
                 "name": "Ga {modifier} naar {way_name}",
                 "destination": "Ga {modifier} richting {destination}"
             },
+            "straight": {
+                "default": "Ga in de aangegeven richting",
+                "name": "Ga rechtdoor naar {way_name}",
+                "destination": "Ga rechtdoor richting {destination}"
+            },
             "sharp left": {
                 "default": "Linksaf",
                 "name": "Linksaf naar {way_name}",
@@ -244,37 +262,51 @@
             "default": {
                 "default": "Neem de afrit",
                 "name": "Neem de afrit naar {way_name}",
-                "destination": "Neem de afrit richting {destination}"
+                "destination": "Neem de afrit richting {destination}",
+                "exit": "Take exit {exit}",
+                "exit_destination": "Take exit {exit} towards {destination}"
             },
             "left": {
                 "default": "Neem de afrit links",
                 "name": "Neem de afrit links naar {way_name}",
-                "destination": "Neem de afrit links richting {destination}"
+                "destination": "Neem de afrit links richting {destination}",
+                "exit": "Take exit {exit} on the left",
+                "exit_destination": "Take exit {exit} on the left towards {destination}"
             },
             "right": {
                 "default": "Neem de afrit rechts",
                 "name": "Neem de afrit rechts naar {way_name}",
-                "destination": "Neem de afrit rechts richting {destination}"
+                "destination": "Neem de afrit rechts richting {destination}",
+                "exit": "Take exit {exit} on the right",
+                "exit_destination": "Take exit {exit} on the right towards {destination}"
             },
             "sharp left": {
                 "default": "Neem de afrit links",
                 "name": "Neem de afrit links naar {way_name}",
-                "destination": "Neem de afrit links richting {destination}"
+                "destination": "Neem de afrit links richting {destination}",
+                "exit": "Take exit {exit} on the left",
+                "exit_destination": "Take exit {exit} on the left towards {destination}"
             },
             "sharp right": {
                 "default": "Neem de afrit rechts",
                 "name": "Neem de afrit rechts naar {way_name}",
-                "destination": "Neem de afrit rechts richting {destination}"
+                "destination": "Neem de afrit rechts richting {destination}",
+                "exit": "Take exit {exit} on the right",
+                "exit_destination": "Take exit {exit} on the right towards {destination}"
             },
             "slight left": {
                 "default": "Neem de afrit links",
                 "name": "Neem de afrit links naar {way_name}",
-                "destination": "Neem de afrit links richting {destination}"
+                "destination": "Neem de afrit links richting {destination}",
+                "exit": "Take exit {exit} on the left",
+                "exit_destination": "Take exit {exit} on the left towards {destination}"
             },
             "slight right": {
                 "default": "Neem de afrit rechts",
                 "name": "Neem de afrit rechts naar {way_name}",
-                "destination": "Neem de afrit rechts richting {destination}"
+                "destination": "Neem de afrit rechts richting {destination}",
+                "exit": "Take exit {exit} on the right",
+                "exit_destination": "Take exit {exit} on the right towards {destination}"
             }
         },
         "on ramp": {

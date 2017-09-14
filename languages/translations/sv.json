@@ -84,28 +84,41 @@
         },
         "continue": {
             "default": {
-                "default": "Fortsätt {modifier}",
-                "name": "Fortsätt {modifier} in på {way_name}",
-                "destination": "Fortsätt {modifier} mot {destination}"
+                "default": "Sväng {modifier}",
+                "name": "Sväng {modifier} och fortsätt på {way_name}",
+                "destination": "Sväng {modifier} mot {destination}",
+                "exit": "Sväng {modifier} in på {way_name}"
             },
             "straight": {
                 "default": "Fortsätt rakt fram",
-                "name": "Fortsätt in på {way_name}",
-                "destination": "Fortsätt mot {destination}"
+                "name": "Kör rakt fram och fortsätt på {way_name}",
+                "destination": "Fortsätt mot {destination}",
+                "distance": "Fortsätt rakt fram i {distance}",
+                "namedistance": "Fortsätt på {way_name} i {distance}"
+            },
+            "sharp left": {
+                "default": "Sväng vänster",
+                "name": "Sväng vänster och fortsätt på {way_name}",
+                "destination": "Sväng vänster mot {destination}"
+            },
+            "sharp right": {
+                "default": "Sväng höger",
+                "name": "Sväng höger och fortsätt på {way_name}",
+                "destination": "Sväng höger mot {destination}"
             },
             "slight left": {
-                "default": "Fortsätt åt vänster",
-                "name": "Fortsätt åt vänster in på {way_name}",
-                "destination": "Fortsätt åt vänster mot {destination}"
+                "default": "Sväng vänster",
+                "name": "Sväng vänster och fortsätt på {way_name}",
+                "destination": "Sväng vänster mot {destination}"
             },
             "slight right": {
-                "default": "Fortsätt åt höger",
-                "name": "Fortsätt åt höger in på {way_name}",
-                "destination": "Fortsätt åt höger mot {destination}"
+                "default": "Sväng höger",
+                "name": "Sväng höger och fortsätt på {way_name}",
+                "destination": "Sväng höger mot {destination}"
             },
             "uturn": {
                 "default": "Gör en U-sväng",
-                "name": "Gör en U-sväng in på {way_name}",
+                "name": "Gör en U-sväng och fortsätt på {way_name}",
                 "destination": "Gör en U-sväng mot {destination}"
             }
         },

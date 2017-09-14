@@ -54,7 +54,7 @@
             "two linked by distance": "{instruction_one} then in {distance} {instruction_two}",
             "two linked": "{instruction_one} then {instruction_two}",
             "one in distance": "In {distance}, {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name}（{ref}）"
         },
         "arrive": {
             "default": {
@@ -84,9 +84,20 @@
         },
         "continue": {
             "default": {
-                "default": "继续{modifier}",
+                "default": "{modifier}行驶",
                 "name": "继续{modifier}，上{way_name}",
-                "destination": "继续{modifier}行驶，前往{destination}"
+                "destination": "{modifier}行驶，前往{destination}",
+                "exit": "{modifier}行驶，上{way_name}"
+            },
+            "sharp left": {
+                "default": "Make a sharp left",
+                "name": "Make a sharp left to stay on {way_name}",
+                "destination": "Make a sharp left towards {destination}"
+            },
+            "sharp right": {
+                "default": "Make a sharp right",
+                "name": "Make a sharp right to stay on {way_name}",
+                "destination": "Make a sharp right towards {destination}"
             },
             "uturn": {
                 "default": "调头",
@@ -147,6 +158,11 @@
                 "name": "继续{modifier}，上{way_name}",
                 "destination": "继续{modifier}，前往{destination}"
             },
+            "straight": {
+                "default": "继续直行",
+                "name": "Continue onto {way_name}",
+                "destination": "Continue towards {destination}"
+            },
             "uturn": {
                 "default": "调头",
                 "name": "调头，上{way_name}",
@@ -169,17 +185,23 @@
             "default": {
                 "default": "上匝道",
                 "name": "通过匝道驶入{way_name}",
-                "destination": "通过匝道前往{destination}"
+                "destination": "通过匝道前往{destination}",
+                "exit": "Take exit {exit}",
+                "exit_destination": "Take exit {exit} towards {destination}"
             },
             "left": {
                 "default": "通过左边的匝道",
                 "name": "通过左边的匝道驶入{way_name}",
-                "destination": "通过左边的匝道前往{destination}"
+                "destination": "通过左边的匝道前往{destination}",
+                "exit": "Take exit {exit} on the left",
+                "exit_destination": "Take exit {exit} on the left towards {destination}"
             },
             "right": {
                 "default": "通过右边的匝道",
                 "name": "通过右边的匝道驶入{way_name}",
-                "destination": "通过右边的匝道前往{destination}"
+                "destination": "通过右边的匝道前往{destination}",
+                "exit": "Take exit {exit} on the right",
+                "exit_destination": "Take exit {exit} on the right towards {destination}"
             }
         },
         "on ramp": {

@@ -84,14 +84,27 @@
         },
         "continue": {
             "default": {
-                "default": "Continue {modifier}",
+                "default": "Vire {modifier}",
                 "name": "Continue {modifier} em {way_name}",
-                "destination": "Continue {modifier} sentido {destination}"
+                "destination": "Vire {modifier} sentido {destination}",
+                "exit": "Vire {modifier} em {way_name}"
             },
             "straight": {
                 "default": "Continue reto",
                 "name": "Continue em {way_name}",
-                "destination": "Continue até {destination}"
+                "destination": "Continue até {destination}",
+                "distance": "Continue straight for {distance}",
+                "namedistance": "Continue on {way_name} for {distance}"
+            },
+            "sharp left": {
+                "default": "Vire acentuadamente à esquerda",
+                "name": "Make a sharp left to stay on {way_name}",
+                "destination": "Vire acentuadamente à esquerda sentido {destination}"
+            },
+            "sharp right": {
+                "default": "Vire acentuadamente à direita",
+                "name": "Make a sharp right to stay on {way_name}",
+                "destination": "Vire acentuadamente à direita sentido {destination}"
             },
             "slight left": {
                 "default": "Continue ligeiramente à esquerda",
