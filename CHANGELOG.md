@@ -4,8 +4,9 @@ All notable changes to this project will be documented in this file. For change 
 ## 0.7.0 2017-09-13
 
 - `language` is now the first argument of `tokenize` instead of the last. [#149](https://github.com/Project-OSRM/osrm-text-instructions/pull/149)
+- Added roundabout exit and rotary exit instructions. [#150](https://github.com/Project-OSRM/osrm-text-instructions/pull/150)
 - Updates `continue` maneuvers in en to read as turns when the road you are staying on turns at the intersection. [#145](https://github.com/Project-OSRM/osrm-text-instructions/pull/145)
-- Updates language files from Transifex. [#154](https://github.com/Project-OSRM/osrm-text-instructions/pull/154)
+- Updates language files from Transifex. [#144](https://github.com/Project-OSRM/osrm-text-instructions/pull/144) [#154](https://github.com/Project-OSRM/osrm-text-instructions/pull/154)
 
 ## 0.6.0 2017-09-06
 
