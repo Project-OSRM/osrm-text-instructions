@@ -86,12 +86,25 @@
             "default": {
                 "default": "Tourner {modifier}",
                 "name": "Continuer {modifier} sur {way_name}",
-                "destination": "Tourner {modifier} en direction de {destination}"
+                "destination": "Tourner {modifier} en direction de {destination}",
+                "exit": "Tourner {modifier} sur {way_name}"
             },
             "straight": {
                 "default": "Continuer tout droit",
                 "name": "Continuer tout droit sur {way_name}",
-                "destination": "Continuer tout droit en direction de {destination}"
+                "destination": "Continuer tout droit en direction de {destination}",
+                "distance": "Continue straight for {distance}",
+                "namedistance": "Continue on {way_name} for {distance}"
+            },
+            "sharp left": {
+                "default": "Prendre franchement à gauche",
+                "name": "Make a sharp left to stay on {way_name}",
+                "destination": "Prendre franchement à gauche en direction de {destination}"
+            },
+            "sharp right": {
+                "default": "Prendre franchement à droite",
+                "name": "Make a sharp right to stay on {way_name}",
+                "destination": "Prendre franchement à droite en direction de {destination}"
             },
             "slight left": {
                 "default": "Continuer légèrement à gauche",
@@ -202,6 +215,11 @@
                 "name": "Continuer {modifier} sur {way_name}",
                 "destination": "Continuer {modifier} en direction de {destination}"
             },
+            "straight": {
+                "default": "Continuer tout droit",
+                "name": "Continuer tout droit sur {way_name}",
+                "destination": "Continuer tout droit en direction de {destination}"
+            },
             "sharp left": {
                 "default": "Prendre franchement à gauche",
                 "name": "Prendre franchement à gauche sur {way_name}",
@@ -244,37 +262,51 @@
             "default": {
                 "default": "Prendre la sortie",
                 "name": "Prendre la sortie sur {way_name}",
-                "destination": "Prendre la sortie en direction de {destination}"
+                "destination": "Prendre la sortie en direction de {destination}",
+                "exit": "Take exit {exit}",
+                "exit_destination": "Take exit {exit} towards {destination}"
             },
             "left": {
                 "default": "Prendre la sortie à gauche",
                 "name": "Prendre la sortie à gauche sur {way_name}",
-                "destination": "Prendre la sortie à gauche en direction de {destination}"
+                "destination": "Prendre la sortie à gauche en direction de {destination}",
+                "exit": "Take exit {exit} on the left",
+                "exit_destination": "Take exit {exit} on the left towards {destination}"
             },
             "right": {
                 "default": "Prendre la sortie à droite",
                 "name": "Prendre la sortie à droite sur {way_name}",
-                "destination": "Prendre la sortie à droite en direction de {destination}"
+                "destination": "Prendre la sortie à droite en direction de {destination}",
+                "exit": "Take exit {exit} on the right",
+                "exit_destination": "Take exit {exit} on the right towards {destination}"
             },
             "sharp left": {
                 "default": "Prendre la sortie à gauche",
                 "name": "Prendre la sortie à gauche sur {way_name}",
-                "destination": "Prendre la sortie à gauche en direction de {destination}"
+                "destination": "Prendre la sortie à gauche en direction de {destination}",
+                "exit": "Take exit {exit} on the left",
+                "exit_destination": "Take exit {exit} on the left towards {destination}"
             },
             "sharp right": {
                 "default": "Prendre la sortie à droite",
                 "name": "Prendre la sortie à droite sur {way_name}",
-                "destination": "Prendre la sortie à droite en direction de {destination}"
+                "destination": "Prendre la sortie à droite en direction de {destination}",
+                "exit": "Take exit {exit} on the right",
+                "exit_destination": "Take exit {exit} on the right towards {destination}"
             },
             "slight left": {
                 "default": "Prendre la sortie à gauche",
                 "name": "Prendre la sortie à gauche sur {way_name}",
-                "destination": "Prendre la sortie à gauche en direction de {destination}"
+                "destination": "Prendre la sortie à gauche en direction de {destination}",
+                "exit": "Take exit {exit} on the left",
+                "exit_destination": "Take exit {exit} on the left towards {destination}"
             },
             "slight right": {
                 "default": "Prendre la sortie à droite",
                 "name": "Prendre la sortie à droite sur {way_name}",
-                "destination": "Prendre la sortie à droite en direction de {destination}"
+                "destination": "Prendre la sortie à droite en direction de {destination}",
+                "exit": "Take exit {exit} on the right",
+                "exit_destination": "Take exit {exit} on the right towards {destination}"
             }
         },
         "on ramp": {

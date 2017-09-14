@@ -86,12 +86,25 @@
             "default": {
                 "default": "Belok {modifier}",
                 "name": "Terus {modifier} ke {way_name}",
-                "destination": "Belok {modifier} menuju {destination}"
+                "destination": "Belok {modifier} menuju {destination}",
+                "exit": "Belok {modifier} ke {way_name}"
             },
             "straight": {
                 "default": "Lurus terus",
                 "name": "Terus ke {way_name}",
-                "destination": "Terus menuju {destination}"
+                "destination": "Terus menuju {destination}",
+                "distance": "Continue straight for {distance}",
+                "namedistance": "Continue on {way_name} for {distance}"
+            },
+            "sharp left": {
+                "default": "Belok kiri tajam",
+                "name": "Make a sharp left to stay on {way_name}",
+                "destination": "Belok kiri tajam menuju {destination}"
+            },
+            "sharp right": {
+                "default": "Belok kanan tajam",
+                "name": "Make a sharp right to stay on {way_name}",
+                "destination": "Belok kanan tajam menuju {destination}"
             },
             "slight left": {
                 "default": "Tetap agak di kiri",
@@ -202,6 +215,11 @@
                 "name": "Lanjutkan {modifier} menuju {way_name}",
                 "destination": "Lanjutkan {modifier} menuju {destination}"
             },
+            "straight": {
+                "default": "Lurus terus",
+                "name": "Terus ke {way_name}",
+                "destination": "Terus menuju {destination}"
+            },
             "sharp left": {
                 "default": "Belok kiri tajam",
                 "name": "Belok kiri tajam ke arah {way_name}",
@@ -244,37 +262,51 @@
             "default": {
                 "default": "Ambil jalan melandai",
                 "name": "Ambil jalan melandai ke {way_name}",
-                "destination": "Ambil jalan melandai menuju {destination}"
+                "destination": "Ambil jalan melandai menuju {destination}",
+                "exit": "Take exit {exit}",
+                "exit_destination": "Take exit {exit} towards {destination}"
             },
             "left": {
                 "default": "Ambil jalan yang melandai di sebelah kiri",
                 "name": "Ambil jalan melandai di sebelah kiri ke arah {way_name}",
-                "destination": "Ambil jalan melandai di sebelah kiri menuju {destination}"
+                "destination": "Ambil jalan melandai di sebelah kiri menuju {destination}",
+                "exit": "Take exit {exit} on the left",
+                "exit_destination": "Take exit {exit} on the left towards {destination}"
             },
             "right": {
                 "default": "Ambil jalan melandai di sebelah kanan",
                 "name": "Ambil jalan melandai di sebelah kanan ke {way_name}",
-                "destination": "Ambil jalan melandai di sebelah kanan menuju {destination}"
+                "destination": "Ambil jalan melandai di sebelah kanan menuju {destination}",
+                "exit": "Take exit {exit} on the right",
+                "exit_destination": "Take exit {exit} on the right towards {destination}"
             },
             "sharp left": {
                 "default": "Ambil jalan yang melandai di sebelah kiri",
                 "name": "Ambil jalan melandai di sebelah kiri ke arah {way_name}",
-                "destination": "Ambil jalan melandai di sebelah kiri menuju {destination}"
+                "destination": "Ambil jalan melandai di sebelah kiri menuju {destination}",
+                "exit": "Take exit {exit} on the left",
+                "exit_destination": "Take exit {exit} on the left towards {destination}"
             },
             "sharp right": {
                 "default": "Ambil jalan melandai di sebelah kanan",
                 "name": "Ambil jalan melandai di sebelah kanan ke {way_name}",
-                "destination": "Ambil jalan melandai di sebelah kanan menuju {destination}"
+                "destination": "Ambil jalan melandai di sebelah kanan menuju {destination}",
+                "exit": "Take exit {exit} on the right",
+                "exit_destination": "Take exit {exit} on the right towards {destination}"
             },
             "slight left": {
                 "default": "Ambil jalan yang melandai di sebelah kiri",
                 "name": "Ambil jalan melandai di sebelah kiri ke arah {way_name}",
-                "destination": "Ambil jalan melandai di sebelah kiri menuju {destination}"
+                "destination": "Ambil jalan melandai di sebelah kiri menuju {destination}",
+                "exit": "Take exit {exit} on the left",
+                "exit_destination": "Take exit {exit} on the left towards {destination}"
             },
             "slight right": {
                 "default": "Ambil jalan melandai di sebelah kanan",
                 "name": "Ambil jalan melandai di sebelah kanan ke {way_name}",
-                "destination": "Ambil jalan melandai di sebelah kanan  menuju {destination}"
+                "destination": "Ambil jalan melandai di sebelah kanan  menuju {destination}",
+                "exit": "Take exit {exit} on the right",
+                "exit_destination": "Take exit {exit} on the right towards {destination}"
             }
         },
         "on ramp": {

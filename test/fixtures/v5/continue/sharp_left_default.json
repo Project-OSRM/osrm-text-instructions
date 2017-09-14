@@ -7,19 +7,19 @@
         "name": ""
     },
     "instructions": {
-        "de": "Scharf links abbiegen",
+        "de": "Scharf links",
         "en": "Make a sharp left",
         "es": "Gire a la izquierda",
-        "fr": "Tourner franchement à gauche",
-        "id": "Belok tajam kiri",
-        "it": "Gira a sinistra",
-        "nl": "Ga linksaf",
+        "fr": "Prendre franchement à gauche",
+        "id": "Belok kiri tajam",
+        "it": "Svolta a sinistra",
+        "nl": "Linksaf",
         "pl": "Skręć ostro w lewo",
         "pt-BR": "Vire acentuadamente à esquerda",
         "ru": "Резко поверните налево",
         "sv": "Sväng vänster",
-        "uk": "Поверніть різко ліворуч",
+        "uk": "Прийміть різко ліворуч",
         "vi": "Quẹo gắt bên trái",
-        "zh-Hans": "向左行驶"
+        "zh-Hans": "Make a sharp left"
     }
 }

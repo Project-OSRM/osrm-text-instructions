@@ -9,7 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
-        "de": "Geradeaus abbiegen Richtung Destination 1",
+        "de": "Weiterfahren in Richtung Destination 1",
         "en": "Continue towards Destination 1",
         "es": "Continúe hacia Destination 1",
         "fr": "Continuer tout droit en direction de Destination 1",

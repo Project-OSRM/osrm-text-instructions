@@ -51,8 +51,8 @@
             }
         },
         "phrase": {
-            "two linked by distance": "{instruction_one} then in {distance} {instruction_two}",
-            "two linked": "{instruction_one} then {instruction_two}",
+            "two linked by distance": "{instruction_one} danach in {distance} {instruction_two}",
+            "two linked": "{instruction_one} danach {instruction_two}",
             "one in distance": "In {distance}, {instruction_one}",
             "name and ref": "{name} ({ref})"
         },
@@ -86,7 +86,25 @@
             "default": {
                 "default": "{modifier} abbiegen",
                 "name": "{modifier} weiterfahren auf {way_name}",
-                "destination": "{modifier} abbiegen Richtung {destination}"
+                "destination": "{modifier} abbiegen Richtung {destination}",
+                "exit": "{modifier} abbiegen auf {way_name}"
+            },
+            "straight": {
+                "default": "Geradeaus weiterfahren",
+                "name": "Geradeaus weiterfahren auf {way_name}",
+                "destination": "Weiterfahren in Richtung {destination}",
+                "distance": "Geradeaus weiterfahren für {distance}",
+                "namedistance": "Geradeaus weiterfahren auf {way_name} für {distance}"
+            },
+            "sharp left": {
+                "default": "Scharf links",
+                "name": "Scharf links weiterfahren auf {way_name}",
+                "destination": "Scharf links Richtung {destination}"
+            },
+            "sharp right": {
+                "default": "Scharf rechts",
+                "name": "Scharf rechts weiterfahren auf {way_name}",
+                "destination": "Scharf rechts Richtung {destination}"
             },
             "slight left": {
                 "default": "Leicht links",

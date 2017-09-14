@@ -86,12 +86,25 @@
             "default": {
                 "default": "Sväng {modifier}",
                 "name": "Sväng {modifier} och fortsätt på {way_name}",
-                "destination": "Sväng {modifier} mot {destination}"
+                "destination": "Sväng {modifier} mot {destination}",
+                "exit": "Sväng {modifier} in på {way_name}"
             },
             "straight": {
                 "default": "Fortsätt rakt fram",
                 "name": "Kör rakt fram och fortsätt på {way_name}",
-                "destination": "Fortsätt mot {destination}"
+                "destination": "Fortsätt mot {destination}",
+                "distance": "Fortsätt rakt fram i {distance}",
+                "namedistance": "Fortsätt på {way_name} i {distance}"
+            },
+            "sharp left": {
+                "default": "Sväng vänster",
+                "name": "Sväng vänster och fortsätt på {way_name}",
+                "destination": "Sväng vänster mot {destination}"
+            },
+            "sharp right": {
+                "default": "Sväng höger",
+                "name": "Sväng höger och fortsätt på {way_name}",
+                "destination": "Sväng höger mot {destination}"
             },
             "slight left": {
                 "default": "Sväng vänster",
