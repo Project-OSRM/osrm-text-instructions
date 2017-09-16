@@ -85,9 +85,9 @@
         "continue": {
             "default": {
                 "default": "Двигайтесь {modifier}",
-                "name": "Продолжите движение {modifier} по {way_name}",
+                "name": "Двигайтесь {modifier} по {way_name}",
                 "destination": "Двигайтесь {modifier} в направлении {destination}",
-                "exit": "Двигайтесь {modifier} по {way_name}"
+                "exit": "Двигайтесь {modifier} на {way_name}"
             },
             "straight": {
                 "default": "Двигайтесь прямо",
@@ -350,8 +350,8 @@
             "default": {
                 "default": {
                     "default": "Продолжите движение по круговой развязке",
-                    "name": "На круговой  развязке сверните на {way_name}",
-                    "destination": "На круговой  развязке сверните в направлении {destination}"
+                    "name": "На круговой развязке сверните на {way_name}",
+                    "destination": "На круговой развязке сверните в направлении {destination}"
                 },
                 "name": {
                     "default": "Продолжите движение по {rotary_name} с круговым движением",
@@ -373,9 +373,9 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "На круговой  развязке сверните на {exit_number} съезд",
-                    "name": "На круговой  развязке сверните на {exit_number} съезд на {way_name}",
-                    "destination": "На круговой  развязке сверните на {exit_number} съезд в направлении {destination}"
+                    "default": "На круговой развязке сверните на {exit_number} съезд",
+                    "name": "На круговой развязке сверните на {exit_number} съезд на {way_name}",
+                    "destination": "На круговой развязке сверните на {exit_number} съезд в направлении {destination}"
                 },
                 "default": {
                     "default": "Продолжите движение по круговой развязке",
@@ -410,17 +410,17 @@
             "default": {
                 "default": "Двигайтесь {modifier}",
                 "name": "Двигайтесь {modifier} на {way_name}",
-                "destination": "Двигайтесь {modifier}  в направлении {destination}"
+                "destination": "Двигайтесь {modifier} в направлении {destination}"
             },
             "left": {
-                "default": "Поверните налево",
-                "name": "Поверните налево на {way_name}",
-                "destination": "Поверните налево в направлении {destination}"
+                "default": "Сверните налево",
+                "name": "Сверните налево на {way_name}",
+                "destination": "Сверните налево в направлении {destination}"
             },
             "right": {
-                "default": "Поверните направо",
-                "name": "Поверните направо на {way_name}",
-                "destination": "Поверните направо  в направлении {destination}"
+                "default": "Сверните направо",
+                "name": "Сверните направо на {way_name}",
+                "destination": "Сверните направо в направлении {destination}"
             },
             "straight": {
                 "default": "Двигайтесь прямо",
@@ -432,17 +432,17 @@
             "default": {
                 "default": "Двигайтесь {modifier}",
                 "name": "Двигайтесь {modifier} на {way_name}",
-                "destination": "Двигайтесь {modifier}  в направлении {destination}"
+                "destination": "Двигайтесь {modifier} в направлении {destination}"
             },
             "left": {
-                "default": "Поверните налево",
-                "name": "Поверните налево на {way_name}",
-                "destination": "Поверните налево в направлении {destination}"
+                "default": "Сверните налево",
+                "name": "Сверните налево на {way_name}",
+                "destination": "Сверните налево в направлении {destination}"
             },
             "right": {
-                "default": "Поверните направо",
-                "name": "Поверните направо на {way_name}",
-                "destination": "Поверните направо  в направлении {destination}"
+                "default": "Сверните направо",
+                "name": "Сверните направо на {way_name}",
+                "destination": "Сверните направо в направлении {destination}"
             },
             "straight": {
                 "default": "Двигайтесь прямо",
