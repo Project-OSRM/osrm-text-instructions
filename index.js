@@ -144,7 +144,7 @@ module.exports = function(version, _options) {
             // the ref should be used instead of the name.
             var wayMotorway = false;
             if (options && options.classes) {
-                wayMotorway = options.classes.some((className) => ['motorway'].indexOf(className) > -1);
+                wayMotorway = options.classes.indexOf('motorway') !== -1;
             }
 
             if (name && ref && name !== ref && !wayMotorway) {
