@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. For change 
 ## master
 
 - Added Romanian localization. [#105](https://github.com/Project-OSRM/osrm-text-instructions/pull/105)
+- Added Turkish localization. [#158](https://github.com/Project-OSRM/osrm-text-instructions/pull/158)
 
 ## 0.7.0 2017-09-13
 
