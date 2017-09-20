@@ -85,35 +85,35 @@
         "continue": {
             "default": {
                 "default": "Gire a {modifier}",
-                "name": "Turn {modifier} to stay on {way_name}",
+                "name": "Cruce{modifier} en {way_name}",
                 "destination": "Gire a {modifier} hacia {destination}",
                 "exit": "Gire a {modifier} en {way_name}"
             },
             "straight": {
                 "default": "Continúe recto",
-                "name": "Continue straight to stay on {way_name}",
+                "name": "Continúe en {way_name}",
                 "destination": "Continúe hacia {destination}",
                 "distance": "Continúe recto por {distance}",
                 "namedistance": "Continúe recto en {way_name} por {distance}"
             },
             "sharp left": {
                 "default": "Gire a la izquierda",
-                "name": "Make a sharp left to stay on {way_name}",
+                "name": "Gire a la izquierda en {way_name}",
                 "destination": "Gire a la izquierda hacia {destination}"
             },
             "sharp right": {
                 "default": "Gire a la derecha",
-                "name": "Make a sharp right to stay on {way_name}",
+                "name": "Gire a la derecha en {way_name}",
                 "destination": "Gire a la derecha hacia {destination}"
             },
             "slight left": {
                 "default": "Gire a la izquierda",
-                "name": "Make a slight left to stay on {way_name}",
+                "name": "Doble levemente a la izquierda en {way_name}",
                 "destination": "Gire a la izquierda hacia {destination}"
             },
             "slight right": {
                 "default": "Gire a la izquierda",
-                "name": "Make a slight right to stay on {way_name}",
+                "name": "Doble levemente a la derecha en {way_name}",
                 "destination": "Gire a la izquierda hacia {destination}"
             },
             "uturn": {
