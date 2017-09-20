@@ -85,7 +85,7 @@
         "continue": {
             "default": {
                 "default": "Gire a {modifier}",
-                "name": "Cruce{modifier} en {way_name}",
+                "name": "Cruce {modifier} en {way_name}",
                 "destination": "Gire a {modifier} hacia {destination}",
                 "exit": "Gire a {modifier} en {way_name}"
             },
