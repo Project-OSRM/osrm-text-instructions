@@ -2,6 +2,7 @@
 // with bundling tools like webpack and browserify
 var instructionsDe = require('./languages/translations/de.json');
 var instructionsEn = require('./languages/translations/en.json');
+var instructionsEo = require('./languages/translations/eo.json');
 var instructionsEs = require('./languages/translations/es.json');
 var instructionsEsEs = require('./languages/translations/es-ES.json');
 var instructionsFr = require('./languages/translations/fr.json');
@@ -23,6 +24,7 @@ var instructionsZhHans = require('./languages/translations/zh-Hans.json');
 var instructions = {
     'de': instructionsDe,
     'en': instructionsEn,
+    'eo': instructionsEo,
     'es': instructionsEs,
     'es-ES': instructionsEsEs,
     'fr': instructionsFr,
