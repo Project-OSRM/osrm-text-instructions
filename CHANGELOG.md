@@ -3,6 +3,7 @@ All notable changes to this project will be documented in this file. For change 
 
 ## master
 
+- Added Castilian Spanish localization. [#163](https://github.com/Project-OSRM/osrm-text-instructions/pull/163)
 - Added Romanian localization. [#105](https://github.com/Project-OSRM/osrm-text-instructions/pull/105)
 - Added Turkish localization. [#158](https://github.com/Project-OSRM/osrm-text-instructions/pull/158)
 
