@@ -47,7 +47,7 @@
             "ferry": {
                 "default": "Coge el ferry",
                 "name": "Coge el ferry {way_name}",
-                "destination": "Coge el ferry a  {destination}"
+                "destination": "Coge el ferry a {destination}"
             }
         },
         "phrase": {
@@ -124,36 +124,36 @@
         },
         "depart": {
             "default": {
-                "default": "Ve a  {direction}",
-                "name": "Ve a  {direction} en  {way_name}"
+                "default": "Ve a {direction}",
+                "name": "Ve a {direction} en {way_name}"
             }
         },
         "end of road": {
             "default": {
-                "default": "Gire  a  {modifier}",
-                "name": "Gire a  {modifier} en  {way_name}",
-                "destination": "Gire a  {modifier} hacia {destination}"
+                "default": "Gire  a {modifier}",
+                "name": "Gire a {modifier} en {way_name}",
+                "destination": "Gire a {modifier} hacia {destination}"
             },
             "straight": {
                 "default": "Continúe recto",
-                "name": "Continúe recto en  {way_name}",
+                "name": "Continúe recto en {way_name}",
                 "destination": "Continúe recto hacia {destination}"
             },
             "uturn": {
                 "default": "Haz un cambio de sentido al final de la via",
-                "name": "Haz un cambio de sentido en  {way_name} al final de la via",
+                "name": "Haz un cambio de sentido en {way_name} al final de la via",
                 "destination": "Haz un cambio de sentido hacia {destination} al final de la via"
             }
         },
         "fork": {
             "default": {
                 "default": "Mantengase  {modifier} en el cruce",
-                "name": "Mantengase  {modifier} en el cruce en  {way_name}",
+                "name": "Mantengase  {modifier} en el cruce en {way_name}",
                 "destination": "Mantengase  {modifier} en el cruce hacia {destination}"
             },
             "slight left": {
                 "default": "Mantengase a la izquierda en el cruce",
-                "name": "Mantengase a la izquierda en el cruce en  {way_name}",
+                "name": "Mantengase a la izquierda en el cruce en {way_name}",
                 "destination": "Mantengase a la izquierda en el cruce hacia {destination}"
             },
             "slight right": {
@@ -173,39 +173,39 @@
             },
             "uturn": {
                 "default": "Haz un cambio de sentido",
-                "name": "Haz un cambio de sentido en  {way_name}",
+                "name": "Haz un cambio de sentido en {way_name}",
                 "destination": "Haz un cambio de sentido hacia {destination}"
             }
         },
         "merge": {
             "default": {
-                "default": "Gire  a  {modifier}",
-                "name": "Gire a  {modifier} en  {way_name}",
-                "destination": "Gire a  {modifier} hacia {destination}"
+                "default": "Gire  a {modifier}",
+                "name": "Gire a {modifier} en {way_name}",
+                "destination": "Gire a {modifier} hacia {destination}"
             },
             "slight left": {
                 "default": "Gire a la izquierda",
-                "name": "Gire a la izquierda en  {way_name}",
+                "name": "Gire a la izquierda en {way_name}",
                 "destination": "Gire a la izquierda hacia {destination}"
             },
             "slight right": {
                 "default": "Gire a la derecha",
-                "name": "Gire a la derecha en  {way_name}",
+                "name": "Gire a la derecha en {way_name}",
                 "destination": "Gire a la derecha hacia {destination}"
             },
             "sharp left": {
                 "default": "Gire a la izquierda",
-                "name": "Gire a la izquierda en  {way_name}",
+                "name": "Gire a la izquierda en {way_name}",
                 "destination": "Gire a la izquierda hacia {destination}"
             },
             "sharp right": {
                 "default": "Gire a la derecha",
-                "name": "Gire a la derecha en  {way_name}",
+                "name": "Gire a la derecha en {way_name}",
                 "destination": "Gire a la derecha hacia {destination}"
             },
             "uturn": {
                 "default": "Haz un cambio de sentido",
-                "name": "Haz un cambio de sentido en  {way_name}",
+                "name": "Haz un cambio de sentido en {way_name}",
                 "destination": "Haz un cambio de sentido hacia {destination}"
             }
         },
@@ -242,7 +242,7 @@
             },
             "uturn": {
                 "default": "Haz un cambio de sentido",
-                "name": "Haz un cambio de sentido en  {way_name}",
+                "name": "Haz un cambio de sentido en {way_name}",
                 "destination": "Haz un cambio de sentido hacia {destination}"
             }
         },
@@ -254,7 +254,7 @@
             },
             "uturn": {
                 "default": "Haz un cambio de sentido",
-                "name": "Haz un cambio de sentido en  {way_name}",
+                "name": "Haz un cambio de sentido en {way_name}",
                 "destination": "Haz un cambio de sentido hacia {destination}"
             }
         },
@@ -311,39 +311,39 @@
         },
         "on ramp": {
             "default": {
-                "default": "Tome la salida",
-                "name": "Tome la salida en {way_name}",
-                "destination": "Tome la salida hacia {destination}"
+                "default": "Tome la rampa",
+                "name": "Tome la rampa en {way_name}",
+                "destination": "Tome la rampa hacia {destination}"
             },
             "left": {
-                "default": "Tome la salida en la izquierda",
-                "name": "Tome la salida en la izquierda en {way_name}",
-                "destination": "Tome la salida en la izquierda hacia {destination}"
+                "default": "Tome la rampa en la izquierda",
+                "name": "Tome la rampa en la izquierda en {way_name}",
+                "destination": "Tome la rampa en la izquierda hacia {destination}"
             },
             "right": {
-                "default": "Tome la salida en la derecha",
-                "name": "Tome la salida en la derecha en {way_name}",
-                "destination": "Tome la salida en la derecha hacia {destination}"
+                "default": "Tome la rampa en la derecha",
+                "name": "Tome la rampa en la derecha en {way_name}",
+                "destination": "Tome la rampa en la derecha hacia {destination}"
             },
             "sharp left": {
-                "default": "Tome la salida en la izquierda",
-                "name": "Tome la salida en la izquierda en {way_name}",
-                "destination": "Tome la salida en la izquierda hacia {destination}"
+                "default": "Tome la rampa en la izquierda",
+                "name": "Tome la rampa en la izquierda en {way_name}",
+                "destination": "Tome la rampa en la izquierda hacia {destination}"
             },
             "sharp right": {
-                "default": "Tome la salida en la derecha",
-                "name": "Tome la salida en la derecha en {way_name}",
-                "destination": "Tome la salida en la derecha hacia {destination}"
+                "default": "Tome la rampa en la derecha",
+                "name": "Tome la rampa en la derecha en {way_name}",
+                "destination": "Tome la rampa en la derecha hacia {destination}"
             },
             "slight left": {
-                "default": "Tome la salida en la izquierda",
-                "name": "Tome la salida en la izquierda en {way_name}",
-                "destination": "Tome la salida en la izquierda hacia {destination}"
+                "default": "Tome la rampa en la izquierda",
+                "name": "Tome la rampa en la izquierda en {way_name}",
+                "destination": "Tome la rampa en la izquierda hacia {destination}"
             },
             "slight right": {
-                "default": "Tome la salida en la derecha",
-                "name": "Tome la salida en la derecha en {way_name}",
-                "destination": "Tome la salida en la derecha hacia {destination}"
+                "default": "Tome la rampa en la derecha",
+                "name": "Tome la rampa en la derecha en {way_name}",
+                "destination": "Tome la rampa en la derecha hacia {destination}"
             }
         },
         "rotary": {
@@ -414,17 +414,17 @@
             },
             "left": {
                 "default": "Gire a la izquierda",
-                "name": "Gire a la izquierda en  {way_name}",
+                "name": "Gire a la izquierda en {way_name}",
                 "destination": "Gire a la izquierda hacia {destination}"
             },
             "right": {
                 "default": "Gire a la derecha",
-                "name": "Gire a la derecha en  {way_name}",
+                "name": "Gire a la derecha en {way_name}",
                 "destination": "Gire a la derecha hacia {destination}"
             },
             "straight": {
                 "default": "Ve recto",
-                "name": "Ve recto en  {way_name}",
+                "name": "Ve recto en {way_name}",
                 "destination": "Ve recto hacia {destination}"
             }
         },
@@ -436,17 +436,17 @@
             },
             "left": {
                 "default": "Gire a la izquierda",
-                "name": "Gire a la izquierda en  {way_name}",
+                "name": "Gire a la izquierda en {way_name}",
                 "destination": "Gire a la izquierda hacia {destination}"
             },
             "right": {
                 "default": "Gire a la derecha",
-                "name": "Gire a la derecha en  {way_name}",
+                "name": "Gire a la derecha en {way_name}",
                 "destination": "Gire a la derecha hacia {destination}"
             },
             "straight": {
                 "default": "Ve recto",
-                "name": "Ve recto en  {way_name}",
+                "name": "Ve recto en {way_name}",
                 "destination": "Ve recto hacia {destination}"
             }
         },
@@ -458,17 +458,17 @@
             },
             "left": {
                 "default": "Gire a la izquierda",
-                "name": "Gire a la izquierda en  {way_name}",
+                "name": "Gire a la izquierda en {way_name}",
                 "destination": "Gire a la izquierda hacia {destination}"
             },
             "right": {
                 "default": "Gire a la derecha",
-                "name": "Gire a la derecha en  {way_name}",
+                "name": "Gire a la derecha en {way_name}",
                 "destination": "Gire a la derecha hacia {destination}"
             },
             "straight": {
                 "default": "Ve recto",
-                "name": "Ve recto en  {way_name}",
+                "name": "Ve recto en {way_name}",
                 "destination": "Ve recto hacia {destination}"
             }
         },
