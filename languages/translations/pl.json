@@ -51,9 +51,9 @@
             }
         },
         "phrase": {
-            "two linked by distance": "{instruction_one} then in {distance} {instruction_two}",
-            "two linked": "{instruction_one} then {instruction_two}",
-            "one in distance": "In {distance}, {instruction_one}",
+            "two linked by distance": "{instruction_one}, następnie za {distance} {instruction_two}",
+            "two linked": "{instruction_one}, następnie {instruction_two}",
+            "one in distance": "Za {distance}, {instruction_one}",
             "name and ref": "{name} ({ref})"
         },
         "arrive": {
@@ -85,40 +85,40 @@
         "continue": {
             "default": {
                 "default": "Skręć {modifier}",
-                "name": "Kontynuuj {modifier} na {way_name}",
+                "name": "Skręć w {modifier}, aby pozostać na {way_name}",
                 "destination": "Skręć {modifier} w kierunku {destination}",
                 "exit": "Skręć {modifier} na {way_name}"
             },
             "straight": {
                 "default": "Kontynuuj prosto",
-                "name": "Kontynuuj na {way_name}",
+                "name": "Jedź dalej prosto, aby pozostać na {way_name}",
                 "destination": "Kontynuuj w kierunku {destination}",
-                "distance": "Continue straight for {distance}",
-                "namedistance": "Continue on {way_name} for {distance}"
+                "distance": "Jedź dalej prosto przez {distance}",
+                "namedistance": "Jedź dalej {way_name} przez {distance}"
             },
             "sharp left": {
                 "default": "Skręć ostro w lewo",
-                "name": "Make a sharp left to stay on {way_name}",
+                "name": "Skręć w lewo w ostry zakręt, aby pozostać na {way_name}",
                 "destination": "Skręć ostro w lewo w kierunku {destination}"
             },
             "sharp right": {
                 "default": "Skręć ostro w prawo",
-                "name": "Make a sharp right to stay on {way_name}",
+                "name": "Skręć w prawo w ostry zakręt, aby pozostać na {way_name}",
                 "destination": "Skręć ostro w prawo w kierunku {destination}"
             },
             "slight left": {
-                "default": "Kontynuuj łagodnie w lewo",
-                "name": "Kontynuuj łagodnie w lewo na {way_name}",
-                "destination": "Kontynuuj łagodnie w lewo w kierunku {destination}"
+                "default": "Skręć w lewo w łagodny zakręt",
+                "name": "Skręć w lewo w łagodny zakręt, aby pozostać na {way_name}",
+                "destination": "Skręć w lewo w łagodny zakręt na {destination}"
             },
             "slight right": {
-                "default": "Kontynuuj łagodnie w prawo",
-                "name": "Kontynuuj łagodnie w prawo na {way_name}",
-                "destination": "Kontynuuj łagodnie w prawo w kierunku {destination}"
+                "default": "Skręć w prawo w łagodny zakręt",
+                "name": "Skręć w prawo w łagodny zakręt, aby pozostać na {way_name}",
+                "destination": "Skręć w prawo w łagodny zakręt na {destination}"
             },
             "uturn": {
                 "default": "Zawróć",
-                "name": "Zawróć na {way_name}",
+                "name": "Zawróć i jedź dalej {way_name}",
                 "destination": "Zawróć w kierunku {destination}"
             }
         },
@@ -263,50 +263,50 @@
                 "default": "Zjedź",
                 "name": "Weź zjazd na {way_name}",
                 "destination": "Weź zjazd w kierunku {destination}",
-                "exit": "Take exit {exit}",
-                "exit_destination": "Take exit {exit} towards {destination}"
+                "exit": "Zjedź zjazdem {exit}",
+                "exit_destination": "Zjedź zjazdem {exit} na {destination}"
             },
             "left": {
                 "default": "Weź zjazd po lewej",
                 "name": "Weź zjazd po lewej na {way_name}",
                 "destination": "Weź zjazd po lewej w kierunku {destination}",
-                "exit": "Take exit {exit} on the left",
-                "exit_destination": "Take exit {exit} on the left towards {destination}"
+                "exit": "Zjedź zjazdem {exit} po lewej stronie",
+                "exit_destination": "Zjedź zjazdem {exit} po lewej stronie na {destination}"
             },
             "right": {
                 "default": "Weź zjazd po prawej",
                 "name": "Weź zjazd po prawej na {way_name}",
                 "destination": "Weź zjazd po prawej w kierunku {destination}",
-                "exit": "Take exit {exit}",
-                "exit_destination": "Take exit {exit} on the right towards {destination}"
+                "exit": "Zjedź zjazdem {exit} po prawej stronie",
+                "exit_destination": "Zjedź zjazdem {exit} po prawej stronie na {destination}"
             },
             "sharp left": {
                 "default": "Weź zjazd po lewej",
                 "name": "Weź zjazd po lewej na {way_name}",
                 "destination": "Weź zjazd po lewej w kierunku {destination}",
-                "exit": "Take exit {exit} on the left",
-                "exit_destination": "Take exit {exit} on the left towards {destination}"
+                "exit": "Zjedź zjazdem {exit} po lewej stronie",
+                "exit_destination": "Zjedź zjazdem {exit} po lewej stronie na {destination}"
             },
             "sharp right": {
                 "default": "Weź zjazd po prawej",
                 "name": "Weź zjazd po prawej na {way_name}",
                 "destination": "Weź zjazd po prawej w kierunku {destination}",
-                "exit": "Take exit {exit}",
-                "exit_destination": "Take exit {exit} on the right towards {destination}"
+                "exit": "Zjedź zjazdem {exit} po prawej stronie",
+                "exit_destination": "Zjedź zjazdem {exit} po prawej stronie na {destination}"
             },
             "slight left": {
                 "default": "Weź zjazd po lewej",
                 "name": "Weź zjazd po lewej na {way_name}",
                 "destination": "Weź zjazd po lewej w kierunku {destination}",
-                "exit": "Take exit {exit} on the left",
-                "exit_destination": "Take exit {exit} on the left towards {destination}"
+                "exit": "Zjedź zjazdem {exit} po lewej stronie",
+                "exit_destination": "Zjedź zjazdem {exit} po lewej stronie na {destination}"
             },
             "slight right": {
                 "default": "Weź zjazd po prawej",
                 "name": "Weź zjazd po prawej na {way_name}",
                 "destination": "Weź zjazd po prawej w kierunku {destination}",
-                "exit": "Take exit {exit}",
-                "exit_destination": "Take exit {exit} on the right towards {destination}"
+                "exit": "Zjedź zjazdem {exit} po prawej stronie",
+                "exit_destination": "Zjedź zjazdem {exit} po prawej stronie na {destination}"
             }
         },
         "on ramp": {
