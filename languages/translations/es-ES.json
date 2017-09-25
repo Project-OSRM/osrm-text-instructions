@@ -85,7 +85,7 @@
         "continue": {
             "default": {
                 "default": "Gire a {modifier}",
-                "name": "Cruce a la{modifier}  en {way_name}",
+                "name": "Cruce a la {modifier} en {way_name}",
                 "destination": "Gire a {modifier} hacia {destination}",
                 "exit": "Gire a {modifier} en {way_name}"
             },
@@ -414,17 +414,17 @@
             },
             "left": {
                 "default": "Gire a la izquierda",
-                "name": "Gire a la izquierda en  {way_name}",
+                "name": "Gire a la izquierda en {way_name}",
                 "destination": "Gire a la izquierda hacia {destination}"
             },
             "right": {
                 "default": "Gire a la derecha",
-                "name": "Gire a la derecha en  {way_name}",
+                "name": "Gire a la derecha en {way_name}",
                 "destination": "Gire a la derecha hacia {destination}"
             },
             "straight": {
                 "default": "Ve recto",
-                "name": "Ve recto en  {way_name}",
+                "name": "Ve recto en {way_name}",
                 "destination": "Ve recto hacia {destination}"
             }
         },
@@ -436,18 +436,18 @@
             },
             "left": {
                 "default": "Gire a la izquierda",
-                "name": "Gire a la izquierda en  {way_name}",
-                "destination": "Gire a la izquierda hacia  {destination}"
+                "name": "Gire a la izquierda en {way_name}",
+                "destination": "Gire a la izquierda hacia {destination}"
             },
             "right": {
                 "default": "Gire a la derecha",
-                "name": "Gire a la derecha en  {way_name}",
-                "destination": "Gire a la derecha hacia  {destination}"
+                "name": "Gire a la derecha en {way_name}",
+                "destination": "Gire a la derecha hacia {destination}"
             },
             "straight": {
                 "default": "Ve recto",
-                "name": "Ve recto en  {way_name}",
-                "destination": "Ve recto hacia  {destination}"
+                "name": "Ve recto en {way_name}",
+                "destination": "Ve recto hacia {destination}"
             }
         },
         "turn": {
@@ -469,7 +469,7 @@
             "straight": {
                 "default": "Continúa recto",
                 "name": "Continúa recto por {way_name}",
-                "destination": "Continúa recto hacia  {destination}"
+                "destination": "Continúa recto hacia {destination}"
             }
         },
         "use lane": {

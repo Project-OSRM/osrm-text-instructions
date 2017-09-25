@@ -51,8 +51,8 @@
             }
         },
         "phrase": {
-            "two linked by distance": "{instruction_one}, poi tra {distance} {instruction_two}",
-            "two linked": "{instruction_one} poi {instruction_two}",
+            "two linked by distance": "{instruction_one}, poi tra {distance},{instruction_two}",
+            "two linked": "{instruction_one}, poi {instruction_two}",
             "one in distance": "tra {distance} {instruction_one}",
             "name and ref": "{name} ({ref})"
         },
@@ -85,7 +85,7 @@
         "continue": {
             "default": {
                 "default": "Gira a {modifier}",
-                "name": "Continua a {modifier} per stare su {way_name}",
+                "name": "Gira a {modifier} per stare su {way_name}",
                 "destination": "Gira a {modifier} verso {destination}",
                 "exit": "Gira a {modifier} in {way_name}"
             },
@@ -98,23 +98,23 @@
             },
             "sharp left": {
                 "default": "Svolta a sinistra",
-                "name": "Make a sharp left to stay on {way_name}",
+                "name": "Fai una stretta curva a sinistra per stare su {way_name}",
                 "destination": "Svolta a sinistra verso {destination}"
             },
             "sharp right": {
                 "default": "Svolta a destra",
-                "name": "Make a sharp right to stay on {way_name}",
+                "name": "Fau una stretta curva a destra per stare su {way_name}",
                 "destination": "Svolta a destra verso {destination}"
             },
             "slight left": {
-                "default": "Continua leggermente a sinistra",
-                "name": "Continua leggermente a sinistra per stare su {way_name}",
-                "destination": "Continua leggermente a sinistra verso {destination}"
+                "default": "Fai una leggera curva a sinistra",
+                "name": "Fai una leggera curva a sinistra per stare su {way_name}",
+                "destination": "Fai una leggera curva a sinistra verso {destination}"
             },
             "slight right": {
-                "default": "Continua leggermente a destra",
-                "name": "Continua leggermente a destra per stare su {way_name}",
-                "destination": "Continua leggermente a destra verso {destination}"
+                "default": "Fai una leggera curva a destra",
+                "name": "Fai una leggera curva a destra per stare su {way_name}",
+                "destination": "Fai una leggera curva a destra verso {destination}"
             },
             "uturn": {
                 "default": "Fai un'inversione a U",
