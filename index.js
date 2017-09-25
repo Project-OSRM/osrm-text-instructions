@@ -11,8 +11,8 @@ module.exports = function(version, _options) {
     });
 
     return {
-        capitalizeFirstLetter: function(string) {
-            return string.charAt(0).toUpperCase() + string.slice(1);
+        capitalizeFirstLetter: function(language, string) {
+            return string.charAt(0).toLocaleUpperCase(language) + string.slice(1);
         },
         ordinalize: function(language, number) {
             // Transform numbers to their translated ordinalized value
@@ -206,7 +206,7 @@ module.exports = function(version, _options) {
             .replace(/ {2}/g, ' '); // remove excess spaces
 
             if (instructions[language].meta.capitalizeFirstLetter) {
-                return this.capitalizeFirstLetter(output);
+                return this.capitalizeFirstLetter(language, output);
             }
 
             return output;
