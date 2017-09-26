@@ -39,6 +39,6 @@ languages.supportedCodes.forEach((code) => {
         }
 
         // Write language file
-        fs.writeFileSync(`${__dirname}/../languages/translations/${code}.json`, JSON.stringify(content, null, 4));
+        fs.writeFileSync(`${__dirname}/../languages/translations/${code}.json`, JSON.stringify(content, null, 4) + '\n');
     });
 });
