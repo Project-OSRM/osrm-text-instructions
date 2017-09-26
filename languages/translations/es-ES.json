@@ -84,10 +84,10 @@
         },
         "continue": {
             "default": {
-                "default": "Gire a {modifier}",
-                "name": "Cruce a la {modifier} en {way_name}",
-                "destination": "Gire a {modifier} hacia {destination}",
-                "exit": "Gire a {modifier} en {way_name}"
+                "default": "Gire {modifier}",
+                "name": "Cruce {modifier} en {way_name}",
+                "destination": "Gire {modifier} hacia {destination}",
+                "exit": "Gire {modifier} en {way_name}"
             },
             "straight": {
                 "default": "Continúe recto",
