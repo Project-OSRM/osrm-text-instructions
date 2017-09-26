@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file. For change 
 - Added Esperanto localization. [#162](https://github.com/Project-OSRM/osrm-text-instructions/pull/162)
 - Added Romanian localization. [#105](https://github.com/Project-OSRM/osrm-text-instructions/pull/105)
 - Added Turkish localization. [#158](https://github.com/Project-OSRM/osrm-text-instructions/pull/158)
+- Added a `language` argument to `capitalizeFirstLetter`, which capitalizes according to that language’s rules. [#164](https://github.com/Project-OSRM/osrm-text-instructions/pull/164)
 
 ## 0.7.0 2017-09-13
 
