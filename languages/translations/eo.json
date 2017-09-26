@@ -58,28 +58,28 @@
         },
         "arrive": {
             "default": {
-                "default": "Vi atingis vian {nth}n celon"
+                "default": "Vi atingis vian {nth} celon"
             },
             "left": {
-                "default": "Vi atingis vian {nth}n celon ĉe maldekstre"
+                "default": "Vi atingis vian {nth} celon ĉe maldekstre"
             },
             "right": {
-                "default": "Vi atingis vian {nth}n celon ĉe dekstre"
+                "default": "Vi atingis vian {nth} celon ĉe dekstre"
             },
             "sharp left": {
-                "default": "Vi atingis vian {nth}n celon ĉe maldekstre"
+                "default": "Vi atingis vian {nth} celon ĉe maldekstre"
             },
             "sharp right": {
-                "default": "Vi atingis vian {nth}n celon ĉe dekstre"
+                "default": "Vi atingis vian {nth} celon ĉe dekstre"
             },
             "slight right": {
-                "default": "Vi atingis vian {nth}n celon ĉe dekstre"
+                "default": "Vi atingis vian {nth} celon ĉe dekstre"
             },
             "slight left": {
-                "default": "Vi atingis vian {nth}n celon ĉe maldekstre"
+                "default": "Vi atingis vian {nth} celon ĉe maldekstre"
             },
             "straight": {
-                "default": "Vi atingis vian {nth}n celon"
+                "default": "Vi atingis vian {nth} celon"
             }
         },
         "continue": {
