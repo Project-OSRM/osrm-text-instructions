@@ -13,17 +13,20 @@ module.exports = function(version, _options) {
 
     return {
         capitalizeFirstLetter: function(language, string) {
-            return string.charAt(0).toLocaleUpperCase(language) + string.slice(1);
+            return string.charAt(0).toLocaleUpperCase(this.getBestMatchingLanguage(language)) + string.slice(1);
         },
-        ordinalize: function(language, number) {
+        ordinalize: function(originalLanguage, number) {
             // Transform numbers to their translated ordinalized value
-            if (!language) throw new Error('No language code provided');
+            if (!originalLanguage) throw new Error('No language code provided');
+
+            var language = this.getBestMatchingLanguage(originalLanguage);
 
             return instructions[language][version].constants.ordinalize[number.toString()] || '';
         },
-        directionFromDegree: function(language, degree) {
+        directionFromDegree: function(originalLanguage, degree) {
             // Transform degrees to their translated compass direction
-            if (!language) throw new Error('No language code provided');
+            if (!originalLanguage) throw new Error('No language code provided');
+            var language = this.getBestMatchingLanguage(originalLanguage);
             if (!degree && degree !== 0) {
                 // step had no bearing_after degree, ignoring
                 return '';
@@ -108,9 +111,10 @@ module.exports = function(version, _options) {
 
             return wayName;
         },
-        compile: function(language, step, options) {
-            if (!language) throw new Error('No language code provided');
-            if (languages.supportedCodes.indexOf(language) === -1) throw new Error('language code ' + language + ' not loaded');
+        compile: function(originalLanguage, step, options) {
+            if (!originalLanguage) throw new Error('No language code provided');
+            var language = this.getBestMatchingLanguage(originalLanguage);
+
             if (!step.maneuver) throw new Error('No step maneuver provided');
 
             var type = step.maneuver.type;
@@ -205,7 +209,10 @@ module.exports = function(version, _options) {
 
             return this.tokenize(language, instruction, replaceTokens);
         },
-        grammarize: function(language, name, grammar) {
+        grammarize: function(originalLanguage, name, grammar) {
+            if (!originalLanguage) throw new Error('No language code provided');
+
+            var language = this.getBestMatchingLanguage(originalLanguage);
             // Process way/rotary name with applying grammar rules if any
             if (name && grammar && grammars && grammars[language] && grammars[language][version]) {
                 var rules = grammars[language][version][grammar];
@@ -224,7 +231,10 @@ module.exports = function(version, _options) {
 
             return name;
         },
-        tokenize: function(language, instruction, tokens) {
+        tokenize: function(originalLanguage, instruction, tokens) {
+            if (!originalLanguage) throw new Error('No language code provided');
+
+            var language = this.getBestMatchingLanguage(originalLanguage);
             // Keep this function context to use in inline function below (no arrow functions in ES4)
             var that = this;
             var output = instruction.replace(/\{(\w+):?(\w+)?\}/g, function(token, tag, grammar) {
@@ -243,6 +253,28 @@ module.exports = function(version, _options) {
             }
 
             return output;
+        },
+        getBestMatchingLanguage: function(language) {
+            if (languages.supportedCodes.indexOf(language) > -1) return language;
+
+            // If the language is not found, try a little harder
+            var languageCode = language.toLowerCase().split('-')[0];
+
+            var filteredSupportedLanguages = languages.supportedCodes.filter(function(locale) {
+                return locale.toLowerCase().split('-')[0] === languageCode;
+            });
+
+            if (filteredSupportedLanguages.length === 1) {
+                return filteredSupportedLanguages[0];
+            } else if (filteredSupportedLanguages.length > 1) {
+                // If more than one language is found, use the most generic version,
+                // no country code needed.
+                return filteredSupportedLanguages.sort(function(a, b) {
+                    return a.length - b.length;
+                })[0];
+            }
+
+            return 'en';
         }
     };
 };

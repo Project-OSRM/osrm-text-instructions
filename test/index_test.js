@@ -185,13 +185,72 @@ tape.test('v5 compile', function(t) {
         assert.end();
     });
 
-    t.test('throws an error if a non supported language code is provided', function(assert) {
+    t.test('Fallback to en if unsupported language', function(assert) {
         var v5Compiler = compiler('v5');
 
-        assert.throws(function() {
-            v5Compiler.compile('foo');
-        }, /language code foo not loaded/
-    );
+        assert.equal(v5Compiler.compile('foo', {
+            maneuver: {
+                type: 'turn',
+                modifier: 'left'
+            },
+            name: 'Way Name'
+        }), 'Turn left onto Way Name');
+
+        assert.end();
+    });
+
+    t.test('en-US fallback to en', function(assert) {
+        var v5Compiler = compiler('v5');
+
+        assert.equal(v5Compiler.compile('en-US', {
+            maneuver: {
+                type: 'turn',
+                modifier: 'left'
+            },
+            name: 'Way Name'
+        }), 'Turn left onto Way Name');
+
+        assert.end();
+    });
+
+    t.test('zh-CN fallback to zh-Hans', function(assert) {
+        var v5Compiler = compiler('v5');
+
+        assert.equal(v5Compiler.compile('zh-CN', {
+            maneuver: {
+                type: 'turn',
+                modifier: 'left'
+            },
+            name: 'Way Name'
+        }), '左转，上Way Name');
+
+        assert.end();
+    });
+
+    t.test('zh-Hant-TW fallback to zh-Hant', function(assert) {
+        var v5Compiler = compiler('v5');
+
+        assert.equal(v5Compiler.compile('zh-Hant', {
+            maneuver: {
+                type: 'turn',
+                modifier: 'left'
+            },
+            name: 'Way Name'
+        }), '左转，上Way Name');
+
+        assert.end();
+    });
+
+    t.test('es-MX fallback to es', function(assert) {
+        var v5Compiler = compiler('v5');
+
+        assert.equal(v5Compiler.compile('es-MX', {
+            maneuver: {
+                type: 'turn',
+                modifier: 'straight'
+            },
+            name: 'Way Name'
+        }), 'Ve recto en Way Name');
 
         assert.end();
     });
