@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. For change 
 ## master
 
 - Added grammatical cases support for Russian way names [#102](https://github.com/Project-OSRM/osrm-text-instructions/pull/102)
+- Adds `osrmti.getWayName` to the public api. You MUST NOT change the result before passing it into `osrmti.tokenize`. [#167](https://github.com/Project-OSRM/osrm-text-instructions/pull/167)
 
 ## 0.7.1 2017-09-26
 
