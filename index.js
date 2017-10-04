@@ -277,6 +277,10 @@ module.exports = function(version, _options) {
                 countryCode = splitLocale[2];
             }
 
+            var supportedLanguageCode = languages.supportedCodes.map(function(locale) {
+                return locale.toLowerCase().split('-')[0];
+            });
+
             // Same language code and script code (lng-Scpt)
             if (languages.instructions[languageCode + '-' + scriptCode]) {
                 return languageCode + '-' + scriptCode;
@@ -286,16 +290,16 @@ module.exports = function(version, _options) {
                 return languageCode + '-' + countryCode;
 
             // Same language code (lng)
-            } else if (languages.instructions[languageCode]) {
-                return languageCode;
+            } else if (supportedLanguageCode.indexOf(languageCode) > -1) {
+                return languages.supportedCodes[supportedLanguageCode.indexOf(languageCode)];
 
             // Same language code and any script code (lng-Scpx)
-            } else if (languages.instructions[languageCode] && scriptCode) {
-                return languageCode;
+            } else if (supportedLanguageCode.indexOf(languageCode) > -1 && scriptCode) {
+                return languages.supportedCodes[supportedLanguageCode.indexOf(languageCode)];
 
             // Same language code and any country code (lng-CX)
-            } else if (languages.instructions[languageCode] && countryCode) {
-                return languageCode;
+            } else if (supportedLanguageCode.indexOf(languageCode) > -1 && countryCode) {
+                return languages.supportedCodes[supportedLanguageCode.indexOf(languageCode)];
             } else {
                 return 'en';
             }
