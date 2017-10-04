@@ -287,7 +287,9 @@ module.exports = function(version, _options) {
                 return languageCode;
 
             // Same language code and any script code (lng-Scpx) and the found language contains a script
-            } else if (supportedLanguageCodes.indexOf(languageCode) > -1 && scriptCode && languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)].split('-')[1].length === 4) {
+            } else if (supportedLanguageCodes.indexOf(languageCode) > -1 && scriptCode &&
+                languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)].split('-').length > 1 &&
+                languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)].split('-')[1].length === 4) {
                 return languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)];
 
             // Same language code and any country code (lng-CX)
