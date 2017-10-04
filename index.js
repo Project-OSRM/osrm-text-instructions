@@ -288,7 +288,6 @@ module.exports = function(version, _options) {
 
             // Same language code and any script code (lng-Scpx)
             } else if (supportedLanguageCodes.indexOf(languageCode) > -1 && scriptCode) {
-                console.log('hit');
                 return languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)];
 
             // Same language code and any country code (lng-CX)
