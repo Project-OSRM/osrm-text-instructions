@@ -136,9 +136,8 @@ module.exports = function(version, _options) {
                 // if both are the same we assume that there used to be an empty name, with the ref being filled in for it
                 // we only need to retain the ref then
                 name = '';
-            } else {
-                name = name.replace(' (' + step.ref + ')', '');
             }
+            name = name.replace(' (' + step.ref + ')', '');
 
             // In attempt to avoid using the highway name of a way,
             // check and see if the step has a class which should signal
@@ -207,8 +206,9 @@ module.exports = function(version, _options) {
                 if (rules) {
                     // Pass original name to rules' regular expressions enclosed with spaces for simplier parsing
                     var n = ' ' + name + ' ';
+                    var flags = grammars[language].meta.regExpFlags || '';
                     rules.forEach(function(rule) {
-                        var re = new RegExp(rule[0]);
+                        var re = new RegExp(rule[0], flags);
                         n = n.replace(re, rule[1]);
                     });
 

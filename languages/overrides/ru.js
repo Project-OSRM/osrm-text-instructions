@@ -29,7 +29,7 @@ function iterate(values) {
 };
 
 module.exports = function(content) {
-    // Iterate all string values recursively
-    iterate(content);
+    // Iterate all content string values recursively
+    iterate(content.v5);
     return content;
 };

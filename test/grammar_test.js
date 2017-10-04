@@ -88,7 +88,7 @@ tape.test('verify grammar files structure', function(assert) {
                     var b = Array.isArray(e) && e.length === 2;
                     if (b) {
                         // all regular expressions from grammar should not match empty string
-                        r = new RegExp(e[0]);
+                        r = new RegExp(e[0], grammar.meta.regExpFlags);
                         b = ''.replace(r, e[1]) === '';
                     }
 
