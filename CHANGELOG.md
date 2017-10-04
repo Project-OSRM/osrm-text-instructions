@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## Master
+
+- Added `getBestMatchingLanguage` for determining the best language when it's unknown if the users locale is supported.
+
 ## 0.8.0 2017-10-04
 
 - Added grammatical cases support for Russian way names [#102](https://github.com/Project-OSRM/osrm-text-instructions/pull/102)
