@@ -227,6 +227,20 @@ tape.test('v5 compile', function(t) {
         assert.end();
     });
 
+    t.test('zh-Hant fallback to zh-Hanz', function(assert) {
+        var v5Compiler = compiler('v5');
+
+        assert.equal(v5Compiler.compile('zh-Hant', {
+            maneuver: {
+                type: 'turn',
+                modifier: 'left'
+            },
+            name: 'Way Name'
+        }), '左转，上Way Name');
+
+        assert.end();
+    });
+
     t.test('zh-Hant-TW fallback to zh-Hant', function(assert) {
         var v5Compiler = compiler('v5');
 

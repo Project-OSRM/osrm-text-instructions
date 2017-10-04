@@ -255,26 +255,50 @@ module.exports = function(version, _options) {
             return output;
         },
         getBestMatchingLanguage: function(language) {
-            if (languages.supportedCodes.indexOf(language) > -1) return language;
+            if (languages.instructions[language]) return language;
 
             // If the language is not found, try a little harder
-            var languageCode = language.toLowerCase().split('-')[0];
+            var splitLocale = language.toLowerCase().split('-');
+            var languageCode = false;
+            var scriptCode = false;
+            var countryCode = false;
 
-            var filteredSupportedLanguages = languages.supportedCodes.filter(function(locale) {
-                return locale.toLowerCase().split('-')[0] === languageCode;
-            });
-
-            if (filteredSupportedLanguages.length === 1) {
-                return filteredSupportedLanguages[0];
-            } else if (filteredSupportedLanguages.length > 1) {
-                // If more than one language is found, use the most generic version,
-                // no country code needed.
-                return filteredSupportedLanguages.sort(function(a, b) {
-                    return a.length - b.length;
-                })[0];
+            if (splitLocale.lenth === 1) {
+                languageCode = splitLocale[0];
+            } else if (splitLocale.length === 2 && splitLocale[1].length === 4) {
+                languageCode = splitLocale[0];
+                scriptCode = splitLocale[1];
+            } else if (splitLocale.length === 2 && splitLocale[1].length === 2) {
+                languageCode = splitLocale[0];
+                countryCode = splitLocale[1];
+            } else if (splitLocale.length === 3) {
+                languageCode = splitLocale[0];
+                scriptCode = splitLocale[1];
+                countryCode = splitLocale[2];
             }
 
-            return 'en';
+            // Same language code and script code (lng-Scpt)
+            if (languages.instructions[languageCode + '-' + scriptCode]) {
+                return languageCode + '-' + scriptCode;
+
+            // Same language code and country code (lng-CC)
+            } else if (languages.instructions[languageCode + '-' + countryCode]) {
+                return languageCode + '-' + countryCode;
+
+            // Same language code (lng)
+            } else if (languages.instructions[languageCode]) {
+                return languageCode;
+
+            // Same language code and any script code (lng-Scpx)
+            } else if (languages.instructions[languageCode] && scriptCode) {
+                return languageCode;
+
+            // Same language code and any country code (lng-CX)
+            } else if (languages.instructions[languageCode] && countryCode) {
+                return languageCode;
+            } else {
+                return 'en';
+            }
         }
     };
 };
