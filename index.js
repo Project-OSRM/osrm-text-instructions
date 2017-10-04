@@ -270,7 +270,7 @@ module.exports = function(version, _options) {
                 countryCode = splitLocale[2];
             }
 
-            var supportedLanguageCode = languages.supportedCodes.map(function(locale) {
+            var supportedLanguageCodes = languages.supportedCodes.map(function(locale) {
                 return locale.toLowerCase().split('-')[0];
             });
 
@@ -283,16 +283,17 @@ module.exports = function(version, _options) {
                 return languageCode + '-' + countryCode;
 
             // Same language code (lng)
-            } else if (supportedLanguageCode.indexOf(languageCode) > -1) {
-                return languages.supportedCodes[supportedLanguageCode.indexOf(languageCode)];
+            } else if (languages.instructions[languageCode]) {
+                return languageCode;
 
             // Same language code and any script code (lng-Scpx)
-            } else if (supportedLanguageCode.indexOf(languageCode) > -1 && scriptCode) {
-                return languages.supportedCodes[supportedLanguageCode.indexOf(languageCode)];
+            } else if (supportedLanguageCodes.indexOf(languageCode) > -1 && scriptCode) {
+                console.log('hit');
+                return languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)];
 
             // Same language code and any country code (lng-CX)
-            } else if (supportedLanguageCode.indexOf(languageCode) > -1 && countryCode) {
-                return languages.supportedCodes[supportedLanguageCode.indexOf(languageCode)];
+            } else if (supportedLanguageCodes.indexOf(languageCode) > -1 && countryCode) {
+                return languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)];
             } else {
                 return 'en';
             }

@@ -270,6 +270,13 @@ tape.test('v5 compile', function(t) {
         assert.end();
     });
 
+    t.test('getBestMatchingLanguage', function(t) {
+        t.assert(compiler('v5').getBestMatchingLanguage('zh-Hant'), 'zh-Hans');
+        t.assert(compiler('v5').getBestMatchingLanguage('zh-Hant-TW'), 'zh-Hans');
+        t.assert(compiler('v5').getBestMatchingLanguage('zh'), 'zh-Hans');
+        t.end();
+    });
+
     t.test('respects options.instructionStringHook', function(assert) {
         var v5Compiler = compiler('v5', {
             hooks: {
