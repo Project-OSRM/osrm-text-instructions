@@ -13,20 +13,17 @@ module.exports = function(version, _options) {
 
     return {
         capitalizeFirstLetter: function(language, string) {
-            return string.charAt(0).toLocaleUpperCase(this.getBestMatchingLanguage(language)) + string.slice(1);
+            return string.charAt(0).toLocaleUpperCase(language) + string.slice(1);
         },
-        ordinalize: function(originalLanguage, number) {
+        ordinalize: function(language, number) {
             // Transform numbers to their translated ordinalized value
-            if (!originalLanguage) throw new Error('No language code provided');
-
-            var language = this.getBestMatchingLanguage(originalLanguage);
+            if (!language) throw new Error('No language code provided');
 
             return instructions[language][version].constants.ordinalize[number.toString()] || '';
         },
-        directionFromDegree: function(originalLanguage, degree) {
+        directionFromDegree: function(language, degree) {
             // Transform degrees to their translated compass direction
-            if (!originalLanguage) throw new Error('No language code provided');
-            var language = this.getBestMatchingLanguage(originalLanguage);
+            if (!language) throw new Error('No language code provided');
             if (!degree && degree !== 0) {
                 // step had no bearing_after degree, ignoring
                 return '';
@@ -75,6 +72,7 @@ module.exports = function(version, _options) {
         getWayName: function(language, step, options) {
             var classes = options ? options.classes || [] : [];
             if (typeof step !== 'object') throw new Error('step must be an Object');
+            if (!language) throw new Error('No language code provided');
             if (!Array.isArray(classes)) throw new Error('classes must be an Array or undefined');
 
             var wayName;
@@ -111,10 +109,9 @@ module.exports = function(version, _options) {
 
             return wayName;
         },
-        compile: function(originalLanguage, step, options) {
-            if (!originalLanguage) throw new Error('No language code provided');
-            var language = this.getBestMatchingLanguage(originalLanguage);
-
+        compile: function(language, step, options) {
+            if (!language) throw new Error('No language code provided');
+            if (languages.supportedCodes.indexOf(language) === -1) throw new Error('language code ' + language + ' not loaded');
             if (!step.maneuver) throw new Error('No step maneuver provided');
 
             var type = step.maneuver.type;
@@ -209,10 +206,8 @@ module.exports = function(version, _options) {
 
             return this.tokenize(language, instruction, replaceTokens);
         },
-        grammarize: function(originalLanguage, name, grammar) {
-            if (!originalLanguage) throw new Error('No language code provided');
-
-            var language = this.getBestMatchingLanguage(originalLanguage);
+        grammarize: function(language, name, grammar) {
+            if (!language) throw new Error('No language code provided');
             // Process way/rotary name with applying grammar rules if any
             if (name && grammar && grammars && grammars[language] && grammars[language][version]) {
                 var rules = grammars[language][version][grammar];
@@ -231,10 +226,8 @@ module.exports = function(version, _options) {
 
             return name;
         },
-        tokenize: function(originalLanguage, instruction, tokens) {
-            if (!originalLanguage) throw new Error('No language code provided');
-
-            var language = this.getBestMatchingLanguage(originalLanguage);
+        tokenize: function(language, instruction, tokens) {
+            if (!language) throw new Error('No language code provided');
             // Keep this function context to use in inline function below (no arrow functions in ES4)
             var that = this;
             var output = instruction.replace(/\{(\w+):?(\w+)?\}/g, function(token, tag, grammar) {

@@ -185,24 +185,21 @@ tape.test('v5 compile', function(t) {
         assert.end();
     });
 
-    t.test('Fallback to en if unsupported language', function(assert) {
+    t.test('throws an error if a non supported language code is provided', function(assert) {
         var v5Compiler = compiler('v5');
 
-        assert.equal(v5Compiler.compile('foo', {
-            maneuver: {
-                type: 'turn',
-                modifier: 'left'
-            },
-            name: 'Way Name'
-        }), 'Turn left onto Way Name');
+        assert.throws(function() {
+            v5Compiler.compile('foo');
+        }, /language code foo not loaded/);
 
         assert.end();
     });
 
     t.test('en-US fallback to en', function(assert) {
         var v5Compiler = compiler('v5');
+        var language = v5Compiler.getBestMatchingLanguage('en-us');
 
-        assert.equal(v5Compiler.compile('en-US', {
+        assert.equal(v5Compiler.compile(language, {
             maneuver: {
                 type: 'turn',
                 modifier: 'left'
@@ -215,8 +212,9 @@ tape.test('v5 compile', function(t) {
 
     t.test('zh-CN fallback to zh-Hans', function(assert) {
         var v5Compiler = compiler('v5');
+        var language = v5Compiler.getBestMatchingLanguage('zh-CN');
 
-        assert.equal(v5Compiler.compile('zh-CN', {
+        assert.equal(v5Compiler.compile(language, {
             maneuver: {
                 type: 'turn',
                 modifier: 'left'
@@ -229,8 +227,9 @@ tape.test('v5 compile', function(t) {
 
     t.test('zh-Hant fallback to zh-Hanz', function(assert) {
         var v5Compiler = compiler('v5');
+        var language = v5Compiler.getBestMatchingLanguage('zh-Hant');
 
-        assert.equal(v5Compiler.compile('zh-Hant', {
+        assert.equal(v5Compiler.compile(language, {
             maneuver: {
                 type: 'turn',
                 modifier: 'left'
@@ -243,8 +242,9 @@ tape.test('v5 compile', function(t) {
 
     t.test('zh-Hant-TW fallback to zh-Hant', function(assert) {
         var v5Compiler = compiler('v5');
+        var language = v5Compiler.getBestMatchingLanguage('zh-Hant-TW');
 
-        assert.equal(v5Compiler.compile('zh-Hant', {
+        assert.equal(v5Compiler.compile(language, {
             maneuver: {
                 type: 'turn',
                 modifier: 'left'
@@ -257,8 +257,9 @@ tape.test('v5 compile', function(t) {
 
     t.test('es-MX fallback to es', function(assert) {
         var v5Compiler = compiler('v5');
+        var language = v5Compiler.getBestMatchingLanguage('es-MX');
 
-        assert.equal(v5Compiler.compile('es-MX', {
+        assert.equal(v5Compiler.compile(language, {
             maneuver: {
                 type: 'turn',
                 modifier: 'straight'
