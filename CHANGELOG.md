@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## master
+
+- Added grammatical cases support for Russian way names [#102](https://github.com/Project-OSRM/osrm-text-instructions/pull/102)
+
 ## 0.7.1 2017-09-26
 
 - Added Castilian Spanish localization. [#163](https://github.com/Project-OSRM/osrm-text-instructions/pull/163)
@@ -73,7 +77,7 @@ All notable changes to this project will be documented in this file. For change 
 
 ## 0.1.0 2016-11-17
 
-- Improve chinese translation
+- Improve Chinese translation
 - Standardize capitalizeFirstLetter meta key
 - Change instructions object customization to options.hooks.tokenizedInstruction
 

@@ -1,4 +1,4 @@
-// Load all language files excplicitely to allow integration
+// Load all language files explicitly to allow integration
 // with bundling tools like webpack and browserify
 var instructionsDe = require('./languages/translations/de.json');
 var instructionsEn = require('./languages/translations/en.json');
@@ -19,6 +19,8 @@ var instructionsUk = require('./languages/translations/uk.json');
 var instructionsVi = require('./languages/translations/vi.json');
 var instructionsZhHans = require('./languages/translations/zh-Hans.json');
 
+// Load all grammar files
+var grammarRu = require('./languages/grammar/ru.json');
 
 // Create a list of supported codes
 var instructions = {
@@ -42,7 +44,13 @@ var instructions = {
     'zh-Hans': instructionsZhHans
 };
 
+// Create list of supported grammar
+var grammars = {
+    'ru': grammarRu
+};
+
 module.exports = {
     supportedCodes: Object.keys(instructions),
-    instructions: instructions
+    instructions: instructions,
+    grammars: grammars
 };
