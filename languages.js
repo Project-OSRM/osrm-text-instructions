@@ -50,39 +50,26 @@ var grammars = {
 };
 
 function parseLanguageIntoCodes (language) {
-    // If the language is not found, try a little harder
-    var splitLocale = language.toLowerCase().split('-');
-    var languageCode = splitLocale[0];
-    var scriptCode = false;
-    var countryCode = false;
-
-    /**
-     Documentation on how the language tag is being split: https://en.wikipedia.org/wiki/IETF_language_tag#Syntax_of_language_tags
-
-     Example: zh-Hant-TW
-     language code: zh
-     script code: Hant
-     country code: TW
-
-     Example: en-US
-     language code: en
-     country code: US
-    */
-
-    if (splitLocale.length === 2 && splitLocale[1].length === 4) {
-        scriptCode = splitLocale[1];
-    } else if (splitLocale.length === 2 && splitLocale[1].length === 2) {
-        countryCode = splitLocale[1];
-    } else if (splitLocale.length === 3) {
-        scriptCode = splitLocale[1];
-        countryCode = splitLocale[2];
+    var match = language.match(/(\w\w)(?:-(\w\w\w\w))?(?:-(\w\w))?/i);
+    var locale = [];
+    if (match[1]) {
+        match[1] = match[1].toLowerCase();
+        locale.push(match[1]);
+    }
+    if (match[2]) {
+        match[2] = match[2][0].toUpperCase() + match[2].substring(1).toLowerCase();
+        locale.push(match[2]);
+    }
+    if (match[3]) {
+        match[3] = match[3].toUpperCase();
+        locale.push(match[3]);
     }
 
     return {
-        locale: language,
-        languageCode: languageCode,
-        scriptCode: scriptCode,
-        countryCode: countryCode
+        locale: locale.join('-'),
+        languageCode: match[1],
+        scriptCode: match[2],
+        countryCode: match[3]
     };
 }
 

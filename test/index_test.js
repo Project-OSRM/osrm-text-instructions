@@ -286,16 +286,16 @@ tape.test('v5 compile', function(t) {
 
     /* eslint-disable */
     t.test('parseLanguageIntoCodes', function(t) {
-        t.deepEqual(languages.parseLanguageIntoCodes('foo'), { countryCode: false, languageCode: 'foo', locale: 'foo', scriptCode: false });
-        t.deepEqual(languages.parseLanguageIntoCodes('en-US'), { countryCode: 'us', languageCode: 'en', locale: 'en-US', scriptCode: false });
-        t.deepEqual(languages.parseLanguageIntoCodes('zh-CN'), { countryCode: 'cn', languageCode: 'zh', locale: 'zh-CN', scriptCode: false });
-        t.deepEqual(languages.parseLanguageIntoCodes('zh-Hant'),  { countryCode: false, languageCode: 'zh', locale: 'zh-Hant', scriptCode: 'hant' });
-        t.deepEqual(languages.parseLanguageIntoCodes('zh-Hant-TW'),  { countryCode: 'tw', languageCode: 'zh', locale: 'zh-Hant-TW', scriptCode: 'hant' });
-        t.deepEqual(languages.parseLanguageIntoCodes('zh'), { countryCode: false, languageCode: 'zh', locale: 'zh', scriptCode: false });
-        t.deepEqual(languages.parseLanguageIntoCodes('es-MX'), { countryCode: 'mx', languageCode: 'es', locale: 'es-MX', scriptCode: false });
-        t.deepEqual(languages.parseLanguageIntoCodes('es-ES'), { countryCode: 'es', languageCode: 'es', locale: 'es-ES', scriptCode: false });
-        t.deepEqual(languages.parseLanguageIntoCodes('pt-PT'),  { countryCode: 'pt', languageCode: 'pt', locale: 'pt-PT', scriptCode: false });
-        t.deepEqual(languages.parseLanguageIntoCodes('pt'), { countryCode: false, languageCode: 'pt', locale: 'pt', scriptCode: false });
+        t.deepEqual(languages.parseLanguageIntoCodes('foo'), { countryCode: undefined, languageCode: 'fo', locale: 'fo', scriptCode: undefined });
+        t.deepEqual(languages.parseLanguageIntoCodes('en-US'), { countryCode: 'US', languageCode: 'en', locale: 'en-US', scriptCode: undefined });
+        t.deepEqual(languages.parseLanguageIntoCodes('zh-CN'), { countryCode: 'CN', languageCode: 'zh', locale: 'zh-CN', scriptCode: undefined });
+        t.deepEqual(languages.parseLanguageIntoCodes('zh-Hant'),  { countryCode: undefined, languageCode: 'zh', locale: 'zh-Hant', scriptCode: 'Hant' });
+        t.deepEqual(languages.parseLanguageIntoCodes('zh-Hant-TW'),  { countryCode: 'TW', languageCode: 'zh', locale: 'zh-Hant-TW', scriptCode: 'Hant' });
+        t.deepEqual(languages.parseLanguageIntoCodes('zh'), { countryCode: undefined, languageCode: 'zh', locale: 'zh', scriptCode: undefined });
+        t.deepEqual(languages.parseLanguageIntoCodes('es-MX'), { countryCode: 'MX', languageCode: 'es', locale: 'es-MX', scriptCode: undefined });
+        t.deepEqual(languages.parseLanguageIntoCodes('es-ES'), { countryCode: 'ES', languageCode: 'es', locale: 'es-ES', scriptCode: undefined });
+        t.deepEqual(languages.parseLanguageIntoCodes('pt-PT'),  { countryCode: 'PT', languageCode: 'pt', locale: 'pt-PT', scriptCode: undefined });
+        t.deepEqual(languages.parseLanguageIntoCodes('pt'), { countryCode: undefined, languageCode: 'pt', locale: 'pt', scriptCode: undefined });
         t.end();
     });
     /* eslint-enable */
