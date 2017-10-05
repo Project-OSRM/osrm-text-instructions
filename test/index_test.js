@@ -271,9 +271,14 @@ tape.test('v5 compile', function(t) {
     });
 
     t.test('getBestMatchingLanguage', function(t) {
+        t.assert(compiler('v5').getBestMatchingLanguage('foo'), 'en');
+        t.assert(compiler('v5').getBestMatchingLanguage('en-US'), 'en');
+        t.assert(compiler('v5').getBestMatchingLanguage('zh-CN'), 'zh-Hans');
         t.assert(compiler('v5').getBestMatchingLanguage('zh-Hant'), 'zh-Hans');
         t.assert(compiler('v5').getBestMatchingLanguage('zh-Hant-TW'), 'zh-Hans');
         t.assert(compiler('v5').getBestMatchingLanguage('zh'), 'zh-Hans');
+        t.assert(compiler('v5').getBestMatchingLanguage('es-MX'), 'es');
+        t.assert(compiler('v5').getBestMatchingLanguage('es-es'), 'es-es');
         t.end();
     });
 

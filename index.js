@@ -256,7 +256,20 @@ module.exports = function(version, _options) {
             var scriptCode = false;
             var countryCode = false;
 
-            if (splitLocale.lenth === 1) {
+            /**
+             Documentation on how the language tag is being split: https://en.wikipedia.org/wiki/IETF_language_tag#Syntax_of_language_tags
+
+             Example: zh-Hant-TW
+             language code: zh
+             script code: Hant
+             country code: TW
+
+             Example: en-US
+             language code: en
+             country code: US
+            */
+
+            if (splitLocale.length === 1) {
                 languageCode = splitLocale[0];
             } else if (splitLocale.length === 2 && splitLocale[1].length === 4) {
                 languageCode = splitLocale[0];
@@ -277,21 +290,17 @@ module.exports = function(version, _options) {
             // Same language code and script code (lng-Scpt)
             if (languages.instructions[languageCode + '-' + scriptCode]) {
                 return languageCode + '-' + scriptCode;
-
             // Same language code and country code (lng-CC)
             } else if (languages.instructions[languageCode + '-' + countryCode]) {
                 return languageCode + '-' + countryCode;
-
             // Same language code (lng)
             } else if (languages.instructions[languageCode]) {
                 return languageCode;
-
             // Same language code and any script code (lng-Scpx) and the found language contains a script
             } else if (supportedLanguageCodes.indexOf(languageCode) > -1 && scriptCode &&
                 languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)].split('-').length > 1 &&
                 languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)].split('-')[1].length === 4) {
                 return languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)];
-
             // Same language code and any country code (lng-CX)
             } else if (supportedLanguageCodes.indexOf(languageCode) > -1 && countryCode) {
                 return languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)];
