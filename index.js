@@ -251,9 +251,9 @@ module.exports = function(version, _options) {
             if (languages.instructions[language]) return language;
 
             var codes = languages.parseLanguageIntoCodes(language);
-            var languageCode = codes.languageCode;
-            var scriptCode = codes.scriptCode;
-            var countryCode = codes.countryCode;
+            var languageCode = codes.language;
+            var scriptCode = codes.script;
+            var regionCode = codes.region;
 
             var supportedLanguageCodes = languages.supportedCodes.map(function(language) {
                 return language.toLowerCase().split('-')[0];
@@ -264,9 +264,9 @@ module.exports = function(version, _options) {
                 return languageCode + '-' + scriptCode;
             }
 
-            // Same language code and country code (lng-CC)
-            if (languages.instructions[languageCode + '-' + countryCode]) {
-                return languageCode + '-' + countryCode;
+            // Same language code and region code (lng-CC)
+            if (languages.instructions[languageCode + '-' + regionCode]) {
+                return languageCode + '-' + regionCode;
             }
 
             // Same language code (lng)
@@ -276,24 +276,24 @@ module.exports = function(version, _options) {
 
             // Same language code and any script code (lng-Scpx) and the found language contains a script
             var anyScript = languages.parsedSupportedCodes.find(function (language) {
-                return language.languageCode === languageCode && language.scriptCode;
+                return language.language === languageCode && language.script;
             });
             if (anyScript) {
                 return anyScript.locale;
             }
 
-            // Same language code and any country code (lng-CX)
+            // Same language code and any region code (lng-CX)
             var anyCountry = languages.parsedSupportedCodes.find(function (language) {
-                return language.languageCode === languageCode && language.scriptCode;
+                return language.language === languageCode && language.script;
             });
             if (anyCountry) {
                 return anyCountry.locale;
             }
 
             // Only language code provided, but we on support this language code
-            // with either script/country code.
+            // with either script/region code.
             var sameLanguage = languages.parsedSupportedCodes.find(function (language) {
-                return language.languageCode === languageCode;
+                return language.language === languageCode;
             });
             if (sameLanguage) {
                 return sameLanguage.locale;

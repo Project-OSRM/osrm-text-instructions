@@ -67,9 +67,9 @@ function parseLanguageIntoCodes (language) {
 
     return {
         locale: locale.join('-'),
-        languageCode: match[1],
-        scriptCode: match[2],
-        countryCode: match[3]
+        language: match[1],
+        script: match[2],
+        region: match[3]
     };
 }
 
