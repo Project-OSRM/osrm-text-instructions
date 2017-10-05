@@ -256,8 +256,8 @@ module.exports = function(version, _options) {
             var scriptCode = codes.scriptCode;
             var countryCode = codes.countryCode;
 
-            var supportedLanguageCodes = languages.supportedCodes.map(function(locale) {
-                return locale.toLowerCase().split('-')[0];
+            var supportedLanguageCodes = languages.supportedCodes.map(function(language) {
+                return language.toLowerCase().split('-')[0];
             });
 
             var availableLanguages = languages.supportedCodes.map(function(language) {
