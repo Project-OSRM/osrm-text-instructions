@@ -266,11 +266,11 @@ module.exports = function(version, _options) {
             } else if (languages.instructions[languageCode + '-' + countryCode]) {
                 return languageCode + '-' + countryCode;
             // Same language code (lng)
-            } else if (languages.instructions[languageCode]) {
+            } else if (supportedLanguageCodes[languageCode]) {
                 return languageCode;
             // Same language code and any script code (lng-Scpx) and the found language contains a script
             } else if (languages.parsedSupportedCodes.find(function (language) {
-                return language.languageCode === languageCode && language.scriptCode;
+                return language.language === languageCode && language.scriptCode;
             })) {
                 return languages.parsedSupportedCodes.find(function (language) {
                     return language.languageCode === languageCode && language.scriptCode;
@@ -278,6 +278,14 @@ module.exports = function(version, _options) {
             // Same language code and any country code (lng-CX)
             } else if (supportedLanguageCodes.indexOf(languageCode) > -1 && countryCode) {
                 return languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)];
+            // Only language code provided, but we on support this language code
+            // with either script/country code.
+            } else if (languages.parsedSupportedCodes.find(function (language) {
+                return language.languageCode === languageCode;
+            })) {
+                return (languages.parsedSupportedCodes.find(function (language) {
+                    return language.languageCode === languageCode;
+                })).locale;
             } else {
                 return 'en';
             }
