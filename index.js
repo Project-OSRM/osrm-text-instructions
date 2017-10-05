@@ -270,7 +270,7 @@ module.exports = function(version, _options) {
                 return languageCode;
             // Same language code and any script code (lng-Scpx) and the found language contains a script
             } else if (languages.parsedSupportedCodes.find(function (language) {
-                return language.language === languageCode && language.scriptCode;
+                return language.languageCode === languageCode && language.scriptCode;
             })) {
                 return languages.parsedSupportedCodes.find(function (language) {
                     return language.languageCode === languageCode && language.scriptCode;
