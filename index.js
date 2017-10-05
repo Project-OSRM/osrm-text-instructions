@@ -259,10 +259,6 @@ module.exports = function(version, _options) {
                 return language.toLowerCase().split('-')[0];
             });
 
-            var availableLanguages = languages.supportedCodes.map(function(language) {
-                return languages.parseLanguageIntoCodes(language);
-            });
-
             // Same language code and script code (lng-Scpt)
             if (languages.instructions[languageCode + '-' + scriptCode]) {
                 return languageCode + '-' + scriptCode;
@@ -273,7 +269,7 @@ module.exports = function(version, _options) {
             } else if (languages.instructions[languageCode]) {
                 return languageCode;
             // Same language code and any script code (lng-Scpx) and the found language contains a script
-            } else if (availableLanguages.find(function (language) {
+            } else if (languages.parsedSupportedCodes.find(function (language) {
                 return language.languageCode === languageCode && language.scriptCode;
             })) {
                 return languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)];

@@ -87,6 +87,9 @@ function parseLanguageIntoCodes (language) {
 
 module.exports = {
     supportedCodes: Object.keys(instructions),
+    parsedSupportedCodes: Object.keys(instructions).map(function(language) {
+        return parseLanguageIntoCodes(language);
+    }),
     instructions: instructions,
     grammars: grammars,
     parseLanguageIntoCodes: parseLanguageIntoCodes
