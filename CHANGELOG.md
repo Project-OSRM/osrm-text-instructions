@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
-## Master
+## 0.9.0 2017-10-5
 
 - Added `getBestMatchingLanguage` for determining the closest available language. Pass a user locale into this method before passing the return value into `compile`. [#168](https://github.com/Project-OSRM/osrm-text-instructions/pull/168)
 
