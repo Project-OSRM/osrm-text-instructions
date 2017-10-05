@@ -27,8 +27,8 @@ Grammatical cases and other translated strings customization after [Transifex](h
 var version = 'v5';
 var osrmTextInstructions = require('osrm-text-instructions')(version);
 
-// If you are unsure if the users locale is supported, use `getBestMatchingLanguage` method to find an appropriate language.
-var language = osrmTextInstructions.getBestMatchingLanguage('en');
+// If you’re unsure if the user’s locale is supported, use `getBestMatchingLanguage` method to find an appropriate language.
+var language = osrmTextInstructions.getBestMatchingLanguage('en-US');
 
 response.legs.forEach(function(leg) {
   leg.steps.forEach(function(step) {

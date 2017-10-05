@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file. For change 
 
 ## Master
 
-- Added `getBestMatchingLanguage` for determining the best language when it's unknown if the users locale is supported.
+- Added `getBestMatchingLanguage` for determining the closest available language. Pass a user locale into this method before passing the return value into `compile`. [#168](https://github.com/Project-OSRM/osrm-text-instructions/pull/168)
 
 ## 0.8.0 2017-10-04
 
