@@ -255,10 +255,6 @@ module.exports = function(version, _options) {
             var scriptCode = codes.script;
             var regionCode = codes.region;
 
-            var supportedLanguageCodes = languages.supportedCodes.map(function(language) {
-                return language.toLowerCase().split('-')[0];
-            });
-
             // Same language code and script code (lng-Scpt)
             if (languages.instructions[languageCode + '-' + scriptCode]) {
                 return languageCode + '-' + scriptCode;
@@ -270,7 +266,7 @@ module.exports = function(version, _options) {
             }
 
             // Same language code (lng)
-            if (supportedLanguageCodes[languageCode]) {
+            if (languages.instructions[languageCode]) {
                 return languageCode;
             }
 
@@ -284,19 +280,10 @@ module.exports = function(version, _options) {
 
             // Same language code and any region code (lng-CX)
             var anyCountry = languages.parsedSupportedCodes.find(function (language) {
-                return language.language === languageCode && language.script;
+                return language.language === languageCode && language.region;
             });
             if (anyCountry) {
                 return anyCountry.locale;
-            }
-
-            // Only language code provided, but we on support this language code
-            // with either script/region code.
-            var sameLanguage = languages.parsedSupportedCodes.find(function (language) {
-                return language.language === languageCode;
-            });
-            if (sameLanguage) {
-                return sameLanguage.locale;
             }
 
             return 'en';
