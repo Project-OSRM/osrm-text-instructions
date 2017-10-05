@@ -262,33 +262,44 @@ module.exports = function(version, _options) {
             // Same language code and script code (lng-Scpt)
             if (languages.instructions[languageCode + '-' + scriptCode]) {
                 return languageCode + '-' + scriptCode;
+            }
+
             // Same language code and country code (lng-CC)
-            } else if (languages.instructions[languageCode + '-' + countryCode]) {
+            if (languages.instructions[languageCode + '-' + countryCode]) {
                 return languageCode + '-' + countryCode;
+            }
+
             // Same language code (lng)
-            } else if (supportedLanguageCodes[languageCode]) {
+            if (supportedLanguageCodes[languageCode]) {
                 return languageCode;
+            }
+
             // Same language code and any script code (lng-Scpx) and the found language contains a script
-            } else if (languages.parsedSupportedCodes.find(function (language) {
+            var anyScript = languages.parsedSupportedCodes.find(function (language) {
                 return language.languageCode === languageCode && language.scriptCode;
-            })) {
-                return languages.parsedSupportedCodes.find(function (language) {
-                    return language.languageCode === languageCode && language.scriptCode;
-                }).locale;
+            });
+            if (anyScript) {
+                return anyScript.locale;
+            }
+
             // Same language code and any country code (lng-CX)
-            } else if (supportedLanguageCodes.indexOf(languageCode) > -1 && countryCode) {
-                return languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)];
+            var anyCountry = languages.parsedSupportedCodes.find(function (language) {
+                return language.languageCode === languageCode && language.scriptCode;
+            });
+            if (anyCountry) {
+                return anyCountry.locale;
+            }
+
             // Only language code provided, but we on support this language code
             // with either script/country code.
-            } else if (languages.parsedSupportedCodes.find(function (language) {
+            var sameLanguage = languages.parsedSupportedCodes.find(function (language) {
                 return language.languageCode === languageCode;
-            })) {
-                return (languages.parsedSupportedCodes.find(function (language) {
-                    return language.languageCode === languageCode;
-                })).locale;
-            } else {
-                return 'en';
+            });
+            if (sameLanguage) {
+                return sameLanguage.locale;
             }
+
+            return 'en';
         }
     };
 };
