@@ -281,6 +281,7 @@ tape.test('v5 compile', function(t) {
         t.equal(compiler('v5').getBestMatchingLanguage('es-ES'), 'es-ES');
         t.equal(compiler('v5').getBestMatchingLanguage('pt-PT'), 'pt-BR');
         t.equal(compiler('v5').getBestMatchingLanguage('pt'), 'pt-BR');
+        t.equal(compiler('v5').getBestMatchingLanguage('pt-pt'), 'pt-BR');
         t.end();
     });
 
