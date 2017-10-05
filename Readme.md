@@ -27,9 +27,9 @@ Grammatical cases and other translated strings customization after [Transifex](h
 var version = 'v5';
 var osrmTextInstructions = require('osrm-text-instructions')(version);
 
-// make your request against the API, save result to response variable
+// If you’re unsure if the user’s locale is supported, use `getBestMatchingLanguage` method to find an appropriate language.
+var language = osrmTextInstructions.getBestMatchingLanguage('en-US');
 
-var language = 'en';
 response.legs.forEach(function(leg) {
   leg.steps.forEach(function(step) {
     instruction = osrmTextInstructions.compile(language, step, options)

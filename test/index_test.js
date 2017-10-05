@@ -190,10 +190,99 @@ tape.test('v5 compile', function(t) {
 
         assert.throws(function() {
             v5Compiler.compile('foo');
-        }, /language code foo not loaded/
-    );
+        }, /language code foo not loaded/);
 
         assert.end();
+    });
+
+    t.test('en-US fallback to en', function(assert) {
+        var v5Compiler = compiler('v5');
+        var language = v5Compiler.getBestMatchingLanguage('en-us');
+
+        assert.equal(v5Compiler.compile(language, {
+            maneuver: {
+                type: 'turn',
+                modifier: 'left'
+            },
+            name: 'Way Name'
+        }), 'Turn left onto Way Name');
+
+        assert.end();
+    });
+
+    t.test('zh-CN fallback to zh-Hans', function(assert) {
+        var v5Compiler = compiler('v5');
+        var language = v5Compiler.getBestMatchingLanguage('zh-CN');
+
+        assert.equal(v5Compiler.compile(language, {
+            maneuver: {
+                type: 'turn',
+                modifier: 'left'
+            },
+            name: 'Way Name'
+        }), '左转，上Way Name');
+
+        assert.end();
+    });
+
+    t.test('zh-Hant fallback to zh-Hanz', function(assert) {
+        var v5Compiler = compiler('v5');
+        var language = v5Compiler.getBestMatchingLanguage('zh-Hant');
+
+        assert.equal(v5Compiler.compile(language, {
+            maneuver: {
+                type: 'turn',
+                modifier: 'left'
+            },
+            name: 'Way Name'
+        }), '左转，上Way Name');
+
+        assert.end();
+    });
+
+    t.test('zh-Hant-TW fallback to zh-Hant', function(assert) {
+        var v5Compiler = compiler('v5');
+        var language = v5Compiler.getBestMatchingLanguage('zh-Hant-TW');
+
+        assert.equal(v5Compiler.compile(language, {
+            maneuver: {
+                type: 'turn',
+                modifier: 'left'
+            },
+            name: 'Way Name'
+        }), '左转，上Way Name');
+
+        assert.end();
+    });
+
+    t.test('es-MX fallback to es', function(assert) {
+        var v5Compiler = compiler('v5');
+        var language = v5Compiler.getBestMatchingLanguage('es-MX');
+
+        assert.equal(v5Compiler.compile(language, {
+            maneuver: {
+                type: 'turn',
+                modifier: 'straight'
+            },
+            name: 'Way Name'
+        }), 'Ve recto en Way Name');
+
+        assert.end();
+    });
+
+    t.test('getBestMatchingLanguage', function(t) {
+        t.equal(compiler('v5').getBestMatchingLanguage('foo'), 'en');
+        t.equal(compiler('v5').getBestMatchingLanguage('en-US'), 'en');
+        t.equal(compiler('v5').getBestMatchingLanguage('zh-CN'), 'zh-Hans');
+        t.equal(compiler('v5').getBestMatchingLanguage('zh-Hant'), 'zh-Hans');
+        t.equal(compiler('v5').getBestMatchingLanguage('zh-Hant-TW'), 'zh-Hans');
+        t.equal(compiler('v5').getBestMatchingLanguage('zh'), 'zh-Hans');
+        t.equal(compiler('v5').getBestMatchingLanguage('es-MX'), 'es');
+        t.equal(compiler('v5').getBestMatchingLanguage('es-ES'), 'es-ES');
+        t.equal(compiler('v5').getBestMatchingLanguage('pt-PT'), 'pt-BR');
+        t.equal(compiler('v5').getBestMatchingLanguage('pt'), 'pt-BR');
+        t.equal(compiler('v5').getBestMatchingLanguage('pt-pt'), 'pt-BR');
+        t.end();
     });
 
     t.test('respects options.instructionStringHook', function(assert) {

@@ -72,6 +72,7 @@ module.exports = function(version, _options) {
         getWayName: function(language, step, options) {
             var classes = options ? options.classes || [] : [];
             if (typeof step !== 'object') throw new Error('step must be an Object');
+            if (!language) throw new Error('No language code provided');
             if (!Array.isArray(classes)) throw new Error('classes must be an Array or undefined');
 
             var wayName;
@@ -206,6 +207,7 @@ module.exports = function(version, _options) {
             return this.tokenize(language, instruction, replaceTokens);
         },
         grammarize: function(language, name, grammar) {
+            if (!language) throw new Error('No language code provided');
             // Process way/rotary name with applying grammar rules if any
             if (name && grammar && grammars && grammars[language] && grammars[language][version]) {
                 var rules = grammars[language][version][grammar];
@@ -225,6 +227,7 @@ module.exports = function(version, _options) {
             return name;
         },
         tokenize: function(language, instruction, tokens) {
+            if (!language) throw new Error('No language code provided');
             // Keep this function context to use in inline function below (no arrow functions in ES4)
             var that = this;
             var output = instruction.replace(/\{(\w+):?(\w+)?\}/g, function(token, tag, grammar) {
@@ -243,6 +246,47 @@ module.exports = function(version, _options) {
             }
 
             return output;
+        },
+        getBestMatchingLanguage: function(language) {
+            if (languages.instructions[language]) return language;
+
+            var codes = languages.parseLanguageIntoCodes(language);
+            var languageCode = codes.language;
+            var scriptCode = codes.script;
+            var regionCode = codes.region;
+
+            // Same language code and script code (lng-Scpt)
+            if (languages.instructions[languageCode + '-' + scriptCode]) {
+                return languageCode + '-' + scriptCode;
+            }
+
+            // Same language code and region code (lng-CC)
+            if (languages.instructions[languageCode + '-' + regionCode]) {
+                return languageCode + '-' + regionCode;
+            }
+
+            // Same language code (lng)
+            if (languages.instructions[languageCode]) {
+                return languageCode;
+            }
+
+            // Same language code and any script code (lng-Scpx) and the found language contains a script
+            var anyScript = languages.parsedSupportedCodes.find(function (language) {
+                return language.language === languageCode && language.script;
+            });
+            if (anyScript) {
+                return anyScript.locale;
+            }
+
+            // Same language code and any region code (lng-CX)
+            var anyCountry = languages.parsedSupportedCodes.find(function (language) {
+                return language.language === languageCode && language.region;
+            });
+            if (anyCountry) {
+                return anyCountry.locale;
+            }
+
+            return 'en';
         }
     };
 };
