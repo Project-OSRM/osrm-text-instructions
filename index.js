@@ -272,7 +272,9 @@ module.exports = function(version, _options) {
             } else if (languages.parsedSupportedCodes.find(function (language) {
                 return language.languageCode === languageCode && language.scriptCode;
             })) {
-                return languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)];
+                return languages.parsedSupportedCodes.find(function (language) {
+                    return language.languageCode === languageCode && language.scriptCode;
+                }).locale;
             // Same language code and any country code (lng-CX)
             } else if (supportedLanguageCodes.indexOf(languageCode) > -1 && countryCode) {
                 return languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)];

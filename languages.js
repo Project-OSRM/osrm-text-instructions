@@ -79,6 +79,7 @@ function parseLanguageIntoCodes (language) {
     }
 
     return {
+        locale: language,
         languageCode: languageCode,
         scriptCode: scriptCode,
         countryCode: countryCode
