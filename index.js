@@ -249,10 +249,46 @@ module.exports = function(version, _options) {
         },
         getBestMatchingLanguage: function(language) {
             if (languages.instructions[language]) return language;
+            var that = this;
 
+            var codes = that.divideLanguageCodes(language);
+            var languageCode = codes.languageCode;
+            var scriptCode = codes.scriptCode;
+            var countryCode = codes.countryCode;
+
+            var supportedLanguageCodes = languages.supportedCodes.map(function(locale) {
+                return locale.toLowerCase().split('-')[0];
+            });
+
+            var availableLanguages = languages.supportedCodes.map(function(language) {
+                return that.divideLanguageCodes(language);
+            });
+
+            // Same language code and script code (lng-Scpt)
+            if (languages.instructions[languageCode + '-' + scriptCode]) {
+                return languageCode + '-' + scriptCode;
+            // Same language code and country code (lng-CC)
+            } else if (languages.instructions[languageCode + '-' + countryCode]) {
+                return languageCode + '-' + countryCode;
+            // Same language code (lng)
+            } else if (languages.instructions[languageCode]) {
+                return languageCode;
+            // Same language code and any script code (lng-Scpx) and the found language contains a script
+            } else if (availableLanguages.find(function (language) {
+                return language.languageCode === languageCode && language.scriptCode;
+            })) {
+                return languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)];
+            // Same language code and any country code (lng-CX)
+            } else if (supportedLanguageCodes.indexOf(languageCode) > -1 && countryCode) {
+                return languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)];
+            } else {
+                return 'en';
+            }
+        },
+        divideLanguageCodes: function(language) {
             // If the language is not found, try a little harder
             var splitLocale = language.toLowerCase().split('-');
-            var languageCode = false;
+            var languageCode = splitLocale[0];
             var scriptCode = false;
             var countryCode = false;
 
@@ -269,44 +305,20 @@ module.exports = function(version, _options) {
              country code: US
             */
 
-            if (splitLocale.length === 1) {
-                languageCode = splitLocale[0];
-            } else if (splitLocale.length === 2 && splitLocale[1].length === 4) {
-                languageCode = splitLocale[0];
+            if (splitLocale.length === 2 && splitLocale[1].length === 4) {
                 scriptCode = splitLocale[1];
             } else if (splitLocale.length === 2 && splitLocale[1].length === 2) {
-                languageCode = splitLocale[0];
                 countryCode = splitLocale[1];
             } else if (splitLocale.length === 3) {
-                languageCode = splitLocale[0];
                 scriptCode = splitLocale[1];
                 countryCode = splitLocale[2];
             }
 
-            var supportedLanguageCodes = languages.supportedCodes.map(function(locale) {
-                return locale.toLowerCase().split('-')[0];
-            });
-
-            // Same language code and script code (lng-Scpt)
-            if (languages.instructions[languageCode + '-' + scriptCode]) {
-                return languageCode + '-' + scriptCode;
-            // Same language code and country code (lng-CC)
-            } else if (languages.instructions[languageCode + '-' + countryCode]) {
-                return languageCode + '-' + countryCode;
-            // Same language code (lng)
-            } else if (languages.instructions[languageCode]) {
-                return languageCode;
-            // Same language code and any script code (lng-Scpx) and the found language contains a script
-            } else if (supportedLanguageCodes.indexOf(languageCode) > -1 && scriptCode &&
-                languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)].split('-').length > 1 &&
-                languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)].split('-')[1].length === 4) {
-                return languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)];
-            // Same language code and any country code (lng-CX)
-            } else if (supportedLanguageCodes.indexOf(languageCode) > -1 && countryCode) {
-                return languages.supportedCodes[supportedLanguageCodes.indexOf(languageCode)];
-            } else {
-                return 'en';
-            }
+            return {
+                languageCode: languageCode,
+                scriptCode: scriptCode,
+                countryCode: countryCode
+            };
         }
     };
 };
