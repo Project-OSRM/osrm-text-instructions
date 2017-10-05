@@ -249,9 +249,8 @@ module.exports = function(version, _options) {
         },
         getBestMatchingLanguage: function(language) {
             if (languages.instructions[language]) return language;
-            var that = this;
 
-            var codes = that.divideLanguageCodes(language);
+            var codes = languages.parseLanguageIntoCodes(language);
             var languageCode = codes.languageCode;
             var scriptCode = codes.scriptCode;
             var countryCode = codes.countryCode;
@@ -261,7 +260,7 @@ module.exports = function(version, _options) {
             });
 
             var availableLanguages = languages.supportedCodes.map(function(language) {
-                return that.divideLanguageCodes(language);
+                return languages.parseLanguageIntoCodes(language);
             });
 
             // Same language code and script code (lng-Scpt)
@@ -284,41 +283,6 @@ module.exports = function(version, _options) {
             } else {
                 return 'en';
             }
-        },
-        divideLanguageCodes: function(language) {
-            // If the language is not found, try a little harder
-            var splitLocale = language.toLowerCase().split('-');
-            var languageCode = splitLocale[0];
-            var scriptCode = false;
-            var countryCode = false;
-
-            /**
-             Documentation on how the language tag is being split: https://en.wikipedia.org/wiki/IETF_language_tag#Syntax_of_language_tags
-
-             Example: zh-Hant-TW
-             language code: zh
-             script code: Hant
-             country code: TW
-
-             Example: en-US
-             language code: en
-             country code: US
-            */
-
-            if (splitLocale.length === 2 && splitLocale[1].length === 4) {
-                scriptCode = splitLocale[1];
-            } else if (splitLocale.length === 2 && splitLocale[1].length === 2) {
-                countryCode = splitLocale[1];
-            } else if (splitLocale.length === 3) {
-                scriptCode = splitLocale[1];
-                countryCode = splitLocale[2];
-            }
-
-            return {
-                languageCode: languageCode,
-                scriptCode: scriptCode,
-                countryCode: countryCode
-            };
         }
     };
 };
