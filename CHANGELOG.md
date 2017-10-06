@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. For change 
 ## master
 
 - Added a `formatToken` option to `compile`, `getWayName`, and `tokenize` that allows you to manipulate any token value after any grammar or capitalization rules are applied but before the value is inserted into the instruction. [#170](https://github.com/Project-OSRM/osrm-text-instructions/pull/170)
+- Removed the `options` parameter to this module, including the `tokenizedInstruction` hook. Use the `formatToken` option instead. [#170](https://github.com/Project-OSRM/osrm-text-instructions/pull/170)
 
 ## 0.9.0 2017-10-05
 

@@ -2,11 +2,7 @@ var languages = require('./languages');
 var instructions = languages.instructions;
 var grammars = languages.grammars;
 
-module.exports = function(version, _options) {
-    var opts = {};
-    opts.hooks = {};
-    opts.hooks.tokenizedInstruction = ((_options || {}).hooks || {}).tokenizedInstruction;
-
+module.exports = function(version) {
     Object.keys(instructions).forEach(function(code) {
         if (!instructions[code][version]) { throw 'invalid version ' + version + ': ' + code + ' not supported'; }
     });
@@ -182,10 +178,6 @@ module.exports = function(version, _options) {
                 instruction = instructionObject.name;
             } else {
                 instruction = instructionObject.default;
-            }
-
-            if (opts.hooks.tokenizedInstruction) {
-                instruction = opts.hooks.tokenizedInstruction(instruction);
             }
 
             var nthWaypoint = options && options.legIndex >= 0 && options.legIndex !== options.legCount - 1 ? this.ordinalize(language, options.legIndex + 1) : '';

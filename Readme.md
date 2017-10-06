@@ -37,12 +37,11 @@ response.legs.forEach(function(leg) {
 });
 ```
 
-#### Parameters `require('osrm-text-instructions')(version, options)`
+#### Parameters `require('osrm-text-instructions')(version)`
 
 parameter | required? | values | description
 ---|----|----|---
 `version` | required | `v5` | Major OSRM version
-`options.hooks.tokenizedInstruction` | optional | `function(instruction)` | A function to change the raw instruction string before tokens are replaced. Useful to inject custom markup for tokens
 
 #### Parameters `compile(language, step, options)`
 
@@ -58,7 +57,7 @@ key | type | description
 ---|----|----|---
 `legCount` | integer | Number of legs in the route
 `legIndex` | integer | Zero-based index of the leg containing the step; together with `legIndex`, this option determines whether an arrival instruction indicates which waypoint the user has arrived at
-`formatToken` | function | Function that formats the given token value after grammaticalization and capitalization but before the value is inserted into the instruction string
+`formatToken` | function | Function that formats the given token value after grammaticalization and capitalization but before the value is inserted into the instruction string; useful for wrapping tokens in markup
 
 `formatToken` takes two parameters:
 
