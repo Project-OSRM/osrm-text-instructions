@@ -54,7 +54,7 @@ parameter | required? | values | description
 ##### Options
 
 key | type | description
----|----|----|---
+----|----|----
 `legCount` | integer | Number of legs in the route
 `legIndex` | integer | Zero-based index of the leg containing the step; together with `legIndex`, this option determines whether an arrival instruction indicates which waypoint the user has arrived at
 `formatToken` | function | Function that formats the given token value after grammaticalization and capitalization but before the value is inserted into the instruction string; useful for wrapping tokens in markup
