@@ -1,3 +1,4 @@
+/* eslint max-lines: "off" */
 var path = require('path');
 var fs = require('fs');
 var tape = require('tape');
@@ -34,6 +35,47 @@ tape.test('v5 tokenize', function(assert) {
     });
     assert.equal(missingSecond, 'Can osrm {second}', 'does not replace tokens which are not provided');
 
+    var formatsTokens = v5Compiler.tokenize('en', 'Take me {destination}, {way_name}', {
+        destination: 'home',
+        'way_name': 'Country Road'
+    }, {
+        formatToken: function (token, value) {
+            if (token === 'destination') {
+                return '<prosody rate="slow">' + value + '</prosody>';
+            }
+            if (token === 'name' || token === 'way_name' || token === 'rotary_name') {
+                return value.replace('Road', '<prosody rate="slow">Road</prosody>');
+            }
+
+            return value;
+        }
+    });
+    assert.equal(formatsTokens, 'Take me <prosody rate="slow">home</prosody>, Country <prosody rate="slow">Road</prosody>',
+                 'Formats tokens');
+
+    var capitalizesTokens = v5Compiler.tokenize('en', '{modifier} turns are prohibited here', {
+        modifier: 'left'
+    }, {
+        formatToken: function (token, value) {
+            if (token === 'modifier') {
+                return '<strong>' + value + '</strong>';
+            }
+
+            return value;
+        }
+    });
+    assert.equal(capitalizesTokens, '<strong>Left</strong> turns are prohibited here',
+                 'Capitalizes tokens before formatting');
+
+    var formatsGrammaticalTokens = v5Compiler.tokenize('ru', 'Плавно поверните налево на {way_name:accusative}', {
+        'way_name': 'Бармалеева улица'
+    }, {
+        formatToken: function (token, value) {
+            return token === 'way_name' ? value.toLocaleUpperCase('ru') : value;
+        }
+    });
+    assert.equal(formatsGrammaticalTokens, 'Плавно поверните налево на БАРМАЛЕЕВУ УЛИЦУ',
+                 'Formats tokens after grammaticalization but before insertion');
 
     assert.end();
 });
@@ -283,25 +325,6 @@ tape.test('v5 compile', function(t) {
         t.equal(compiler('v5').getBestMatchingLanguage('pt'), 'pt-BR');
         t.equal(compiler('v5').getBestMatchingLanguage('pt-pt'), 'pt-BR');
         t.end();
-    });
-
-    t.test('respects options.instructionStringHook', function(assert) {
-        var v5Compiler = compiler('v5', {
-            hooks: {
-                tokenizedInstruction: function(instruction) {
-                    return instruction.replace('{way_name}', '<blink>{way_name}</blink>');
-                }
-            }
-        });
-
-        assert.equal(v5Compiler.compile('en', {
-            maneuver: {
-                type: 'turn',
-                modifier: 'left'
-            },
-            name: 'Way Name'
-        }), 'Turn left onto <blink>Way Name</blink>');
-        assert.end();
     });
 
     t.test('fixtures match generated instructions', function(assert) {
