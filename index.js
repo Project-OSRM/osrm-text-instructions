@@ -98,7 +98,7 @@ module.exports = function(version, _options) {
                 wayName = this.tokenize(language, phrase, {
                     name: name,
                     ref: ref
-                });
+                }, options);
             } else if (name && ref && wayMotorway && (/\d/).test(ref)) {
                 wayName = ref;
             } else if (!name && ref) {
@@ -204,7 +204,7 @@ module.exports = function(version, _options) {
                 'nth': nthWaypoint
             };
 
-            return this.tokenize(language, instruction, replaceTokens);
+            return this.tokenize(language, instruction, replaceTokens, options);
         },
         grammarize: function(language, name, grammar) {
             if (!language) throw new Error('No language code provided');
@@ -226,22 +226,36 @@ module.exports = function(version, _options) {
 
             return name;
         },
-        tokenize: function(language, instruction, tokens) {
+        tokenize: function(language, instruction, tokens, options) {
             if (!language) throw new Error('No language code provided');
             // Keep this function context to use in inline function below (no arrow functions in ES4)
             var that = this;
-            var output = instruction.replace(/\{(\w+):?(\w+)?\}/g, function(token, tag, grammar) {
-                var name = tokens[tag];
-                if (typeof name !== 'undefined') {
-                    return that.grammarize(language, name, grammar);
-                }
+            var startedWithToken = false;
+            var output = instruction.replace(/\{(\w+)(?::(\w+))?\}/g, function(token, tag, grammar, offset) {
+                var value = tokens[tag];
 
                 // Return unknown token unchanged
-                return token;
+                if (typeof value === 'undefined') {
+                    return token;
+                }
+
+                value = that.grammarize(language, value, grammar);
+
+                // If this token appears at the beginning of the instruction, capitalize it.
+                if (offset === 0 && instructions[language].meta.capitalizeFirstLetter) {
+                    startedWithToken = true;
+                    value = that.capitalizeFirstLetter(language, value);
+                }
+
+                if (options && options.formatToken) {
+                    value = options.formatToken(tag, value);
+                }
+
+                return value;
             })
             .replace(/ {2}/g, ' '); // remove excess spaces
 
-            if (instructions[language].meta.capitalizeFirstLetter) {
+            if (!startedWithToken && instructions[language].meta.capitalizeFirstLetter) {
                 return this.capitalizeFirstLetter(language, output);
             }
 
