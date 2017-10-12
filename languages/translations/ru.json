@@ -355,9 +355,9 @@
                     "destination": "На круговой развязке сверните в направлении {destination}"
                 },
                 "name": {
-                    "default": "Продолжите движение по {rotary_name:dative} с круговым движением",
-                    "name": "На {rotary_name:prepositional} с круговым движением сверните на {way_name:accusative}",
-                    "destination": "На {rotary_name:prepositional} с круговым движением сверните в направлении {destination}"
+                    "default": "Продолжите движение по {rotary_name:dative}",
+                    "name": "На {rotary_name:prepositional} сверните на {way_name:accusative}",
+                    "destination": "На {rotary_name:prepositional} сверните в направлении {destination}"
                 },
                 "exit": {
                     "default": "На круговой развязке сверните на {exit_number} съезд",
@@ -365,9 +365,9 @@
                     "destination": "На круговой развязке сверните на {exit_number} съезд в направлении {destination}"
                 },
                 "name_exit": {
-                    "default": "На {rotary_name:prepositional} с круговым движением сверните на {exit_number} съезд",
-                    "name": "На {rotary_name:prepositional} с круговым движением сверните на {exit_number} съезд на {way_name:accusative}",
-                    "destination": "На {rotary_name:prepositional} с круговым движением сверните на {exit_number} съезд в направлении {destination}"
+                    "default": "На {rotary_name:prepositional} сверните на {exit_number} съезд",
+                    "name": "На {rotary_name:prepositional} сверните на {exit_number} съезд на {way_name:accusative}",
+                    "destination": "На {rotary_name:prepositional} сверните на {exit_number} съезд в направлении {destination}"
                 }
             }
         },
