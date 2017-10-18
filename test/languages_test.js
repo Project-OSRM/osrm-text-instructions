@@ -40,6 +40,16 @@ tape.test('verify language files structure', function(assert) {
             Object.keys(english.v5.depart.default),
             l + ' has correct depart namedistance keys'
         );
+
+        // exclude zh-Hans until full translation is available
+        if (l !== 'zh-Hans') {
+            assert.deepEqual(
+                Object.keys(translation.v5.continue.straight),
+                Object.keys(english.v5.continue.straight),
+                l + ' has correct continue straight namedistance keys'
+            );
+        }
+
     });
 
     assert.end();
