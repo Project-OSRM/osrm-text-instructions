@@ -14,7 +14,7 @@ var instructions = languages.instructions;
 var version = 'v5';
 var compiler = require('../index.js')(version);
 
-tape.test('verify existance/update fixtures', function(assert) {
+tape.test('verify existence/update fixtures', function(assert) {
     function clone(obj) {
         return JSON.parse(JSON.stringify(obj));
     }
@@ -57,7 +57,7 @@ tape.test('verify existance/update fixtures', function(assert) {
             // check for existance
             assert.ok(
                 fs.existsSync(fileName),
-                `verified existance of ${testName}`
+                `verified existence of ${testName}`
             );
         }
     }
