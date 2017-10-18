@@ -125,7 +125,8 @@
         "depart": {
             "default": {
                 "default": "Ve a {direction}",
-                "name": "Ve a {direction} en {way_name}"
+                "name": "Ve a {direction} en {way_name}",
+                "namedistance": "Head {direction} on {way_name} for {distance}"
             }
         },
         "end of road": {

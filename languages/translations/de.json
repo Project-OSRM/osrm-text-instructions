@@ -125,7 +125,8 @@
         "depart": {
             "default": {
                 "default": "Fahren Sie Richtung {direction}",
-                "name": "Fahren Sie Richtung {direction} auf {way_name}"
+                "name": "Fahren Sie Richtung {direction} auf {way_name}",
+                "namedistance": "Head {direction} on {way_name} for {distance}"
             }
         },
         "end of road": {
