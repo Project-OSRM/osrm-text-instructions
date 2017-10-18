@@ -125,7 +125,8 @@
         "depart": {
             "default": {
                 "default": "Двигайтесь в {direction} направлении",
-                "name": "Двигайтесь в {direction} направлении по {way_name:dative}"
+                "name": "Двигайтесь в {direction} направлении по {way_name:dative}",
+                "namedistance": "Head {direction} on {way_name} for {distance}"
             }
         },
         "end of road": {

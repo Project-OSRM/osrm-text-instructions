@@ -125,7 +125,8 @@
         "depart": {
             "default": {
                 "default": "Vertrek in {direction}elijke richting",
-                "name": "Neem {way_name} in {direction}elijke richting"
+                "name": "Neem {way_name} in {direction}elijke richting",
+                "namedistance": "Head {direction} on {way_name} for {distance}"
             }
         },
         "end of road": {

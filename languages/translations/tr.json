@@ -125,7 +125,8 @@
         "depart": {
             "default": {
                 "default": "{direction} tarafına yönelin",
-                "name": "{way_name} üzerinde {direction} yöne git"
+                "name": "{way_name} üzerinde {direction} yöne git",
+                "namedistance": "Head {direction} on {way_name} for {distance}"
             }
         },
         "end of road": {

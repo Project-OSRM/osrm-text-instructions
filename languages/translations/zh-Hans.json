@@ -108,7 +108,8 @@
         "depart": {
             "default": {
                 "default": "出发向{direction}",
-                "name": "出发向{direction}，上{way_name}"
+                "name": "出发向{direction}，上{way_name}",
+                "namedistance": "Head {direction} on {way_name} for {distance}"
             }
         },
         "end of road": {

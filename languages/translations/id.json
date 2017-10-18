@@ -125,7 +125,8 @@
         "depart": {
             "default": {
                 "default": "Arah {direction}",
-                "name": "Arah {direction} di {way_name}"
+                "name": "Arah {direction} di {way_name}",
+                "namedistance": "Head {direction} on {way_name} for {distance}"
             }
         },
         "end of road": {
