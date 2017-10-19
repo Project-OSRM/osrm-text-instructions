@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## 0.10.1 2017-10-19
+
+- Simplify roundabout and rotary instructions for US usecase. Will need an GB version of en.json now [#179](https://github.com/Project-OSRM/osrm-text-instructions/pull/179)
+- Clean up Russian roundabout and rotary instructions [#174](https://github.com/Project-OSRM/osrm-text-instructions/pull/174)
+
 ## 0.10.0 2017-10-18
 
 - Added a `formatToken` option to `compile`, `getWayName`, and `tokenize` that allows you to manipulate any token value after any grammar or capitalization rules are applied but before the value is inserted into the instruction. [#170](https://github.com/Project-OSRM/osrm-text-instructions/pull/170)
