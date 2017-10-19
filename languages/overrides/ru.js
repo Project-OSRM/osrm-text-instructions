@@ -2,7 +2,8 @@
 
 var replaces = [
     ['(развернитесь +на) +\{((way_name)|(rotary_name))\}', '$1 {$2:prepositional}'],
-    ['(на) +\{((way_name)|(rotary_name))\} +с +', '$1 {$2:prepositional} с '],
+    ['(на) +\{((way_name)|(rotary_name))\} +с', '$1 {$2:prepositional} с'],
+    ['(на) +\{((way_name)|(rotary_name))\} +по', '$1 {$2:prepositional} по'],
     ['(в +конце) +\{((way_name)|(rotary_name))\}', '$1 {$2:genitive}'],
     ['(по) +\{((way_name)|(rotary_name))\}', '$1 {$2:dative}'],
     ['(на) +\{((way_name)|(rotary_name))\}', '$1 {$2:accusative}']
