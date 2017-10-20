@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "new name",
-            "modifier": "left"
-        },
-        "name": "Way Name",
-        "destinations": "Destination 1,Destination 2"
+  "step": {
+    "maneuver": {
+      "type": "new name",
+      "modifier": "left"
     },
-    "instructions": {
-        "de": "Links weiterfahren Richtung Destination 1",
-        "en": "Continue left towards Destination 1",
-        "eo": "Pluu maldekstren direkte al Destination 1",
-        "es": "Continúe izquierda hacia Destination 1",
-        "es-ES": "Continúa a la izquierda hacia Destination 1",
-        "fr": "Continuer à gauche en direction de Destination 1",
-        "id": "Lanjutkan kiri menuju Destination 1",
-        "it": "Continua a sinistra verso Destination 1",
-        "nl": "Ga links richting Destination 1",
-        "pl": "Kontynuuj lewo w kierunku Destination 1",
-        "pt-BR": "Continue à esquerda sentido Destination 1",
-        "ro": "Continuați stânga spre Destination 1",
-        "ru": "Двигайтесь налево в направлении Destination 1",
-        "sv": "Fortsätt vänster mot Destination 1",
-        "tr": "Destination 1 istikametinde sol yönde devam et",
-        "uk": "Рухайтесь ліворуч у напрямку Destination 1",
-        "vi": "Chạy tiếp bên trái đến Destination 1",
-        "zh-Hans": "继续向左，前往Destination 1"
-    }
+    "name": "Way Name",
+    "destinations": "Destination 1,Destination 2"
+  },
+  "instructions": {
+    "de": "Links weiterfahren Richtung Destination 1",
+    "en": "Continue left towards Destination 1",
+    "eo": "Pluu maldekstren direkte al Destination 1",
+    "es": "Continúe izquierda hacia Destination 1",
+    "es-ES": "Continúa a la izquierda hacia Destination 1",
+    "fr": "Continuer à gauche en direction de Destination 1",
+    "id": "Lanjutkan kiri menuju Destination 1",
+    "it": "Continua a sinistra verso Destination 1",
+    "nl": "Ga links richting Destination 1",
+    "pl": "Kontynuuj lewo w kierunku Destination 1",
+    "pt-BR": "Continue à esquerda sentido Destination 1",
+    "ro": "Continuați stânga spre Destination 1",
+    "ru": "Двигайтесь налево в направлении Destination 1",
+    "sv": "Fortsätt vänster mot Destination 1",
+    "tr": "Destination 1 istikametinde sol yönde devam et",
+    "uk": "Рухайтесь ліворуч у напрямку Destination 1",
+    "vi": "Chạy tiếp bên trái đến Destination 1",
+    "zh-Hans": "继续向左，前往Destination 1"
+  }
 }

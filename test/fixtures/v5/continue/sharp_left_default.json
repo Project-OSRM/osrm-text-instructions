@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "continue",
-            "modifier": "sharp left"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "continue",
+      "modifier": "sharp left"
     },
-    "instructions": {
-        "de": "Scharf links",
-        "en": "Make a sharp left",
-        "eo": "Turniĝu ege maldekstren",
-        "es": "Gire a la izquierda",
-        "es-ES": "Gire a la izquierda",
-        "fr": "Prendre franchement à gauche",
-        "id": "Belok kiri tajam",
-        "it": "Svolta a sinistra",
-        "nl": "Linksaf",
-        "pl": "Skręć ostro w lewo",
-        "pt-BR": "Vire acentuadamente à esquerda",
-        "ro": "Virați brusc stânga",
-        "ru": "Резко поверните налево",
-        "sv": "Sväng vänster",
-        "tr": "Sola keskin dönüş yap",
-        "uk": "Прийміть різко ліворуч",
-        "vi": "Quẹo gắt bên trái",
-        "zh-Hans": "Make a sharp left"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Scharf links",
+    "en": "Make a sharp left",
+    "eo": "Turniĝu ege maldekstren",
+    "es": "Gire a la izquierda",
+    "es-ES": "Gire a la izquierda",
+    "fr": "Prendre franchement à gauche",
+    "id": "Belok kiri tajam",
+    "it": "Svolta a sinistra",
+    "nl": "Linksaf",
+    "pl": "Skręć ostro w lewo",
+    "pt-BR": "Vire acentuadamente à esquerda",
+    "ro": "Virați brusc stânga",
+    "ru": "Резко поверните налево",
+    "sv": "Sväng vänster",
+    "tr": "Sola keskin dönüş yap",
+    "uk": "Прийміть різко ліворуч",
+    "vi": "Quẹo gắt bên trái",
+    "zh-Hans": "Make a sharp left"
+  }
 }

@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "merge",
-            "modifier": "sharp right"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "merge",
+      "modifier": "sharp right"
     },
-    "instructions": {
-        "de": "Scharf rechts auffahren",
-        "en": "Merge right",
-        "eo": "Enveturu de dekstre",
-        "es": "Gire a la derecha",
-        "es-ES": "Incorpórate a la derecha",
-        "fr": "Rejoindre par la droite",
-        "id": "Bergabung di kanan",
-        "it": "Immettiti a destra",
-        "nl": "Bij de splitsing rechtsaf",
-        "pl": "Włącz się z prawej strony",
-        "pt-BR": "Entre à direita",
-        "ro": "Intrați în dreapta",
-        "ru": "Перестраивайтесь правее",
-        "sv": "Byt till högra körfältet",
-        "tr": "Sağa gir",
-        "uk": "Приєднайтеся до потоку праворуч",
-        "vi": "Nhập sang phải",
-        "zh-Hans": "向右并道"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Scharf rechts auffahren",
+    "en": "Merge right",
+    "eo": "Enveturu de dekstre",
+    "es": "Gire a la derecha",
+    "es-ES": "Incorpórate a la derecha",
+    "fr": "Rejoindre par la droite",
+    "id": "Bergabung di kanan",
+    "it": "Immettiti a destra",
+    "nl": "Bij de splitsing rechtsaf",
+    "pl": "Włącz się z prawej strony",
+    "pt-BR": "Entre à direita",
+    "ro": "Intrați în dreapta",
+    "ru": "Перестраивайтесь правее",
+    "sv": "Byt till högra körfältet",
+    "tr": "Sağa gir",
+    "uk": "Приєднайтеся до потоку праворуч",
+    "vi": "Nhập sang phải",
+    "zh-Hans": "向右并道"
+  }
 }

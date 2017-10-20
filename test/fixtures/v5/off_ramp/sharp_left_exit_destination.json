@@ -1,31 +1,31 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "off ramp",
-            "modifier": "sharp left"
-        },
-        "name": "Way Name",
-        "destinations": "Destination 1,Destination 2",
-        "exits": "4A;4B"
+  "step": {
+    "maneuver": {
+      "type": "off ramp",
+      "modifier": "sharp left"
     },
-    "instructions": {
-        "de": "Ausfahrt4A links nehmen Richtung Destination 1",
-        "en": "Take exit 4A on the left towards Destination 1",
-        "eo": "Direktiĝu al elveturejo 4A ĉe maldekstre direkte al Destination 1",
-        "es": "Tome la salida 4A en la izquierda hacia Destination 1",
-        "es-ES": "Coge la cuesta abajo 4A a tu izquierda hacia Destination 1",
-        "fr": "Take exit 4A on the left towards Destination 1",
-        "id": "Take exit 4A on the left towards Destination 1",
-        "it": "Prendi la 4A uscita a sinistra verso Destination 1",
-        "nl": "Take exit 4A on the left towards Destination 1",
-        "pl": "Zjedź zjazdem 4A po lewej stronie na Destination 1",
-        "pt-BR": "Pegue a saída 4A à esquerda em direção à Destination 1",
-        "ro": "Ieșiți pe ieșirea 4A pe stânga spre Destination 1",
-        "ru": "Поверните налево на съезд 4A в направлении Destination 1",
-        "sv": "Ta avfart 4A till vänster mot Destination 1",
-        "tr": "Destination 1 istikametindeki 4A sol çıkış yoluna geç",
-        "uk": "Оберіть з'їзд 4A ліворуч у напрямку Destination 1",
-        "vi": "Đi theo lối ra 4A bên trái về hướng Destination 1",
-        "zh-Hans": "Take exit 4A towards Destination 1"
-    }
+    "name": "Way Name",
+    "destinations": "Destination 1,Destination 2",
+    "exits": "4A;4B"
+  },
+  "instructions": {
+    "de": "Ausfahrt4A links nehmen Richtung Destination 1",
+    "en": "Take exit 4A on the left towards Destination 1",
+    "eo": "Direktiĝu al elveturejo 4A ĉe maldekstre direkte al Destination 1",
+    "es": "Tome la salida 4A en la izquierda hacia Destination 1",
+    "es-ES": "Coge la cuesta abajo 4A a tu izquierda hacia Destination 1",
+    "fr": "Take exit 4A on the left towards Destination 1",
+    "id": "Take exit 4A on the left towards Destination 1",
+    "it": "Prendi la 4A uscita a sinistra verso Destination 1",
+    "nl": "Take exit 4A on the left towards Destination 1",
+    "pl": "Zjedź zjazdem 4A po lewej stronie na Destination 1",
+    "pt-BR": "Pegue a saída 4A à esquerda em direção à Destination 1",
+    "ro": "Ieșiți pe ieșirea 4A pe stânga spre Destination 1",
+    "ru": "Поверните налево на съезд 4A в направлении Destination 1",
+    "sv": "Ta avfart 4A till vänster mot Destination 1",
+    "tr": "Destination 1 istikametindeki 4A sol çıkış yoluna geç",
+    "uk": "Оберіть з'їзд 4A ліворуч у напрямку Destination 1",
+    "vi": "Đi theo lối ra 4A bên trái về hướng Destination 1",
+    "zh-Hans": "Take exit 4A towards Destination 1"
+  }
 }

@@ -1,35 +1,33 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "continue",
-            "modifier": "sharp left"
-        },
-        "name": "Cool highway",
-        "ref": "Ref1;Ref2"
+  "step": {
+    "maneuver": {
+      "type": "continue",
+      "modifier": "sharp left"
     },
-    "instructions": {
-        "de": "Scharf links weiterfahren auf Cool highway (Ref1)",
-        "en": "Make a sharp left to stay on Cool highway (Ref1)",
-        "eo": "Turniĝu ege maldekstren al Cool highway (Ref1)",
-        "es": "Gire a la izquierda en Cool highway (Ref1)",
-        "es-ES": "Gire a la izquierda en Cool highway (Ref1)",
-        "fr": "Make a sharp left to stay on Cool highway (Ref1)",
-        "id": "Make a sharp left to stay on Cool highway (Ref1)",
-        "it": "Fai una stretta curva a sinistra per stare su Cool highway (Ref1)",
-        "nl": "Make a sharp left to stay on Cool highway (Ref1)",
-        "pl": "Skręć w lewo w ostry zakręt, aby pozostać na Cool highway (Ref1)",
-        "pt-BR": "Make a sharp left to stay on Cool highway (Ref1)",
-        "ro": "Virați brusc stânga pe Cool highway (Ref1)",
-        "ru": "Резко поверните налево на Cool highway (Ref1)",
-        "sv": "Sväng vänster och fortsätt på Cool highway (Ref1)",
-        "tr": "Cool highway (Ref1) üzerinde kalmak için sola keskin dönüş yap",
-        "uk": "Make a sharp left to stay on Cool highway (Ref1)",
-        "vi": "Quẹo gắt bên trái để chạy tiếp trên Cool highway (Ref1)",
-        "zh-Hans": "Make a sharp left to stay on Cool highway（Ref1）"
-    },
-    "options": {
-        "classes": [
-            "ferry"
-        ]
-    }
+    "name": "Cool highway",
+    "ref": "Ref1;Ref2"
+  },
+  "instructions": {
+    "de": "Scharf links weiterfahren auf Cool highway (Ref1)",
+    "en": "Make a sharp left to stay on Cool highway (Ref1)",
+    "eo": "Turniĝu ege maldekstren al Cool highway (Ref1)",
+    "es": "Gire a la izquierda en Cool highway (Ref1)",
+    "es-ES": "Gire a la izquierda en Cool highway (Ref1)",
+    "fr": "Make a sharp left to stay on Cool highway (Ref1)",
+    "id": "Make a sharp left to stay on Cool highway (Ref1)",
+    "it": "Fai una stretta curva a sinistra per stare su Cool highway (Ref1)",
+    "nl": "Make a sharp left to stay on Cool highway (Ref1)",
+    "pl": "Skręć w lewo w ostry zakręt, aby pozostać na Cool highway (Ref1)",
+    "pt-BR": "Make a sharp left to stay on Cool highway (Ref1)",
+    "ro": "Virați brusc stânga pe Cool highway (Ref1)",
+    "ru": "Резко поверните налево на Cool highway (Ref1)",
+    "sv": "Sväng vänster och fortsätt på Cool highway (Ref1)",
+    "tr": "Cool highway (Ref1) üzerinde kalmak için sola keskin dönüş yap",
+    "uk": "Make a sharp left to stay on Cool highway (Ref1)",
+    "vi": "Quẹo gắt bên trái để chạy tiếp trên Cool highway (Ref1)",
+    "zh-Hans": "Make a sharp left to stay on Cool highway（Ref1）"
+  },
+  "options": {
+    "classes": ["ferry"]
+  }
 }

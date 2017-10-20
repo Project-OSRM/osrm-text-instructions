@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "notification",
-            "modifier": "slight right"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "notification",
+      "modifier": "slight right"
     },
-    "instructions": {
-        "de": "Leicht rechts weiterfahren",
-        "en": "Continue slight right",
-        "eo": "Pluu dekstreten",
-        "es": "Continúe ligeramente a la derecha",
-        "es-ES": "Continúa ligeramente a la derecha",
-        "fr": "Continuer légèrement à droite",
-        "id": "Lanjutkan agak ke kanan",
-        "it": "Continua a destra leggermente",
-        "nl": "Ga rechts",
-        "pl": "Kontynuuj łagodnie w prawo",
-        "pt-BR": "Continue ligeiramente à direita",
-        "ro": "Continuați ușor dreapta",
-        "ru": "Двигайтесь правее",
-        "sv": "Fortsätt höger",
-        "tr": "Hafif sağ yönde devam et",
-        "uk": "Рухайтесь плавно праворуч",
-        "vi": "Chạy tiếp bên phải nghiêng",
-        "zh-Hans": "继续向右"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Leicht rechts weiterfahren",
+    "en": "Continue slight right",
+    "eo": "Pluu dekstreten",
+    "es": "Continúe ligeramente a la derecha",
+    "es-ES": "Continúa ligeramente a la derecha",
+    "fr": "Continuer légèrement à droite",
+    "id": "Lanjutkan agak ke kanan",
+    "it": "Continua a destra leggermente",
+    "nl": "Ga rechts",
+    "pl": "Kontynuuj łagodnie w prawo",
+    "pt-BR": "Continue ligeiramente à direita",
+    "ro": "Continuați ușor dreapta",
+    "ru": "Двигайтесь правее",
+    "sv": "Fortsätt höger",
+    "tr": "Hafif sağ yönde devam et",
+    "uk": "Рухайтесь плавно праворуч",
+    "vi": "Chạy tiếp bên phải nghiêng",
+    "zh-Hans": "继续向右"
+  }
 }

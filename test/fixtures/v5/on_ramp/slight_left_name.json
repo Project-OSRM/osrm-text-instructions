@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "on ramp",
-            "modifier": "slight left"
-        },
-        "name": "Way Name"
+  "step": {
+    "maneuver": {
+      "type": "on ramp",
+      "modifier": "slight left"
     },
-    "instructions": {
-        "de": "Auffahrt links nehmen auf Way Name",
-        "en": "Take the ramp on the left onto Way Name",
-        "eo": "Direktiĝu al enveturejo ĉe maldekstre al Way Name",
-        "es": "Tome la rampa en la izquierda en Way Name",
-        "es-ES": "Coge la cuesta de la izquierda por Way Name",
-        "fr": "Prendre la sortie à gauche sur Way Name",
-        "id": "Ambil jalan melandai di sebelah kiri ke arah Way Name",
-        "it": "Prendi la rampa a sinistra in Way Name",
-        "nl": "Neem de oprit links naar Way Name",
-        "pl": "Weź zjazd po lewej na Way Name",
-        "pt-BR": "Pegue a rampa à esquerda em Way Name",
-        "ro": "Urmați rampa pe stânga pe Way Name",
-        "ru": "Перестройтесь левее на Way Name",
-        "sv": "Ta påfarten till vänster in på Way Name",
-        "tr": "Way Name üzerindeki sol bağlantı yoluna geç",
-        "uk": "Рухайтесь на вʼїзд ліворуч на Way Name",
-        "vi": "Đi đường nhánh Way Name bên trái",
-        "zh-Hans": "通过匝道驶入Way Name"
-    }
+    "name": "Way Name"
+  },
+  "instructions": {
+    "de": "Auffahrt links nehmen auf Way Name",
+    "en": "Take the ramp on the left onto Way Name",
+    "eo": "Direktiĝu al enveturejo ĉe maldekstre al Way Name",
+    "es": "Tome la rampa en la izquierda en Way Name",
+    "es-ES": "Coge la cuesta de la izquierda por Way Name",
+    "fr": "Prendre la sortie à gauche sur Way Name",
+    "id": "Ambil jalan melandai di sebelah kiri ke arah Way Name",
+    "it": "Prendi la rampa a sinistra in Way Name",
+    "nl": "Neem de oprit links naar Way Name",
+    "pl": "Weź zjazd po lewej na Way Name",
+    "pt-BR": "Pegue a rampa à esquerda em Way Name",
+    "ro": "Urmați rampa pe stânga pe Way Name",
+    "ru": "Перестройтесь левее на Way Name",
+    "sv": "Ta påfarten till vänster in på Way Name",
+    "tr": "Way Name üzerindeki sol bağlantı yoluna geç",
+    "uk": "Рухайтесь на вʼїзд ліворуч на Way Name",
+    "vi": "Đi đường nhánh Way Name bên trái",
+    "zh-Hans": "通过匝道驶入Way Name"
+  }
 }

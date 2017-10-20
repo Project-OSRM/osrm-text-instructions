@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "new name",
-            "modifier": "slight right"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "new name",
+      "modifier": "slight right"
     },
-    "instructions": {
-        "de": "Leicht rechts weiter",
-        "en": "Continue slightly right",
-        "eo": "Pluu ete dekstren",
-        "es": "Continúe ligeramente a la derecha",
-        "es-ES": "Continúa ligeramente por la derecha",
-        "fr": "Continuer légèrement à droite",
-        "id": "Tetap agak di kanan",
-        "it": "Continua leggermente a destra",
-        "nl": "Rechts aanhouden",
-        "pl": "Kontynuuj łagodnie w prawo",
-        "pt-BR": "Continue ligeiramente à direita",
-        "ro": "Continuați ușor dreapta",
-        "ru": "Плавно поверните направо",
-        "sv": "Fortsätt med lätt högersväng",
-        "tr": "Hafif sağdan devam edin",
-        "uk": "Прийміть плавно праворуч",
-        "vi": "Nghiêng về bên phải",
-        "zh-Hans": "继续向右"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Leicht rechts weiter",
+    "en": "Continue slightly right",
+    "eo": "Pluu ete dekstren",
+    "es": "Continúe ligeramente a la derecha",
+    "es-ES": "Continúa ligeramente por la derecha",
+    "fr": "Continuer légèrement à droite",
+    "id": "Tetap agak di kanan",
+    "it": "Continua leggermente a destra",
+    "nl": "Rechts aanhouden",
+    "pl": "Kontynuuj łagodnie w prawo",
+    "pt-BR": "Continue ligeiramente à direita",
+    "ro": "Continuați ușor dreapta",
+    "ru": "Плавно поверните направо",
+    "sv": "Fortsätt med lätt högersväng",
+    "tr": "Hafif sağdan devam edin",
+    "uk": "Прийміть плавно праворуч",
+    "vi": "Nghiêng về bên phải",
+    "zh-Hans": "继续向右"
+  }
 }

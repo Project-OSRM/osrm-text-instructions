@@ -1,35 +1,33 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "continue",
-            "modifier": "right"
-        },
-        "name": "Cool highway",
-        "ref": "Ref1;Ref2"
+  "step": {
+    "maneuver": {
+      "type": "continue",
+      "modifier": "right"
     },
-    "instructions": {
-        "de": "Rechts weiterfahren auf Ref1",
-        "en": "Turn right to stay on Ref1",
-        "eo": "Veturu dekstren al Ref1",
-        "es": "Cruce a laderecha en Ref1",
-        "es-ES": "Cruce a la derecha en Ref1",
-        "fr": "Continuer à droite sur Ref1",
-        "id": "Terus kanan ke Ref1",
-        "it": "Gira a destra per stare su Ref1",
-        "nl": "Ga rechts naar Ref1",
-        "pl": "Skręć w prawo, aby pozostać na Ref1",
-        "pt-BR": "Continue à direita em Ref1",
-        "ro": "Virați dreapta pe Ref1",
-        "ru": "Двигайтесь направо по Ref1",
-        "sv": "Sväng höger och fortsätt på Ref1",
-        "tr": "Ref1 üzerinde kalmak için sağ yöne dön",
-        "uk": "Рухайтесь праворуч на Ref1",
-        "vi": "Quẹo phải để chạy tiếp trên Ref1",
-        "zh-Hans": "继续向右，上Ref1"
-    },
-    "options": {
-        "classes": [
-            "motorway"
-        ]
-    }
+    "name": "Cool highway",
+    "ref": "Ref1;Ref2"
+  },
+  "instructions": {
+    "de": "Rechts weiterfahren auf Ref1",
+    "en": "Turn right to stay on Ref1",
+    "eo": "Veturu dekstren al Ref1",
+    "es": "Cruce a laderecha en Ref1",
+    "es-ES": "Cruce a la derecha en Ref1",
+    "fr": "Continuer à droite sur Ref1",
+    "id": "Terus kanan ke Ref1",
+    "it": "Gira a destra per stare su Ref1",
+    "nl": "Ga rechts naar Ref1",
+    "pl": "Skręć w prawo, aby pozostać na Ref1",
+    "pt-BR": "Continue à direita em Ref1",
+    "ro": "Virați dreapta pe Ref1",
+    "ru": "Двигайтесь направо по Ref1",
+    "sv": "Sväng höger och fortsätt på Ref1",
+    "tr": "Ref1 üzerinde kalmak için sağ yöne dön",
+    "uk": "Рухайтесь праворуч на Ref1",
+    "vi": "Quẹo phải để chạy tiếp trên Ref1",
+    "zh-Hans": "继续向右，上Ref1"
+  },
+  "options": {
+    "classes": ["motorway"]
+  }
 }

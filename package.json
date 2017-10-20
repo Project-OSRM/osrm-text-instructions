@@ -14,15 +14,25 @@
     "url": "git://github.com/Project-OSRM/osrm-text-instructions.js/"
   },
   "devDependencies": {
-    "eslint": "^3.4.0",
-    "tape": "^4.2.2",
     "mkdirp": "0.5.1",
-    "request": "2.79.0"
+    "request": "2.79.0",
+    "eslint": "^4.8.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.2.3",
+    "prettier": "^1.7.4",
+    "tape": "^4.8.0"
   },
   "scripts": {
-    "lint": "eslint *.js test/*.js scripts/*.js",
     "pretest": "npm run lint",
     "test": "tape test/*_test.js",
-    "transifex": "node scripts/transifex.js"
+    "transifex": "node scripts/transifex.js",
+    "precommit": "lint-staged",
+    "lint": "eslint .",
+    "format":
+      "prettier --single-quote --write \"{,rules/*,utils/*,test/**/}*.{js,json}\""
+  },
+  "lint-staged": {
+    "*.json": ["prettier --single-quote --write", "git add"],
+    "*.js": ["eslint .", "prettier --single-quote --write", "git add"]
   }
 }

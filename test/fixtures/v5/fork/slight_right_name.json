@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "fork",
-            "modifier": "slight right"
-        },
-        "name": "Way Name"
+  "step": {
+    "maneuver": {
+      "type": "fork",
+      "modifier": "slight right"
     },
-    "instructions": {
-        "de": "Rechts halten an der Gabelung auf Way Name",
-        "en": "Keep right at the fork onto Way Name",
-        "eo": "Dekstren ĉe la vojforko al Way Name",
-        "es": "Mantengase a la derecha en el cruce en Way Name",
-        "es-ES": "Mantente a la derecha en el cruce por Way Name",
-        "fr": "Rester à droite à l'embranchement sur Way Name",
-        "id": "Tetap di kanan pada pertigaan ke arah Way Name",
-        "it": "Mantieni la destra al bivio in Way Name",
-        "nl": "Rechts aanhouden op de splitsing naar Way Name",
-        "pl": "Na rozwidleniu trzymaj się prawej strony na Way Name",
-        "pt-BR": "Mantenha-se à direita na bifurcação em Way Name",
-        "ro": "Mențineți dreapta la bifurcație pe Way Name",
-        "ru": "На развилке держитесь правее на Way Name",
-        "sv": "Håll till höger in på Way Name",
-        "tr": "Way Name üzerindeki yol ayrımında sağda kal",
-        "uk": "На роздоріжжі тримайтеся праворуч і виїжджайте на Way Name",
-        "vi": "Nghiêng về bên phải ở ngã ba vào Way Name",
-        "zh-Hans": "在岔道保持向右，上Way Name"
-    }
+    "name": "Way Name"
+  },
+  "instructions": {
+    "de": "Rechts halten an der Gabelung auf Way Name",
+    "en": "Keep right at the fork onto Way Name",
+    "eo": "Dekstren ĉe la vojforko al Way Name",
+    "es": "Mantengase a la derecha en el cruce en Way Name",
+    "es-ES": "Mantente a la derecha en el cruce por Way Name",
+    "fr": "Rester à droite à l'embranchement sur Way Name",
+    "id": "Tetap di kanan pada pertigaan ke arah Way Name",
+    "it": "Mantieni la destra al bivio in Way Name",
+    "nl": "Rechts aanhouden op de splitsing naar Way Name",
+    "pl": "Na rozwidleniu trzymaj się prawej strony na Way Name",
+    "pt-BR": "Mantenha-se à direita na bifurcação em Way Name",
+    "ro": "Mențineți dreapta la bifurcație pe Way Name",
+    "ru": "На развилке держитесь правее на Way Name",
+    "sv": "Håll till höger in på Way Name",
+    "tr": "Way Name üzerindeki yol ayrımında sağda kal",
+    "uk": "На роздоріжжі тримайтеся праворуч і виїжджайте на Way Name",
+    "vi": "Nghiêng về bên phải ở ngã ba vào Way Name",
+    "zh-Hans": "在岔道保持向右，上Way Name"
+  }
 }

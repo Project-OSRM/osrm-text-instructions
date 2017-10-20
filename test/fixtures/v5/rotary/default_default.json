@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "modifier": "left",
-            "type": "rotary"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "modifier": "left",
+      "type": "rotary"
     },
-    "instructions": {
-        "de": "In den Kreisverkehr fahren",
-        "en": "Enter the traffic circle",
-        "eo": "Enveturu trafikcirklegon",
-        "es": "Entra en la rotonda",
-        "es-ES": "Incorpórate en la rotonda",
-        "fr": "Prendre le rond-point",
-        "id": "Masuk bundaran",
-        "it": "Immettiti nella rotonda",
-        "nl": "Ga het knooppunt op",
-        "pl": "Wjedź na rondo",
-        "pt-BR": "Entre na rotatória",
-        "ro": "Intrați în sensul giratoriu",
-        "ru": "Продолжите движение по круговой развязке",
-        "sv": "Kör in i rondellen",
-        "tr": "Dönel kavşağa gir",
-        "uk": "Рухайтесь по колу",
-        "vi": "Đi vào bùng binh",
-        "zh-Hans": "进入环岛"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "In den Kreisverkehr fahren",
+    "en": "Enter the traffic circle",
+    "eo": "Enveturu trafikcirklegon",
+    "es": "Entra en la rotonda",
+    "es-ES": "Incorpórate en la rotonda",
+    "fr": "Prendre le rond-point",
+    "id": "Masuk bundaran",
+    "it": "Immettiti nella rotonda",
+    "nl": "Ga het knooppunt op",
+    "pl": "Wjedź na rondo",
+    "pt-BR": "Entre na rotatória",
+    "ro": "Intrați în sensul giratoriu",
+    "ru": "Продолжите движение по круговой развязке",
+    "sv": "Kör in i rondellen",
+    "tr": "Dönel kavşağa gir",
+    "uk": "Рухайтесь по колу",
+    "vi": "Đi vào bùng binh",
+    "zh-Hans": "进入环岛"
+  }
 }

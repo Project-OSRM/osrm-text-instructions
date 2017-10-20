@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "new name",
-            "modifier": "straight"
-        },
-        "name": "Way Name",
-        "destinations": "Destination 1,Destination 2"
+  "step": {
+    "maneuver": {
+      "type": "new name",
+      "modifier": "straight"
     },
-    "instructions": {
-        "de": "Weiterfahren in Richtung Destination 1",
-        "en": "Continue towards Destination 1",
-        "eo": "Veturu rekten direkte al Destination 1",
-        "es": "Continúe hacia Destination 1",
-        "es-ES": "Continúa hacia Destination 1",
-        "fr": "Continuer tout droit en direction de Destination 1",
-        "id": "Terus menuju Destination 1",
-        "it": "Continua verso Destination 1",
-        "nl": "Ga rechtdoor richting Destination 1",
-        "pl": "Kontynuuj w kierunku Destination 1",
-        "pt-BR": "Continue em direção à Destination 1",
-        "ro": "Continuați spre Destination 1",
-        "ru": "Продолжите движение в направлении Destination 1",
-        "sv": "Fortsätt mot Destination 1",
-        "tr": "Destination 1 istikametinde devam et",
-        "uk": "Продовжуйте рух у напрямку Destination 1",
-        "vi": "Chạy tiếp đến Destination 1",
-        "zh-Hans": "Continue towards Destination 1"
-    }
+    "name": "Way Name",
+    "destinations": "Destination 1,Destination 2"
+  },
+  "instructions": {
+    "de": "Weiterfahren in Richtung Destination 1",
+    "en": "Continue towards Destination 1",
+    "eo": "Veturu rekten direkte al Destination 1",
+    "es": "Continúe hacia Destination 1",
+    "es-ES": "Continúa hacia Destination 1",
+    "fr": "Continuer tout droit en direction de Destination 1",
+    "id": "Terus menuju Destination 1",
+    "it": "Continua verso Destination 1",
+    "nl": "Ga rechtdoor richting Destination 1",
+    "pl": "Kontynuuj w kierunku Destination 1",
+    "pt-BR": "Continue em direção à Destination 1",
+    "ro": "Continuați spre Destination 1",
+    "ru": "Продолжите движение в направлении Destination 1",
+    "sv": "Fortsätt mot Destination 1",
+    "tr": "Destination 1 istikametinde devam et",
+    "uk": "Продовжуйте рух у напрямку Destination 1",
+    "vi": "Chạy tiếp đến Destination 1",
+    "zh-Hans": "Continue towards Destination 1"
+  }
 }

@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "notification",
-            "modifier": "slight left"
-        },
-        "name": "Way Name"
+  "step": {
+    "maneuver": {
+      "type": "notification",
+      "modifier": "slight left"
     },
-    "instructions": {
-        "de": "Leicht links weiterfahren auf Way Name",
-        "en": "Continue slight left onto Way Name",
-        "eo": "Pluu maldekstreten al Way Name",
-        "es": "Continúe ligeramente a la izquierda en Way Name",
-        "es-ES": "Continúa ligeramente a la izquierda por Way Name",
-        "fr": "Continuer légèrement à gauche sur Way Name",
-        "id": "Lanjutkan agak ke kiri menuju Way Name",
-        "it": "Continua a sinistra leggermente in Way Name",
-        "nl": "Ga links naar Way Name",
-        "pl": "Kontynuuj łagodnie w lewo na Way Name",
-        "pt-BR": "Continue ligeiramente à esquerda em Way Name",
-        "ro": "Continuați ușor stânga pe Way Name",
-        "ru": "Двигайтесь левее по Way Name",
-        "sv": "Fortsätt vänster på Way Name",
-        "tr": "Way Name üzerinde hafif sol yönde devam et",
-        "uk": "Рухайтесь плавно ліворуч на Way Name",
-        "vi": "Chạy tiếp bên trái nghiêng trên Way Name",
-        "zh-Hans": "继续向左，上Way Name"
-    }
+    "name": "Way Name"
+  },
+  "instructions": {
+    "de": "Leicht links weiterfahren auf Way Name",
+    "en": "Continue slight left onto Way Name",
+    "eo": "Pluu maldekstreten al Way Name",
+    "es": "Continúe ligeramente a la izquierda en Way Name",
+    "es-ES": "Continúa ligeramente a la izquierda por Way Name",
+    "fr": "Continuer légèrement à gauche sur Way Name",
+    "id": "Lanjutkan agak ke kiri menuju Way Name",
+    "it": "Continua a sinistra leggermente in Way Name",
+    "nl": "Ga links naar Way Name",
+    "pl": "Kontynuuj łagodnie w lewo na Way Name",
+    "pt-BR": "Continue ligeiramente à esquerda em Way Name",
+    "ro": "Continuați ușor stânga pe Way Name",
+    "ru": "Двигайтесь левее по Way Name",
+    "sv": "Fortsätt vänster på Way Name",
+    "tr": "Way Name üzerinde hafif sol yönde devam et",
+    "uk": "Рухайтесь плавно ліворуч на Way Name",
+    "vi": "Chạy tiếp bên trái nghiêng trên Way Name",
+    "zh-Hans": "继续向左，上Way Name"
+  }
 }

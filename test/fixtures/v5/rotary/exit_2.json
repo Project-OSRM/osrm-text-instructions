@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "modifier": "left",
-            "type": "rotary",
-            "exit": 2
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "modifier": "left",
+      "type": "rotary",
+      "exit": 2
     },
-    "instructions": {
-        "de": "Im Kreisverkehr die zweite Ausfahrt nehmen",
-        "en": "Enter the traffic circle and take the 2nd exit",
-        "eo": "Enveturu trafikcirklegon kaj sekve al 2-a elveturejo",
-        "es": "Entra en la rotonda y toma la 2ª salida",
-        "es-ES": "En la rotonda toma la 2ª salida",
-        "fr": "Prendre le rond-point et prendre la seconde sortie",
-        "id": "Masuk bundaran dan ambil jalan keluar 2",
-        "it": "Immettiti nella rotonda e prendi la 2ª uscita",
-        "nl": "Ga het knooppunt op en neem afslag 2e",
-        "pl": "Wjedź na rondo i wyjedź 2. zjazdem",
-        "pt-BR": "Entre na rotatória e saia na 2º saída",
-        "ro": "Intrați în sensul giratoriu și mergeți spre ieșirea a 2-a",
-        "ru": "На круговой развязке сверните на второй съезд",
-        "sv": "I rondellen ta 2:a avfarten",
-        "tr": "Dönel kavşağa gir ve ikinci numaralı çıkışa gir",
-        "uk": "Рухайтесь по колу та повереніть у 2й з'їзд",
-        "vi": "Đi vào bùng binh và ra tại đường thứ 2",
-        "zh-Hans": "进入环岛并从第二出口驶出"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Im Kreisverkehr die zweite Ausfahrt nehmen",
+    "en": "Enter the traffic circle and take the 2nd exit",
+    "eo": "Enveturu trafikcirklegon kaj sekve al 2-a elveturejo",
+    "es": "Entra en la rotonda y toma la 2ª salida",
+    "es-ES": "En la rotonda toma la 2ª salida",
+    "fr": "Prendre le rond-point et prendre la seconde sortie",
+    "id": "Masuk bundaran dan ambil jalan keluar 2",
+    "it": "Immettiti nella rotonda e prendi la 2ª uscita",
+    "nl": "Ga het knooppunt op en neem afslag 2e",
+    "pl": "Wjedź na rondo i wyjedź 2. zjazdem",
+    "pt-BR": "Entre na rotatória e saia na 2º saída",
+    "ro": "Intrați în sensul giratoriu și mergeți spre ieșirea a 2-a",
+    "ru": "На круговой развязке сверните на второй съезд",
+    "sv": "I rondellen ta 2:a avfarten",
+    "tr": "Dönel kavşağa gir ve ikinci numaralı çıkışa gir",
+    "uk": "Рухайтесь по колу та повереніть у 2й з'їзд",
+    "vi": "Đi vào bùng binh và ra tại đường thứ 2",
+    "zh-Hans": "进入环岛并从第二出口驶出"
+  }
 }

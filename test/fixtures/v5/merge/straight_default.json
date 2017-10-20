@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "merge",
-            "modifier": "straight"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "merge",
+      "modifier": "straight"
     },
-    "instructions": {
-        "de": "Geradeaus auffahren",
-        "en": "Merge straight",
-        "eo": "Enveturu rekten",
-        "es": "Gire a recto",
-        "es-ES": "Incorpórate recto",
-        "fr": "Rejoindre tout droit",
-        "id": "Bergabung lurus",
-        "it": "Immettiti a dritto",
-        "nl": "Bij de splitsing rechtdoor",
-        "pl": "Włącz się prosto",
-        "pt-BR": "Entre reto",
-        "ro": "Intrați în înainte",
-        "ru": "Перестройтесь прямо",
-        "sv": "Byt till rakt fram körfält",
-        "tr": "Düz yöne gir",
-        "uk": "Приєднайтеся до потоку прямо",
-        "vi": "Nhập sang thẳng",
-        "zh-Hans": "直行并道"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Geradeaus auffahren",
+    "en": "Merge straight",
+    "eo": "Enveturu rekten",
+    "es": "Gire a recto",
+    "es-ES": "Incorpórate recto",
+    "fr": "Rejoindre tout droit",
+    "id": "Bergabung lurus",
+    "it": "Immettiti a dritto",
+    "nl": "Bij de splitsing rechtdoor",
+    "pl": "Włącz się prosto",
+    "pt-BR": "Entre reto",
+    "ro": "Intrați în înainte",
+    "ru": "Перестройтесь прямо",
+    "sv": "Byt till rakt fram körfält",
+    "tr": "Düz yöne gir",
+    "uk": "Приєднайтеся до потоку прямо",
+    "vi": "Nhập sang thẳng",
+    "zh-Hans": "直行并道"
+  }
 }

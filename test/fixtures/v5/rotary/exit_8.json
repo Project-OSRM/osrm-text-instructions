@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "modifier": "left",
-            "type": "rotary",
-            "exit": 8
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "modifier": "left",
+      "type": "rotary",
+      "exit": 8
     },
-    "instructions": {
-        "de": "Im Kreisverkehr die achte Ausfahrt nehmen",
-        "en": "Enter the traffic circle and take the 8th exit",
-        "eo": "Enveturu trafikcirklegon kaj sekve al 8-a elveturejo",
-        "es": "Entra en la rotonda y toma la 8ª salida",
-        "es-ES": "En la rotonda toma la 8ª salida",
-        "fr": "Prendre le rond-point et prendre la huitième sortie",
-        "id": "Masuk bundaran dan ambil jalan keluar 8",
-        "it": "Immettiti nella rotonda e prendi la 8ª uscita",
-        "nl": "Ga het knooppunt op en neem afslag 8e",
-        "pl": "Wjedź na rondo i wyjedź 8. zjazdem",
-        "pt-BR": "Entre na rotatória e saia na 8º saída",
-        "ro": "Intrați în sensul giratoriu și mergeți spre ieșirea a 8-a",
-        "ru": "На круговой развязке сверните на восьмой съезд",
-        "sv": "I rondellen ta 8:e avfarten",
-        "tr": "Dönel kavşağa gir ve sekizinci numaralı çıkışa gir",
-        "uk": "Рухайтесь по колу та повереніть у 8й з'їзд",
-        "vi": "Đi vào bùng binh và ra tại đường thứ 8",
-        "zh-Hans": "进入环岛并从第八出口驶出"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Im Kreisverkehr die achte Ausfahrt nehmen",
+    "en": "Enter the traffic circle and take the 8th exit",
+    "eo": "Enveturu trafikcirklegon kaj sekve al 8-a elveturejo",
+    "es": "Entra en la rotonda y toma la 8ª salida",
+    "es-ES": "En la rotonda toma la 8ª salida",
+    "fr": "Prendre le rond-point et prendre la huitième sortie",
+    "id": "Masuk bundaran dan ambil jalan keluar 8",
+    "it": "Immettiti nella rotonda e prendi la 8ª uscita",
+    "nl": "Ga het knooppunt op en neem afslag 8e",
+    "pl": "Wjedź na rondo i wyjedź 8. zjazdem",
+    "pt-BR": "Entre na rotatória e saia na 8º saída",
+    "ro": "Intrați în sensul giratoriu și mergeți spre ieșirea a 8-a",
+    "ru": "На круговой развязке сверните на восьмой съезд",
+    "sv": "I rondellen ta 8:e avfarten",
+    "tr": "Dönel kavşağa gir ve sekizinci numaralı çıkışa gir",
+    "uk": "Рухайтесь по колу та повереніть у 8й з'їзд",
+    "vi": "Đi vào bùng binh và ra tại đường thứ 8",
+    "zh-Hans": "进入环岛并从第八出口驶出"
+  }
 }

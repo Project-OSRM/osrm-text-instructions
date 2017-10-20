@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "turn",
-            "modifier": "slight right"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "turn",
+      "modifier": "slight right"
     },
-    "instructions": {
-        "de": "Leicht rechts abbiegen",
-        "en": "Make a slight right",
-        "eo": "Veturu dekstreten",
-        "es": "Siga ligeramente a la derecha",
-        "es-ES": "Gira ligeramente a la derecha",
-        "fr": "Tourner légèrement à droite",
-        "id": "Lakukan agak ke kanan",
-        "it": "Fai una destra leggermente",
-        "nl": "Ga rechts",
-        "pl": "Łagodnie w prawo",
-        "pt-BR": "Siga ligeiramente à direita",
-        "ro": "Virați ușor dreapta",
-        "ru": "Двигайтесь правее",
-        "sv": "Sväng höger",
-        "tr": "Hafif sağ yöne dön",
-        "uk": "Рухайтесь плавно праворуч",
-        "vi": "Quẹo phải nghiêng",
-        "zh-Hans": "向右转弯"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Leicht rechts abbiegen",
+    "en": "Make a slight right",
+    "eo": "Veturu dekstreten",
+    "es": "Siga ligeramente a la derecha",
+    "es-ES": "Gira ligeramente a la derecha",
+    "fr": "Tourner légèrement à droite",
+    "id": "Lakukan agak ke kanan",
+    "it": "Fai una destra leggermente",
+    "nl": "Ga rechts",
+    "pl": "Łagodnie w prawo",
+    "pt-BR": "Siga ligeiramente à direita",
+    "ro": "Virați ușor dreapta",
+    "ru": "Двигайтесь правее",
+    "sv": "Sväng höger",
+    "tr": "Hafif sağ yöne dön",
+    "uk": "Рухайтесь плавно праворуч",
+    "vi": "Quẹo phải nghiêng",
+    "zh-Hans": "向右转弯"
+  }
 }

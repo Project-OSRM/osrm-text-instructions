@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "continue",
-            "modifier": "right"
-        },
-        "name": "Way Name"
+  "step": {
+    "maneuver": {
+      "type": "continue",
+      "modifier": "right"
     },
-    "instructions": {
-        "de": "Rechts weiterfahren auf Way Name",
-        "en": "Turn right to stay on Way Name",
-        "eo": "Veturu dekstren al Way Name",
-        "es": "Cruce a laderecha en Way Name",
-        "es-ES": "Cruce a la derecha en Way Name",
-        "fr": "Continuer à droite sur Way Name",
-        "id": "Terus kanan ke Way Name",
-        "it": "Gira a destra per stare su Way Name",
-        "nl": "Ga rechts naar Way Name",
-        "pl": "Skręć w prawo, aby pozostać na Way Name",
-        "pt-BR": "Continue à direita em Way Name",
-        "ro": "Virați dreapta pe Way Name",
-        "ru": "Двигайтесь направо по Way Name",
-        "sv": "Sväng höger och fortsätt på Way Name",
-        "tr": "Way Name üzerinde kalmak için sağ yöne dön",
-        "uk": "Рухайтесь праворуч на Way Name",
-        "vi": "Quẹo phải để chạy tiếp trên Way Name",
-        "zh-Hans": "继续向右，上Way Name"
-    }
+    "name": "Way Name"
+  },
+  "instructions": {
+    "de": "Rechts weiterfahren auf Way Name",
+    "en": "Turn right to stay on Way Name",
+    "eo": "Veturu dekstren al Way Name",
+    "es": "Cruce a laderecha en Way Name",
+    "es-ES": "Cruce a la derecha en Way Name",
+    "fr": "Continuer à droite sur Way Name",
+    "id": "Terus kanan ke Way Name",
+    "it": "Gira a destra per stare su Way Name",
+    "nl": "Ga rechts naar Way Name",
+    "pl": "Skręć w prawo, aby pozostać na Way Name",
+    "pt-BR": "Continue à direita em Way Name",
+    "ro": "Virați dreapta pe Way Name",
+    "ru": "Двигайтесь направо по Way Name",
+    "sv": "Sväng höger och fortsätt på Way Name",
+    "tr": "Way Name üzerinde kalmak için sağ yöne dön",
+    "uk": "Рухайтесь праворуч на Way Name",
+    "vi": "Quẹo phải để chạy tiếp trên Way Name",
+    "zh-Hans": "继续向右，上Way Name"
+  }
 }

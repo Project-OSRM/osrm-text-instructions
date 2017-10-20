@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "new name",
-            "modifier": "uturn"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "new name",
+      "modifier": "uturn"
     },
-    "instructions": {
-        "de": "180°-Wendung",
-        "en": "Make a U-turn",
-        "eo": "Turniĝu malantaŭen",
-        "es": "Haz un cambio de sentido",
-        "es-ES": "Haz un cambio de sentido",
-        "fr": "Faire demi-tour",
-        "id": "Putar balik",
-        "it": "Fai un'inversione a U",
-        "nl": "Keer om",
-        "pl": "Zawróć",
-        "pt-BR": "Faça o retorno",
-        "ro": "Întoarceți-vă",
-        "ru": "Развернитесь",
-        "sv": "Gör en U-sväng",
-        "tr": "U dönüşü yapın",
-        "uk": "Здійсніть розворот",
-        "vi": "Quẹo ngược lại",
-        "zh-Hans": "调头"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "180°-Wendung",
+    "en": "Make a U-turn",
+    "eo": "Turniĝu malantaŭen",
+    "es": "Haz un cambio de sentido",
+    "es-ES": "Haz un cambio de sentido",
+    "fr": "Faire demi-tour",
+    "id": "Putar balik",
+    "it": "Fai un'inversione a U",
+    "nl": "Keer om",
+    "pl": "Zawróć",
+    "pt-BR": "Faça o retorno",
+    "ro": "Întoarceți-vă",
+    "ru": "Развернитесь",
+    "sv": "Gör en U-sväng",
+    "tr": "U dönüşü yapın",
+    "uk": "Здійсніть розворот",
+    "vi": "Quẹo ngược lại",
+    "zh-Hans": "调头"
+  }
 }

@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "merge",
-            "modifier": "sharp left"
-        },
-        "name": "Way Name"
+  "step": {
+    "maneuver": {
+      "type": "merge",
+      "modifier": "sharp left"
     },
-    "instructions": {
-        "de": "Scharf links auffahren auf Way Name",
-        "en": "Merge left onto Way Name",
-        "eo": "Enveture de maldekstre al Way Name",
-        "es": "Gire a la izquierda en Way Name",
-        "es-ES": "Incorpórate a la izquierda por Way Name",
-        "fr": "Rejoindre Way Name par la gauche",
-        "id": "Bergabung di kiri ke arah Way Name",
-        "it": "Immettiti a sinistra in Way Name",
-        "nl": "Bij de splitsing linksaf naar Way Name",
-        "pl": "Włącz się z lewej strony na Way Name",
-        "pt-BR": "Entre à esquerda na Way Name",
-        "ro": "Intrați în stânga pe Way Name",
-        "ru": "Перестраивайтесь левее на Way Name",
-        "sv": "Byt till vänstra körfältet in på Way Name",
-        "tr": "Way Name üzerinde sola gir",
-        "uk": "Приєднайтеся до потоку ліворуч на Way Name",
-        "vi": "Nhập sang trái vào Way Name",
-        "zh-Hans": "向左并道，上Way Name"
-    }
+    "name": "Way Name"
+  },
+  "instructions": {
+    "de": "Scharf links auffahren auf Way Name",
+    "en": "Merge left onto Way Name",
+    "eo": "Enveture de maldekstre al Way Name",
+    "es": "Gire a la izquierda en Way Name",
+    "es-ES": "Incorpórate a la izquierda por Way Name",
+    "fr": "Rejoindre Way Name par la gauche",
+    "id": "Bergabung di kiri ke arah Way Name",
+    "it": "Immettiti a sinistra in Way Name",
+    "nl": "Bij de splitsing linksaf naar Way Name",
+    "pl": "Włącz się z lewej strony na Way Name",
+    "pt-BR": "Entre à esquerda na Way Name",
+    "ro": "Intrați în stânga pe Way Name",
+    "ru": "Перестраивайтесь левее на Way Name",
+    "sv": "Byt till vänstra körfältet in på Way Name",
+    "tr": "Way Name üzerinde sola gir",
+    "uk": "Приєднайтеся до потоку ліворуч на Way Name",
+    "vi": "Nhập sang trái vào Way Name",
+    "zh-Hans": "向左并道，上Way Name"
+  }
 }

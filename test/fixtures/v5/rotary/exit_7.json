@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "modifier": "left",
-            "type": "rotary",
-            "exit": 7
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "modifier": "left",
+      "type": "rotary",
+      "exit": 7
     },
-    "instructions": {
-        "de": "Im Kreisverkehr die siebente Ausfahrt nehmen",
-        "en": "Enter the traffic circle and take the 7th exit",
-        "eo": "Enveturu trafikcirklegon kaj sekve al 7-a elveturejo",
-        "es": "Entra en la rotonda y toma la 7ª salida",
-        "es-ES": "En la rotonda toma la 7ª salida",
-        "fr": "Prendre le rond-point et prendre la septième sortie",
-        "id": "Masuk bundaran dan ambil jalan keluar 7",
-        "it": "Immettiti nella rotonda e prendi la 7ª uscita",
-        "nl": "Ga het knooppunt op en neem afslag 7e",
-        "pl": "Wjedź na rondo i wyjedź 7. zjazdem",
-        "pt-BR": "Entre na rotatória e saia na 7º saída",
-        "ro": "Intrați în sensul giratoriu și mergeți spre ieșirea a 7-a",
-        "ru": "На круговой развязке сверните на седьмой съезд",
-        "sv": "I rondellen ta 7:e avfarten",
-        "tr": "Dönel kavşağa gir ve yedinci numaralı çıkışa gir",
-        "uk": "Рухайтесь по колу та повереніть у 7й з'їзд",
-        "vi": "Đi vào bùng binh và ra tại đường thứ 7",
-        "zh-Hans": "进入环岛并从第七出口驶出"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Im Kreisverkehr die siebente Ausfahrt nehmen",
+    "en": "Enter the traffic circle and take the 7th exit",
+    "eo": "Enveturu trafikcirklegon kaj sekve al 7-a elveturejo",
+    "es": "Entra en la rotonda y toma la 7ª salida",
+    "es-ES": "En la rotonda toma la 7ª salida",
+    "fr": "Prendre le rond-point et prendre la septième sortie",
+    "id": "Masuk bundaran dan ambil jalan keluar 7",
+    "it": "Immettiti nella rotonda e prendi la 7ª uscita",
+    "nl": "Ga het knooppunt op en neem afslag 7e",
+    "pl": "Wjedź na rondo i wyjedź 7. zjazdem",
+    "pt-BR": "Entre na rotatória e saia na 7º saída",
+    "ro": "Intrați în sensul giratoriu și mergeți spre ieșirea a 7-a",
+    "ru": "На круговой развязке сверните на седьмой съезд",
+    "sv": "I rondellen ta 7:e avfarten",
+    "tr": "Dönel kavşağa gir ve yedinci numaralı çıkışa gir",
+    "uk": "Рухайтесь по колу та повереніть у 7й з'їзд",
+    "vi": "Đi vào bùng binh và ra tại đường thứ 7",
+    "zh-Hans": "进入环岛并从第七出口驶出"
+  }
 }

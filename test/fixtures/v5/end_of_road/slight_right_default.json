@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "end of road",
-            "modifier": "slight right"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "end of road",
+      "modifier": "slight right"
     },
-    "instructions": {
-        "de": "Leicht rechts abbiegen",
-        "en": "Turn slight right",
-        "eo": "Veturu dekstreten",
-        "es": "Gire a ligeramente a la derecha",
-        "es-ES": "Al final de la calle gira ligeramente a la derecha",
-        "fr": "Tourner légèrement à droite",
-        "id": "Belok agak ke kanan",
-        "it": "Gira a destra leggermente",
-        "nl": "Ga rechts",
-        "pl": "Skręć łagodnie w prawo",
-        "pt-BR": "Vire ligeiramente à direita",
-        "ro": "Virați ușor dreapta",
-        "ru": "Поверните правее",
-        "sv": "Sväng höger",
-        "tr": "Hafif sağ tarafa dönün",
-        "uk": "Поверніть плавно праворуч",
-        "vi": "Quẹo phải nghiêng",
-        "zh-Hans": "向右行驶"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Leicht rechts abbiegen",
+    "en": "Turn slight right",
+    "eo": "Veturu dekstreten",
+    "es": "Gire a ligeramente a la derecha",
+    "es-ES": "Al final de la calle gira ligeramente a la derecha",
+    "fr": "Tourner légèrement à droite",
+    "id": "Belok agak ke kanan",
+    "it": "Gira a destra leggermente",
+    "nl": "Ga rechts",
+    "pl": "Skręć łagodnie w prawo",
+    "pt-BR": "Vire ligeiramente à direita",
+    "ro": "Virați ușor dreapta",
+    "ru": "Поверните правее",
+    "sv": "Sväng höger",
+    "tr": "Hafif sağ tarafa dönün",
+    "uk": "Поверніть плавно праворуч",
+    "vi": "Quẹo phải nghiêng",
+    "zh-Hans": "向右行驶"
+  }
 }

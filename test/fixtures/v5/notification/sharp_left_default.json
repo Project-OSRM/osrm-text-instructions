@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "notification",
-            "modifier": "sharp left"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "notification",
+      "modifier": "sharp left"
     },
-    "instructions": {
-        "de": "Scharf links weiterfahren",
-        "en": "Continue sharp left",
-        "eo": "Pluu maldekstregen",
-        "es": "Continúe cerrada a la izquierda",
-        "es-ES": "Continúa cerrada a la izquierda",
-        "fr": "Continuer franchement à gauche",
-        "id": "Lanjutkan tajam kiri",
-        "it": "Continua a sinistra",
-        "nl": "Ga linksaf",
-        "pl": "Kontynuuj ostro w lewo",
-        "pt-BR": "Continue acentuadamente à esquerda",
-        "ro": "Continuați brusc stânga",
-        "ru": "Двигайтесь налево",
-        "sv": "Fortsätt vänster",
-        "tr": "Keskin sol yönde devam et",
-        "uk": "Рухайтесь різко ліворуч",
-        "vi": "Chạy tiếp bên trái gắt",
-        "zh-Hans": "继续向左"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Scharf links weiterfahren",
+    "en": "Continue sharp left",
+    "eo": "Pluu maldekstregen",
+    "es": "Continúe cerrada a la izquierda",
+    "es-ES": "Continúa cerrada a la izquierda",
+    "fr": "Continuer franchement à gauche",
+    "id": "Lanjutkan tajam kiri",
+    "it": "Continua a sinistra",
+    "nl": "Ga linksaf",
+    "pl": "Kontynuuj ostro w lewo",
+    "pt-BR": "Continue acentuadamente à esquerda",
+    "ro": "Continuați brusc stânga",
+    "ru": "Двигайтесь налево",
+    "sv": "Fortsätt vänster",
+    "tr": "Keskin sol yönde devam et",
+    "uk": "Рухайтесь різко ліворуч",
+    "vi": "Chạy tiếp bên trái gắt",
+    "zh-Hans": "继续向左"
+  }
 }

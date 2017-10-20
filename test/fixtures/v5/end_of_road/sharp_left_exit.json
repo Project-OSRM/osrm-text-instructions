@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "end of road",
-            "modifier": "sharp left"
-        },
-        "name": "Way Name",
-        "exits": "4A;4B"
+  "step": {
+    "maneuver": {
+      "type": "end of road",
+      "modifier": "sharp left"
     },
-    "instructions": {
-        "de": "Scharf links abbiegen auf Way Name",
-        "en": "Turn sharp left onto Way Name",
-        "eo": "Veturu maldekstregen direkte al Way Name",
-        "es": "Gire a cerrada a la izquierda en Way Name",
-        "es-ES": "Al final de la calle gira cerrada a la izquierda por Way Name",
-        "fr": "Tourner franchement à gauche sur Way Name",
-        "id": "Belok tajam kiri ke Way Name",
-        "it": "Gira a sinistra in Way Name",
-        "nl": "Ga linksaf naar Way Name",
-        "pl": "Skręć ostro w lewo na Way Name",
-        "pt-BR": "Vire acentuadamente à esquerda em Way Name",
-        "ro": "Virați brusc stânga pe Way Name",
-        "ru": "Поверните налево на Way Name",
-        "sv": "Sväng vänster in på Way Name",
-        "tr": "Way Name üzerinde keskin sol yöne dön",
-        "uk": "Поверніть різко ліворуч на Way Name",
-        "vi": "Quẹo trái gắt vào Way Name",
-        "zh-Hans": "向左行驶，上Way Name"
-    }
+    "name": "Way Name",
+    "exits": "4A;4B"
+  },
+  "instructions": {
+    "de": "Scharf links abbiegen auf Way Name",
+    "en": "Turn sharp left onto Way Name",
+    "eo": "Veturu maldekstregen direkte al Way Name",
+    "es": "Gire a cerrada a la izquierda en Way Name",
+    "es-ES": "Al final de la calle gira cerrada a la izquierda por Way Name",
+    "fr": "Tourner franchement à gauche sur Way Name",
+    "id": "Belok tajam kiri ke Way Name",
+    "it": "Gira a sinistra in Way Name",
+    "nl": "Ga linksaf naar Way Name",
+    "pl": "Skręć ostro w lewo na Way Name",
+    "pt-BR": "Vire acentuadamente à esquerda em Way Name",
+    "ro": "Virați brusc stânga pe Way Name",
+    "ru": "Поверните налево на Way Name",
+    "sv": "Sväng vänster in på Way Name",
+    "tr": "Way Name üzerinde keskin sol yöne dön",
+    "uk": "Поверніть різко ліворуч на Way Name",
+    "vi": "Quẹo trái gắt vào Way Name",
+    "zh-Hans": "向左行驶，上Way Name"
+  }
 }

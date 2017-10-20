@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "notification",
-            "modifier": "right"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "notification",
+      "modifier": "right"
     },
-    "instructions": {
-        "de": "Rechts weiterfahren",
-        "en": "Continue right",
-        "eo": "Pluu dekstren",
-        "es": "Continúe derecha",
-        "es-ES": "Continúa a la derecha",
-        "fr": "Continuer à droite",
-        "id": "Lanjutkan kanan",
-        "it": "Continua a destra",
-        "nl": "Ga rechts",
-        "pl": "Kontynuuj prawo",
-        "pt-BR": "Continue à direita",
-        "ro": "Continuați dreapta",
-        "ru": "Двигайтесь направо",
-        "sv": "Fortsätt höger",
-        "tr": "Sağ yönde devam et",
-        "uk": "Рухайтесь праворуч",
-        "vi": "Chạy tiếp bên phải",
-        "zh-Hans": "继续向右"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Rechts weiterfahren",
+    "en": "Continue right",
+    "eo": "Pluu dekstren",
+    "es": "Continúe derecha",
+    "es-ES": "Continúa a la derecha",
+    "fr": "Continuer à droite",
+    "id": "Lanjutkan kanan",
+    "it": "Continua a destra",
+    "nl": "Ga rechts",
+    "pl": "Kontynuuj prawo",
+    "pt-BR": "Continue à direita",
+    "ro": "Continuați dreapta",
+    "ru": "Двигайтесь направо",
+    "sv": "Fortsätt höger",
+    "tr": "Sağ yönde devam et",
+    "uk": "Рухайтесь праворуч",
+    "vi": "Chạy tiếp bên phải",
+    "zh-Hans": "继续向右"
+  }
 }

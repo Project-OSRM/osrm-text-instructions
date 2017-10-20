@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "end of road",
-            "modifier": "straight"
-        },
-        "name": "Way Name"
+  "step": {
+    "maneuver": {
+      "type": "end of road",
+      "modifier": "straight"
     },
-    "instructions": {
-        "de": "Geradeaus weiterfahren auf Way Name",
-        "en": "Continue straight onto Way Name",
-        "eo": "Veturu rekten al Way Name",
-        "es": "Continúe recto en Way Name",
-        "es-ES": "Al final de la calle continúa recto por Way Name",
-        "fr": "Continuer tout droit sur Way Name",
-        "id": "Tetap lurus ke Way Name ",
-        "it": "Continua dritto in Way Name",
-        "nl": "Ga naar Way Name",
-        "pl": "Kontynuuj prosto na Way Name",
-        "pt-BR": "Continue reto em Way Name",
-        "ro": "Continuați înainte pe Way Name",
-        "ru": "Двигайтесь прямо по Way Name",
-        "sv": "Fortsätt rakt fram in på Way Name",
-        "tr": "Way Name üzerinde düz devam et",
-        "uk": "Продовжуйте рух прямо по Way Name",
-        "vi": "Chạy tiếp trên Way Name",
-        "zh-Hans": "继续直行，上Way Name"
-    }
+    "name": "Way Name"
+  },
+  "instructions": {
+    "de": "Geradeaus weiterfahren auf Way Name",
+    "en": "Continue straight onto Way Name",
+    "eo": "Veturu rekten al Way Name",
+    "es": "Continúe recto en Way Name",
+    "es-ES": "Al final de la calle continúa recto por Way Name",
+    "fr": "Continuer tout droit sur Way Name",
+    "id": "Tetap lurus ke Way Name ",
+    "it": "Continua dritto in Way Name",
+    "nl": "Ga naar Way Name",
+    "pl": "Kontynuuj prosto na Way Name",
+    "pt-BR": "Continue reto em Way Name",
+    "ro": "Continuați înainte pe Way Name",
+    "ru": "Двигайтесь прямо по Way Name",
+    "sv": "Fortsätt rakt fram in på Way Name",
+    "tr": "Way Name üzerinde düz devam et",
+    "uk": "Продовжуйте рух прямо по Way Name",
+    "vi": "Chạy tiếp trên Way Name",
+    "zh-Hans": "继续直行，上Way Name"
+  }
 }

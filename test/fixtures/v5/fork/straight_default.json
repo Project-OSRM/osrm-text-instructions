@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "fork",
-            "modifier": "straight"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "fork",
+      "modifier": "straight"
     },
-    "instructions": {
-        "de": "Geradeaus halten an der Gabelung",
-        "en": "Keep straight at the fork",
-        "eo": "Daŭru rekten ĉe la vojforko",
-        "es": "Mantengase recto en el cruce",
-        "es-ES": "Mantente recto en el cruce",
-        "fr": "Rester tout droit à l'embranchement",
-        "id": "Tetap lurus di pertigaan",
-        "it": "Mantieni la dritto al bivio",
-        "nl": "Ga rechtdoor op de splitsing",
-        "pl": "Na rozwidleniu trzymaj się prosto",
-        "pt-BR": "Mantenha-se reto na bifurcação",
-        "ro": "Mențineți înainte la bifurcație",
-        "ru": "На развилке двигайтесь прямо",
-        "sv": "Håll till rakt fram där vägen delar sig",
-        "tr": "Yol ayrımında düz yönde kal",
-        "uk": "На роздоріжжі тримайтеся прямо",
-        "vi": "Đi bên thẳng ở ngã ba",
-        "zh-Hans": "在岔道保持直行"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Geradeaus halten an der Gabelung",
+    "en": "Keep straight at the fork",
+    "eo": "Daŭru rekten ĉe la vojforko",
+    "es": "Mantengase recto en el cruce",
+    "es-ES": "Mantente recto en el cruce",
+    "fr": "Rester tout droit à l'embranchement",
+    "id": "Tetap lurus di pertigaan",
+    "it": "Mantieni la dritto al bivio",
+    "nl": "Ga rechtdoor op de splitsing",
+    "pl": "Na rozwidleniu trzymaj się prosto",
+    "pt-BR": "Mantenha-se reto na bifurcação",
+    "ro": "Mențineți înainte la bifurcație",
+    "ru": "На развилке двигайтесь прямо",
+    "sv": "Håll till rakt fram där vägen delar sig",
+    "tr": "Yol ayrımında düz yönde kal",
+    "uk": "На роздоріжжі тримайтеся прямо",
+    "vi": "Đi bên thẳng ở ngã ba",
+    "zh-Hans": "在岔道保持直行"
+  }
 }

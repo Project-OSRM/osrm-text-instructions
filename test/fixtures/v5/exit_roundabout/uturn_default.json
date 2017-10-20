@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "exit roundabout",
-            "modifier": "uturn"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "exit roundabout",
+      "modifier": "uturn"
     },
-    "instructions": {
-        "de": "180°-Wendung abbiegen",
-        "en": "Make a U-turn",
-        "eo": "Veturu turniĝu malantaŭen",
-        "es": "Siga cambio de sentido",
-        "es-ES": "Siga cambio de sentido",
-        "fr": "Tourner demi-tour",
-        "id": "Lakukan putar balik",
-        "it": "Fai una inversione a U",
-        "nl": "Ga omkeren",
-        "pl": "Zawróć",
-        "pt-BR": "Siga retorno",
-        "ro": "Virați întoarcere",
-        "ru": "Двигайтесь на разворот",
-        "sv": "Sväng U-sväng",
-        "tr": "U dönüşü yöne dön",
-        "uk": "Рухайтесь розворот",
-        "vi": "Quẹo ngược",
-        "zh-Hans": "调头转弯"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "180°-Wendung abbiegen",
+    "en": "Make a U-turn",
+    "eo": "Veturu turniĝu malantaŭen",
+    "es": "Siga cambio de sentido",
+    "es-ES": "Siga cambio de sentido",
+    "fr": "Tourner demi-tour",
+    "id": "Lakukan putar balik",
+    "it": "Fai una inversione a U",
+    "nl": "Ga omkeren",
+    "pl": "Zawróć",
+    "pt-BR": "Siga retorno",
+    "ro": "Virați întoarcere",
+    "ru": "Двигайтесь на разворот",
+    "sv": "Sväng U-sväng",
+    "tr": "U dönüşü yöne dön",
+    "uk": "Рухайтесь розворот",
+    "vi": "Quẹo ngược",
+    "zh-Hans": "调头转弯"
+  }
 }

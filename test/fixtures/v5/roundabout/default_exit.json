@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "modifier": "left",
-            "type": "roundabout"
-        },
-        "name": "Way Name",
-        "exits": "4A;4B"
+  "step": {
+    "maneuver": {
+      "modifier": "left",
+      "type": "roundabout"
     },
-    "instructions": {
-        "de": "Im Kreisverkehr die Ausfahrt auf Way Name nehmen",
-        "en": "Enter the traffic circle and exit onto Way Name",
-        "eo": "Enveturu trafikcirklon kaj elveturu al Way Name",
-        "es": "Entra en la rotonda y sal en Way Name",
-        "es-ES": "Entra en la rotonda y sal por Way Name",
-        "fr": "Prendre le rond-point et sortir par Way Name",
-        "id": "Masuk bundaran dan keluar arah Way Name",
-        "it": "Entra nella rotonda e prendi l'uscita in Way Name",
-        "nl": "Verlaat de rotonde naar Way Name",
-        "pl": "Wjedź na rondo i wyjedź na Way Name",
-        "pt-BR": "Entre na rotatória e saia em Way Name",
-        "ro": "Intrați în sensul giratoriu și ieșiți pe Way Name",
-        "ru": "На круговой развязке сверните на Way Name",
-        "sv": "I rondellen ta av mot Way Name",
-        "tr": "Göbekli kavşağa gir ve Way Name üzerinde çık",
-        "uk": "Рухайтесь по кільцю до Way Name",
-        "vi": "Đi vào vòng xuyến và ra tại Way Name",
-        "zh-Hans": "通过环岛后驶入Way Name"
-    }
+    "name": "Way Name",
+    "exits": "4A;4B"
+  },
+  "instructions": {
+    "de": "Im Kreisverkehr die Ausfahrt auf Way Name nehmen",
+    "en": "Enter the traffic circle and exit onto Way Name",
+    "eo": "Enveturu trafikcirklon kaj elveturu al Way Name",
+    "es": "Entra en la rotonda y sal en Way Name",
+    "es-ES": "Entra en la rotonda y sal por Way Name",
+    "fr": "Prendre le rond-point et sortir par Way Name",
+    "id": "Masuk bundaran dan keluar arah Way Name",
+    "it": "Entra nella rotonda e prendi l'uscita in Way Name",
+    "nl": "Verlaat de rotonde naar Way Name",
+    "pl": "Wjedź na rondo i wyjedź na Way Name",
+    "pt-BR": "Entre na rotatória e saia em Way Name",
+    "ro": "Intrați în sensul giratoriu și ieșiți pe Way Name",
+    "ru": "На круговой развязке сверните на Way Name",
+    "sv": "I rondellen ta av mot Way Name",
+    "tr": "Göbekli kavşağa gir ve Way Name üzerinde çık",
+    "uk": "Рухайтесь по кільцю до Way Name",
+    "vi": "Đi vào vòng xuyến và ra tại Way Name",
+    "zh-Hans": "通过环岛后驶入Way Name"
+  }
 }

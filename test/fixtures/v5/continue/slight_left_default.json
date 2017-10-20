@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "continue",
-            "modifier": "slight left"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "continue",
+      "modifier": "slight left"
     },
-    "instructions": {
-        "de": "Leicht links",
-        "en": "Make a slight left",
-        "eo": "Turniĝu ete maldekstren",
-        "es": "Gire a la izquierda",
-        "es-ES": "Gire a la izquierda",
-        "fr": "Continuer légèrement à gauche",
-        "id": "Tetap agak di kiri",
-        "it": "Fai una leggera curva a sinistra",
-        "nl": "Links aanhouden",
-        "pl": "Skręć w lewo w łagodny zakręt",
-        "pt-BR": "Continue ligeiramente à esquerda",
-        "ro": "Virați ușor stânga",
-        "ru": "Плавно поверните налево",
-        "sv": "Sväng vänster",
-        "tr": "Sola hafif dönüş yap",
-        "uk": "Прийміть різко ліворуч",
-        "vi": "Nghiêng về bên trái",
-        "zh-Hans": "向左行驶"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Leicht links",
+    "en": "Make a slight left",
+    "eo": "Turniĝu ete maldekstren",
+    "es": "Gire a la izquierda",
+    "es-ES": "Gire a la izquierda",
+    "fr": "Continuer légèrement à gauche",
+    "id": "Tetap agak di kiri",
+    "it": "Fai una leggera curva a sinistra",
+    "nl": "Links aanhouden",
+    "pl": "Skręć w lewo w łagodny zakręt",
+    "pt-BR": "Continue ligeiramente à esquerda",
+    "ro": "Virați ușor stânga",
+    "ru": "Плавно поверните налево",
+    "sv": "Sväng vänster",
+    "tr": "Sola hafif dönüş yap",
+    "uk": "Прийміть різко ліворуч",
+    "vi": "Nghiêng về bên trái",
+    "zh-Hans": "向左行驶"
+  }
 }

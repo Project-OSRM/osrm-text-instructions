@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "modifier": "left",
-            "type": "rotary",
-            "exit": 4
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "modifier": "left",
+      "type": "rotary",
+      "exit": 4
     },
-    "instructions": {
-        "de": "Im Kreisverkehr die vierte Ausfahrt nehmen",
-        "en": "Enter the traffic circle and take the 4th exit",
-        "eo": "Enveturu trafikcirklegon kaj sekve al 4-a elveturejo",
-        "es": "Entra en la rotonda y toma la 4ª salida",
-        "es-ES": "En la rotonda toma la 4ª salida",
-        "fr": "Prendre le rond-point et prendre la quatrième sortie",
-        "id": "Masuk bundaran dan ambil jalan keluar 4",
-        "it": "Immettiti nella rotonda e prendi la 4ª uscita",
-        "nl": "Ga het knooppunt op en neem afslag 4e",
-        "pl": "Wjedź na rondo i wyjedź 4. zjazdem",
-        "pt-BR": "Entre na rotatória e saia na 4º saída",
-        "ro": "Intrați în sensul giratoriu și mergeți spre ieșirea a 4-a",
-        "ru": "На круговой развязке сверните на четвёртый съезд",
-        "sv": "I rondellen ta 4:e avfarten",
-        "tr": "Dönel kavşağa gir ve dördüncü numaralı çıkışa gir",
-        "uk": "Рухайтесь по колу та повереніть у 4й з'їзд",
-        "vi": "Đi vào bùng binh và ra tại đường thứ 4",
-        "zh-Hans": "进入环岛并从第四出口驶出"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Im Kreisverkehr die vierte Ausfahrt nehmen",
+    "en": "Enter the traffic circle and take the 4th exit",
+    "eo": "Enveturu trafikcirklegon kaj sekve al 4-a elveturejo",
+    "es": "Entra en la rotonda y toma la 4ª salida",
+    "es-ES": "En la rotonda toma la 4ª salida",
+    "fr": "Prendre le rond-point et prendre la quatrième sortie",
+    "id": "Masuk bundaran dan ambil jalan keluar 4",
+    "it": "Immettiti nella rotonda e prendi la 4ª uscita",
+    "nl": "Ga het knooppunt op en neem afslag 4e",
+    "pl": "Wjedź na rondo i wyjedź 4. zjazdem",
+    "pt-BR": "Entre na rotatória e saia na 4º saída",
+    "ro": "Intrați în sensul giratoriu și mergeți spre ieșirea a 4-a",
+    "ru": "На круговой развязке сверните на четвёртый съезд",
+    "sv": "I rondellen ta 4:e avfarten",
+    "tr": "Dönel kavşağa gir ve dördüncü numaralı çıkışa gir",
+    "uk": "Рухайтесь по колу та повереніть у 4й з'їзд",
+    "vi": "Đi vào bùng binh và ra tại đường thứ 4",
+    "zh-Hans": "进入环岛并从第四出口驶出"
+  }
 }

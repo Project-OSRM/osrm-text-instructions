@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "fork",
-            "modifier": "left"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "fork",
+      "modifier": "left"
     },
-    "instructions": {
-        "de": "Links halten an der Gabelung",
-        "en": "Keep left at the fork",
-        "eo": "Daŭru maldekstren ĉe la vojforko",
-        "es": "Mantengase izquierda en el cruce",
-        "es-ES": "Mantente a la izquierda en el cruce",
-        "fr": "Rester à gauche à l'embranchement",
-        "id": "Tetap kiri di pertigaan",
-        "it": "Mantieni la sinistra al bivio",
-        "nl": "Ga links op de splitsing",
-        "pl": "Na rozwidleniu trzymaj się lewo",
-        "pt-BR": "Mantenha-se à esquerda na bifurcação",
-        "ro": "Mențineți stânga la bifurcație",
-        "ru": "На развилке двигайтесь налево",
-        "sv": "Håll till vänster där vägen delar sig",
-        "tr": "Yol ayrımında sol yönde kal",
-        "uk": "На роздоріжжі тримайтеся ліворуч",
-        "vi": "Đi bên trái ở ngã ba",
-        "zh-Hans": "在岔道保持向左"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Links halten an der Gabelung",
+    "en": "Keep left at the fork",
+    "eo": "Daŭru maldekstren ĉe la vojforko",
+    "es": "Mantengase izquierda en el cruce",
+    "es-ES": "Mantente a la izquierda en el cruce",
+    "fr": "Rester à gauche à l'embranchement",
+    "id": "Tetap kiri di pertigaan",
+    "it": "Mantieni la sinistra al bivio",
+    "nl": "Ga links op de splitsing",
+    "pl": "Na rozwidleniu trzymaj się lewo",
+    "pt-BR": "Mantenha-se à esquerda na bifurcação",
+    "ro": "Mențineți stânga la bifurcație",
+    "ru": "На развилке двигайтесь налево",
+    "sv": "Håll till vänster där vägen delar sig",
+    "tr": "Yol ayrımında sol yönde kal",
+    "uk": "На роздоріжжі тримайтеся ліворуч",
+    "vi": "Đi bên trái ở ngã ba",
+    "zh-Hans": "在岔道保持向左"
+  }
 }

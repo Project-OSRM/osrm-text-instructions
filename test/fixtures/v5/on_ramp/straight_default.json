@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "on ramp",
-            "modifier": "straight"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "on ramp",
+      "modifier": "straight"
     },
-    "instructions": {
-        "de": "Auffahrt nehmen",
-        "en": "Take the ramp",
-        "eo": "Direktiĝu al enveturejo",
-        "es": "Tome la rampa",
-        "es-ES": "Coge la cuesta",
-        "fr": "Prendre la sortie",
-        "id": "Ambil jalan melandai",
-        "it": "Prendi la rampa",
-        "nl": "Neem de oprit",
-        "pl": "Weź zjazd",
-        "pt-BR": "Pegue a rampa",
-        "ro": "Urmați rampa",
-        "ru": "Сверните на автомагистраль",
-        "sv": "Ta påfarten",
-        "tr": "Bağlantı yoluna geç",
-        "uk": "Рухайтесь на вʼїзд",
-        "vi": "Đi đường nhánh",
-        "zh-Hans": "通过匝道"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Auffahrt nehmen",
+    "en": "Take the ramp",
+    "eo": "Direktiĝu al enveturejo",
+    "es": "Tome la rampa",
+    "es-ES": "Coge la cuesta",
+    "fr": "Prendre la sortie",
+    "id": "Ambil jalan melandai",
+    "it": "Prendi la rampa",
+    "nl": "Neem de oprit",
+    "pl": "Weź zjazd",
+    "pt-BR": "Pegue a rampa",
+    "ro": "Urmați rampa",
+    "ru": "Сверните на автомагистраль",
+    "sv": "Ta påfarten",
+    "tr": "Bağlantı yoluna geç",
+    "uk": "Рухайтесь на вʼїзд",
+    "vi": "Đi đường nhánh",
+    "zh-Hans": "通过匝道"
+  }
 }

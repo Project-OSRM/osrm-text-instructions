@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "merge",
-            "modifier": "right"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "merge",
+      "modifier": "right"
     },
-    "instructions": {
-        "de": "Rechts auffahren",
-        "en": "Merge right",
-        "eo": "Enveturu dekstren",
-        "es": "Gire a derecha",
-        "es-ES": "Incorpórate a la derecha",
-        "fr": "Rejoindre à droite",
-        "id": "Bergabung kanan",
-        "it": "Immettiti a destra",
-        "nl": "Bij de splitsing rechts",
-        "pl": "Włącz się prawo",
-        "pt-BR": "Entre à direita",
-        "ro": "Intrați în dreapta",
-        "ru": "Перестройтесь направо",
-        "sv": "Byt till höger körfält",
-        "tr": "Sağ yöne gir",
-        "uk": "Приєднайтеся до потоку праворуч",
-        "vi": "Nhập sang phải",
-        "zh-Hans": "向右并道"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Rechts auffahren",
+    "en": "Merge right",
+    "eo": "Enveturu dekstren",
+    "es": "Gire a derecha",
+    "es-ES": "Incorpórate a la derecha",
+    "fr": "Rejoindre à droite",
+    "id": "Bergabung kanan",
+    "it": "Immettiti a destra",
+    "nl": "Bij de splitsing rechts",
+    "pl": "Włącz się prawo",
+    "pt-BR": "Entre à direita",
+    "ro": "Intrați în dreapta",
+    "ru": "Перестройтесь направо",
+    "sv": "Byt till höger körfält",
+    "tr": "Sağ yöne gir",
+    "uk": "Приєднайтеся до потоку праворуч",
+    "vi": "Nhập sang phải",
+    "zh-Hans": "向右并道"
+  }
 }

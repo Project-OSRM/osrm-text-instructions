@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "modifier": "left",
-            "type": "rotary",
-            "exit": 6
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "modifier": "left",
+      "type": "rotary",
+      "exit": 6
     },
-    "instructions": {
-        "de": "Im Kreisverkehr die sechste Ausfahrt nehmen",
-        "en": "Enter the traffic circle and take the 6th exit",
-        "eo": "Enveturu trafikcirklegon kaj sekve al 6-a elveturejo",
-        "es": "Entra en la rotonda y toma la 6ª salida",
-        "es-ES": "En la rotonda toma la 6ª salida",
-        "fr": "Prendre le rond-point et prendre la sixième sortie",
-        "id": "Masuk bundaran dan ambil jalan keluar 6",
-        "it": "Immettiti nella rotonda e prendi la 6ª uscita",
-        "nl": "Ga het knooppunt op en neem afslag 6e",
-        "pl": "Wjedź na rondo i wyjedź 6. zjazdem",
-        "pt-BR": "Entre na rotatória e saia na 6º saída",
-        "ro": "Intrați în sensul giratoriu și mergeți spre ieșirea a 6-a",
-        "ru": "На круговой развязке сверните на шестой съезд",
-        "sv": "I rondellen ta 6:e avfarten",
-        "tr": "Dönel kavşağa gir ve altıncı numaralı çıkışa gir",
-        "uk": "Рухайтесь по колу та повереніть у 6й з'їзд",
-        "vi": "Đi vào bùng binh và ra tại đường thú 6",
-        "zh-Hans": "进入环岛并从第六出口驶出"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Im Kreisverkehr die sechste Ausfahrt nehmen",
+    "en": "Enter the traffic circle and take the 6th exit",
+    "eo": "Enveturu trafikcirklegon kaj sekve al 6-a elveturejo",
+    "es": "Entra en la rotonda y toma la 6ª salida",
+    "es-ES": "En la rotonda toma la 6ª salida",
+    "fr": "Prendre le rond-point et prendre la sixième sortie",
+    "id": "Masuk bundaran dan ambil jalan keluar 6",
+    "it": "Immettiti nella rotonda e prendi la 6ª uscita",
+    "nl": "Ga het knooppunt op en neem afslag 6e",
+    "pl": "Wjedź na rondo i wyjedź 6. zjazdem",
+    "pt-BR": "Entre na rotatória e saia na 6º saída",
+    "ro": "Intrați în sensul giratoriu și mergeți spre ieșirea a 6-a",
+    "ru": "На круговой развязке сверните на шестой съезд",
+    "sv": "I rondellen ta 6:e avfarten",
+    "tr": "Dönel kavşağa gir ve altıncı numaralı çıkışa gir",
+    "uk": "Рухайтесь по колу та повереніть у 6й з'їзд",
+    "vi": "Đi vào bùng binh và ra tại đường thú 6",
+    "zh-Hans": "进入环岛并从第六出口驶出"
+  }
 }

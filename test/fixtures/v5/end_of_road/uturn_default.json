@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "end of road",
-            "modifier": "uturn"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "end of road",
+      "modifier": "uturn"
     },
-    "instructions": {
-        "de": "180°-Wendung am Ende der Straße",
-        "en": "Make a U-turn at the end of the road",
-        "eo": "Turniĝu malantaŭen ĉe fino de la vojo",
-        "es": "Haz un cambio de sentido al final de la via",
-        "es-ES": "Al final de la calle haz un cambio de sentido",
-        "fr": "Faire demi-tour à la fin de la route",
-        "id": "Putar balik di akhir jalan",
-        "it": "Fai un'inversione a U alla fine della strada",
-        "nl": "Keer om",
-        "pl": "Zawróć na końcu ulicy",
-        "pt-BR": "Faça o retorno no fim da rua",
-        "ro": "Întoarceți-vă la sfârșitul drumului",
-        "ru": "В конце дороги развернитесь",
-        "sv": "Gör en U-sväng i slutet av vägen",
-        "tr": "Yolun sonunda U dönüşü yapın",
-        "uk": "Здійсніть розворот в кінці дороги",
-        "vi": "Quẹo ngược lại tại cuối đường",
-        "zh-Hans": "在道路尽头调头"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "180°-Wendung am Ende der Straße",
+    "en": "Make a U-turn at the end of the road",
+    "eo": "Turniĝu malantaŭen ĉe fino de la vojo",
+    "es": "Haz un cambio de sentido al final de la via",
+    "es-ES": "Al final de la calle haz un cambio de sentido",
+    "fr": "Faire demi-tour à la fin de la route",
+    "id": "Putar balik di akhir jalan",
+    "it": "Fai un'inversione a U alla fine della strada",
+    "nl": "Keer om",
+    "pl": "Zawróć na końcu ulicy",
+    "pt-BR": "Faça o retorno no fim da rua",
+    "ro": "Întoarceți-vă la sfârșitul drumului",
+    "ru": "В конце дороги развернитесь",
+    "sv": "Gör en U-sväng i slutet av vägen",
+    "tr": "Yolun sonunda U dönüşü yapın",
+    "uk": "Здійсніть розворот в кінці дороги",
+    "vi": "Quẹo ngược lại tại cuối đường",
+    "zh-Hans": "在道路尽头调头"
+  }
 }

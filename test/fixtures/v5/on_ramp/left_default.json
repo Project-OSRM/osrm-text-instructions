@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "on ramp",
-            "modifier": "left"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "on ramp",
+      "modifier": "left"
     },
-    "instructions": {
-        "de": "Auffahrt links nehmen",
-        "en": "Take the ramp on the left",
-        "eo": "Direktiĝu al enveturejo ĉe maldekstre",
-        "es": "Tome la rampa en la izquierda",
-        "es-ES": "Coge la cuesta de la izquierda",
-        "fr": "Prendre la sortie à gauche",
-        "id": "Ambil jalan yang melandai di sebelah kiri",
-        "it": "Prendi la rampa a sinistra",
-        "nl": "Neem de oprit links",
-        "pl": "Weź zjazd po lewej",
-        "pt-BR": "Pegue a rampa à esquerda",
-        "ro": "Urmați rampa pe stânga",
-        "ru": "Сверните на левый въезд на автомагистраль",
-        "sv": "Ta påfarten till vänster",
-        "tr": "Soldaki bağlantı yoluna geç",
-        "uk": "Рухайтесь на вʼїзд ліворуч",
-        "vi": "Đi đường nhánh bên trái",
-        "zh-Hans": "通过左边的匝道"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Auffahrt links nehmen",
+    "en": "Take the ramp on the left",
+    "eo": "Direktiĝu al enveturejo ĉe maldekstre",
+    "es": "Tome la rampa en la izquierda",
+    "es-ES": "Coge la cuesta de la izquierda",
+    "fr": "Prendre la sortie à gauche",
+    "id": "Ambil jalan yang melandai di sebelah kiri",
+    "it": "Prendi la rampa a sinistra",
+    "nl": "Neem de oprit links",
+    "pl": "Weź zjazd po lewej",
+    "pt-BR": "Pegue a rampa à esquerda",
+    "ro": "Urmați rampa pe stânga",
+    "ru": "Сверните на левый въезд на автомагистраль",
+    "sv": "Ta påfarten till vänster",
+    "tr": "Soldaki bağlantı yoluna geç",
+    "uk": "Рухайтесь на вʼїзд ліворуч",
+    "vi": "Đi đường nhánh bên trái",
+    "zh-Hans": "通过左边的匝道"
+  }
 }

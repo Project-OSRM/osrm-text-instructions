@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "bearing_after": 159,
-            "type": "depart"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "bearing_after": 159,
+      "type": "depart"
     },
-    "instructions": {
-        "de": "Fahren Sie Richtung Südosten",
-        "en": "Head southeast",
-        "eo": "Direktiĝu sud-orienten",
-        "es": "Ve a sureste",
-        "es-ES": "Dirígete al sureste",
-        "fr": "Rouler vers le sud-est",
-        "id": "Arah tenggara",
-        "it": "Continua verso sud-est",
-        "nl": "Vertrek in zuidoostelijke richting",
-        "pl": "Kieruj się południowy wschód",
-        "pt-BR": "Siga sudeste",
-        "ro": "Mergeți sud-est",
-        "ru": "Двигайтесь в юго-восточном направлении",
-        "sv": "Kör åt sydost",
-        "tr": "Güneydoğu tarafına yönelin",
-        "uk": "Прямуйте на південний схід",
-        "vi": "Đi về hướng đông nam",
-        "zh-Hans": "出发向东南"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Fahren Sie Richtung Südosten",
+    "en": "Head southeast",
+    "eo": "Direktiĝu sud-orienten",
+    "es": "Ve a sureste",
+    "es-ES": "Dirígete al sureste",
+    "fr": "Rouler vers le sud-est",
+    "id": "Arah tenggara",
+    "it": "Continua verso sud-est",
+    "nl": "Vertrek in zuidoostelijke richting",
+    "pl": "Kieruj się południowy wschód",
+    "pt-BR": "Siga sudeste",
+    "ro": "Mergeți sud-est",
+    "ru": "Двигайтесь в юго-восточном направлении",
+    "sv": "Kör åt sydost",
+    "tr": "Güneydoğu tarafına yönelin",
+    "uk": "Прямуйте на південний схід",
+    "vi": "Đi về hướng đông nam",
+    "zh-Hans": "出发向东南"
+  }
 }

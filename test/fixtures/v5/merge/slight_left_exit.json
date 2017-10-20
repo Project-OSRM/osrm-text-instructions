@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "merge",
-            "modifier": "slight left"
-        },
-        "name": "Way Name",
-        "exits": "4A;4B"
+  "step": {
+    "maneuver": {
+      "type": "merge",
+      "modifier": "slight left"
     },
-    "instructions": {
-        "de": "Leicht links auffahren auf Way Name",
-        "en": "Merge left onto Way Name",
-        "eo": "Enveturu de maldekstre al Way Name",
-        "es": "Gire a la izquierda en Way Name",
-        "es-ES": "Incorpórate a la izquierda por Way Name",
-        "fr": "Rejoindre Way Name par la gauche",
-        "id": "Bergabung di kiri ke arah Way Name",
-        "it": "Immettiti a sinistra in Way Name",
-        "nl": "Bij de splitsing links aanhouden naar Way Name",
-        "pl": "Włącz się z lewej strony na Way Name",
-        "pt-BR": "Entre à esquerda na Way Name",
-        "ro": "Intrați în stânga pe Way Name",
-        "ru": "Перестройтесь левее на Way Name",
-        "sv": "Byt till vänstra körfältet in på Way Name",
-        "tr": "Way Name üzerinde sola gir",
-        "uk": "Приєднайтеся до потоку ліворуч на Way Name",
-        "vi": "Nhập sang trái vào Way Name",
-        "zh-Hans": "向左并道，上Way Name"
-    }
+    "name": "Way Name",
+    "exits": "4A;4B"
+  },
+  "instructions": {
+    "de": "Leicht links auffahren auf Way Name",
+    "en": "Merge left onto Way Name",
+    "eo": "Enveturu de maldekstre al Way Name",
+    "es": "Gire a la izquierda en Way Name",
+    "es-ES": "Incorpórate a la izquierda por Way Name",
+    "fr": "Rejoindre Way Name par la gauche",
+    "id": "Bergabung di kiri ke arah Way Name",
+    "it": "Immettiti a sinistra in Way Name",
+    "nl": "Bij de splitsing links aanhouden naar Way Name",
+    "pl": "Włącz się z lewej strony na Way Name",
+    "pt-BR": "Entre à esquerda na Way Name",
+    "ro": "Intrați în stânga pe Way Name",
+    "ru": "Перестройтесь левее на Way Name",
+    "sv": "Byt till vänstra körfältet in på Way Name",
+    "tr": "Way Name üzerinde sola gir",
+    "uk": "Приєднайтеся до потоку ліворуч на Way Name",
+    "vi": "Nhập sang trái vào Way Name",
+    "zh-Hans": "向左并道，上Way Name"
+  }
 }

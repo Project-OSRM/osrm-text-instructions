@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "continue",
-            "modifier": "left"
-        },
-        "name": "Way Name",
-        "exits": "4A;4B"
+  "step": {
+    "maneuver": {
+      "type": "continue",
+      "modifier": "left"
     },
-    "instructions": {
-        "de": "Links abbiegen auf Way Name",
-        "en": "Turn left onto Way Name",
-        "eo": "Veturu maldekstren direkte al Way Name",
-        "es": "Gire a izquierda en Way Name",
-        "es-ES": "Gire a la izquierda en Way Name",
-        "fr": "Tourner à gauche sur Way Name",
-        "id": "Belok kiri ke Way Name",
-        "it": "Gira a sinistra in Way Name",
-        "nl": "Ga links naar Way Name",
-        "pl": "Skręć lewo na Way Name",
-        "pt-BR": "Vire à esquerda em Way Name",
-        "ro": "Virați stânga pe Way Name",
-        "ru": "Двигайтесь налево на Way Name",
-        "sv": "Sväng vänster in på Way Name",
-        "tr": "Way Name üzerinde sol yöne dön",
-        "uk": "Поверніть ліворуч на Way Name",
-        "vi": "Quẹo trái vào Way Name",
-        "zh-Hans": "向左行驶，上Way Name"
-    }
+    "name": "Way Name",
+    "exits": "4A;4B"
+  },
+  "instructions": {
+    "de": "Links abbiegen auf Way Name",
+    "en": "Turn left onto Way Name",
+    "eo": "Veturu maldekstren direkte al Way Name",
+    "es": "Gire a izquierda en Way Name",
+    "es-ES": "Gire a la izquierda en Way Name",
+    "fr": "Tourner à gauche sur Way Name",
+    "id": "Belok kiri ke Way Name",
+    "it": "Gira a sinistra in Way Name",
+    "nl": "Ga links naar Way Name",
+    "pl": "Skręć lewo na Way Name",
+    "pt-BR": "Vire à esquerda em Way Name",
+    "ro": "Virați stânga pe Way Name",
+    "ru": "Двигайтесь налево на Way Name",
+    "sv": "Sväng vänster in på Way Name",
+    "tr": "Way Name üzerinde sol yöne dön",
+    "uk": "Поверніть ліворуч на Way Name",
+    "vi": "Quẹo trái vào Way Name",
+    "zh-Hans": "向左行驶，上Way Name"
+  }
 }

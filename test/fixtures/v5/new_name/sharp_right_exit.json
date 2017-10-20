@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "new name",
-            "modifier": "sharp right"
-        },
-        "name": "Way Name",
-        "exits": "4A;4B"
+  "step": {
+    "maneuver": {
+      "type": "new name",
+      "modifier": "sharp right"
     },
-    "instructions": {
-        "de": "Scharf rechts auf Way Name",
-        "en": "Take a sharp right onto Way Name",
-        "eo": "Turniĝu ege dekstren al Way Name",
-        "es": "Gire a la derecha en Way Name",
-        "es-ES": "Gira a la derecha por Way Name",
-        "fr": "Prendre franchement à droite sur Way Name",
-        "id": "Belok kanan tajam ke arah Way Name",
-        "it": "Svolta a destra in Way Name",
-        "nl": "Rechtsaf naar Way Name",
-        "pl": "Skręć ostro w prawo na Way Name",
-        "pt-BR": "Vire acentuadamente à direita em Way Name",
-        "ro": "Virați brusc dreapta pe Way Name",
-        "ru": "Резко поверните направо на Way Name",
-        "sv": "Gör en skarp högersväng in på Way Name",
-        "tr": "Way Name yoluna doğru sağa keskin dönüş yapın",
-        "uk": "Прийміть різко праворуч на Way Name",
-        "vi": "Quẹo gắt bên phải vào Way Name",
-        "zh-Hans": "继续向右，上Way Name"
-    }
+    "name": "Way Name",
+    "exits": "4A;4B"
+  },
+  "instructions": {
+    "de": "Scharf rechts auf Way Name",
+    "en": "Take a sharp right onto Way Name",
+    "eo": "Turniĝu ege dekstren al Way Name",
+    "es": "Gire a la derecha en Way Name",
+    "es-ES": "Gira a la derecha por Way Name",
+    "fr": "Prendre franchement à droite sur Way Name",
+    "id": "Belok kanan tajam ke arah Way Name",
+    "it": "Svolta a destra in Way Name",
+    "nl": "Rechtsaf naar Way Name",
+    "pl": "Skręć ostro w prawo na Way Name",
+    "pt-BR": "Vire acentuadamente à direita em Way Name",
+    "ro": "Virați brusc dreapta pe Way Name",
+    "ru": "Резко поверните направо на Way Name",
+    "sv": "Gör en skarp högersväng in på Way Name",
+    "tr": "Way Name yoluna doğru sağa keskin dönüş yapın",
+    "uk": "Прийміть різко праворуч на Way Name",
+    "vi": "Quẹo gắt bên phải vào Way Name",
+    "zh-Hans": "继续向右，上Way Name"
+  }
 }

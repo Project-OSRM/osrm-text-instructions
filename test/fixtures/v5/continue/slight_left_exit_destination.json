@@ -1,31 +1,31 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "continue",
-            "modifier": "slight left"
-        },
-        "name": "Way Name",
-        "destinations": "Destination 1,Destination 2",
-        "exits": "4A;4B"
+  "step": {
+    "maneuver": {
+      "type": "continue",
+      "modifier": "slight left"
     },
-    "instructions": {
-        "de": "Leicht links weiter Richtung Destination 1",
-        "en": "Make a slight left towards Destination 1",
-        "eo": "Turniĝu ete maldekstren direkte al Destination 1",
-        "es": "Gire a la izquierda hacia Destination 1",
-        "es-ES": "Gire a la izquierda hacia Destination 1",
-        "fr": "Continuer légèrement à gauche en direction de Destination 1",
-        "id": "Tetap agak di kiri menuju Destination 1",
-        "it": "Fai una leggera curva a sinistra verso Destination 1",
-        "nl": "Links aanhouden richting Destination 1",
-        "pl": "Skręć w lewo w łagodny zakręt na Destination 1",
-        "pt-BR": "Continue ligeiramente à esquerda sentido Destination 1",
-        "ro": "Virați ușor stânga spre Destination 1",
-        "ru": "Плавно поверните налево в направлении Destination 1",
-        "sv": "Sväng vänster mot Destination 1",
-        "tr": "Destination 1 istikametinde sola hafif dönüş yap",
-        "uk": "Рухайтесь плавно ліворуч у напрямку Destination 1",
-        "vi": "Nghiêng về bên trái đến Destination 1",
-        "zh-Hans": "向左行驶，前往Destination 1"
-    }
+    "name": "Way Name",
+    "destinations": "Destination 1,Destination 2",
+    "exits": "4A;4B"
+  },
+  "instructions": {
+    "de": "Leicht links weiter Richtung Destination 1",
+    "en": "Make a slight left towards Destination 1",
+    "eo": "Turniĝu ete maldekstren direkte al Destination 1",
+    "es": "Gire a la izquierda hacia Destination 1",
+    "es-ES": "Gire a la izquierda hacia Destination 1",
+    "fr": "Continuer légèrement à gauche en direction de Destination 1",
+    "id": "Tetap agak di kiri menuju Destination 1",
+    "it": "Fai una leggera curva a sinistra verso Destination 1",
+    "nl": "Links aanhouden richting Destination 1",
+    "pl": "Skręć w lewo w łagodny zakręt na Destination 1",
+    "pt-BR": "Continue ligeiramente à esquerda sentido Destination 1",
+    "ro": "Virați ușor stânga spre Destination 1",
+    "ru": "Плавно поверните налево в направлении Destination 1",
+    "sv": "Sväng vänster mot Destination 1",
+    "tr": "Destination 1 istikametinde sola hafif dönüş yap",
+    "uk": "Рухайтесь плавно ліворуч у напрямку Destination 1",
+    "vi": "Nghiêng về bên trái đến Destination 1",
+    "zh-Hans": "向左行驶，前往Destination 1"
+  }
 }

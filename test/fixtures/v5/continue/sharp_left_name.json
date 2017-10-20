@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "continue",
-            "modifier": "sharp left"
-        },
-        "name": "Way Name"
+  "step": {
+    "maneuver": {
+      "type": "continue",
+      "modifier": "sharp left"
     },
-    "instructions": {
-        "de": "Scharf links weiterfahren auf Way Name",
-        "en": "Make a sharp left to stay on Way Name",
-        "eo": "Turniĝu ege maldekstren al Way Name",
-        "es": "Gire a la izquierda en Way Name",
-        "es-ES": "Gire a la izquierda en Way Name",
-        "fr": "Make a sharp left to stay on Way Name",
-        "id": "Make a sharp left to stay on Way Name",
-        "it": "Fai una stretta curva a sinistra per stare su Way Name",
-        "nl": "Make a sharp left to stay on Way Name",
-        "pl": "Skręć w lewo w ostry zakręt, aby pozostać na Way Name",
-        "pt-BR": "Make a sharp left to stay on Way Name",
-        "ro": "Virați brusc stânga pe Way Name",
-        "ru": "Резко поверните налево на Way Name",
-        "sv": "Sväng vänster och fortsätt på Way Name",
-        "tr": "Way Name üzerinde kalmak için sola keskin dönüş yap",
-        "uk": "Make a sharp left to stay on Way Name",
-        "vi": "Quẹo gắt bên trái để chạy tiếp trên Way Name",
-        "zh-Hans": "Make a sharp left to stay on Way Name"
-    }
+    "name": "Way Name"
+  },
+  "instructions": {
+    "de": "Scharf links weiterfahren auf Way Name",
+    "en": "Make a sharp left to stay on Way Name",
+    "eo": "Turniĝu ege maldekstren al Way Name",
+    "es": "Gire a la izquierda en Way Name",
+    "es-ES": "Gire a la izquierda en Way Name",
+    "fr": "Make a sharp left to stay on Way Name",
+    "id": "Make a sharp left to stay on Way Name",
+    "it": "Fai una stretta curva a sinistra per stare su Way Name",
+    "nl": "Make a sharp left to stay on Way Name",
+    "pl": "Skręć w lewo w ostry zakręt, aby pozostać na Way Name",
+    "pt-BR": "Make a sharp left to stay on Way Name",
+    "ro": "Virați brusc stânga pe Way Name",
+    "ru": "Резко поверните налево на Way Name",
+    "sv": "Sväng vänster och fortsätt på Way Name",
+    "tr": "Way Name üzerinde kalmak için sola keskin dönüş yap",
+    "uk": "Make a sharp left to stay on Way Name",
+    "vi": "Quẹo gắt bên trái để chạy tiếp trên Way Name",
+    "zh-Hans": "Make a sharp left to stay on Way Name"
+  }
 }

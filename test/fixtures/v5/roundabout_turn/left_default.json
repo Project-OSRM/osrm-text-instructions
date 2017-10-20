@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "roundabout turn",
-            "modifier": "left"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "roundabout turn",
+      "modifier": "left"
     },
-    "instructions": {
-        "de": "Am Kreisverkehr links abbiegen",
-        "en": "At the roundabout turn left",
-        "eo": "Ĉe la trafikcirklo turniĝu maldekstren",
-        "es": "En la rotonda gira a la izquierda",
-        "es-ES": "En la rotonda gira a la izquierda",
-        "fr": "Au rond-point, tourner à gauche",
-        "id": "Di bundaran belok kiri",
-        "it": "Alla rotonda svolta a sinistra",
-        "nl": "Ga links op de rotonde",
-        "pl": "Na rondzie skręć w lewo",
-        "pt-BR": "Na rotatória vire à esquerda",
-        "ro": "La sensul giratoriu virați stânga",
-        "ru": "На круговой развязке сверните налево",
-        "sv": "I rondellen sväng vänster",
-        "tr": "Göbekli kavşakta sola dön",
-        "uk": "На кільці поверніть ліворуч",
-        "vi": "Quẹo trái tại vòng xuyến",
-        "zh-Hans": "在环岛左转"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Am Kreisverkehr links abbiegen",
+    "en": "At the roundabout turn left",
+    "eo": "Ĉe la trafikcirklo turniĝu maldekstren",
+    "es": "En la rotonda gira a la izquierda",
+    "es-ES": "En la rotonda gira a la izquierda",
+    "fr": "Au rond-point, tourner à gauche",
+    "id": "Di bundaran belok kiri",
+    "it": "Alla rotonda svolta a sinistra",
+    "nl": "Ga links op de rotonde",
+    "pl": "Na rondzie skręć w lewo",
+    "pt-BR": "Na rotatória vire à esquerda",
+    "ro": "La sensul giratoriu virați stânga",
+    "ru": "На круговой развязке сверните налево",
+    "sv": "I rondellen sväng vänster",
+    "tr": "Göbekli kavşakta sola dön",
+    "uk": "На кільці поверніть ліворуч",
+    "vi": "Quẹo trái tại vòng xuyến",
+    "zh-Hans": "在环岛左转"
+  }
 }

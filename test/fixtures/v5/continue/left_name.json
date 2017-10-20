@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "continue",
-            "modifier": "left"
-        },
-        "name": "Way Name"
+  "step": {
+    "maneuver": {
+      "type": "continue",
+      "modifier": "left"
     },
-    "instructions": {
-        "de": "Links weiterfahren auf Way Name",
-        "en": "Turn left to stay on Way Name",
-        "eo": "Veturu maldekstren al Way Name",
-        "es": "Cruce a laizquierda en Way Name",
-        "es-ES": "Cruce a la izquierda en Way Name",
-        "fr": "Continuer à gauche sur Way Name",
-        "id": "Terus kiri ke Way Name",
-        "it": "Gira a sinistra per stare su Way Name",
-        "nl": "Ga links naar Way Name",
-        "pl": "Skręć w lewo, aby pozostać na Way Name",
-        "pt-BR": "Continue à esquerda em Way Name",
-        "ro": "Virați stânga pe Way Name",
-        "ru": "Двигайтесь налево по Way Name",
-        "sv": "Sväng vänster och fortsätt på Way Name",
-        "tr": "Way Name üzerinde kalmak için sol yöne dön",
-        "uk": "Рухайтесь ліворуч на Way Name",
-        "vi": "Quẹo trái để chạy tiếp trên Way Name",
-        "zh-Hans": "继续向左，上Way Name"
-    }
+    "name": "Way Name"
+  },
+  "instructions": {
+    "de": "Links weiterfahren auf Way Name",
+    "en": "Turn left to stay on Way Name",
+    "eo": "Veturu maldekstren al Way Name",
+    "es": "Cruce a laizquierda en Way Name",
+    "es-ES": "Cruce a la izquierda en Way Name",
+    "fr": "Continuer à gauche sur Way Name",
+    "id": "Terus kiri ke Way Name",
+    "it": "Gira a sinistra per stare su Way Name",
+    "nl": "Ga links naar Way Name",
+    "pl": "Skręć w lewo, aby pozostać na Way Name",
+    "pt-BR": "Continue à esquerda em Way Name",
+    "ro": "Virați stânga pe Way Name",
+    "ru": "Двигайтесь налево по Way Name",
+    "sv": "Sväng vänster och fortsätt på Way Name",
+    "tr": "Way Name üzerinde kalmak için sol yöne dön",
+    "uk": "Рухайтесь ліворуч на Way Name",
+    "vi": "Quẹo trái để chạy tiếp trên Way Name",
+    "zh-Hans": "继续向左，上Way Name"
+  }
 }

@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "off ramp",
-            "modifier": "uturn"
-        },
-        "name": "Way Name",
-        "exits": "4A;4B"
+  "step": {
+    "maneuver": {
+      "type": "off ramp",
+      "modifier": "uturn"
     },
-    "instructions": {
-        "de": "Ausfahrt 4A nehmen",
-        "en": "Take exit 4A",
-        "eo": "Direktiĝu al elveturejo 4A",
-        "es": "Tome la salida 4A",
-        "es-ES": "Coge la cuesta abajo 4A",
-        "fr": "Take exit 4A",
-        "id": "Take exit 4A",
-        "it": "Prendi l'uscita 4A",
-        "nl": "Take exit 4A",
-        "pl": "Zjedź zjazdem 4A",
-        "pt-BR": "Pegue a saída 4A",
-        "ro": "Ieșiți pe ieșirea 4A",
-        "ru": "Сверните на съезд 4A",
-        "sv": "Ta avfart 4A ",
-        "tr": "4A çıkış yoluna geç",
-        "uk": "Оберіть з'їзд 4A",
-        "vi": "Đi theo lối ra 4A",
-        "zh-Hans": "Take exit 4A"
-    }
+    "name": "Way Name",
+    "exits": "4A;4B"
+  },
+  "instructions": {
+    "de": "Ausfahrt 4A nehmen",
+    "en": "Take exit 4A",
+    "eo": "Direktiĝu al elveturejo 4A",
+    "es": "Tome la salida 4A",
+    "es-ES": "Coge la cuesta abajo 4A",
+    "fr": "Take exit 4A",
+    "id": "Take exit 4A",
+    "it": "Prendi l'uscita 4A",
+    "nl": "Take exit 4A",
+    "pl": "Zjedź zjazdem 4A",
+    "pt-BR": "Pegue a saída 4A",
+    "ro": "Ieșiți pe ieșirea 4A",
+    "ru": "Сверните на съезд 4A",
+    "sv": "Ta avfart 4A ",
+    "tr": "4A çıkış yoluna geç",
+    "uk": "Оберіть з'їзд 4A",
+    "vi": "Đi theo lối ra 4A",
+    "zh-Hans": "Take exit 4A"
+  }
 }

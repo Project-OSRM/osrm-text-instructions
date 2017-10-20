@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "end of road",
-            "modifier": "sharp left"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "end of road",
+      "modifier": "sharp left"
     },
-    "instructions": {
-        "de": "Scharf links abbiegen",
-        "en": "Turn sharp left",
-        "eo": "Veturu maldekstregen",
-        "es": "Gire a cerrada a la izquierda",
-        "es-ES": "Al final de la calle gira cerrada a la izquierda",
-        "fr": "Tourner franchement à gauche",
-        "id": "Belok tajam kiri",
-        "it": "Gira a sinistra",
-        "nl": "Ga linksaf",
-        "pl": "Skręć ostro w lewo",
-        "pt-BR": "Vire acentuadamente à esquerda",
-        "ro": "Virați brusc stânga",
-        "ru": "Поверните налево",
-        "sv": "Sväng vänster",
-        "tr": "Keskin sol tarafa dönün",
-        "uk": "Поверніть різко ліворуч",
-        "vi": "Quẹo trái gắt",
-        "zh-Hans": "向左行驶"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Scharf links abbiegen",
+    "en": "Turn sharp left",
+    "eo": "Veturu maldekstregen",
+    "es": "Gire a cerrada a la izquierda",
+    "es-ES": "Al final de la calle gira cerrada a la izquierda",
+    "fr": "Tourner franchement à gauche",
+    "id": "Belok tajam kiri",
+    "it": "Gira a sinistra",
+    "nl": "Ga linksaf",
+    "pl": "Skręć ostro w lewo",
+    "pt-BR": "Vire acentuadamente à esquerda",
+    "ro": "Virați brusc stânga",
+    "ru": "Поверните налево",
+    "sv": "Sväng vänster",
+    "tr": "Keskin sol tarafa dönün",
+    "uk": "Поверніть різко ліворуч",
+    "vi": "Quẹo trái gắt",
+    "zh-Hans": "向左行驶"
+  }
 }

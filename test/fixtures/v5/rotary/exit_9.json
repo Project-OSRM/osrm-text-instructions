@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "modifier": "left",
-            "type": "rotary",
-            "exit": 9
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "modifier": "left",
+      "type": "rotary",
+      "exit": 9
     },
-    "instructions": {
-        "de": "Im Kreisverkehr die neunte Ausfahrt nehmen",
-        "en": "Enter the traffic circle and take the 9th exit",
-        "eo": "Enveturu trafikcirklegon kaj sekve al 9-a elveturejo",
-        "es": "Entra en la rotonda y toma la 9ª salida",
-        "es-ES": "En la rotonda toma la 9ª salida",
-        "fr": "Prendre le rond-point et prendre la neuvième sortie",
-        "id": "Masuk bundaran dan ambil jalan keluar 9",
-        "it": "Immettiti nella rotonda e prendi la 9ª uscita",
-        "nl": "Ga het knooppunt op en neem afslag 9e",
-        "pl": "Wjedź na rondo i wyjedź 9. zjazdem",
-        "pt-BR": "Entre na rotatória e saia na 9º saída",
-        "ro": "Intrați în sensul giratoriu și mergeți spre ieșirea a 9-a",
-        "ru": "На круговой развязке сверните на девятый съезд",
-        "sv": "I rondellen ta 9:e avfarten",
-        "tr": "Dönel kavşağa gir ve dokuzuncu numaralı çıkışa gir",
-        "uk": "Рухайтесь по колу та повереніть у 9й з'їзд",
-        "vi": "Đi vào bùng binh và ra tại đường thứ 9",
-        "zh-Hans": "进入环岛并从第九出口驶出"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Im Kreisverkehr die neunte Ausfahrt nehmen",
+    "en": "Enter the traffic circle and take the 9th exit",
+    "eo": "Enveturu trafikcirklegon kaj sekve al 9-a elveturejo",
+    "es": "Entra en la rotonda y toma la 9ª salida",
+    "es-ES": "En la rotonda toma la 9ª salida",
+    "fr": "Prendre le rond-point et prendre la neuvième sortie",
+    "id": "Masuk bundaran dan ambil jalan keluar 9",
+    "it": "Immettiti nella rotonda e prendi la 9ª uscita",
+    "nl": "Ga het knooppunt op en neem afslag 9e",
+    "pl": "Wjedź na rondo i wyjedź 9. zjazdem",
+    "pt-BR": "Entre na rotatória e saia na 9º saída",
+    "ro": "Intrați în sensul giratoriu și mergeți spre ieșirea a 9-a",
+    "ru": "На круговой развязке сверните на девятый съезд",
+    "sv": "I rondellen ta 9:e avfarten",
+    "tr": "Dönel kavşağa gir ve dokuzuncu numaralı çıkışa gir",
+    "uk": "Рухайтесь по колу та повереніть у 9й з'їзд",
+    "vi": "Đi vào bùng binh và ra tại đường thứ 9",
+    "zh-Hans": "进入环岛并从第九出口驶出"
+  }
 }

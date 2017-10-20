@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "end of road",
-            "modifier": "left"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "end of road",
+      "modifier": "left"
     },
-    "instructions": {
-        "de": "Links abbiegen",
-        "en": "Turn left",
-        "eo": "Veturu maldekstren",
-        "es": "Gire a izquierda",
-        "es-ES": "Al final de la calle gira a la izquierda",
-        "fr": "Tourner à gauche",
-        "id": "Belok kiri",
-        "it": "Gira a sinistra",
-        "nl": "Ga links",
-        "pl": "Skręć lewo",
-        "pt-BR": "Vire à esquerda",
-        "ro": "Virați stânga",
-        "ru": "Поверните налево",
-        "sv": "Sväng vänster",
-        "tr": "Sol tarafa dönün",
-        "uk": "Поверніть ліворуч",
-        "vi": "Quẹo trái",
-        "zh-Hans": "向左行驶"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Links abbiegen",
+    "en": "Turn left",
+    "eo": "Veturu maldekstren",
+    "es": "Gire a izquierda",
+    "es-ES": "Al final de la calle gira a la izquierda",
+    "fr": "Tourner à gauche",
+    "id": "Belok kiri",
+    "it": "Gira a sinistra",
+    "nl": "Ga links",
+    "pl": "Skręć lewo",
+    "pt-BR": "Vire à esquerda",
+    "ro": "Virați stânga",
+    "ru": "Поверните налево",
+    "sv": "Sväng vänster",
+    "tr": "Sol tarafa dönün",
+    "uk": "Поверніть ліворуч",
+    "vi": "Quẹo trái",
+    "zh-Hans": "向左行驶"
+  }
 }

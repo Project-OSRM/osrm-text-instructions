@@ -1,35 +1,33 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "continue",
-            "modifier": "sharp left"
-        },
-        "name": "Cool highway",
-        "ref": "Ref no number"
+  "step": {
+    "maneuver": {
+      "type": "continue",
+      "modifier": "sharp left"
     },
-    "instructions": {
-        "de": "Scharf links weiterfahren auf Cool highway",
-        "en": "Make a sharp left to stay on Cool highway",
-        "eo": "Turniĝu ege maldekstren al Cool highway",
-        "es": "Gire a la izquierda en Cool highway",
-        "es-ES": "Gire a la izquierda en Cool highway",
-        "fr": "Make a sharp left to stay on Cool highway",
-        "id": "Make a sharp left to stay on Cool highway",
-        "it": "Fai una stretta curva a sinistra per stare su Cool highway",
-        "nl": "Make a sharp left to stay on Cool highway",
-        "pl": "Skręć w lewo w ostry zakręt, aby pozostać na Cool highway",
-        "pt-BR": "Make a sharp left to stay on Cool highway",
-        "ro": "Virați brusc stânga pe Cool highway",
-        "ru": "Резко поверните налево на Cool highway",
-        "sv": "Sväng vänster och fortsätt på Cool highway",
-        "tr": "Cool highway üzerinde kalmak için sola keskin dönüş yap",
-        "uk": "Make a sharp left to stay on Cool highway",
-        "vi": "Quẹo gắt bên trái để chạy tiếp trên Cool highway",
-        "zh-Hans": "Make a sharp left to stay on Cool highway"
-    },
-    "options": {
-        "classes": [
-            "motorway"
-        ]
-    }
+    "name": "Cool highway",
+    "ref": "Ref no number"
+  },
+  "instructions": {
+    "de": "Scharf links weiterfahren auf Cool highway",
+    "en": "Make a sharp left to stay on Cool highway",
+    "eo": "Turniĝu ege maldekstren al Cool highway",
+    "es": "Gire a la izquierda en Cool highway",
+    "es-ES": "Gire a la izquierda en Cool highway",
+    "fr": "Make a sharp left to stay on Cool highway",
+    "id": "Make a sharp left to stay on Cool highway",
+    "it": "Fai una stretta curva a sinistra per stare su Cool highway",
+    "nl": "Make a sharp left to stay on Cool highway",
+    "pl": "Skręć w lewo w ostry zakręt, aby pozostać na Cool highway",
+    "pt-BR": "Make a sharp left to stay on Cool highway",
+    "ro": "Virați brusc stânga pe Cool highway",
+    "ru": "Резко поверните налево на Cool highway",
+    "sv": "Sväng vänster och fortsätt på Cool highway",
+    "tr": "Cool highway üzerinde kalmak için sola keskin dönüş yap",
+    "uk": "Make a sharp left to stay on Cool highway",
+    "vi": "Quẹo gắt bên trái để chạy tiếp trên Cool highway",
+    "zh-Hans": "Make a sharp left to stay on Cool highway"
+  },
+  "options": {
+    "classes": ["motorway"]
+  }
 }

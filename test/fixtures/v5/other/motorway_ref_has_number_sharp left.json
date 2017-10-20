@@ -1,35 +1,33 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "continue",
-            "modifier": "sharp left"
-        },
-        "name": "Cool highway",
-        "ref": "Ref1;Ref2"
+  "step": {
+    "maneuver": {
+      "type": "continue",
+      "modifier": "sharp left"
     },
-    "instructions": {
-        "de": "Scharf links weiterfahren auf Ref1",
-        "en": "Make a sharp left to stay on Ref1",
-        "eo": "Turniĝu ege maldekstren al Ref1",
-        "es": "Gire a la izquierda en Ref1",
-        "es-ES": "Gire a la izquierda en Ref1",
-        "fr": "Make a sharp left to stay on Ref1",
-        "id": "Make a sharp left to stay on Ref1",
-        "it": "Fai una stretta curva a sinistra per stare su Ref1",
-        "nl": "Make a sharp left to stay on Ref1",
-        "pl": "Skręć w lewo w ostry zakręt, aby pozostać na Ref1",
-        "pt-BR": "Make a sharp left to stay on Ref1",
-        "ro": "Virați brusc stânga pe Ref1",
-        "ru": "Резко поверните налево на Ref1",
-        "sv": "Sväng vänster och fortsätt på Ref1",
-        "tr": "Ref1 üzerinde kalmak için sola keskin dönüş yap",
-        "uk": "Make a sharp left to stay on Ref1",
-        "vi": "Quẹo gắt bên trái để chạy tiếp trên Ref1",
-        "zh-Hans": "Make a sharp left to stay on Ref1"
-    },
-    "options": {
-        "classes": [
-            "motorway"
-        ]
-    }
+    "name": "Cool highway",
+    "ref": "Ref1;Ref2"
+  },
+  "instructions": {
+    "de": "Scharf links weiterfahren auf Ref1",
+    "en": "Make a sharp left to stay on Ref1",
+    "eo": "Turniĝu ege maldekstren al Ref1",
+    "es": "Gire a la izquierda en Ref1",
+    "es-ES": "Gire a la izquierda en Ref1",
+    "fr": "Make a sharp left to stay on Ref1",
+    "id": "Make a sharp left to stay on Ref1",
+    "it": "Fai una stretta curva a sinistra per stare su Ref1",
+    "nl": "Make a sharp left to stay on Ref1",
+    "pl": "Skręć w lewo w ostry zakręt, aby pozostać na Ref1",
+    "pt-BR": "Make a sharp left to stay on Ref1",
+    "ro": "Virați brusc stânga pe Ref1",
+    "ru": "Резко поверните налево на Ref1",
+    "sv": "Sväng vänster och fortsätt på Ref1",
+    "tr": "Ref1 üzerinde kalmak için sola keskin dönüş yap",
+    "uk": "Make a sharp left to stay on Ref1",
+    "vi": "Quẹo gắt bên trái để chạy tiếp trên Ref1",
+    "zh-Hans": "Make a sharp left to stay on Ref1"
+  },
+  "options": {
+    "classes": ["motorway"]
+  }
 }

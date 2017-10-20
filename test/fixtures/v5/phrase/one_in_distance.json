@@ -1,26 +1,26 @@
 {
-    "options": {
-        "instruction_one": "Do something",
-        "distance": "0 units"
-    },
-    "phrases": {
-        "de": "In 0 units, Do something",
-        "en": "In 0 units, Do something",
-        "eo": "Post 0 units, Do something",
-        "es": "A 0 units, Do something",
-        "es-ES": "A 0 units, Do something",
-        "fr": "In 0 units, Do something",
-        "id": "In 0 units, Do something",
-        "it": "Tra 0 units Do something",
-        "nl": "In 0 units, Do something",
-        "pl": "Za 0 units, Do something",
-        "pt-BR": "In 0 units, Do something",
-        "ro": "În 0 units, Do something",
-        "ru": "Через 0 units Do something",
-        "sv": "Om 0 units, Do something",
-        "tr": "0 units sonra, Do something",
-        "uk": "In 0 units, Do something",
-        "vi": "0 units nữa thì Do something",
-        "zh-Hans": "In 0 units, Do something"
-    }
+  "options": {
+    "instruction_one": "Do something",
+    "distance": "0 units"
+  },
+  "phrases": {
+    "de": "In 0 units, Do something",
+    "en": "In 0 units, Do something",
+    "eo": "Post 0 units, Do something",
+    "es": "A 0 units, Do something",
+    "es-ES": "A 0 units, Do something",
+    "fr": "In 0 units, Do something",
+    "id": "In 0 units, Do something",
+    "it": "Tra 0 units Do something",
+    "nl": "In 0 units, Do something",
+    "pl": "Za 0 units, Do something",
+    "pt-BR": "In 0 units, Do something",
+    "ro": "În 0 units, Do something",
+    "ru": "Через 0 units Do something",
+    "sv": "Om 0 units, Do something",
+    "tr": "0 units sonra, Do something",
+    "uk": "In 0 units, Do something",
+    "vi": "0 units nữa thì Do something",
+    "zh-Hans": "In 0 units, Do something"
+  }
 }

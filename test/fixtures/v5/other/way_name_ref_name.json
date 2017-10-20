@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "turn",
-            "modifier": "left"
-        },
-        "name": "Way Name",
-        "ref": "Ref1;Ref2"
+  "step": {
+    "maneuver": {
+      "type": "turn",
+      "modifier": "left"
     },
-    "instructions": {
-        "de": "Links abbiegen auf Way Name (Ref1)",
-        "en": "Turn left onto Way Name (Ref1)",
-        "eo": "Turniĝu maldekstren al Way Name (Ref1)",
-        "es": "Gire a la izquierda en Way Name (Ref1)",
-        "es-ES": "Gira a la izquierda por Way Name (Ref1)",
-        "fr": "Tourner à gauche sur Way Name (Ref1)",
-        "id": "Belok kiri ke Way Name (Ref1)",
-        "it": "Svolta a sinistra in Way Name (Ref1)",
-        "nl": "Ga linksaf naar Way Name (Ref1)",
-        "pl": "Skręć w lewo na Way Name (Ref1)",
-        "pt-BR": "Vire à esquerda em Way Name (Ref1)",
-        "ro": "Virați stânga pe Way Name (Ref1)",
-        "ru": "Поверните налево на Way Name (Ref1)",
-        "sv": "Sväng vänster in på Way Name (Ref1)",
-        "tr": "Way Name (Ref1) üzerinde sola dön",
-        "uk": "Поверніть ліворуч на Way Name (Ref1)",
-        "vi": "Quẹo trái vào Way Name (Ref1)",
-        "zh-Hans": "左转，上Way Name（Ref1）"
-    }
+    "name": "Way Name",
+    "ref": "Ref1;Ref2"
+  },
+  "instructions": {
+    "de": "Links abbiegen auf Way Name (Ref1)",
+    "en": "Turn left onto Way Name (Ref1)",
+    "eo": "Turniĝu maldekstren al Way Name (Ref1)",
+    "es": "Gire a la izquierda en Way Name (Ref1)",
+    "es-ES": "Gira a la izquierda por Way Name (Ref1)",
+    "fr": "Tourner à gauche sur Way Name (Ref1)",
+    "id": "Belok kiri ke Way Name (Ref1)",
+    "it": "Svolta a sinistra in Way Name (Ref1)",
+    "nl": "Ga linksaf naar Way Name (Ref1)",
+    "pl": "Skręć w lewo na Way Name (Ref1)",
+    "pt-BR": "Vire à esquerda em Way Name (Ref1)",
+    "ro": "Virați stânga pe Way Name (Ref1)",
+    "ru": "Поверните налево на Way Name (Ref1)",
+    "sv": "Sväng vänster in på Way Name (Ref1)",
+    "tr": "Way Name (Ref1) üzerinde sola dön",
+    "uk": "Поверніть ліворуч на Way Name (Ref1)",
+    "vi": "Quẹo trái vào Way Name (Ref1)",
+    "zh-Hans": "左转，上Way Name（Ref1）"
+  }
 }

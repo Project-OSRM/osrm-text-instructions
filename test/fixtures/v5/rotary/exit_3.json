@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "modifier": "left",
-            "type": "rotary",
-            "exit": 3
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "modifier": "left",
+      "type": "rotary",
+      "exit": 3
     },
-    "instructions": {
-        "de": "Im Kreisverkehr die dritte Ausfahrt nehmen",
-        "en": "Enter the traffic circle and take the 3rd exit",
-        "eo": "Enveturu trafikcirklegon kaj sekve al 3-a elveturejo",
-        "es": "Entra en la rotonda y toma la 3ª salida",
-        "es-ES": "En la rotonda toma la 3ª salida",
-        "fr": "Prendre le rond-point et prendre la troisième sortie",
-        "id": "Masuk bundaran dan ambil jalan keluar 3",
-        "it": "Immettiti nella rotonda e prendi la 3ª uscita",
-        "nl": "Ga het knooppunt op en neem afslag 3e",
-        "pl": "Wjedź na rondo i wyjedź 3. zjazdem",
-        "pt-BR": "Entre na rotatória e saia na 3º saída",
-        "ro": "Intrați în sensul giratoriu și mergeți spre ieșirea a 3-a",
-        "ru": "На круговой развязке сверните на третий съезд",
-        "sv": "I rondellen ta 3:e avfarten",
-        "tr": "Dönel kavşağa gir ve üçüncü numaralı çıkışa gir",
-        "uk": "Рухайтесь по колу та повереніть у 3й з'їзд",
-        "vi": "Đi vào bùng binh và ra tại đường thứ 3",
-        "zh-Hans": "进入环岛并从第三出口驶出"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Im Kreisverkehr die dritte Ausfahrt nehmen",
+    "en": "Enter the traffic circle and take the 3rd exit",
+    "eo": "Enveturu trafikcirklegon kaj sekve al 3-a elveturejo",
+    "es": "Entra en la rotonda y toma la 3ª salida",
+    "es-ES": "En la rotonda toma la 3ª salida",
+    "fr": "Prendre le rond-point et prendre la troisième sortie",
+    "id": "Masuk bundaran dan ambil jalan keluar 3",
+    "it": "Immettiti nella rotonda e prendi la 3ª uscita",
+    "nl": "Ga het knooppunt op en neem afslag 3e",
+    "pl": "Wjedź na rondo i wyjedź 3. zjazdem",
+    "pt-BR": "Entre na rotatória e saia na 3º saída",
+    "ro": "Intrați în sensul giratoriu și mergeți spre ieșirea a 3-a",
+    "ru": "На круговой развязке сверните на третий съезд",
+    "sv": "I rondellen ta 3:e avfarten",
+    "tr": "Dönel kavşağa gir ve üçüncü numaralı çıkışa gir",
+    "uk": "Рухайтесь по колу та повереніть у 3й з'їзд",
+    "vi": "Đi vào bùng binh và ra tại đường thứ 3",
+    "zh-Hans": "进入环岛并从第三出口驶出"
+  }
 }

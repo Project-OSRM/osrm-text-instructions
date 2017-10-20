@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "continue",
-            "modifier": "slight right"
-        },
-        "name": "Way Name"
+  "step": {
+    "maneuver": {
+      "type": "continue",
+      "modifier": "slight right"
     },
-    "instructions": {
-        "de": "Leicht rechts weiter auf Way Name",
-        "en": "Make a slight right to stay on Way Name",
-        "eo": "Turniĝu ete dekstren al Way Name",
-        "es": "Doble levemente a la derecha en Way Name",
-        "es-ES": "Doble levemente a la derecha en Way Name",
-        "fr": "Continuer légèrement à droite sur Way Name",
-        "id": "Tetap agak di kanan ke Way Name",
-        "it": "Fai una leggera curva a destra per stare su Way Name",
-        "nl": "Rechts aanhouden naar Way Name",
-        "pl": "Skręć w prawo w łagodny zakręt, aby pozostać na Way Name",
-        "pt-BR": "Continue ligeiramente à direita em Way Name",
-        "ro": "Virați ușor dreapta pe Way Name",
-        "ru": "Плавно поверните направо на Way Name",
-        "sv": "Sväng höger och fortsätt på Way Name",
-        "tr": "Way Name üzerinde kalmak için sağa hafif dönüş yap",
-        "uk": "Рухайтесь плавно праворуч на Way Name",
-        "vi": "Nghiêng về bên phải để chạy tiếp trên Way Name",
-        "zh-Hans": "继续向右，上Way Name"
-    }
+    "name": "Way Name"
+  },
+  "instructions": {
+    "de": "Leicht rechts weiter auf Way Name",
+    "en": "Make a slight right to stay on Way Name",
+    "eo": "Turniĝu ete dekstren al Way Name",
+    "es": "Doble levemente a la derecha en Way Name",
+    "es-ES": "Doble levemente a la derecha en Way Name",
+    "fr": "Continuer légèrement à droite sur Way Name",
+    "id": "Tetap agak di kanan ke Way Name",
+    "it": "Fai una leggera curva a destra per stare su Way Name",
+    "nl": "Rechts aanhouden naar Way Name",
+    "pl": "Skręć w prawo w łagodny zakręt, aby pozostać na Way Name",
+    "pt-BR": "Continue ligeiramente à direita em Way Name",
+    "ro": "Virați ușor dreapta pe Way Name",
+    "ru": "Плавно поверните направо на Way Name",
+    "sv": "Sväng höger och fortsätt på Way Name",
+    "tr": "Way Name üzerinde kalmak için sağa hafif dönüş yap",
+    "uk": "Рухайтесь плавно праворуч на Way Name",
+    "vi": "Nghiêng về bên phải để chạy tiếp trên Way Name",
+    "zh-Hans": "继续向右，上Way Name"
+  }
 }

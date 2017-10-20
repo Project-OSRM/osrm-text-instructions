@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "bearing_after": 290,
-            "type": "depart"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "bearing_after": 290,
+      "type": "depart"
     },
-    "instructions": {
-        "de": "Fahren Sie Richtung Westen",
-        "en": "Head west",
-        "eo": "Direktiĝu okcidenten",
-        "es": "Ve a oeste",
-        "es-ES": "Dirígete al oeste",
-        "fr": "Rouler vers l'ouest",
-        "id": "Arah barat",
-        "it": "Continua verso ovest",
-        "nl": "Vertrek in westelijke richting",
-        "pl": "Kieruj się zachód",
-        "pt-BR": "Siga oeste",
-        "ro": "Mergeți vest",
-        "ru": "Двигайтесь в западном направлении",
-        "sv": "Kör åt väster",
-        "tr": "Batı tarafına yönelin",
-        "uk": "Прямуйте на захід",
-        "vi": "Đi về hướng tây",
-        "zh-Hans": "出发向西"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Fahren Sie Richtung Westen",
+    "en": "Head west",
+    "eo": "Direktiĝu okcidenten",
+    "es": "Ve a oeste",
+    "es-ES": "Dirígete al oeste",
+    "fr": "Rouler vers l'ouest",
+    "id": "Arah barat",
+    "it": "Continua verso ovest",
+    "nl": "Vertrek in westelijke richting",
+    "pl": "Kieruj się zachód",
+    "pt-BR": "Siga oeste",
+    "ro": "Mergeți vest",
+    "ru": "Двигайтесь в западном направлении",
+    "sv": "Kör åt väster",
+    "tr": "Batı tarafına yönelin",
+    "uk": "Прямуйте на захід",
+    "vi": "Đi về hướng tây",
+    "zh-Hans": "出发向西"
+  }
 }

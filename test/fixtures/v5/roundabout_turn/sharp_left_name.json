@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "roundabout turn",
-            "modifier": "sharp left"
-        },
-        "name": "Way Name"
+  "step": {
+    "maneuver": {
+      "type": "roundabout turn",
+      "modifier": "sharp left"
     },
-    "instructions": {
-        "de": "Am Kreisverkehr scharf links auf Way Name",
-        "en": "At the roundabout make a sharp left onto Way Name",
-        "eo": "Ĉe la trafikcirklo veturu maldekstregen al Way Name",
-        "es": "En la rotonda siga cerrada a la izquierda en Way Name",
-        "es-ES": "En la rotonda siga cerrada a la izquierda por Way Name",
-        "fr": "Au rond-point, tourner franchement à gauche sur Way Name",
-        "id": "Di bundaran, lakukan tajam kiri ke arah Way Name",
-        "it": "Alla rotonda fai una sinistra in Way Name",
-        "nl": "Ga linksaf op de rotonde naar Way Name",
-        "pl": "Na rondzie weź ostro w lewo na Way Name",
-        "pt-BR": "Na rotatória, vire acentuadamente à esquerda na Way Name",
-        "ro": "La sensul giratoriu virați brusc stânga pe Way Name",
-        "ru": "На круговой развязке двигайтесь налево на Way Name",
-        "sv": "I rondellen sväng vänster in på Way Name",
-        "tr": "Way Name üzerindeki göbekli kavşakta keskin sol yöne dön",
-        "uk": "На кільці різко ліворуч на Way Name",
-        "vi": "Đi bên trái gắt tại vòng xuyến để vào Way Name",
-        "zh-Hans": "在环岛向左行驶，上Way Name"
-    }
+    "name": "Way Name"
+  },
+  "instructions": {
+    "de": "Am Kreisverkehr scharf links auf Way Name",
+    "en": "At the roundabout make a sharp left onto Way Name",
+    "eo": "Ĉe la trafikcirklo veturu maldekstregen al Way Name",
+    "es": "En la rotonda siga cerrada a la izquierda en Way Name",
+    "es-ES": "En la rotonda siga cerrada a la izquierda por Way Name",
+    "fr": "Au rond-point, tourner franchement à gauche sur Way Name",
+    "id": "Di bundaran, lakukan tajam kiri ke arah Way Name",
+    "it": "Alla rotonda fai una sinistra in Way Name",
+    "nl": "Ga linksaf op de rotonde naar Way Name",
+    "pl": "Na rondzie weź ostro w lewo na Way Name",
+    "pt-BR": "Na rotatória, vire acentuadamente à esquerda na Way Name",
+    "ro": "La sensul giratoriu virați brusc stânga pe Way Name",
+    "ru": "На круговой развязке двигайтесь налево на Way Name",
+    "sv": "I rondellen sväng vänster in på Way Name",
+    "tr": "Way Name üzerindeki göbekli kavşakta keskin sol yöne dön",
+    "uk": "На кільці різко ліворуч на Way Name",
+    "vi": "Đi bên trái gắt tại vòng xuyến để vào Way Name",
+    "zh-Hans": "在环岛向左行驶，上Way Name"
+  }
 }

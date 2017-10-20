@@ -1,27 +1,27 @@
 {
-    "options": {
-        "instruction_one": "Do this",
-        "instruction_two": "Do that",
-        "distance": "0 units"
-    },
-    "phrases": {
-        "de": "Do this danach in 0 units Do that",
-        "en": "Do this, then, in 0 units, Do that",
-        "eo": "Do this kaj post 0 units Do that",
-        "es": "Do this y luego en 0 units, Do that",
-        "es-ES": "Do this y luego en 0 units, Do that",
-        "fr": "Do this then in 0 units Do that",
-        "id": "Do this then in 0 units Do that",
-        "it": "Do this, poi tra 0 units,Do that",
-        "nl": "Do this then in 0 units Do that",
-        "pl": "Do this, następnie za 0 units Do that",
-        "pt-BR": "Do this then in 0 units Do that",
-        "ro": "Do this then in 0 units Do that",
-        "ru": "Do this, затем через 0 units Do that",
-        "sv": "Do this, sedan efter 0 units, Do that",
-        "tr": "Do this ve 0 units sonra Do that",
-        "uk": "Do this then in 0 units Do that",
-        "vi": "Do this, rồi 0 units nữa thì Do that",
-        "zh-Hans": "Do this then in 0 units Do that"
-    }
+  "options": {
+    "instruction_one": "Do this",
+    "instruction_two": "Do that",
+    "distance": "0 units"
+  },
+  "phrases": {
+    "de": "Do this danach in 0 units Do that",
+    "en": "Do this, then, in 0 units, Do that",
+    "eo": "Do this kaj post 0 units Do that",
+    "es": "Do this y luego en 0 units, Do that",
+    "es-ES": "Do this y luego en 0 units, Do that",
+    "fr": "Do this then in 0 units Do that",
+    "id": "Do this then in 0 units Do that",
+    "it": "Do this, poi tra 0 units,Do that",
+    "nl": "Do this then in 0 units Do that",
+    "pl": "Do this, następnie za 0 units Do that",
+    "pt-BR": "Do this then in 0 units Do that",
+    "ro": "Do this then in 0 units Do that",
+    "ru": "Do this, затем через 0 units Do that",
+    "sv": "Do this, sedan efter 0 units, Do that",
+    "tr": "Do this ve 0 units sonra Do that",
+    "uk": "Do this then in 0 units Do that",
+    "vi": "Do this, rồi 0 units nữa thì Do that",
+    "zh-Hans": "Do this then in 0 units Do that"
+  }
 }

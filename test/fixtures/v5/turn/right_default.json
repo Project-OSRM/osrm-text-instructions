@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "turn",
-            "modifier": "right"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "turn",
+      "modifier": "right"
     },
-    "instructions": {
-        "de": "Rechts abbiegen",
-        "en": "Turn right",
-        "eo": "Turniĝu dekstren",
-        "es": "Gire a la derecha",
-        "es-ES": "Gira a la derecha",
-        "fr": "Tourner à droite",
-        "id": "Belok kanan",
-        "it": "Gira a destra",
-        "nl": "Ga rechtsaf",
-        "pl": "Skręć w prawo",
-        "pt-BR": "Vire à direita",
-        "ro": "Virați dreapta",
-        "ru": "Поверните направо",
-        "sv": "Sväng höger",
-        "tr": "Sağa dönün",
-        "uk": "Поверніть праворуч",
-        "vi": "Quẹo phải",
-        "zh-Hans": "右转"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Rechts abbiegen",
+    "en": "Turn right",
+    "eo": "Turniĝu dekstren",
+    "es": "Gire a la derecha",
+    "es-ES": "Gira a la derecha",
+    "fr": "Tourner à droite",
+    "id": "Belok kanan",
+    "it": "Gira a destra",
+    "nl": "Ga rechtsaf",
+    "pl": "Skręć w prawo",
+    "pt-BR": "Vire à direita",
+    "ro": "Virați dreapta",
+    "ru": "Поверните направо",
+    "sv": "Sväng höger",
+    "tr": "Sağa dönün",
+    "uk": "Поверніть праворуч",
+    "vi": "Quẹo phải",
+    "zh-Hans": "右转"
+  }
 }

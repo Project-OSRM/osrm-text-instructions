@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "off ramp",
-            "modifier": "sharp right"
-        },
-        "name": "Way Name",
-        "exits": "4A;4B"
+  "step": {
+    "maneuver": {
+      "type": "off ramp",
+      "modifier": "sharp right"
     },
-    "instructions": {
-        "de": "Ausfahrt 4A rechts nehmen",
-        "en": "Take exit 4A on the right",
-        "eo": "Direktiĝu al elveturejo 4A ĉe dekstre",
-        "es": "Tome la salida 4A en la derecha",
-        "es-ES": "Coge la cuesta abajo 4A",
-        "fr": "Take exit 4A on the right",
-        "id": "Take exit 4A on the right",
-        "it": "Prendi la 4A uscita a destra",
-        "nl": "Take exit 4A on the right",
-        "pl": "Zjedź zjazdem 4A po prawej stronie",
-        "pt-BR": "Pegue a saída 4A à direita",
-        "ro": "Ieșiți pe ieșirea 4A pe dreapta",
-        "ru": "Поверните направо на съезд 4A",
-        "sv": "Ta avfart 4A till höger",
-        "tr": "Sağdaki 4A çıkış yoluna geç",
-        "uk": "Оберіть з'їзд 4A праворуч",
-        "vi": "Đi theo lối ra 4A bên phải",
-        "zh-Hans": "Take exit 4A"
-    }
+    "name": "Way Name",
+    "exits": "4A;4B"
+  },
+  "instructions": {
+    "de": "Ausfahrt 4A rechts nehmen",
+    "en": "Take exit 4A on the right",
+    "eo": "Direktiĝu al elveturejo 4A ĉe dekstre",
+    "es": "Tome la salida 4A en la derecha",
+    "es-ES": "Coge la cuesta abajo 4A",
+    "fr": "Take exit 4A on the right",
+    "id": "Take exit 4A on the right",
+    "it": "Prendi la 4A uscita a destra",
+    "nl": "Take exit 4A on the right",
+    "pl": "Zjedź zjazdem 4A po prawej stronie",
+    "pt-BR": "Pegue a saída 4A à direita",
+    "ro": "Ieșiți pe ieșirea 4A pe dreapta",
+    "ru": "Поверните направо на съезд 4A",
+    "sv": "Ta avfart 4A till höger",
+    "tr": "Sağdaki 4A çıkış yoluna geç",
+    "uk": "Оберіть з'їзд 4A праворуч",
+    "vi": "Đi theo lối ra 4A bên phải",
+    "zh-Hans": "Take exit 4A"
+  }
 }

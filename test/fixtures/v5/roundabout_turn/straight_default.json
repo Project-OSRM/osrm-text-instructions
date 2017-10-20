@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "roundabout turn",
-            "modifier": "straight"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "roundabout turn",
+      "modifier": "straight"
     },
-    "instructions": {
-        "de": "Am Kreisverkehr geradeaus weiterfahren",
-        "en": "At the roundabout continue straight",
-        "eo": "Ĉe la trafikcirklo veturu rekten",
-        "es": "En la rotonda continúe recto",
-        "es-ES": "En la rotonda continúa recto",
-        "fr": "Au rond-point, continuer tout droit",
-        "id": "Di bundaran tetap lurus",
-        "it": "Alla rotonda prosegui dritto",
-        "nl": "Rechtdoor op de rotonde",
-        "pl": "Na rondzie kontynuuj prosto",
-        "pt-BR": "Na rotatória siga reto",
-        "ro": "La sensul giratoriu continuați înainte",
-        "ru": "На круговой развязке двигайтесь прямо",
-        "sv": "I rondellen fortsätt rakt fram",
-        "tr": "Göbekli kavşakta düz devam et",
-        "uk": "На кільці продовжуйте рухатись прямо",
-        "vi": "Chạy thẳng tại vòng xuyến",
-        "zh-Hans": "在环岛继续直行"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Am Kreisverkehr geradeaus weiterfahren",
+    "en": "At the roundabout continue straight",
+    "eo": "Ĉe la trafikcirklo veturu rekten",
+    "es": "En la rotonda continúe recto",
+    "es-ES": "En la rotonda continúa recto",
+    "fr": "Au rond-point, continuer tout droit",
+    "id": "Di bundaran tetap lurus",
+    "it": "Alla rotonda prosegui dritto",
+    "nl": "Rechtdoor op de rotonde",
+    "pl": "Na rondzie kontynuuj prosto",
+    "pt-BR": "Na rotatória siga reto",
+    "ro": "La sensul giratoriu continuați înainte",
+    "ru": "На круговой развязке двигайтесь прямо",
+    "sv": "I rondellen fortsätt rakt fram",
+    "tr": "Göbekli kavşakta düz devam et",
+    "uk": "На кільці продовжуйте рухатись прямо",
+    "vi": "Chạy thẳng tại vòng xuyến",
+    "zh-Hans": "在环岛继续直行"
+  }
 }

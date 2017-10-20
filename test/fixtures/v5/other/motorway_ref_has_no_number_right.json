@@ -1,35 +1,33 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "continue",
-            "modifier": "right"
-        },
-        "name": "Cool highway",
-        "ref": "Ref no number"
+  "step": {
+    "maneuver": {
+      "type": "continue",
+      "modifier": "right"
     },
-    "instructions": {
-        "de": "Rechts weiterfahren auf Cool highway",
-        "en": "Turn right to stay on Cool highway",
-        "eo": "Veturu dekstren al Cool highway",
-        "es": "Cruce a laderecha en Cool highway",
-        "es-ES": "Cruce a la derecha en Cool highway",
-        "fr": "Continuer à droite sur Cool highway",
-        "id": "Terus kanan ke Cool highway",
-        "it": "Gira a destra per stare su Cool highway",
-        "nl": "Ga rechts naar Cool highway",
-        "pl": "Skręć w prawo, aby pozostać na Cool highway",
-        "pt-BR": "Continue à direita em Cool highway",
-        "ro": "Virați dreapta pe Cool highway",
-        "ru": "Двигайтесь направо по Cool highway",
-        "sv": "Sväng höger och fortsätt på Cool highway",
-        "tr": "Cool highway üzerinde kalmak için sağ yöne dön",
-        "uk": "Рухайтесь праворуч на Cool highway",
-        "vi": "Quẹo phải để chạy tiếp trên Cool highway",
-        "zh-Hans": "继续向右，上Cool highway"
-    },
-    "options": {
-        "classes": [
-            "motorway"
-        ]
-    }
+    "name": "Cool highway",
+    "ref": "Ref no number"
+  },
+  "instructions": {
+    "de": "Rechts weiterfahren auf Cool highway",
+    "en": "Turn right to stay on Cool highway",
+    "eo": "Veturu dekstren al Cool highway",
+    "es": "Cruce a laderecha en Cool highway",
+    "es-ES": "Cruce a la derecha en Cool highway",
+    "fr": "Continuer à droite sur Cool highway",
+    "id": "Terus kanan ke Cool highway",
+    "it": "Gira a destra per stare su Cool highway",
+    "nl": "Ga rechts naar Cool highway",
+    "pl": "Skręć w prawo, aby pozostać na Cool highway",
+    "pt-BR": "Continue à direita em Cool highway",
+    "ro": "Virați dreapta pe Cool highway",
+    "ru": "Двигайтесь направо по Cool highway",
+    "sv": "Sväng höger och fortsätt på Cool highway",
+    "tr": "Cool highway üzerinde kalmak için sağ yöne dön",
+    "uk": "Рухайтесь праворуч на Cool highway",
+    "vi": "Quẹo phải để chạy tiếp trên Cool highway",
+    "zh-Hans": "继续向右，上Cool highway"
+  },
+  "options": {
+    "classes": ["motorway"]
+  }
 }

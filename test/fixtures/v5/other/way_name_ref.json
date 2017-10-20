@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "turn",
-            "modifier": "left"
-        },
-        "name": "",
-        "ref": "Ref1;Ref2"
+  "step": {
+    "maneuver": {
+      "type": "turn",
+      "modifier": "left"
     },
-    "instructions": {
-        "de": "Links abbiegen auf Ref1",
-        "en": "Turn left onto Ref1",
-        "eo": "Turniĝu maldekstren al Ref1",
-        "es": "Gire a la izquierda en Ref1",
-        "es-ES": "Gira a la izquierda por Ref1",
-        "fr": "Tourner à gauche sur Ref1",
-        "id": "Belok kiri ke Ref1",
-        "it": "Svolta a sinistra in Ref1",
-        "nl": "Ga linksaf naar Ref1",
-        "pl": "Skręć w lewo na Ref1",
-        "pt-BR": "Vire à esquerda em Ref1",
-        "ro": "Virați stânga pe Ref1",
-        "ru": "Поверните налево на Ref1",
-        "sv": "Sväng vänster in på Ref1",
-        "tr": "Ref1 üzerinde sola dön",
-        "uk": "Поверніть ліворуч на Ref1",
-        "vi": "Quẹo trái vào Ref1",
-        "zh-Hans": "左转，上Ref1"
-    }
+    "name": "",
+    "ref": "Ref1;Ref2"
+  },
+  "instructions": {
+    "de": "Links abbiegen auf Ref1",
+    "en": "Turn left onto Ref1",
+    "eo": "Turniĝu maldekstren al Ref1",
+    "es": "Gire a la izquierda en Ref1",
+    "es-ES": "Gira a la izquierda por Ref1",
+    "fr": "Tourner à gauche sur Ref1",
+    "id": "Belok kiri ke Ref1",
+    "it": "Svolta a sinistra in Ref1",
+    "nl": "Ga linksaf naar Ref1",
+    "pl": "Skręć w lewo na Ref1",
+    "pt-BR": "Vire à esquerda em Ref1",
+    "ro": "Virați stânga pe Ref1",
+    "ru": "Поверните налево на Ref1",
+    "sv": "Sväng vänster in på Ref1",
+    "tr": "Ref1 üzerinde sola dön",
+    "uk": "Поверніть ліворуч на Ref1",
+    "vi": "Quẹo trái vào Ref1",
+    "zh-Hans": "左转，上Ref1"
+  }
 }

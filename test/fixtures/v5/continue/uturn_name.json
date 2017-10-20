@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "continue",
-            "modifier": "uturn"
-        },
-        "name": "Way Name"
+  "step": {
+    "maneuver": {
+      "type": "continue",
+      "modifier": "uturn"
     },
-    "instructions": {
-        "de": "180°-Wendung auf Way Name",
-        "en": "Make a U-turn and continue on Way Name",
-        "eo": "Turniĝu malantaŭen al Way Name",
-        "es": "Haz un cambio de sentido y continúe en Way Name",
-        "es-ES": "Haz un cambio de sentido y continúe en Way Name",
-        "fr": "Faire demi-tour sur Way Name",
-        "id": "Putar balik ke arah Way Name",
-        "it": "Fai un'inversione ad U poi continua su Way Name",
-        "nl": "Keer om naar Way Name",
-        "pl": "Zawróć i jedź dalej Way Name",
-        "pt-BR": "Faça o retorno em Way Name",
-        "ro": "Întoarceți-vă și continuați pe Way Name",
-        "ru": "Развернитесь и продолжите движение по Way Name",
-        "sv": "Gör en U-sväng och fortsätt på Way Name",
-        "tr": "Bir U-dönüşü yap ve Way Name devam et",
-        "uk": "Здійсніть розворот на Way Name",
-        "vi": "Quẹo ngược lại trên Way Name",
-        "zh-Hans": "调头上Way Name"
-    }
+    "name": "Way Name"
+  },
+  "instructions": {
+    "de": "180°-Wendung auf Way Name",
+    "en": "Make a U-turn and continue on Way Name",
+    "eo": "Turniĝu malantaŭen al Way Name",
+    "es": "Haz un cambio de sentido y continúe en Way Name",
+    "es-ES": "Haz un cambio de sentido y continúe en Way Name",
+    "fr": "Faire demi-tour sur Way Name",
+    "id": "Putar balik ke arah Way Name",
+    "it": "Fai un'inversione ad U poi continua su Way Name",
+    "nl": "Keer om naar Way Name",
+    "pl": "Zawróć i jedź dalej Way Name",
+    "pt-BR": "Faça o retorno em Way Name",
+    "ro": "Întoarceți-vă și continuați pe Way Name",
+    "ru": "Развернитесь и продолжите движение по Way Name",
+    "sv": "Gör en U-sväng och fortsätt på Way Name",
+    "tr": "Bir U-dönüşü yap ve Way Name devam et",
+    "uk": "Здійсніть розворот на Way Name",
+    "vi": "Quẹo ngược lại trên Way Name",
+    "zh-Hans": "调头上Way Name"
+  }
 }

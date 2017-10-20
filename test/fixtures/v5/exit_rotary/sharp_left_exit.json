@@ -1,30 +1,30 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "exit rotary",
-            "modifier": "sharp left"
-        },
-        "name": "Way Name",
-        "exits": "4A;4B"
+  "step": {
+    "maneuver": {
+      "type": "exit rotary",
+      "modifier": "sharp left"
     },
-    "instructions": {
-        "de": "Scharf links abbiegen auf Way Name",
-        "en": "Make a sharp left onto Way Name",
-        "eo": "Maldekstregen al Way Name",
-        "es": "Siga cerrada a la izquierda en Way Name",
-        "es-ES": "Siga cerrada a la izquierda en Way Name",
-        "fr": "Tourner franchement à gauche sur Way Name",
-        "id": "Lakukan tajam kiri ke arah Way Name",
-        "it": "Fai una sinistra in Way Name",
-        "nl": "Ga linksaf naar Way Name",
-        "pl": "Ostro w lewo na Way Name",
-        "pt-BR": "Siga acentuadamente à esquerda em Way Name",
-        "ro": "Virați brusc stânga pe Way Name",
-        "ru": "Двигайтесь налево на Way Name",
-        "sv": "Sväng vänster in på Way Name",
-        "tr": "Way Name üzerinde keskin sol yöne dön",
-        "uk": "Рухайтесь різко ліворуч на Way Name",
-        "vi": "Quẹo trái gắt vào Way Name",
-        "zh-Hans": "向左转弯，上Way Name"
-    }
+    "name": "Way Name",
+    "exits": "4A;4B"
+  },
+  "instructions": {
+    "de": "Scharf links abbiegen auf Way Name",
+    "en": "Make a sharp left onto Way Name",
+    "eo": "Maldekstregen al Way Name",
+    "es": "Siga cerrada a la izquierda en Way Name",
+    "es-ES": "Siga cerrada a la izquierda en Way Name",
+    "fr": "Tourner franchement à gauche sur Way Name",
+    "id": "Lakukan tajam kiri ke arah Way Name",
+    "it": "Fai una sinistra in Way Name",
+    "nl": "Ga linksaf naar Way Name",
+    "pl": "Ostro w lewo na Way Name",
+    "pt-BR": "Siga acentuadamente à esquerda em Way Name",
+    "ro": "Virați brusc stânga pe Way Name",
+    "ru": "Двигайтесь налево на Way Name",
+    "sv": "Sväng vänster in på Way Name",
+    "tr": "Way Name üzerinde keskin sol yöne dön",
+    "uk": "Рухайтесь різко ліворуч на Way Name",
+    "vi": "Quẹo trái gắt vào Way Name",
+    "zh-Hans": "向左转弯，上Way Name"
+  }
 }

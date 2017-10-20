@@ -1,85 +1,64 @@
 {
-    "step": {
-        "maneuver": {
-            "modifier": "straight",
-            "type": "use lane"
-        },
-        "intersections": [
-            {
-                "location": [
-                    13.39677,
-                    52.54366
-                ],
-                "in": 1,
-                "out": 2,
-                "bearings": [
-                    10,
-                    20
-                ],
-                "entry": [
-                    true,
-                    false
-                ],
-                "lanes": [
-                    {
-                        "indications": [
-                            "straight"
-                        ],
-                        "valid": false
-                    },
-                    {
-                        "indications": [
-                            "straight"
-                        ],
-                        "valid": false
-                    },
-                    {
-                        "indications": [
-                            "straight"
-                        ],
-                        "valid": true
-                    },
-                    {
-                        "indications": [
-                            "straight"
-                        ],
-                        "valid": true
-                    },
-                    {
-                        "indications": [
-                            "straight"
-                        ],
-                        "valid": false
-                    },
-                    {
-                        "indications": [
-                            "straight"
-                        ],
-                        "valid": false
-                    }
-                ]
-            }
-        ],
-        "name": ""
+  "step": {
+    "maneuver": {
+      "modifier": "straight",
+      "type": "use lane"
     },
-    "instructions": {
-        "de": "Mittlere Spur nutzen",
-        "en": "Keep in the middle",
-        "eo": "Veturu meze",
-        "es": "Mantengase en el medio",
-        "es-ES": "Mantente en el medio",
-        "fr": "Rester au milieu",
-        "id": "Tetap di tengah",
-        "it": "Rimani in mezzo",
-        "nl": "In het midden blijven",
-        "pl": "Trzymaj się środka",
-        "pt-BR": "Mantenha-se ao centro",
-        "ro": "Menține pe interior",
-        "ru": "Держитесь посередине",
-        "sv": "Håll till mitten",
-        "tr": "Ortada kalın",
-        "uk": "Тримайтесь в середині",
-        "vi": "Đi vào giữa",
-        "zh-Hans": "保持在道路中间直行"
-    }
+    "intersections": [
+      {
+        "location": [13.39677, 52.54366],
+        "in": 1,
+        "out": 2,
+        "bearings": [10, 20],
+        "entry": [true, false],
+        "lanes": [
+          {
+            "indications": ["straight"],
+            "valid": false
+          },
+          {
+            "indications": ["straight"],
+            "valid": false
+          },
+          {
+            "indications": ["straight"],
+            "valid": true
+          },
+          {
+            "indications": ["straight"],
+            "valid": true
+          },
+          {
+            "indications": ["straight"],
+            "valid": false
+          },
+          {
+            "indications": ["straight"],
+            "valid": false
+          }
+        ]
+      }
+    ],
+    "name": ""
+  },
+  "instructions": {
+    "de": "Mittlere Spur nutzen",
+    "en": "Keep in the middle",
+    "eo": "Veturu meze",
+    "es": "Mantengase en el medio",
+    "es-ES": "Mantente en el medio",
+    "fr": "Rester au milieu",
+    "id": "Tetap di tengah",
+    "it": "Rimani in mezzo",
+    "nl": "In het midden blijven",
+    "pl": "Trzymaj się środka",
+    "pt-BR": "Mantenha-se ao centro",
+    "ro": "Menține pe interior",
+    "ru": "Держитесь посередине",
+    "sv": "Håll till mitten",
+    "tr": "Ortada kalın",
+    "uk": "Тримайтесь в середині",
+    "vi": "Đi vào giữa",
+    "zh-Hans": "保持在道路中间直行"
+  }
 }

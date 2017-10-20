@@ -1,31 +1,31 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "continue",
-            "modifier": "left"
-        },
-        "name": "Way Name",
-        "destinations": "Destination 1,Destination 2",
-        "exits": "4A;4B"
+  "step": {
+    "maneuver": {
+      "type": "continue",
+      "modifier": "left"
     },
-    "instructions": {
-        "de": "Links abbiegen Richtung Destination 1",
-        "en": "Turn left towards Destination 1",
-        "eo": "Veturu maldekstren direkte al Destination 1",
-        "es": "Gire a izquierda hacia Destination 1",
-        "es-ES": "Gire a la izquierda hacia Destination 1",
-        "fr": "Tourner à gauche en direction de Destination 1",
-        "id": "Belok kiri menuju Destination 1",
-        "it": "Gira a sinistra verso Destination 1",
-        "nl": "Ga links richting Destination 1",
-        "pl": "Skręć lewo w kierunku Destination 1",
-        "pt-BR": "Vire à esquerda sentido Destination 1",
-        "ro": "Virați stânga spre Destination 1",
-        "ru": "Двигайтесь налево в направлении Destination 1",
-        "sv": "Sväng vänster mot Destination 1",
-        "tr": "Destination 1 istikametinde sol yöne dön",
-        "uk": "Поверніть ліворуч у напрямку Destination 1",
-        "vi": "Quẹo trái đến Destination 1",
-        "zh-Hans": "向左行驶，前往Destination 1"
-    }
+    "name": "Way Name",
+    "destinations": "Destination 1,Destination 2",
+    "exits": "4A;4B"
+  },
+  "instructions": {
+    "de": "Links abbiegen Richtung Destination 1",
+    "en": "Turn left towards Destination 1",
+    "eo": "Veturu maldekstren direkte al Destination 1",
+    "es": "Gire a izquierda hacia Destination 1",
+    "es-ES": "Gire a la izquierda hacia Destination 1",
+    "fr": "Tourner à gauche en direction de Destination 1",
+    "id": "Belok kiri menuju Destination 1",
+    "it": "Gira a sinistra verso Destination 1",
+    "nl": "Ga links richting Destination 1",
+    "pl": "Skręć lewo w kierunku Destination 1",
+    "pt-BR": "Vire à esquerda sentido Destination 1",
+    "ro": "Virați stânga spre Destination 1",
+    "ru": "Двигайтесь налево в направлении Destination 1",
+    "sv": "Sväng vänster mot Destination 1",
+    "tr": "Destination 1 istikametinde sol yöne dön",
+    "uk": "Поверніть ліворуч у напрямку Destination 1",
+    "vi": "Quẹo trái đến Destination 1",
+    "zh-Hans": "向左行驶，前往Destination 1"
+  }
 }

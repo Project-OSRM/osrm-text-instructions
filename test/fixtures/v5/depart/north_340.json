@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "bearing_after": 340,
-            "type": "depart"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "bearing_after": 340,
+      "type": "depart"
     },
-    "instructions": {
-        "de": "Fahren Sie Richtung Norden",
-        "en": "Head north",
-        "eo": "Direktiĝu norden",
-        "es": "Ve a norte",
-        "es-ES": "Dirígete al norte",
-        "fr": "Rouler vers le nord",
-        "id": "Arah utara",
-        "it": "Continua verso nord",
-        "nl": "Vertrek in noordelijke richting",
-        "pl": "Kieruj się północ",
-        "pt-BR": "Siga norte",
-        "ro": "Mergeți nord",
-        "ru": "Двигайтесь в северном направлении",
-        "sv": "Kör åt norr",
-        "tr": "Kuzey tarafına yönelin",
-        "uk": "Прямуйте на північ",
-        "vi": "Đi về hướng bắc",
-        "zh-Hans": "出发向北"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Fahren Sie Richtung Norden",
+    "en": "Head north",
+    "eo": "Direktiĝu norden",
+    "es": "Ve a norte",
+    "es-ES": "Dirígete al norte",
+    "fr": "Rouler vers le nord",
+    "id": "Arah utara",
+    "it": "Continua verso nord",
+    "nl": "Vertrek in noordelijke richting",
+    "pl": "Kieruj się północ",
+    "pt-BR": "Siga norte",
+    "ro": "Mergeți nord",
+    "ru": "Двигайтесь в северном направлении",
+    "sv": "Kör åt norr",
+    "tr": "Kuzey tarafına yönelin",
+    "uk": "Прямуйте на північ",
+    "vi": "Đi về hướng bắc",
+    "zh-Hans": "出发向北"
+  }
 }

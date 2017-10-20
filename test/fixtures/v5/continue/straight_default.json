@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "type": "continue",
-            "modifier": "straight"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "type": "continue",
+      "modifier": "straight"
     },
-    "instructions": {
-        "de": "Geradeaus weiterfahren",
-        "en": "Continue straight",
-        "eo": "Veturu rekten",
-        "es": "Continúe recto",
-        "es-ES": "Continúe recto",
-        "fr": "Continuer tout droit",
-        "id": "Lurus terus",
-        "it": "Continua dritto",
-        "nl": "Ga rechtdoor",
-        "pl": "Kontynuuj prosto",
-        "pt-BR": "Continue reto",
-        "ro": "Mergeți înainte",
-        "ru": "Двигайтесь прямо",
-        "sv": "Fortsätt rakt fram",
-        "tr": "Düz devam edin",
-        "uk": "Продовжуйте рух прямо",
-        "vi": "Chạy thẳng",
-        "zh-Hans": "直行行驶"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Geradeaus weiterfahren",
+    "en": "Continue straight",
+    "eo": "Veturu rekten",
+    "es": "Continúe recto",
+    "es-ES": "Continúe recto",
+    "fr": "Continuer tout droit",
+    "id": "Lurus terus",
+    "it": "Continua dritto",
+    "nl": "Ga rechtdoor",
+    "pl": "Kontynuuj prosto",
+    "pt-BR": "Continue reto",
+    "ro": "Mergeți înainte",
+    "ru": "Двигайтесь прямо",
+    "sv": "Fortsätt rakt fram",
+    "tr": "Düz devam edin",
+    "uk": "Продовжуйте рух прямо",
+    "vi": "Chạy thẳng",
+    "zh-Hans": "直行行驶"
+  }
 }

@@ -1,29 +1,29 @@
 {
-    "step": {
-        "maneuver": {
-            "bearing_after": 69,
-            "type": "depart"
-        },
-        "name": ""
+  "step": {
+    "maneuver": {
+      "bearing_after": 69,
+      "type": "depart"
     },
-    "instructions": {
-        "de": "Fahren Sie Richtung Nordosten",
-        "en": "Head northeast",
-        "eo": "Direktiĝu nord-orienten",
-        "es": "Ve a noreste",
-        "es-ES": "Dirígete al noreste",
-        "fr": "Rouler vers le nord-est",
-        "id": "Arah timur laut",
-        "it": "Continua verso nord-est",
-        "nl": "Vertrek in noordoostelijke richting",
-        "pl": "Kieruj się północny wschód",
-        "pt-BR": "Siga nordeste",
-        "ro": "Mergeți nord-est",
-        "ru": "Двигайтесь в северо-восточном направлении",
-        "sv": "Kör åt nordost",
-        "tr": "Kuzeydoğu tarafına yönelin",
-        "uk": "Прямуйте на північний схід",
-        "vi": "Đi về hướng đông bắc",
-        "zh-Hans": "出发向东北"
-    }
+    "name": ""
+  },
+  "instructions": {
+    "de": "Fahren Sie Richtung Nordosten",
+    "en": "Head northeast",
+    "eo": "Direktiĝu nord-orienten",
+    "es": "Ve a noreste",
+    "es-ES": "Dirígete al noreste",
+    "fr": "Rouler vers le nord-est",
+    "id": "Arah timur laut",
+    "it": "Continua verso nord-est",
+    "nl": "Vertrek in noordoostelijke richting",
+    "pl": "Kieruj się północny wschód",
+    "pt-BR": "Siga nordeste",
+    "ro": "Mergeți nord-est",
+    "ru": "Двигайтесь в северо-восточном направлении",
+    "sv": "Kör åt nordost",
+    "tr": "Kuzeydoğu tarafına yönelin",
+    "uk": "Прямуйте на північний схід",
+    "vi": "Đi về hướng đông bắc",
+    "zh-Hans": "出发向东北"
+  }
 }
