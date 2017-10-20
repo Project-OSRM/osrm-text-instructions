@@ -1,7 +1,7 @@
 var tape = require('tape');
 
-var instructions = require('../index.js');
-var languages = require('../languages.js');
+var grammarize = require('../lib/grammarize.js');
+var languages = require('../languages');
 
 const grammarTests = {
   ru: [
@@ -145,11 +145,9 @@ tape.test('check grammar test data with grammarize()', function(assert) {
   // check that grammar works properly with test data
 
   Object.keys(grammarTests).forEach(l => {
-    var v5Instructions = instructions('v5');
-
     grammarTests[l].forEach(t => {
       assert.equal(
-        v5Instructions.grammarize(l, t[0], t[1]),
+        grammarize('v5', l, t[0], t[1]),
         t[2],
         l + ' grammar passed for "' + t[2] + '" in ' + t[1]
       );
