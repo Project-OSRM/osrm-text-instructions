@@ -1,5 +1,5 @@
 module.exports = function(content) {
-    content.meta.capitalizeFirstLetter = true;
+  content.meta.capitalizeFirstLetter = true;
 
-    return content;
+  return content;
 };

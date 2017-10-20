@@ -29,7 +29,7 @@
     "precommit": "lint-staged",
     "lint": "eslint .",
     "format":
-      "prettier --single-quote --write \"{,rules/*,utils/*,test/**/}*.{js,json}\""
+      "prettier --single-quote --write \"{,lib/*,languages/**/,test/**/}*.{js,json}\""
   },
   "lint-staged": {
     "*.json": ["prettier --single-quote --write", "git add"],
