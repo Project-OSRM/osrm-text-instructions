@@ -336,6 +336,17 @@ tape.test('verify existence/update fixtures', function(assert) {
                 });
             });
             break;
+        case 'exit rotary':
+            // default
+            basePath = path.join(__dirname, '..', 'test', 'fixtures', 'v5', underscorify(type), 'default');
+            baseStep = {
+                maneuver: {
+                    modifier: 'left', // rotaries don't care about modifiers
+                    type: type
+                }
+            };
+            checkOrWriteVariations(baseStep, basePath);
+            break;
         case 'continue':
         case 'end of road':
         case 'fork':
@@ -346,7 +357,6 @@ tape.test('verify existence/update fixtures', function(assert) {
         case 'off ramp':
         case 'roundabout turn':
         case 'exit roundabout':
-        case 'exit rotary':
         case 'turn':
             // do variation per modifier
             constants.modifiers.forEach((modifier) => {

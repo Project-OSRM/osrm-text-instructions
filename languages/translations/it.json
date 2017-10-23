@@ -434,21 +434,6 @@
                 "default": "Exit the traffic circle",
                 "name": "Exit the traffic circle onto {way_name}",
                 "destination": "Exit the traffic circle towards {destination}"
-            },
-            "left": {
-                "default": "Svolta a sinistra",
-                "name": "Svolta a sinistra in {way_name}",
-                "destination": "Svolta a sinistra verso {destination}"
-            },
-            "right": {
-                "default": "Gira a destra",
-                "name": "Svolta a destra in {way_name}",
-                "destination": "Svolta a destra verso {destination}"
-            },
-            "straight": {
-                "default": "Prosegui dritto",
-                "name": "Continua su {way_name}",
-                "destination": "Continua verso {destination}"
             }
         },
         "turn": {

@@ -434,21 +434,6 @@
                 "default": "Exit the traffic circle",
                 "name": "Exit the traffic circle onto {way_name}",
                 "destination": "Exit the traffic circle towards {destination}"
-            },
-            "left": {
-                "default": "Sväng vänster",
-                "name": "Sväng vänster in på {way_name}",
-                "destination": "Sväng vänster mot {destination}"
-            },
-            "right": {
-                "default": "Sväng höger",
-                "name": "Sväng höger in på {way_name}",
-                "destination": "Sväng höger mot {destination}"
-            },
-            "straight": {
-                "default": "Kör rakt fram",
-                "name": "Kör rakt fram in på {way_name}",
-                "destination": "Kör rakt fram mot {destination}"
             }
         },
         "turn": {

@@ -1,8 +1,8 @@
 {
     "step": {
         "maneuver": {
-            "type": "exit rotary",
-            "modifier": "uturn"
+            "modifier": "left",
+            "type": "exit rotary"
         },
         "name": "Way Name",
         "destinations": "Destination 1,Destination 2"

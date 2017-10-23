@@ -434,21 +434,6 @@
                 "default": "Exit the traffic circle",
                 "name": "Exit the traffic circle onto {way_name}",
                 "destination": "Exit the traffic circle towards {destination}"
-            },
-            "left": {
-                "default": "Quẹo trái",
-                "name": "Quẹo trái vào {way_name}",
-                "destination": "Quẹo trái đến {destination}"
-            },
-            "right": {
-                "default": "Quẹo phải",
-                "name": "Quẹo phải vào {way_name}",
-                "destination": "Quẹo phải đến {destination}"
-            },
-            "straight": {
-                "default": "Chạy thẳng",
-                "name": "Chạy thẳng vào {way_name}",
-                "destination": "Chạy thẳng đến {destination}"
             }
         },
         "turn": {

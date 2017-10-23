@@ -434,21 +434,6 @@
                 "default": "Exit the traffic circle",
                 "name": "Exit the traffic circle onto {way_name}",
                 "destination": "Exit the traffic circle towards {destination}"
-            },
-            "left": {
-                "default": "Links abbiegen",
-                "name": "Links abbiegen auf {way_name}",
-                "destination": "Links abbiegen Richtung {destination}"
-            },
-            "right": {
-                "default": "Rechts abbiegen",
-                "name": "Rechts abbiegen auf {way_name}",
-                "destination": "Rechts abbiegen Richtung {destination}"
-            },
-            "straight": {
-                "default": "Geradeaus weiterfahren",
-                "name": "Geradeaus weiterfahren auf {way_name}",
-                "destination": "Geradeaus weiterfahren Richtung {destination}"
             }
         },
         "turn": {

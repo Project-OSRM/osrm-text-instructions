@@ -1,10 +1,9 @@
 {
     "step": {
         "maneuver": {
-            "type": "exit rotary",
-            "modifier": "uturn"
-        },
-        "name": ""
+            "modifier": "left",
+            "type": "exit rotary"
+        }
     },
     "instructions": {
         "de": "Exit the traffic circle",

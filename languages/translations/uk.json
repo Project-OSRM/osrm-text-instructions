@@ -434,21 +434,6 @@
                 "default": "Exit the traffic circle",
                 "name": "Exit the traffic circle onto {way_name}",
                 "destination": "Exit the traffic circle towards {destination}"
-            },
-            "left": {
-                "default": "Поверніть ліворуч",
-                "name": "Поверніть ліворуч на {way_name}",
-                "destination": "Поверніть ліворуч у напрямку {destination}"
-            },
-            "right": {
-                "default": "Поверніть праворуч",
-                "name": "Поверніть праворуч на {way_name}",
-                "destination": "Поверніть праворуч у напрямку {destination}"
-            },
-            "straight": {
-                "default": "Рухайтесь прямо",
-                "name": "Рухайтесь прямо по {way_name}",
-                "destination": "Рухайтесь прямо у напрямку {destination}"
             }
         },
         "turn": {

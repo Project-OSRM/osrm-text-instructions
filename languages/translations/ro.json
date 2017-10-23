@@ -434,21 +434,6 @@
                 "default": "Exit the traffic circle",
                 "name": "Exit the traffic circle onto {way_name}",
                 "destination": "Exit the traffic circle towards {destination}"
-            },
-            "left": {
-                "default": "Virați stânga",
-                "name": "Virați stânga pe {way_name}",
-                "destination": "Virați stânga spre {destination}"
-            },
-            "right": {
-                "default": "Virați dreapta",
-                "name": "Virați dreapta pe {way_name}",
-                "destination": "Virați dreapta spre {destination}"
-            },
-            "straight": {
-                "default": "Mergeți înainte",
-                "name": "Mergeți înainte pe {way_name}",
-                "destination": "Mergeți înainte spre {destination}"
             }
         },
         "turn": {

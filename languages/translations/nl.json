@@ -434,21 +434,6 @@
                 "default": "Exit the traffic circle",
                 "name": "Exit the traffic circle onto {way_name}",
                 "destination": "Exit the traffic circle towards {destination}"
-            },
-            "left": {
-                "default": "Ga linksaf",
-                "name": "Ga linksaf naar {way_name}",
-                "destination": "Ga linksaf richting {destination}"
-            },
-            "right": {
-                "default": "Ga rechtsaf",
-                "name": "Ga rechtsaf naar {way_name}",
-                "destination": "Ga rechtsaf richting {destination}"
-            },
-            "straight": {
-                "default": "Ga rechtdoor",
-                "name": "Ga rechtdoor naar {way_name}",
-                "destination": "Ga rechtdoor richting {destination}"
             }
         },
         "turn": {

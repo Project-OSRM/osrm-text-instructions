@@ -434,21 +434,6 @@
                 "default": "Exit the traffic circle",
                 "name": "Exit the traffic circle onto {way_name}",
                 "destination": "Exit the traffic circle towards {destination}"
-            },
-            "left": {
-                "default": "Tourner à gauche",
-                "name": "Tourner à gauche sur {way_name}",
-                "destination": "Tourner à gauche en direction de {destination}"
-            },
-            "right": {
-                "default": "Tourner à droite",
-                "name": "Tourner à droite sur {way_name}",
-                "destination": "Tourner à droite en direction de {destination}"
-            },
-            "straight": {
-                "default": "Aller tout droit",
-                "name": "Aller tout droit sur {way_name}",
-                "destination": "Aller tout droit en direction de {destination}"
             }
         },
         "turn": {
