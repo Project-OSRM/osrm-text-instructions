@@ -431,9 +431,9 @@
         },
         "exit rotary": {
             "default": {
-                "default": "{modifier} yöne dön",
-                "name": "{way_name} üzerinde {modifier} yöne dön",
-                "destination": "{destination} istikametinde {modifier} yöne dön"
+                "default": "Exit the traffic circle",
+                "name": "Exit the traffic circle onto {way_name}",
+                "destination": "Exit the traffic circle towards {destination}"
             },
             "left": {
                 "default": "Sola dön",

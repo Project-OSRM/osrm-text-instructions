@@ -431,9 +431,9 @@
         },
         "exit rotary": {
             "default": {
-                "default": "Lakukan {modifier}",
-                "name": "Lakukan {modifier} ke arah {way_name}",
-                "destination": "Lakukan {modifier} menuju {destination}"
+                "default": "Exit the traffic circle",
+                "name": "Exit the traffic circle onto {way_name}",
+                "destination": "Exit the traffic circle towards {destination}"
             },
             "left": {
                 "default": "Belok kiri",

@@ -431,9 +431,9 @@
         },
         "exit rotary": {
             "default": {
-                "default": "Make a {modifier}",
-                "name": "Make a {modifier} onto {way_name}",
-                "destination": "Make a {modifier} towards {destination}"
+                "default": "Exit the traffic circle",
+                "name": "Exit the traffic circle onto {way_name}",
+                "destination": "Exit the traffic circle towards {destination}"
             },
             "left": {
                 "default": "Turn left",

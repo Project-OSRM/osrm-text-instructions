@@ -431,9 +431,9 @@
         },
         "exit rotary": {
             "default": {
-                "default": "Sväng {modifier}",
-                "name": "Sväng {modifier} in på {way_name}",
-                "destination": "Sväng {modifier} mot {destination}"
+                "default": "Exit the traffic circle",
+                "name": "Exit the traffic circle onto {way_name}",
+                "destination": "Exit the traffic circle towards {destination}"
             },
             "left": {
                 "default": "Sväng vänster",

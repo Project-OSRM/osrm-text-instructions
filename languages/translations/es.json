@@ -431,9 +431,9 @@
         },
         "exit rotary": {
             "default": {
-                "default": "Siga {modifier}",
-                "name": "Siga {modifier} en {way_name}",
-                "destination": "Siga {modifier} hacia {destination}"
+                "default": "Exit the traffic circle",
+                "name": "Exit the traffic circle onto {way_name}",
+                "destination": "Exit the traffic circle towards {destination}"
             },
             "left": {
                 "default": "Gire a la izquierda",

@@ -431,9 +431,9 @@
         },
         "exit rotary": {
             "default": {
-                "default": "Tourner {modifier}",
-                "name": "Tourner {modifier} sur {way_name}",
-                "destination": "Tourner {modifier} en direction de {destination}"
+                "default": "Exit the traffic circle",
+                "name": "Exit the traffic circle onto {way_name}",
+                "destination": "Exit the traffic circle towards {destination}"
             },
             "left": {
                 "default": "Tourner à gauche",

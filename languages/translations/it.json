@@ -431,9 +431,9 @@
         },
         "exit rotary": {
             "default": {
-                "default": "Fai una {modifier}",
-                "name": "Fai una {modifier} in {way_name}",
-                "destination": "Fai una {modifier} verso {destination}"
+                "default": "Exit the traffic circle",
+                "name": "Exit the traffic circle onto {way_name}",
+                "destination": "Exit the traffic circle towards {destination}"
             },
             "left": {
                 "default": "Svolta a sinistra",

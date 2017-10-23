@@ -431,9 +431,9 @@
         },
         "exit rotary": {
             "default": {
-                "default": "{modifier} abbiegen",
-                "name": "{modifier} abbiegen auf {way_name}",
-                "destination": "{modifier} abbiegen Richtung {destination}"
+                "default": "Exit the traffic circle",
+                "name": "Exit the traffic circle onto {way_name}",
+                "destination": "Exit the traffic circle towards {destination}"
             },
             "left": {
                 "default": "Links abbiegen",

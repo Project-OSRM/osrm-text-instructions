@@ -431,9 +431,9 @@
         },
         "exit rotary": {
             "default": {
-                "default": "Двигайтесь {modifier}",
-                "name": "Двигайтесь {modifier} на {way_name:accusative}",
-                "destination": "Двигайтесь {modifier} в направлении {destination}"
+                "default": "Exit the traffic circle",
+                "name": "Exit the traffic circle onto {way_name}",
+                "destination": "Exit the traffic circle towards {destination}"
             },
             "left": {
                 "default": "Сверните налево",
