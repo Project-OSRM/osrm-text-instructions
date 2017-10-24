@@ -1,0 +1,29 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "exit rotary",
+            "modifier": "straight"
+        },
+        "name": ""
+    },
+    "instructions": {
+        "de": "Geradeaus weiterfahren",
+        "en": "Exit the traffic circle",
+        "eo": "Veturu rekten",
+        "es": "Ve recto",
+        "es-ES": "Ve recto",
+        "fr": "Aller tout droit",
+        "id": "Lurus",
+        "it": "Prosegui dritto",
+        "nl": "Ga rechtdoor",
+        "pl": "Jedź prosto",
+        "pt-BR": "Siga reto",
+        "ro": "Mergeți înainte",
+        "ru": "Двигайтесь прямо",
+        "sv": "Kör rakt fram",
+        "tr": "Düz git",
+        "uk": "Рухайтесь прямо",
+        "vi": "Chạy thẳng",
+        "zh-Hans": "直行"
+    }
+}

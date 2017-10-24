@@ -1,0 +1,29 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "exit rotary",
+            "modifier": "sharp left"
+        },
+        "name": ""
+    },
+    "instructions": {
+        "de": "Scharf links abbiegen",
+        "en": "Exit the traffic circle",
+        "eo": "Maldekstregen",
+        "es": "Siga cerrada a la izquierda",
+        "es-ES": "Siga cerrada a la izquierda",
+        "fr": "Tourner franchement à gauche",
+        "id": "Lakukan tajam kiri",
+        "it": "Fai una sinistra",
+        "nl": "Ga linksaf",
+        "pl": "Ostro w lewo",
+        "pt-BR": "Siga acentuadamente à esquerda",
+        "ro": "Virați brusc stânga",
+        "ru": "Двигайтесь налево",
+        "sv": "Sväng vänster",
+        "tr": "Keskin sol yöne dön",
+        "uk": "Рухайтесь різко ліворуч",
+        "vi": "Quẹo trái gắt",
+        "zh-Hans": "向左转弯"
+    }
+}

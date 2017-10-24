@@ -1,12 +1,11 @@
 {
     "step": {
         "maneuver": {
-            "modifier": "left",
-            "type": "exit rotary"
+            "type": "exit rotary",
+            "modifier": "left"
         },
         "name": "Way Name",
-        "destinations": "Destination 1,Destination 2",
-        "exits": "4A;4B"
+        "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
         "de": "Links abbiegen Richtung Destination 1",
