@@ -431,9 +431,24 @@
         },
         "exit rotary": {
             "default": {
-                "default": "Exit the traffic circle",
-                "name": "Exit the traffic circle onto {way_name}",
-                "destination": "Exit the traffic circle towards {destination}"
+                "default": "Siga {modifier}",
+                "name": "Siga {modifier} em {way_name}",
+                "destination": "Siga {modifier} sentido {destination}"
+            },
+            "left": {
+                "default": "Vire à esquerda",
+                "name": "Vire à esquerda em {way_name}",
+                "destination": "Vire à esquerda sentido {destination}"
+            },
+            "right": {
+                "default": "Vire à direita",
+                "name": "Vire à direita em {way_name}",
+                "destination": "Vire à direita sentido {destination}"
+            },
+            "straight": {
+                "default": "Siga reto",
+                "name": "Siga reto em {way_name}",
+                "destination": "Siga reto sentido {destination}"
             }
         },
         "turn": {

@@ -431,9 +431,24 @@
         },
         "exit rotary": {
             "default": {
-                "default": "Exit the traffic circle",
-                "name": "Exit the traffic circle onto {way_name}",
-                "destination": "Exit the traffic circle towards {destination}"
+                "default": "{modifier}",
+                "name": "{modifier} na {way_name}",
+                "destination": "{modifier} w kierunku {destination}"
+            },
+            "left": {
+                "default": "Skręć w lewo",
+                "name": "Skręć w lewo na {way_name}",
+                "destination": "Skręć w lewo w kierunku {destination}"
+            },
+            "right": {
+                "default": "Skręć w prawo",
+                "name": "Skręć w prawo na {way_name}",
+                "destination": "Skręć w prawo w kierunku {destination}"
+            },
+            "straight": {
+                "default": "Jedź prosto",
+                "name": "Jedź prosto na {way_name}",
+                "destination": "Jedź prosto w kierunku {destination}"
             }
         },
         "turn": {

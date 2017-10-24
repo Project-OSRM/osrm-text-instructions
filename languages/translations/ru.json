@@ -431,9 +431,24 @@
         },
         "exit rotary": {
             "default": {
-                "default": "Exit the traffic circle",
-                "name": "Exit the traffic circle onto {way_name}",
-                "destination": "Exit the traffic circle towards {destination}"
+                "default": "Двигайтесь {modifier}",
+                "name": "Двигайтесь {modifier} на {way_name:accusative}",
+                "destination": "Двигайтесь {modifier} в направлении {destination}"
+            },
+            "left": {
+                "default": "Сверните налево",
+                "name": "Сверните налево на {way_name:accusative}",
+                "destination": "Сверните налево в направлении {destination}"
+            },
+            "right": {
+                "default": "Сверните направо",
+                "name": "Сверните направо на {way_name:accusative}",
+                "destination": "Сверните направо в направлении {destination}"
+            },
+            "straight": {
+                "default": "Двигайтесь прямо",
+                "name": "Двигайтесь по {way_name:dative}",
+                "destination": "Двигайтесь в направлении {destination}"
             }
         },
         "turn": {

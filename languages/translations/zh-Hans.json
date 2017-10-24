@@ -306,9 +306,24 @@
         },
         "exit rotary": {
             "default": {
-                "default": "Exit the traffic circle",
-                "name": "Exit the traffic circle onto {way_name}",
-                "destination": "Exit the traffic circle towards {destination}"
+                "default": "{modifier}转弯",
+                "name": "{modifier}转弯，上{way_name}",
+                "destination": "{modifier}转弯，前往{destination}"
+            },
+            "left": {
+                "default": "左转",
+                "name": "左转，上{way_name}",
+                "destination": "左转，前往{destination}"
+            },
+            "right": {
+                "default": "右转",
+                "name": "右转，上{way_name}",
+                "destination": "右转，前往{destination}"
+            },
+            "straight": {
+                "default": "直行",
+                "name": "直行，上{way_name}",
+                "destination": "直行，前往{destination}"
             }
         },
         "turn": {

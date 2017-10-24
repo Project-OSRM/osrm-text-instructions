@@ -431,9 +431,24 @@
         },
         "exit rotary": {
             "default": {
-                "default": "Exit the traffic circle",
-                "name": "Exit the traffic circle onto {way_name}",
-                "destination": "Exit the traffic circle towards {destination}"
+                "default": "{modifier} yöne dön",
+                "name": "{way_name} üzerinde {modifier} yöne dön",
+                "destination": "{destination} istikametinde {modifier} yöne dön"
+            },
+            "left": {
+                "default": "Sola dön",
+                "name": "{way_name} üzerinde sola dön",
+                "destination": "{destination} istikametinde sola dön"
+            },
+            "right": {
+                "default": "Sağa dön",
+                "name": "{way_name} üzerinde sağa dön",
+                "destination": "{destination} istikametinde sağa dön"
+            },
+            "straight": {
+                "default": "Düz git",
+                "name": "{way_name} üzerinde düz git",
+                "destination": "{destination} istikametinde düz git"
             }
         },
         "turn": {

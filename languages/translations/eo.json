@@ -431,9 +431,24 @@
         },
         "exit rotary": {
             "default": {
-                "default": "Exit the traffic circle",
-                "name": "Exit the traffic circle onto {way_name}",
-                "destination": "Exit the traffic circle towards {destination}"
+                "default": "{modifier}",
+                "name": "{modifier} al {way_name}",
+                "destination": "Veturu {modifier} direkte al {destination}"
+            },
+            "left": {
+                "default": "Turniĝu maldekstren",
+                "name": "Turniĝu maldekstren al {way_name}",
+                "destination": "Turniĝu maldekstren direkte al {destination}"
+            },
+            "right": {
+                "default": "Turniĝu dekstren",
+                "name": "Turniĝu dekstren al {way_name}",
+                "destination": "Turniĝu dekstren direkte al {destination}"
+            },
+            "straight": {
+                "default": "Veturu rekten",
+                "name": "Veturu rekten al {way_name}",
+                "destination": "Veturu rekten direkte al {destination}"
             }
         },
         "turn": {
