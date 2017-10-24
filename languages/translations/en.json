@@ -410,7 +410,7 @@
         "exit roundabout": {
             "default": {
                 "default": "Exit the traffic circle",
-                "name": "Exit the traffic circle {way_name}",
+                "name": "Exit the traffic circle onto {way_name}",
                 "destination": "Exit the traffic circle towards {destination}"
             }
         },
