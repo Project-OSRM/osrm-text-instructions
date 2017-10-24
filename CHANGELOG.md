@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
-## master
+## 0.10.2 2017-10-24
 
 - Change the default exit rotary instruction to be `exit the traffic circle` [#181](https://github.com/Project-OSRM/osrm-text-instructions/pull/181)
 
