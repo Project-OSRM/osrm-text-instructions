@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## 0.10.3 2017-10-24
+
+- Change the default exit roundabout instruction to be `exit the traffic circle` [#182](https://github.com/Project-OSRM/osrm-text-instructions/pull/182)
+
 ## 0.10.2 2017-10-24
 
 - Change the default exit rotary instruction to be `exit the traffic circle` [#181](https://github.com/Project-OSRM/osrm-text-instructions/pull/181)

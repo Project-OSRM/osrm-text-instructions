@@ -409,24 +409,9 @@
         },
         "exit roundabout": {
             "default": {
-                "default": "Make a {modifier}",
-                "name": "Make a {modifier} onto {way_name}",
-                "destination": "Make a {modifier} towards {destination}"
-            },
-            "left": {
-                "default": "Turn left",
-                "name": "Turn left onto {way_name}",
-                "destination": "Turn left towards {destination}"
-            },
-            "right": {
-                "default": "Turn right",
-                "name": "Turn right onto {way_name}",
-                "destination": "Turn right towards {destination}"
-            },
-            "straight": {
-                "default": "Go straight",
-                "name": "Go straight onto {way_name}",
-                "destination": "Go straight towards {destination}"
+                "default": "Exit the traffic circle",
+                "name": "Exit the traffic circle onto {way_name}",
+                "destination": "Exit the traffic circle towards {destination}"
             }
         },
         "exit rotary": {
