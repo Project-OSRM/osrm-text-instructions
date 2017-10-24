@@ -192,6 +192,11 @@
                 "name": "Immettiti {modifier} in {way_name}",
                 "destination": "Immettiti {modifier} verso {destination}"
             },
+            "straight": {
+                "default": "Merge",
+                "name": "Merge onto {way_name}",
+                "destination": "Merge towards {destination}"
+            },
             "slight left": {
                 "default": "Immettiti a sinistra",
                 "name": "Immettiti a sinistra in {way_name}",

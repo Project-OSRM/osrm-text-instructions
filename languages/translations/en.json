@@ -192,6 +192,11 @@
                 "name": "Merge {modifier} onto {way_name}",
                 "destination": "Merge {modifier} towards {destination}"
             },
+            "straight": {
+                "default": "Merge",
+                "name": "Merge onto {way_name}",
+                "destination": "Merge towards {destination}"
+            },
             "slight left": {
                 "default": "Merge left",
                 "name": "Merge left onto {way_name}",

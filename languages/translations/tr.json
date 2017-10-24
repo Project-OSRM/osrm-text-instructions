@@ -192,6 +192,11 @@
                 "name": "{way_name} üzerinde {modifier} yöne gir",
                 "destination": "{destination} istikametinde {modifier} yöne gir"
             },
+            "straight": {
+                "default": "Merge",
+                "name": "Merge onto {way_name}",
+                "destination": "Merge towards {destination}"
+            },
             "slight left": {
                 "default": "Sola gir",
                 "name": "{way_name} üzerinde sola gir",

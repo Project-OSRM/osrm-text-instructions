@@ -192,6 +192,11 @@
                 "name": "Incorpórate {modifier} por {way_name}",
                 "destination": "Incorpórate {modifier} hacia {destination}"
             },
+            "straight": {
+                "default": "Merge",
+                "name": "Merge onto {way_name}",
+                "destination": "Merge towards {destination}"
+            },
             "slight left": {
                 "default": "Incorpórate a la izquierda",
                 "name": "Incorpórate a la izquierda por {way_name}",

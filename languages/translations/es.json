@@ -192,6 +192,11 @@
                 "name": "Gire a {modifier} en {way_name}",
                 "destination": "Gire a {modifier} hacia {destination}"
             },
+            "straight": {
+                "default": "Merge",
+                "name": "Merge onto {way_name}",
+                "destination": "Merge towards {destination}"
+            },
             "slight left": {
                 "default": "Gire a la izquierda",
                 "name": "Gire a la izquierda en {way_name}",

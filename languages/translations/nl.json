@@ -192,6 +192,11 @@
                 "name": "Bij de splitsing {modifier} naar {way_name}",
                 "destination": "Bij de splitsing {modifier} richting {destination}"
             },
+            "straight": {
+                "default": "Merge",
+                "name": "Merge onto {way_name}",
+                "destination": "Merge towards {destination}"
+            },
             "slight left": {
                 "default": "Bij de splitsing links aanhouden",
                 "name": "Bij de splitsing links aanhouden naar {way_name}",

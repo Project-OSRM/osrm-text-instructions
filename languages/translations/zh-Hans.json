@@ -155,6 +155,11 @@
                 "name": "{modifier}并道，上{way_name}",
                 "destination": "{modifier}并道，前往{destination}"
             },
+            "straight": {
+                "default": "Merge",
+                "name": "Merge onto {way_name}",
+                "destination": "Merge towards {destination}"
+            },
             "uturn": {
                 "default": "调头",
                 "name": "调头，上{way_name}",

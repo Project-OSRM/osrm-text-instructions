@@ -192,6 +192,11 @@
                 "name": "Intrați în {modifier} pe {way_name}",
                 "destination": "Intrați în {modifier} spre {destination}"
             },
+            "straight": {
+                "default": "Merge",
+                "name": "Merge onto {way_name}",
+                "destination": "Merge towards {destination}"
+            },
             "slight left": {
                 "default": "Intrați în stânga",
                 "name": "Intrați în stânga pe {way_name}",
