@@ -86,7 +86,7 @@
                 "upcoming": "You will arrive at your {nth} destination, on the left"
             },
             "straight": {
-                "default": "Dojechano do miejsca docelowego {nth}, prosto",
+                "default": "Dojechano do miejsca docelowego {nth} , prosto",
                 "upcoming": "You will arrive at your {nth} destination, straight ahead"
             }
         },

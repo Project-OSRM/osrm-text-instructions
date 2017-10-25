@@ -86,7 +86,7 @@
                 "upcoming": "You will arrive at your {nth} destination, on the left"
             },
             "straight": {
-                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich geradeaus"
+                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich geradeaus",
                 "upcoming": "You will arrive at your {nth} destination, straight ahead"
             }
         },
