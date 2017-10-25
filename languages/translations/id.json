@@ -58,28 +58,36 @@
         },
         "arrive": {
             "default": {
-                "default": "Anda telah tiba di tujuan ke-{nth}"
+                "default": "Anda telah tiba di tujuan ke-{nth}",
+                "upcoming": "You will arrive at your {nth} destination"
             },
             "left": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri",
+                "upcoming": "You will arrive at your {nth} destination, on the left"
             },
             "right": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan",
+                "upcoming": "You will arrive at your {nth} destination, on the right"
             },
             "sharp left": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri",
+                "upcoming": "You will arrive at your {nth} destination, on the left"
             },
             "sharp right": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan",
+                "upcoming": "You will arrive at your {nth} destination, on the right"
             },
             "slight right": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan",
+                "upcoming": "You will arrive at your {nth} destination, on the right"
             },
             "slight left": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri",
+                "upcoming": "You will arrive at your {nth} destination, on the left"
             },
             "straight": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, lurus saja"
+                "default": "Anda telah tiba di tujuan ke-{nth}, lurus saja",
+                "upcoming": "You will arrive at your {nth} destination, straight ahead"
             }
         },
         "continue": {

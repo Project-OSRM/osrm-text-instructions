@@ -58,28 +58,36 @@
         },
         "arrive": {
             "default": {
-                "default": "Вы прибыли в {nth} пункт назначения"
+                "default": "Вы прибыли в {nth} пункт назначения",
+                "upcoming": "You will arrive at your {nth} destination"
             },
             "left": {
-                "default": "Вы прибыли в {nth} пункт назначения, он находится слева"
+                "default": "Вы прибыли в {nth} пункт назначения, он находится слева",
+                "upcoming": "You will arrive at your {nth} destination, on the left"
             },
             "right": {
-                "default": "Вы прибыли в {nth} пункт назначения, он находится справа"
+                "default": "Вы прибыли в {nth} пункт назначения, он находится справа",
+                "upcoming": "You will arrive at your {nth} destination, on the right"
             },
             "sharp left": {
-                "default": "Вы прибыли в {nth} пункт назначения, он находится слева"
+                "default": "Вы прибыли в {nth} пункт назначения, он находится слева",
+                "upcoming": "You will arrive at your {nth} destination, on the left"
             },
             "sharp right": {
-                "default": "Вы прибыли в {nth} пункт назначения, он находится справа"
+                "default": "Вы прибыли в {nth} пункт назначения, он находится справа",
+                "upcoming": "You will arrive at your {nth} destination, on the right"
             },
             "slight right": {
-                "default": "Вы прибыли в {nth} пункт назначения, он находится справа"
+                "default": "Вы прибыли в {nth} пункт назначения, он находится справа",
+                "upcoming": "You will arrive at your {nth} destination, on the right"
             },
             "slight left": {
-                "default": "Вы прибыли в {nth} пункт назначения, он находится слева"
+                "default": "Вы прибыли в {nth} пункт назначения, он находится слева",
+                "upcoming": "You will arrive at your {nth} destination, on the left"
             },
             "straight": {
-                "default": "Вы прибыли в {nth} пункт назначения, он находится перед вами"
+                "default": "Вы прибыли в {nth} пункт назначения, он находится перед вами",
+                "upcoming": "You will arrive at your {nth} destination, straight ahead"
             }
         },
         "continue": {

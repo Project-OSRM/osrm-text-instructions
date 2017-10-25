@@ -58,28 +58,36 @@
         },
         "arrive": {
             "default": {
-                "default": "{nth} hedefinize ulaştınız"
+                "default": "{nth} hedefinize ulaştınız",
+                "upcoming": "You will arrive at your {nth} destination"
             },
             "left": {
-                "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır"
+                "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
+                "upcoming": "You will arrive at your {nth} destination, on the left"
             },
             "right": {
-                "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır"
+                "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
+                "upcoming": "You will arrive at your {nth} destination, on the right"
             },
             "sharp left": {
-                "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır"
+                "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
+                "upcoming": "You will arrive at your {nth} destination, on the left"
             },
             "sharp right": {
-                "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır"
+                "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
+                "upcoming": "You will arrive at your {nth} destination, on the right"
             },
             "slight right": {
-                "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır"
+                "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
+                "upcoming": "You will arrive at your {nth} destination, on the right"
             },
             "slight left": {
-                "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır"
+                "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
+                "upcoming": "You will arrive at your {nth} destination, on the left"
             },
             "straight": {
-                "default": "{nth} hedefinize ulaştınız, hedefiniz karşınızdadır"
+                "default": "{nth} hedefinize ulaştınız, hedefiniz karşınızdadır",
+                "upcoming": "You will arrive at your {nth} destination, straight ahead"
             }
         },
         "continue": {
