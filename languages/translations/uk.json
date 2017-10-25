@@ -59,35 +59,35 @@
         "arrive": {
             "default": {
                 "default": "Ви прибули у ваш {nth} пункт призначення",
-                "upcoming": "You will arrive at your {nth} destination"
+                "upcoming": "Ви прибули у ваш {nth} пункт призначення"
             },
             "left": {
                 "default": "Ви прибули у ваш {nth} пункт призначення, він – ліворуч",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Ви прибули у ваш {nth} пункт призначення, він – ліворуч"
             },
             "right": {
                 "default": "Ви прибули у ваш {nth} пункт призначення, він – праворуч",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Ви прибули у ваш {nth} пункт призначення, він – праворуч"
             },
             "sharp left": {
                 "default": "Ви прибули у ваш {nth} пункт призначення, він – ліворуч",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Ви прибули у ваш {nth} пункт призначення, він – ліворуч"
             },
             "sharp right": {
                 "default": "Ви прибули у ваш {nth} пункт призначення, він – праворуч",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Ви прибули у ваш {nth} пункт призначення, він – праворуч"
             },
             "slight right": {
                 "default": "Ви прибули у ваш {nth} пункт призначення, він – праворуч",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Ви прибули у ваш {nth} пункт призначення, він – праворуч"
             },
             "slight left": {
                 "default": "Ви прибули у ваш {nth} пункт призначення, він – ліворуч",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Ви прибули у ваш {nth} пункт призначення, він – ліворуч"
             },
             "straight": {
                 "default": "Ви прибули у ваш {nth} пункт призначення, він – прямо перед вами",
-                "upcoming": "You will arrive at your {nth} destination, straight ahead"
+                "upcoming": "Ви прибули у ваш {nth} пункт призначення, він – прямо перед вами"
             }
         },
         "continue": {

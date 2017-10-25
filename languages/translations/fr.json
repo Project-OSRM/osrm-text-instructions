@@ -59,35 +59,35 @@
         "arrive": {
             "default": {
                 "default": "Vous êtes arrivés à votre {nth} destination",
-                "upcoming": "You will arrive at your {nth} destination"
+                "upcoming": "Vous êtes arrivés à votre {nth} destination"
             },
             "left": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la gauche"
             },
             "right": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la droite",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la droite"
             },
             "sharp left": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la gauche"
             },
             "sharp right": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la droite",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la droite"
             },
             "slight right": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la droite",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la droite"
             },
             "slight left": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la gauche"
             },
             "straight": {
                 "default": "Vous êtes arrivés à votre {nth} destination, droit devant",
-                "upcoming": "You will arrive at your {nth} destination, straight ahead"
+                "upcoming": "Vous êtes arrivés à votre {nth} destination, droit devant"
             }
         },
         "continue": {

@@ -59,35 +59,35 @@
         "arrive": {
             "default": {
                 "default": "Dojechano do miejsca docelowego {nth}",
-                "upcoming": "You will arrive at your {nth} destination"
+                "upcoming": "Dojechano do miejsca docelowego {nth}"
             },
             "left": {
                 "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
             },
             "right": {
                 "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
             },
             "sharp left": {
                 "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
             },
             "sharp right": {
                 "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
             },
             "slight right": {
                 "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
             },
             "slight left": {
                 "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
             },
             "straight": {
                 "default": "Dojechano do miejsca docelowego {nth} , prosto",
-                "upcoming": "You will arrive at your {nth} destination, straight ahead"
+                "upcoming": "Dojechano do miejsca docelowego {nth} , prosto"
             }
         },
         "continue": {

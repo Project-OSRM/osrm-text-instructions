@@ -59,35 +59,35 @@
         "arrive": {
             "default": {
                 "default": "Ați ajuns la {nth} destinație",
-                "upcoming": "You will arrive at your {nth} destination"
+                "upcoming": "Ați ajuns la {nth} destinație"
             },
             "left": {
                 "default": "Ați ajuns la {nth} destinație, pe stânga",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Ați ajuns la {nth} destinație, pe stânga"
             },
             "right": {
                 "default": "Ați ajuns la {nth} destinație, pe dreapta",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Ați ajuns la {nth} destinație, pe dreapta"
             },
             "sharp left": {
                 "default": "Ați ajuns la {nth} destinație, pe stânga",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Ați ajuns la {nth} destinație, pe stânga"
             },
             "sharp right": {
                 "default": "Ați ajuns la {nth} destinație, pe dreapta",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Ați ajuns la {nth} destinație, pe dreapta"
             },
             "slight right": {
                 "default": "Ați ajuns la {nth} destinație, pe dreapta",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Ați ajuns la {nth} destinație, pe dreapta"
             },
             "slight left": {
                 "default": "Ați ajuns la {nth} destinație, pe stânga",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Ați ajuns la {nth} destinație, pe stânga"
             },
             "straight": {
                 "default": "Ați ajuns la {nth} destinație, în față",
-                "upcoming": "You will arrive at your {nth} destination, straight ahead"
+                "upcoming": "Ați ajuns la {nth} destinație, în față"
             }
         },
         "continue": {

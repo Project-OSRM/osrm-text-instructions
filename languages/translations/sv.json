@@ -59,35 +59,35 @@
         "arrive": {
             "default": {
                 "default": "Du är framme vid din {nth} destination",
-                "upcoming": "You will arrive at your {nth} destination"
+                "upcoming": "Du är framme vid din {nth} destination"
             },
             "left": {
                 "default": "Du är framme vid din {nth} destination, till vänster",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Du är framme vid din {nth} destination, till vänster"
             },
             "right": {
                 "default": "Du är framme vid din {nth} destination, till höger",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Du är framme vid din {nth} destination, till höger"
             },
             "sharp left": {
                 "default": "Du är framme vid din {nth} destination, skarpt till vänster",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Du är framme vid din {nth} destination, skarpt till vänster"
             },
             "sharp right": {
                 "default": "Du är framme vid din {nth} destination, skarpt till höger",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Du är framme vid din {nth} destination, skarpt till höger"
             },
             "slight right": {
                 "default": "Du är framme vid din {nth} destination, till höger",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Du är framme vid din {nth} destination, till höger"
             },
             "slight left": {
                 "default": "Du är framme vid din {nth} destination, till vänster",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Du är framme vid din {nth} destination, till vänster"
             },
             "straight": {
                 "default": "Du är framme vid din {nth} destination, rakt fram",
-                "upcoming": "You will arrive at your {nth} destination, straight ahead"
+                "upcoming": "Du är framme vid din {nth} destination, rakt fram"
             }
         },
         "continue": {

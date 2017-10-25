@@ -63,31 +63,31 @@
             },
             "left": {
                 "default": "Вы прибыли в {nth} пункт назначения, он находится слева",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Вы прибыли в {nth} пункт назначения, он находится слева"
             },
             "right": {
                 "default": "Вы прибыли в {nth} пункт назначения, он находится справа",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Вы прибыли в {nth} пункт назначения, он находится справа"
             },
             "sharp left": {
                 "default": "Вы прибыли в {nth} пункт назначения, он находится слева",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Вы прибыли в {nth} пункт назначения, он находится слева"
             },
             "sharp right": {
                 "default": "Вы прибыли в {nth} пункт назначения, он находится справа",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Вы прибыли в {nth} пункт назначения, он находится справа"
             },
             "slight right": {
                 "default": "Вы прибыли в {nth} пункт назначения, он находится справа",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Вы прибыли в {nth} пункт назначения, он находится справа"
             },
             "slight left": {
                 "default": "Вы прибыли в {nth} пункт назначения, он находится слева",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Вы прибыли в {nth} пункт назначения, он находится слева"
             },
             "straight": {
                 "default": "Вы прибыли в {nth} пункт назначения, он находится перед вами",
-                "upcoming": "You will arrive at your {nth} destination, straight ahead"
+                "upcoming": "Вы прибыли в {nth} пункт назначения, он находится перед вами"
             }
         },
         "continue": {

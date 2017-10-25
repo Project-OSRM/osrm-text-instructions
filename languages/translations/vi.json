@@ -59,35 +59,35 @@
         "arrive": {
             "default": {
                 "default": "Đến nơi {nth}",
-                "upcoming": "You will arrive at your {nth} destination"
+                "upcoming": "Đến nơi {nth}"
             },
             "left": {
                 "default": "Đến nơi {nth} ở bên trái",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Đến nơi {nth} ở bên trái"
             },
             "right": {
                 "default": "Đến nơi {nth} ở bên phải",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Đến nơi {nth} ở bên phải"
             },
             "sharp left": {
                 "default": "Đến nơi {nth} ở bên trái",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Đến nơi {nth} ở bên trái"
             },
             "sharp right": {
                 "default": "Đến nơi {nth} ở bên phải",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Đến nơi {nth} ở bên phải"
             },
             "slight right": {
                 "default": "Đến nơi {nth} ở bên phải",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "Đến nơi {nth} ở bên phải"
             },
             "slight left": {
                 "default": "Đến nơi {nth} ở bên trái",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "Đến nơi {nth} ở bên trái"
             },
             "straight": {
                 "default": "Đến nơi {nth} ở trước mặt",
-                "upcoming": "You will arrive at your {nth} destination, straight ahead"
+                "upcoming": "Đến nơi {nth} ở trước mặt"
             }
         },
         "continue": {
