@@ -59,7 +59,7 @@
         "arrive": {
             "default": {
                 "default": "Sie haben Ihr {nth} Ziel erreicht",
-                "upcoming": "You will arrive at your {nth} destination"
+                "upcoming": "Sie haben Ihr {nth} Ziel erreicht"
             },
             "left": {
                 "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links",
