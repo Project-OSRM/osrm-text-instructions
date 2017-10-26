@@ -58,28 +58,36 @@
         },
         "arrive": {
             "default": {
-                "default": "Ați ajuns la {nth} destinație"
+                "default": "Ați ajuns la {nth} destinație",
+                "upcoming": "Ați ajuns la {nth} destinație"
             },
             "left": {
-                "default": "Ați ajuns la {nth} destinație, pe stânga"
+                "default": "Ați ajuns la {nth} destinație, pe stânga",
+                "upcoming": "Ați ajuns la {nth} destinație, pe stânga"
             },
             "right": {
-                "default": "Ați ajuns la {nth} destinație, pe dreapta"
+                "default": "Ați ajuns la {nth} destinație, pe dreapta",
+                "upcoming": "Ați ajuns la {nth} destinație, pe dreapta"
             },
             "sharp left": {
-                "default": "Ați ajuns la {nth} destinație, pe stânga"
+                "default": "Ați ajuns la {nth} destinație, pe stânga",
+                "upcoming": "Ați ajuns la {nth} destinație, pe stânga"
             },
             "sharp right": {
-                "default": "Ați ajuns la {nth} destinație, pe dreapta"
+                "default": "Ați ajuns la {nth} destinație, pe dreapta",
+                "upcoming": "Ați ajuns la {nth} destinație, pe dreapta"
             },
             "slight right": {
-                "default": "Ați ajuns la {nth} destinație, pe dreapta"
+                "default": "Ați ajuns la {nth} destinație, pe dreapta",
+                "upcoming": "Ați ajuns la {nth} destinație, pe dreapta"
             },
             "slight left": {
-                "default": "Ați ajuns la {nth} destinație, pe stânga"
+                "default": "Ați ajuns la {nth} destinație, pe stânga",
+                "upcoming": "Ați ajuns la {nth} destinație, pe stânga"
             },
             "straight": {
-                "default": "Ați ajuns la {nth} destinație, în față"
+                "default": "Ați ajuns la {nth} destinație, în față",
+                "upcoming": "Ați ajuns la {nth} destinație, în față"
             }
         },
         "continue": {

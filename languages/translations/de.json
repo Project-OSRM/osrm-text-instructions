@@ -58,28 +58,36 @@
         },
         "arrive": {
             "default": {
-                "default": "Sie haben Ihr {nth} Ziel erreicht"
+                "default": "Sie haben Ihr {nth} Ziel erreicht",
+                "upcoming": "Sie haben Ihr {nth} Ziel erreicht"
             },
             "left": {
-                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links"
+                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links",
+                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links"
             },
             "right": {
-                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts"
+                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts",
+                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts"
             },
             "sharp left": {
-                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links"
+                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links",
+                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links"
             },
             "sharp right": {
-                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts"
+                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts",
+                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts"
             },
             "slight right": {
-                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts"
+                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts",
+                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts"
             },
             "slight left": {
-                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links"
+                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links",
+                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links"
             },
             "straight": {
-                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich geradeaus"
+                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich geradeaus",
+                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich geradeaus"
             }
         },
         "continue": {

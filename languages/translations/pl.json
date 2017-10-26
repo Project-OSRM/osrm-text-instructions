@@ -58,28 +58,36 @@
         },
         "arrive": {
             "default": {
-                "default": "Dojechano do miejsca docelowego {nth}"
+                "default": "Dojechano do miejsca docelowego {nth}",
+                "upcoming": "Dojechano do miejsca docelowego {nth}"
             },
             "left": {
-                "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
+                "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
             },
             "right": {
-                "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
+                "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
             },
             "sharp left": {
-                "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
+                "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
             },
             "sharp right": {
-                "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
+                "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
             },
             "slight right": {
-                "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
+                "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
             },
             "slight left": {
-                "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
+                "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
             },
             "straight": {
-                "default": "Dojechano do miejsca docelowego {nth} , prosto"
+                "default": "Dojechano do miejsca docelowego {nth} , prosto",
+                "upcoming": "Dojechano do miejsca docelowego {nth} , prosto"
             }
         },
         "continue": {

@@ -58,28 +58,36 @@
         },
         "arrive": {
             "default": {
-                "default": "您已经到达您的{nth}个目的地"
+                "default": "您已经到达您的{nth}个目的地",
+                "upcoming": "您已经到达您的{nth}个目的地"
             },
             "left": {
-                "default": "您已经到达您的{nth}个目的地，在道路左侧"
+                "default": "您已经到达您的{nth}个目的地，在道路左侧",
+                "upcoming": "您已经到达您的{nth}个目的地，在道路左侧"
             },
             "right": {
-                "default": "您已经到达您的{nth}个目的地，在道路右侧"
+                "default": "您已经到达您的{nth}个目的地，在道路右侧",
+                "upcoming": "您已经到达您的{nth}个目的地，在道路右侧"
             },
             "sharp left": {
-                "default": "您已经到达您的{nth}个目的地，在道路左侧"
+                "default": "您已经到达您的{nth}个目的地，在道路左侧",
+                "upcoming": "您已经到达您的{nth}个目的地，在道路左侧"
             },
             "sharp right": {
-                "default": "您已经到达您的{nth}个目的地，在道路右侧"
+                "default": "您已经到达您的{nth}个目的地，在道路右侧",
+                "upcoming": "您已经到达您的{nth}个目的地，在道路右侧"
             },
             "slight right": {
-                "default": "您已经到达您的{nth}个目的地，在道路右侧"
+                "default": "您已经到达您的{nth}个目的地，在道路右侧",
+                "upcoming": "您已经到达您的{nth}个目的地，在道路右侧"
             },
             "slight left": {
-                "default": "您已经到达您的{nth}个目的地，在道路左侧"
+                "default": "您已经到达您的{nth}个目的地，在道路左侧",
+                "upcoming": "您已经到达您的{nth}个目的地，在道路左侧"
             },
             "straight": {
-                "default": "您已经到达您的{nth}个目的地，在您正前方"
+                "default": "您已经到达您的{nth}个目的地，在您正前方",
+                "upcoming": "您已经到达您的{nth}个目的地，在您正前方"
             }
         },
         "continue": {

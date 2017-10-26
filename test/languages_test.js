@@ -47,6 +47,12 @@ tape.test('verify language files structure', function(assert) {
             l + ' has correct depart exit rotary keys'
         );
 
+        assert.deepEqual(
+          Object.keys(translation.v5.arrive.default),
+          Object.keys(english.v5.arrive.default),
+          l + ' has correct default upcoming arrive keys'
+        );
+
         // exclude zh-Hans until full translation is available
         if (l !== 'zh-Hans') {
             assert.deepEqual(

@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## 0.10.4 2017-10-26
+
+- Add a phrase for an upcoming arrival step [#184](https://github.com/Project-OSRM/osrm-text-instructions/pull/184)
+
 ## 0.10.3 2017-10-24
 
 - Change the default exit roundabout instruction to be `exit the traffic circle` [#182](https://github.com/Project-OSRM/osrm-text-instructions/pull/182)

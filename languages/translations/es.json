@@ -58,28 +58,36 @@
         },
         "arrive": {
             "default": {
-                "default": "Has llegado a tu {nth} destino"
+                "default": "Has llegado a tu {nth} destino",
+                "upcoming": "Has llegado a tu {nth} destino"
             },
             "left": {
-                "default": "Has llegado a tu {nth} destino, a la izquierda"
+                "default": "Has llegado a tu {nth} destino, a la izquierda",
+                "upcoming": "Has llegado a tu {nth} destino, a la izquierda"
             },
             "right": {
-                "default": "Has llegado a tu {nth} destino, a la derecha"
+                "default": "Has llegado a tu {nth} destino, a la derecha",
+                "upcoming": "Has llegado a tu {nth} destino, a la derecha"
             },
             "sharp left": {
-                "default": "Has llegado a tu {nth} destino, a la izquierda"
+                "default": "Has llegado a tu {nth} destino, a la izquierda",
+                "upcoming": "Has llegado a tu {nth} destino, a la izquierda"
             },
             "sharp right": {
-                "default": "Has llegado a tu {nth} destino, a la derecha"
+                "default": "Has llegado a tu {nth} destino, a la derecha",
+                "upcoming": "Has llegado a tu {nth} destino, a la derecha"
             },
             "slight right": {
-                "default": "Has llegado a tu {nth} destino, a la derecha"
+                "default": "Has llegado a tu {nth} destino, a la derecha",
+                "upcoming": "Has llegado a tu {nth} destino, a la derecha"
             },
             "slight left": {
-                "default": "Has llegado a tu {nth} destino, a la izquierda"
+                "default": "Has llegado a tu {nth} destino, a la izquierda",
+                "upcoming": "Has llegado a tu {nth} destino, a la izquierda"
             },
             "straight": {
-                "default": "Has llegado a tu {nth} destino, en frente"
+                "default": "Has llegado a tu {nth} destino, en frente",
+                "upcoming": "Has llegado a tu {nth} destino, en frente"
             }
         },
         "continue": {

@@ -58,28 +58,36 @@
         },
         "arrive": {
             "default": {
-                "default": "Je bent gearriveerd op de {nth} bestemming."
+                "default": "Je bent gearriveerd op de {nth} bestemming.",
+                "upcoming": "Je bent gearriveerd op de {nth} bestemming."
             },
             "left": {
-                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links."
+                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
+                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich links."
             },
             "right": {
-                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts."
+                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
+                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts."
             },
             "sharp left": {
-                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links."
+                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
+                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich links."
             },
             "sharp right": {
-                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts."
+                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
+                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts."
             },
             "slight right": {
-                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts."
+                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
+                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts."
             },
             "slight left": {
-                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links."
+                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
+                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich links."
             },
             "straight": {
-                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich voor je."
+                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich voor je.",
+                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich voor je."
             }
         },
         "continue": {

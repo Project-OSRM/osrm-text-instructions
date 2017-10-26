@@ -58,28 +58,36 @@
         },
         "arrive": {
             "default": {
-                "default": "Vi atingis vian {nth} celon"
+                "default": "Vi atingis vian {nth} celon",
+                "upcoming": "Vi atingis vian {nth} celon"
             },
             "left": {
-                "default": "Vi atingis vian {nth} celon ĉe maldekstre"
+                "default": "Vi atingis vian {nth} celon ĉe maldekstre",
+                "upcoming": "Vi atingis vian {nth} celon ĉe maldekstre"
             },
             "right": {
-                "default": "Vi atingis vian {nth} celon ĉe dekstre"
+                "default": "Vi atingis vian {nth} celon ĉe dekstre",
+                "upcoming": "Vi atingis vian {nth} celon ĉe dekstre"
             },
             "sharp left": {
-                "default": "Vi atingis vian {nth} celon ĉe maldekstre"
+                "default": "Vi atingis vian {nth} celon ĉe maldekstre",
+                "upcoming": "Vi atingis vian {nth} celon ĉe maldekstre"
             },
             "sharp right": {
-                "default": "Vi atingis vian {nth} celon ĉe dekstre"
+                "default": "Vi atingis vian {nth} celon ĉe dekstre",
+                "upcoming": "Vi atingis vian {nth} celon ĉe dekstre"
             },
             "slight right": {
-                "default": "Vi atingis vian {nth} celon ĉe dekstre"
+                "default": "Vi atingis vian {nth} celon ĉe dekstre",
+                "upcoming": "Vi atingis vian {nth} celon ĉe dekstre"
             },
             "slight left": {
-                "default": "Vi atingis vian {nth} celon ĉe maldekstre"
+                "default": "Vi atingis vian {nth} celon ĉe maldekstre",
+                "upcoming": "Vi atingis vian {nth} celon ĉe maldekstre"
             },
             "straight": {
-                "default": "Vi atingis vian {nth} celon"
+                "default": "Vi atingis vian {nth} celon",
+                "upcoming": "Vi atingis vian {nth} celon"
             }
         },
         "continue": {

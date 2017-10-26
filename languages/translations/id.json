@@ -58,28 +58,36 @@
         },
         "arrive": {
             "default": {
-                "default": "Anda telah tiba di tujuan ke-{nth}"
+                "default": "Anda telah tiba di tujuan ke-{nth}",
+                "upcoming": "Anda telah tiba di tujuan ke-{nth}"
             },
             "left": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri",
+                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
             },
             "right": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan",
+                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
             },
             "sharp left": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri",
+                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
             },
             "sharp right": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan",
+                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
             },
             "slight right": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan",
+                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
             },
             "slight left": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri",
+                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
             },
             "straight": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, lurus saja"
+                "default": "Anda telah tiba di tujuan ke-{nth}, lurus saja",
+                "upcoming": "Anda telah tiba di tujuan ke-{nth}, lurus saja"
             }
         },
         "continue": {
