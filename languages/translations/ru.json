@@ -193,9 +193,9 @@
                 "destination": "Перестройтесь {modifier} в направлении {destination}"
             },
             "straight": {
-                "default": "Merge",
-                "name": "Merge onto {way_name}",
-                "destination": "Merge towards {destination}"
+                "default": "Перестройтесь прямо",
+                "name": "Перестройтесь прямо на {way_name:accusative}",
+                "destination": "Перестройтесь прямо в направлении {destination}"
             },
             "slight left": {
                 "default": "Перестройтесь левее",

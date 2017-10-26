@@ -193,9 +193,9 @@
                 "destination": "Włącz się {modifier} w kierunku {destination}"
             },
             "straight": {
-                "default": "Merge",
-                "name": "Merge onto {way_name}",
-                "destination": "Merge towards {destination}"
+                "default": "Włącz się prosto",
+                "name": "Włącz się prosto na {way_name}",
+                "destination": "Włącz się prosto w kierunku {destination}"
             },
             "slight left": {
                 "default": "Włącz się z lewej strony",

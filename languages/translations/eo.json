@@ -193,9 +193,9 @@
                 "destination": "Enveturu {modifier} direkte al {destination}"
             },
             "straight": {
-                "default": "Merge",
-                "name": "Merge onto {way_name}",
-                "destination": "Merge towards {destination}"
+                "default": "Enveturu rekten",
+                "name": "Enveturu rekten al {way_name}",
+                "destination": "Enveturu rekten direkte al {destination}"
             },
             "slight left": {
                 "default": "Enveturu de maldekstre",

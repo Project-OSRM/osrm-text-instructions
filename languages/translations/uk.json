@@ -193,9 +193,9 @@
                 "destination": "Приєднайтеся до потоку {modifier} у напрямку {destination}"
             },
             "straight": {
-                "default": "Merge",
-                "name": "Merge onto {way_name}",
-                "destination": "Merge towards {destination}"
+                "default": "Приєднайтеся до потоку прямо",
+                "name": "Приєднайтеся до потоку прямо на {way_name}",
+                "destination": "Приєднайтеся до потоку прямо у напрямку {destination}"
             },
             "slight left": {
                 "default": "Приєднайтеся до потоку ліворуч",

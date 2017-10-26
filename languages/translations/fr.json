@@ -193,9 +193,9 @@
                 "destination": "Rejoindre {modifier} en direction de {destination}"
             },
             "straight": {
-                "default": "Merge",
-                "name": "Merge onto {way_name}",
-                "destination": "Merge towards {destination}"
+                "default": "Rejoindre tout droit",
+                "name": "Rejoindre tout droit sur {way_name}",
+                "destination": "Rejoindre tout droit en direction de {destination}"
             },
             "slight left": {
                 "default": "Rejoindre par la gauche",

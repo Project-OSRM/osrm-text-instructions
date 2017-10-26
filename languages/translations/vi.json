@@ -193,9 +193,9 @@
                 "destination": "Nhập sang {modifier} đến {destination}"
             },
             "straight": {
-                "default": "Merge",
-                "name": "Merge onto {way_name}",
-                "destination": "Merge towards {destination}"
+                "default": "Nhập sang thẳng",
+                "name": "Nhập sang thẳng vào {way_name}",
+                "destination": "Nhập sang thẳng đến {destination}"
             },
             "slight left": {
                 "default": "Nhập sang trái",

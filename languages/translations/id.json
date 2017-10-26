@@ -193,9 +193,9 @@
                 "destination": "Bergabung {modifier} menuju {destination}"
             },
             "straight": {
-                "default": "Merge",
-                "name": "Merge onto {way_name}",
-                "destination": "Merge towards {destination}"
+                "default": "Bergabung lurus",
+                "name": "Bergabung lurus ke arah {way_name}",
+                "destination": "Bergabung lurus menuju {destination}"
             },
             "slight left": {
                 "default": "Bergabung di kiri",

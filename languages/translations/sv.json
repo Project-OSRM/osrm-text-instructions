@@ -193,9 +193,9 @@
                 "destination": "Byt till {modifier} körfält mot {destination}"
             },
             "straight": {
-                "default": "Merge",
-                "name": "Merge onto {way_name}",
-                "destination": "Merge towards {destination}"
+                "default": "Byt till rakt fram körfält",
+                "name": "Byt till rakt fram körfält in på {way_name}",
+                "destination": "Byt till rakt fram körfält mot {destination}"
             },
             "slight left": {
                 "default": "Byt till vänstra körfältet",

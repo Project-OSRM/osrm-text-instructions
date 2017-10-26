@@ -193,9 +193,9 @@
                 "destination": "{modifier} auffahren Richtung {destination}"
             },
             "straight": {
-                "default": "Merge",
-                "name": "Merge onto {way_name}",
-                "destination": "Merge towards {destination}"
+                "default": "geradeaus auffahren",
+                "name": "geradeaus auffahren auf {way_name}",
+                "destination": "geradeaus auffahren Richtung {destination}"
             },
             "slight left": {
                 "default": "Leicht links auffahren",
