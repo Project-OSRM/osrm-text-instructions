@@ -134,7 +134,7 @@
             "default": {
                 "default": "Kör åt {direction}",
                 "name": "Kör åt {direction} på {way_name}",
-                "namedistance": "Head {direction} on {way_name} for {distance}"
+                "namedistance": "Kör {distance} åt {direction} på {way_name}"
             }
         },
         "end of road": {
@@ -364,7 +364,7 @@
             "default": {
                 "default": {
                     "default": "Kör in i rondellen",
-                    "name": "I rondellen ta av in på {way_name}",
+                    "name": "I rondellen ta avfarten in på {way_name}",
                     "destination": "I rondellen ta av mot {destination}"
                 },
                 "name": {
@@ -393,7 +393,7 @@
                 },
                 "default": {
                     "default": "Kör in i rondellen",
-                    "name": "I rondellen ta av mot {way_name}",
+                    "name": "I rondellen ta avfarten in på {way_name}",
                     "destination": "I rondellen ta av mot {destination}"
                 }
             }
@@ -422,46 +422,16 @@
         },
         "exit roundabout": {
             "default": {
-                "default": "Sväng {modifier}",
-                "name": "Sväng {modifier} in på {way_name}",
-                "destination": "Sväng {modifier} mot {destination}"
-            },
-            "left": {
-                "default": "Sväng vänster",
-                "name": "Sväng vänster in på {way_name}",
-                "destination": "Sväng vänster mot {destination}"
-            },
-            "right": {
-                "default": "Sväng höger",
-                "name": "Sväng höger in på {way_name}",
-                "destination": "Sväng höger mot {destination}"
-            },
-            "straight": {
-                "default": "Kör rakt fram",
-                "name": "Kör rakt fram in på {way_name}",
-                "destination": "Kör rakt fram mot {destination}"
+                "default": "Kör ut ur rondellen",
+                "name": "Kör ut ur rondellen in på {way_name}",
+                "destination": "Kör ut ur rondellen mot {destination}"
             }
         },
         "exit rotary": {
             "default": {
-                "default": "Sväng {modifier}",
-                "name": "Sväng {modifier} in på {way_name}",
-                "destination": "Sväng {modifier} mot {destination}"
-            },
-            "left": {
-                "default": "Sväng vänster",
-                "name": "Sväng vänster in på {way_name}",
-                "destination": "Sväng vänster mot {destination}"
-            },
-            "right": {
-                "default": "Sväng höger",
-                "name": "Sväng höger in på {way_name}",
-                "destination": "Sväng höger mot {destination}"
-            },
-            "straight": {
-                "default": "Kör rakt fram",
-                "name": "Kör rakt fram in på {way_name}",
-                "destination": "Kör rakt fram mot {destination}"
+                "default": "Kör ut ur rondellen",
+                "name": "Kör ut ur rondellen in på {way_name}",
+                "destination": "Kör ut ur rondellen mot {destination}"
             }
         },
         "turn": {
