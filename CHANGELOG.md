@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
-## master
+## 0.10.5 2017-10-27
 
 - Added a `merge straight` instruction [#183](https://github.com/Project-OSRM/osrm-text-instructions/pull/183)
 - Added new untranslated Swedish strings related to roundabouts and rotary [#186](https://github.com/Project-OSRM/osrm-text-instructions/pull/186)
