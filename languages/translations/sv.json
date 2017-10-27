@@ -59,35 +59,35 @@
         "arrive": {
             "default": {
                 "default": "Du är framme vid din {nth} destination",
-                "upcoming": "Du är framme vid din {nth} destination"
+                "upcoming": "Du är snart framme vid din {nth} destination"
             },
             "left": {
                 "default": "Du är framme vid din {nth} destination, till vänster",
-                "upcoming": "Du är framme vid din {nth} destination, till vänster"
+                "upcoming": "Du är snart framme vid din {nth} destination, till vänster"
             },
             "right": {
                 "default": "Du är framme vid din {nth} destination, till höger",
-                "upcoming": "Du är framme vid din {nth} destination, till höger"
+                "upcoming": "Du är snart framme vid din {nth} destination, till höger"
             },
             "sharp left": {
-                "default": "Du är framme vid din {nth} destination, skarpt till vänster",
-                "upcoming": "Du är framme vid din {nth} destination, skarpt till vänster"
+                "default": "Du är framme vid din {nth} destination, till vänster",
+                "upcoming": "Du är snart framme vid din {nth} destination, till vänster"
             },
             "sharp right": {
-                "default": "Du är framme vid din {nth} destination, skarpt till höger",
-                "upcoming": "Du är framme vid din {nth} destination, skarpt till höger"
+                "default": "Du är framme vid din {nth} destination, till höger",
+                "upcoming": "Du är snart framme vid din {nth} destination, till höger"
             },
             "slight right": {
                 "default": "Du är framme vid din {nth} destination, till höger",
-                "upcoming": "Du är framme vid din {nth} destination, till höger"
+                "upcoming": "Du är snart framme vid din {nth} destination, till höger"
             },
             "slight left": {
                 "default": "Du är framme vid din {nth} destination, till vänster",
-                "upcoming": "Du är framme vid din {nth} destination, till vänster"
+                "upcoming": "Du är snart framme vid din {nth} destination, till vänster"
             },
             "straight": {
                 "default": "Du är framme vid din {nth} destination, rakt fram",
-                "upcoming": "Du är framme vid din {nth} destination, rakt fram"
+                "upcoming": "Du är snart framme vid din {nth} destination, rakt fram"
             }
         },
         "continue": {
@@ -189,8 +189,8 @@
         "merge": {
             "default": {
                 "default": "Byt till {modifier} körfält",
-                "name": "Byt till {modifier} körfält in på {way_name}",
-                "destination": "Byt till {modifier} körfält mot {destination}"
+                "name": "Byt till {modifier} körfält, in på {way_name}",
+                "destination": "Byt till {modifier} körfält, mot {destination}"
             },
             "straight": {
                 "default": "Byt till rakt fram körfält",
@@ -199,23 +199,23 @@
             },
             "slight left": {
                 "default": "Byt till vänstra körfältet",
-                "name": "Byt till vänstra körfältet in på {way_name}",
-                "destination": "Byt till vänstra körfältet mot {destination}"
+                "name": "Byt till vänstra körfältet, in på {way_name}",
+                "destination": "Byt till vänstra körfältet, mot {destination}"
             },
             "slight right": {
                 "default": "Byt till högra körfältet",
-                "name": "Byt till högra körfältet in på {way_name}",
-                "destination": "Byt till högra körfältet mot {destination}"
+                "name": "Byt till högra körfältet, in på {way_name}",
+                "destination": "Byt till högra körfältet, mot {destination}"
             },
             "sharp left": {
                 "default": "Byt till vänstra körfältet",
-                "name": "Byt till vänstra körfältet in på {way_name}",
-                "destination": "Byt till vänstra körfältet mot {destination}"
+                "name": "Byt till vänstra körfältet, in på {way_name}",
+                "destination": "Byt till vänstra körfältet, mot {destination}"
             },
             "sharp right": {
                 "default": "Byt till högra körfältet",
-                "name": "Byt till högra körfältet in på {way_name}",
-                "destination": "Byt till högra körfältet mot {destination}"
+                "name": "Byt till högra körfältet, in på {way_name}",
+                "destination": "Byt till högra körfältet, mot {destination}"
             },
             "uturn": {
                 "default": "Gör en U-sväng",
@@ -364,60 +364,60 @@
             "default": {
                 "default": {
                     "default": "Kör in i rondellen",
-                    "name": "I rondellen ta avfarten in på {way_name}",
-                    "destination": "I rondellen ta av mot {destination}"
+                    "name": "I rondellen, ta avfarten in på {way_name}",
+                    "destination": "I rondellen, ta av mot {destination}"
                 },
                 "name": {
                     "default": "Kör in i {rotary_name}",
-                    "name": "I {rotary_name} ta av in på {way_name}",
-                    "destination": "I {rotary_name} ta av mot {destination}"
+                    "name": "I {rotary_name}, ta av in på {way_name}",
+                    "destination": "I {rotary_name}, ta av mot {destination}"
                 },
                 "exit": {
-                    "default": "I rondellen ta {exit_number} avfarten",
-                    "name": "I rondellen ta {exit_number} avfarten in på {way_name}",
-                    "destination": "I rondellen ta {exit_number} avfarten mot {destination}"
+                    "default": "I rondellen, ta {exit_number} avfarten",
+                    "name": "I rondellen, ta {exit_number} avfarten in på {way_name}",
+                    "destination": "I rondellen, ta {exit_number} avfarten mot {destination}"
                 },
                 "name_exit": {
-                    "default": "I {rotary_name} ta {exit_number} avfarten",
-                    "name": "I {rotary_name} ta {exit_number}  avfarten in på {way_name}",
-                    "destination": "I {rotary_name} ta {exit_number} avfarten mot {destination}"
+                    "default": "I {rotary_name}, ta {exit_number} avfarten",
+                    "name": "I {rotary_name}, ta {exit_number}  avfarten in på {way_name}",
+                    "destination": "I {rotary_name}, ta {exit_number} avfarten mot {destination}"
                 }
             }
         },
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "I rondellen ta {exit_number} avfarten",
-                    "name": "I rondellen ta {exit_number} avfarten in på {way_name}",
-                    "destination": "I rondellen ta {exit_number} avfarten mot {destination}"
+                    "default": "I rondellen, ta {exit_number} avfarten",
+                    "name": "I rondellen, ta {exit_number} avfarten in på {way_name}",
+                    "destination": "I rondellen, ta {exit_number} avfarten mot {destination}"
                 },
                 "default": {
                     "default": "Kör in i rondellen",
-                    "name": "I rondellen ta avfarten in på {way_name}",
-                    "destination": "I rondellen ta av mot {destination}"
+                    "name": "I rondellen, ta avfarten in på {way_name}",
+                    "destination": "I rondellen, ta av mot {destination}"
                 }
             }
         },
         "roundabout turn": {
             "default": {
-                "default": "I rondellen sväng {modifier}",
-                "name": "I rondellen sväng {modifier} in på {way_name}",
-                "destination": "I rondellen sväng {modifier} mot {destination}"
+                "default": "I rondellen, sväng {modifier}",
+                "name": "I rondellen, sväng {modifier} in på {way_name}",
+                "destination": "I rondellen, sväng {modifier} mot {destination}"
             },
             "left": {
-                "default": "I rondellen sväng vänster",
-                "name": "I rondellen sväng vänster in på {way_name}",
-                "destination": "I rondellen sväng vänster mot {destination}"
+                "default": "I rondellen, sväng vänster",
+                "name": "I rondellen, sväng vänster in på {way_name}",
+                "destination": "I rondellen, sväng vänster mot {destination}"
             },
             "right": {
-                "default": "I rondellen sväng höger",
-                "name": "I rondellen sväng höger in på {way_name}",
-                "destination": "I rondellen sväng höger mot {destination}"
+                "default": "I rondellen, sväng höger",
+                "name": "I rondellen, sväng höger in på {way_name}",
+                "destination": "I rondellen, sväng höger mot {destination}"
             },
             "straight": {
-                "default": "I rondellen fortsätt rakt fram",
-                "name": "I rondellen fortsätt rakt fram in på {way_name}",
-                "destination": "I rondellen fortsätt rakt fram mot {destination}"
+                "default": "I rondellen, fortsätt rakt fram",
+                "name": "I rondellen, fortsätt rakt fram in på {way_name}",
+                "destination": "I rondellen, fortsätt rakt fram mot {destination}"
             }
         },
         "exit roundabout": {
