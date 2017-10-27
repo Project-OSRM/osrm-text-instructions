@@ -192,6 +192,11 @@
                 "name": "Bergabung {modifier} ke arah {way_name}",
                 "destination": "Bergabung {modifier} menuju {destination}"
             },
+            "straight": {
+                "default": "Bergabung lurus",
+                "name": "Bergabung lurus ke arah {way_name}",
+                "destination": "Bergabung lurus menuju {destination}"
+            },
             "slight left": {
                 "default": "Bergabung di kiri",
                 "name": "Bergabung di kiri ke arah {way_name}",

@@ -192,6 +192,11 @@
                 "name": "{modifier} auffahren auf {way_name}",
                 "destination": "{modifier} auffahren Richtung {destination}"
             },
+            "straight": {
+                "default": "geradeaus auffahren",
+                "name": "geradeaus auffahren auf {way_name}",
+                "destination": "geradeaus auffahren Richtung {destination}"
+            },
             "slight left": {
                 "default": "Leicht links auffahren",
                 "name": "Leicht links auffahren auf {way_name}",

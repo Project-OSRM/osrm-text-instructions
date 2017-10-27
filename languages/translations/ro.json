@@ -192,6 +192,11 @@
                 "name": "Intrați în {modifier} pe {way_name}",
                 "destination": "Intrați în {modifier} spre {destination}"
             },
+            "straight": {
+                "default": "Intrați în înainte",
+                "name": "Intrați în înainte pe {way_name}",
+                "destination": "Intrați în înainte spre {destination}"
+            },
             "slight left": {
                 "default": "Intrați în stânga",
                 "name": "Intrați în stânga pe {way_name}",

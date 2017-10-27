@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## master
+
+- Added a `merge straight` instruction [#183](https://github.com/Project-OSRM/osrm-text-instructions/pull/183)
+
 ## 0.10.4 2017-10-26
 
 - Add a phrase for an upcoming arrival step [#184](https://github.com/Project-OSRM/osrm-text-instructions/pull/184)

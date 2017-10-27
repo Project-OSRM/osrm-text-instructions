@@ -192,6 +192,11 @@
                 "name": "Byt till {modifier} körfält in på {way_name}",
                 "destination": "Byt till {modifier} körfält mot {destination}"
             },
+            "straight": {
+                "default": "Byt till rakt fram körfält",
+                "name": "Byt till rakt fram körfält in på {way_name}",
+                "destination": "Byt till rakt fram körfält mot {destination}"
+            },
             "slight left": {
                 "default": "Byt till vänstra körfältet",
                 "name": "Byt till vänstra körfältet in på {way_name}",

@@ -192,6 +192,11 @@
                 "name": "Rejoindre {modifier} sur {way_name}",
                 "destination": "Rejoindre {modifier} en direction de {destination}"
             },
+            "straight": {
+                "default": "Rejoindre tout droit",
+                "name": "Rejoindre tout droit sur {way_name}",
+                "destination": "Rejoindre tout droit en direction de {destination}"
+            },
             "slight left": {
                 "default": "Rejoindre par la gauche",
                 "name": "Rejoindre {way_name} par la gauche",

@@ -192,6 +192,11 @@
                 "name": "Immettiti {modifier} in {way_name}",
                 "destination": "Immettiti {modifier} verso {destination}"
             },
+            "straight": {
+                "default": "Immettiti a dritto",
+                "name": "Immettiti dritto in {way_name}",
+                "destination": "Immettiti dritto verso {destination}"
+            },
             "slight left": {
                 "default": "Immettiti a sinistra",
                 "name": "Immettiti a sinistra in {way_name}",

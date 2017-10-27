@@ -155,6 +155,11 @@
                 "name": "{modifier}并道，上{way_name}",
                 "destination": "{modifier}并道，前往{destination}"
             },
+            "straight": {
+                "default": "直行并道",
+                "name": "直行并道，上{way_name}",
+                "destination": "直行并道，前往{destination}"
+            },
             "uturn": {
                 "default": "调头",
                 "name": "调头，上{way_name}",

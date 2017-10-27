@@ -192,6 +192,11 @@
                 "name": "Gire a {modifier} en {way_name}",
                 "destination": "Gire a {modifier} hacia {destination}"
             },
+            "straight": {
+                "default": "Gire  a recto",
+                "name": "Gire a recto en {way_name}",
+                "destination": "Gire a recto hacia {destination}"
+            },
             "slight left": {
                 "default": "Gire a la izquierda",
                 "name": "Gire a la izquierda en {way_name}",

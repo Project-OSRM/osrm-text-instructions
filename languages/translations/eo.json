@@ -192,6 +192,11 @@
                 "name": "Enveturu {modifier} al {way_name}",
                 "destination": "Enveturu {modifier} direkte al {destination}"
             },
+            "straight": {
+                "default": "Enveturu rekten",
+                "name": "Enveturu rekten al {way_name}",
+                "destination": "Enveturu rekten direkte al {destination}"
+            },
             "slight left": {
                 "default": "Enveturu de maldekstre",
                 "name": "Enveturu de maldekstre al {way_name}",

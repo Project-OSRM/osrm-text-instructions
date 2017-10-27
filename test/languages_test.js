@@ -62,6 +62,8 @@ tape.test('verify language files structure', function(assert) {
             );
         }
 
+        assert.ok(translation.v5.merge.straight, l + ' has merge straight key');
+
     });
 
     assert.end();

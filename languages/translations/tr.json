@@ -192,6 +192,11 @@
                 "name": "{way_name} üzerinde {modifier} yöne gir",
                 "destination": "{destination} istikametinde {modifier} yöne gir"
             },
+            "straight": {
+                "default": "düz yöne gir",
+                "name": "{way_name} üzerinde düz yöne gir",
+                "destination": "{destination} istikametinde düz yöne gir"
+            },
             "slight left": {
                 "default": "Sola gir",
                 "name": "{way_name} üzerinde sola gir",

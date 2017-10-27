@@ -192,6 +192,11 @@
                 "name": "Nhập sang {modifier} vào {way_name}",
                 "destination": "Nhập sang {modifier} đến {destination}"
             },
+            "straight": {
+                "default": "Nhập sang thẳng",
+                "name": "Nhập sang thẳng vào {way_name}",
+                "destination": "Nhập sang thẳng đến {destination}"
+            },
             "slight left": {
                 "default": "Nhập sang trái",
                 "name": "Nhập sang trái vào {way_name}",

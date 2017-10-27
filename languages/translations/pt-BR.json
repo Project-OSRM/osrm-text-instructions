@@ -192,6 +192,11 @@
                 "name": "Entre {modifier} na {way_name}",
                 "destination": "Entre {modifier} em direção à {destination}"
             },
+            "straight": {
+                "default": "Entre reto",
+                "name": "Entre reto na {way_name}",
+                "destination": "Entre reto em direção à {destination}"
+            },
             "slight left": {
                 "default": "Entre à esquerda",
                 "name": "Entre à esquerda na {way_name}",

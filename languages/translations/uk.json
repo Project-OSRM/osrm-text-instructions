@@ -192,6 +192,11 @@
                 "name": "Приєднайтеся до потоку {modifier} на {way_name}",
                 "destination": "Приєднайтеся до потоку {modifier} у напрямку {destination}"
             },
+            "straight": {
+                "default": "Приєднайтеся до потоку прямо",
+                "name": "Приєднайтеся до потоку прямо на {way_name}",
+                "destination": "Приєднайтеся до потоку прямо у напрямку {destination}"
+            },
             "slight left": {
                 "default": "Приєднайтеся до потоку ліворуч",
                 "name": "Приєднайтеся до потоку ліворуч на {way_name}",
