@@ -59,35 +59,35 @@
         "arrive": {
             "default": {
                 "default": "Has llegado a tu {nth} destino",
-                "upcoming": "Has llegado a tu {nth} destino"
+                "upcoming": "Vas a llegar a tu {nth} destino"
             },
             "left": {
                 "default": "Has llegado a tu {nth} destino, a la izquierda",
-                "upcoming": "Has llegado a tu {nth} destino, a la izquierda"
+                "upcoming": "Vas a llegar a tu {nth} destino, a la izquierda"
             },
             "right": {
                 "default": "Has llegado a tu {nth} destino, a la derecha",
-                "upcoming": "Has llegado a tu {nth} destino, a la derecha"
+                "upcoming": "Vas a llegar a tu {nth} destino, a la derecha"
             },
             "sharp left": {
                 "default": "Has llegado a tu {nth} destino, a la izquierda",
-                "upcoming": "Has llegado a tu {nth} destino, a la izquierda"
+                "upcoming": "Vas a llegar a tu {nth} destino, a la izquierda"
             },
             "sharp right": {
                 "default": "Has llegado a tu {nth} destino, a la derecha",
-                "upcoming": "Has llegado a tu {nth} destino, a la derecha"
+                "upcoming": "Vas a llegar a tu {nth} destino, a la derecha"
             },
             "slight right": {
                 "default": "Has llegado a tu {nth} destino, a la derecha",
-                "upcoming": "Has llegado a tu {nth} destino, a la derecha"
+                "upcoming": "Vas a llegar a tu {nth} destino, a la derecha"
             },
             "slight left": {
                 "default": "Has llegado a tu {nth} destino, a la izquierda",
-                "upcoming": "Has llegado a tu {nth} destino, a la izquierda"
+                "upcoming": "Vas a llegar a tu {nth} destino, a la izquierda"
             },
             "straight": {
                 "default": "Has llegado a tu {nth} destino, en frente",
-                "upcoming": "Has llegado a tu {nth} destino, en frente"
+                "upcoming": "Vas a llegar a tu {nth} destino, en frente"
             }
         },
         "continue": {
@@ -134,7 +134,7 @@
             "default": {
                 "default": "Dirígete al {direction}",
                 "name": "Dirígete al {direction} por {way_name}",
-                "namedistance": "Head {direction} on {way_name} for {distance}"
+                "namedistance": "Dirígete al {direction} en {way_name} por {distance}"
             }
         },
         "end of road": {
@@ -193,9 +193,9 @@
                 "destination": "Incorpórate {modifier} hacia {destination}"
             },
             "straight": {
-                "default": "Incorpórate recto",
-                "name": "Incorpórate recto por {way_name}",
-                "destination": "Incorpórate recto hacia {destination}"
+                "default": "Incorpórate",
+                "name": "Incorpórate por {way_name}",
+                "destination": "Incorpórate hacia {destination}"
             },
             "slight left": {
                 "default": "Incorpórate a la izquierda",
@@ -387,14 +387,14 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Entra en la rotonda y toma la {exit_number} salida",
-                    "name": "Entra en la rotonda y toma la {exit_number} salida por {way_name}",
-                    "destination": "Entra en la rotonda y toma la {exit_number} salida hacia {destination}"
+                    "default": "En la rotonda toma la {exit_number} salida",
+                    "name": "En la rotonda toma la {exit_number} salida por {way_name}",
+                    "destination": "En la rotonda toma la {exit_number} salida hacia {destination}"
                 },
                 "default": {
-                    "default": "Entra en la rotonda",
-                    "name": "Entra en la rotonda y sal por {way_name}",
-                    "destination": "Entra en la rotonda y sal hacia {destination}"
+                    "default": "Incorpórate en la rotonda",
+                    "name": "Incorpórate en la rotonda y sal en {way_name}",
+                    "destination": "Incorpórate en la rotonda y sal hacia {destination}"
                 }
             }
         },
@@ -422,46 +422,16 @@
         },
         "exit roundabout": {
             "default": {
-                "default": "Siga {modifier}",
-                "name": "Siga {modifier} en {way_name}",
-                "destination": "Siga {modifier} hacia {destination}"
-            },
-            "left": {
-                "default": "Gire a la izquierda",
-                "name": "Gire a la izquierda en {way_name}",
-                "destination": "Gire a la izquierda hacia {destination}"
-            },
-            "right": {
-                "default": "Gire a la derecha",
-                "name": "Gire a la derecha en {way_name}",
-                "destination": "Gire a la derecha hacia {destination}"
-            },
-            "straight": {
-                "default": "Ve recto",
-                "name": "Ve recto en {way_name}",
-                "destination": "Ve recto hacia {destination}"
+                "default": "Sal la rotonda",
+                "name": "Toma la salida por {way_name}",
+                "destination": "Toma la salida hacia {destination}"
             }
         },
         "exit rotary": {
             "default": {
-                "default": "Siga {modifier}",
-                "name": "Siga {modifier} en {way_name}",
-                "destination": "Siga {modifier} hacia {destination}"
-            },
-            "left": {
-                "default": "Gire a la izquierda",
-                "name": "Gire a la izquierda en {way_name}",
-                "destination": "Gire a la izquierda hacia {destination}"
-            },
-            "right": {
-                "default": "Gire a la derecha",
-                "name": "Gire a la derecha en {way_name}",
-                "destination": "Gire a la derecha hacia {destination}"
-            },
-            "straight": {
-                "default": "Ve recto",
-                "name": "Ve recto en {way_name}",
-                "destination": "Ve recto hacia {destination}"
+                "default": "Sal la rotonda",
+                "name": "Toma la salida por {way_name}",
+                "destination": "Toma la salida hacia {destination}"
             }
         },
         "turn": {

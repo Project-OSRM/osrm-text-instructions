@@ -13,7 +13,7 @@
         "en": "Enter the traffic circle and exit towards Destination 1",
         "eo": "Enveturu trafikcirklon kaj elveturu direkte al Destination 1",
         "es": "Entra en la rotonda y sal hacia Destination 1",
-        "es-ES": "Entra en la rotonda y sal hacia Destination 1",
+        "es-ES": "Incorpórate en la rotonda y sal hacia Destination 1",
         "fr": "Prendre le rond-point et sortir en direction de Destination 1",
         "id": "Masuk bundaran dan keluar menuju Destination 1",
         "it": "Entra nella rotonda e prendi l'uscita verso Destination 1",
@@ -25,7 +25,7 @@
         "sv": "I rondellen, ta av mot Destination 1",
         "tr": "Göbekli kavşağa gir ve Destination 1 istikametinde çık",
         "uk": "Рухайтесь по кільцю в напрямку Destination 1",
-        "vi": "Đi vào vòng xuyến và ra để đi Destination 1",
+        "vi": "Đi vào bùng binh và ra về hướng Destination 1",
         "zh-Hans": "通过环岛后前往Destination 1"
     }
 }

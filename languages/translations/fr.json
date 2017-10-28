@@ -51,58 +51,58 @@
             }
         },
         "phrase": {
-            "two linked by distance": "{instruction_one} then in {distance} {instruction_two}",
-            "two linked": "{instruction_one} then {instruction_two}",
-            "one in distance": "In {distance}, {instruction_one}",
+            "two linked by distance": "{instruction_one}, puis, dans {distance}, {instruction_two}",
+            "two linked": "{instruction_one}, puis {instruction_two}",
+            "one in distance": "Dans {distance}, {instruction_one}",
             "name and ref": "{name} ({ref})"
         },
         "arrive": {
             "default": {
                 "default": "Vous êtes arrivés à votre {nth} destination",
-                "upcoming": "Vous êtes arrivés à votre {nth} destination"
+                "upcoming": "Vous arriverez à votre {nth} destination"
             },
             "left": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche",
-                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la gauche"
+                "upcoming": "Vous arriverez à votre {nth} destination, sur la gauche"
             },
             "right": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la droite",
-                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la droite"
+                "upcoming": "Vous arriverez à votre {nth} destination, sur la droite"
             },
             "sharp left": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche",
-                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la gauche"
+                "upcoming": "Vous arriverez à votre {nth} destination, sur la gauche"
             },
             "sharp right": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la droite",
-                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la droite"
+                "upcoming": "Vous arriverez à votre {nth} destination, sur la droite"
             },
             "slight right": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la droite",
-                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la droite"
+                "upcoming": "Vous arriverez à votre {nth} destination, sur la droite"
             },
             "slight left": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche",
-                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la gauche"
+                "upcoming": "Vous arriverez à votre {nth} destination, sur la gauche"
             },
             "straight": {
                 "default": "Vous êtes arrivés à votre {nth} destination, droit devant",
-                "upcoming": "Vous êtes arrivés à votre {nth} destination, droit devant"
+                "upcoming": "Vous arriverez à votre {nth} destination, droit devant"
             }
         },
         "continue": {
             "default": {
                 "default": "Tourner {modifier}",
-                "name": "Continuer {modifier} sur {way_name}",
+                "name": "Tourner {modifier} pour rester {way_name}",
                 "destination": "Tourner {modifier} en direction de {destination}",
                 "exit": "Tourner {modifier} sur {way_name}"
             },
             "straight": {
                 "default": "Continuer tout droit",
-                "name": "Continuer tout droit sur {way_name}",
+                "name": "Continuer tout droit pour rester sur {way_name}",
                 "destination": "Continuer tout droit en direction de {destination}",
-                "distance": "Continue straight for {distance}",
-                "namedistance": "Continue on {way_name} for {distance}"
+                "distance": "Continuer tout droit sur {distance}",
+                "namedistance": "Continuer sur {way_name} sur {distance}"
             },
             "sharp left": {
                 "default": "Prendre franchement à gauche",
@@ -364,7 +364,7 @@
             "default": {
                 "default": {
                     "default": "Prendre le rond-point",
-                    "name": "Prendre le rond-point et sortir par {way_name}",
+                    "name": "Prendre le rond-point et sortir sur {way_name}",
                     "destination": "Prendre le rond-point et sortir en direction de {destination}"
                 },
                 "name": {
@@ -393,7 +393,7 @@
                 },
                 "default": {
                     "default": "Prendre le rond-point",
-                    "name": "Prendre le rond-point et sortir par {way_name}",
+                    "name": "Prendre le rond-point et sortir sur {way_name}",
                     "destination": "Prendre le rond-point et sortir en direction de {destination}"
                 }
             }
@@ -422,46 +422,16 @@
         },
         "exit roundabout": {
             "default": {
-                "default": "Tourner {modifier}",
-                "name": "Tourner {modifier} sur {way_name}",
-                "destination": "Tourner {modifier} en direction de {destination}"
-            },
-            "left": {
-                "default": "Tourner à gauche",
-                "name": "Tourner à gauche sur {way_name}",
-                "destination": "Tourner à gauche en direction de {destination}"
-            },
-            "right": {
-                "default": "Tourner à droite",
-                "name": "Tourner à droite sur {way_name}",
-                "destination": "Tourner à droite en direction de {destination}"
-            },
-            "straight": {
-                "default": "Aller tout droit",
-                "name": "Aller tout droit sur {way_name}",
-                "destination": "Aller tout droit en direction de {destination}"
+                "default": "Sortir du rond-point",
+                "name": "Sortir du rond-point sur {way_name}",
+                "destination": "Sortir du rond-point en direction de {destination}"
             }
         },
         "exit rotary": {
             "default": {
-                "default": "Tourner {modifier}",
-                "name": "Tourner {modifier} sur {way_name}",
-                "destination": "Tourner {modifier} en direction de {destination}"
-            },
-            "left": {
-                "default": "Tourner à gauche",
-                "name": "Tourner à gauche sur {way_name}",
-                "destination": "Tourner à gauche en direction de {destination}"
-            },
-            "right": {
-                "default": "Tourner à droite",
-                "name": "Tourner à droite sur {way_name}",
-                "destination": "Tourner à droite en direction de {destination}"
-            },
-            "straight": {
-                "default": "Aller tout droit",
-                "name": "Aller tout droit sur {way_name}",
-                "destination": "Aller tout droit en direction de {destination}"
+                "default": "Sortir du rond-point",
+                "name": "Sortir du rond-point sur {way_name}",
+                "destination": "Sortir du rond-point en direction de {destination}"
             }
         },
         "turn": {

@@ -51,7 +51,7 @@
             }
         },
         "phrase": {
-            "two linked by distance": "{instruction_one} then in {distance} {instruction_two}",
+            "two linked by distance": "{instruction_one}, then, in {distance}, {instruction_two}",
             "two linked": "{instruction_one} apoi {instruction_two}",
             "one in distance": "În {distance}, {instruction_one}",
             "name and ref": "{name} ({ref})"

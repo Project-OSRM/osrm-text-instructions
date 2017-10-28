@@ -29,11 +29,11 @@
             "modifier": {
                 "left": "à esquerda",
                 "right": "à direita",
-                "sharp left": "acentuadamente à esquerda",
-                "sharp right": "acentuadamente à direita",
-                "slight left": "ligeiramente à esquerda",
-                "slight right": "ligeiramente à direita",
-                "straight": "reto",
+                "sharp left": "fechada à esquerda",
+                "sharp right": "fechada à direita",
+                "slight left": "suave à esquerda",
+                "slight right": "suave à direita",
+                "straight": "em frente",
                 "uturn": "retorno"
             },
             "lanes": {
@@ -51,9 +51,9 @@
             }
         },
         "phrase": {
-            "two linked by distance": "{instruction_one} then in {distance} {instruction_two}",
-            "two linked": "{instruction_one} then {instruction_two}",
-            "one in distance": "In {distance}, {instruction_one}",
+            "two linked by distance": "{instruction_one}, então, em {distance}, {instruction_two}",
+            "two linked": "{instruction_one}, então {instruction_two}",
+            "one in distance": "Em {distance}, {instruction_one}",
             "name and ref": "{name} ({ref})"
         },
         "arrive": {
@@ -93,40 +93,40 @@
         "continue": {
             "default": {
                 "default": "Vire {modifier}",
-                "name": "Continue {modifier} em {way_name}",
+                "name": "Vire {modifier} para manter-se na {way_name}",
                 "destination": "Vire {modifier} sentido {destination}",
                 "exit": "Vire {modifier} em {way_name}"
             },
             "straight": {
-                "default": "Continue reto",
-                "name": "Continue em {way_name}",
-                "destination": "Continue até {destination}",
-                "distance": "Continue straight for {distance}",
-                "namedistance": "Continue on {way_name} for {distance}"
+                "default": "Continue em frente",
+                "name": "Continue em frente para manter-se na {way_name}",
+                "destination": "Continue em direção à {destination}",
+                "distance": "Continue em frente por {distance}",
+                "namedistance": "Continue na {way_name} por {distance}"
             },
             "sharp left": {
-                "default": "Vire acentuadamente à esquerda",
-                "name": "Make a sharp left to stay on {way_name}",
-                "destination": "Vire acentuadamente à esquerda sentido {destination}"
+                "default": "Faça uma curva fechada a esquerda",
+                "name": "Faça uma curva fechada a esquerda para manter-se na {way_name}",
+                "destination": "Faça uma curva fechada a esquerda sentido {destination}"
             },
             "sharp right": {
-                "default": "Vire acentuadamente à direita",
-                "name": "Make a sharp right to stay on {way_name}",
-                "destination": "Vire acentuadamente à direita sentido {destination}"
+                "default": "Faça uma curva fechada a direita",
+                "name": "Faça uma curva fechada a direita para manter-se na {way_name}",
+                "destination": "Faça uma curva fechada a direita sentido {destination}"
             },
             "slight left": {
-                "default": "Continue ligeiramente à esquerda",
-                "name": "Continue ligeiramente à esquerda em {way_name}",
-                "destination": "Continue ligeiramente à esquerda sentido {destination}"
+                "default": "Faça uma curva suave a esquerda",
+                "name": "Faça uma curva suave a esquerda para manter-se na {way_name}",
+                "destination": "Faça uma curva suave a esquerda em direção a {destination}"
             },
             "slight right": {
-                "default": "Continue ligeiramente à direita",
-                "name": "Continue ligeiramente à direita em {way_name}",
-                "destination": "Continue ligeiramente à direita sentido {destination}"
+                "default": "Faça uma curva suave a direita",
+                "name": "Faça uma curva suave a direita para manter-se na {way_name}",
+                "destination": "Faça uma curva suave a direita em direção a {destination}"
             },
             "uturn": {
                 "default": "Faça o retorno",
-                "name": "Faça o retorno em {way_name}",
+                "name": "Faça o retorno e continue em {way_name}",
                 "destination": "Faça o retorno sentido {destination}"
             }
         },
@@ -134,7 +134,7 @@
             "default": {
                 "default": "Siga {direction}",
                 "name": "Siga {direction} em {way_name}",
-                "namedistance": "Head {direction} on {way_name} for {distance}"
+                "namedistance": "Siga {direction} na {way_name} por {distance}"
             }
         },
         "end of road": {
@@ -144,9 +144,9 @@
                 "destination": "Vire {modifier} sentido {destination}"
             },
             "straight": {
-                "default": "Continue reto",
-                "name": "Continue reto em {way_name}",
-                "destination": "Continue reto sentido {destination}"
+                "default": "Continue em frente",
+                "name": "Continue em frente em {way_name}",
+                "destination": "Continue em frente sentido {destination}"
             },
             "uturn": {
                 "default": "Faça o retorno no fim da rua",
@@ -171,14 +171,14 @@
                 "destination": "Mantenha-se à direita na bifurcação sentido {destination}"
             },
             "sharp left": {
-                "default": "Vire acentuadamente à esquerda na bifurcação",
-                "name": "Vire acentuadamente à esquerda na bifurcação em {way_name}",
-                "destination": "Vire acentuadamente à esquerda na bifurcação sentido {destination}"
+                "default": "Faça uma curva fechada à esquerda na bifurcação",
+                "name": "Faça uma curva fechada à esquerda na bifurcação em {way_name}",
+                "destination": "Faça uma curva fechada à esquerda na bifurcação sentido {destination}"
             },
             "sharp right": {
-                "default": "Vire acentuadamente à direita na bifurcação",
-                "name": "Vire acentuadamente à direita na bifurcação em {way_name}",
-                "destination": "Vire acentuadamente à direita na bifurcação sentido {destination}"
+                "default": "Faça uma curva fechada à direita na bifurcação",
+                "name": "Faça uma curva fechada à direita na bifurcação em {way_name}",
+                "destination": "Faça uma curva fechada à direita na bifurcação sentido {destination}"
             },
             "uturn": {
                 "default": "Faça o retorno",
@@ -235,14 +235,14 @@
                 "destination": "Continue em direção à {destination}"
             },
             "sharp left": {
-                "default": "Vire acentuadamente à esquerda",
-                "name": "Vire acentuadamente à esquerda em {way_name}",
-                "destination": "Vire acentuadamente à esquerda sentido {destination}"
+                "default": "Faça uma curva fechada à esquerda",
+                "name": "Faça uma curva fechada à esquerda em {way_name}",
+                "destination": "Faça uma curva fechada à esquerda sentido {destination}"
             },
             "sharp right": {
-                "default": "Vire acentuadamente à direita",
-                "name": "Vire acentuadamente à direita em {way_name}",
-                "destination": "Vire acentuadamente à direita sentido {destination}"
+                "default": "Faça uma curva fechada à direita",
+                "name": "Faça uma curva fechada à direita em {way_name}",
+                "destination": "Faça uma curva fechada à direita sentido {destination}"
             },
             "slight left": {
                 "default": "Continue ligeiramente à esquerda",
@@ -364,7 +364,7 @@
             "default": {
                 "default": {
                     "default": "Entre na rotatória",
-                    "name": "Entre na rotatória e saia em {way_name}",
+                    "name": "Entre na rotatória e saia na {way_name}",
                     "destination": "Entre na rotatória e saia sentido {destination}"
                 },
                 "name": {
@@ -373,9 +373,9 @@
                     "destination": "Entre em {rotary_name} e saia sentido {destination}"
                 },
                 "exit": {
-                    "default": "Entre na rotatória e saia na {exit_number} saída",
-                    "name": "Entre na rotatória e saia na {exit_number} saída em {way_name}",
-                    "destination": "Entre na rotatória e saia na {exit_number} saída sentido {destination}"
+                    "default": "Entre na rotatória e pegue a {exit_number} saída",
+                    "name": "Entre na rotatória e pegue a {exit_number} saída na {way_name}",
+                    "destination": "Entre na rotatória e pegue a {exit_number} saída sentido {destination}"
                 },
                 "name_exit": {
                     "default": "Entre em {rotary_name} e saia na {exit_number} saída",
@@ -387,13 +387,13 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Entre na rotatória e saia na {exit_number} saída",
-                    "name": "Entre na rotatória e saia na {exit_number} saída em {way_name}",
-                    "destination": "Entre na rotatória e saia na {exit_number} saída sentido {destination}"
+                    "default": "Entre na rotatória e pegue a {exit_number} saída",
+                    "name": "Entre na rotatória e pegue a {exit_number} saída na {way_name}",
+                    "destination": "Entre na rotatória e pegue a {exit_number} saída sentido {destination}"
                 },
                 "default": {
                     "default": "Entre na rotatória",
-                    "name": "Entre na rotatória e saia em {way_name}",
+                    "name": "Entre na rotatória e saia na {way_name}",
                     "destination": "Entre na rotatória e saia sentido {destination}"
                 }
             }
@@ -415,9 +415,9 @@
                 "destination": "Na rotatória vire à direita sentido {destination}"
             },
             "straight": {
-                "default": "Na rotatória siga reto",
-                "name": "Na rotatória siga reto em {way_name}",
-                "destination": "Na rotatória siga reto sentido {destination}"
+                "default": "Na rotatória siga em frente",
+                "name": "Na rotatória siga em frente pela {way_name}",
+                "destination": "Na rotatória siga em frente sentido {destination}"
             }
         },
         "exit roundabout": {
@@ -481,14 +481,14 @@
                 "destination": "Vire à direita sentido {destination}"
             },
             "straight": {
-                "default": "Siga reto",
-                "name": "Siga reto em {way_name}",
-                "destination": "Siga reto sentido {destination}"
+                "default": "Siga em frente",
+                "name": "Siga em frente em {way_name}",
+                "destination": "Siga em frente sentido {destination}"
             }
         },
         "use lane": {
             "no_lanes": {
-                "default": "Continue reto"
+                "default": "Continue em frente"
             },
             "default": {
                 "default": "{lane_instruction}"
