@@ -59,35 +59,35 @@
         "arrive": {
             "default": {
                 "default": "Vi atingis vian {nth} celon",
-                "upcoming": "Vi atingis vian {nth} celon"
+                "upcoming": "Vi atingos vian {nth} celon"
             },
             "left": {
                 "default": "Vi atingis vian {nth} celon ĉe maldekstre",
-                "upcoming": "Vi atingis vian {nth} celon ĉe maldekstre"
+                "upcoming": "Vi atingos vian {nth} celon ĉe maldekstre"
             },
             "right": {
                 "default": "Vi atingis vian {nth} celon ĉe dekstre",
-                "upcoming": "Vi atingis vian {nth} celon ĉe dekstre"
+                "upcoming": "Vi atingos vian {nth} celon ĉe dekstre"
             },
             "sharp left": {
                 "default": "Vi atingis vian {nth} celon ĉe maldekstre",
-                "upcoming": "Vi atingis vian {nth} celon ĉe maldekstre"
+                "upcoming": "Vi atingos vian {nth} celon ĉe maldekstre"
             },
             "sharp right": {
                 "default": "Vi atingis vian {nth} celon ĉe dekstre",
-                "upcoming": "Vi atingis vian {nth} celon ĉe dekstre"
+                "upcoming": "Vi atingos vian {nth} celon ĉe dekstre"
             },
             "slight right": {
                 "default": "Vi atingis vian {nth} celon ĉe dekstre",
-                "upcoming": "Vi atingis vian {nth} celon ĉe dekstre"
+                "upcoming": "Vi atingos vian {nth} celon ĉe dekstre"
             },
             "slight left": {
                 "default": "Vi atingis vian {nth} celon ĉe maldekstre",
-                "upcoming": "Vi atingis vian {nth} celon ĉe maldekstre"
+                "upcoming": "Vi atingos vian {nth} celon ĉe maldekstre"
             },
             "straight": {
                 "default": "Vi atingis vian {nth} celon",
-                "upcoming": "Vi atingis vian {nth} celon"
+                "upcoming": "Vi atingos vian {nth} celon rekte"
             }
         },
         "continue": {
@@ -134,7 +134,7 @@
             "default": {
                 "default": "Direktiĝu {direction}",
                 "name": "Direktiĝu {direction} al {way_name}",
-                "namedistance": "Head {direction} on {way_name} for {distance}"
+                "namedistance": "Direktiĝu {direction} al {way_name} tra {distance}"
             }
         },
         "end of road": {
@@ -193,9 +193,9 @@
                 "destination": "Enveturu {modifier} direkte al {destination}"
             },
             "straight": {
-                "default": "Enveturu rekten",
-                "name": "Enveturu rekten al {way_name}",
-                "destination": "Enveturu rekten direkte al {destination}"
+                "default": "Enveturu",
+                "name": "Enveturu al {way_name}",
+                "destination": "Enveturu direkte al {destination}"
             },
             "slight left": {
                 "default": "Enveturu de maldekstre",
@@ -387,14 +387,14 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Enveturu trafikcirklon kaj sekve al {exit_number} elveturejo",
-                    "name": "Enveturu trafikcirklon kaj sekve al {exit_number} elveturejo al {way_name}",
-                    "destination": "Enveturu trafikcirklon kaj sekve al {exit_number} elveturejo direkte al {destination}"
+                    "default": "Enveturu trafikcirklegon kaj sekve al {exit_number} elveturejo",
+                    "name": "Enveturu trafikcirklegon kaj sekve al {exit_number} elveturejo al {way_name}",
+                    "destination": "Enveturu trafikcirklegon kaj sekve al {exit_number} elveturejo direkte al {destination}"
                 },
                 "default": {
-                    "default": "Enveturu trafikcirklon",
-                    "name": "Enveturu trafikcirklon kaj elveturu al {way_name}",
-                    "destination": "Enveturu trafikcirklon kaj elveturu direkte al {destination}"
+                    "default": "Enveturu trafikcirklegon",
+                    "name": "Enveturu trafikcirklegon kaj elveturu al {way_name}",
+                    "destination": "Enveturu trafikcirklegon kaj elveturu direkte al {destination}"
                 }
             }
         },
@@ -422,53 +422,23 @@
         },
         "exit roundabout": {
             "default": {
-                "default": "Veturu {modifier}",
-                "name": "Veturu {modifier} al {way_name}",
-                "destination": "Veturu {modifier} direkte al {destination}"
-            },
-            "left": {
-                "default": "Turniĝu maldekstren",
-                "name": "Turniĝu maldekstren al {way_name}",
-                "destination": "Turniĝu maldekstren direkte al {destination}"
-            },
-            "right": {
-                "default": "Turniĝu dekstren",
-                "name": "Turniĝu dekstren al {way_name}",
-                "destination": "Turniĝu dekstren direkte al {destination}"
-            },
-            "straight": {
-                "default": "Veturu rekten",
-                "name": "Veturu rekten al {way_name}",
-                "destination": "Veturu rekten direkte al {destination}"
+                "default": "Elveturu trafikcirklegon",
+                "name": "Elveturu trafikcirklegon al {way_name}",
+                "destination": "Elveturu trafikcirklegon direkte al {destination}"
             }
         },
         "exit rotary": {
             "default": {
-                "default": "{modifier}",
-                "name": "{modifier} al {way_name}",
-                "destination": "Veturu {modifier} direkte al {destination}"
-            },
-            "left": {
-                "default": "Turniĝu maldekstren",
-                "name": "Turniĝu maldekstren al {way_name}",
-                "destination": "Turniĝu maldekstren direkte al {destination}"
-            },
-            "right": {
-                "default": "Turniĝu dekstren",
-                "name": "Turniĝu dekstren al {way_name}",
-                "destination": "Turniĝu dekstren direkte al {destination}"
-            },
-            "straight": {
-                "default": "Veturu rekten",
-                "name": "Veturu rekten al {way_name}",
-                "destination": "Veturu rekten direkte al {destination}"
+                "default": "Eliru trafikcirklegon",
+                "name": "Elveturu trafikcirklegon al {way_name}",
+                "destination": "Elveturu trafikcirklegon direkte al {destination}"
             }
         },
         "turn": {
             "default": {
-                "default": "Veturu {modifier}",
-                "name": "Veturu {modifier} al {way_name}",
-                "destination": "Veturu {modifier} direkte al {destination}"
+                "default": "{modifier}",
+                "name": "{modifier} al {way_name}",
+                "destination": "{modifier} direkte al {destination}"
             },
             "left": {
                 "default": "Turniĝu maldekstren",
