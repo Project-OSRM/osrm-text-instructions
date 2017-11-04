@@ -8,7 +8,7 @@ OSRM Text Instructions transforms [OSRM](http://www.project-osrm.org/) route res
 
 OSRM Text Instructions has been translated into [several languages](https://github.com/Project-OSRM/osrm-text-instructions/tree/master/languages/translations/). Please help us add support for the languages you speak [using Transifex](https://www.transifex.com/project-osrm/osrm-text-instructions/).
 
-OSRM Text Instructions could support [grammatical cases](https://github.com/Project-OSRM/osrm-text-instructions/tree/master/Grammar.md) for street names for [some languages](https://github.com/Project-OSRM/osrm-text-instructions/tree/languages/grammar/).
+OSRM Text Instructions could support [grammatical cases](https://github.com/Project-OSRM/osrm-text-instructions/tree/master/Grammar.md) for street names for [some languages](https://github.com/Project-OSRM/osrm-text-instructions/tree/master/languages/grammar/).
 
 Grammatical cases and other translated strings customization after [Transifex](https://www.transifex.com/project-osrm/osrm-text-instructions/) is handled by [override scripts](https://github.com/Project-OSRM/osrm-text-instructions/tree/master/languages/overrides/).
 
