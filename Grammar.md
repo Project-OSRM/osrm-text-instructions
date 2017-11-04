@@ -55,7 +55,7 @@ Russian _"Большая Монетная улица"_ street from St Petersburg
 ### Design goals
 
 - __Cross platform__ - uses the same data-driven approach as OSRM Text Instructions
-- __Test suite__ - has [prepared test](test/grammar_tests.js) to check available expressions automatically and has easily extendable language-specific names testing pattern
+- __Test suite__ - has [prepared test](test/grammar_test.js) to check available expressions automatically and has easily extendable language-specific names testing pattern
 - __Customization__ - could be easily extended for other languages with adding new regular expressions blocks into [grammar support](languages/grammar/) folder and modifying `{way_name}` and other variables in translated instructions only with necessary grammatical case labels
 
 ### Notes
