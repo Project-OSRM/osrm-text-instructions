@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## 0.10.6 2017-11-10
+
+- Updated translations in Esperanto, French, Portuguese, Russian, and Spanish. [#189](https://github.com/Project-OSRM/osrm-text-instructions/pull/189)
+- Corrected punctuation in the Russian localization. [#176](https://github.com/Project-OSRM/osrm-text-instructions/pull/176)
+
 ## 0.10.5 2017-10-27
 
 - Added a `merge straight` instruction [#183](https://github.com/Project-OSRM/osrm-text-instructions/pull/183)
