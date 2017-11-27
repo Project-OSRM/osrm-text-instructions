@@ -91,6 +91,8 @@ Fixtures are programatically created and updated via `test/fixtures_test`. To up
 
 The main language of this project is English `en`. We support other languages via translations, as seen in [`languages/translations`](https://github.com/Project-OSRM/osrm-text-instructions/tree/master/languages/translations/).
 
+When adding a new instruction option, you should first provide the english use case. You should then add this use case to all other translations, opting for the closest value currently present in the target langague first and then defaulting to english if nothing acceptable is present. This way there is a better chance the instruction will make sense to the user even if its not perfect. In time translators will see this and improve it.
+
 You can help translating on the web via [Transifex](https://www.transifex.com/project-osrm/osrm-text-instructions/)
 
 To add an own translations:
