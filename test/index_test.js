@@ -158,6 +158,20 @@ tape.test('v5 wayName', function(assert) {
         assert.equal(v5Compiler.getWayName('en', c[0], {classes: ['motorway']}), c[1], `correct way name for motorway test ${i}`);
     });
 
+    [
+        [makeStep('', ''), 'name '],
+        [makeStep('123', 'ABC'), 'name ABC (ref 123)'],
+        [makeStep('123', 'ABC (123)'), 'name ABC (ref 123)'],
+        [makeStep('123; 456', 'ABC (123; 456)'), 'name ABC (ref 123)'],
+        [makeStep('123; 456', 'ABC'), 'name ABC (ref 123)']
+    ].forEach((c, i) => {
+        assert.equal(v5Compiler.getWayName('en', c[0], {
+            formatToken: function(token, value) {
+                return token + ' ' + value;
+            }
+        }), c[1], `correct way name for formatted test ${i}`);
+    });
+
     assert.throws(
         () => { v5Compiler.getWayName(); },
         'throws when no step is passed'
