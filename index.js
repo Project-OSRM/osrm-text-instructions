@@ -96,11 +96,11 @@ module.exports = function(version) {
                     ref: ref
                 }, options);
             } else if (name && ref && wayMotorway && (/\d/).test(ref)) {
-                wayName = ref;
+                wayName = options && options.formatToken ? options.formatToken('ref', ref) : ref;
             } else if (!name && ref) {
-                wayName = ref;
+                wayName = options && options.formatToken ? options.formatToken('ref', ref) : ref;
             } else {
-                wayName = name;
+                wayName = options && options.formatToken ? options.formatToken('name', name) : name;
             }
 
             return wayName;

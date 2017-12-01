@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## master
+
+- Fixed issue preventing `formatToken` from being called on refs or names when the way has only a ref or a name. [#193](https://github.com/Project-OSRM/osrm-text-instructions/pull/193)
+
 ## 0.10.6 2017-11-10
 
 - Updated translations in Esperanto, French, Portuguese, Russian, and Spanish. [#189](https://github.com/Project-OSRM/osrm-text-instructions/pull/189)
