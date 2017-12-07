@@ -180,13 +180,23 @@ module.exports = function(version) {
                 instruction = instructionObject.default;
             }
 
+            var destinations = step.destinations && step.destinations.split(': ');
+            var destinationRef = destinations && destinations[0].split(',')[0];
+            var destination = destinations && destinations[1] && destinations[1].split(',')[0];
+            var firstDestination;
+            if (destination && destinationRef) {
+                firstDestination = destinationRef + ': ' + destination;
+            } else {
+                firstDestination = destinationRef || destination || '';
+            }
+
             var nthWaypoint = options && options.legIndex >= 0 && options.legIndex !== options.legCount - 1 ? this.ordinalize(language, options.legIndex + 1) : '';
 
             // Replace tokens
             // NOOP if they don't exist
             var replaceTokens = {
                 'way_name': wayName,
-                'destination': (step.destinations || '').split(',')[0],
+                'destination': firstDestination,
                 'exit': (step.exits || '').split(';')[0],
                 'exit_number': this.ordinalize(language, step.maneuver.exit || 1),
                 'rotary_name': step.rotary_name,
