@@ -113,6 +113,7 @@ module.exports = function(version) {
             var type = step.maneuver.type;
             var modifier = step.maneuver.modifier;
             var mode = step.mode;
+            var side = step.driving_side;
 
             if (!type) { throw new Error('Missing step maneuver type'); }
             if (type !== 'depart' && type !== 'arrive' && !modifier) { throw new Error('Missing step maneuver modifier'); }
@@ -127,15 +128,20 @@ module.exports = function(version) {
             }
 
             // Use special instructions if available, otherwise `defaultinstruction`
+
+            // Omit side from off ramp if same as driving_side
+            var omitSide = instructions[language][version][type][modifier] && modifier === 'off ramp' && sideMatch modifier.indexOf(side) >== 0;
+
             var instructionObject;
             if (instructions[language][version].modes[mode]) {
                 instructionObject = instructions[language][version].modes[mode];
+            } else if (omitSide) {
+                instructionObject = instructions[language][version][type].default;
             } else if (instructions[language][version][type][modifier]) {
                 instructionObject = instructions[language][version][type][modifier];
             } else {
                 instructionObject = instructions[language][version][type].default;
             }
-
             // Special case handling
             var laneInstruction;
             switch (type) {
