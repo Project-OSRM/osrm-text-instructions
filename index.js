@@ -130,7 +130,7 @@ module.exports = function(version) {
             // Use special instructions if available, otherwise `defaultinstruction`
 
             // Omit side from off ramp if same as driving_side
-            var omitSide = instructions[language][version][type][modifier] && modifier === 'off ramp' && sideMatch modifier.indexOf(side) >== 0;
+            var omitSide = instructions[language][version][type][modifier] && modifier === 'off ramp' && modifier.indexOf(side) >== 0;
 
             var instructionObject;
             if (instructions[language][version].modes[mode]) {
