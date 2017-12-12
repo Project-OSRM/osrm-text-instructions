@@ -132,9 +132,9 @@
         },
         "depart": {
             "default": {
-                "default": "Mergeți {direction}",
-                "name": "Mergeți {direction} pe {way_name}",
-                "namedistance": "Mergeți {direction} pe {way_name} pentru {distance}"
+                "default": "Mergeți spre {direction}",
+                "name": "Mergeți spre {direction} pe {way_name}",
+                "namedistance": "Mergeți spre {direction} pe {way_name} pentru {distance}"
             }
         },
         "end of road": {
