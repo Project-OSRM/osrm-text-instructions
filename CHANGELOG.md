@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## master
+
+- Fixed inconsistent destinations when a ramp leads to multiple routes towards multiple places. [#197](https://github.com/Project-OSRM/osrm-text-instructions/pull/19y)
+
 ## 0.10.7 2017-12-05
 
 - Fixed issue preventing `formatToken` from being called on refs or names when the way has only a ref or a name. [#193](https://github.com/Project-OSRM/osrm-text-instructions/pull/193)

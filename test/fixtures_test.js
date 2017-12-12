@@ -271,6 +271,14 @@ tape.test('verify existence/update fixtures', function(assert) {
             checkOrWrite(baseStep, path.join(basePath, 'way_name_ref_destinations'));
             baseStep = {
                 maneuver: {
+                    type: 'off ramp',
+                    modifier: 'right'
+                },
+                destinations: 'Ref1, Ref2: Destination 1, Destination 2'
+            };
+            checkOrWrite(baseStep, path.join(basePath, 'way_name_destination_refs'));
+            baseStep = {
+                maneuver: {
                     type: 'turn',
                     modifier: 'left'
                 },
