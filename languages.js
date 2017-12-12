@@ -35,6 +35,7 @@ var instructions = {
     'nl': instructionsNl,
     'pl': instructionsPl,
     'pt-BR': instructionsPtBr,
+    'pt': instructionsPtBr,
     'ro': instructionsRo,
     'ru': instructionsRu,
     'sv': instructionsSv,
