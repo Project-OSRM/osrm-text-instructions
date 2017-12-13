@@ -136,7 +136,7 @@ module.exports = function(version) {
               // omit side from off ramp if same as driving_side
               // note: side will be undefined if the input is from OSRM <5.14
               // but the condition should still evaluate properly regardless
-                var omitSide = modifier === 'off ramp' && modifier.indexOf(side) >= 0;
+                var omitSide = type === 'off ramp' && modifier.indexOf(side) >= 0;
                 if (instructions[language][version][type][modifier] && !omitSide) {
                     instructionObject = instructions[language][version][type][modifier];
                 } else {

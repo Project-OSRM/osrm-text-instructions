@@ -4,7 +4,8 @@
             "type": "continue",
             "modifier": "right"
         },
-        "name": "Way Name"
+        "name": "Way Name",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Rechts weiterfahren auf Way Name",

@@ -4,7 +4,8 @@
             "type": "notification",
             "modifier": "slight left"
         },
-        "name": ""
+        "name": "",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Leicht links weiterfahren",

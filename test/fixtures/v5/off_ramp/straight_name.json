@@ -4,7 +4,8 @@
             "type": "off ramp",
             "modifier": "straight"
         },
-        "name": "Way Name"
+        "name": "Way Name",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Ausfahrt nehmen auf Way Name",

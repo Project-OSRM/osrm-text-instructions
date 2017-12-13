@@ -4,7 +4,8 @@
             "type": "merge",
             "modifier": "straight"
         },
-        "name": "Way Name"
+        "name": "Way Name",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Geradeaus auffahren auf Way Name",

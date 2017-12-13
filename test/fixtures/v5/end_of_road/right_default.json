@@ -4,7 +4,8 @@
             "type": "end of road",
             "modifier": "right"
         },
-        "name": ""
+        "name": "",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Rechts abbiegen",

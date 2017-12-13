@@ -4,7 +4,8 @@
             "type": "merge",
             "modifier": "right"
         },
-        "name": "Way Name"
+        "name": "Way Name",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Rechts auffahren auf Way Name",

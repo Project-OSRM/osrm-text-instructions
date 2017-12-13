@@ -4,7 +4,8 @@
             "type": "fork",
             "modifier": "slight left"
         },
-        "name": ""
+        "name": "",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Links halten an der Gabelung",

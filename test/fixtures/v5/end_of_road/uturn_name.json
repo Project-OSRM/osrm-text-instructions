@@ -4,7 +4,8 @@
             "type": "end of road",
             "modifier": "uturn"
         },
-        "name": "Way Name"
+        "name": "Way Name",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "180°-Wendung auf Way Name am Ende der Straße",

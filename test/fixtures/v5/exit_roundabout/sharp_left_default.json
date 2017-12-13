@@ -4,7 +4,8 @@
             "type": "exit roundabout",
             "modifier": "sharp left"
         },
-        "name": ""
+        "name": "",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Scharf links abbiegen",

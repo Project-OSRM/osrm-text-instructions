@@ -4,7 +4,8 @@
             "type": "roundabout turn",
             "modifier": "straight"
         },
-        "name": ""
+        "name": "",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Am Kreisverkehr geradeaus weiterfahren",
