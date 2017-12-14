@@ -344,6 +344,7 @@ tape.test('verify existence/update fixtures', function(assert) {
                 });
             });
             break;
+        case 'off ramp':
         case 'continue':
         case 'end of road':
         case 'fork':
@@ -351,7 +352,6 @@ tape.test('verify existence/update fixtures', function(assert) {
         case 'new name':
         case 'notification':
         case 'on ramp':
-        case 'off ramp':
         case 'roundabout turn':
         case 'exit roundabout':
         case 'exit rotary':
@@ -363,7 +363,8 @@ tape.test('verify existence/update fixtures', function(assert) {
                         type: type,
                         modifier: modifier
                     },
-                    name: ''
+                    name: '',
+                    'driving_side': 'right'
                 };
                 checkOrWriteVariations(baseStep, path.join(basePath, underscorify(modifier)));
             });

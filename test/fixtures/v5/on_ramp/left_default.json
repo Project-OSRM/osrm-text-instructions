@@ -4,7 +4,8 @@
             "type": "on ramp",
             "modifier": "left"
         },
-        "name": ""
+        "name": "",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Auffahrt links nehmen",

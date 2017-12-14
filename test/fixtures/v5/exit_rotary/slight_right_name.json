@@ -4,7 +4,8 @@
             "type": "exit rotary",
             "modifier": "slight right"
         },
-        "name": "Way Name"
+        "name": "Way Name",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Leicht rechts abbiegen auf Way Name",

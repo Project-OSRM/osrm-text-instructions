@@ -4,7 +4,8 @@
             "type": "turn",
             "modifier": "left"
         },
-        "name": "Way Name"
+        "name": "Way Name",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Links abbiegen auf Way Name",

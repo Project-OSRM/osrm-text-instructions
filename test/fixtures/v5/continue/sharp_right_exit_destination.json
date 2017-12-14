@@ -5,6 +5,7 @@
             "modifier": "sharp right"
         },
         "name": "Way Name",
+        "driving_side": "right",
         "destinations": "Destination 1,Destination 2",
         "exits": "4A;4B"
     },

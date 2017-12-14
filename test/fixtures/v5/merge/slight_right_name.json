@@ -4,7 +4,8 @@
             "type": "merge",
             "modifier": "slight right"
         },
-        "name": "Way Name"
+        "name": "Way Name",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Leicht rechts auffahren auf Way Name",

@@ -4,7 +4,8 @@
             "type": "on ramp",
             "modifier": "uturn"
         },
-        "name": "Way Name"
+        "name": "Way Name",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Auffahrt nehmen auf Way Name",

@@ -4,26 +4,27 @@
             "type": "off ramp",
             "modifier": "right"
         },
-        "name": "Way Name"
+        "name": "Way Name",
+        "driving_side": "right"
     },
     "instructions": {
-        "de": "Ausfahrt rechts nehmen Richtung Way Name",
-        "en": "Take the ramp on the right onto Way Name",
-        "eo": "Direktiĝu al enveturejo ĉe dekstre al Way Name",
-        "es": "Tome la salida en la derecha en Way Name",
-        "es-ES": "Coge la cuesta abajo de la derecha por Way Name",
-        "fr": "Prendre la sortie à droite sur Way Name",
-        "id": "Ambil jalan melandai di sebelah kanan ke Way Name",
-        "it": "Prendi la rampa a destra in Way Name",
-        "nl": "Neem de afrit rechts naar Way Name",
-        "pl": "Weź zjazd po prawej na Way Name",
-        "pt-BR": "Pegue a rampa à direita em Way Name",
-        "ro": "Urmați rampa pe dreapta pe Way Name",
-        "ru": "Сверните на правый съезд на Way Name",
-        "sv": "Ta avfarten till höger in på Way Name",
-        "tr": "Way Name üzerindeki sağ bağlantı yoluna geç",
-        "uk": "Рухайтесь на зʼїзд праворуч на Way Name",
-        "vi": "Đi đường nhánh Way Name bên phải",
-        "zh-Hans": "通过右边的匝道驶入Way Name"
+        "de": "Ausfahrt nehmen auf Way Name",
+        "en": "Take the ramp onto Way Name",
+        "eo": "Direktiĝu al enveturejo al Way Name",
+        "es": "Tome la salida en Way Name",
+        "es-ES": "Coge la cuesta abajo por Way Name",
+        "fr": "Prendre la sortie sur Way Name",
+        "id": "Ambil jalan melandai ke Way Name",
+        "it": "Prendi la rampa in Way Name",
+        "nl": "Neem de afrit naar Way Name",
+        "pl": "Weź zjazd na Way Name",
+        "pt-BR": "Pegue a rampa em Way Name",
+        "ro": "Urmați rampa pe Way Name",
+        "ru": "Сверните на съезд на Way Name",
+        "sv": "Ta avfarten in på Way Name",
+        "tr": "Way Name üzerindeki bağlantı yoluna geç",
+        "uk": "Рухайтесь на зʼїзд на Way Name",
+        "vi": "Đi đường nhánh Way Name",
+        "zh-Hans": "通过匝道驶入Way Name"
     }
 }

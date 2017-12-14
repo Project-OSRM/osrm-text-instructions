@@ -230,8 +230,8 @@ tape.test('v5 laneDiagram', function(assert) {
 });
 
 tape.test('v5 compile', function(t) {
+    var v5Compiler = compiler('v5');
     t.test('throws an error if no language code provided', function(assert) {
-        var v5Compiler = compiler('v5');
 
         assert.throws(function() {
             v5Compiler.compile();
@@ -242,7 +242,6 @@ tape.test('v5 compile', function(t) {
     });
 
     t.test('throws an error if a non supported language code is provided', function(assert) {
-        var v5Compiler = compiler('v5');
 
         assert.throws(function() {
             v5Compiler.compile('foo');
@@ -252,7 +251,6 @@ tape.test('v5 compile', function(t) {
     });
 
     t.test('en-US fallback to en', function(assert) {
-        var v5Compiler = compiler('v5');
         var language = v5Compiler.getBestMatchingLanguage('en-us');
 
         assert.equal(v5Compiler.compile(language, {
@@ -267,7 +265,6 @@ tape.test('v5 compile', function(t) {
     });
 
     t.test('zh-CN fallback to zh-Hans', function(assert) {
-        var v5Compiler = compiler('v5');
         var language = v5Compiler.getBestMatchingLanguage('zh-CN');
 
         assert.equal(v5Compiler.compile(language, {
@@ -282,7 +279,6 @@ tape.test('v5 compile', function(t) {
     });
 
     t.test('zh-Hant fallback to zh-Hanz', function(assert) {
-        var v5Compiler = compiler('v5');
         var language = v5Compiler.getBestMatchingLanguage('zh-Hant');
 
         assert.equal(v5Compiler.compile(language, {
@@ -297,7 +293,6 @@ tape.test('v5 compile', function(t) {
     });
 
     t.test('zh-Hant-TW fallback to zh-Hant', function(assert) {
-        var v5Compiler = compiler('v5');
         var language = v5Compiler.getBestMatchingLanguage('zh-Hant-TW');
 
         assert.equal(v5Compiler.compile(language, {
@@ -312,7 +307,6 @@ tape.test('v5 compile', function(t) {
     });
 
     t.test('es-MX fallback to es', function(assert) {
-        var v5Compiler = compiler('v5');
         var language = v5Compiler.getBestMatchingLanguage('es-MX');
 
         assert.equal(v5Compiler.compile(language, {
@@ -327,17 +321,17 @@ tape.test('v5 compile', function(t) {
     });
 
     t.test('getBestMatchingLanguage', function(t) {
-        t.equal(compiler('v5').getBestMatchingLanguage('foo'), 'en');
-        t.equal(compiler('v5').getBestMatchingLanguage('en-US'), 'en');
-        t.equal(compiler('v5').getBestMatchingLanguage('zh-CN'), 'zh-Hans');
-        t.equal(compiler('v5').getBestMatchingLanguage('zh-Hant'), 'zh-Hans');
-        t.equal(compiler('v5').getBestMatchingLanguage('zh-Hant-TW'), 'zh-Hans');
-        t.equal(compiler('v5').getBestMatchingLanguage('zh'), 'zh-Hans');
-        t.equal(compiler('v5').getBestMatchingLanguage('es-MX'), 'es');
-        t.equal(compiler('v5').getBestMatchingLanguage('es-ES'), 'es-ES');
-        t.equal(compiler('v5').getBestMatchingLanguage('pt-PT'), 'pt-BR');
-        t.equal(compiler('v5').getBestMatchingLanguage('pt'), 'pt-BR');
-        t.equal(compiler('v5').getBestMatchingLanguage('pt-pt'), 'pt-BR');
+        t.equal(v5Compiler.getBestMatchingLanguage('foo'), 'en');
+        t.equal(v5Compiler.getBestMatchingLanguage('en-US'), 'en');
+        t.equal(v5Compiler.getBestMatchingLanguage('zh-CN'), 'zh-Hans');
+        t.equal(v5Compiler.getBestMatchingLanguage('zh-Hant'), 'zh-Hans');
+        t.equal(v5Compiler.getBestMatchingLanguage('zh-Hant-TW'), 'zh-Hans');
+        t.equal(v5Compiler.getBestMatchingLanguage('zh'), 'zh-Hans');
+        t.equal(v5Compiler.getBestMatchingLanguage('es-MX'), 'es');
+        t.equal(v5Compiler.getBestMatchingLanguage('es-ES'), 'es-ES');
+        t.equal(v5Compiler.getBestMatchingLanguage('pt-PT'), 'pt-BR');
+        t.equal(v5Compiler.getBestMatchingLanguage('pt'), 'pt-BR');
+        t.equal(v5Compiler.getBestMatchingLanguage('pt-pt'), 'pt-BR');
         t.end();
     });
 

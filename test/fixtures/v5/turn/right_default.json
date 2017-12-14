@@ -4,7 +4,8 @@
             "type": "turn",
             "modifier": "right"
         },
-        "name": ""
+        "name": "",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Rechts abbiegen",
