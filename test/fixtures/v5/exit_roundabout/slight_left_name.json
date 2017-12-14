@@ -4,7 +4,8 @@
             "type": "exit roundabout",
             "modifier": "slight left"
         },
-        "name": "Way Name"
+        "name": "Way Name",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Leicht links abbiegen auf Way Name",

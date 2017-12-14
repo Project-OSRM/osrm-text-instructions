@@ -113,6 +113,8 @@ module.exports = function(version) {
             var type = step.maneuver.type;
             var modifier = step.maneuver.modifier;
             var mode = step.mode;
+            // driving_side will only be defined in OSRM 5.14+
+            var side = step.driving_side;
 
             if (!type) { throw new Error('Missing step maneuver type'); }
             if (type !== 'depart' && type !== 'arrive' && !modifier) { throw new Error('Missing step maneuver modifier'); }
@@ -130,10 +132,16 @@ module.exports = function(version) {
             var instructionObject;
             if (instructions[language][version].modes[mode]) {
                 instructionObject = instructions[language][version].modes[mode];
-            } else if (instructions[language][version][type][modifier]) {
-                instructionObject = instructions[language][version][type][modifier];
             } else {
-                instructionObject = instructions[language][version][type].default;
+              // omit side from off ramp if same as driving_side
+              // note: side will be undefined if the input is from OSRM <5.14
+              // but the condition should still evaluate properly regardless
+                var omitSide = type === 'off ramp' && modifier.indexOf(side) >= 0;
+                if (instructions[language][version][type][modifier] && !omitSide) {
+                    instructionObject = instructions[language][version][type][modifier];
+                } else {
+                    instructionObject = instructions[language][version][type].default;
+                }
             }
 
             // Special case handling

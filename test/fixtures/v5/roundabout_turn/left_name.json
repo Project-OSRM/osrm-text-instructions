@@ -4,7 +4,8 @@
             "type": "roundabout turn",
             "modifier": "left"
         },
-        "name": "Way Name"
+        "name": "Way Name",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Am Kreisverkehr links auf Way Name",

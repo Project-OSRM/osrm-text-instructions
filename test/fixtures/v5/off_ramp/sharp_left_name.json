@@ -4,7 +4,8 @@
             "type": "off ramp",
             "modifier": "sharp left"
         },
-        "name": "Way Name"
+        "name": "Way Name",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Ausfahrt links Seite nehmen auf Way Name",

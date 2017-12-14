@@ -5,6 +5,7 @@
             "modifier": "uturn"
         },
         "name": "Way Name",
+        "driving_side": "right",
         "exits": "4A;4B"
     },
     "instructions": {

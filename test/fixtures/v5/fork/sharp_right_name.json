@@ -4,7 +4,8 @@
             "type": "fork",
             "modifier": "sharp right"
         },
-        "name": "Way Name"
+        "name": "Way Name",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Scharf rechts abbiegen an der Gabelung auf Way Name",

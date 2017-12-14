@@ -4,7 +4,8 @@
             "type": "end of road",
             "modifier": "sharp right"
         },
-        "name": ""
+        "name": "",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "Scharf rechts abbiegen",

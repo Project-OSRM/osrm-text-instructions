@@ -4,7 +4,8 @@
             "type": "fork",
             "modifier": "uturn"
         },
-        "name": ""
+        "name": "",
+        "driving_side": "right"
     },
     "instructions": {
         "de": "180°-Wendung",
