@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
-## master
+## 0.11.0 2017-12-13
 
 - Fixed inconsistent destinations when a ramp leads to multiple routes towards multiple places. [#197](https://github.com/Project-OSRM/osrm-text-instructions/pull/19y)
 - Removed left/right for off ramps unless it doesn't match driving side. [#199](https://github.com/Project-OSRM/osrm-text-instructions/pull/199)
