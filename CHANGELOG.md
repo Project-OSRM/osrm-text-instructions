@@ -1,5 +1,8 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
+## 0.11.1 2017-01-02
+
+- Changed the phrases for roundabout turns to match turns at standard intersections [#203](https://github.com/Project-OSRM/osrm-text-instructions/pull/203)
 
 ## 0.11.0 2017-12-13
 
