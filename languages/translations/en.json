@@ -400,24 +400,24 @@
         },
         "roundabout turn": {
             "default": {
-                "default": "At the roundabout make a {modifier}",
-                "name": "At the roundabout make a {modifier} onto {way_name}",
-                "destination": "At the roundabout make a {modifier} towards {destination}"
+                "default": "Make a {modifier}",
+                "name": "Make a {modifier} onto {way_name}",
+                "destination": "Make a {modifier} towards {destination}"
             },
             "left": {
-                "default": "At the roundabout turn left",
-                "name": "At the roundabout turn left onto {way_name}",
-                "destination": "At the roundabout turn left towards {destination}"
+                "default": "Turn left",
+                "name": "Turn left onto {way_name}",
+                "destination": "Turn left towards {destination}"
             },
             "right": {
-                "default": "At the roundabout turn right",
-                "name": "At the roundabout turn right onto {way_name}",
-                "destination": "At the roundabout turn right towards {destination}"
+                "default": "Turn right",
+                "name": "Turn right onto {way_name}",
+                "destination": "Turn right towards {destination}"
             },
             "straight": {
-                "default": "At the roundabout continue straight",
-                "name": "At the roundabout continue straight onto {way_name}",
-                "destination": "At the roundabout continue straight towards {destination}"
+                "default": "Continue straight",
+                "name": "Continue straight onto {way_name}",
+                "destination": "Continue straight towards {destination}"
             }
         },
         "exit roundabout": {
