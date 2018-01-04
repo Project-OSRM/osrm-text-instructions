@@ -327,9 +327,9 @@ tape.test('v5 compile', function(t) {
         t.equal(v5Compiler.getBestMatchingLanguage('zh'), 'zh-Hans');
         t.equal(v5Compiler.getBestMatchingLanguage('es-MX'), 'es');
         t.equal(v5Compiler.getBestMatchingLanguage('es-ES'), 'es-ES');
-        t.equal(v5Compiler.getBestMatchingLanguage('pt-PT'), 'pt-BR');
-        t.equal(v5Compiler.getBestMatchingLanguage('pt'), 'pt-BR');
-        t.equal(v5Compiler.getBestMatchingLanguage('pt-pt'), 'pt-BR');
+        t.equal(v5Compiler.getBestMatchingLanguage('pt-PT'), 'pt');
+        t.equal(v5Compiler.getBestMatchingLanguage('pt'), 'pt');
+        t.equal(v5Compiler.getBestMatchingLanguage('pt-pt'), 'pt');
         t.end();
     });
 
