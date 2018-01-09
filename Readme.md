@@ -108,10 +108,10 @@ To add an own translations:
 
 #### Release
 
-- `git checkout master`
 - Update CHANGELOG.md
 - Bump version in package.json
 - `git commit -a | "vx.y.z"` with Changelog list in commit message
 - `git tag vx.y.z -a` with Changelog list in tag message
-- `git push origin master; git push origin --tags`
+- `git push && git push --tags`
+- get a review and merge to master (master is a protected branch)
 - `npm publish`
