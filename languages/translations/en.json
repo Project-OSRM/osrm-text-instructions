@@ -157,28 +157,28 @@
         "fork": {
             "default": {
                 "default": "Keep {modifier} at the fork",
-                "name": "Keep {modifier} at the fork onto {way_name}",
-                "destination": "Keep {modifier} at the fork towards {destination}"
+                "name": "Keep {modifier} onto {way_name}",
+                "destination": "Keep {modifier} towards {destination}"
             },
             "slight left": {
                 "default": "Keep left at the fork",
-                "name": "Keep left at the fork onto {way_name}",
-                "destination": "Keep left at the fork towards {destination}"
+                "name": "Keep left onto {way_name}",
+                "destination": "Keep left towards {destination}"
             },
             "slight right": {
                 "default": "Keep right at the fork",
-                "name": "Keep right at the fork onto {way_name}",
-                "destination": "Keep right at the fork towards {destination}"
+                "name": "Keep right onto {way_name}",
+                "destination": "Keep right towards {destination}"
             },
             "sharp left": {
                 "default": "Take a sharp left at the fork",
-                "name": "Take a sharp left at the fork onto {way_name}",
-                "destination": "Take a sharp left at the fork towards {destination}"
+                "name": "Take a sharp fork onto {way_name}",
+                "destination": "Take a sharp fork towards {destination}"
             },
             "sharp right": {
                 "default": "Take a sharp right at the fork",
-                "name": "Take a sharp right at the fork onto {way_name}",
-                "destination": "Take a sharp right at the fork towards {destination}"
+                "name": "Take a sharp right onto {way_name}",
+                "destination": "Take a sharp right towards {destination}"
             },
             "uturn": {
                 "default": "Make a U-turn",
