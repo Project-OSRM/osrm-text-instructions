@@ -113,5 +113,5 @@ To add an own translations:
 - `git commit -a | "vx.y.z"` with Changelog list in commit message
 - `git tag vx.y.z -a` with Changelog list in tag message
 - `git push && git push --tags`
-- get a review and merge to master (master is a protected branch)
+- open a pull request, get a review, and merge to master (master is a protected branch)
 - `npm publish`
