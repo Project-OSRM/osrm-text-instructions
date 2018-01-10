@@ -172,8 +172,8 @@
             },
             "sharp left": {
                 "default": "Take a sharp left at the fork",
-                "name": "Take a sharp fork onto {way_name}",
-                "destination": "Take a sharp fork towards {destination}"
+                "name": "Take a sharp left onto {way_name}",
+                "destination": "Take a sharp left towards {destination}"
             },
             "sharp right": {
                 "default": "Take a sharp right at the fork",
