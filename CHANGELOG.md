@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
-## 0.11.2 2017-01-09
+## 0.11.2 2017-01-10
 
 - Changed the phrases for forks to just say "Keep left onto [wayname]" (unless we have no information, in which case we still say "Keep left at the fork"). [#205](https://github.com/Project-OSRM/osrm-text-instructions/pull/205)
 ## 0.11.1 2017-01-02
