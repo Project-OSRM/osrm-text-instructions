@@ -1,0 +1,22 @@
+{
+    "phrases": {
+        "de": "Sie haben Ihr {nth} Ziel erreicht",
+        "en": "You have arrived",
+        "eo": "Vi atingos vian {nth} celon",
+        "es": "Has llegado a tu {nth} destino",
+        "es-ES": "Has llegado a tu {nth} destino",
+        "fr": "Vous êtes arrivés",
+        "id": "Anda telah tiba di tujuan ke-{nth}",
+        "it": "Sei arrivato alla tua {nth} destinazione",
+        "nl": "Je bent gearriveerd op de {nth} bestemming.",
+        "pl": "Dojechano do miejsca docelowego {nth}",
+        "pt-BR": "Você chegou ao seu {nth} destino",
+        "ro": "Ați ajuns la {nth} destinație",
+        "ru": "Вы прибыли в {nth} пункт назначения",
+        "sv": "Du är framme vid din {nth} destination",
+        "tr": "{nth} hedefinize ulaştınız",
+        "uk": "Ви прибули у ваш {nth} пункт призначення",
+        "vi": "Đến nơi {nth}",
+        "zh-Hans": "您已经到达您的{nth}个目的地"
+    }
+}

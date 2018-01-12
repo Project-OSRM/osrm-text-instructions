@@ -59,35 +59,51 @@
         "arrive": {
             "default": {
                 "default": "Du är framme vid din {nth} destination",
-                "upcoming": "Du är snart framme vid din {nth} destination"
+                "upcoming": "Du är snart framme vid din {nth} destination",
+                "short": "Du är framme vid din {nth} destination",
+                "short-upcoming": "Du är snart framme vid din {nth} destination"
             },
             "left": {
                 "default": "Du är framme vid din {nth} destination, till vänster",
-                "upcoming": "Du är snart framme vid din {nth} destination, till vänster"
+                "upcoming": "Du är snart framme vid din {nth} destination, till vänster",
+                "short": "Du är framme vid din {nth} destination",
+                "short-upcoming": "Du är snart framme vid din {nth} destination"
             },
             "right": {
                 "default": "Du är framme vid din {nth} destination, till höger",
-                "upcoming": "Du är snart framme vid din {nth} destination, till höger"
+                "upcoming": "Du är snart framme vid din {nth} destination, till höger",
+                "short": "Du är framme vid din {nth} destination",
+                "short-upcoming": "Du är snart framme vid din {nth} destination"
             },
             "sharp left": {
                 "default": "Du är framme vid din {nth} destination, till vänster",
-                "upcoming": "Du är snart framme vid din {nth} destination, till vänster"
+                "upcoming": "Du är snart framme vid din {nth} destination, till vänster",
+                "short": "Du är framme vid din {nth} destination",
+                "short-upcoming": "Du är snart framme vid din {nth} destination"
             },
             "sharp right": {
                 "default": "Du är framme vid din {nth} destination, till höger",
-                "upcoming": "Du är snart framme vid din {nth} destination, till höger"
+                "upcoming": "Du är snart framme vid din {nth} destination, till höger",
+                "short": "Du är framme vid din {nth} destination",
+                "short-upcoming": "Du är snart framme vid din {nth} destination"
             },
             "slight right": {
                 "default": "Du är framme vid din {nth} destination, till höger",
-                "upcoming": "Du är snart framme vid din {nth} destination, till höger"
+                "upcoming": "Du är snart framme vid din {nth} destination, till höger",
+                "short": "Du är framme vid din {nth} destination",
+                "short-upcoming": "Du är snart framme vid din {nth} destination"
             },
             "slight left": {
                 "default": "Du är framme vid din {nth} destination, till vänster",
-                "upcoming": "Du är snart framme vid din {nth} destination, till vänster"
+                "upcoming": "Du är snart framme vid din {nth} destination, till vänster",
+                "short": "Du är framme vid din {nth} destination",
+                "short-upcoming": "Du är snart framme vid din {nth} destination"
             },
             "straight": {
                 "default": "Du är framme vid din {nth} destination, rakt fram",
-                "upcoming": "Du är snart framme vid din {nth} destination, rakt fram"
+                "upcoming": "Du är snart framme vid din {nth} destination, rakt fram",
+                "short": "Du är framme vid din {nth} destination",
+                "short-upcoming": "Du är snart framme vid din {nth} destination"
             }
         },
         "continue": {

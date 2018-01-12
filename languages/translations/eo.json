@@ -59,35 +59,51 @@
         "arrive": {
             "default": {
                 "default": "Vi atingis vian {nth} celon",
-                "upcoming": "Vi atingos vian {nth} celon"
+                "upcoming": "Vi atingos vian {nth} celon",
+                "short": "Vi atingos vian {nth} celon",
+                "short-upcoming": "Vi atingos vian {nth} celon"
             },
             "left": {
                 "default": "Vi atingis vian {nth} celon ĉe maldekstre",
-                "upcoming": "Vi atingos vian {nth} celon ĉe maldekstre"
+                "upcoming": "Vi atingos vian {nth} celon ĉe maldekstre",
+                "short": "Vi atingos vian {nth} celon",
+                "short-upcoming": "Vi atingos vian {nth} celon"
             },
             "right": {
                 "default": "Vi atingis vian {nth} celon ĉe dekstre",
-                "upcoming": "Vi atingos vian {nth} celon ĉe dekstre"
+                "upcoming": "Vi atingos vian {nth} celon ĉe dekstre",
+                "short": "Vi atingos vian {nth} celon",
+                "short-upcoming": "Vi atingos vian {nth} celon"
             },
             "sharp left": {
                 "default": "Vi atingis vian {nth} celon ĉe maldekstre",
-                "upcoming": "Vi atingos vian {nth} celon ĉe maldekstre"
+                "upcoming": "Vi atingos vian {nth} celon ĉe maldekstre",
+                "short": "Vi atingos vian {nth} celon",
+                "short-upcoming": "Vi atingos vian {nth} celon"
             },
             "sharp right": {
                 "default": "Vi atingis vian {nth} celon ĉe dekstre",
-                "upcoming": "Vi atingos vian {nth} celon ĉe dekstre"
+                "upcoming": "Vi atingos vian {nth} celon ĉe dekstre",
+                "short": "Vi atingos vian {nth} celon",
+                "short-upcoming": "Vi atingos vian {nth} celon"
             },
             "slight right": {
                 "default": "Vi atingis vian {nth} celon ĉe dekstre",
-                "upcoming": "Vi atingos vian {nth} celon ĉe dekstre"
+                "upcoming": "Vi atingos vian {nth} celon ĉe dekstre",
+                "short": "Vi atingos vian {nth} celon",
+                "short-upcoming": "Vi atingos vian {nth} celon"
             },
             "slight left": {
                 "default": "Vi atingis vian {nth} celon ĉe maldekstre",
-                "upcoming": "Vi atingos vian {nth} celon ĉe maldekstre"
+                "upcoming": "Vi atingos vian {nth} celon ĉe maldekstre",
+                "short": "Vi atingos vian {nth} celon",
+                "short-upcoming": "Vi atingos vian {nth} celon"
             },
             "straight": {
                 "default": "Vi atingis vian {nth} celon",
-                "upcoming": "Vi atingos vian {nth} celon rekte"
+                "upcoming": "Vi atingos vian {nth} celon rekte",
+                "short": "Vi atingos vian {nth} celon",
+                "short-upcoming": "Vi atingos vian {nth} celon"
             }
         },
         "continue": {

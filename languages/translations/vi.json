@@ -59,35 +59,51 @@
         "arrive": {
             "default": {
                 "default": "Đến nơi {nth}",
-                "upcoming": "Đến nơi {nth}"
+                "upcoming": "Đến nơi {nth}",
+                "short": "Đến nơi {nth}",
+                "short-upcoming": "Đến nơi {nth}"
             },
             "left": {
                 "default": "Đến nơi {nth} ở bên trái",
-                "upcoming": "Đến nơi {nth} ở bên trái"
+                "upcoming": "Đến nơi {nth} ở bên trái",
+                "short": "Đến nơi {nth}",
+                "short-upcoming": "Đến nơi {nth}"
             },
             "right": {
                 "default": "Đến nơi {nth} ở bên phải",
-                "upcoming": "Đến nơi {nth} ở bên phải"
+                "upcoming": "Đến nơi {nth} ở bên phải",
+                "short": "Đến nơi {nth}",
+                "short-upcoming": "Đến nơi {nth}"
             },
             "sharp left": {
                 "default": "Đến nơi {nth} ở bên trái",
-                "upcoming": "Đến nơi {nth} ở bên trái"
+                "upcoming": "Đến nơi {nth} ở bên trái",
+                "short": "Đến nơi {nth}",
+                "short-upcoming": "Đến nơi {nth}"
             },
             "sharp right": {
                 "default": "Đến nơi {nth} ở bên phải",
-                "upcoming": "Đến nơi {nth} ở bên phải"
+                "upcoming": "Đến nơi {nth} ở bên phải",
+                "short": "Đến nơi {nth}",
+                "short-upcoming": "Đến nơi {nth}"
             },
             "slight right": {
                 "default": "Đến nơi {nth} ở bên phải",
-                "upcoming": "Đến nơi {nth} ở bên phải"
+                "upcoming": "Đến nơi {nth} ở bên phải",
+                "short": "Đến nơi {nth}",
+                "short-upcoming": "Đến nơi {nth}"
             },
             "slight left": {
                 "default": "Đến nơi {nth} ở bên trái",
-                "upcoming": "Đến nơi {nth} ở bên trái"
+                "upcoming": "Đến nơi {nth} ở bên trái",
+                "short": "Đến nơi {nth}",
+                "short-upcoming": "Đến nơi {nth}"
             },
             "straight": {
                 "default": "Đến nơi {nth} ở trước mặt",
-                "upcoming": "Đến nơi {nth} ở trước mặt"
+                "upcoming": "Đến nơi {nth} ở trước mặt",
+                "short": "Đến nơi {nth}",
+                "short-upcoming": "Đến nơi {nth}"
             }
         },
         "continue": {

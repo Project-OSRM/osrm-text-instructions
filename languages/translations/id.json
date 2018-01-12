@@ -59,35 +59,51 @@
         "arrive": {
             "default": {
                 "default": "Anda telah tiba di tujuan ke-{nth}",
-                "upcoming": "Anda telah tiba di tujuan ke-{nth}"
+                "upcoming": "Anda telah tiba di tujuan ke-{nth}",
+                "short": "Anda telah tiba di tujuan ke-{nth}",
+                "short-upcoming": "Anda telah tiba di tujuan ke-{nth}"
             },
             "left": {
                 "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri",
-                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
+                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri",
+                "short": "Anda telah tiba di tujuan ke-{nth}",
+                "short-upcoming": "Anda telah tiba di tujuan ke-{nth}"
             },
             "right": {
                 "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan",
-                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
+                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan",
+                "short": "Anda telah tiba di tujuan ke-{nth}",
+                "short-upcoming": "Anda telah tiba di tujuan ke-{nth}"
             },
             "sharp left": {
                 "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri",
-                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
+                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri",
+                "short": "Anda telah tiba di tujuan ke-{nth}",
+                "short-upcoming": "Anda telah tiba di tujuan ke-{nth}"
             },
             "sharp right": {
                 "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan",
-                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
+                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan",
+                "short": "Anda telah tiba di tujuan ke-{nth}",
+                "short-upcoming": "Anda telah tiba di tujuan ke-{nth}"
             },
             "slight right": {
                 "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan",
-                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
+                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan",
+                "short": "Anda telah tiba di tujuan ke-{nth}",
+                "short-upcoming": "Anda telah tiba di tujuan ke-{nth}"
             },
             "slight left": {
                 "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri",
-                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
+                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri",
+                "short": "Anda telah tiba di tujuan ke-{nth}",
+                "short-upcoming": "Anda telah tiba di tujuan ke-{nth}"
             },
             "straight": {
                 "default": "Anda telah tiba di tujuan ke-{nth}, lurus saja",
-                "upcoming": "Anda telah tiba di tujuan ke-{nth}, lurus saja"
+                "upcoming": "Anda telah tiba di tujuan ke-{nth}, lurus saja",
+                "short": "Anda telah tiba di tujuan ke-{nth}",
+                "short-upcoming": "Anda telah tiba di tujuan ke-{nth}"
             }
         },
         "continue": {

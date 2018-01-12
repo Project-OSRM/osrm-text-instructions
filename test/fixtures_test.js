@@ -94,7 +94,7 @@ tape.test('verify existence/update fixtures', function(assert) {
         checkOrWrite(step, `${basePath}_exit_destination`);
     }
 
-    ['modes', 'other', 'arrive_waypoint', 'arrive_waypoint_last'].concat(constants.types).forEach((type) => {
+    ['modes', 'other', 'arrive_waypoint', 'arrive_waypoint_last', 'arrive_upcoming', 'arrive_short', 'arrive_short_upcoming'].concat(constants.types).forEach((type) => {
         var basePath = path.join(__dirname, 'fixtures', 'v5', underscorify(type));
         var baseStep, step;
 
@@ -120,6 +120,30 @@ tape.test('verify existence/update fixtures', function(assert) {
                     name: 'Street Name'
                 };
                 checkOrWrite(step, path.join(basePath, underscorify(modifier)));
+            });
+            break;
+        case 'arrive_upcoming':
+            var fixturePath = path.join(__dirname, 'fixtures', 'v5', 'arrive_upcoming');
+            checkOrWriteCustom(fixturePath, 'no_modifier', ['arrive', 'default', 'upcoming']);
+            constants.modifiers.forEach((modifier) => {
+                if (modifier === 'uturn') return;
+                checkOrWriteCustom(fixturePath, modifier, ['arrive', modifier, 'upcoming']);
+            });
+            break;
+        case 'arrive_short':
+            var fixturePath = path.join(__dirname, 'fixtures', 'v5', 'arrive_short');
+            checkOrWriteCustom(fixturePath, 'no_modifier', ['arrive', 'default', 'short']);
+            constants.modifiers.forEach((modifier) => {
+                if (modifier === 'uturn') return;
+                checkOrWriteCustom(fixturePath, modifier, ['arrive', modifier, 'short']);
+            });
+            break;
+        case 'arrive_short_upcoming':
+            var fixturePath = path.join(__dirname, 'fixtures', 'v5', 'arrive_short_upcoming');
+            checkOrWriteCustom(fixturePath, 'no_modifier', ['arrive', 'default', 'short-upcoming']);
+            constants.modifiers.forEach((modifier) => {
+                if (modifier === 'uturn') return;
+                checkOrWriteCustom(fixturePath, modifier, ['arrive', modifier, 'short-upcoming']);
             });
             break;
         case 'arrive_waypoint':
@@ -584,6 +608,40 @@ tape.test('verify existence/update fixtures', function(assert) {
             'instruction_one': 'Do something',
             distance: distance
         });
+    }
+
+    function checkOrWriteCustom(basePath, fileName, phrasePath, options) {
+        var fileToWrite = path.join(basePath, `${fileName}.json`);
+        if (process.env.UPDATE) {
+            var data = {
+                phrases: customCompile(phrasePath)
+            };
+            fs.writeFileSync(
+                fileToWrite,
+                JSON.stringify(data, null, 4) + '\n'
+            );
+            assert.ok(true, `updated ${phrasePath}`);
+        } else {
+            assert.ok(
+                fs.existsSync(fileToWrite),
+                `verified existance of ${phrasePath}`
+            );
+        }
+    }
+
+    function customCompile(phrasePath) {
+      result = {};
+      supportedCodes.forEach((lang) => {
+          var langKeys = [lang, 'v5'].concat(phrasePath);
+          result[lang] = langKeys.reduce(findPhrase, instructions);
+      });
+      return result;
+    }
+
+    function findPhrase(memo, key) {
+      if (memo === null) return null;
+      if (memo[key] === undefined) return null;
+      return memo[key];
     }
 
     checkOrWritePhrases();

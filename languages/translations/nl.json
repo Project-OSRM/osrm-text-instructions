@@ -59,35 +59,51 @@
         "arrive": {
             "default": {
                 "default": "Je bent gearriveerd op de {nth} bestemming.",
-                "upcoming": "Je bent gearriveerd op de {nth} bestemming."
+                "upcoming": "Je bent gearriveerd op de {nth} bestemming.",
+                "short": "Je bent gearriveerd op de {nth} bestemming.",
+                "short-upcoming": "Je bent gearriveerd op de {nth} bestemming."
             },
             "left": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
-                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich links."
+                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
+                "short": "Je bent gearriveerd op de {nth} bestemming.",
+                "short-upcoming": "Je bent gearriveerd op de {nth} bestemming."
             },
             "right": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
-                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts."
+                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
+                "short": "Je bent gearriveerd op de {nth} bestemming.",
+                "short-upcoming": "Je bent gearriveerd op de {nth} bestemming."
             },
             "sharp left": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
-                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich links."
+                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
+                "short": "Je bent gearriveerd op de {nth} bestemming.",
+                "short-upcoming": "Je bent gearriveerd op de {nth} bestemming."
             },
             "sharp right": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
-                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts."
+                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
+                "short": "Je bent gearriveerd op de {nth} bestemming.",
+                "short-upcoming": "Je bent gearriveerd op de {nth} bestemming."
             },
             "slight right": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
-                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts."
+                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
+                "short": "Je bent gearriveerd op de {nth} bestemming.",
+                "short-upcoming": "Je bent gearriveerd op de {nth} bestemming."
             },
             "slight left": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
-                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich links."
+                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
+                "short": "Je bent gearriveerd op de {nth} bestemming.",
+                "short-upcoming": "Je bent gearriveerd op de {nth} bestemming."
             },
             "straight": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich voor je.",
-                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich voor je."
+                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich voor je.",
+                "short": "Je bent gearriveerd op de {nth} bestemming.",
+                "short-upcoming": "Je bent gearriveerd op de {nth} bestemming."
             }
         },
         "continue": {

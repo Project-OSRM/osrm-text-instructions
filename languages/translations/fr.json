@@ -59,35 +59,51 @@
         "arrive": {
             "default": {
                 "default": "Vous êtes arrivés à votre {nth} destination",
-                "upcoming": "Vous arriverez à votre {nth} destination"
+                "upcoming": "Vous arriverez à votre {nth} destination",
+                "short": "Vous êtes arrivés",
+                "short-upcoming": "Vous arriverez"
             },
             "left": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche",
-                "upcoming": "Vous arriverez à votre {nth} destination, sur la gauche"
+                "upcoming": "Vous arriverez à votre {nth} destination, sur la gauche",
+                "short": "Vous êtes arrivés",
+                "short-upcoming": "Vous arriverez"
             },
             "right": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la droite",
-                "upcoming": "Vous arriverez à votre {nth} destination, sur la droite"
+                "upcoming": "Vous arriverez à votre {nth} destination, sur la droite",
+                "short": "Vous êtes arrivés",
+                "short-upcoming": "Vous arriverez"
             },
             "sharp left": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche",
-                "upcoming": "Vous arriverez à votre {nth} destination, sur la gauche"
+                "upcoming": "Vous arriverez à votre {nth} destination, sur la gauche",
+                "short": "Vous êtes arrivés",
+                "short-upcoming": "Vous arriverez"
             },
             "sharp right": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la droite",
-                "upcoming": "Vous arriverez à votre {nth} destination, sur la droite"
+                "upcoming": "Vous arriverez à votre {nth} destination, sur la droite",
+                "short": "Vous êtes arrivés",
+                "short-upcoming": "Vous arriverez"
             },
             "slight right": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la droite",
-                "upcoming": "Vous arriverez à votre {nth} destination, sur la droite"
+                "upcoming": "Vous arriverez à votre {nth} destination, sur la droite",
+                "short": "Vous êtes arrivés",
+                "short-upcoming": "Vous arriverez"
             },
             "slight left": {
                 "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche",
-                "upcoming": "Vous arriverez à votre {nth} destination, sur la gauche"
+                "upcoming": "Vous arriverez à votre {nth} destination, sur la gauche",
+                "short": "Vous êtes arrivés",
+                "short-upcoming": "Vous arriverez"
             },
             "straight": {
                 "default": "Vous êtes arrivés à votre {nth} destination, droit devant",
-                "upcoming": "Vous arriverez à votre {nth} destination, droit devant"
+                "upcoming": "Vous arriverez à votre {nth} destination, droit devant",
+                "short": "Vous êtes arrivés",
+                "short-upcoming": "Vous arriverez"
             }
         },
         "continue": {

@@ -59,35 +59,51 @@
         "arrive": {
             "default": {
                 "default": "Ați ajuns la {nth} destinație",
-                "upcoming": "Ați ajuns la {nth} destinație"
+                "upcoming": "Ați ajuns la {nth} destinație",
+                "short":  "Ați ajuns la {nth} destinație",
+                "short-upcoming":  "Ați ajuns la {nth} destinație"
             },
             "left": {
                 "default": "Ați ajuns la {nth} destinație, pe stânga",
-                "upcoming": "Ați ajuns la {nth} destinație, pe stânga"
+                "upcoming": "Ați ajuns la {nth} destinație, pe stânga",
+                "short":  "Ați ajuns la {nth} destinație",
+                "short-upcoming":  "Ați ajuns la {nth} destinație"
             },
             "right": {
                 "default": "Ați ajuns la {nth} destinație, pe dreapta",
-                "upcoming": "Ați ajuns la {nth} destinație, pe dreapta"
+                "upcoming": "Ați ajuns la {nth} destinație, pe dreapta",
+                "short":  "Ați ajuns la {nth} destinație",
+                "short-upcoming":  "Ați ajuns la {nth} destinație"
             },
             "sharp left": {
                 "default": "Ați ajuns la {nth} destinație, pe stânga",
-                "upcoming": "Ați ajuns la {nth} destinație, pe stânga"
+                "upcoming": "Ați ajuns la {nth} destinație, pe stânga",
+                "short":  "Ați ajuns la {nth} destinație",
+                "short-upcoming":  "Ați ajuns la {nth} destinație"
             },
             "sharp right": {
                 "default": "Ați ajuns la {nth} destinație, pe dreapta",
-                "upcoming": "Ați ajuns la {nth} destinație, pe dreapta"
+                "upcoming": "Ați ajuns la {nth} destinație, pe dreapta",
+                "short":  "Ați ajuns la {nth} destinație",
+                "short-upcoming":  "Ați ajuns la {nth} destinație"
             },
             "slight right": {
                 "default": "Ați ajuns la {nth} destinație, pe dreapta",
-                "upcoming": "Ați ajuns la {nth} destinație, pe dreapta"
+                "upcoming": "Ați ajuns la {nth} destinație, pe dreapta",
+                "short":  "Ați ajuns la {nth} destinație",
+                "short-upcoming":  "Ați ajuns la {nth} destinație"
             },
             "slight left": {
                 "default": "Ați ajuns la {nth} destinație, pe stânga",
-                "upcoming": "Ați ajuns la {nth} destinație, pe stânga"
+                "upcoming": "Ați ajuns la {nth} destinație, pe stânga",
+                "short":  "Ați ajuns la {nth} destinație",
+                "short-upcoming":  "Ați ajuns la {nth} destinație"
             },
             "straight": {
                 "default": "Ați ajuns la {nth} destinație, în față",
-                "upcoming": "Ați ajuns la {nth} destinație, în față"
+                "upcoming": "Ați ajuns la {nth} destinație, în față",
+                "short":  "Ați ajuns la {nth} destinație",
+                "short-upcoming":  "Ați ajuns la {nth} destinație"
             }
         },
         "continue": {

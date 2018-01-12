@@ -59,35 +59,51 @@
         "arrive": {
             "default": {
                 "default": "{nth} hedefinize ulaştınız",
-                "upcoming": "{nth} hedefinize ulaştınız"
+                "upcoming": "{nth} hedefinize ulaştınız",
+                "short": "{nth} hedefinize ulaştınız",
+                "short-upcoming": "{nth} hedefinize ulaştınız"
             },
             "left": {
                 "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
-                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır"
+                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
+                "short": "{nth} hedefinize ulaştınız",
+                "short-upcoming": "{nth} hedefinize ulaştınız"
             },
             "right": {
                 "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
-                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır"
+                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
+                "short": "{nth} hedefinize ulaştınız",
+                "short-upcoming": "{nth} hedefinize ulaştınız"
             },
             "sharp left": {
                 "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
-                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır"
+                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
+                "short": "{nth} hedefinize ulaştınız",
+                "short-upcoming": "{nth} hedefinize ulaştınız"
             },
             "sharp right": {
                 "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
-                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır"
+                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
+                "short": "{nth} hedefinize ulaştınız",
+                "short-upcoming": "{nth} hedefinize ulaştınız"
             },
             "slight right": {
                 "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
-                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır"
+                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
+                "short": "{nth} hedefinize ulaştınız",
+                "short-upcoming": "{nth} hedefinize ulaştınız"
             },
             "slight left": {
                 "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
-                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır"
+                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
+                "short": "{nth} hedefinize ulaştınız",
+                "short-upcoming": "{nth} hedefinize ulaştınız"
             },
             "straight": {
                 "default": "{nth} hedefinize ulaştınız, hedefiniz karşınızdadır",
-                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz karşınızdadır"
+                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz karşınızdadır",
+                "short": "{nth} hedefinize ulaştınız",
+                "short-upcoming": "{nth} hedefinize ulaştınız"
             }
         },
         "continue": {

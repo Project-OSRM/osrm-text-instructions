@@ -59,35 +59,51 @@
         "arrive": {
             "default": {
                 "default": "Dojechano do miejsca docelowego {nth}",
-                "upcoming": "Dojechano do miejsca docelowego {nth}"
+                "upcoming": "Dojechano do miejsca docelowego {nth}",
+                "short": "Dojechano do miejsca docelowego {nth}",
+                "short-upcoming": "Dojechano do miejsca docelowego {nth}"
             },
             "left": {
                 "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
-                "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
+                "short": "Dojechano do miejsca docelowego {nth}",
+                "short-upcoming": "Dojechano do miejsca docelowego {nth}"
             },
             "right": {
                 "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
-                "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
+                "short": "Dojechano do miejsca docelowego {nth}",
+                "short-upcoming": "Dojechano do miejsca docelowego {nth}"
             },
             "sharp left": {
                 "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
-                "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
+                "short": "Dojechano do miejsca docelowego {nth}",
+                "short-upcoming": "Dojechano do miejsca docelowego {nth}"
             },
             "sharp right": {
                 "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
-                "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
+                "short": "Dojechano do miejsca docelowego {nth}",
+                "short-upcoming": "Dojechano do miejsca docelowego {nth}"
             },
             "slight right": {
                 "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
-                "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
+                "short": "Dojechano do miejsca docelowego {nth}",
+                "short-upcoming": "Dojechano do miejsca docelowego {nth}"
             },
             "slight left": {
                 "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
-                "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
+                "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
+                "short": "Dojechano do miejsca docelowego {nth}",
+                "short-upcoming": "Dojechano do miejsca docelowego {nth}"
             },
             "straight": {
                 "default": "Dojechano do miejsca docelowego {nth} , prosto",
-                "upcoming": "Dojechano do miejsca docelowego {nth} , prosto"
+                "upcoming": "Dojechano do miejsca docelowego {nth} , prosto",
+                "short": "Dojechano do miejsca docelowego {nth}",
+                "short-upcoming": "Dojechano do miejsca docelowego {nth}"
             }
         },
         "continue": {
