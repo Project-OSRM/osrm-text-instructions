@@ -1,0 +1,22 @@
+{
+    "instructions": {
+        "de": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts",
+        "en": "You will arrive at your {nth} destination, on the right",
+        "eo": "Vi atingos vian {nth} celon ĉe dekstre",
+        "es": "Vas a llegar a tu {nth} destino, a la derecha",
+        "es-ES": "Vas a llegar a tu {nth} destino, a la derecha",
+        "fr": "Vous arriverez à votre {nth} destination, sur la droite",
+        "id": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan",
+        "it": "sei arrivato alla tua {nth} destinazione, sulla destra",
+        "nl": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
+        "pl": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
+        "pt-BR": "Você chegou ao seu {nth} destino, à direita",
+        "ro": "Ați ajuns la {nth} destinație, pe dreapta",
+        "ru": "Вы прибудете в {nth} пункт назначения, он будет справа впереди",
+        "sv": "Du är snart framme vid din {nth} destination, till höger",
+        "tr": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
+        "uk": "Ви прибули у ваш {nth} пункт призначення, він – праворуч",
+        "vi": "Đến nơi {nth} ở bên phải",
+        "zh-Hans": "您已经到达您的{nth}个目的地，在道路右侧"
+    }
+}

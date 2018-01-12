@@ -59,35 +59,51 @@
         "arrive": {
             "default": {
                 "default": "You have arrived at your {nth} destination",
-                "upcoming": "You will arrive at your {nth} destination"
+                "upcoming": "You will arrive at your {nth} destination",
+                "short": "You have arrived",
+                "short-upcoming": "You will arrive"
             },
             "left": {
                 "default": "You have arrived at your {nth} destination, on the left",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "You will arrive at your {nth} destination, on the left",
+                "short": "You have arrived",
+                "short-upcoming": "You will arrive"
             },
             "right": {
                 "default": "You have arrived at your {nth} destination, on the right",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "You will arrive at your {nth} destination, on the right",
+                "short": "You have arrived",
+                "short-upcoming": "You will arrive"
             },
             "sharp left": {
                 "default": "You have arrived at your {nth} destination, on the left",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "You will arrive at your {nth} destination, on the left",
+                "short": "You have arrived",
+                "short-upcoming": "You will arrive"
             },
             "sharp right": {
                 "default": "You have arrived at your {nth} destination, on the right",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "You will arrive at your {nth} destination, on the right",
+                "short": "You have arrived",
+                "short-upcoming": "You will arrive"
             },
             "slight right": {
                 "default": "You have arrived at your {nth} destination, on the right",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "upcoming": "You will arrive at your {nth} destination, on the right",
+                "short": "You have arrived",
+                "short-upcoming": "You will arrive"
             },
             "slight left": {
                 "default": "You have arrived at your {nth} destination, on the left",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "upcoming": "You will arrive at your {nth} destination, on the left",
+                "short": "You have arrived",
+                "short-upcoming": "You will arrive"
             },
             "straight": {
                 "default": "You have arrived at your {nth} destination, straight ahead",
-                "upcoming": "You will arrive at your {nth} destination, straight ahead"
+                "upcoming": "You will arrive at your {nth} destination, straight ahead",
+                "short": "You have arrived",
+                "short-upcoming": "You will arrive"
             }
         },
         "continue": {

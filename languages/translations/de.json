@@ -59,35 +59,51 @@
         "arrive": {
             "default": {
                 "default": "Sie haben Ihr {nth} Ziel erreicht",
-                "upcoming": "Sie haben Ihr {nth} Ziel erreicht"
+                "upcoming": "Sie haben Ihr {nth} Ziel erreicht",
+                "short": "Sie haben Ihr {nth} Ziel erreicht",
+                "short-upcoming": "Sie haben Ihr {nth} Ziel erreicht"
             },
             "left": {
                 "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links",
-                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links"
+                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links",
+                "short": "Sie haben Ihr {nth} Ziel erreicht",
+                "short-upcoming": "Sie haben Ihr {nth} Ziel erreicht"
             },
             "right": {
                 "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts",
-                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts"
+                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts",
+                "short": "Sie haben Ihr {nth} Ziel erreicht",
+                "short-upcoming": "Sie haben Ihr {nth} Ziel erreicht"
             },
             "sharp left": {
                 "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links",
-                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links"
+                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links",
+                "short": "Sie haben Ihr {nth} Ziel erreicht",
+                "short-upcoming": "Sie haben Ihr {nth} Ziel erreicht"
             },
             "sharp right": {
                 "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts",
-                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts"
+                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts",
+                "short": "Sie haben Ihr {nth} Ziel erreicht",
+                "short-upcoming": "Sie haben Ihr {nth} Ziel erreicht"
             },
             "slight right": {
                 "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts",
-                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts"
+                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts",
+                "short": "Sie haben Ihr {nth} Ziel erreicht",
+                "short-upcoming": "Sie haben Ihr {nth} Ziel erreicht"
             },
             "slight left": {
                 "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links",
-                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links"
+                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links",
+                "short": "Sie haben Ihr {nth} Ziel erreicht",
+                "short-upcoming": "Sie haben Ihr {nth} Ziel erreicht"
             },
             "straight": {
                 "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich geradeaus",
-                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich geradeaus"
+                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich geradeaus",
+                "short": "Sie haben Ihr {nth} Ziel erreicht",
+                "short-upcoming": "Sie haben Ihr {nth} Ziel erreicht"
             }
         },
         "continue": {

@@ -59,35 +59,51 @@
         "arrive": {
             "default": {
                 "default": "Has llegado a tu {nth} destino",
-                "upcoming": "Vas a llegar a tu {nth} destino"
+                "upcoming": "Vas a llegar a tu {nth} destino",
+                "short": "Has llegado a tu {nth} destino",
+                "short-upcoming": "Vas a llegar a tu {nth} destino"
             },
             "left": {
                 "default": "Has llegado a tu {nth} destino, a la izquierda",
-                "upcoming": "Vas a llegar a tu {nth} destino, a la izquierda"
+                "upcoming": "Vas a llegar a tu {nth} destino, a la izquierda",
+                "short": "Has llegado a tu {nth} destino",
+                "short-upcoming": "Vas a llegar a tu {nth} destino"
             },
             "right": {
                 "default": "Has llegado a tu {nth} destino, a la derecha",
-                "upcoming": "Vas a llegar a tu {nth} destino, a la derecha"
+                "upcoming": "Vas a llegar a tu {nth} destino, a la derecha",
+                "short": "Has llegado a tu {nth} destino",
+                "short-upcoming": "Vas a llegar a tu {nth} destino"
             },
             "sharp left": {
                 "default": "Has llegado a tu {nth} destino, a la izquierda",
-                "upcoming": "Vas a llegar a tu {nth} destino, a la izquierda"
+                "upcoming": "Vas a llegar a tu {nth} destino, a la izquierda",
+                "short": "Has llegado a tu {nth} destino",
+                "short-upcoming": "Vas a llegar a tu {nth} destino"
             },
             "sharp right": {
                 "default": "Has llegado a tu {nth} destino, a la derecha",
-                "upcoming": "Vas a llegar a tu {nth} destino, a la derecha"
+                "upcoming": "Vas a llegar a tu {nth} destino, a la derecha",
+                "short": "Has llegado a tu {nth} destino",
+                "short-upcoming": "Vas a llegar a tu {nth} destino"
             },
             "slight right": {
                 "default": "Has llegado a tu {nth} destino, a la derecha",
-                "upcoming": "Vas a llegar a tu {nth} destino, a la derecha"
+                "upcoming": "Vas a llegar a tu {nth} destino, a la derecha",
+                "short": "Has llegado a tu {nth} destino",
+                "short-upcoming": "Vas a llegar a tu {nth} destino"
             },
             "slight left": {
                 "default": "Has llegado a tu {nth} destino, a la izquierda",
-                "upcoming": "Vas a llegar a tu {nth} destino, a la izquierda"
+                "upcoming": "Vas a llegar a tu {nth} destino, a la izquierda",
+                "short": "Has llegado a tu {nth} destino",
+                "short-upcoming": "Vas a llegar a tu {nth} destino"
             },
             "straight": {
                 "default": "Has llegado a tu {nth} destino, en frente",
-                "upcoming": "Vas a llegar a tu {nth} destino, en frente"
+                "upcoming": "Vas a llegar a tu {nth} destino, en frente",
+                "short": "Has llegado a tu {nth} destino",
+                "short-upcoming": "Vas a llegar a tu {nth} destino"
             }
         },
         "continue": {

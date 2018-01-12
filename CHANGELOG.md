@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## 0.11.3 2017-01-12
+
+- Added a new phrase for a short arrival and short upcoming arrival case. [#207](https://github.com/Project-OSRM/osrm-text-instructions/pull/207)
+
 ## 0.11.2 2017-01-10
 
 - Changed the phrases for forks to just say "Keep left onto [wayname]" (unless we have no information, in which case we still say "Keep left at the fork"). [#205](https://github.com/Project-OSRM/osrm-text-instructions/pull/205)
