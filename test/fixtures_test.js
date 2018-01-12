@@ -33,6 +33,42 @@ tape.test('verify existence/update fixtures', function(assert) {
         return result;
     }
 
+    function findPhrase(memo, key) {
+        if (memo === null) return null;
+        if (!memo[key]) return null;
+
+        return memo[key];
+    }
+
+    function customCompile(phrasePath) {
+        var result = {};
+        supportedCodes.forEach((lang) => {
+            var langKeys = [lang, 'v5'].concat(phrasePath);
+            result[lang] = langKeys.reduce(findPhrase, instructions);
+        });
+
+        return result;
+    }
+
+    function checkOrWriteCustom(basePath, fileName, phrasePath) {
+        var fileToWrite = path.join(basePath, `${fileName}.json`);
+        if (process.env.UPDATE) {
+            var data = {
+                instructions: customCompile(phrasePath)
+            };
+            fs.writeFileSync(
+                fileToWrite,
+                JSON.stringify(data, null, 4) + '\n'
+            );
+            assert.ok(true, `updated ${phrasePath}`);
+        } else {
+            assert.ok(
+                fs.existsSync(fileToWrite),
+                `verified existance of ${phrasePath}`
+            );
+        }
+    }
+
     function checkOrWrite(step, p, options) {
         var fileName = `${p}.json`;
         var testName = p
@@ -131,7 +167,7 @@ tape.test('verify existence/update fixtures', function(assert) {
             });
             break;
         case 'arrive_short':
-            var fixturePath = path.join(__dirname, 'fixtures', 'v5', 'arrive_short');
+            fixturePath = path.join(__dirname, 'fixtures', 'v5', 'arrive_short');
             checkOrWriteCustom(fixturePath, 'no_modifier', ['arrive', 'default', 'short']);
             constants.modifiers.forEach((modifier) => {
                 if (modifier === 'uturn') return;
@@ -139,7 +175,7 @@ tape.test('verify existence/update fixtures', function(assert) {
             });
             break;
         case 'arrive_short_upcoming':
-            var fixturePath = path.join(__dirname, 'fixtures', 'v5', 'arrive_short_upcoming');
+            fixturePath = path.join(__dirname, 'fixtures', 'v5', 'arrive_short_upcoming');
             checkOrWriteCustom(fixturePath, 'no_modifier', ['arrive', 'default', 'short-upcoming']);
             constants.modifiers.forEach((modifier) => {
                 if (modifier === 'uturn') return;
@@ -608,40 +644,6 @@ tape.test('verify existence/update fixtures', function(assert) {
             'instruction_one': 'Do something',
             distance: distance
         });
-    }
-
-    function checkOrWriteCustom(basePath, fileName, phrasePath, options) {
-        var fileToWrite = path.join(basePath, `${fileName}.json`);
-        if (process.env.UPDATE) {
-            var data = {
-                phrases: customCompile(phrasePath)
-            };
-            fs.writeFileSync(
-                fileToWrite,
-                JSON.stringify(data, null, 4) + '\n'
-            );
-            assert.ok(true, `updated ${phrasePath}`);
-        } else {
-            assert.ok(
-                fs.existsSync(fileToWrite),
-                `verified existance of ${phrasePath}`
-            );
-        }
-    }
-
-    function customCompile(phrasePath) {
-      result = {};
-      supportedCodes.forEach((lang) => {
-          var langKeys = [lang, 'v5'].concat(phrasePath);
-          result[lang] = langKeys.reduce(findPhrase, instructions);
-      });
-      return result;
-    }
-
-    function findPhrase(memo, key) {
-      if (memo === null) return null;
-      if (memo[key] === undefined) return null;
-      return memo[key];
     }
 
     checkOrWritePhrases();

@@ -1,5 +1,5 @@
 {
-    "phrases": {
+    "instructions": {
         "de": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich geradeaus",
         "en": "You will arrive at your {nth} destination, straight ahead",
         "eo": "Vi atingos vian {nth} celon rekte",

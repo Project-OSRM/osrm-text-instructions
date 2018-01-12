@@ -382,8 +382,9 @@ tape.test('v5 compile', function(t) {
                         options.legCount = fixture.options.legCount;
                         options.classes = fixture.options.classes;
                     }
-
                     Object.keys(fixture.instructions).forEach((l) => {
+                        // ignore custom instructions that don't get compiled
+                        if (!fixture.step) return;
                         assert.equal(
                             instructionsPerLanguage.compile(l, fixture.step, options),
                             fixture.instructions[l],
