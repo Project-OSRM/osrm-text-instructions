@@ -50,8 +50,7 @@ tape.test('v5 tokenize', function(assert) {
             return value;
         }
     });
-    assert.equal(formatsTokens, 'Take me <prosody rate="slow">home</prosody>, Country <prosody rate="slow">Road</prosody>',
-                 'Formats tokens');
+    assert.equal(formatsTokens, 'Take me <prosody rate="slow">home</prosody>, Country <prosody rate="slow">Road</prosody>', 'Formats tokens');
 
     var capitalizesTokens = v5Compiler.tokenize('en', '{modifier} turns are prohibited here', {
         modifier: 'left'
@@ -65,7 +64,7 @@ tape.test('v5 tokenize', function(assert) {
         }
     });
     assert.equal(capitalizesTokens, '<strong>Left</strong> turns are prohibited here',
-                 'Capitalizes tokens before formatting');
+        'Capitalizes tokens before formatting');
 
     var formatsGrammaticalTokens = v5Compiler.tokenize('ru', 'Плавно поверните налево на {way_name:accusative}', {
         'way_name': 'Бармалеева улица'
@@ -75,7 +74,7 @@ tape.test('v5 tokenize', function(assert) {
         }
     });
     assert.equal(formatsGrammaticalTokens, 'Плавно поверните налево на БАРМАЛЕЕВУ УЛИЦУ',
-                 'Formats tokens after grammaticalization but before insertion');
+        'Formats tokens after grammaticalization but before insertion');
 
     assert.end();
 });
@@ -235,8 +234,7 @@ tape.test('v5 compile', function(t) {
 
         assert.throws(function() {
             v5Compiler.compile();
-        }, /No language code provided/
-    );
+        }, /No language code provided/);
 
         assert.end();
     });
@@ -329,9 +327,9 @@ tape.test('v5 compile', function(t) {
         t.equal(v5Compiler.getBestMatchingLanguage('zh'), 'zh-Hans');
         t.equal(v5Compiler.getBestMatchingLanguage('es-MX'), 'es');
         t.equal(v5Compiler.getBestMatchingLanguage('es-ES'), 'es-ES');
-        t.equal(v5Compiler.getBestMatchingLanguage('pt-PT'), 'pt-BR');
-        t.equal(v5Compiler.getBestMatchingLanguage('pt'), 'pt-BR');
-        t.equal(v5Compiler.getBestMatchingLanguage('pt-pt'), 'pt-BR');
+        t.equal(v5Compiler.getBestMatchingLanguage('pt-PT'), 'pt');
+        t.equal(v5Compiler.getBestMatchingLanguage('pt'), 'pt');
+        t.equal(v5Compiler.getBestMatchingLanguage('pt-pt'), 'pt');
         t.end();
     });
 

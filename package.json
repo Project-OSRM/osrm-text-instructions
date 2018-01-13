@@ -15,9 +15,9 @@
   },
   "devDependencies": {
     "eslint": "^3.4.0",
-    "tape": "^4.2.2",
-    "mkdirp": "0.5.1",
-    "request": "2.79.0"
+    "mkdirp": "^0.5.1",
+    "request": "2.79.0",
+    "tape": "^4.8.0"
   },
   "scripts": {
     "lint": "eslint *.js test/*.js scripts/*.js",
