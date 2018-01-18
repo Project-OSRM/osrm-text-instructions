@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "da": "Fortsæt svagt venstresving mod Destination 1",
         "de": "Leicht links weiterfahren Richtung Destination 1",
         "en": "Continue slight left towards Destination 1",
         "eo": "Pluu maldekstreten direkte al Destination 1",

@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Flet ind på Way Name",
         "de": "Geradeaus auffahren auf Way Name",
         "en": "Merge onto Way Name",
         "eo": "Enveturu al Way Name",

@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Drej til højresving ad Way Name",
         "de": "Rechts abbiegen auf Way Name",
         "en": "Turn right onto Way Name",
         "eo": "Veturu dekstren direkte al Way Name",

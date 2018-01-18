@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Foretag et svagt højresving mod Destination 1",
         "de": "Am Kreisverkehr leicht rechts Richtung Destination 1",
         "en": "Make a slight right towards Destination 1",
         "eo": "Ĉe la trafikcirklo veturu dekstreten direkte al Destination 1",

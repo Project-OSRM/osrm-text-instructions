@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Drej til venstresving mof Destination 1",
         "de": "Links abbiegen Richtung Destination 1",
         "en": "Turn left towards Destination 1",
         "eo": "Veturu maldekstren direkte al Destination 1",

@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "da": "Fortsæt skarpt højresving mod Destination 1",
         "de": "Scharf rechts weiterfahren Richtung Destination 1",
         "en": "Continue sharp right towards Destination 1",
         "eo": "Pluu dekstregen direkte al Destination 1",

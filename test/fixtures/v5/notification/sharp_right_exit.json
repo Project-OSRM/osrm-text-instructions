@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Fortsæt skarpt højresving ad Way Name",
         "de": "Scharf rechts weiterfahren auf Way Name",
         "en": "Continue sharp right onto Way Name",
         "eo": "Pluu dekstregen al Way Name",

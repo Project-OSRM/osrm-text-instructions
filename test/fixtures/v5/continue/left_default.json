@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "da": "Drej til venstresving",
         "de": "Links abbiegen",
         "en": "Turn left",
         "eo": "Veturu maldekstren",

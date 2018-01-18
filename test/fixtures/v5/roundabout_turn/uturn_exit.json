@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Foretag et U-vending ad Way Name",
         "de": "Am Kreisverkehr 180°-Wendung auf Way Name",
         "en": "Make a U-turn onto Way Name",
         "eo": "Ĉe la trafikcirklo veturu turniĝu malantaŭen al Way Name",

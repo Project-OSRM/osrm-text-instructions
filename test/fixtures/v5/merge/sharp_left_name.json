@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "da": "Flet til venstre ad Way Name",
         "de": "Scharf links auffahren auf Way Name",
         "en": "Merge left onto Way Name",
         "eo": "Enveture de maldekstre al Way Name",

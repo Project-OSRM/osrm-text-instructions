@@ -4,6 +4,7 @@
         "instruction_two": "Do that"
     },
     "phrases": {
+        "da": "Do this, derefter Do that",
         "de": "Do this danach Do that",
         "en": "Do this, then Do that",
         "eo": "Do this kaj sekve Do that",

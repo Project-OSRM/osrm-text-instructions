@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Fortsæt til højre ad Way Name",
         "de": "Leicht rechts weiter auf Way Name",
         "en": "Continue slightly right onto Way Name",
         "eo": "Pluu ete dekstren al Way Name",

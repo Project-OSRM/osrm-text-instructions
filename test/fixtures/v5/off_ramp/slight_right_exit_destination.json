@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Vælg afkørsel 4A mod Destination 1",
         "de": "Ausfahrt 4A nehmen Richtung Destination 1",
         "en": "Take exit 4A towards Destination 1",
         "eo": "Direktiĝu al elveturejo 4A direkte al Destination 1",

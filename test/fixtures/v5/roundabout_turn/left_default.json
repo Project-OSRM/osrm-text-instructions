@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "da": "Drej til venstre",
         "de": "Am Kreisverkehr links abbiegen",
         "en": "Turn left",
         "eo": "Ĉe la trafikcirklo turniĝu maldekstren",

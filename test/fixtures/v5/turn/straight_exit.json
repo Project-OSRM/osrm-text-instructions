@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Kør ligeud ad Way Name",
         "de": "Geradeaus weiterfahren auf Way Name",
         "en": "Go straight onto Way Name",
         "eo": "Veturu rekten al Way Name",

@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Tag afkørslen ad Way Name",
         "de": "Auffahrt nehmen auf Way Name",
         "en": "Take the ramp onto Way Name",
         "eo": "Direktiĝu al enveturejo al Way Name",

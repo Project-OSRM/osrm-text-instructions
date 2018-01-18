@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "da": "Flet ind mod Destination 1",
         "de": "Geradeaus auffahren Richtung Destination 1",
         "en": "Merge towards Destination 1",
         "eo": "Enveturu direkte al Destination 1",

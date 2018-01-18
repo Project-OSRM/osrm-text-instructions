@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Hold til venstre mod Destination 1",
         "de": "Links halten an der Gabelung Richtung Destination 1",
         "en": "Keep left towards Destination 1",
         "eo": "Maldekstren ĉe la vojforko direkte al Destination 1",

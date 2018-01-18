@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "da": "Foretag et skarpt venstresving ad Way Name",
         "de": "Am Kreisverkehr scharf links auf Way Name",
         "en": "Make a sharp left onto Way Name",
         "eo": "Ĉe la trafikcirklo veturu maldekstregen al Way Name",

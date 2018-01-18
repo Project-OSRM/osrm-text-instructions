@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Drej til svagt højresving mof Destination 1",
         "de": "Leicht rechts abbiegen Richtung Destination 1",
         "en": "Turn slight right towards Destination 1",
         "eo": "Veturu dekstreten direkte al Destination 1",

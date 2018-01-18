@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "da": "Drej til svagt venstresving ad Way Name",
         "de": "Leicht links abbiegen auf Way Name",
         "en": "Turn slight left onto Way Name",
         "eo": "Veturu maldekstreten direkte al Way Name",

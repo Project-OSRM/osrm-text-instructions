@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Foretag et skarpt venstresving mod Destination 1",
         "de": "Am Kreisverkehr scharf links Richtung Destination 1",
         "en": "Make a sharp left towards Destination 1",
         "eo": "Ĉe la trafikcirklo veturu maldekstregen direkte al Destination 1",

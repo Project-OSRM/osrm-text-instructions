@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "da": "Forlad rundkørslen ad Way Name",
         "de": "Leicht rechts abbiegen auf Way Name",
         "en": "Exit the traffic circle onto Way Name",
         "eo": "Elveturu trafikcirklegon al Way Name",

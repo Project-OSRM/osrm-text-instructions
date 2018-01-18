@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Fortsæt svagt højresving ad Way Name",
         "de": "Leicht rechts weiterfahren auf Way Name",
         "en": "Continue slight right onto Way Name",
         "eo": "Pluu dekstreten al Way Name",
