@@ -1,16 +1,20 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## master
+
+- Extended ordinals support for Russian street names in grammar rules. [#192](https://github.com/Project-OSRM/osrm-text-instructions/pull/192)
+
 ## 0.11.3 2017-01-12
 
 - Added a new phrase for a short arrival and short upcoming arrival case. [#207](https://github.com/Project-OSRM/osrm-text-instructions/pull/207)
 
 ## 0.11.2 2017-01-10
 
-- Changed the phrases for forks to just say "Keep left onto [wayname]" (unless we have no information, in which case we still say "Keep left at the fork"). [#205](https://github.com/Project-OSRM/osrm-text-instructions/pull/205)
+- Changed the phrases for forks to just say "Keep left onto. [wayname]" (unless we have no information, in which case we still say "Keep left at the fork"). [#205](https://github.com/Project-OSRM/osrm-text-instructions/pull/205)
 ## 0.11.1 2017-01-02
 
-- Changed the phrases for roundabout turns to match turns at standard intersections [#203](https://github.com/Project-OSRM/osrm-text-instructions/pull/203)
+- Changed the phrases for roundabout turns to match turns at standard intersections. [#203](https://github.com/Project-OSRM/osrm-text-instructions/pull/203)
 
 ## 0.11.0 2017-12-13
 
@@ -28,25 +32,25 @@ All notable changes to this project will be documented in this file. For change 
 
 ## 0.10.5 2017-10-27
 
-- Added a `merge straight` instruction [#183](https://github.com/Project-OSRM/osrm-text-instructions/pull/183)
-- Added new untranslated Swedish strings related to roundabouts and rotary [#186](https://github.com/Project-OSRM/osrm-text-instructions/pull/186)
+- Added a `merge straight` instruction. [#183](https://github.com/Project-OSRM/osrm-text-instructions/pull/183)
+- Added new untranslated Swedish strings related to roundabouts and rotary. [#186](https://github.com/Project-OSRM/osrm-text-instructions/pull/186)
 
 ## 0.10.4 2017-10-26
 
-- Add a phrase for an upcoming arrival step [#184](https://github.com/Project-OSRM/osrm-text-instructions/pull/184)
+- Add a phrase for an upcoming arrival step. [#184](https://github.com/Project-OSRM/osrm-text-instructions/pull/184)
 
 ## 0.10.3 2017-10-24
 
-- Change the default exit roundabout instruction to be `exit the traffic circle` [#182](https://github.com/Project-OSRM/osrm-text-instructions/pull/182)
+- Change the default exit roundabout instruction to be `exit the traffic circle`. [#182](https://github.com/Project-OSRM/osrm-text-instructions/pull/182)
 
 ## 0.10.2 2017-10-24
 
-- Change the default exit rotary instruction to be `exit the traffic circle` [#181](https://github.com/Project-OSRM/osrm-text-instructions/pull/181)
+- Change the default exit rotary instruction to be `exit the traffic circle`. [#181](https://github.com/Project-OSRM/osrm-text-instructions/pull/181)
 
 ## 0.10.1 2017-10-19
 
-- Simplify roundabout and rotary instructions for US usecase. Will need an GB version of en.json now [#179](https://github.com/Project-OSRM/osrm-text-instructions/pull/179)
-- Clean up Russian roundabout and rotary instructions [#174](https://github.com/Project-OSRM/osrm-text-instructions/pull/174)
+- Simplify roundabout and rotary instructions for US usecase. Will need an GB version of en.json now. [#179](https://github.com/Project-OSRM/osrm-text-instructions/pull/179)
+- Clean up Russian roundabout and rotary instructions. [#174](https://github.com/Project-OSRM/osrm-text-instructions/pull/174)
 
 ## 0.10.0 2017-10-18
 
@@ -60,8 +64,8 @@ All notable changes to this project will be documented in this file. For change 
 
 ## 0.8.0 2017-10-04
 
-- Added grammatical cases support for Russian way names [#102](https://github.com/Project-OSRM/osrm-text-instructions/pull/102)
-- Adds `osrmti.getWayName` to the public api. You MUST NOT change the result before passing it into `osrmti.tokenize`. [#167](https://github.com/Project-OSRM/osrm-text-instructions/pull/167)
+- Added grammatical cases support for Russian way names. [#102](https://github.com/Project-OSRM/osrm-text-instructions/pull/102)
+- Adds `osrmti.getWayName` to the public API. You MUST NOT change the result before passing it into `osrmti.tokenize`. [#167](https://github.com/Project-OSRM/osrm-text-instructions/pull/167)
 
 ## 0.7.1 2017-09-26
 
@@ -76,13 +80,13 @@ All notable changes to this project will be documented in this file. For change 
 - `language` is now the first argument of `tokenize` instead of the last. [#149](https://github.com/Project-OSRM/osrm-text-instructions/pull/149)
 - Added roundabout exit and rotary exit instructions. [#150](https://github.com/Project-OSRM/osrm-text-instructions/pull/150)
 - Updates `continue` maneuvers in en to read as turns when the road you are staying on turns at the intersection. [#145](https://github.com/Project-OSRM/osrm-text-instructions/pull/145)
-- Updates language files from Transifex. [#144](https://github.com/Project-OSRM/osrm-text-instructions/pull/144) [#154](https://github.com/Project-OSRM/osrm-text-instructions/pull/154)
+- Updates language files from Transifex. [#144](https://github.com/Project-OSRM/osrm-text-instructions/pull/144). [#154](https://github.com/Project-OSRM/osrm-text-instructions/pull/154)
 
 ## 0.6.0 2017-09-06
 
 - Adds `phrase` types to the English localiztion. [#141](https://github.com/Project-OSRM/osrm-text-instructions/pull/141)
 - Adds `distance`, `name` and `namedistance` options to the continue and continue straight instructions. [#141](https://github.com/Project-OSRM/osrm-text-instructions/pull/141)
-- Adds `tokenize` to the top level api so that external users can fill in osrm-text-instructions template strings. [#141](https://github.com/Project-OSRM/osrm-text-instructions/pull/141)
+- Adds `tokenize` to the top level API so that external users can fill in osrm-text-instructions template strings. [#141](https://github.com/Project-OSRM/osrm-text-instructions/pull/141)
 - Made the format of name-and-ref combinations localizable. [#148](https://github.com/Project-OSRM/osrm-text-instructions/pull/141)
 - Improves the wording of "continue" instructions. [#142](https://github.com/Project-OSRM/osrm-text-instructions/pull/142)
 
@@ -91,7 +95,7 @@ All notable changes to this project will be documented in this file. For change 
 - Adds Brazilian Portuguese, Italian, and Ukrainian localizations. [#137](https://github.com/Project-OSRM/osrm-text-instructions/pull/137)
 - Adds the word “right” to right-hand exit instructions. [#125](https://github.com/Project-OSRM/osrm-text-instructions/pull/125)
 - Improves the wording of “continue straight” instructions. [#130](https://github.com/Project-OSRM/osrm-text-instructions/pull/130)
-- Improves the wording of various instructions in Russian and Swedish. [#138](https://github.com/Project-OSRM/osrm-text-instructions/pull/138) [#137](https://github.com/Project-OSRM/osrm-text-instructions/pull/137)
+- Improves the wording of various instructions in Russian and Swedish. [#138](https://github.com/Project-OSRM/osrm-text-instructions/pull/138). [#137](https://github.com/Project-OSRM/osrm-text-instructions/pull/137)
 - The Spanish localization consistently uses _usted_ form. [#137](https://github.com/Project-OSRM/osrm-text-instructions/pull/137)
 
 ## 0.5.2 2017-07-25
