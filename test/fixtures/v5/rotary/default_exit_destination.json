@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Tag rundkørslen og kør mod Destination 1",
         "de": "Im Kreisverkehr die Ausfahrt Richtung Destination 1 nehmen",
         "en": "Enter the traffic circle and exit towards Destination 1",
         "eo": "Enveturu trafikcirklegon kaj elveturu direkte al Destination 1",

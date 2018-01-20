@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "da": "Fortsæt til venstre mod Destination 1",
         "de": "Leicht links weiter Richtung Destination 1",
         "en": "Continue slightly left towards Destination 1",
         "eo": "Pluu ete maldekstren direkte al Destination 1",

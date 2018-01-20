@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "da": "Foretag et U-vending mod Destination 1",
         "de": "180°-Wendung abbiegen Richtung Destination 1",
         "en": "Make a U-turn towards Destination 1",
         "eo": "Veturu turniĝu malantaŭen direkte al Destination 1",

@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Drej til skarpt venstresving ad Way Name",
         "de": "Scharf links abbiegen auf Way Name",
         "en": "Turn sharp left onto Way Name",
         "eo": "Veturu maldekstregen direkte al Way Name",

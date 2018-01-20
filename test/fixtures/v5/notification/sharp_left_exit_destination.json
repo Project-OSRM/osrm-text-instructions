@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Fortsæt skarpt venstresving mod Destination 1",
         "de": "Scharf links weiterfahren Richtung Destination 1",
         "en": "Continue sharp left towards Destination 1",
         "eo": "Pluu maldekstregen direkte al Destination 1",

@@ -8,6 +8,7 @@
         "ref": "Ref1;Ref2"
     },
     "instructions": {
+        "da": "Drej skarpt til højre videre ad Ref1",
         "de": "Scharf rechts weiterfahren auf Ref1",
         "en": "Make a sharp right to stay on Ref1",
         "eo": "Turniĝu ege dekstren al Ref1",

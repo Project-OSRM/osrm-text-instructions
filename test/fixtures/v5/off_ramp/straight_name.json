@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "da": "Tag afkørslen ad Way Name",
         "de": "Ausfahrt nehmen auf Way Name",
         "en": "Take the ramp onto Way Name",
         "eo": "Direktiĝu al enveturejo al Way Name",

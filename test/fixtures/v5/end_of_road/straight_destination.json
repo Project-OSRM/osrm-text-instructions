@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "da": "Fortsæt ligeud mod Destination 1",
         "de": "Geradeaus weiterfahren Richtung Destination 1",
         "en": "Continue straight towards Destination 1",
         "eo": "Veturu rekten direkte al Destination 1",

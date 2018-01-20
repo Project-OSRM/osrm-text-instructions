@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Forlad rundkørslen ad Way Name",
         "de": "Rechts abbiegen auf Way Name",
         "en": "Exit the traffic circle onto Way Name",
         "eo": "Elveturu trafikcirklegon al Way Name",

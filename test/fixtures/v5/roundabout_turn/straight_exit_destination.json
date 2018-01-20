@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Fortsæt ligeud mod Destination 1",
         "de": "Am Kreisverkehr geradeaus weiterfahren Richtung Destination 1",
         "en": "Continue straight towards Destination 1",
         "eo": "Ĉe la trafikcirklo veturu rekten direkte al Destination 1",

@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Fortsæt ligeud ad Way Name",
         "de": "Am Kreisverkehr geradeaus weiterfahren auf Way Name",
         "en": "Continue straight onto Way Name",
         "eo": "Ĉe la trafikcirklo veturu rekten al Way Name",

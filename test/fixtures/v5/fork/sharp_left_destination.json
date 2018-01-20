@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "da": "Drej skarpt til venstre mod Destination 1",
         "de": "Scharf links abbiegen an der Gabelung Richtung Destination 1",
         "en": "Take a sharp left towards Destination 1",
         "eo": "Ege maldekstren ĉe la vojforko direkte al Destination 1",

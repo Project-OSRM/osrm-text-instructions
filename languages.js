@@ -1,5 +1,6 @@
 // Load all language files explicitly to allow integration
 // with bundling tools like webpack and browserify
+var instructionsDa = require('./languages/translations/da.json');
 var instructionsDe = require('./languages/translations/de.json');
 var instructionsEn = require('./languages/translations/en.json');
 var instructionsEo = require('./languages/translations/eo.json');
@@ -24,6 +25,7 @@ var grammarRu = require('./languages/grammar/ru.json');
 
 // Create a list of supported codes
 var instructions = {
+    'da': instructionsDa,
     'de': instructionsDe,
     'en': instructionsEn,
     'eo': instructionsEo,

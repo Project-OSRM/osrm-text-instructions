@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Flet til højre ad Way Name",
         "de": "Leicht rechts auffahren auf Way Name",
         "en": "Merge right onto Way Name",
         "eo": "Enveturu de dekstre al Way Name",

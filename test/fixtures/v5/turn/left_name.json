@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "da": "Drej til venstre ad Way Name",
         "de": "Links abbiegen auf Way Name",
         "en": "Turn left onto Way Name",
         "eo": "Turniĝu maldekstren al Way Name",

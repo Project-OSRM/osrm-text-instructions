@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Kør ligeud mod Destination 1",
         "de": "Geradeaus weiterfahren Richtung Destination 1",
         "en": "Go straight towards Destination 1",
         "eo": "Veturu rekten direkte al Destination 1",

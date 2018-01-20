@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Drej skarpt til venstre ad Way Name",
         "de": "Scharf links abbiegen an der Gabelung auf Way Name",
         "en": "Take a sharp left onto Way Name",
         "eo": "Ege maldekstren ĉe la vojforko al Way Name",

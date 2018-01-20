@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Foretag et svagt venstresving ad Way Name",
         "de": "Leicht links abbiegen auf Way Name",
         "en": "Make a slight left onto Way Name",
         "eo": "Veturu maldekstreten al Way Name",

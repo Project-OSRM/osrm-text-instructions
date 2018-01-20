@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Foretag et svagt venstresving ad Way Name",
         "de": "Am Kreisverkehr leicht links auf Way Name",
         "en": "Make a slight left onto Way Name",
         "eo": "Ĉe la trafikcirklo veturu maldekstreten al Way Name",

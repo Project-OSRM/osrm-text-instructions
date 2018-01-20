@@ -7,6 +7,7 @@
         "name": "Street Name"
     },
     "instructions": {
+        "da": "Du er ankommet til din destination, der befinder sig lige frem",
         "de": "Sie haben Ihr Ziel erreicht, es befindet sich geradeaus",
         "en": "You have arrived at your destination, straight ahead",
         "eo": "Vi atingis vian celon",

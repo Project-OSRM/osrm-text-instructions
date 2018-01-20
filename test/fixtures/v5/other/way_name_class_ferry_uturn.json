@@ -8,6 +8,7 @@
         "ref": "Ref1;Ref2"
     },
     "instructions": {
+        "da": "Foretag en U-vending tilbage ad Cool highway (Ref1)",
         "de": "180°-Wendung auf Cool highway (Ref1)",
         "en": "Make a U-turn and continue on Cool highway (Ref1)",
         "eo": "Turniĝu malantaŭen al Cool highway (Ref1)",

@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "da": "Foretag et skarpt højresving mod Destination 1",
         "de": "Am Kreisverkehr scharf rechts Richtung Destination 1",
         "en": "Make a sharp right towards Destination 1",
         "eo": "Ĉe la trafikcirklo veturu dekstregen direkte al Destination 1",

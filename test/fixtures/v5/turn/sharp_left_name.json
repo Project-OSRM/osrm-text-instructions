@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "da": "Foretag et skarpt venstresving ad Way Name",
         "de": "Scharf links abbiegen auf Way Name",
         "en": "Make a sharp left onto Way Name",
         "eo": "Veturu maldekstregen al Way Name",

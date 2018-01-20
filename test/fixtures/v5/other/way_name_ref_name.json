@@ -8,6 +8,7 @@
         "ref": "Ref1;Ref2"
     },
     "instructions": {
+        "da": "Drej til venstre ad Way Name (Ref1)",
         "de": "Links abbiegen auf Way Name (Ref1)",
         "en": "Turn left onto Way Name (Ref1)",
         "eo": "Turniĝu maldekstren al Way Name (Ref1)",

@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "da": "Tag afkørslen til højre mod Destination 1",
         "de": "Auffahrt rechts nehmen Richtung Destination 1",
         "en": "Take the ramp on the right towards Destination 1",
         "eo": "Direktiĝu al enveturejo ĉe dekstre al Destination 1",

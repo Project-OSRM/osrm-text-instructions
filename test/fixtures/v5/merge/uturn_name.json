@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "da": "Foretag en U-vending ad Way Name",
         "de": "180°-Wendung auf Way Name",
         "en": "Make a U-turn onto Way Name",
         "eo": "Turniĝu malantaŭen al Way Name",

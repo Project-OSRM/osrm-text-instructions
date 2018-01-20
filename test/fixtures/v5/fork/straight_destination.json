@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "da": "Hold mod ligeud mod Destination 1",
         "de": "Geradeaus halten an der Gabelung Richtung Destination 1",
         "en": "Keep straight towards Destination 1",
         "eo": "Pluu rekten ĉe la vojforko direkte al Destination 1",

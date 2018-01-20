@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "da": "Tag færgen Way Name",
         "de": "Fähre nehmen Way Name",
         "en": "Take the ferry Way Name",
         "eo": "Enpramiĝu Way Name",

@@ -3,6 +3,7 @@ All notable changes to this project will be documented in this file. For change 
 
 ## master
 
+- Added a Danish localization. [#208](https://github.com/Project-OSRM/osrm-text-instructions/pull/207)
 - Extended ordinals support for Russian street names in grammar rules. [#192](https://github.com/Project-OSRM/osrm-text-instructions/pull/192)
 
 ## 0.11.3 2017-01-12

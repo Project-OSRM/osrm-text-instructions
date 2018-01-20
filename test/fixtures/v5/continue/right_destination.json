@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "da": "Drej til højresving mod Destination 1",
         "de": "Rechts abbiegen Richtung Destination 1",
         "en": "Turn right towards Destination 1",
         "eo": "Veturu dekstren direkte al Destination 1",

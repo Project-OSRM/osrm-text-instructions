@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "da": "Forlad rundkørslen mod Destination 1",
         "de": "180°-Wendung abbiegen Richtung Destination 1",
         "en": "Exit the traffic circle towards Destination 1",
         "eo": "Elveturu trafikcirklegon direkte al Destination 1",
