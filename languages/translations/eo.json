@@ -60,50 +60,50 @@
             "default": {
                 "default": "Vi atingis vian {nth} celon",
                 "upcoming": "Vi atingos vian {nth} celon",
-                "short": "Vi atingos vian {nth} celon",
-                "short-upcoming": "Vi atingos vian {nth} celon"
+                "short": "Vi atingis",
+                "short-upcoming": "Vi atingos"
             },
             "left": {
                 "default": "Vi atingis vian {nth} celon ĉe maldekstre",
                 "upcoming": "Vi atingos vian {nth} celon ĉe maldekstre",
-                "short": "Vi atingos vian {nth} celon",
-                "short-upcoming": "Vi atingos vian {nth} celon"
+                "short": "Vi atingis",
+                "short-upcoming": "Vi atingos"
             },
             "right": {
                 "default": "Vi atingis vian {nth} celon ĉe dekstre",
                 "upcoming": "Vi atingos vian {nth} celon ĉe dekstre",
-                "short": "Vi atingos vian {nth} celon",
-                "short-upcoming": "Vi atingos vian {nth} celon"
+                "short": "Vi atingis",
+                "short-upcoming": "Vi atingos"
             },
             "sharp left": {
                 "default": "Vi atingis vian {nth} celon ĉe maldekstre",
                 "upcoming": "Vi atingos vian {nth} celon ĉe maldekstre",
-                "short": "Vi atingos vian {nth} celon",
-                "short-upcoming": "Vi atingos vian {nth} celon"
+                "short": "Vi atingis",
+                "short-upcoming": "Vi atingos"
             },
             "sharp right": {
                 "default": "Vi atingis vian {nth} celon ĉe dekstre",
                 "upcoming": "Vi atingos vian {nth} celon ĉe dekstre",
-                "short": "Vi atingos vian {nth} celon",
-                "short-upcoming": "Vi atingos vian {nth} celon"
+                "short": "Vi atingis",
+                "short-upcoming": "Vi atingos"
             },
             "slight right": {
                 "default": "Vi atingis vian {nth} celon ĉe dekstre",
                 "upcoming": "Vi atingos vian {nth} celon ĉe dekstre",
-                "short": "Vi atingos vian {nth} celon",
-                "short-upcoming": "Vi atingos vian {nth} celon"
+                "short": "Vi atingis",
+                "short-upcoming": "Vi atingos"
             },
             "slight left": {
                 "default": "Vi atingis vian {nth} celon ĉe maldekstre",
                 "upcoming": "Vi atingos vian {nth} celon ĉe maldekstre",
-                "short": "Vi atingos vian {nth} celon",
-                "short-upcoming": "Vi atingos vian {nth} celon"
+                "short": "Vi atingis",
+                "short-upcoming": "Vi atingos"
             },
             "straight": {
                 "default": "Vi atingis vian {nth} celon",
                 "upcoming": "Vi atingos vian {nth} celon rekte",
-                "short": "Vi atingos vian {nth} celon",
-                "short-upcoming": "Vi atingos vian {nth} celon"
+                "short": "Vi atingis",
+                "short-upcoming": "Vi atingos"
             }
         },
         "continue": {
@@ -173,28 +173,28 @@
         "fork": {
             "default": {
                 "default": "Daŭru {modifier} ĉe la vojforko",
-                "name": "Pluu {modifier} ĉe la vojforko al {way_name}",
-                "destination": "Pluu {modifier} ĉe la vojforko direkte al {destination}"
+                "name": "Pluu {modifier} al {way_name}",
+                "destination": "Pluu {modifier} direkte al {destination}"
             },
             "slight left": {
                 "default": "Maldekstren ĉe la vojforko",
-                "name": "Maldekstren ĉe la vojforko al {way_name}",
-                "destination": "Maldekstren ĉe la vojforko direkte al {destination}"
+                "name": "Pluu maldekstren al {way_name}",
+                "destination": "Pluu maldekstren direkte al {destination}"
             },
             "slight right": {
                 "default": "Dekstren ĉe la vojforko",
-                "name": "Dekstren ĉe la vojforko al {way_name}",
-                "destination": "Dekstren ĉe la vojforko direkte al {destination}"
+                "name": "Pluu dekstren al {way_name}",
+                "destination": "Pluu dekstren direkte al {destination}"
             },
             "sharp left": {
                 "default": "Ege maldekstren ĉe la vojforko",
-                "name": "Ege maldekstren ĉe la vojforko al {way_name}",
-                "destination": "Ege maldekstren ĉe la vojforko direkte al {destination}"
+                "name": "Turniĝu ege maldekstren al {way_name}",
+                "destination": "Turniĝu ege maldekstren direkte al {destination}"
             },
             "sharp right": {
                 "default": "Ege dekstren ĉe la vojforko",
-                "name": "Ege dekstren ĉe la vojforko al {way_name}",
-                "destination": "Ege dekstren ĉe la vojforko direkte al {destination}"
+                "name": "Turniĝu ege dekstren al {way_name}",
+                "destination": "Turniĝu ege dekstren direkte al {destination}"
             },
             "uturn": {
                 "default": "Turniĝu malantaŭen",
@@ -416,24 +416,24 @@
         },
         "roundabout turn": {
             "default": {
-                "default": "Ĉe la trafikcirklo veturu {modifier}",
-                "name": "Ĉe la trafikcirklo veturu {modifier} al {way_name}",
-                "destination": "Ĉe la trafikcirklo veturu {modifier} direkte al {destination}"
+                "default": "Veturu {modifier}",
+                "name": "Veturu {modifier} al {way_name}",
+                "destination": "Veturu {modifier} direkte al {destination}"
             },
             "left": {
-                "default": "Ĉe la trafikcirklo turniĝu maldekstren",
-                "name": "Ĉe la trafikcirklo turniĝu maldekstren al {way_name}",
-                "destination": "Ĉe la trafikcirklo turniĝu maldekstren direkte al {destination}"
+                "default": "Turniĝu maldekstren",
+                "name": "Turniĝu maldekstren al {way_name}",
+                "destination": "Turniĝu maldekstren direkte al {destination}"
             },
             "right": {
-                "default": "Ĉe la trafikcirklo turniĝu dekstren",
-                "name": "Ĉe la trafikcirklo turniĝu dekstren al {way_name}",
-                "destination": "Ĉe la trafikcirklo turniĝu dekstren direkte al {destination}"
+                "default": "Turniĝu dekstren",
+                "name": "Turniĝu dekstren al {way_name}",
+                "destination": "Turniĝu dekstren direkte al {destination}"
             },
             "straight": {
-                "default": "Ĉe la trafikcirklo veturu rekten",
-                "name": "Ĉe la trafikcirklo veturu rekten al {way_name}",
-                "destination": "Ĉe la trafikcirklo veturu rekten direkte al {destination}"
+                "default": "Pluu rekten",
+                "name": "Veturu rekten al {way_name}",
+                "destination": "Veturu rekten direkte al {destination}"
             }
         },
         "exit roundabout": {
