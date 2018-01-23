@@ -12,7 +12,7 @@
         "da": "Drej skarpt til højre mod Destination 1",
         "de": "Scharf rechts abbiegen an der Gabelung Richtung Destination 1",
         "en": "Take a sharp right towards Destination 1",
-        "eo": "Ege dekstren ĉe la vojforko direkte al Destination 1",
+        "eo": "Turniĝu ege dekstren direkte al Destination 1",
         "es": "Gire a la derecha en el cruce hacia Destination 1",
         "es-ES": "Gira a la derecha en el cruce hacia Destination 1",
         "fr": "Prendre franchement à droite à l’embranchement en direction de Destination 1",
@@ -22,11 +22,11 @@
         "pl": "Na rozwidleniu skręć ostro w prawo w kierunku Destination 1",
         "pt-BR": "Faça uma curva fechada à direita na bifurcação sentido Destination 1",
         "ro": "Virați brusc dreapta la bifurcație spre Destination 1",
-        "ru": "На развилке резко поверните направо и продолжите движение в направлении Destination 1",
+        "ru": "Резко поверните направо и продолжите движение в направлении Destination 1",
         "sv": "Sväng höger mot Destination 1",
         "tr": "Destination 1 istikametindeki yol ayrımında sola keskin dönüş yap",
         "uk": "На роздоріжжі різко поверніть праворуч в напрямку Destination 1",
-        "vi": "Quẹo gắt bên phải ở ngã ba về hướng Destination 1",
+        "vi": "Quẹo gắt bên phải về hướng Destination 1",
         "zh-Hans": "在岔道保持向右，前往Destination 1"
     }
 }

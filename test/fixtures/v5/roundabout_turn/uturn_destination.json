@@ -12,7 +12,7 @@
         "da": "Foretag et U-vending mod Destination 1",
         "de": "Am Kreisverkehr 180°-Wendung Richtung Destination 1",
         "en": "Make a U-turn towards Destination 1",
-        "eo": "Ĉe la trafikcirklo veturu turniĝu malantaŭen direkte al Destination 1",
+        "eo": "Veturu turniĝu malantaŭen direkte al Destination 1",
         "es": "En la rotonda siga cambio de sentido hacia Destination 1",
         "es-ES": "En la rotonda siga cambio de sentido hacia Destination 1",
         "fr": "Au rond-point, tourner demi-tour en direction de Destination 1",
@@ -22,11 +22,11 @@
         "pl": "Na rondzie weź zawróć w kierunku Destination 1",
         "pt-BR": "Na rotatória, vire retorno em direção à Destination 1",
         "ro": "La sensul giratoriu virați întoarcere spre Destination 1",
-        "ru": "На круговой развязке двигайтесь на разворот в направлении Destination 1",
+        "ru": "Двигайтесь на разворот в направлении Destination 1",
         "sv": "I rondellen, sväng U-sväng mot Destination 1",
         "tr": "Destination 1 üzerindeki göbekli kavşakta U dönüşü yöne dön",
         "uk": "На кільці розворот в напрямку Destination 1",
-        "vi": "Đi bên ngược tại bùng binh về hướng Destination 1",
+        "vi": "Quẹo ngược về hướng Destination 1",
         "zh-Hans": "在环岛调头行驶，前往Destination 1"
     }
 }

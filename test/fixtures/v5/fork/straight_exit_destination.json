@@ -13,7 +13,7 @@
         "da": "Hold mod ligeud mod Destination 1",
         "de": "Geradeaus halten an der Gabelung Richtung Destination 1",
         "en": "Keep straight towards Destination 1",
-        "eo": "Pluu rekten ĉe la vojforko direkte al Destination 1",
+        "eo": "Pluu rekten direkte al Destination 1",
         "es": "Mantengase recto en el cruce hacia Destination 1",
         "es-ES": "Mantente recto en el cruce hacia Destination 1",
         "fr": "Rester tout droit à l’embranchement en direction de Destination 1",
@@ -27,7 +27,7 @@
         "sv": "Håll till rakt fram mot Destination 1",
         "tr": "Destination 1 istikametindeki yol ayrımında düz yönde kal",
         "uk": "На роздоріжжі тримайтеся прямо у напрямку Destination 1",
-        "vi": "Giữ bên thẳng ở ngã ba về hướng Destination 1",
+        "vi": "Giữ bên thẳng về hướng Destination 1",
         "zh-Hans": "在岔道保持直行，前往Destination 1"
     }
 }

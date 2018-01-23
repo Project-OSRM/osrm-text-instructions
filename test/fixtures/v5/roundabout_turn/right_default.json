@@ -11,7 +11,7 @@
         "da": "Drej til højre",
         "de": "Am Kreisverkehr rechts abbiegen",
         "en": "Turn right",
-        "eo": "Ĉe la trafikcirklo turniĝu dekstren",
+        "eo": "Turniĝu dekstren",
         "es": "En la rotonda gira a la derecha",
         "es-ES": "En la rotonda gira a la derecha",
         "fr": "Au rond-point, tourner à droite",
@@ -21,11 +21,11 @@
         "pl": "Na rondzie skręć w prawo",
         "pt-BR": "Na rotatória vire à direita",
         "ro": "La sensul giratoriu virați dreapta",
-        "ru": "На круговой развязке сверните направо",
+        "ru": "Сверните направо",
         "sv": "I rondellen, sväng höger",
         "tr": "Göbekli kavşakta sağa dön",
         "uk": "На кільці поверніть праворуч",
-        "vi": "Quẹo phải tại bùng binh",
+        "vi": "Quẹo phải",
         "zh-Hans": "在环岛右转"
     }
 }

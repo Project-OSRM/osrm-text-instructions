@@ -11,7 +11,7 @@
         "da": "Foretag et U-vending",
         "de": "Am Kreisverkehr 180°-Wendung",
         "en": "Make a U-turn",
-        "eo": "Ĉe la trafikcirklo veturu turniĝu malantaŭen",
+        "eo": "Veturu turniĝu malantaŭen",
         "es": "En la rotonda siga cambio de sentido",
         "es-ES": "En la rotonda siga cambio de sentido",
         "fr": "Au rond-point, tourner demi-tour",
@@ -21,11 +21,11 @@
         "pl": "Na rondzie weź zawróć",
         "pt-BR": "Na rotatória, vire retorno",
         "ro": "La sensul giratoriu virați întoarcere",
-        "ru": "На круговой развязке двигайтесь на разворот",
+        "ru": "Двигайтесь на разворот",
         "sv": "I rondellen, sväng U-sväng",
         "tr": "Göbekli kavşakta U dönüşü yöne dön",
         "uk": "На кільці розворот",
-        "vi": "Đi bên ngược tại bùng binh",
+        "vi": "Quẹo ngược",
         "zh-Hans": "在环岛调头行驶"
     }
 }

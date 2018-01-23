@@ -11,7 +11,7 @@
         "da": "Foretag et U-vending ad Way Name",
         "de": "Am Kreisverkehr 180°-Wendung auf Way Name",
         "en": "Make a U-turn onto Way Name",
-        "eo": "Ĉe la trafikcirklo veturu turniĝu malantaŭen al Way Name",
+        "eo": "Veturu turniĝu malantaŭen al Way Name",
         "es": "En la rotonda siga cambio de sentido en Way Name",
         "es-ES": "En la rotonda siga cambio de sentido por Way Name",
         "fr": "Au rond-point, tourner demi-tour sur Way Name",
@@ -21,11 +21,11 @@
         "pl": "Na rondzie weź zawróć na Way Name",
         "pt-BR": "Na rotatória, vire retorno na Way Name",
         "ro": "La sensul giratoriu virați întoarcere pe Way Name",
-        "ru": "На круговой развязке двигайтесь на разворот на Way Name",
+        "ru": "Двигайтесь на разворот на Way Name",
         "sv": "I rondellen, sväng U-sväng in på Way Name",
         "tr": "Way Name üzerindeki göbekli kavşakta U dönüşü yöne dön",
         "uk": "На кільці розворот на Way Name",
-        "vi": "Đi bên ngược tại bùng binh để vào Way Name",
+        "vi": "Quẹo ngược vào Way Name",
         "zh-Hans": "在环岛调头行驶，上Way Name"
     }
 }

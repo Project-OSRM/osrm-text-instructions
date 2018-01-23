@@ -11,7 +11,7 @@
         "da": "Foretag et svagt venstresving",
         "de": "Am Kreisverkehr leicht links",
         "en": "Make a slight left",
-        "eo": "Ĉe la trafikcirklo veturu maldekstreten",
+        "eo": "Veturu maldekstreten",
         "es": "En la rotonda siga ligeramente a la izquierda",
         "es-ES": "En la rotonda siga ligeramente a la izquierda",
         "fr": "Au rond-point, tourner légèrement à gauche",
@@ -21,11 +21,11 @@
         "pl": "Na rondzie weź łagodnie w lewo",
         "pt-BR": "Na rotatória, vire suave à esquerda",
         "ro": "La sensul giratoriu virați ușor stânga",
-        "ru": "На круговой развязке двигайтесь левее",
+        "ru": "Двигайтесь левее",
         "sv": "I rondellen, sväng vänster",
         "tr": "Göbekli kavşakta hafif sol yöne dön",
         "uk": "На кільці плавно ліворуч",
-        "vi": "Đi bên trái nghiêng tại bùng binh",
+        "vi": "Quẹo trái nghiêng",
         "zh-Hans": "在环岛向左行驶"
     }
 }

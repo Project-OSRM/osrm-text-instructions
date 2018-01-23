@@ -12,7 +12,7 @@
         "da": "Foretag et svagt venstresving mod Destination 1",
         "de": "Am Kreisverkehr leicht links Richtung Destination 1",
         "en": "Make a slight left towards Destination 1",
-        "eo": "Ĉe la trafikcirklo veturu maldekstreten direkte al Destination 1",
+        "eo": "Veturu maldekstreten direkte al Destination 1",
         "es": "En la rotonda siga ligeramente a la izquierda hacia Destination 1",
         "es-ES": "En la rotonda siga ligeramente a la izquierda hacia Destination 1",
         "fr": "Au rond-point, tourner légèrement à gauche en direction de Destination 1",
@@ -22,11 +22,11 @@
         "pl": "Na rondzie weź łagodnie w lewo w kierunku Destination 1",
         "pt-BR": "Na rotatória, vire suave à esquerda em direção à Destination 1",
         "ro": "La sensul giratoriu virați ușor stânga spre Destination 1",
-        "ru": "На круговой развязке двигайтесь левее в направлении Destination 1",
+        "ru": "Двигайтесь левее в направлении Destination 1",
         "sv": "I rondellen, sväng vänster mot Destination 1",
         "tr": "Destination 1 üzerindeki göbekli kavşakta hafif sol yöne dön",
         "uk": "На кільці плавно ліворуч в напрямку Destination 1",
-        "vi": "Đi bên trái nghiêng tại bùng binh về hướng Destination 1",
+        "vi": "Quẹo trái nghiêng về hướng Destination 1",
         "zh-Hans": "在环岛向左行驶，前往Destination 1"
     }
 }

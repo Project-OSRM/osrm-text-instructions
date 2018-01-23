@@ -13,7 +13,7 @@
         "da": "Drej til venstre mod Destination 1",
         "de": "Am Kreisverkehr links Richtung Destination 1",
         "en": "Turn left towards Destination 1",
-        "eo": "Ĉe la trafikcirklo turniĝu maldekstren direkte al Destination 1",
+        "eo": "Turniĝu maldekstren direkte al Destination 1",
         "es": "En la rotonda gira a la izquierda hacia Destination 1",
         "es-ES": "En la rotonda gira a la izquierda hacia Destination 1",
         "fr": "Au rond-point, tourner à gauche en direction de Destination 1",
@@ -23,11 +23,11 @@
         "pl": "Na rondzie skręć w lewo w kierunku Destination 1",
         "pt-BR": "Na rotatória vire à esquerda sentido Destination 1",
         "ro": "La sensul giratoriu virați stânga spre Destination 1",
-        "ru": "На круговой развязке сверните налево в направлении Destination 1",
+        "ru": "Сверните налево в направлении Destination 1",
         "sv": "I rondellen, sväng vänster mot Destination 1",
         "tr": "Göbekli kavşakta Destination 1 istikametinde sola dön",
         "uk": "На кільці поверніть ліворуч в напрямку Destination 1",
-        "vi": "Quẹo trái tại bùng binh về hướng Destination 1",
+        "vi": "Quẹo trái về hướng Destination 1",
         "zh-Hans": "在环岛左转，前往Destination 1"
     }
 }

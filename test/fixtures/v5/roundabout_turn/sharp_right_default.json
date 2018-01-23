@@ -11,7 +11,7 @@
         "da": "Foretag et skarpt højresving",
         "de": "Am Kreisverkehr scharf rechts",
         "en": "Make a sharp right",
-        "eo": "Ĉe la trafikcirklo veturu dekstregen",
+        "eo": "Veturu dekstregen",
         "es": "En la rotonda siga cerrada a la derecha",
         "es-ES": "En la rotonda siga cerrada a la derecha",
         "fr": "Au rond-point, tourner franchement à droite",
@@ -21,11 +21,11 @@
         "pl": "Na rondzie weź ostro w prawo",
         "pt-BR": "Na rotatória, vire fechada à direita",
         "ro": "La sensul giratoriu virați brusc dreapta",
-        "ru": "На круговой развязке двигайтесь направо",
+        "ru": "Двигайтесь направо",
         "sv": "I rondellen, sväng höger",
         "tr": "Göbekli kavşakta keskin sağ yöne dön",
         "uk": "На кільці різко праворуч",
-        "vi": "Đi bên phải gắt tại bùng binh",
+        "vi": "Quẹo phải gắt",
         "zh-Hans": "在环岛向右行驶"
     }
 }

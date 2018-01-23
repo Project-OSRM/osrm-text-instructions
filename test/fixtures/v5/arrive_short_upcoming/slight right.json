@@ -3,7 +3,7 @@
         "da": "Du vil ankomme",
         "de": "Sie haben Ihr {nth} Ziel erreicht",
         "en": "You will arrive",
-        "eo": "Vi atingos vian {nth} celon",
+        "eo": "Vi atingos",
         "es": "Vas a llegar a tu {nth} destino",
         "es-ES": "Vas a llegar a tu {nth} destino",
         "fr": "Vous arriverez",
@@ -13,11 +13,11 @@
         "pl": "Dojechano do miejsca docelowego {nth}",
         "pt-BR": "Você chegou ao seu {nth} destino",
         "ro": "Ați ajuns la {nth} destinație",
-        "ru": "Вы прибудете в {nth} пункт назначения",
+        "ru": "Вы скоро прибудете",
         "sv": "Du är snart framme vid din {nth} destination",
         "tr": "{nth} hedefinize ulaştınız",
         "uk": "Ви прибули у ваш {nth} пункт призначення",
-        "vi": "Đến nơi {nth}",
+        "vi": "Đến nơi",
         "zh-Hans": "您已经到达您的{nth}个目的地"
     }
 }

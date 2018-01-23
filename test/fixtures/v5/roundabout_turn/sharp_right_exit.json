@@ -12,7 +12,7 @@
         "da": "Foretag et skarpt højresving ad Way Name",
         "de": "Am Kreisverkehr scharf rechts auf Way Name",
         "en": "Make a sharp right onto Way Name",
-        "eo": "Ĉe la trafikcirklo veturu dekstregen al Way Name",
+        "eo": "Veturu dekstregen al Way Name",
         "es": "En la rotonda siga cerrada a la derecha en Way Name",
         "es-ES": "En la rotonda siga cerrada a la derecha por Way Name",
         "fr": "Au rond-point, tourner franchement à droite sur Way Name",
@@ -22,11 +22,11 @@
         "pl": "Na rondzie weź ostro w prawo na Way Name",
         "pt-BR": "Na rotatória, vire fechada à direita na Way Name",
         "ro": "La sensul giratoriu virați brusc dreapta pe Way Name",
-        "ru": "На круговой развязке двигайтесь направо на Way Name",
+        "ru": "Двигайтесь направо на Way Name",
         "sv": "I rondellen, sväng höger in på Way Name",
         "tr": "Way Name üzerindeki göbekli kavşakta keskin sağ yöne dön",
         "uk": "На кільці різко праворуч на Way Name",
-        "vi": "Đi bên phải gắt tại bùng binh để vào Way Name",
+        "vi": "Quẹo phải gắt vào Way Name",
         "zh-Hans": "在环岛向右行驶，上Way Name"
     }
 }
