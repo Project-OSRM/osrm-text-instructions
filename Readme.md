@@ -27,12 +27,11 @@ Grammatical cases and other translated strings customization after [Transifex](h
 var version = 'v5';
 var osrmTextInstructions = require('osrm-text-instructions')(version);
 
-// If you’re unsure if the user’s locale is supported, use `getBestMatchingLanguage` method to find an appropriate language.
-var language = osrmTextInstructions.getBestMatchingLanguage('en-US');
+// If you’re unsure if the user’s locale is supported by OSRMTI, see `https://github.com/mapbox/locale-utils` for deciphering the best locale.
 
 response.legs.forEach(function(leg) {
   leg.steps.forEach(function(step) {
-    instruction = osrmTextInstructions.compile(language, step, options)
+    instruction = osrmTextInstructions.compile('en', step, options)
   });
 });
 ```
