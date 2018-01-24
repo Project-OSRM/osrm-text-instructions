@@ -60,50 +60,50 @@
             "default": {
                 "default": "Du är framme vid din {nth} destination",
                 "upcoming": "Du är snart framme vid din {nth} destination",
-                "short": "Du är framme vid din {nth} destination",
-                "short-upcoming": "Du är snart framme vid din {nth} destination"
+                "short": "Du är framme",
+                "short-upcoming": "Du är snart framme"
             },
             "left": {
                 "default": "Du är framme vid din {nth} destination, till vänster",
                 "upcoming": "Du är snart framme vid din {nth} destination, till vänster",
-                "short": "Du är framme vid din {nth} destination",
-                "short-upcoming": "Du är snart framme vid din {nth} destination"
+                "short": "Du är framme",
+                "short-upcoming": "Du är snart framme"
             },
             "right": {
                 "default": "Du är framme vid din {nth} destination, till höger",
                 "upcoming": "Du är snart framme vid din {nth} destination, till höger",
-                "short": "Du är framme vid din {nth} destination",
-                "short-upcoming": "Du är snart framme vid din {nth} destination"
+                "short": "Du är framme",
+                "short-upcoming": "Du är snart framme"
             },
             "sharp left": {
                 "default": "Du är framme vid din {nth} destination, till vänster",
                 "upcoming": "Du är snart framme vid din {nth} destination, till vänster",
-                "short": "Du är framme vid din {nth} destination",
-                "short-upcoming": "Du är snart framme vid din {nth} destination"
+                "short": "Du är framme",
+                "short-upcoming": "Du är snart framme"
             },
             "sharp right": {
                 "default": "Du är framme vid din {nth} destination, till höger",
                 "upcoming": "Du är snart framme vid din {nth} destination, till höger",
-                "short": "Du är framme vid din {nth} destination",
-                "short-upcoming": "Du är snart framme vid din {nth} destination"
+                "short": "Du är framme",
+                "short-upcoming": "Du är snart framme"
             },
             "slight right": {
                 "default": "Du är framme vid din {nth} destination, till höger",
                 "upcoming": "Du är snart framme vid din {nth} destination, till höger",
-                "short": "Du är framme vid din {nth} destination",
-                "short-upcoming": "Du är snart framme vid din {nth} destination"
+                "short": "Du är framme",
+                "short-upcoming": "Du är snart framme"
             },
             "slight left": {
                 "default": "Du är framme vid din {nth} destination, till vänster",
                 "upcoming": "Du är snart framme vid din {nth} destination, till vänster",
-                "short": "Du är framme vid din {nth} destination",
-                "short-upcoming": "Du är snart framme vid din {nth} destination"
+                "short": "Du är framme",
+                "short-upcoming": "Du är snart framme"
             },
             "straight": {
                 "default": "Du är framme vid din {nth} destination, rakt fram",
                 "upcoming": "Du är snart framme vid din {nth} destination, rakt fram",
-                "short": "Du är framme vid din {nth} destination",
-                "short-upcoming": "Du är snart framme vid din {nth} destination"
+                "short": "Du är framme",
+                "short-upcoming": "Du är snart framme"
             }
         },
         "continue": {
@@ -209,9 +209,9 @@
                 "destination": "Byt till {modifier} körfält, mot {destination}"
             },
             "straight": {
-                "default": "Byt till rakt fram körfält",
-                "name": "Byt till rakt fram körfält in på {way_name}",
-                "destination": "Byt till rakt fram körfält mot {destination}"
+                "default": "Fortsätt",
+                "name": "Kör in på {way_name}",
+                "destination": "Kör mot {destination}"
             },
             "slight left": {
                 "default": "Byt till vänstra körfältet",
@@ -416,24 +416,24 @@
         },
         "roundabout turn": {
             "default": {
-                "default": "I rondellen, sväng {modifier}",
-                "name": "I rondellen, sväng {modifier} in på {way_name}",
-                "destination": "I rondellen, sväng {modifier} mot {destination}"
+                "default": "Sväng {modifier}",
+                "name": "Sväng {modifier} in på {way_name}",
+                "destination": "Sväng {modifier} mot {destination}"
             },
             "left": {
-                "default": "I rondellen, sväng vänster",
-                "name": "I rondellen, sväng vänster in på {way_name}",
-                "destination": "I rondellen, sväng vänster mot {destination}"
+                "default": "Sväng vänster",
+                "name": "Sväng vänster in på {way_name}",
+                "destination": "Sväng vänster mot {destination}"
             },
             "right": {
-                "default": "I rondellen, sväng höger",
-                "name": "I rondellen, sväng höger in på {way_name}",
-                "destination": "I rondellen, sväng höger mot {destination}"
+                "default": "Sväng höger",
+                "name": "Sväng höger in på {way_name}",
+                "destination": "Sväng höger mot {destination}"
             },
             "straight": {
-                "default": "I rondellen, fortsätt rakt fram",
-                "name": "I rondellen, fortsätt rakt fram in på {way_name}",
-                "destination": "I rondellen, fortsätt rakt fram mot {destination}"
+                "default": "Fortsätt rakt fram",
+                "name": "Fortsätt rakt fram in på {way_name}",
+                "destination": "Fortsätt rakt fram mot {destination}"
             }
         },
         "exit roundabout": {
