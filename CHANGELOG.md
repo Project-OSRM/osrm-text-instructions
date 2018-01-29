@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
-## 0.11.4 2017-01-24
+## 0.11.4 2017-01-29
 
 - Added a Hebrew localization. [#210](https://github.com/Project-OSRM/osrm-text-instructions/pull/210)
 - Added a Danish localization. [#208](https://github.com/Project-OSRM/osrm-text-instructions/pull/207)
