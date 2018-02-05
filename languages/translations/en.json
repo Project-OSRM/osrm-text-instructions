@@ -41,6 +41,9 @@
                 "ox": "Keep left",
                 "xox": "Keep in the middle",
                 "oxo": "Keep left or right"
+            },
+            "vocabulary": {
+              "exit": "exit"
             }
         },
         "modes": {
