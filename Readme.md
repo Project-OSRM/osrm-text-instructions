@@ -14,6 +14,8 @@ Grammatical cases and other translated strings customization after [Transifex](h
 
 [![NPM](https://nodei.co/npm/osrm-text-instructions.png)](https://npmjs.org/package/osrm-text-instructions/)
 
+If you’re unsure if the user’s locale is supported by OSRMTI, see [locale-utils](https://github.com/mapbox/locale-utils) for deciphering the best locale. 
+
 ### Design goals
 
 - __Cross platform__ Use a data-driven approach that makes implementations in other programming environments easy to write
