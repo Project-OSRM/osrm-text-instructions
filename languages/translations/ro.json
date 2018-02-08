@@ -41,6 +41,9 @@
                 "ox": "Menține dreapta",
                 "xox": "Menține pe interior",
                 "oxo": "Menține pe laterale"
+            },
+            "vocabulary": {
+              "exit": "exit {exit}"
             }
         },
         "modes": {

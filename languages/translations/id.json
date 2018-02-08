@@ -41,6 +41,9 @@
                 "ox": "Tetap di kiri",
                 "xox": "Tetap di tengah",
                 "oxo": "Tetap di kiri atau kanan"
+            },
+            "vocabulary": {
+              "exit": "exit {exit}"
             }
         },
         "modes": {

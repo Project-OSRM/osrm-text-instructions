@@ -41,6 +41,9 @@
                 "ox": "Håll till vänster",
                 "xox": "Håll till mitten",
                 "oxo": "Håll till vänster eller höger"
+            },
+            "vocabulary": {
+              "exit": "exit {exit}"
             }
         },
         "modes": {

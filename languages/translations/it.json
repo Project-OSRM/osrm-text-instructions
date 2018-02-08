@@ -41,6 +41,9 @@
                 "ox": "Mantieni la sinistra",
                 "xox": "Rimani in mezzo",
                 "oxo": "Mantieni la destra o la sinistra"
+            },
+            "vocabulary": {
+              "exit": "exit {exit}"
             }
         },
         "modes": {

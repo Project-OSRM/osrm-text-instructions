@@ -41,6 +41,9 @@
                 "ox": "Hold til venstre",
                 "xox": "Benyt midterste spor",
                 "oxo": "Hold til højre eller venstre"
+            },
+            "vocabulary": {
+              "exit": "exit {exit}"
             }
         },
         "modes": {

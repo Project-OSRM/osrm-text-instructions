@@ -43,7 +43,7 @@
                 "oxo": "Keep left or right"
             },
             "vocabulary": {
-              "exit": "exit"
+              "exit": "exit {exit}"
             }
         },
         "modes": {

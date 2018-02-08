@@ -41,6 +41,9 @@
                 "ox": "Trzymaj się lewej strony",
                 "xox": "Trzymaj się środka",
                 "oxo": "Trzymaj się lewej lub prawej strony"
+            },
+            "vocabulary": {
+              "exit": "exit {exit}"
             }
         },
         "modes": {

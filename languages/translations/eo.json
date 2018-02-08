@@ -41,6 +41,9 @@
                 "ox": "Veturu maldekstre",
                 "xox": "Veturu meze",
                 "oxo": "Veturu dekstre aŭ maldekstre"
+            },
+            "vocabulary": {
+              "exit": "exit {exit}"
             }
         },
         "modes": {

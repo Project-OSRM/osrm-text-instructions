@@ -41,6 +41,9 @@
                 "ox": "Solda kalın",
                 "xox": "Ortada kalın",
                 "oxo": "Solda veya sağda kalın"
+            },
+            "vocabulary": {
+              "exit": "exit {exit}"
             }
         },
         "modes": {

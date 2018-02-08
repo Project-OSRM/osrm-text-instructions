@@ -41,6 +41,9 @@
                 "ox": "靠左直行",
                 "xox": "保持在道路中间直行",
                 "oxo": "保持在道路两侧直行"
+            },
+            "vocabulary": {
+              "exit": "exit {exit}"
             }
         },
         "modes": {

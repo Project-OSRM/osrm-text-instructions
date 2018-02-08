@@ -41,6 +41,9 @@
                 "ox": "Mantente a la izquierda",
                 "xox": "Mantente en el medio",
                 "oxo": "Mantente a la izquierda o a la derecha"
+            },
+            "vocabulary": {
+              "exit": "exit {exit}"
             }
         },
         "modes": {

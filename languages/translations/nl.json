@@ -41,6 +41,9 @@
                 "ox": "Links aanhouden",
                 "xox": "In het midden blijven",
                 "oxo": "Links of rechts blijven"
+            },
+            "vocabulary": {
+              "exit": "exit {exit}"
             }
         },
         "modes": {

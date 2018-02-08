@@ -41,6 +41,9 @@
                 "ox": "Links halten",
                 "xox": "Mittlere Spur nutzen",
                 "oxo": "Rechts oder links halten"
+            },
+            "vocabulary": {
+              "exit": "exit {exit}"
             }
         },
         "modes": {

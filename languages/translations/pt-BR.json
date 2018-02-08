@@ -41,6 +41,9 @@
                 "ox": "Mantenha-se à esquerda",
                 "xox": "Mantenha-se ao centro",
                 "oxo": "Mantenha-se à esquerda ou direita"
+            },
+            "vocabulary": {
+              "exit": "exit {exit}"
             }
         },
         "modes": {

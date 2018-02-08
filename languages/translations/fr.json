@@ -43,7 +43,7 @@
                 "oxo": "Rester à gauche ou à droite"
             },
             "vocabulary": {
-              "exit": "la sortie"
+              "exit": "la sortie {exit}"
             }
         },
         "modes": {
