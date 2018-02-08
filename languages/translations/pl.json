@@ -41,9 +41,6 @@
                 "ox": "Trzymaj się lewej strony",
                 "xox": "Trzymaj się środka",
                 "oxo": "Trzymaj się lewej lub prawej strony"
-            },
-            "vocabulary": {
-              "exit": "exit {exit}"
             }
         },
         "modes": {
@@ -57,7 +54,8 @@
             "two linked by distance": "{instruction_one}, następnie za {distance} {instruction_two}",
             "two linked": "{instruction_one}, następnie {instruction_two}",
             "one in distance": "Za {distance}, {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name} ({ref})",
+            "exit with number": "exit {exit}"
         },
         "arrive": {
             "default": {

@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## 0.11.5 2017-02-08
+
+- Added "exit with number" to phrases. [#217](https://github.com/Project-OSRM/osrm-text-instructions/pull/217)
+
 ## 0.11.4 2017-01-29
 
 - Added a Hebrew localization. [#210](https://github.com/Project-OSRM/osrm-text-instructions/pull/210)

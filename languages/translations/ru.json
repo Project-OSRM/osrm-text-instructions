@@ -41,9 +41,6 @@
                 "ox": "Держитесь левее",
                 "xox": "Держитесь посередине",
                 "oxo": "Держитесь слева или справа"
-            },
-            "vocabulary": {
-              "exit": "exit {exit}"
             }
         },
         "modes": {
@@ -57,7 +54,8 @@
             "two linked by distance": "{instruction_one}, затем через {distance} {instruction_two}",
             "two linked": "{instruction_one}, затем {instruction_two}",
             "one in distance": "Через {distance} {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name} ({ref})",
+            "exit with number": "exit {exit}"
         },
         "arrive": {
             "default": {

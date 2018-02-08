@@ -41,9 +41,6 @@
                 "ox": "靠左直行",
                 "xox": "保持在道路中间直行",
                 "oxo": "保持在道路两侧直行"
-            },
-            "vocabulary": {
-              "exit": "exit {exit}"
             }
         },
         "modes": {
@@ -57,7 +54,8 @@
             "two linked by distance": "{instruction_one}, then, in {distance}, {instruction_two}",
             "two linked": "{instruction_one}, then {instruction_two}",
             "one in distance": "In {distance}, {instruction_one}",
-            "name and ref": "{name}（{ref}）"
+            "name and ref": "{name}（{ref}）",
+            "exit with number": "exit {exit}"
         },
         "arrive": {
             "default": {

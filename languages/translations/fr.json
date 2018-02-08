@@ -41,9 +41,6 @@
                 "ox": "Serrer à gauche",
                 "xox": "Rester au milieu",
                 "oxo": "Rester à gauche ou à droite"
-            },
-            "vocabulary": {
-              "exit": "la sortie {exit}"
             }
         },
         "modes": {
@@ -57,7 +54,8 @@
             "two linked by distance": "{instruction_one}, puis, dans {distance}, {instruction_two}",
             "two linked": "{instruction_one}, puis {instruction_two}",
             "one in distance": "Dans {distance}, {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name} ({ref})",
+            "exit with number": "la sortie {exit}"
         },
         "arrive": {
             "default": {

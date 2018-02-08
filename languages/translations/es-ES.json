@@ -41,9 +41,6 @@
                 "ox": "Mantente a la izquierda",
                 "xox": "Mantente en el medio",
                 "oxo": "Mantente a la izquierda o a la derecha"
-            },
-            "vocabulary": {
-              "exit": "exit {exit}"
             }
         },
         "modes": {
@@ -57,7 +54,8 @@
             "two linked by distance": "{instruction_one} y luego en {distance}, {instruction_two}",
             "two linked": "{instruction_one} y luego {instruction_two}",
             "one in distance": "A {distance}, {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name} ({ref})",
+            "exit with number": "la salida {exit}"
         },
         "arrive": {
             "default": {

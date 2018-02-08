@@ -41,9 +41,6 @@
                 "ox": "Links halten",
                 "xox": "Mittlere Spur nutzen",
                 "oxo": "Rechts oder links halten"
-            },
-            "vocabulary": {
-              "exit": "exit {exit}"
             }
         },
         "modes": {
@@ -57,7 +54,8 @@
             "two linked by distance": "{instruction_one} danach in {distance} {instruction_two}",
             "two linked": "{instruction_one} danach {instruction_two}",
             "one in distance": "In {distance}, {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name} ({ref})",
+            "exit with number": "exit {exit}"
         },
         "arrive": {
             "default": {

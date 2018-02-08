@@ -41,9 +41,6 @@
                 "ox": "Mantieni la sinistra",
                 "xox": "Rimani in mezzo",
                 "oxo": "Mantieni la destra o la sinistra"
-            },
-            "vocabulary": {
-              "exit": "exit {exit}"
             }
         },
         "modes": {
@@ -57,7 +54,8 @@
             "two linked by distance": "{instruction_one}, poi tra {distance},{instruction_two}",
             "two linked": "{instruction_one}, poi {instruction_two}",
             "one in distance": "tra {distance} {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name} ({ref})",
+            "exit with number": "exit {exit}"
         },
         "arrive": {
             "default": {
