@@ -357,6 +357,9 @@ tape.test('v5 compile', function(t) {
                         options = {
                             'instruction_one': fixture.options.instruction_one,
                             'instruction_two': fixture.options.instruction_two,
+                            'exit': fixture.options.exit,
+                            'name': fixture.options.name,
+                            'ref': fixture.options.ref,
                             distance: fixture.options.distance
                         };
                     }
