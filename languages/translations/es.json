@@ -55,7 +55,7 @@
             "two linked": "{instruction_one} y luego {instruction_two}",
             "one in distance": "A {distance}, {instruction_one}",
             "name and ref": "{name} ({ref})",
-            "exit with number": "la salida {exit}"
+            "exit with number": "salida {exit}"
         },
         "arrive": {
             "default": {
