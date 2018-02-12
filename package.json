@@ -3,7 +3,7 @@
   "description": "OSRM Text Instructions",
   "url": "https://github.com/Project-OSRM/osrm-text-instructions.js",
   "homepage": "http://project-osrm.org",
-  "version": "0.11.4",
+  "version": "0.11.5",
   "main": "./index.js",
   "license": "BSD-2-Clause",
   "bugs": {
