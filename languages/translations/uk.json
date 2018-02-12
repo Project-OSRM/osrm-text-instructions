@@ -54,7 +54,8 @@
             "two linked by distance": "{instruction_one}, потім, через {distance}, {instruction_two}",
             "two linked": "{instruction_one}, потім {instruction_two}",
             "one in distance": "Через {distance}, {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name} ({ref})",
+            "exit with number": "exit {exit}"
         },
         "arrive": {
             "default": {

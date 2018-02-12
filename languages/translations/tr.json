@@ -54,7 +54,8 @@
             "two linked by distance": "{instruction_one} ve {distance} sonra {instruction_two}",
             "two linked": "{instruction_one} ve sonra {instruction_two}",
             "one in distance": "{distance} sonra, {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name} ({ref})",
+            "exit with number": "exit {exit}"
         },
         "arrive": {
             "default": {

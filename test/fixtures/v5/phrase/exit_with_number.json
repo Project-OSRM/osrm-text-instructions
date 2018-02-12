@@ -1,0 +1,27 @@
+{
+    "options": {
+        "exit": "5"
+    },
+    "phrases": {
+        "da": "Exit 5",
+        "de": "Exit 5",
+        "en": "Exit 5",
+        "eo": "Exit 5",
+        "es": "Salida 5",
+        "es-ES": "Salida 5",
+        "fr": "Sortie 5",
+        "he": "Exit 5",
+        "id": "Exit 5",
+        "it": "Exit 5",
+        "nl": "Exit 5",
+        "pl": "Exit 5",
+        "pt-BR": "Exit 5",
+        "ro": "Exit 5",
+        "ru": "Exit 5",
+        "sv": "Exit 5",
+        "tr": "Exit 5",
+        "uk": "Exit 5",
+        "vi": "Exit 5",
+        "zh-Hans": "exit 5"
+    }
+}

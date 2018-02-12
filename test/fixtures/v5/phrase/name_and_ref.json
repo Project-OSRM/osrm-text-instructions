@@ -1,0 +1,28 @@
+{
+    "options": {
+        "name": "Ziggy",
+        "ref": "DOG"
+    },
+    "phrases": {
+        "da": "Ziggy (DOG)",
+        "de": "Ziggy (DOG)",
+        "en": "Ziggy (DOG)",
+        "eo": "Ziggy (DOG)",
+        "es": "Ziggy (DOG)",
+        "es-ES": "Ziggy (DOG)",
+        "fr": "Ziggy (DOG)",
+        "he": "Ziggy (DOG)",
+        "id": "Ziggy (DOG)",
+        "it": "Ziggy (DOG)",
+        "nl": "Ziggy (DOG)",
+        "pl": "Ziggy (DOG)",
+        "pt-BR": "Ziggy (DOG)",
+        "ro": "Ziggy (DOG)",
+        "ru": "Ziggy (DOG)",
+        "sv": "Ziggy (DOG)",
+        "tr": "Ziggy (DOG)",
+        "uk": "Ziggy (DOG)",
+        "vi": "Ziggy (DOG)",
+        "zh-Hans": "Ziggy（DOG）"
+    }
+}
