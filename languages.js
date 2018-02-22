@@ -33,7 +33,6 @@ var abbreviationsEs = require('./languages/abbreviations/es.json');
 var abbreviationsFr = require('./languages/abbreviations/fr.json');
 var abbreviationsLt = require('./languages/abbreviations/lt.json');
 var abbreviationsNl = require('./languages/abbreviations/nl.json');
-var abbreviationsPtBr = require('./languages/abbreviations/pt-BR.json');
 var abbreviationsRu = require('./languages/abbreviations/ru.json');
 var abbreviationsSv = require('./languages/abbreviations/sv.json');
 var abbreviationsVi = require('./languages/abbreviations/vi.json');
@@ -77,7 +76,6 @@ var abbreviations = {
     'fr': abbreviationsFr,
     'lt': abbreviationsLt,
     'nl': abbreviationsNl,
-    'pt-BR': abbreviationsPtBr,
     'ru': abbreviationsRu,
     'sv': abbreviationsSv,
     'vi': abbreviationsVi
