@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## 0.12.0 2018-02-22
+
+- Added abbreviations for multiple languages. [#221](https://github.com/Project-OSRM/osrm-text-instructions/pull/221)
+
 ## 0.11.5 2018-02-08
 
 - Added "exit with number" to phrases. [#217](https://github.com/Project-OSRM/osrm-text-instructions/pull/217)
