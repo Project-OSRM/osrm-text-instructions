@@ -1,0 +1,20 @@
+{
+    "abbreviations": {
+        "sankta": "s:ta",
+        "gamla": "G:la",
+        "sankt": "s:t"
+    },
+    "classifications": {
+        "Bro": "Br"
+    },
+    "directions": {
+        "norr": "N",
+        "sydöst": "SO",
+        "väster": "V",
+        "öster": "O",
+        "nordväst": "NV",
+        "sydväst": "SV",
+        "söder": "S",
+        "nordöst": "NO"
+    }
+}

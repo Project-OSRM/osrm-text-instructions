@@ -1,0 +1,38 @@
+{
+    "abbreviations": {
+        "skole": "Sk.",
+        "ved": "v.",
+        "centrum": "C.",
+        "sankt": "Skt.",
+        "vestre": "v.",
+        "hospital": "Hosp.",
+        "stræde": "Str.",
+        "nordre": "Nr.",
+        "plads": "Pl.",
+        "universitet": "Uni.",
+        "vænge": "vg.",
+        "station": "St."
+    },
+    "classifications": {
+        "avenue": "Ave",
+        "gammel": "Gl.",
+        "dronning": "Dronn.",
+        "sønder": "Sdr.",
+        "nørre": "Nr.",
+        "vester": "V.",
+        "vestre": "V.",
+        "øster": "Ø.",
+        "østre": "Ø.",
+        "boulevard": "Boul."
+    },
+    "directions": {
+        "sydøst": "SØ",
+        "nordvest": "NV",
+        "syd": "S",
+        "nordøst": "NØ",
+        "sydvest": "SV",
+        "vest": "V",
+        "nord": "N",
+        "øst": "Ø"
+    }
+}

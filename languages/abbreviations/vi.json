@@ -1,0 +1,53 @@
+{
+    "abbreviations": {
+        "viện bảo tàng": "VBT",
+        "thị trấn": "Tt",
+        "đại học": "ĐH",
+        "căn cứ không quan": "CCKQ",
+        "câu lạc bộ": "CLB",
+        "bưu điện": "BĐ",
+        "khách sạn": "KS",
+        "khu du lịch": "KDL",
+        "khu công nghiệp": "KCN",
+        "khu nghỉ mát": "KNM",
+        "thị xã": "Tx",
+        "khu chung cư": "KCC",
+        "phi trường": "PT",
+        "trung tâm": "TT",
+        "tổng công ty": "TCty",
+        "trung học cơ sở": "THCS",
+        "sân bay quốc tế": "SBQT",
+        "trung học phổ thông": "THPT",
+        "cao đẳng": "CĐ",
+        "công ty": "Cty",
+        "sân bay": "SB",
+        "thành phố": "Tp",
+        "công viên": "CV",
+        "sân vận động": "SVĐ",
+        "linh mục": "LM",
+        "vườn quốc gia": "VQG"
+    },
+    "classifications": {
+        "huyện lộ": "HL",
+        "đường tỉnh": "ĐT",
+        "quốc lộ": "QL",
+        "xa lộ": "XL",
+        "hương lộ": "HL",
+        "tỉnh lộ": "TL",
+        "đường huyện": "ĐH",
+        "đường cao tốc": "ĐCT",
+        "đại lộ": "ĐL",
+        "việt nam": "VN",
+        "quảng trường": "QT",
+        "đường bộ": "ĐB"
+    },
+    "directions": {
+        "tây": "T",
+        "nam": "N",
+        "đông nam": "ĐN",
+        "đông bắc": "ĐB",
+        "tây nam": "TN",
+        "đông": "Đ",
+        "bắc": "B"
+    }
+}
