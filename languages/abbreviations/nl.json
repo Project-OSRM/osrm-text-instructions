@@ -1,0 +1,46 @@
+{
+    "abbreviations": {
+        "centrum": "Cntrm",
+        "nationaal": "Nat’l",
+        "berg": "Brg",
+        "meer": "Mr",
+        "kruising": "Krsng",
+        "toetreden": "Ttrdn"
+    },
+    "classifications": {
+        "bypass": "Pass",
+        "brug": "Br",
+        "straat": "Str",
+        "rechtbank": "Rbank",
+        "snoek": "Snk",
+        "autobaan": "Baan",
+        "terras": "Trrs",
+        "punt": "Pt",
+        "plaza": "Plz",
+        "rijden": "Rijd",
+        "parkway": "Pky",
+        "inham": "Nham",
+        "snelweg": "Weg",
+        "halve maan": "Maan",
+        "cirkel": "Crkl",
+        "laan": "Ln",
+        "rijbaan": "Strook",
+        "weg": "Weg",
+        "lopen": "Lpn",
+        "autoweg": "Weg",
+        "boulevard": "Blvd",
+        "plaats": "Plts",
+        "steeg": "Stg",
+        "voetpad": "Stoep"
+    },
+    "directions": {
+        "noordoost": "NO",
+        "westen": "W",
+        "zuiden": "Z",
+        "zuidwest": "ZW",
+        "oost": "O",
+        "zuidoost": "ZO",
+        "noordwest": "NW",
+        "noorden": "N"
+    }
+}

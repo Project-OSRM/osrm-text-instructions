@@ -1,0 +1,49 @@
+{
+    "abbreviations": {
+        "segunda": "2ª",
+        "octubre": "8bre",
+        "doctores": "Drs",
+        "doctora": "Dra",
+        "internacional": "Intl",
+        "doctor": "Dr",
+        "segundo": "2º",
+        "señorita": "Srta",
+        "doctoras": "Drs",
+        "primera": "1ª",
+        "primero": "1º",
+        "san": "S",
+        "colonia": "Col",
+        "doña": "Dña",
+        "septiembre": "7bre",
+        "diciembre": "10bre",
+        "señor": "Sr",
+        "ayuntamiento": "Ayto",
+        "señora": "Sra",
+        "tercera": "3ª",
+        "tercero": "3º",
+        "don": "D",
+        "santa": "Sta",
+        "ciudad": "Cdad",
+        "noviembre": "9bre",
+        "departamento": "Dep"
+    },
+    "classifications": {
+        "camino": "Cmno",
+        "avenida": "Av",
+        "paseo": "Pº",
+        "autopista": "Auto",
+        "calle": "C",
+        "plaza": "Pza",
+        "carretera": "Crta"
+    },
+    "directions": {
+        "este": "E",
+        "noreste": "NE",
+        "sur": "S",
+        "suroeste": "SO",
+        "noroeste": "NO",
+        "oeste": "O",
+        "sureste": "SE",
+        "norte": "N"
+    }
+}

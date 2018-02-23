@@ -3,26 +3,28 @@ All notable changes to this project will be documented in this file. For change 
 
 ## master
 
+- Added abbreviations for multiple languages. [#221](https://github.com/Project-OSRM/osrm-text-instructions/pull/221)
 - Updated translations in German. [#220](https://github.com/Project-OSRM/osrm-text-instructions/pull/220)
 
-## 0.11.5 2017-02-08
+## 0.11.5 2018-02-08
 
 - Added "exit with number" to phrases. [#217](https://github.com/Project-OSRM/osrm-text-instructions/pull/217)
 
-## 0.11.4 2017-01-29
+## 0.11.4 2018-01-29
 
 - Added a Hebrew localization. [#210](https://github.com/Project-OSRM/osrm-text-instructions/pull/210)
 - Added a Danish localization. [#208](https://github.com/Project-OSRM/osrm-text-instructions/pull/207)
 - Extended ordinals support for Russian street names in grammar rules. [#192](https://github.com/Project-OSRM/osrm-text-instructions/pull/192)
 
-## 0.11.3 2017-01-12
+## 0.11.3 2018-01-12
 
 - Added a new phrase for a short arrival and short upcoming arrival case. [#207](https://github.com/Project-OSRM/osrm-text-instructions/pull/207)
 
-## 0.11.2 2017-01-10
+## 0.11.2 2018-01-10
 
 - Changed the phrases for forks to just say "Keep left onto [wayname]" (unless we have no information, in which case we still say "Keep left at the fork"). [#205](https://github.com/Project-OSRM/osrm-text-instructions/pull/205)
-## 0.11.1 2017-01-02
+
+## 0.11.1 2018-01-02
 
 - Changed the phrases for roundabout turns to match turns at standard intersections. [#203](https://github.com/Project-OSRM/osrm-text-instructions/pull/203)
 

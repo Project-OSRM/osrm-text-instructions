@@ -12,6 +12,8 @@ OSRM Text Instructions could support [grammatical cases](https://github.com/Proj
 
 Grammatical cases and other translated strings customization after [Transifex](https://www.transifex.com/project-osrm/osrm-text-instructions/) is handled by [override scripts](https://github.com/Project-OSRM/osrm-text-instructions/tree/master/languages/overrides/).
 
+Common abbreviations in multiple languages [are also available](https://github.com/Project-OSRM/osrm-text-instructions/pull/221).
+
 [![NPM](https://nodei.co/npm/osrm-text-instructions.png)](https://npmjs.org/package/osrm-text-instructions/)
 
 ### Design goals
@@ -105,6 +107,8 @@ To add an own translations:
   - `npm run transifex`
 - Generate fixture strings for the tests via `UPDATE=1 npm test` (see changes in `git diff`)
 - Make a PR
+
+Abbreviation translations are currently handled outside of Transifex. Please make a PR to add or edit [abbreviations](https://github.com/Project-OSRM/osrm-text-instructions/tree/master/languages/abbreviations/).
 
 #### Release
 

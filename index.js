@@ -1,6 +1,7 @@
 var languages = require('./languages');
 var instructions = languages.instructions;
 var grammars = languages.grammars;
+var abbreviations = languages.abbreviations;
 
 module.exports = function(version) {
     Object.keys(instructions).forEach(function(code) {
@@ -236,6 +237,7 @@ module.exports = function(version) {
 
             return name;
         },
+        abbreviations: abbreviations,
         tokenize: function(language, instruction, tokens, options) {
             if (!language) throw new Error('No language code provided');
             // Keep this function context to use in inline function below (no arrow functions in ES4)

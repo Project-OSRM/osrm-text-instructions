@@ -24,6 +24,19 @@ var instructionsZhHans = require('./languages/translations/zh-Hans.json');
 // Load all grammar files
 var grammarRu = require('./languages/grammar/ru.json');
 
+// Load all abbreviations files
+var abbreviationsBg = require('./languages/abbreviations/bg.json');
+var abbreviationsCa = require('./languages/abbreviations/ca.json');
+var abbreviationsDa = require('./languages/abbreviations/da.json');
+var abbreviationsEn = require('./languages/abbreviations/en.json');
+var abbreviationsEs = require('./languages/abbreviations/es.json');
+var abbreviationsFr = require('./languages/abbreviations/fr.json');
+var abbreviationsLt = require('./languages/abbreviations/lt.json');
+var abbreviationsNl = require('./languages/abbreviations/nl.json');
+var abbreviationsRu = require('./languages/abbreviations/ru.json');
+var abbreviationsSv = require('./languages/abbreviations/sv.json');
+var abbreviationsVi = require('./languages/abbreviations/vi.json');
+
 // Create a list of supported codes
 var instructions = {
     'da': instructionsDa,
@@ -51,6 +64,21 @@ var instructions = {
 // Create list of supported grammar
 var grammars = {
     'ru': grammarRu
+};
+
+// Create list of supported abbrevations
+var abbreviations = {
+    'bg': abbreviationsBg,
+    'ca': abbreviationsCa,
+    'da': abbreviationsDa,
+    'en': abbreviationsEn,
+    'es': abbreviationsEs,
+    'fr': abbreviationsFr,
+    'lt': abbreviationsLt,
+    'nl': abbreviationsNl,
+    'ru': abbreviationsRu,
+    'sv': abbreviationsSv,
+    'vi': abbreviationsVi
 };
 
 function parseLanguageIntoCodes (language) {
@@ -84,5 +112,6 @@ module.exports = {
     }),
     instructions: instructions,
     grammars: grammars,
+    abbreviations: abbreviations,
     parseLanguageIntoCodes: parseLanguageIntoCodes
 };
