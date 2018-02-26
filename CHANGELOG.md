@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
-## master
+## 0.12.0 2018-02-26
 
 - Added abbreviations for multiple languages. [#221](https://github.com/Project-OSRM/osrm-text-instructions/pull/221)
 - Updated translations in German. [#220](https://github.com/Project-OSRM/osrm-text-instructions/pull/220)
