@@ -2,13 +2,13 @@
     "abbreviations": {},
     "classifications": {},
     "directions": {
-        "Osten": "O",
-        "Nordosten": "NO",
-        "Süden": "S",
-        "Nordwest": "NW",
-        "Norden": "N",
-        "Südost": "SO",
-        "Südwest": "SW",
-        "Westen": "W"
+        "osten": "O",
+        "nordosten": "NO",
+        "süden": "S",
+        "nordwest": "NW",
+        "norden": "N",
+        "südost": "SO",
+        "südwest": "SW",
+        "westen": "W"
     }
 }
