@@ -1,0 +1,14 @@
+{
+    "abbreviations": {},
+    "classifications": {},
+    "directions": {
+        "east": "K",
+        "northeast": "ÉK",
+        "south": "D",
+        "northwest": "ÉNY",
+        "north": "É",
+        "southeast": "DK",
+        "southwest": "DNY",
+        "west": "NY"
+    }
+}

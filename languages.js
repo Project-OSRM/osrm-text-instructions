@@ -28,13 +28,18 @@ var grammarRu = require('./languages/grammar/ru.json');
 var abbreviationsBg = require('./languages/abbreviations/bg.json');
 var abbreviationsCa = require('./languages/abbreviations/ca.json');
 var abbreviationsDa = require('./languages/abbreviations/da.json');
+var ebbreviationsDe = require('./languages/abbreviations/de.json');
 var abbreviationsEn = require('./languages/abbreviations/en.json');
 var abbreviationsEs = require('./languages/abbreviations/es.json');
 var abbreviationsFr = require('./languages/abbreviations/fr.json');
+var abbreviationsHe = require('./languages/abbreviations/he.json');
+var abbreviationsHu = require('./languages/abbreviations/hu.json');
 var abbreviationsLt = require('./languages/abbreviations/lt.json');
 var abbreviationsNl = require('./languages/abbreviations/nl.json');
 var abbreviationsRu = require('./languages/abbreviations/ru.json');
+var abbreviationsSl = require('./languages/abbreviations/sl.json');
 var abbreviationsSv = require('./languages/abbreviations/sv.json');
+var abbreviationsUk = require('./languages/abbreviations/uk.json');
 var abbreviationsVi = require('./languages/abbreviations/vi.json');
 
 // Create a list of supported codes
@@ -71,13 +76,18 @@ var abbreviations = {
     'bg': abbreviationsBg,
     'ca': abbreviationsCa,
     'da': abbreviationsDa,
+    'de': ebbreviationsDe,
     'en': abbreviationsEn,
     'es': abbreviationsEs,
     'fr': abbreviationsFr,
+    'he': abbreviationsHe,
+    'hu': abbreviationsHu,
     'lt': abbreviationsLt,
     'nl': abbreviationsNl,
     'ru': abbreviationsRu,
+    'sl': abbreviationsSl,
     'sv': abbreviationsSv,
+    'uk': abbreviationsUk,
     'vi': abbreviationsVi
 };
 
