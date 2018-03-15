@@ -2,13 +2,13 @@
     "abbreviations": {},
     "classifications": {},
     "directions": {
-        "east": "K",
-        "northeast": "ÉK",
-        "south": "D",
-        "northwest": "ÉNY",
-        "north": "É",
-        "southeast": "DK",
-        "southwest": "DNY",
-        "west": "NY"
+        "kelet": "K",
+        "északkelet": "ÉK",
+        "dél": "D",
+        "északnyugat": "ÉNY",
+        "észak": "É",
+        "délkelet": "DK",
+        "délnyugat": "DNY",
+        "nyugat": "NY"
     }
 }
