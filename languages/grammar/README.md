@@ -16,14 +16,17 @@ The required grammatical case should be specified right in instruction's substit
 
 - `{way_name}` and `{rotary_name}` variables in translated instructions should be appended with required grammar case name after colon: `{way_name:accusative}` for example
 - This folder should contain language-specific JSON file with regular expressions for specified grammatical case:
-```json
-{
-    "v5": {
-        "accusative": [
-            ["^ (\\S+)ая-(\\S+)ая [Уу]лица ", " $1ую-$2ую улицу "],
-            ["^ (\\S+)ая [Уу]лица ", " $1ую улицу "],
-            ...
-```
+   ```json
+   {
+       "v5": {
+           "accusative": [
+               ["^ (\\S+)ая-(\\S+)ая [Уу]лица ", " $1ую-$2ую улицу "],
+               ["^ (\\S+)ая [Уу]лица ", " $1ую улицу "],
+               ...
+           ]
+       }
+   }
+   ```
 - All such JSON files should be registered in common [languages.js](../../languages.js)
 - Instruction text formatter ([index.js](../../index.js) in this module) should:
   - check `{way_name}` and `{rotary_name}` variables for optional grammar case after colon: `{way_name:accusative}`
@@ -31,12 +34,13 @@ The required grammatical case should be specified right in instruction's substit
   - call standard [string replace with regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) for each expression in block passing result from previous call to the next; the first call should enclose original street name with whitespaces to make parsing several words inside name a bit simplier.
 - Strings replacement with regular expression is available in almost all other programming language and so this should not be the problem for other code used OSRM Text Instructions' data only.
 - Grammar JSON could have [regular expression flags in JS notation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp):
-```json
-{
-    "meta": {
-        "regExpFlags": "ig"
-    },
-```
+   ```json
+   {
+       "meta": {
+           "regExpFlags": "ig"
+       }
+   }
+   ```
 - Please note, not all JS regular expression flags could be supported in other languages.
   For example, [OSRM Text Instructions for Swift](https://github.com/Project-OSRM/osrm-text-instructions.swift/) don't support "non-global match" and so always supposes `g` flag turned on.
   So if some regular expressions suppose stopping after their match, please include `^` and/or `$` into patterns for exact matching or return "finished" string in replace expression without enclosing whitespaces.
