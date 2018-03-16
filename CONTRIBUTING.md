@@ -32,7 +32,7 @@ The development language of this project is English (`en`). To ensure that a new
 * If the new string is similar to an existing string, duplicate the existing string in the same localization to fill in the missing string.
 * If no existing string is similar, copy the English string to fill in the missing string.
 
-This way, the instruction is more likely to make sense to the user even if it’s imperfect. Once the feature is merged, we rely on translators to [update their localizations](#Adding or updating a localization) with better translations.
+This way, the instruction is more likely to make sense to the user even if it’s imperfect. Once the feature is merged, we rely on translators to [update their localizations](#adding-or-updating-a-localization) with better translations.
 
 This library relies on automatically generated test fixtures to show the effect your changes have on this library’s output in each language:
 
