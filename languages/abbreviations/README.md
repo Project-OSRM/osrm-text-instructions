@@ -10,7 +10,24 @@ The file format consists of an object with three keys:
 * `classifications`: [Street type designations](https://en.wikipedia.org/wiki/Street_or_road_name#Street_type_designations), such as those that appear as suffixes in English-speaking regions or prefixes in Spanish-speaking regions. Some localizations omit this key if regions that speak the language rarely include type designations in street names.
 * `directions`: Cardinal or secondary direction words, typically used in localities that indicate the quadrant in street names.
 
-In each of the three objects, the keys are fully-spelled out words, while the values are the corresponding abbreviations. The keys are in lowercase, to aid in case-insensitive matching, and may consist of multiple words each. Most localizations put the abbreviations in title case, for consistency with the original street names, and omit periods. The lists only include words commonly found in road names, and they only include abbreviations that a user would recognize instantly and unambiguously.
+In each of the three objects, the keys are fully-spelled out words, while the values are the corresponding abbreviations. For example:
+
+```json
+{
+  "saint": "St",
+  "street": "St"
+}
+```
+
+The keys are in lowercase, to aid in case-insensitive matching, and may consist of multiple words each:
+
+```json
+{
+  "centre hospitalier régional": "CHR"
+}
+```
+
+Most localizations put the abbreviations in title case, for consistency with the original street names, and omit periods. The lists only include words commonly found in road names, and they only include abbreviations that a user would recognize instantly and unambiguously.
 
 ## Usage
 
