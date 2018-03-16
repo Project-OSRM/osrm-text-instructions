@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## master
+
+- Added some abbreviations in German, Hebrew, Hungarian, Slovenian, and Ukrainian. [#226](https://github.com/Project-OSRM/osrm-text-instructions/pull/226)
+
 ## 0.12.0 2018-02-26
 
 - Added abbreviations for multiple languages. [#221](https://github.com/Project-OSRM/osrm-text-instructions/pull/221)
