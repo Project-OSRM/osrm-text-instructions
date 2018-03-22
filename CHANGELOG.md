@@ -3,6 +3,7 @@ All notable changes to this project will be documented in this file. For change 
 
 ## master
 
+- Added a European Portuguese localization. [#229](https://github.com/Project-OSRM/osrm-text-instructions/pull/229)
 - Added some abbreviations in German, Hebrew, Hungarian, Slovenian, and Ukrainian. [#226](https://github.com/Project-OSRM/osrm-text-instructions/pull/226)
 
 ## 0.12.0 2018-02-26
