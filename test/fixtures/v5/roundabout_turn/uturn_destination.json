@@ -15,11 +15,11 @@
         "eo": "Veturu turniĝu malantaŭen direkte al Destination 1",
         "es": "Sigue cambio de sentido hacia Destination 1",
         "es-ES": "Siga cambio de sentido hacia Destination 1",
-        "fr": "Au rond-point, tourner demi-tour en direction de Destination 1",
+        "fr": "Tourner demi-tour en direction de Destination 1",
         "he": "פנה פניית פרסה לכיוון Destination 1",
         "id": "Di bundaran, lakukan putar balik menuju Destination 1",
         "it": "Alla rotonda fai una inversione a U verso Destination 1",
-        "nl": "Ga omkeren op de rotonde richting Destination 1",
+        "nl": "Ga omkeren richting Destination 1",
         "pl": "Na rondzie weź zawróć w kierunku Destination 1",
         "pt-BR": "Siga retorno sentido Destination 1",
         "pt-PT": "Siga inversão de marcha em direção a Destination 1",
@@ -28,7 +28,7 @@
         "sv": "Sväng U-sväng mot Destination 1",
         "tr": "Destination 1 üzerindeki göbekli kavşakta U dönüşü yöne dön",
         "uk": "Рухайтесь розворот в напрямку Destination 1",
-        "vi": "Quẹo ngược về hướng Destination 1",
+        "vi": "Quẹo ngược về Destination 1",
         "zh-Hans": "在环岛调头行驶，前往Destination 1"
     }
 }

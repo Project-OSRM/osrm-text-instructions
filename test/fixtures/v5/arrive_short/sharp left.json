@@ -10,16 +10,16 @@
         "he": "הגעת",
         "id": "Anda telah tiba di tujuan ke-{nth}",
         "it": "Sei arrivato alla tua {nth} destinazione",
-        "nl": "Je bent gearriveerd op de {nth} bestemming.",
+        "nl": "Je bent gearriveerd",
         "pl": "Dojechano do miejsca docelowego {nth}",
         "pt-BR": "Você chegou ao seu {nth} destino",
         "pt-PT": "Chegou",
-        "ro": "Ați ajuns la {nth} destinație",
+        "ro": "Ați ajuns",
         "ru": "Вы прибыли",
         "sv": "Du är framme",
         "tr": "{nth} hedefinize ulaştınız",
         "uk": "Ви прибули",
         "vi": "Đến nơi",
-        "zh-Hans": "您已经到达您的{nth}个目的地"
+        "zh-Hans": "已到达目的地"
     }
 }

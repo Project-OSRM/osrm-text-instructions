@@ -19,7 +19,7 @@
         "he": "פנה קלות שמאלה לכיוון Destination 1",
         "id": "Tetap agak di kiri menuju Destination 1",
         "it": "Fai una leggera curva a sinistra verso Destination 1",
-        "nl": "Links aanhouden richting Destination 1",
+        "nl": "Rechts afbuigen om op Destination 1 te blijven",
         "pl": "Skręć w lewo w łagodny zakręt na Destination 1",
         "pt-BR": "Faça uma curva suave a esquerda em direção a Destination 1",
         "pt-PT": "Vire ligeiramente à esquerda em direção a Destination 1",
@@ -28,7 +28,7 @@
         "sv": "Sväng vänster mot Destination 1",
         "tr": "Destination 1 istikametinde sola hafif dönüş yap",
         "uk": "Поверніть плавно ліворуч у напрямку Destination 1",
-        "vi": "Nghiêng về bên trái về hướng Destination 1",
+        "vi": "Nghiêng về bên trái về Destination 1",
         "zh-Hans": "向左行驶，前往Destination 1"
     }
 }

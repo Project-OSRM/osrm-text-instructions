@@ -15,11 +15,11 @@
         "eo": "Veturu rekten direkte al Destination 1",
         "es": "Continúa recto hacia Destination 1",
         "es-ES": "Continúa recto hacia Destination 1",
-        "fr": "Au rond-point, continuer tout droit en direction de Destination 1",
+        "fr": "Continuer tout droit en direction de Destination 1",
         "he": "המשך ישר לכיוון Destination 1",
         "id": "Di bundaran tetap lurus menuju Destination 1",
         "it": "Alla rotonda prosegui dritto verso Destination 1",
-        "nl": "Rechtdoor op de rotonde richting Destination 1",
+        "nl": "Ga richting Destination 1",
         "pl": "Na rondzie kontynuuj prosto w kierunku Destination 1",
         "pt-BR": "Continue em frente sentido Destination 1",
         "pt-PT": "Continue em frente em direção a Destination 1",
@@ -28,7 +28,7 @@
         "sv": "Fortsätt rakt fram mot Destination 1",
         "tr": "Göbekli kavşakta Destination 1 istikametinde düz devam et",
         "uk": "Продовжуйте рух прямо у напрямку Destination 1",
-        "vi": "Chạy tiếp về hướng Destination 1",
+        "vi": "Chạy tiếp về Destination 1",
         "zh-Hans": "在环岛继续直行，前往Destination 1"
     }
 }

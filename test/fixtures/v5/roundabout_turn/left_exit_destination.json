@@ -16,11 +16,11 @@
         "eo": "Turniĝu maldekstren direkte al Destination 1",
         "es": "Gira a la izquierda hacia Destination 1",
         "es-ES": "Gire a la izquierda hacia Destination 1",
-        "fr": "Au rond-point, tourner à gauche en direction de Destination 1",
+        "fr": "Tourner à gauche en direction de Destination 1",
         "he": "פנה שמאלה לכיוון Destination 1",
         "id": "Di bundaran, belok kiri menuju Destination 1",
         "it": "Alla rotonda svolta a sinistra verso Destination 1",
-        "nl": "Ga links op de rotonde richting Destination 1",
+        "nl": "Ga linksaf richting Destination 1",
         "pl": "Na rondzie skręć w lewo w kierunku Destination 1",
         "pt-BR": "Vire à esquerda sentido Destination 1",
         "pt-PT": "Vire à esquerda em direção a Destination 1",
@@ -29,7 +29,7 @@
         "sv": "Sväng vänster mot Destination 1",
         "tr": "Göbekli kavşakta Destination 1 istikametinde sola dön",
         "uk": "Поверніть ліворуч у напрямку Destination 1",
-        "vi": "Quẹo trái về hướng Destination 1",
+        "vi": "Quẹo trái về Destination 1",
         "zh-Hans": "在环岛左转，前往Destination 1"
     }
 }

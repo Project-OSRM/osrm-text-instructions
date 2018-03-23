@@ -1,27 +1,28 @@
 {
     "options": {
-        "exit": "5"
+        "exit": "123A"
     },
     "phrases": {
-        "da": "Exit 5",
-        "de": "Exit 5",
-        "en": "Exit 5",
-        "eo": "Exit 5",
-        "es": "Salida 5",
-        "es-ES": "Salida 5",
-        "fr": "Sortie 5",
-        "he": "Exit 5",
-        "id": "Exit 5",
-        "it": "Exit 5",
-        "nl": "Exit 5",
-        "pl": "Exit 5",
-        "pt-BR": "Exit 5",
-        "ro": "Exit 5",
-        "ru": "Exit 5",
-        "sv": "Exit 5",
-        "tr": "Exit 5",
-        "uk": "Exit 5",
-        "vi": "Exit 5",
-        "zh-Hans": "exit 5"
+        "da": "Afkørsel 123A",
+        "de": "Exit 123A",
+        "en": "Exit 123A",
+        "eo": "Elveturejo 123A",
+        "es": "Salida 123A",
+        "es-ES": "Salida 123A",
+        "fr": "Sortie 123A",
+        "he": "יציאה 123A",
+        "id": "Exit 123A",
+        "it": "Exit 123A",
+        "nl": "Exit 123A",
+        "pl": "Exit 123A",
+        "pt-BR": "Exit 123A",
+        "pt-PT": "Saída 123A",
+        "ro": "Exit 123A",
+        "ru": "Съезд 123A",
+        "sv": "Exit 123A",
+        "tr": "Exit 123A",
+        "uk": "З'їзд 123A",
+        "vi": "Lối ra 123A",
+        "zh-Hans": "exit 123A"
     }
 }
