@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. For change 
 ## master
 
 - Added a European Portuguese localization. [#229](https://github.com/Project-OSRM/osrm-text-instructions/pull/229)
+- The Spanish localization now uses the informal imperative form instead of the formal imperative form, for consistency with the Castillian Spanish localization. [#230](https://github.com/Project-OSRM/osrm-text-instructions/pull/230)
 - Added some abbreviations in German, Hebrew, Hungarian, Slovenian, and Ukrainian. [#226](https://github.com/Project-OSRM/osrm-text-instructions/pull/226)
 
 ## 0.12.0 2018-02-26
