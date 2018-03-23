@@ -205,7 +205,7 @@
         },
         "merge": {
             "default": {
-                "default": "Intrați în {modifier}",
+                "default": "Intrați {modifier}",
                 "name": "Intrați în {modifier} pe {way_name}",
                 "destination": "Intrați în {modifier} spre {destination}"
             },
@@ -439,16 +439,16 @@
         },
         "exit roundabout": {
             "default": {
-                "default": "Ieșiți din sensul giratoriu prin {modifier}",
-                "name": "Ieșiți din sensul giratoriu prin {modifier} pe {way_name}",
-                "destination": "Ieșiți din sensul giratoriu prin {modifier} spre {destination}"
+                "default": "Ieșiți din sensul giratoriu",
+                "name": "Ieșiți din sensul giratoriu pe {way_name}",
+                "destination": "Ieșiți din sensul giratoriu spre {destination}"
             }
         },
         "exit rotary": {
             "default": {
-                "default": "Ieșiți din sensul giratoriu prin {modifier}",
-                "name": "Ieșiți din sensul giratoriu prin {modifier} pe {way_name}",
-                "destination": "Ieșiți din sensul giratoriu prin {modifier} spre {destination}"
+                "default": "Ieșiți din sensul giratoriu",
+                "name": "Ieșiți din sensul giratoriu pe {way_name}",
+                "destination": "Ieșiți din sensul giratoriu spre {destination}"
             }
         },
         "turn": {
