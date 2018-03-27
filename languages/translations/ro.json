@@ -205,14 +205,14 @@
         },
         "merge": {
             "default": {
-                "default": "Intrați {modifier}",
+                "default": "Intrați în {modifier}",
                 "name": "Intrați în {modifier} pe {way_name}",
                 "destination": "Intrați în {modifier} spre {destination}"
             },
             "straight": {
-                "default": "Intrați în înainte",
-                "name": "Intrați înainte pe {way_name}",
-                "destination": "Intrați înainte spre {destination}"
+                "default": "Intrați",
+                "name": "Intrați pe {way_name}",
+                "destination": "Intrați spre {destination}"
             },
             "slight left": {
                 "default": "Intrați în stânga",
@@ -294,50 +294,50 @@
                 "default": "Urmați breteaua",
                 "name": "Urmați breteaua pe {way_name}",
                 "destination": "Urmați breteaua spre {destination}",
-                "exit": "Urmați breteaua de ieșire {exit}",
-                "exit_destination": "Urmați breteaua de ieșire {exit} spre {destination}"
+                "exit": "Urmați ieșirea {exit}",
+                "exit_destination": "Urmați ieșirea {exit} spre {destination}"
             },
             "left": {
                 "default": "Urmați breteaua din stânga",
                 "name": "Urmați breteaua din stânga pe {way_name}",
                 "destination": "Urmați breteaua din stânga spre {destination}",
-                "exit": "Urmați breteaua de ieșire {exit} pe stânga",
-                "exit_destination": "Urmați breteaua de ieșire {exit} pe stânga spre {destination}"
+                "exit": "Urmați ieșirea {exit} pe stânga",
+                "exit_destination": "Urmați ieșirea {exit} pe stânga spre {destination}"
             },
             "right": {
                 "default": "Urmați breteaua din dreapta",
                 "name": "Urmați breteaua din dreapta pe {way_name}",
                 "destination": "Urmați breteaua din dreapta spre {destination}",
-                "exit": "Urmați breteaua de ieșire {exit} pe dreapta",
-                "exit_destination": "Urmați breteaua de ieșire {exit} pe dreapta spre {destination}"
+                "exit": "Urmați ieșirea {exit} pe dreapta",
+                "exit_destination": "Urmați ieșirea {exit} pe dreapta spre {destination}"
             },
             "sharp left": {
                 "default": "Urmați breteaua din stânga",
                 "name": "Urmați breteaua din stânga pe {way_name}",
                 "destination": "Urmați breteaua din stânga spre {destination}",
-                "exit": "Urmați breteaua de ieșire {exit} pe stânga",
-                "exit_destination": "Urmați breteaua de ieșire {exit} pe stânga spre {destination}"
+                "exit": "Urmați ieșirea {exit} pe stânga",
+                "exit_destination": "Urmați ieșirea {exit} pe stânga spre {destination}"
             },
             "sharp right": {
                 "default": "Urmați breteaua din dreapta",
                 "name": "Urmați breteaua din dreapta pe {way_name}",
                 "destination": "Urmați breteaua din dreapta spre {destination}",
-                "exit": "Urmați breteaua de ieșire {exit} pe dreapta",
-                "exit_destination": "Urmați breteaua de ieșire {exit} pe dreapta spre {destination}"
+                "exit": "Urmați ieșirea {exit} pe dreapta",
+                "exit_destination": "Urmați ieșirea {exit} pe dreapta spre {destination}"
             },
             "slight left": {
                 "default": "Urmați breteaua din stânga",
                 "name": "Urmați breteaua din stânga pe {way_name}",
                 "destination": "Urmați breteaua din stânga spre {destination}",
-                "exit": "Urmați breteaua de ieșire {exit} pe stânga",
-                "exit_destination": "Urmați breteaua de ieșire {exit} pe stânga spre {destination}"
+                "exit": "Urmați ieșirea {exit} pe stânga",
+                "exit_destination": "Urmați ieșirea {exit} pe stânga spre {destination}"
             },
             "slight right": {
                 "default": "Urmați breteaua din dreapta",
                 "name": "Urmați breteaua din dreapta pe {way_name}",
                 "destination": "Urmați breteaua din dreapta spre {destination}",
-                "exit": "Urmați breteaua de ieșire {exit} pe dreapta",
-                "exit_destination": "Urmați breteaua de ieșire {exit} pe dreapta spre {destination}"
+                "exit": "Urmați ieșirea {exit} pe dreapta",
+                "exit_destination": "Urmați ieșirea {exit} pe dreapta spre {destination}"
             }
         },
         "on ramp": {
