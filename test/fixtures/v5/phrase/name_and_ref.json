@@ -1,28 +1,29 @@
 {
     "options": {
-        "name": "Ziggy",
-        "ref": "DOG"
+        "name": "Metropolis",
+        "ref": 123
     },
     "phrases": {
-        "da": "Ziggy (DOG)",
-        "de": "Ziggy (DOG)",
-        "en": "Ziggy (DOG)",
-        "eo": "Ziggy (DOG)",
-        "es": "Ziggy (DOG)",
-        "es-ES": "Ziggy (DOG)",
-        "fr": "Ziggy (DOG)",
-        "he": "Ziggy (DOG)",
-        "id": "Ziggy (DOG)",
-        "it": "Ziggy (DOG)",
-        "nl": "Ziggy (DOG)",
-        "pl": "Ziggy (DOG)",
-        "pt-BR": "Ziggy (DOG)",
-        "ro": "Ziggy (DOG)",
-        "ru": "Ziggy (DOG)",
-        "sv": "Ziggy (DOG)",
-        "tr": "Ziggy (DOG)",
-        "uk": "Ziggy (DOG)",
-        "vi": "Ziggy (DOG)",
-        "zh-Hans": "Ziggy（DOG）"
+        "da": "Metropolis (123)",
+        "de": "Metropolis (123)",
+        "en": "Metropolis (123)",
+        "eo": "Metropolis (123)",
+        "es": "Metropolis (123)",
+        "es-ES": "Metropolis (123)",
+        "fr": "Metropolis (123)",
+        "he": "Metropolis (123)",
+        "id": "Metropolis (123)",
+        "it": "Metropolis (123)",
+        "nl": "Metropolis (123)",
+        "pl": "Metropolis (123)",
+        "pt-BR": "Metropolis (123)",
+        "pt-PT": "Metropolis (123)",
+        "ro": "Metropolis (123)",
+        "ru": "Metropolis (123)",
+        "sv": "Metropolis (123)",
+        "tr": "Metropolis (123)",
+        "uk": "Metropolis (123)",
+        "vi": "Metropolis (123)",
+        "zh-Hans": "Metropolis（123）"
     }
 }

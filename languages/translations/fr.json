@@ -189,13 +189,13 @@
             },
             "sharp left": {
                 "default": "Prendre franchement à gauche à l’embranchement",
-                "name": "Prendre franchement à gauche à l’embranchement sur {way_name}",
-                "destination": "Prendre franchement à gauche à l’embranchement en direction de {destination}"
+                "name": "Prendre franchement à gauche sur {way_name}",
+                "destination": "Prendre franchement à gauche en direction de {destination}"
             },
             "sharp right": {
                 "default": "Prendre franchement à droite à l’embranchement",
-                "name": "Prendre franchement à droite à l’embranchement sur {way_name}",
-                "destination": "Prendre franchement à droite à l’embranchement en direction de {destination}"
+                "name": "Prendre franchement à droite sur {way_name}",
+                "destination": "Prendre franchement à droite en direction de {destination}"
             },
             "uturn": {
                 "default": "Faire demi-tour",
@@ -417,24 +417,24 @@
         },
         "roundabout turn": {
             "default": {
-                "default": "Au rond-point, tourner {modifier}",
-                "name": "Au rond-point, tourner {modifier} sur {way_name}",
-                "destination": "Au rond-point, tourner {modifier} en direction de {destination}"
+                "default": "Tourner {modifier}",
+                "name": "Tourner {modifier} sur {way_name}",
+                "destination": "Tourner {modifier} en direction de {destination}"
             },
             "left": {
-                "default": "Au rond-point, tourner à gauche",
-                "name": "Au rond-point, tourner à gauche sur {way_name}",
-                "destination": "Au rond-point, tourner à gauche en direction de {destination}"
+                "default": "Tourner à gauche",
+                "name": "Tourner à gauche sur {way_name}",
+                "destination": "Tourner à gauche en direction de {destination}"
             },
             "right": {
-                "default": "Au rond-point, tourner à droite",
-                "name": "Au rond-point, tourner à droite sur {way_name}",
-                "destination": "Au rond-point, tourner à droite en direction de {destination}"
+                "default": "Tourner à droite",
+                "name": "Tourner à droite sur {way_name}",
+                "destination": "Tourner à droite en direction de {destination}"
             },
             "straight": {
-                "default": "Au rond-point, continuer tout droit",
-                "name": "Au rond-point, continuer tout droit sur {way_name}",
-                "destination": "Au rond-point, continuer tout droit en direction de {destination}"
+                "default": "Continuer tout droit",
+                "name": "Continuer tout droit sur {way_name}",
+                "destination": "Continuer tout droit en direction de {destination}"
             }
         },
         "exit roundabout": {

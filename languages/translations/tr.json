@@ -189,13 +189,13 @@
             },
             "sharp left": {
                 "default": "Çatalda keskin sola dönün",
-                "name": "{way_name} üzerindeki yol ayrımında sola keskin dönüş yap",
-                "destination": "{destination} istikametindeki yol ayrımında sola keskin dönüş yap"
+                "name": "{way_name} yoluna doğru sola keskin dönüş yapın",
+                "destination": "{destination} istikametinde sola keskin dönüş yap"
             },
             "sharp right": {
                 "default": "Çatalda keskin sağa dönün",
-                "name": "{way_name} üzerindeki yol ayrımında sağa keskin dönüş yap",
-                "destination": "{destination} istikametindeki yol ayrımında sola keskin dönüş yap"
+                "name": "{way_name} yoluna doğru sağa keskin dönüş yapın",
+                "destination": "{destination} istikametinde sağa keskin dönüş yap"
             },
             "uturn": {
                 "default": "U dönüşü yapın",
@@ -454,9 +454,9 @@
                 "destination": "{destination} istikametinde sağa dön"
             },
             "straight": {
-                "default": "Düz git",
-                "name": "{way_name} üzerinde düz git",
-                "destination": "{destination} istikametinde düz git"
+                "default": "Düz devam et",
+                "name": "{way_name} üzerinde düz devam et",
+                "destination": "{destination} istikametinde düz devam et"
             }
         },
         "exit rotary": {

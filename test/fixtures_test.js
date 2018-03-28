@@ -644,6 +644,17 @@ tape.test('verify existence/update fixtures', function(assert) {
             'instruction_one': 'Do something',
             distance: distance
         });
+
+        // name and ref
+        checkOrWritePhrase(basePath, 'name and ref', {
+            name: 'Metropolis',
+            ref: 123
+        });
+
+        // exit with number
+        checkOrWritePhrase(basePath, 'exit with number', {
+            exit: '123A'
+        });
     }
 
     checkOrWritePhrases();
