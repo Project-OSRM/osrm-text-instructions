@@ -11,7 +11,7 @@
         "de": "Ausfahrt rechts nehmen Richtung Ref1: Destination 1",
         "en": "Take the ramp on the right towards Ref1: Destination 1",
         "eo": "Direktiĝu al enveturejo ĉe dekstre al Ref1: Destination 1",
-        "es": "Tome la salida en la derecha hacia Ref1: Destination 1",
+        "es": "Toma la salida en la derecha hacia Ref1: Destination 1",
         "es-ES": "Coge la cuesta abajo de la derecha hacia Ref1: Destination 1",
         "fr": "Prendre la sortie à droite en direction de Ref1: Destination 1",
         "he": "צא ביציאה שמימינך לכיוון Ref1: Destination 1",
@@ -20,12 +20,13 @@
         "nl": "Neem de afrit rechts richting Ref1: Destination 1",
         "pl": "Weź zjazd po prawej w kierunku Ref1: Destination 1",
         "pt-BR": "Pegue a rampa à direita sentido Ref1: Destination 1",
-        "ro": "Urmați rampa pe dreapta spre Ref1: Destination 1",
+        "pt-PT": "Saia na saída à direita em direção a Ref1: Destination 1",
+        "ro": "Urmați breteaua din dreapta spre Ref1: Destination 1",
         "ru": "Сверните на правый съезд в направлении Ref1: Destination 1",
         "sv": "Ta avfarten till höger mot Ref1: Destination 1",
         "tr": "Ref1: Destination 1 istikametine giden sağ bağlantı yoluna geç",
         "uk": "Рухайтесь на зʼїзд праворуч у напрямку Ref1: Destination 1",
-        "vi": "Đi đường nhánh bên phải về hướng Ref1: Destination 1",
+        "vi": "Đi đường nhánh bên phải về Ref1: Destination 1",
         "zh-Hans": "通过右边的匝道前往Ref1: Destination 1"
     }
 }

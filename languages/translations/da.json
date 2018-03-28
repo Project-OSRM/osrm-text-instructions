@@ -54,7 +54,8 @@
             "two linked by distance": "{instruction_one} derefter, efter {distance}, {instruction_two}",
             "two linked": "{instruction_one}, derefter {instruction_two}",
             "one in distance": "Efter {distance} {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name} ({ref})",
+            "exit with number": "afkørsel {exit}"
         },
         "arrive": {
             "default": {

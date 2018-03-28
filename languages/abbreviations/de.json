@@ -1,0 +1,14 @@
+{
+    "abbreviations": {},
+    "classifications": {},
+    "directions": {
+        "osten": "O",
+        "nordosten": "NO",
+        "süden": "S",
+        "nordwest": "NW",
+        "norden": "N",
+        "südost": "SO",
+        "südwest": "SW",
+        "westen": "W"
+    }
+}

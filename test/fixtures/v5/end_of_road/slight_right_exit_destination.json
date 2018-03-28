@@ -14,7 +14,7 @@
         "de": "Leicht rechts abbiegen Richtung Destination 1",
         "en": "Turn slight right towards Destination 1",
         "eo": "Veturu dekstreten direkte al Destination 1",
-        "es": "Gire a ligeramente a la derecha hacia Destination 1",
+        "es": "Gira a levemente a la derecha hacia Destination 1",
         "es-ES": "Al final de la calle gira ligeramente a la derecha hacia Destination 1",
         "fr": "Tourner légèrement à droite en direction de Destination 1",
         "he": "פנה קלה ימינה לכיוון Destination 1",
@@ -23,12 +23,13 @@
         "nl": "Ga rechts richting Destination 1",
         "pl": "Skręć łagodnie w prawo w kierunku Destination 1",
         "pt-BR": "Vire suave à direita sentido Destination 1",
+        "pt-PT": "Vire ligeiramente à direita em direção a Destination 1",
         "ro": "Virați ușor dreapta spre Destination 1",
         "ru": "Поверните правее в направлении Destination 1",
         "sv": "Sväng höger mot Destination 1",
         "tr": "Destination 1 istikametinde hafif sağ yöne dön",
         "uk": "Поверніть плавно праворуч у напрямку Destination 1",
-        "vi": "Quẹo phải nghiêng về hướng Destination 1",
+        "vi": "Quẹo phải nghiêng về Destination 1",
         "zh-Hans": "向右行驶，前往Destination 1"
     }
 }

@@ -13,7 +13,7 @@
         "de": "Leicht rechts auffahren Richtung Destination 1",
         "en": "Merge right towards Destination 1",
         "eo": "Enveturu de dekstre direkte al Destination 1",
-        "es": "Gire a la derecha hacia Destination 1",
+        "es": "Incorpórate a la derecha hacia Destination 1",
         "es-ES": "Incorpórate a la derecha hacia Destination 1",
         "fr": "S’insérer à droite en direction de Destination 1",
         "he": "השתלב ימינה לכיוון Destination 1",
@@ -22,12 +22,13 @@
         "nl": "Bij de splitsing rechts aanhouden richting Destination 1",
         "pl": "Włącz się z prawej strony w kierunku Destination 1",
         "pt-BR": "Entre à direita em direção à Destination 1",
+        "pt-PT": "Una-se ao tráfego à direita em direção a Destination 1",
         "ro": "Intrați în dreapta spre Destination 1",
         "ru": "Перестройтесь правее в направлении Destination 1",
         "sv": "Byt till högra körfältet, mot Destination 1",
         "tr": "Destination 1 istikametinde sağa gir",
         "uk": "Приєднайтеся до потоку праворуч у напрямку Destination 1",
-        "vi": "Nhập sang phải về hướng Destination 1",
+        "vi": "Nhập sang phải về Destination 1",
         "zh-Hans": "向右并道，前往Destination 1"
     }
 }

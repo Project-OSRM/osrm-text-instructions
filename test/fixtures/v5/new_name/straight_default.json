@@ -12,7 +12,7 @@
         "de": "Geradeaus weiterfahren",
         "en": "Continue straight",
         "eo": "Veturu rekten",
-        "es": "Continúe recto",
+        "es": "Continúa recto",
         "es-ES": "Continúa recto",
         "fr": "Continuer tout droit",
         "he": "המשך ישר",
@@ -21,11 +21,12 @@
         "nl": "Ga in de aangegeven richting",
         "pl": "Kontynuuj prosto",
         "pt-BR": "Continue em frente",
+        "pt-PT": "Continue em frente",
         "ro": "Continuați înainte",
         "ru": "Двигайтесь прямо",
         "sv": "Fortsätt rakt fram",
         "tr": "Düz devam et",
-        "uk": "Продовжуйте рух прямо",
+        "uk": "Рухайтесь прямо",
         "vi": "Chạy thẳng",
         "zh-Hans": "继续直行"
     }

@@ -54,7 +54,8 @@
             "two linked by distance": "{instruction_one}, então, em {distance}, {instruction_two}",
             "two linked": "{instruction_one}, então {instruction_two}",
             "one in distance": "Em {distance}, {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name} ({ref})",
+            "exit with number": "exit {exit}"
         },
         "arrive": {
             "default": {
@@ -188,13 +189,13 @@
             },
             "sharp left": {
                 "default": "Faça uma curva fechada à esquerda na bifurcação",
-                "name": "Faça uma curva fechada à esquerda na bifurcação em {way_name}",
-                "destination": "Faça uma curva fechada à esquerda na bifurcação sentido {destination}"
+                "name": "Faça uma curva fechada à esquerda em {way_name}",
+                "destination": "Faça uma curva fechada à esquerda sentido {destination}"
             },
             "sharp right": {
                 "default": "Faça uma curva fechada à direita na bifurcação",
-                "name": "Faça uma curva fechada à direita na bifurcação em {way_name}",
-                "destination": "Faça uma curva fechada à direita na bifurcação sentido {destination}"
+                "name": "Faça uma curva fechada à direita em {way_name}",
+                "destination": "Faça uma curva fechada à direita sentido {destination}"
             },
             "uturn": {
                 "default": "Faça o retorno",
@@ -416,68 +417,38 @@
         },
         "roundabout turn": {
             "default": {
-                "default": "Na rotatória, vire {modifier}",
-                "name": "Na rotatória, vire {modifier} na {way_name}",
-                "destination": "Na rotatória, vire {modifier} em direção à {destination}"
+                "default": "Siga {modifier}",
+                "name": "Siga {modifier} em {way_name}",
+                "destination": "Siga {modifier} sentido {destination}"
             },
             "left": {
-                "default": "Na rotatória vire à esquerda",
-                "name": "Na rotatória vire à esquerda em {way_name}",
-                "destination": "Na rotatória vire à esquerda sentido {destination}"
+                "default": "Vire à esquerda",
+                "name": "Vire à esquerda em {way_name}",
+                "destination": "Vire à esquerda sentido {destination}"
             },
             "right": {
-                "default": "Na rotatória vire à direita",
-                "name": "Na rotatória vire à direita em {way_name}",
-                "destination": "Na rotatória vire à direita sentido {destination}"
+                "default": "Vire à direita",
+                "name": "Vire à direita em {way_name}",
+                "destination": "Vire à direita sentido {destination}"
             },
             "straight": {
-                "default": "Na rotatória siga em frente",
-                "name": "Na rotatória siga em frente pela {way_name}",
-                "destination": "Na rotatória siga em frente sentido {destination}"
+                "default": "Continue em frente",
+                "name": "Continue em frente em {way_name}",
+                "destination": "Continue em frente sentido {destination}"
             }
         },
         "exit roundabout": {
             "default": {
-                "default": "Siga {modifier}",
-                "name": "Siga {modifier} em {way_name}",
-                "destination": "Siga {modifier} sentido {destination}"
-            },
-            "left": {
-                "default": "Vire à esquerda",
-                "name": "Vire à esquerda em {way_name}",
-                "destination": "Vire à esquerda sentido {destination}"
-            },
-            "right": {
-                "default": "Vire à direita",
-                "name": "Vire à direita em {way_name}",
-                "destination": "Vire à direita sentido {destination}"
-            },
-            "straight": {
-                "default": "Siga reto",
-                "name": "Siga reto em {way_name}",
-                "destination": "Siga reto sentido {destination}"
+                "default": "Exit the traffic circle",
+                "name": "Exit the traffic circle onto {way_name}",
+                "destination": "Exit the traffic circle towards {destination}"
             }
         },
         "exit rotary": {
             "default": {
-                "default": "Siga {modifier}",
-                "name": "Siga {modifier} em {way_name}",
-                "destination": "Siga {modifier} sentido {destination}"
-            },
-            "left": {
-                "default": "Vire à esquerda",
-                "name": "Vire à esquerda em {way_name}",
-                "destination": "Vire à esquerda sentido {destination}"
-            },
-            "right": {
-                "default": "Vire à direita",
-                "name": "Vire à direita em {way_name}",
-                "destination": "Vire à direita sentido {destination}"
-            },
-            "straight": {
-                "default": "Siga reto",
-                "name": "Siga reto em {way_name}",
-                "destination": "Siga reto sentido {destination}"
+                "default": "Exit the traffic circle",
+                "name": "Exit the traffic circle onto {way_name}",
+                "destination": "Exit the traffic circle towards {destination}"
             }
         },
         "turn": {

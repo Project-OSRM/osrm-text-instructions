@@ -12,7 +12,7 @@
         "de": "Weiterfahren auf Way Name",
         "en": "Continue onto Way Name",
         "eo": "Veturu rekten al Way Name",
-        "es": "Continúe en Way Name",
+        "es": "Continúa en Way Name",
         "es-ES": "Continúa por Way Name",
         "fr": "Continuer tout droit sur Way Name",
         "he": "המשך על Way Name",
@@ -21,11 +21,12 @@
         "nl": "Ga rechtdoor naar Way Name",
         "pl": "Kontynuuj na Way Name",
         "pt-BR": "Continue em Way Name",
+        "pt-PT": "Continue para Way Name",
         "ro": "Continuați pe Way Name",
         "ru": "Продолжите движение по Way Name",
         "sv": "Fortsätt in på Way Name",
         "tr": "Way Name üzerinde devam et",
-        "uk": "Продовжуйте рух по Way Name",
+        "uk": "Рухайтесь по Way Name",
         "vi": "Chạy tiếp trên Way Name",
         "zh-Hans": "Continue onto Way Name"
     }

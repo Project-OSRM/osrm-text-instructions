@@ -54,7 +54,8 @@
             "two linked by distance": "{instruction_one} kaj post {distance} {instruction_two}",
             "two linked": "{instruction_one} kaj sekve {instruction_two}",
             "one in distance": "Post {distance}, {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name} ({ref})",
+            "exit with number": "elveturejo {exit}"
         },
         "arrive": {
             "default": {

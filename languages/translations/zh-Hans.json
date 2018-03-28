@@ -54,55 +54,56 @@
             "two linked by distance": "{instruction_one}, then, in {distance}, {instruction_two}",
             "two linked": "{instruction_one}, then {instruction_two}",
             "one in distance": "In {distance}, {instruction_one}",
-            "name and ref": "{name}（{ref}）"
+            "name and ref": "{name}（{ref}）",
+            "exit with number": "exit {exit}"
         },
         "arrive": {
             "default": {
                 "default": "您已经到达您的{nth}个目的地",
                 "upcoming": "您已经到达您的{nth}个目的地",
-                "short": "您已经到达您的{nth}个目的地",
+                "short": "已到达目的地",
                 "short-upcoming": "您已经到达您的{nth}个目的地"
             },
             "left": {
                 "default": "您已经到达您的{nth}个目的地，在道路左侧",
                 "upcoming": "您已经到达您的{nth}个目的地，在道路左侧",
-                "short": "您已经到达您的{nth}个目的地",
+                "short": "已到达目的地",
                 "short-upcoming": "您已经到达您的{nth}个目的地"
             },
             "right": {
                 "default": "您已经到达您的{nth}个目的地，在道路右侧",
                 "upcoming": "您已经到达您的{nth}个目的地，在道路右侧",
-                "short": "您已经到达您的{nth}个目的地",
+                "short": "已到达目的地",
                 "short-upcoming": "您已经到达您的{nth}个目的地"
             },
             "sharp left": {
                 "default": "您已经到达您的{nth}个目的地，在道路左侧",
                 "upcoming": "您已经到达您的{nth}个目的地，在道路左侧",
-                "short": "您已经到达您的{nth}个目的地",
+                "short": "已到达目的地",
                 "short-upcoming": "您已经到达您的{nth}个目的地"
             },
             "sharp right": {
                 "default": "您已经到达您的{nth}个目的地，在道路右侧",
                 "upcoming": "您已经到达您的{nth}个目的地，在道路右侧",
-                "short": "您已经到达您的{nth}个目的地",
+                "short": "已到达目的地",
                 "short-upcoming": "您已经到达您的{nth}个目的地"
             },
             "slight right": {
                 "default": "您已经到达您的{nth}个目的地，在道路右侧",
                 "upcoming": "您已经到达您的{nth}个目的地，在道路右侧",
-                "short": "您已经到达您的{nth}个目的地",
+                "short": "已到达目的地",
                 "short-upcoming": "您已经到达您的{nth}个目的地"
             },
             "slight left": {
                 "default": "您已经到达您的{nth}个目的地，在道路左侧",
                 "upcoming": "您已经到达您的{nth}个目的地，在道路左侧",
-                "short": "您已经到达您的{nth}个目的地",
+                "short": "已到达目的地",
                 "short-upcoming": "您已经到达您的{nth}个目的地"
             },
             "straight": {
                 "default": "您已经到达您的{nth}个目的地，在您正前方",
                 "upcoming": "您已经到达您的{nth}个目的地，在您正前方",
-                "short": "您已经到达您的{nth}个目的地",
+                "short": "已到达目的地",
                 "short-upcoming": "您已经到达您的{nth}个目的地"
             }
         },
@@ -328,9 +329,9 @@
                 "destination": "右转，前往{destination}"
             },
             "straight": {
-                "default": "直行",
-                "name": "直行，上{way_name}",
-                "destination": "直行，前往{destination}"
+                "default": "继续直行",
+                "name": "继续直行，上{way_name}",
+                "destination": "继续直行，前往{destination}"
             }
         },
         "exit rotary": {

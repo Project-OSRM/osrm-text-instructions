@@ -13,7 +13,7 @@
         "de": "Leicht rechts weiterfahren Richtung Destination 1",
         "en": "Continue slight right towards Destination 1",
         "eo": "Pluu dekstreten direkte al Destination 1",
-        "es": "Continúe ligeramente a la derecha hacia Destination 1",
+        "es": "Continúa levemente a la derecha hacia Destination 1",
         "es-ES": "Continúa ligeramente a la derecha hacia Destination 1",
         "fr": "Continuer légèrement à droite en direction de Destination 1",
         "he": "המשך קלה ימינה לכיוון Destination 1",
@@ -22,12 +22,13 @@
         "nl": "Ga rechts richting Destination 1",
         "pl": "Kontynuuj łagodnie w prawo w kierunku Destination 1",
         "pt-BR": "Continue suave à direita sentido Destination 1",
+        "pt-PT": "Continue ligeiramente à direita em direção a Destination 1",
         "ro": "Continuați ușor dreapta spre Destination 1",
         "ru": "Двигайтесь правее в направлении Destination 1",
         "sv": "Fortsätt höger mot Destination 1",
         "tr": "Destination 1 istikametinde hafif sağ yönde devam et",
         "uk": "Рухайтесь плавно праворуч у напрямку Destination 1",
-        "vi": "Chạy tiếp bên phải nghiêng về hướng Destination 1",
+        "vi": "Chạy tiếp bên phải nghiêng về Destination 1",
         "zh-Hans": "继续向右，前往Destination 1"
     }
 }

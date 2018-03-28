@@ -54,7 +54,8 @@
             "two linked by distance": "{instruction_one}, ואז, בעוד{distance}, {instruction_two}",
             "two linked": "{instruction_one}, ואז {instruction_two}",
             "one in distance": "בעוד {distance}, {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name} ({ref})",
+            "exit with number": "יציאה {exit}"
         },
         "arrive": {
             "default": {

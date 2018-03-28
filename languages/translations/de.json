@@ -54,7 +54,8 @@
             "two linked by distance": "{instruction_one} danach in {distance} {instruction_two}",
             "two linked": "{instruction_one} danach {instruction_two}",
             "one in distance": "In {distance}, {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name} ({ref})",
+            "exit with number": "exit {exit}"
         },
         "arrive": {
             "default": {
@@ -150,7 +151,7 @@
             "default": {
                 "default": "Fahren Sie Richtung {direction}",
                 "name": "Fahren Sie Richtung {direction} auf {way_name}",
-                "namedistance": "Head {direction} on {way_name} for {distance}"
+                "namedistance": "Fahren Sie Richtung {direction} auf {way_name} für {distance}"
             }
         },
         "end of road": {
@@ -188,13 +189,13 @@
             },
             "sharp left": {
                 "default": "Scharf links abbiegen an der Gabelung",
-                "name": "Scharf links abbiegen an der Gabelung auf {way_name}",
-                "destination": "Scharf links abbiegen an der Gabelung Richtung {destination}"
+                "name": "Scharf links auf {way_name}",
+                "destination": "Scharf links Richtung {destination}"
             },
             "sharp right": {
                 "default": "Scharf rechts abbiegen an der Gabelung",
-                "name": "Scharf rechts abbiegen an der Gabelung auf {way_name}",
-                "destination": "Scharf rechts abbiegen an der Gabelung Richtung {destination}"
+                "name": "Scharf rechts auf {way_name}",
+                "destination": "Scharf rechts Richtung {destination}"
             },
             "uturn": {
                 "default": "180°-Wendung",

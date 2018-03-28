@@ -13,8 +13,8 @@
         "de": "Links halten an der Gabelung Richtung Destination 1",
         "en": "Keep left towards Destination 1",
         "eo": "Pluu maldekstren direkte al Destination 1",
-        "es": "Mantengase a la izquierda en el cruce hacia Destination 1",
-        "es-ES": "Mantente a la izquierda en el cruce hacia Destination 1",
+        "es": "Mantente a la izquierda hacia Destination 1",
+        "es-ES": "Mantente a la izquierda hacia Destination 1",
         "fr": "Rester à gauche à l’embranchement en direction de Destination 1",
         "he": "היצמד לשמאל לכיוון Destination 1",
         "id": "Tetap di kiri pada pertigaan menuju Destination 1",
@@ -22,12 +22,13 @@
         "nl": "Links aanhouden op de splitsing richting Destination 1",
         "pl": "Na rozwidleniu trzymaj się lewej strony w kierunku Destination 1",
         "pt-BR": "Mantenha-se à esquerda na bifurcação sentido Destination 1",
-        "ro": "Mențineți stânga la bifurcație spre Destination 1",
+        "pt-PT": "Mantenha-se à esquerda em direção a Destination 1",
+        "ro": "Țineți pe stânga la bifurcație spre Destination 1",
         "ru": "На развилке держитесь левее и продолжите движение в направлении Destination 1",
         "sv": "Håll till vänster mot Destination 1",
         "tr": "Destination 1 istikametindeki yol ayrımında solda kal",
-        "uk": "На роздоріжжі тримайтеся ліворуч у напрямку Destination 1",
-        "vi": "Giữ bên trái về hướng Destination 1",
+        "uk": "Тримайтеся ліворуч в напрямку Destination 1",
+        "vi": "Giữ bên trái về Destination 1",
         "zh-Hans": "在岔道保持向左，前往Destination 1"
     }
 }

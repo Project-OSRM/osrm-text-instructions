@@ -54,7 +54,8 @@
             "two linked by distance": "{instruction_one}, then, in {distance}, {instruction_two}",
             "two linked": "{instruction_one}, then {instruction_two}",
             "one in distance": "In {distance}, {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name} ({ref})",
+            "exit with number": "exit {exit}"
         },
         "arrive": {
             "default": {
@@ -188,13 +189,13 @@
             },
             "sharp left": {
                 "default": "Belok kiri pada pertigaan",
-                "name": "Belok kiri pada pertigaan ke arah {way_name}",
-                "destination": "Belok kiri pada pertigaan menuju {destination}"
+                "name": "Belok kiri tajam ke arah {way_name}",
+                "destination": "Belok kiri tajam menuju {destination}"
             },
             "sharp right": {
                 "default": "Belok kanan pada pertigaan",
-                "name": "Belok kanan pada pertigaan ke arah {way_name}",
-                "destination": "Belok kanan pada pertigaan menuju {destination}"
+                "name": "Belok kanan tajam ke arah {way_name}",
+                "destination": "Belok kanan tajam menuju {destination}"
             },
             "uturn": {
                 "default": "Putar balik",
@@ -453,9 +454,9 @@
                 "destination": "Belok kanan menuju {destination}"
             },
             "straight": {
-                "default": "Lurus",
-                "name": "Lurus arah {way_name}",
-                "destination": "Lurus menuju {destination}"
+                "default": "Lurus terus",
+                "name": "Tetap lurus ke {way_name} ",
+                "destination": "Tetap lurus menuju {destination}"
             }
         },
         "exit rotary": {

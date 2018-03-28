@@ -10,14 +10,15 @@
         "he": "אתה תגיע אל היעד ה{nth} שלך, בהמשך",
         "id": "Anda telah tiba di tujuan ke-{nth}, lurus saja",
         "it": "sei arrivato alla tua {nth} destinazione, si trova davanti a te",
-        "nl": "Je bent gearriveerd. De {nth} bestemming bevindt zich voor je.",
+        "nl": "Uw {nth} bestemming is recht voor u",
         "pl": "Dojechano do miejsca docelowego {nth} , prosto",
         "pt-BR": "Você chegou ao seu {nth} destino, em frente",
+        "pt-PT": "Está a chegar ao seu {nth} destino, em frente",
         "ro": "Ați ajuns la {nth} destinație, în față",
         "ru": "Вы прибудете в {nth} пункт назначения, он будет перед Вами",
         "sv": "Du är snart framme vid din {nth} destination, rakt fram",
         "tr": "{nth} hedefinize ulaştınız, hedefiniz karşınızdadır",
-        "uk": "Ви прибули у ваш {nth} пункт призначення, він – прямо перед вами",
+        "uk": "Ви наближаєтесь до вашого {nth} місця призначення, прямо перед вами",
         "vi": "Đến nơi {nth} ở trước mặt",
         "zh-Hans": "您已经到达您的{nth}个目的地，在您正前方"
     }

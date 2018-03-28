@@ -54,7 +54,8 @@
             "two linked by distance": "{instruction_one}, następnie za {distance} {instruction_two}",
             "two linked": "{instruction_one}, następnie {instruction_two}",
             "one in distance": "Za {distance}, {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name} ({ref})",
+            "exit with number": "exit {exit}"
         },
         "arrive": {
             "default": {
@@ -188,13 +189,13 @@
             },
             "sharp left": {
                 "default": "Na rozwidleniu skręć ostro w lewo",
-                "name": "Na rozwidleniu skręć ostro w lew na {way_name}",
-                "destination": "Na rozwidleniu skręć ostro w lewo w kierunku {destination}"
+                "name": "Skręć ostro w lewo w {way_name}",
+                "destination": "Skręć ostro w lewo w kierunku {destination}"
             },
             "sharp right": {
                 "default": "Na rozwidleniu skręć ostro w prawo",
-                "name": "Na rozwidleniu skręć ostro w prawo na {way_name}",
-                "destination": "Na rozwidleniu skręć ostro w prawo w kierunku {destination}"
+                "name": "Skręć ostro w prawo na {way_name}",
+                "destination": "Skręć ostro w prawo w kierunku {destination}"
             },
             "uturn": {
                 "default": "Zawróć",
@@ -453,9 +454,9 @@
                 "destination": "Skręć w prawo w kierunku {destination}"
             },
             "straight": {
-                "default": "Jedź prosto",
-                "name": "Jedź prosto na {way_name}",
-                "destination": "Jedź prosto w kierunku {destination}"
+                "default": "Kontynuuj prosto",
+                "name": "Kontynuuj prosto na {way_name}",
+                "destination": "Kontynuuj prosto w kierunku {destination}"
             }
         },
         "exit rotary": {

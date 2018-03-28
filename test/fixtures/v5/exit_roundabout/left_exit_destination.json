@@ -20,15 +20,16 @@
         "he": "צא ממעגל התנועה לכיוון Destination 1",
         "id": "Belok kiri menuju Destination 1",
         "it": "Svolta a sinistra verso Destination 1",
-        "nl": "Ga linksaf richting Destination 1",
+        "nl": "Verlaat de rotonde richting Destination 1",
         "pl": "Skręć w lewo w kierunku Destination 1",
-        "pt-BR": "Vire à esquerda sentido Destination 1",
-        "ro": "Virați stânga spre Destination 1",
+        "pt-BR": "Exit the traffic circle towards Destination 1",
+        "pt-PT": "Saia da rotunda em direção a Destination 1",
+        "ro": "Ieșiți din sensul giratoriu spre Destination 1",
         "ru": "Сверните с круговой развязки в направлении Destination 1",
         "sv": "Kör ut ur rondellen mot Destination 1",
         "tr": "Destination 1 istikametinde sola dön",
-        "uk": "Поверніть ліворуч у напрямку Destination 1",
-        "vi": "Ra bùng binh về hướng Destination 1",
+        "uk": "Залишить коло в напрямку Destination 1",
+        "vi": "Ra bùng binh về Destination 1",
         "zh-Hans": "左转，前往Destination 1"
     }
 }

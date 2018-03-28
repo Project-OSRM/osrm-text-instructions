@@ -13,7 +13,7 @@
         "de": "Weiterfahren in Richtung Destination 1",
         "en": "Continue towards Destination 1",
         "eo": "Veturu rekten direkte al Destination 1",
-        "es": "Continúe hacia Destination 1",
+        "es": "Continúa hacia Destination 1",
         "es-ES": "Continúa hacia Destination 1",
         "fr": "Continuer tout droit en direction de Destination 1",
         "he": "המשך לכיוון Destination 1",
@@ -22,12 +22,13 @@
         "nl": "Ga rechtdoor richting Destination 1",
         "pl": "Kontynuuj w kierunku Destination 1",
         "pt-BR": "Continue em direção à Destination 1",
+        "pt-PT": "Continue em direção a Destination 1",
         "ro": "Continuați spre Destination 1",
         "ru": "Продолжите движение в направлении Destination 1",
         "sv": "Fortsätt mot Destination 1",
         "tr": "Destination 1 istikametinde devam et",
-        "uk": "Продовжуйте рух у напрямку Destination 1",
-        "vi": "Chạy tiếp về hướng Destination 1",
+        "uk": "Рухайтесь у напрямку Destination 1",
+        "vi": "Chạy tiếp về Destination 1",
         "zh-Hans": "Continue towards Destination 1"
     }
 }

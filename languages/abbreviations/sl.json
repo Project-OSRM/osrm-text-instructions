@@ -1,0 +1,14 @@
+{
+    "abbreviations": {},
+    "classifications": {},
+    "directions": {
+        "vzhod": "V",
+        "severovzhod": "SV",
+        "jug": "J",
+        "severozahod": "SZ",
+        "sever": "S",
+        "jugovzhod": "JV",
+        "jugozahod": "JZ",
+        "zahod": "Z"
+    }
+}

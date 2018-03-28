@@ -13,7 +13,7 @@
         "de": "Geradeaus weiterfahren auf Way Name",
         "en": "Continue straight onto Way Name",
         "eo": "Veturu rekten al Way Name",
-        "es": "Continúe recto en Way Name",
+        "es": "Continúa recto en Way Name",
         "es-ES": "Al final de la calle continúa recto por Way Name",
         "fr": "Continuer tout droit sur Way Name",
         "he": "המשך ישר על Way Name",
@@ -22,11 +22,12 @@
         "nl": "Ga naar Way Name",
         "pl": "Kontynuuj prosto na Way Name",
         "pt-BR": "Continue em frente em Way Name",
+        "pt-PT": "Continue em frente para Way Name",
         "ro": "Continuați înainte pe Way Name",
         "ru": "Двигайтесь прямо по Way Name",
         "sv": "Fortsätt rakt fram in på Way Name",
         "tr": "Way Name üzerinde düz devam et",
-        "uk": "Продовжуйте рух прямо по Way Name",
+        "uk": "Продовжуйте рух прямо до Way Name",
         "vi": "Chạy tiếp trên Way Name",
         "zh-Hans": "继续直行，上Way Name"
     }

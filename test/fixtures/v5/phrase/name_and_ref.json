@@ -1,0 +1,29 @@
+{
+    "options": {
+        "name": "Metropolis",
+        "ref": 123
+    },
+    "phrases": {
+        "da": "Metropolis (123)",
+        "de": "Metropolis (123)",
+        "en": "Metropolis (123)",
+        "eo": "Metropolis (123)",
+        "es": "Metropolis (123)",
+        "es-ES": "Metropolis (123)",
+        "fr": "Metropolis (123)",
+        "he": "Metropolis (123)",
+        "id": "Metropolis (123)",
+        "it": "Metropolis (123)",
+        "nl": "Metropolis (123)",
+        "pl": "Metropolis (123)",
+        "pt-BR": "Metropolis (123)",
+        "pt-PT": "Metropolis (123)",
+        "ro": "Metropolis (123)",
+        "ru": "Metropolis (123)",
+        "sv": "Metropolis (123)",
+        "tr": "Metropolis (123)",
+        "uk": "Metropolis (123)",
+        "vi": "Metropolis (123)",
+        "zh-Hans": "Metropolis（123）"
+    }
+}

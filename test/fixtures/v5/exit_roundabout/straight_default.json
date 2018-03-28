@@ -16,17 +16,18 @@
         "es-ES": "Sal la rotonda",
         "fr": "Sortir du rond-point",
         "he": "צא ממעגל התנועה",
-        "id": "Lurus",
-        "it": "Prosegui dritto",
-        "nl": "Ga rechtdoor",
-        "pl": "Jedź prosto",
-        "pt-BR": "Siga reto",
-        "ro": "Mergeți înainte",
+        "id": "Lurus terus",
+        "it": "Continua dritto",
+        "nl": "Verlaat de rotonde",
+        "pl": "Kontynuuj prosto",
+        "pt-BR": "Exit the traffic circle",
+        "pt-PT": "Saia da rotunda",
+        "ro": "Ieșiți din sensul giratoriu",
         "ru": "Сверните с круговой развязки",
         "sv": "Kör ut ur rondellen",
-        "tr": "Düz git",
-        "uk": "Рухайтесь прямо",
+        "tr": "Düz devam et",
+        "uk": "Залишить коло",
         "vi": "Ra bùng binh",
-        "zh-Hans": "直行"
+        "zh-Hans": "继续直行"
     }
 }

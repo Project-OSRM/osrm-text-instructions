@@ -12,7 +12,7 @@
         "de": "Scharf links",
         "en": "Make a sharp left",
         "eo": "Turniĝu ege maldekstren",
-        "es": "Gire a la izquierda",
+        "es": "Gira a la izquierda",
         "es-ES": "Gire a la izquierda",
         "fr": "Braquer à gauche",
         "he": "פנה בחדות שמאלה",
@@ -21,11 +21,12 @@
         "nl": "Linksaf",
         "pl": "Skręć ostro w lewo",
         "pt-BR": "Faça uma curva fechada a esquerda",
-        "ro": "Virați brusc stânga",
+        "pt-PT": "Vire acentuadamente à esquerda",
+        "ro": "Virați puternic la stânga",
         "ru": "Резко поверните налево",
         "sv": "Sväng vänster",
         "tr": "Sola keskin dönüş yap",
-        "uk": "Прийміть різко ліворуч",
+        "uk": "Поверніть різко ліворуч",
         "vi": "Quẹo gắt bên trái",
         "zh-Hans": "Make a sharp left"
     }

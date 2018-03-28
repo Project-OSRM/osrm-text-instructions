@@ -54,7 +54,8 @@
             "two linked by distance": "{instruction_one}, poi tra {distance},{instruction_two}",
             "two linked": "{instruction_one}, poi {instruction_two}",
             "one in distance": "tra {distance} {instruction_one}",
-            "name and ref": "{name} ({ref})"
+            "name and ref": "{name} ({ref})",
+            "exit with number": "exit {exit}"
         },
         "arrive": {
             "default": {
@@ -188,13 +189,13 @@
             },
             "sharp left": {
                 "default": "Svolta a sinistra al bivio",
-                "name": "Svolta a sinistra al bivio in {way_name}",
-                "destination": "Svolta a sinistra al bivio verso {destination}"
+                "name": "Svolta a sinistra in {way_name}",
+                "destination": "Svolta a sinistra verso {destination}"
             },
             "sharp right": {
                 "default": "Svolta a destra al bivio",
-                "name": "Svolta a destra al bivio in {way_name}",
-                "destination": "Svolta a destra al bivio verso {destination}"
+                "name": "Svolta a destra in {way_name}",
+                "destination": "Svolta a destra verso {destination}"
             },
             "uturn": {
                 "default": "Fai un'inversione a U",
@@ -453,9 +454,9 @@
                 "destination": "Svolta a destra verso {destination}"
             },
             "straight": {
-                "default": "Prosegui dritto",
-                "name": "Continua su {way_name}",
-                "destination": "Continua verso {destination}"
+                "default": "Continua dritto",
+                "name": "Continua dritto in {way_name}",
+                "destination": "Continua dritto verso {destination}"
             }
         },
         "exit rotary": {

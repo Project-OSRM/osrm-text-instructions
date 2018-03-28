@@ -14,7 +14,7 @@
         "de": "Links abbiegen Richtung Destination 1",
         "en": "Turn left towards Destination 1",
         "eo": "Veturu maldekstren direkte al Destination 1",
-        "es": "Gire a izquierda hacia Destination 1",
+        "es": "Gira a izquierda hacia Destination 1",
         "es-ES": "Gire a la izquierda hacia Destination 1",
         "fr": "Tourner à gauche en direction de Destination 1",
         "he": "פנה שמאלה לכיוון Destination 1",
@@ -23,12 +23,13 @@
         "nl": "Ga links richting Destination 1",
         "pl": "Skręć lewo w kierunku Destination 1",
         "pt-BR": "Vire à esquerda sentido Destination 1",
+        "pt-PT": "Vire à esquerda em direção a Destination 1",
         "ro": "Virați stânga spre Destination 1",
         "ru": "Двигайтесь налево в направлении Destination 1",
         "sv": "Sväng vänster mot Destination 1",
         "tr": "Destination 1 istikametinde sol yöne dön",
         "uk": "Поверніть ліворуч у напрямку Destination 1",
-        "vi": "Quẹo trái về hướng Destination 1",
+        "vi": "Quẹo trái về Destination 1",
         "zh-Hans": "向左行驶，前往Destination 1"
     }
 }

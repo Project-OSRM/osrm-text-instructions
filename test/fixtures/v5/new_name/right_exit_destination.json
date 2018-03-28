@@ -14,7 +14,7 @@
         "de": "Rechts weiterfahren Richtung Destination 1",
         "en": "Continue right towards Destination 1",
         "eo": "Pluu dekstren direkte al Destination 1",
-        "es": "Continúe derecha hacia Destination 1",
+        "es": "Continúa derecha hacia Destination 1",
         "es-ES": "Continúa a la derecha hacia Destination 1",
         "fr": "Continuer à droite en direction de Destination 1",
         "he": "המשך ימינה לכיוון Destination 1",
@@ -23,12 +23,13 @@
         "nl": "Ga rechts richting Destination 1",
         "pl": "Kontynuuj prawo w kierunku Destination 1",
         "pt-BR": "Continue à direita sentido Destination 1",
+        "pt-PT": "Continue à direita em direção a Destination 1",
         "ro": "Continuați dreapta spre Destination 1",
         "ru": "Двигайтесь направо в направлении Destination 1",
         "sv": "Fortsätt höger mot Destination 1",
         "tr": "Destination 1 istikametinde sağ yönde devam et",
         "uk": "Рухайтесь праворуч у напрямку Destination 1",
-        "vi": "Chạy tiếp bên phải về hướng Destination 1",
+        "vi": "Chạy tiếp bên phải về Destination 1",
         "zh-Hans": "继续向右，前往Destination 1"
     }
 }

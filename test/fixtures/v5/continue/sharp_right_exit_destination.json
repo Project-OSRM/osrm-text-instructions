@@ -14,7 +14,7 @@
         "de": "Scharf rechts Richtung Destination 1",
         "en": "Make a sharp right towards Destination 1",
         "eo": "Turniĝu ege dekstren direkte al Destination 1",
-        "es": "Gire a la derecha hacia Destination 1",
+        "es": "Gira a la derecha hacia Destination 1",
         "es-ES": "Gire a la derecha hacia Destination 1",
         "fr": "Braquer à droite en direction de Destination 1",
         "he": "פנה בחדות ימינה לכיוון Destination 1",
@@ -23,12 +23,13 @@
         "nl": "Rechtsaf richting Destination 1",
         "pl": "Skręć ostro w prawo w kierunku Destination 1",
         "pt-BR": "Faça uma curva fechada a direita sentido Destination 1",
-        "ro": "Virați brusc dreapta spre Destination 1",
+        "pt-PT": "Vire acentuadamente à direita em direção a Destination 1",
+        "ro": "Virați puternic la dreapta spre Destination 1",
         "ru": "Резко поверните направо в направлении Destination 1",
         "sv": "Sväng höger mot Destination 1",
         "tr": "Destination 1 istikametinde sağa keskin dönüş yap",
-        "uk": "Прийміть різко праворуч у напрямку Destination 1",
-        "vi": "Quẹo gắt bên phải về hướng Destination 1",
+        "uk": "Поверніть різко праворуч у напрямку Destination 1",
+        "vi": "Quẹo gắt bên phải về Destination 1",
         "zh-Hans": "Make a sharp right towards Destination 1"
     }
 }
