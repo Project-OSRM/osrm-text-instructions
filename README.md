@@ -17,15 +17,14 @@ OSRM Text Instructions is a Node.js library that transforms route data generated
 var version = 'v5';
 var osrmTextInstructions = require('osrm-text-instructions')(version);
 
-// If you’re unsure if the user’s locale is supported, use `getBestMatchingLanguage` method to find an appropriate language.
-var language = osrmTextInstructions.getBestMatchingLanguage('en-US');
-
 response.legs.forEach(function(leg) {
   leg.steps.forEach(function(step) {
-    instruction = osrmTextInstructions.compile(language, step, options)
+    instruction = osrmTextInstructions.compile('en', step, options)
   });
 });
 ```
+
+If you are unsure if the user's locale is supported by osrm-text-inustrctions, use [@mapbox/locale-utils](https://github.com/mapbox/locale-utils) for finding the best fitting language.
 
 #### Parameters `require('osrm-text-instructions')(version)`
 

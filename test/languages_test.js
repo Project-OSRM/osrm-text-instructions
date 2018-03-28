@@ -68,19 +68,3 @@ tape.test('verify language files structure', function(assert) {
 
     assert.end();
 });
-
-/* eslint-disable */
-tape.test('parseLanguageIntoCodes', function(t) {
-    t.deepEqual(languages.parseLanguageIntoCodes('foo'), { region: undefined, language: 'fo', locale: 'fo', script: undefined });
-    t.deepEqual(languages.parseLanguageIntoCodes('en-US'), { region: 'US', language: 'en', locale: 'en-US', script: undefined });
-    t.deepEqual(languages.parseLanguageIntoCodes('zh-CN'), { region: 'CN', language: 'zh', locale: 'zh-CN', script: undefined });
-    t.deepEqual(languages.parseLanguageIntoCodes('zh-Hant'),  { region: undefined, language: 'zh', locale: 'zh-Hant', script: 'Hant' });
-    t.deepEqual(languages.parseLanguageIntoCodes('zh-Hant-TW'),  { region: 'TW', language: 'zh', locale: 'zh-Hant-TW', script: 'Hant' });
-    t.deepEqual(languages.parseLanguageIntoCodes('zh'), { region: undefined, language: 'zh', locale: 'zh', script: undefined });
-    t.deepEqual(languages.parseLanguageIntoCodes('es-MX'), { region: 'MX', language: 'es', locale: 'es-MX', script: undefined });
-    t.deepEqual(languages.parseLanguageIntoCodes('es-ES'), { region: 'ES', language: 'es', locale: 'es-ES', script: undefined });
-    t.deepEqual(languages.parseLanguageIntoCodes('pt-PT'),  { region: 'PT', language: 'pt', locale: 'pt-PT', script: undefined });
-    t.deepEqual(languages.parseLanguageIntoCodes('pt'), { region: undefined, language: 'pt', locale: 'pt', script: undefined });
-    t.end();
-});
-/* eslint-enable */
