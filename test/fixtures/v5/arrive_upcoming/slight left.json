@@ -21,6 +21,6 @@
         "tr": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
         "uk": "Ви наближаєтесь до вашого {nth} місця призначення, ліворуч",
         "vi": "Đến nơi {nth} ở bên trái",
-        "zh-Hans": "您已经到达您的{nth}个目的地，在道路左侧"
+        "zh-Hans": "您即将到达您的{nth}个目的地，目的地在道路右侧"
     }
 }
