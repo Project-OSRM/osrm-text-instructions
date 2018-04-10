@@ -249,6 +249,7 @@ tape.test('v5 compile', function(t) {
 
         assert.end();
     });
+
     t.test('fixtures match generated instructions', function(assert) {
         // pre-load instructions
         var version = 'v5';
