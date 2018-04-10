@@ -62,49 +62,57 @@
                 "default": "Has llegado a tu {nth} destino",
                 "upcoming": "Vas a llegar a tu {nth} destino",
                 "short": "Has llegado",
-                "short-upcoming": "Vas a llegar"
+                "short-upcoming": "Vas a llegar",
+                "named": "Has llegado a {waypoint_name}"
             },
             "left": {
                 "default": "Has llegado a tu {nth} destino, a la izquierda",
                 "upcoming": "Vas a llegar a tu {nth} destino, a la izquierda",
                 "short": "Has llegado",
-                "short-upcoming": "Vas a llegar"
+                "short-upcoming": "Vas a llegar",
+                "named": "Has llegado a {waypoint_name}, a la izquierda"
             },
             "right": {
                 "default": "Has llegado a tu {nth} destino, a la derecha",
                 "upcoming": "Vas a llegar a tu {nth} destino, a la derecha",
                 "short": "Has llegado",
-                "short-upcoming": "Vas a llegar"
+                "short-upcoming": "Vas a llegar",
+                "named": "Has llegado a {waypoint_name}, a la derecha"
             },
             "sharp left": {
                 "default": "Has llegado a tu {nth} destino, a la izquierda",
                 "upcoming": "Vas a llegar a tu {nth} destino, a la izquierda",
                 "short": "Has llegado",
-                "short-upcoming": "Vas a llegar"
+                "short-upcoming": "Vas a llegar",
+                "named": "Has llegado a {waypoint_name}, a la izquierda"
             },
             "sharp right": {
                 "default": "Has llegado a tu {nth} destino, a la derecha",
                 "upcoming": "Vas a llegar a tu {nth} destino, a la derecha",
                 "short": "Has llegado",
-                "short-upcoming": "Vas a llegar"
+                "short-upcoming": "Vas a llegar",
+                "named": "Has llegado a {waypoint_name}, a la derecha"
             },
             "slight right": {
                 "default": "Has llegado a tu {nth} destino, a la derecha",
                 "upcoming": "Vas a llegar a tu {nth} destino, a la derecha",
                 "short": "Has llegado",
-                "short-upcoming": "Vas a llegar"
+                "short-upcoming": "Vas a llegar",
+                "named": "Has llegado a {waypoint_name}, a la derecha"
             },
             "slight left": {
                 "default": "Has llegado a tu {nth} destino, a la izquierda",
                 "upcoming": "Vas a llegar a tu {nth} destino, a la izquierda",
                 "short": "Has llegado",
-                "short-upcoming": "Vas a llegar"
+                "short-upcoming": "Vas a llegar",
+                "named": "Has llegado a {waypoint_name}, a la izquierda"
             },
             "straight": {
                 "default": "Has llegado a tu {nth} destino, en frente",
                 "upcoming": "Vas a llegar a tu {nth} destino, en frente",
                 "short": "Has llegado",
-                "short-upcoming": "Vas a llegar"
+                "short-upcoming": "Vas a llegar",
+                "named": "Has llegado a {waypoint_name}, en frente"
             }
         },
         "continue": {

@@ -62,49 +62,57 @@
                 "default": "Vi atingis vian {nth} celon",
                 "upcoming": "Vi atingos vian {nth} celon",
                 "short": "Vi atingis",
-                "short-upcoming": "Vi atingos"
+                "short-upcoming": "Vi atingos",
+                "named": "Vi atingis {waypoint_name}"
             },
             "left": {
                 "default": "Vi atingis vian {nth} celon ĉe maldekstre",
                 "upcoming": "Vi atingos vian {nth} celon ĉe maldekstre",
                 "short": "Vi atingis",
-                "short-upcoming": "Vi atingos"
+                "short-upcoming": "Vi atingos",
+                "named": "Vi atingis {waypoint_name} ĉe maldekstre"
             },
             "right": {
                 "default": "Vi atingis vian {nth} celon ĉe dekstre",
                 "upcoming": "Vi atingos vian {nth} celon ĉe dekstre",
                 "short": "Vi atingis",
-                "short-upcoming": "Vi atingos"
+                "short-upcoming": "Vi atingos",
+                "named": "Vi atingis {waypoint_name} ĉe dekstre"
             },
             "sharp left": {
                 "default": "Vi atingis vian {nth} celon ĉe maldekstre",
                 "upcoming": "Vi atingos vian {nth} celon ĉe maldekstre",
                 "short": "Vi atingis",
-                "short-upcoming": "Vi atingos"
+                "short-upcoming": "Vi atingos",
+                "named": "Vi atingis {waypoint_name} ĉe maldekstre"
             },
             "sharp right": {
                 "default": "Vi atingis vian {nth} celon ĉe dekstre",
                 "upcoming": "Vi atingos vian {nth} celon ĉe dekstre",
                 "short": "Vi atingis",
-                "short-upcoming": "Vi atingos"
+                "short-upcoming": "Vi atingos",
+                "named": "Vi atingis {waypoint_name} ĉe dekstre"
             },
             "slight right": {
                 "default": "Vi atingis vian {nth} celon ĉe dekstre",
                 "upcoming": "Vi atingos vian {nth} celon ĉe dekstre",
                 "short": "Vi atingis",
-                "short-upcoming": "Vi atingos"
+                "short-upcoming": "Vi atingos",
+                "named": "Vi atingis {waypoint_name} ĉe dekstre"
             },
             "slight left": {
                 "default": "Vi atingis vian {nth} celon ĉe maldekstre",
                 "upcoming": "Vi atingos vian {nth} celon ĉe maldekstre",
                 "short": "Vi atingis",
-                "short-upcoming": "Vi atingos"
+                "short-upcoming": "Vi atingos",
+                "named": "Vi atingis {waypoint_name} ĉe maldekstre"
             },
             "straight": {
                 "default": "Vi atingis vian {nth} celon",
                 "upcoming": "Vi atingos vian {nth} celon rekte",
                 "short": "Vi atingis",
-                "short-upcoming": "Vi atingos"
+                "short-upcoming": "Vi atingos",
+                "named": "Vi atingis {waypoint_name}"
             }
         },
         "continue": {

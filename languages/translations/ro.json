@@ -62,49 +62,57 @@
                 "default": "Ați ajuns la {nth} destinație",
                 "upcoming": "Ați ajuns la {nth} destinație",
                 "short": "Ați ajuns",
-                "short-upcoming": "Veți ajunge"
+                "short-upcoming": "Veți ajunge",
+                "named": "Ați ajuns {waypoint_name}"
             },
             "left": {
                 "default": "Ați ajuns la {nth} destinație, pe stânga",
                 "upcoming": "Ați ajuns la {nth} destinație, pe stânga",
                 "short": "Ați ajuns",
-                "short-upcoming": "Veți ajunge"
+                "short-upcoming": "Veți ajunge",
+                "named": "Ați ajuns {waypoint_name}, pe stânga"
             },
             "right": {
                 "default": "Ați ajuns la {nth} destinație, pe dreapta",
                 "upcoming": "Ați ajuns la {nth} destinație, pe dreapta",
                 "short": "Ați ajuns",
-                "short-upcoming": "Veți ajunge"
+                "short-upcoming": "Veți ajunge",
+                "named": "Ați ajuns {waypoint_name}, pe dreapta"
             },
             "sharp left": {
                 "default": "Ați ajuns la {nth} destinație, pe stânga",
                 "upcoming": "Ați ajuns la {nth} destinație, pe stânga",
                 "short": "Ați ajuns",
-                "short-upcoming": "Veți ajunge"
+                "short-upcoming": "Veți ajunge",
+                "named": "Ați ajuns {waypoint_name}, pe stânga"
             },
             "sharp right": {
                 "default": "Ați ajuns la {nth} destinație, pe dreapta",
                 "upcoming": "Ați ajuns la {nth} destinație, pe dreapta",
                 "short": "Ați ajuns",
-                "short-upcoming": "Veți ajunge"
+                "short-upcoming": "Veți ajunge",
+                "named": "Ați ajuns {waypoint_name}, pe dreapta"
             },
             "slight right": {
                 "default": "Ați ajuns la {nth} destinație, pe dreapta",
                 "upcoming": "Ați ajuns la {nth} destinație, pe dreapta",
                 "short": "Ați ajuns",
-                "short-upcoming": "Veți ajunge"
+                "short-upcoming": "Veți ajunge",
+                "named": "Ați ajuns {waypoint_name}, pe dreapta"
             },
             "slight left": {
                 "default": "Ați ajuns la {nth} destinație, pe stânga",
                 "upcoming": "Ați ajuns la {nth} destinație, pe stânga",
                 "short": "Ați ajuns",
-                "short-upcoming": "Veți ajunge"
+                "short-upcoming": "Veți ajunge",
+                "named": "Ați ajuns {waypoint_name}, pe stânga"
             },
             "straight": {
                 "default": "Ați ajuns la {nth} destinație, în față",
                 "upcoming": "Ați ajuns la {nth} destinație, în față",
                 "short": "Ați ajuns",
-                "short-upcoming": "Veți ajunge"
+                "short-upcoming": "Veți ajunge",
+                "named": "Ați ajuns {waypoint_name}, în față"
             }
         },
         "continue": {

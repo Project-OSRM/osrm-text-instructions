@@ -62,49 +62,57 @@
                 "default": "הגעת אל היעד ה{nth} שלך",
                 "upcoming": "אתה תגיע אל היעד ה{nth} שלך",
                 "short": "הגעת",
-                "short-upcoming": "תגיע"
+                "short-upcoming": "תגיע",
+                "named": "הגעת אל {waypoint_name}"
             },
             "left": {
                 "default": "הגעת אל היעד ה{nth} שלך משמאלך",
                 "upcoming": "אתה תגיע אל היעד ה{nth} שלך משמאלך",
                 "short": "הגעת",
-                "short-upcoming": "תגיע"
+                "short-upcoming": "תגיע",
+                "named": "הגעת אל {waypoint_name} שלך משמאלך"
             },
             "right": {
                 "default": "הגעת אל היעד ה{nth} שלך מימינך",
                 "upcoming": "אתה תגיע אל היעד ה{nth} שלך מימינך",
                 "short": "הגעת",
-                "short-upcoming": "תגיע"
+                "short-upcoming": "תגיע",
+                "named": "הגעת אל {waypoint_name} שלך מימינך"
             },
             "sharp left": {
                 "default": "הגעת אל היעד ה{nth} שלך משמאלך",
                 "upcoming": "אתה תגיע אל היעד ה{nth} שלך משמאלך",
                 "short": "הגעת",
-                "short-upcoming": "תגיע"
+                "short-upcoming": "תגיע",
+                "named": "הגעת אל {waypoint_name} שלך משמאלך"
             },
             "sharp right": {
                 "default": "הגעת אל היעד ה{nth} שלך מימינך",
                 "upcoming": "אתה תגיע אל היעד ה{nth} שלך מימינך",
                 "short": "הגעת",
-                "short-upcoming": "תגיע"
+                "short-upcoming": "תגיע",
+                "named": "הגעת אל {waypoint_name} שלך מימינך"
             },
             "slight right": {
                 "default": "הגעת אל היעד ה{nth} שלך מימינך",
                 "upcoming": "אתה תגיע אל היעד ה{nth} שלך מימינך",
                 "short": "הגעת",
-                "short-upcoming": "תגיע"
+                "short-upcoming": "תגיע",
+                "named": "הגעת אל {waypoint_name} שלך מימינך"
             },
             "slight left": {
                 "default": "הגעת אל היעד ה{nth} שלך משמאלך",
                 "upcoming": "אתה תגיע אל היעד ה{nth} שלך משמאלך",
                 "short": "הגעת",
-                "short-upcoming": "תגיע"
+                "short-upcoming": "תגיע",
+                "named": "הגעת אל {waypoint_name} שלך משמאלך"
             },
             "straight": {
                 "default": "הגעת אל היעד ה{nth} שלך, בהמשך",
                 "upcoming": "אתה תגיע אל היעד ה{nth} שלך, בהמשך",
                 "short": "הגעת",
-                "short-upcoming": "תגיע"
+                "short-upcoming": "תגיע",
+                "named": "הגעת אל {waypoint_name}, בהמשך"
             }
         },
         "continue": {

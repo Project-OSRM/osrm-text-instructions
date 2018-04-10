@@ -62,49 +62,57 @@
                 "default": "Je bent gearriveerd op de {nth} bestemming.",
                 "upcoming": "U arriveert op de {nth} bestemming",
                 "short": "Je bent gearriveerd",
-                "short-upcoming": "U arriveert"
+                "short-upcoming": "U arriveert",
+                "named": "Je bent gearriveerd op {waypoint_name}"
             },
             "left": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
                 "upcoming": "Uw {nth} bestemming bevindt zich aan de linkerkant",
                 "short": "Je bent gearriveerd",
-                "short-upcoming": "U arriveert"
+                "short-upcoming": "U arriveert",
+                "named": "Je bent gearriveerd. {waypoint_name} bevindt zich links."
             },
             "right": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
                 "upcoming": "Uw {nth} bestemming bevindt zich aan de rechterkant",
                 "short": "Je bent gearriveerd",
-                "short-upcoming": "U arriveert"
+                "short-upcoming": "U arriveert",
+                "named": "Je bent gearriveerd. {waypoint_name} bevindt zich rechts."
             },
             "sharp left": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
                 "upcoming": "Uw {nth} bestemming bevindt zich aan de linkerkant",
                 "short": "Je bent gearriveerd",
-                "short-upcoming": "U arriveert"
+                "short-upcoming": "U arriveert",
+                "named": "Je bent gearriveerd. {waypoint_name} bevindt zich links."
             },
             "sharp right": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
                 "upcoming": "Uw {nth} bestemming bevindt zich aan de rechterkant",
                 "short": "Je bent gearriveerd",
-                "short-upcoming": "U arriveert"
+                "short-upcoming": "U arriveert",
+                "named": "Je bent gearriveerd. {waypoint_name} bevindt zich rechts."
             },
             "slight right": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
                 "upcoming": "Uw {nth} bestemming bevindt zich aan de rechterkant",
                 "short": "Je bent gearriveerd",
-                "short-upcoming": "U arriveert"
+                "short-upcoming": "U arriveert",
+                "named": "Je bent gearriveerd. {waypoint_name} bevindt zich rechts."
             },
             "slight left": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
                 "upcoming": "Uw {nth} bestemming bevindt zich aan de linkerkant",
                 "short": "Je bent gearriveerd",
-                "short-upcoming": "U arriveert"
+                "short-upcoming": "U arriveert",
+                "named": "Je bent gearriveerd. {waypoint_name} bevindt zich links."
             },
             "straight": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich voor je.",
                 "upcoming": "Uw {nth} bestemming is recht voor u",
                 "short": "Je bent gearriveerd",
-                "short-upcoming": "U arriveert"
+                "short-upcoming": "U arriveert",
+                "named": "Je bent gearriveerd. {waypoint_name} bevindt zich voor je."
             }
         },
         "continue": {
