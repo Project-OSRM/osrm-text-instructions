@@ -106,6 +106,17 @@ module.exports = function(version) {
 
             return wayName;
         },
+        /**
+         * Formulate a localized text instruction from a step.
+         *
+         * @param  {string} language Language code.
+         * @param  {object} step     Step including maneuver property.
+         * @param  {object} options  Additional options.
+         * @param  {string} options.legIndex  Index of leg in the route.
+         * @param  {string} options.legCount  Total number of legs in the route.
+         *
+         * @return {string} Localized text instruction.
+         */
         compile: function(language, step, options) {
             if (!language) throw new Error('No language code provided');
             if (languages.supportedCodes.indexOf(language) === -1) throw new Error('language code ' + language + ' not loaded');
