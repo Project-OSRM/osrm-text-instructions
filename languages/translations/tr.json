@@ -62,49 +62,57 @@
                 "default": "{nth} hedefinize ulaştınız",
                 "upcoming": "{nth} hedefinize ulaştınız",
                 "short": "{nth} hedefinize ulaştınız",
-                "short-upcoming": "{nth} hedefinize ulaştınız"
+                "short-upcoming": "{nth} hedefinize ulaştınız",
+                "named": "{waypoint_name} ulaştınız"
             },
             "left": {
                 "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
                 "upcoming": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
                 "short": "{nth} hedefinize ulaştınız",
-                "short-upcoming": "{nth} hedefinize ulaştınız"
+                "short-upcoming": "{nth} hedefinize ulaştınız",
+                "named": "{waypoint_name} ulaştınız, hedefiniz solunuzdadır"
             },
             "right": {
                 "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
                 "upcoming": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
                 "short": "{nth} hedefinize ulaştınız",
-                "short-upcoming": "{nth} hedefinize ulaştınız"
+                "short-upcoming": "{nth} hedefinize ulaştınız",
+                "named": "{waypoint_name} ulaştınız, hedefiniz sağınızdadır"
             },
             "sharp left": {
                 "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
                 "upcoming": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
                 "short": "{nth} hedefinize ulaştınız",
-                "short-upcoming": "{nth} hedefinize ulaştınız"
+                "short-upcoming": "{nth} hedefinize ulaştınız",
+                "named": "{waypoint_name} ulaştınız, hedefiniz solunuzdadır"
             },
             "sharp right": {
                 "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
                 "upcoming": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
                 "short": "{nth} hedefinize ulaştınız",
-                "short-upcoming": "{nth} hedefinize ulaştınız"
+                "short-upcoming": "{nth} hedefinize ulaştınız",
+                "named": "{waypoint_name} ulaştınız, hedefiniz sağınızdadır"
             },
             "slight right": {
                 "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
                 "upcoming": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
                 "short": "{nth} hedefinize ulaştınız",
-                "short-upcoming": "{nth} hedefinize ulaştınız"
+                "short-upcoming": "{nth} hedefinize ulaştınız",
+                "named": "{waypoint_name} ulaştınız, hedefiniz sağınızdadır"
             },
             "slight left": {
                 "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
                 "upcoming": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
                 "short": "{nth} hedefinize ulaştınız",
-                "short-upcoming": "{nth} hedefinize ulaştınız"
+                "short-upcoming": "{nth} hedefinize ulaştınız",
+                "named": "{waypoint_name} ulaştınız, hedefiniz solunuzdadır"
             },
             "straight": {
                 "default": "{nth} hedefinize ulaştınız, hedefiniz karşınızdadır",
                 "upcoming": "{nth} hedefinize ulaştınız, hedefiniz karşınızdadır",
                 "short": "{nth} hedefinize ulaştınız",
-                "short-upcoming": "{nth} hedefinize ulaştınız"
+                "short-upcoming": "{nth} hedefinize ulaştınız",
+                "named": "{waypoint_name} ulaştınız, hedefiniz karşınızdadır"
             }
         },
         "continue": {

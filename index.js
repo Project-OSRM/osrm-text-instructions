@@ -106,10 +106,25 @@ module.exports = function(version) {
 
             return wayName;
         },
-        compile: function(language, step, options) {
+
+        /**
+         * Formulate a localized text instruction from a step.
+         *
+         * @param  {string} language           Language code.
+         * @param  {object} step               Step including maneuver property.
+         * @param  {object} opts               Additional options.
+         * @param  {string} opts.legIndex      Index of leg in the route.
+         * @param  {string} opts.legCount      Total number of legs in the route.
+         * @param  {array}  opts.classes       List of road classes.
+         * @param  {string} opts.waypointName  Name of waypoint for arrival instruction.
+         *
+         * @return {string} Localized text instruction.
+         */
+        compile: function(language, step, opts) {
             if (!language) throw new Error('No language code provided');
             if (languages.supportedCodes.indexOf(language) === -1) throw new Error('language code ' + language + ' not loaded');
             if (!step.maneuver) throw new Error('No step maneuver provided');
+            var options = opts || {};
 
             var type = step.maneuver.type;
             var modifier = step.maneuver.modifier;
@@ -185,6 +200,8 @@ module.exports = function(version) {
                 instruction = instructionObject.exit;
             } else if (wayName && instructionObject.name) {
                 instruction = instructionObject.name;
+            } else if (options.waypointName && instructionObject.named) {
+                instruction = instructionObject.named;
             } else {
                 instruction = instructionObject.default;
             }
@@ -199,7 +216,7 @@ module.exports = function(version) {
                 firstDestination = destinationRef || destination || '';
             }
 
-            var nthWaypoint = options && options.legIndex >= 0 && options.legIndex !== options.legCount - 1 ? this.ordinalize(language, options.legIndex + 1) : '';
+            var nthWaypoint = options.legIndex >= 0 && options.legIndex !== options.legCount - 1 ? this.ordinalize(language, options.legIndex + 1) : '';
 
             // Replace tokens
             // NOOP if they don't exist
@@ -212,7 +229,8 @@ module.exports = function(version) {
                 'lane_instruction': laneInstruction,
                 'modifier': instructions[language][version].constants.modifier[modifier],
                 'direction': this.directionFromDegree(language, step.maneuver.bearing_after),
-                'nth': nthWaypoint
+                'nth': nthWaypoint,
+                'waypoint_name': options.waypointName
             };
 
             return this.tokenize(language, instruction, replaceTokens, options);

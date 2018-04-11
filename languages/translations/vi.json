@@ -62,49 +62,57 @@
                 "default": "Đến nơi {nth}",
                 "upcoming": "Đến nơi {nth}",
                 "short": "Đến nơi",
-                "short-upcoming": "Đến nơi"
+                "short-upcoming": "Đến nơi",
+                "named": "Đến {waypoint_name}"
             },
             "left": {
                 "default": "Đến nơi {nth} ở bên trái",
                 "upcoming": "Đến nơi {nth} ở bên trái",
                 "short": "Đến nơi",
-                "short-upcoming": "Đến nơi"
+                "short-upcoming": "Đến nơi",
+                "named": "Đến {waypoint_name} ở bên trái"
             },
             "right": {
                 "default": "Đến nơi {nth} ở bên phải",
                 "upcoming": "Đến nơi {nth} ở bên phải",
                 "short": "Đến nơi",
-                "short-upcoming": "Đến nơi"
+                "short-upcoming": "Đến nơi",
+                "named": "Đến {waypoint_name} ở bên phải"
             },
             "sharp left": {
                 "default": "Đến nơi {nth} ở bên trái",
                 "upcoming": "Đến nơi {nth} ở bên trái",
                 "short": "Đến nơi",
-                "short-upcoming": "Đến nơi"
+                "short-upcoming": "Đến nơi",
+                "named": "Đến {waypoint_name} ở bên trái"
             },
             "sharp right": {
                 "default": "Đến nơi {nth} ở bên phải",
                 "upcoming": "Đến nơi {nth} ở bên phải",
                 "short": "Đến nơi",
-                "short-upcoming": "Đến nơi"
+                "short-upcoming": "Đến nơi",
+                "named": "Đến {waypoint_name} ở bên phải"
             },
             "slight right": {
                 "default": "Đến nơi {nth} ở bên phải",
                 "upcoming": "Đến nơi {nth} ở bên phải",
                 "short": "Đến nơi",
-                "short-upcoming": "Đến nơi"
+                "short-upcoming": "Đến nơi",
+                "named": "Đến {waypoint_name} ở bên phải"
             },
             "slight left": {
                 "default": "Đến nơi {nth} ở bên trái",
                 "upcoming": "Đến nơi {nth} ở bên trái",
                 "short": "Đến nơi",
-                "short-upcoming": "Đến nơi"
+                "short-upcoming": "Đến nơi",
+                "named": "Đến {waypoint_name} ở bên trái"
             },
             "straight": {
                 "default": "Đến nơi {nth} ở trước mặt",
                 "upcoming": "Đến nơi {nth} ở trước mặt",
                 "short": "Đến nơi",
-                "short-upcoming": "Đến nơi"
+                "short-upcoming": "Đến nơi",
+                "named": "Đến {waypoint_name} ở trước mặt"
             }
         },
         "continue": {

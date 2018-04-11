@@ -249,6 +249,7 @@ tape.test('v5 compile', function(t) {
 
         assert.end();
     });
+
     t.test('fixtures match generated instructions', function(assert) {
         // pre-load instructions
         var version = 'v5';
@@ -298,6 +299,7 @@ tape.test('v5 compile', function(t) {
                         options.legIndex = fixture.options.legIndex;
                         options.legCount = fixture.options.legCount;
                         options.classes = fixture.options.classes;
+                        options.waypointName = fixture.options.waypointName;
                     }
                     Object.keys(fixture.instructions).forEach((l) => {
                         // ignore custom instructions that don't get compiled

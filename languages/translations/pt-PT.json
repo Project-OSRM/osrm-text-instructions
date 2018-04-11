@@ -62,49 +62,57 @@
                 "default": "Chegou ao seu {nth} destino",
                 "upcoming": "Está a chegar ao seu {nth} destino",
                 "short": "Chegou",
-                "short-upcoming": "Está a chegar"
+                "short-upcoming": "Está a chegar",
+                "named": "Chegou a {waypoint_name}"
             },
             "left": {
                 "default": "Chegou ao seu {nth} destino, à esquerda",
                 "upcoming": "Está a chegar ao seu {nth} destino, à esquerda",
                 "short": "Chegou",
-                "short-upcoming": "Está a chegar"
+                "short-upcoming": "Está a chegar",
+                "named": "Chegou a {waypoint_name}, à esquerda"
             },
             "right": {
                 "default": "Chegou ao seu {nth} destino, à direita",
                 "upcoming": "Está a chegar ao seu {nth} destino, à direita",
                 "short": "Chegou",
-                "short-upcoming": "Está a chegar"
+                "short-upcoming": "Está a chegar",
+                "named": "Chegou a {waypoint_name}, à direita"
             },
             "sharp left": {
                 "default": "Chegou ao seu {nth} destino, à esquerda",
                 "upcoming": "Está a chegar ao seu {nth} destino, à esquerda",
                 "short": "Chegou",
-                "short-upcoming": "Está a chegar"
+                "short-upcoming": "Está a chegar",
+                "named": "Chegou a {waypoint_name}, à esquerda"
             },
             "sharp right": {
                 "default": "Chegou ao seu {nth} destino, à direita",
                 "upcoming": "Está a chegar ao seu {nth} destino, à direita",
                 "short": "Chegou",
-                "short-upcoming": "Está a chegar"
+                "short-upcoming": "Está a chegar",
+                "named": "Chegou a {waypoint_name}, à direita"
             },
             "slight right": {
                 "default": "Chegou ao seu {nth} destino, à direita",
                 "upcoming": "Está a chegar ao seu {nth} destino, à direita",
                 "short": "Chegou",
-                "short-upcoming": "Está a chegar"
+                "short-upcoming": "Está a chegar",
+                "named": "Chegou a {waypoint_name}, à direita"
             },
             "slight left": {
                 "default": "Chegou ao seu {nth} destino, à esquerda",
                 "upcoming": "Está a chegar ao seu {nth} destino, à esquerda",
                 "short": "Chegou",
-                "short-upcoming": "Está a chegar"
+                "short-upcoming": "Está a chegar",
+                "named": "Chegou a {waypoint_name}, à esquerda"
             },
             "straight": {
                 "default": "Chegou ao seu {nth} destino, em frente",
                 "upcoming": "Está a chegar ao seu {nth} destino, em frente",
                 "short": "Chegou",
-                "short-upcoming": "Está a chegar"
+                "short-upcoming": "Está a chegar",
+                "named": "Chegou a {waypoint_name}, em frente"
             }
         },
         "continue": {

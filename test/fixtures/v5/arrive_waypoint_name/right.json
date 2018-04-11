@@ -1,0 +1,37 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "arrive",
+            "modifier": "right"
+        },
+        "name": "Street Name"
+    },
+    "instructions": {
+        "da": "Du er ankommet til Somewhere, som befinder sig til højre",
+        "de": "Sie haben Ihr Somewhere, es befindet sich rechts",
+        "en": "You have arrived at Somewhere, on the right",
+        "eo": "Vi atingis Somewhere ĉe dekstre",
+        "es": "Has llegado a Somewhere, a la derecha",
+        "es-ES": "Has llegado a Somewhere, a la derecha",
+        "fr": "Vous êtes arrivés à Somewhere, sur la droite",
+        "he": "הגעת אל Somewhere שלך מימינך",
+        "id": "Anda telah tiba di Somewhere, di sebelah kanan",
+        "it": "Sei arrivato a Somewhere, sulla destra",
+        "nl": "Je bent gearriveerd. Somewhere bevindt zich rechts.",
+        "pl": "Dojechano do Somewhere, po prawej stronie",
+        "pt-BR": "Você chegou a Somewhere, à direita",
+        "pt-PT": "Chegou a Somewhere, à direita",
+        "ro": "Ați ajuns Somewhere, pe dreapta",
+        "ru": "Вы прибыли в пункт назначения, Somewhere, он находится справа",
+        "sv": "Du är framme vid Somewhere, till höger",
+        "tr": "Somewhere ulaştınız, hedefiniz sağınızdadır",
+        "uk": "Ви прибули у Somewhere, він – праворуч",
+        "vi": "Đến Somewhere ở bên phải",
+        "zh-Hans": "已到达Somewhere，在道路右侧"
+    },
+    "options": {
+        "legIndex": 0,
+        "legCount": 2,
+        "waypointName": "Somewhere"
+    }
+}

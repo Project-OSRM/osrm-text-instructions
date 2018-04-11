@@ -62,49 +62,57 @@
                 "default": "Você chegou ao seu {nth} destino",
                 "upcoming": "Você chegou ao seu {nth} destino",
                 "short": "Você chegou ao seu {nth} destino",
-                "short-upcoming": "Você chegou ao seu {nth} destino"
+                "short-upcoming": "Você chegou ao seu {nth} destino",
+                "named": "Você chegou a {waypoint_name}"
             },
             "left": {
                 "default": "Você chegou ao seu {nth} destino, à esquerda",
                 "upcoming": "Você chegou ao seu {nth} destino, à esquerda",
                 "short": "Você chegou ao seu {nth} destino",
-                "short-upcoming": "Você chegou ao seu {nth} destino"
+                "short-upcoming": "Você chegou ao seu {nth} destino",
+                "named": "Você chegou a {waypoint_name}, à esquerda"
             },
             "right": {
                 "default": "Você chegou ao seu {nth} destino, à direita",
                 "upcoming": "Você chegou ao seu {nth} destino, à direita",
                 "short": "Você chegou ao seu {nth} destino",
-                "short-upcoming": "Você chegou ao seu {nth} destino"
+                "short-upcoming": "Você chegou ao seu {nth} destino",
+                "named": "Você chegou a {waypoint_name}, à direita"
             },
             "sharp left": {
                 "default": "Você chegou ao seu {nth} destino, à esquerda",
                 "upcoming": "Você chegou ao seu {nth} destino, à esquerda",
                 "short": "Você chegou ao seu {nth} destino",
-                "short-upcoming": "Você chegou ao seu {nth} destino"
+                "short-upcoming": "Você chegou ao seu {nth} destino",
+                "named": "Você chegou a {waypoint_name}, à esquerda"
             },
             "sharp right": {
                 "default": "Você chegou ao seu {nth} destino, à direita",
                 "upcoming": "Você chegou ao seu {nth} destino, à direita",
                 "short": "Você chegou ao seu {nth} destino",
-                "short-upcoming": "Você chegou ao seu {nth} destino"
+                "short-upcoming": "Você chegou ao seu {nth} destino",
+                "named": "Você chegou a {waypoint_name}, à direita"
             },
             "slight right": {
                 "default": "Você chegou ao seu {nth} destino, à direita",
                 "upcoming": "Você chegou ao seu {nth} destino, à direita",
                 "short": "Você chegou ao seu {nth} destino",
-                "short-upcoming": "Você chegou ao seu {nth} destino"
+                "short-upcoming": "Você chegou ao seu {nth} destino",
+                "named": "Você chegou a {waypoint_name}, à direita"
             },
             "slight left": {
                 "default": "Você chegou ao seu {nth} destino, à esquerda",
                 "upcoming": "Você chegou ao seu {nth} destino, à esquerda",
                 "short": "Você chegou ao seu {nth} destino",
-                "short-upcoming": "Você chegou ao seu {nth} destino"
+                "short-upcoming": "Você chegou ao seu {nth} destino",
+                "named": "Você chegou a {waypoint_name}, à esquerda"
             },
             "straight": {
                 "default": "Você chegou ao seu {nth} destino, em frente",
                 "upcoming": "Você chegou ao seu {nth} destino, em frente",
                 "short": "Você chegou ao seu {nth} destino",
-                "short-upcoming": "Você chegou ao seu {nth} destino"
+                "short-upcoming": "Você chegou ao seu {nth} destino",
+                "named": "Você chegou a {waypoint_name}, em frente"
             }
         },
         "continue": {

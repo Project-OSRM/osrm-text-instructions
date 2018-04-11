@@ -62,49 +62,57 @@
                 "default": "Du är framme vid din {nth} destination",
                 "upcoming": "Du är snart framme vid din {nth} destination",
                 "short": "Du är framme",
-                "short-upcoming": "Du är snart framme"
+                "short-upcoming": "Du är snart framme",
+                "named": "Du är framme vid {waypoint_name}"
             },
             "left": {
                 "default": "Du är framme vid din {nth} destination, till vänster",
                 "upcoming": "Du är snart framme vid din {nth} destination, till vänster",
                 "short": "Du är framme",
-                "short-upcoming": "Du är snart framme"
+                "short-upcoming": "Du är snart framme",
+                "named": "Du är framme vid {waypoint_name}, till vänster"
             },
             "right": {
                 "default": "Du är framme vid din {nth} destination, till höger",
                 "upcoming": "Du är snart framme vid din {nth} destination, till höger",
                 "short": "Du är framme",
-                "short-upcoming": "Du är snart framme"
+                "short-upcoming": "Du är snart framme",
+                "named": "Du är framme vid {waypoint_name}, till höger"
             },
             "sharp left": {
                 "default": "Du är framme vid din {nth} destination, till vänster",
                 "upcoming": "Du är snart framme vid din {nth} destination, till vänster",
                 "short": "Du är framme",
-                "short-upcoming": "Du är snart framme"
+                "short-upcoming": "Du är snart framme",
+                "named": "Du är framme vid {waypoint_name}, till vänster"
             },
             "sharp right": {
                 "default": "Du är framme vid din {nth} destination, till höger",
                 "upcoming": "Du är snart framme vid din {nth} destination, till höger",
                 "short": "Du är framme",
-                "short-upcoming": "Du är snart framme"
+                "short-upcoming": "Du är snart framme",
+                "named": "Du är framme vid {waypoint_name}, till höger"
             },
             "slight right": {
                 "default": "Du är framme vid din {nth} destination, till höger",
                 "upcoming": "Du är snart framme vid din {nth} destination, till höger",
                 "short": "Du är framme",
-                "short-upcoming": "Du är snart framme"
+                "short-upcoming": "Du är snart framme",
+                "named": "Du är framme vid {waypoint_name}, till höger"
             },
             "slight left": {
                 "default": "Du är framme vid din {nth} destination, till vänster",
                 "upcoming": "Du är snart framme vid din {nth} destination, till vänster",
                 "short": "Du är framme",
-                "short-upcoming": "Du är snart framme"
+                "short-upcoming": "Du är snart framme",
+                "named": "Du är framme vid {waypoint_name}, till vänster"
             },
             "straight": {
                 "default": "Du är framme vid din {nth} destination, rakt fram",
                 "upcoming": "Du är snart framme vid din {nth} destination, rakt fram",
                 "short": "Du är framme",
-                "short-upcoming": "Du är snart framme"
+                "short-upcoming": "Du är snart framme",
+                "named": "Du är framme vid {waypoint_name}, rakt fram"
             }
         },
         "continue": {

@@ -62,49 +62,57 @@
                 "default": "Sei arrivato alla tua {nth} destinazione",
                 "upcoming": "Sei arrivato alla tua {nth} destinazione",
                 "short": "Sei arrivato alla tua {nth} destinazione",
-                "short-upcoming": "Sei arrivato alla tua {nth} destinazione"
+                "short-upcoming": "Sei arrivato alla tua {nth} destinazione",
+                "named": "Sei arrivato a {waypoint_name}"
             },
             "left": {
                 "default": "sei arrivato alla tua {nth} destinazione, sulla sinistra",
                 "upcoming": "sei arrivato alla tua {nth} destinazione, sulla sinistra",
                 "short": "Sei arrivato alla tua {nth} destinazione",
-                "short-upcoming": "Sei arrivato alla tua {nth} destinazione"
+                "short-upcoming": "Sei arrivato alla tua {nth} destinazione",
+                "named": "sei arrivato a {waypoint_name}, sulla sinistra"
             },
             "right": {
                 "default": "sei arrivato alla tua {nth} destinazione, sulla destra",
                 "upcoming": "sei arrivato alla tua {nth} destinazione, sulla destra",
                 "short": "Sei arrivato alla tua {nth} destinazione",
-                "short-upcoming": "Sei arrivato alla tua {nth} destinazione"
+                "short-upcoming": "Sei arrivato alla tua {nth} destinazione",
+                "named": "sei arrivato a {waypoint_name}, sulla destra"
             },
             "sharp left": {
                 "default": "sei arrivato alla tua {nth} destinazione, sulla sinistra",
                 "upcoming": "sei arrivato alla tua {nth} destinazione, sulla sinistra",
                 "short": "Sei arrivato alla tua {nth} destinazione",
-                "short-upcoming": "Sei arrivato alla tua {nth} destinazione"
+                "short-upcoming": "Sei arrivato alla tua {nth} destinazione",
+                "named": "sei arrivato a {waypoint_name}, sulla sinistra"
             },
             "sharp right": {
                 "default": "sei arrivato alla tua {nth} destinazione, sulla destra",
                 "upcoming": "sei arrivato alla tua {nth} destinazione, sulla destra",
                 "short": "Sei arrivato alla tua {nth} destinazione",
-                "short-upcoming": "Sei arrivato alla tua {nth} destinazione"
+                "short-upcoming": "Sei arrivato alla tua {nth} destinazione",
+                "named": "sei arrivato a {waypoint_name}, sulla destra"
             },
             "slight right": {
                 "default": "sei arrivato alla tua {nth} destinazione, sulla destra",
                 "upcoming": "sei arrivato alla tua {nth} destinazione, sulla destra",
                 "short": "Sei arrivato alla tua {nth} destinazione",
-                "short-upcoming": "Sei arrivato alla tua {nth} destinazione"
+                "short-upcoming": "Sei arrivato alla tua {nth} destinazione",
+                "named": "sei arrivato a {waypoint_name}, sulla destra"
             },
             "slight left": {
                 "default": "sei arrivato alla tua {nth} destinazione, sulla sinistra",
                 "upcoming": "sei arrivato alla tua {nth} destinazione, sulla sinistra",
                 "short": "Sei arrivato alla tua {nth} destinazione",
-                "short-upcoming": "Sei arrivato alla tua {nth} destinazione"
+                "short-upcoming": "Sei arrivato alla tua {nth} destinazione",
+                "named": "sei arrivato a {waypoint_name}, sulla sinistra"
             },
             "straight": {
                 "default": "sei arrivato alla tua {nth} destinazione, si trova davanti a te",
                 "upcoming": "sei arrivato alla tua {nth} destinazione, si trova davanti a te",
                 "short": "Sei arrivato alla tua {nth} destinazione",
-                "short-upcoming": "Sei arrivato alla tua {nth} destinazione"
+                "short-upcoming": "Sei arrivato alla tua {nth} destinazione",
+                "named": "sei arrivato a {waypoint_name}, si trova davanti a te"
             }
         },
         "continue": {

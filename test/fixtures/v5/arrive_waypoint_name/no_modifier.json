@@ -1,0 +1,36 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "arrive"
+        },
+        "name": "Street Name"
+    },
+    "instructions": {
+        "da": "Du er ankommet til Somewhere",
+        "de": "Sie haben Ihr Somewhere",
+        "en": "You have arrived at Somewhere",
+        "eo": "Vi atingis Somewhere",
+        "es": "Has llegado a Somewhere",
+        "es-ES": "Has llegado a Somewhere",
+        "fr": "Vous êtes arrivés à Somewhere",
+        "he": "הגעת אל Somewhere",
+        "id": "Anda telah tiba di Somewhere",
+        "it": "Sei arrivato a Somewhere",
+        "nl": "Je bent gearriveerd op Somewhere",
+        "pl": "Dojechano do Somewhere",
+        "pt-BR": "Você chegou a Somewhere",
+        "pt-PT": "Chegou a Somewhere",
+        "ro": "Ați ajuns Somewhere",
+        "ru": "Вы прибыли в пункт назначения, Somewhere",
+        "sv": "Du är framme vid Somewhere",
+        "tr": "Somewhere ulaştınız",
+        "uk": "Ви прибули у Somewhere",
+        "vi": "Đến Somewhere",
+        "zh-Hans": "已到达Somewhere"
+    },
+    "options": {
+        "legIndex": 0,
+        "legCount": 2,
+        "waypointName": "Somewhere"
+    }
+}

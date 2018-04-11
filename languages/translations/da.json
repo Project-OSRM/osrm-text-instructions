@@ -62,49 +62,57 @@
                 "default": "Du er ankommet til din {nth} destination",
                 "upcoming": "Du vil ankomme til din {nth} destination",
                 "short": "Du er ankommet",
-                "short-upcoming": "Du vil ankomme"
+                "short-upcoming": "Du vil ankomme",
+                "named": "Du er ankommet til {waypoint_name}"
             },
             "left": {
                 "default": "Du er ankommet til din {nth} destination, som befinder sig til venstre",
                 "upcoming": "Du vil ankomme til din {nth} destination på venstre hånd",
                 "short": "Du er ankommet",
-                "short-upcoming": "Du vil ankomme"
+                "short-upcoming": "Du vil ankomme",
+                "named": "Du er ankommet til {waypoint_name}, som befinder sig til venstre"
             },
             "right": {
                 "default": "Du er ankommet til din {nth} destination, som befinder sig til højre",
                 "upcoming": "Du vil ankomme til din {nth} destination på højre hånd",
                 "short": "Du er ankommet",
-                "short-upcoming": "Du vil ankomme"
+                "short-upcoming": "Du vil ankomme",
+                "named": "Du er ankommet til {waypoint_name}, som befinder sig til højre"
             },
             "sharp left": {
                 "default": "Du er ankommet til din {nth} destination, som befinder sig til venstre",
                 "upcoming": "Du vil ankomme til din {nth} destination på venstre hånd",
                 "short": "Du er ankommet",
-                "short-upcoming": "Du vil ankomme"
+                "short-upcoming": "Du vil ankomme",
+                "named": "Du er ankommet til {waypoint_name}, som befinder sig til venstre"
             },
             "sharp right": {
                 "default": "Du er ankommet til din {nth} destination, som befinder sig til højre",
                 "upcoming": "Du vil ankomme til din {nth} destination på højre hånd",
                 "short": "Du er ankommet",
-                "short-upcoming": "Du vil ankomme"
+                "short-upcoming": "Du vil ankomme",
+                "named": "Du er ankommet til {waypoint_name}, som befinder sig til højre"
             },
             "slight right": {
                 "default": "Du er ankommet til din {nth} destination, som befinder sig til højre",
                 "upcoming": "Du vil ankomme til din {nth} destination på højre hånd",
                 "short": "Du er ankommet",
-                "short-upcoming": "Du vil ankomme"
+                "short-upcoming": "Du vil ankomme",
+                "named": "Du er ankommet til {waypoint_name}, som befinder sig til højre"
             },
             "slight left": {
                 "default": "Du er ankommet til din {nth} destination, som befinder sig til venstre",
                 "upcoming": "Du vil ankomme til din {nth} destination på venstre hånd",
                 "short": "Du er ankommet",
-                "short-upcoming": "Du vil ankomme"
+                "short-upcoming": "Du vil ankomme",
+                "named": "Du er ankommet til {waypoint_name}, som befinder sig til venstre"
             },
             "straight": {
                 "default": "Du er ankommet til din {nth} destination, der befinder sig lige frem",
                 "upcoming": "Du vil ankomme til din {nth} destination foran dig",
                 "short": "Du er ankommet",
-                "short-upcoming": "Du vil ankomme"
+                "short-upcoming": "Du vil ankomme",
+                "named": "Du er ankommet til {waypoint_name}, der befinder sig lige frem"
             }
         },
         "continue": {

@@ -15,8 +15,9 @@ function optionize(phrase) {
         var re = new RegExp(pattern[0], 'gi');
         result = result.replace(re, pattern[1]);
     });
+
     return result;
-};
+}
 
 function iterate(values) {
     Object.keys(values).forEach(function (key) {
@@ -27,10 +28,11 @@ function iterate(values) {
             iterate(value);
         }
     });
-};
+}
 
 module.exports = function(content) {
     // Iterate all content string values recursively
     iterate(content.v5);
+
     return content;
 };
