@@ -130,7 +130,7 @@ tape.test('verify existence/update fixtures', function(assert) {
         checkOrWrite(step, `${basePath}_exit_destination`);
     }
 
-    ['modes', 'other', 'arrive_waypoint', 'arrive_waypoint_last', 'arrive_upcoming', 'arrive_short', 'arrive_short_upcoming'].concat(constants.types).forEach((type) => {
+    ['modes', 'other', 'arrive_waypoint', 'arrive_waypoint_last', 'arrive_waypoint_name', 'arrive_upcoming', 'arrive_short', 'arrive_short_upcoming'].concat(constants.types).forEach((type) => {
         var basePath = path.join(__dirname, 'fixtures', 'v5', underscorify(type));
         var baseStep, step;
 
@@ -231,6 +231,34 @@ tape.test('verify existence/update fixtures', function(assert) {
                 checkOrWrite(step, path.join(basePath, underscorify(modifier)), {
                     legIndex: 1,
                     legCount: 2
+                });
+            });
+            break;
+        case 'arrive_waypoint_name':
+            step = {
+                maneuver: {
+                    type: 'arrive'
+                },
+                name: 'Street Name'
+            };
+            checkOrWrite(step, path.join(basePath, 'no_modifier'), {
+                legIndex: 0,
+                legCount: 2,
+                waypointName: 'Somewhere'
+            });
+
+            constants.modifiers.forEach((modifier) => {
+                var step = {
+                    maneuver: {
+                        type: 'arrive',
+                        modifier: modifier
+                    },
+                    name: 'Street Name'
+                };
+                checkOrWrite(step, path.join(basePath, underscorify(modifier)), {
+                    legIndex: 0,
+                    legCount: 2,
+                    waypointName: 'Somewhere'
                 });
             });
             break;
