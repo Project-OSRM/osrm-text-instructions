@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
-## master
+## 0.13.0 2018-04-11
 
 - Added a European Portuguese localization. [#229](https://github.com/Project-OSRM/osrm-text-instructions/pull/229)
 - The Spanish localization now uses the informal imperative form instead of the formal imperative form, for consistency with the Castillian Spanish localization. [#230](https://github.com/Project-OSRM/osrm-text-instructions/pull/230)
