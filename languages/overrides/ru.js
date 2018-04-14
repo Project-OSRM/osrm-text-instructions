@@ -1,12 +1,12 @@
 // Add grammar option to {way_name} and {rotary_name} depending on phrase context
 
 var replaces = [
-    ['(развернитесь +на) +\{((way_name)|(rotary_name))\}', '$1 {$2:prepositional}'],
-    ['(на) +\{((way_name)|(rotary_name))\} +с', '$1 {$2:prepositional} с'],
-    ['(на) +\{((way_name)|(rotary_name))\} +по', '$1 {$2:prepositional} по'],
-    ['(в +конце) +\{((way_name)|(rotary_name))\}', '$1 {$2:genitive}'],
-    ['(по) +\{((way_name)|(rotary_name))\}', '$1 {$2:dative}'],
-    ['(на) +\{((way_name)|(rotary_name))\}', '$1 {$2:accusative}']
+    ['(развернитесь +на) +\{((way_name)|(rotary_name))\}', '$1 {$2:prepositional}'], // eslint-disable-line no-useless-escape
+    ['(на) +\{((way_name)|(rotary_name))\} +с', '$1 {$2:prepositional} с'], // eslint-disable-line no-useless-escape
+    ['(на) +\{((way_name)|(rotary_name))\} +по', '$1 {$2:prepositional} по'], // eslint-disable-line no-useless-escape
+    ['(в +конце) +\{((way_name)|(rotary_name))\}', '$1 {$2:genitive}'], // eslint-disable-line no-useless-escape
+    ['(по) +\{((way_name)|(rotary_name))\}', '$1 {$2:dative}'], // eslint-disable-line no-useless-escape
+    ['(на) +\{((way_name)|(rotary_name))\}', '$1 {$2:accusative}'] // eslint-disable-line no-useless-escape
 ];
 
 function optionize(phrase) {
