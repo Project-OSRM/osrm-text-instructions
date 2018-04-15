@@ -9,6 +9,7 @@ All notable changes to this project will be documented in this file. For change 
 - Updated translations in Simplified Chinese. [#233](https://github.com/Project-OSRM/osrm-text-instructions/pull/233)
 - Updated Russian grammar with 'chord' status street name. [#245](https://github.com/Project-OSRM/osrm-text-instructions/pull/245)
 - Added Russian church names abbreviations. [#237](https://github.com/Project-OSRM/osrm-text-instructions/pull/237)
+- Corrected Lithuanian streets abbreviations. [#238](https://github.com/Project-OSRM/osrm-text-instructions/pull/238)
 
 ## 0.13.0 2018-04-11
 
