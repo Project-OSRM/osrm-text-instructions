@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## master
+
+- Added a Finnish localization. [#239](https://github.com/Project-OSRM/osrm-text-instructions/pull/239)
+
 ## 0.13.0 2018-04-11
 
 - Added a European Portuguese localization. [#229](https://github.com/Project-OSRM/osrm-text-instructions/pull/229)
