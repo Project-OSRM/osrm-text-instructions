@@ -28,7 +28,7 @@
         "tr": "Birinci hedefinize ulaştınız, hedefiniz solunuzdadır",
         "uk": "Ви прибули у ваш 1й пункт призначення, він – ліворуч",
         "vi": "Đến nơi đầu tiên ở bên trái",
-        "zh-Hans": "您已经到达您的第一个目的地，在道路左侧"
+        "zh-Hans": "您已经到达您的第一个目的地，目的地在道路左侧"
     },
     "options": {
         "legIndex": 0,
