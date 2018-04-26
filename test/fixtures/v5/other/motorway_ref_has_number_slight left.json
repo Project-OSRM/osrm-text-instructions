@@ -29,7 +29,7 @@
         "tr": "Ref1 üzerinde kalmak için sola hafif dönüş yap",
         "uk": "Поверніть плавно ліворуч щоб залишитись на Ref1",
         "vi": "Nghiêng về bên trái để chạy tiếp trên Ref1",
-        "zh-Hans": "在Ref1上继续稍向左行驶"
+        "zh-Hans": "前方稍向左转，继续在Ref1上行驶"
     },
     "options": {
         "classes": [

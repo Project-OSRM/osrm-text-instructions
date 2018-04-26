@@ -55,7 +55,7 @@
             "two linked": "{instruction_one}，随后{instruction_two}",
             "one in distance": "{distance}后{instruction_one}",
             "name and ref": "{name}（{ref}）",
-            "exit with number": "从{exit}驶出"
+            "exit with number": "出口{exit}"
         },
         "arrive": {
             "default": {
@@ -122,6 +122,13 @@
                 "destination": "{modifier}行驶，{destination}方向",
                 "exit": "{modifier}行驶，驶入{way_name}"
             },
+            "straight": {
+                "default": "继续直行",
+                "name": "在{way_name}上继续直行",
+                "destination": "继续直行，前往{destination}",
+                "distance": "继续直行{distance}",
+                "namedistance": "继续在{way_name}上直行{distance}"
+            },
             "sharp left": {
                 "default": "前方左急转弯",
                 "name": "前方左急转弯，继续在{way_name}上行驶",
@@ -131,6 +138,16 @@
                 "default": "前方右急转弯",
                 "name": "前方右急转弯，继续在{way_name}上行驶",
                 "destination": "右急转弯，前往{destination}"
+            },
+            "slight left": {
+                "default": "前方稍向左转",
+                "name": "前方稍向左转，继续在{way_name}上行驶",
+                "destination": "稍向左转，前往{destination}"
+            },
+            "slight right": {
+                "default": "前方稍向右转",
+                "name": "前方稍向右转，继续在{way_name}上行驶",
+                "destination": "前方稍向右转，前往{destination}"
             },
             "uturn": {
                 "default": "前方调头",
@@ -168,6 +185,26 @@
                 "name": "在岔道口保持{modifier}，驶入{way_name}",
                 "destination": "在岔道口保持{modifier}，前往{destination}"
             },
+            "slight left": {
+                "default": "在岔道口保持左侧行驶",
+                "name": "在岔道口保持左侧行驶，驶入{way_name}",
+                "destination": "在岔道口保持左侧行驶，前往{destination}"
+            },
+            "slight right": {
+                "default": "在岔道口保持右侧行驶",
+                "name": "在岔道口保持右侧行驶，驶入{way_name}",
+                "destination": "在岔道口保持右侧行驶，前往{destination}"
+            },
+            "sharp left": {
+                "default": "在岔道口左急转弯",
+                "name": "在岔道口左急转弯，驶入{way_name}",
+                "destination": "在岔道口左急转弯，前往{destination}"
+            },
+            "sharp right": {
+                "default": "在岔道口右急转弯",
+                "name": "在岔道口右急转弯，驶入{way_name}",
+                "destination": "在岔道口右急转弯，前往{destination}"
+            },
             "uturn": {
                 "default": "前方调头",
                 "name": "前方调头，驶入{way_name}",
@@ -185,6 +222,26 @@
                 "name": "直行并道，驶入{way_name}",
                 "destination": "直行并道，前往{destination}"
             },
+            "slight left": {
+                "default": "稍向左并道",
+                "name": "稍向左并道，驶入{way_name}",
+                "destination": "稍向左并道，前往{destination}"
+            },
+            "slight right": {
+                "default": "稍向右并道",
+                "name": "稍向右并道，驶入{way_name}",
+                "destination": "稍向右并道，前往{destination}"
+            },
+            "sharp left": {
+                "default": "急向左并道",
+                "name": "急向左并道，驶入{way_name}",
+                "destination": "急向左并道，前往{destination}"
+            },
+            "sharp right": {
+                "default": "急向右并道",
+                "name": "急向右并道，驶入{way_name}",
+                "destination": "急向右并道，前往{destination}"
+            },
             "uturn": {
                 "default": "前方调头",
                 "name": "前方调头，驶入{way_name}",
@@ -201,6 +258,26 @@
                 "default": "继续直行",
                 "name": "继续在{way_name}上直行",
                 "destination": "继续直行，前往{destination}"
+            },
+            "sharp left": {
+                "default": "前方左急转弯",
+                "name": "前方左急转弯，驶入{way_name}",
+                "destination": "左急转弯，前往{destination}"
+            },
+            "sharp right": {
+                "default": "前方右急转弯",
+                "name": "前方右急转弯，驶入{way_name}",
+                "destination": "右急转弯，前往{destination}"
+            },
+            "slight left": {
+                "default": "继续稍向左",
+                "name": "继续稍向左，驶入{way_name}",
+                "destination": "继续稍向左，前往{destination}"
+            },
+            "slight right": {
+                "default": "继续稍向右",
+                "name": "继续稍向右，驶入{way_name}",
+                "destination": "继续稍向右，前往{destination}"
             },
             "uturn": {
                 "default": "前方调头",
@@ -241,6 +318,34 @@
                 "destination": "下右侧匝道，前往{destination}",
                 "exit": "从右侧{exit}出口驶出",
                 "exit_destination": "从右侧{exit}出口驶出，前往{destination}"
+            },
+            "sharp left": {
+                "default": "急向左下匝道",
+                "name": "急向左下匝道，驶入{way_name}",
+                "destination": "急向左下匝道，前往{destination}",
+                "exit": "从左侧{exit}出口驶出",
+                "exit_destination": "从左侧{exit}出口驶出，前往{destination}"
+            },
+            "sharp right": {
+                "default": "急向右下匝道",
+                "name": "急向右下匝道，驶入{way_name}",
+                "destination": "急向右下匝道，前往{destination}",
+                "exit": "从右侧{exit}出口驶出",
+                "exit_destination": "从右侧{exit}出口驶出，前往{destination}"
+            },
+            "slight left": {
+                "default": "稍向左下匝道",
+                "name": "稍向左下匝道，驶入{way_name}",
+                "destination": "稍向左下匝道，前往{destination}",
+                "exit": "从左侧{exit}出口驶出",
+                "exit_destination": "从左侧{exit}出口驶出，前往{destination}"
+            },
+            "slight right": {
+                "default": "稍向右下匝道",
+                "name": "稍向右下匝道，驶入{way_name}",
+                "destination": "稍向右下匝道，前往{destination}",
+                "exit": "从右侧{exit}出口驶出",
+                "exit_destination": "从右侧{exit}出口驶出，前往{destination}"
             }
         },
         "on ramp": {
@@ -258,6 +363,26 @@
                 "default": "上右侧匝道",
                 "name": "上右侧匝道，驶入{way_name}",
                 "destination": "上右侧匝道，前往{destination}"
+            },
+            "sharp left": {
+                "default": "急向左上匝道",
+                "name": "急向左上匝道，驶入{way_name}",
+                "destination": "急向左上匝道，前往{destination}"
+            },
+            "sharp right": {
+                "default": "急向右上匝道",
+                "name": "急向右上匝道，驶入{way_name}",
+                "destination": "急向右上匝道，前往{destination}"
+            },
+            "slight left": {
+                "default": "稍向左上匝道",
+                "name": "稍向左上匝道，驶入{way_name}",
+                "destination": "稍向左上匝道，前往{destination}"
+            },
+            "slight right": {
+                "default": "稍向右上匝道",
+                "name": "稍向右上匝道，驶入{way_name}",
+                "destination": "稍向右上匝道，前往{destination}"
             }
         },
         "rotary": {
