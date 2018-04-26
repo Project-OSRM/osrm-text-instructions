@@ -4,12 +4,12 @@ All notable changes to this project will be documented in this file. For change 
 ## master
 
 - Added a Finnish localization. [#239](https://github.com/Project-OSRM/osrm-text-instructions/pull/239)
+- Updated translations in Simplified Chinese. [#233](https://github.com/Project-OSRM/osrm-text-instructions/pull/233)
 
 ## 0.13.0 2018-04-11
 
 - Added a European Portuguese localization. [#229](https://github.com/Project-OSRM/osrm-text-instructions/pull/229)
 - The Spanish localization now uses the informal imperative form instead of the formal imperative form, for consistency with the Castillian Spanish localization. [#230](https://github.com/Project-OSRM/osrm-text-instructions/pull/230)
-- Updated translations in Simplified Chinese. [#233](https://github.com/Project-OSRM/osrm-text-instructions/pull/233)
 - Added some abbreviations in German, Hebrew, Hungarian, Slovenian, and Ukrainian. [#226](https://github.com/Project-OSRM/osrm-text-instructions/pull/226)
 - Added support for named waypoints in arrival instructions. [#235](https://github.com/Project-OSRM/osrm-text-instructions/pull/235)
 
