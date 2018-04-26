@@ -425,24 +425,24 @@
         },
         "roundabout turn": {
             "default": {
-                "default": "Am Kreisverkehr {modifier}",
-                "name": "Am Kreisverkehr {modifier} auf {way_name}",
-                "destination": "Am Kreisverkehr {modifier} Richtung {destination}"
+                "default": "{modifier} abbiegen",
+                "name": "{modifier} abbiegen auf {way_name}",
+                "destination": "{modifier} abbiegen Richtung {destination}"
             },
             "left": {
-                "default": "Am Kreisverkehr links abbiegen",
-                "name": "Am Kreisverkehr links auf {way_name}",
-                "destination": "Am Kreisverkehr links Richtung {destination}"
+                "default": "Links abbiegen",
+                "name": "Links abbiegen auf {way_name}",
+                "destination": "Links abbiegen Richtung {destination}"
             },
             "right": {
-                "default": "Am Kreisverkehr rechts abbiegen",
-                "name": "Am Kreisverkehr rechts auf {way_name}",
-                "destination": "Am Kreisverkehr rechts Richtung {destination}"
+                "default": "Rechts abbiegen",
+                "name": "Rechts abbiegen auf {way_name}",
+                "destination": "Rechts abbiegen Richtung {destination}"
             },
             "straight": {
-                "default": "Am Kreisverkehr geradeaus weiterfahren",
-                "name": "Am Kreisverkehr geradeaus weiterfahren auf {way_name}",
-                "destination": "Am Kreisverkehr geradeaus weiterfahren Richtung {destination}"
+                "default": "Geradeaus weiterfahren",
+                "name": "Geradeaus weiterfahren auf {way_name}",
+                "destination": "Geradeaus weiterfahren Richtung {destination}"
             }
         },
         "exit roundabout": {

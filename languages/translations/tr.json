@@ -425,24 +425,24 @@
         },
         "roundabout turn": {
             "default": {
-                "default": "Göbekli kavşakta {modifier} yöne dön",
-                "name": "{way_name} üzerindeki göbekli kavşakta {modifier} yöne dön",
-                "destination": "{destination} üzerindeki göbekli kavşakta {modifier} yöne dön"
+                "default": "{modifier} yöne dön",
+                "name": "{way_name} üzerinde {modifier} yöne dön",
+                "destination": "{destination} istikametinde {modifier} yöne dön"
             },
             "left": {
-                "default": "Göbekli kavşakta sola dön",
-                "name": "Göbekli kavşakta {way_name} üzerinde sola dön",
-                "destination": "Göbekli kavşakta {destination} istikametinde sola dön"
+                "default": "Sola dön",
+                "name": "{way_name} üzerinde sola dön",
+                "destination": "{destination} istikametinde sola dön"
             },
             "right": {
-                "default": "Göbekli kavşakta sağa dön",
-                "name": "Göbekli kavşakta {way_name} üzerinde sağa dön",
-                "destination": "Göbekli kavşakta {destination} üzerinde sağa dön"
+                "default": "Sağa dön",
+                "name": "{way_name} üzerinde sağa dön",
+                "destination": "{destination} istikametinde sağa dön"
             },
             "straight": {
-                "default": "Göbekli kavşakta düz devam et",
-                "name": "Göbekli kavşakta {way_name} üzerinde düz devam et",
-                "destination": "Göbekli kavşakta {destination} istikametinde düz devam et"
+                "default": "Düz devam et",
+                "name": "{way_name} üzerinde düz devam et",
+                "destination": "{destination} istikametinde düz devam et"
             }
         },
         "exit roundabout": {
