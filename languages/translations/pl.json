@@ -425,24 +425,24 @@
         },
         "roundabout turn": {
             "default": {
-                "default": "Na rondzie weź {modifier}",
-                "name": "Na rondzie weź {modifier} na {way_name}",
-                "destination": "Na rondzie weź {modifier} w kierunku {destination}"
+                "default": "{modifier}",
+                "name": "{modifier} na {way_name}",
+                "destination": "{modifier} w kierunku {destination}"
             },
             "left": {
-                "default": "Na rondzie skręć w lewo",
-                "name": "Na rondzie skręć lewo na {way_name}",
-                "destination": "Na rondzie skręć w lewo w kierunku {destination}"
+                "default": "Skręć w lewo",
+                "name": "Skręć w lewo na {way_name}",
+                "destination": "Skręć w lewo w kierunku {destination}"
             },
             "right": {
-                "default": "Na rondzie skręć w prawo",
-                "name": "Na rondzie skręć w prawo na {way_name}",
-                "destination": "Na rondzie skręć w prawo w kierunku {destination}"
+                "default": "Skręć w prawo",
+                "name": "Skręć w prawo na {way_name}",
+                "destination": "Skręć w prawo w kierunku {destination}"
             },
             "straight": {
-                "default": "Na rondzie kontynuuj prosto",
-                "name": "Na rondzie kontynuuj prosto na {way_name}",
-                "destination": "Na rondzie kontynuuj prosto w kierunku {destination}"
+                "default": "Kontynuuj prosto",
+                "name": "Kontynuuj prosto na {way_name}",
+                "destination": "Kontynuuj prosto w kierunku {destination}"
             }
         },
         "exit roundabout": {

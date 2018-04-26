@@ -425,24 +425,24 @@
         },
         "roundabout turn": {
             "default": {
-                "default": "Di bundaran, lakukan {modifier}",
-                "name": "Di bundaran, lakukan {modifier} ke arah {way_name}",
-                "destination": "Di bundaran, lakukan {modifier} menuju {destination}"
+                "default": "Lakukan {modifier}",
+                "name": "Lakukan {modifier} ke arah {way_name}",
+                "destination": "Lakukan {modifier} menuju {destination}"
             },
             "left": {
-                "default": "Di bundaran belok kiri",
-                "name": "Di bundaran, belok kiri arah {way_name}",
-                "destination": "Di bundaran, belok kiri menuju {destination}"
+                "default": "Belok kiri",
+                "name": "Belok kiri ke {way_name}",
+                "destination": "Belok kiri menuju {destination}"
             },
             "right": {
-                "default": "Di bundaran belok kanan",
-                "name": "Di bundaran belok kanan ke arah {way_name}",
-                "destination": "Di bundaran belok kanan menuju {destination}"
+                "default": "Belok kanan",
+                "name": "Belok kanan ke {way_name}",
+                "destination": "Belok kanan menuju {destination}"
             },
             "straight": {
-                "default": "Di bundaran tetap lurus",
-                "name": "Di bundaran tetap lurus ke arah {way_name}",
-                "destination": "Di bundaran tetap lurus menuju {destination}"
+                "default": "Lurus terus",
+                "name": "Tetap lurus ke {way_name} ",
+                "destination": "Tetap lurus menuju {destination}"
             }
         },
         "exit roundabout": {

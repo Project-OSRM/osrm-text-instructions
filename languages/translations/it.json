@@ -425,24 +425,24 @@
         },
         "roundabout turn": {
             "default": {
-                "default": "Alla rotonda fai una {modifier}",
-                "name": "Alla rotonda fai una {modifier} in {way_name}",
-                "destination": "Alla rotonda fai una {modifier} verso {destination}"
+                "default": "Fai una {modifier}",
+                "name": "Fai una {modifier} in {way_name}",
+                "destination": "Fai una {modifier} verso {destination}"
             },
             "left": {
-                "default": "Alla rotonda svolta a sinistra",
-                "name": "Alla rotonda svolta a sinistra in {way_name}",
-                "destination": "Alla rotonda svolta a sinistra verso {destination}"
+                "default": "Svolta a sinistra",
+                "name": "Svolta a sinistra in {way_name}",
+                "destination": "Svolta a sinistra verso {destination}"
             },
             "right": {
-                "default": "Alla rotonda svolta a destra",
-                "name": "Alla rotonda svolta a destra in {way_name}",
-                "destination": "Alla rotonda svolta a destra verso {destination}"
+                "default": "Gira a destra",
+                "name": "Svolta a destra in {way_name}",
+                "destination": "Svolta a destra verso {destination}"
             },
             "straight": {
-                "default": "Alla rotonda prosegui dritto",
-                "name": "Alla rotonda prosegui dritto in {way_name}",
-                "destination": "Alla rotonda prosegui dritto verso {destination}"
+                "default": "Continua dritto",
+                "name": "Continua dritto in {way_name}",
+                "destination": "Continua dritto verso {destination}"
             }
         },
         "exit roundabout": {
