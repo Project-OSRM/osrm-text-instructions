@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file. For change 
 - Added a Finnish localization. [#239](https://github.com/Project-OSRM/osrm-text-instructions/pull/239)
 - Added a Korean localization. [#243](https://github.com/Project-OSRM/osrm-text-instructions/pull/243)
 - Updated translations in Simplified Chinese. [#233](https://github.com/Project-OSRM/osrm-text-instructions/pull/233)
+- Added Russian church names abbreviations. [#237](https://github.com/Project-OSRM/osrm-text-instructions/pull/237)
 
 ## 0.13.0 2018-04-11
 
