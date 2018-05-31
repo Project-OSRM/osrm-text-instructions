@@ -12,6 +12,7 @@ var instructionsHe = require('./languages/translations/he.json');
 var instructionsId = require('./languages/translations/id.json');
 var instructionsIt = require('./languages/translations/it.json');
 var instructionsKo = require('./languages/translations/ko.json');
+var instructionsMy = require('./languages/translations/my.json');
 var instructionsNl = require('./languages/translations/nl.json');
 var instructionsPl = require('./languages/translations/pl.json');
 var instructionsPtBr = require('./languages/translations/pt-BR.json');
@@ -59,6 +60,7 @@ var instructions = {
     'id': instructionsId,
     'it': instructionsIt,
     'ko': instructionsKo,
+    'my': instructionsMy,
     'nl': instructionsNl,
     'pl': instructionsPl,
     'pt-BR': instructionsPtBr,
