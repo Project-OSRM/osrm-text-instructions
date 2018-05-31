@@ -3,6 +3,7 @@ All notable changes to this project will be documented in this file. For change 
 
 ## master
 
+- Added a Burmese localization. [#247](https://github.com/Project-OSRM/osrm-text-instructions/pull/247)
 - Added a Finnish localization. [#239](https://github.com/Project-OSRM/osrm-text-instructions/pull/239)
 - Added a Korean localization. [#243](https://github.com/Project-OSRM/osrm-text-instructions/pull/243)
 - Updated translations in Simplified Chinese. [#233](https://github.com/Project-OSRM/osrm-text-instructions/pull/233)
