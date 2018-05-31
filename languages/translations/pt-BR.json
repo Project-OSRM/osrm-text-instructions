@@ -55,64 +55,64 @@
             "two linked": "{instruction_one}, então {instruction_two}",
             "one in distance": "Em {distance}, {instruction_one}",
             "name and ref": "{name} ({ref})",
-            "exit with number": "exit {exit}"
+            "exit with number": "saída {exit}"
         },
         "arrive": {
             "default": {
                 "default": "Você chegou ao seu {nth} destino",
-                "upcoming": "Você chegou ao seu {nth} destino",
-                "short": "Você chegou ao seu {nth} destino",
-                "short-upcoming": "Você chegou ao seu {nth} destino",
+                "upcoming": "Você chegará ao seu {nth} destino",
+                "short": "Você chegou",
+                "short-upcoming": "Você vai chegar",
                 "named": "Você chegou a {waypoint_name}"
             },
             "left": {
                 "default": "Você chegou ao seu {nth} destino, à esquerda",
-                "upcoming": "Você chegou ao seu {nth} destino, à esquerda",
-                "short": "Você chegou ao seu {nth} destino",
-                "short-upcoming": "Você chegou ao seu {nth} destino",
-                "named": "Você chegou a {waypoint_name}, à esquerda"
+                "upcoming": "Você chegará ao seu {nth} destino, à esquerda",
+                "short": "Você chegou",
+                "short-upcoming": "Você vai chegar",
+                "named": "Você chegou {waypoint_name}, à esquerda"
             },
             "right": {
                 "default": "Você chegou ao seu {nth} destino, à direita",
-                "upcoming": "Você chegou ao seu {nth} destino, à direita",
-                "short": "Você chegou ao seu {nth} destino",
-                "short-upcoming": "Você chegou ao seu {nth} destino",
-                "named": "Você chegou a {waypoint_name}, à direita"
+                "upcoming": "Você chegará ao seu {nth} destino, à direita",
+                "short": "Você chegou",
+                "short-upcoming": "Você vai chegar",
+                "named": "Você chegou {waypoint_name}, à direita"
             },
             "sharp left": {
                 "default": "Você chegou ao seu {nth} destino, à esquerda",
-                "upcoming": "Você chegou ao seu {nth} destino, à esquerda",
-                "short": "Você chegou ao seu {nth} destino",
-                "short-upcoming": "Você chegou ao seu {nth} destino",
-                "named": "Você chegou a {waypoint_name}, à esquerda"
+                "upcoming": "Você chegará ao seu {nth} destino, à esquerda",
+                "short": "Você chegou",
+                "short-upcoming": "Você vai chegar",
+                "named": "Você chegou {waypoint_name}, à esquerda"
             },
             "sharp right": {
                 "default": "Você chegou ao seu {nth} destino, à direita",
-                "upcoming": "Você chegou ao seu {nth} destino, à direita",
-                "short": "Você chegou ao seu {nth} destino",
-                "short-upcoming": "Você chegou ao seu {nth} destino",
-                "named": "Você chegou a {waypoint_name}, à direita"
+                "upcoming": "Você chegará ao seu {nth} destino, à direita",
+                "short": "Você chegou",
+                "short-upcoming": "Você vai chegar",
+                "named": "Você chegou {waypoint_name}, à direita"
             },
             "slight right": {
                 "default": "Você chegou ao seu {nth} destino, à direita",
-                "upcoming": "Você chegou ao seu {nth} destino, à direita",
-                "short": "Você chegou ao seu {nth} destino",
-                "short-upcoming": "Você chegou ao seu {nth} destino",
-                "named": "Você chegou a {waypoint_name}, à direita"
+                "upcoming": "Você chegará ao seu {nth} destino, à direita",
+                "short": "Você chegou",
+                "short-upcoming": "Você vai chegar",
+                "named": "Você chegou {waypoint_name}, à direita"
             },
             "slight left": {
                 "default": "Você chegou ao seu {nth} destino, à esquerda",
-                "upcoming": "Você chegou ao seu {nth} destino, à esquerda",
-                "short": "Você chegou ao seu {nth} destino",
-                "short-upcoming": "Você chegou ao seu {nth} destino",
-                "named": "Você chegou a {waypoint_name}, à esquerda"
+                "upcoming": "Você chegará ao seu {nth} destino, à esquerda",
+                "short": "Você chegou",
+                "short-upcoming": "Você vai chegar",
+                "named": "Você chegou {waypoint_name}, à esquerda"
             },
             "straight": {
                 "default": "Você chegou ao seu {nth} destino, em frente",
-                "upcoming": "Você chegou ao seu {nth} destino, em frente",
-                "short": "Você chegou ao seu {nth} destino",
-                "short-upcoming": "Você chegou ao seu {nth} destino",
-                "named": "Você chegou a {waypoint_name}, em frente"
+                "upcoming": "Você vai chegar ao seu {nth} destino, em frente",
+                "short": "Você chegou",
+                "short-upcoming": "Você vai chegar",
+                "named": "You have arrived at {waypoint_name}, straight ahead"
             }
         },
         "continue": {
@@ -218,7 +218,7 @@
                 "destination": "Entre {modifier} em direção à {destination}"
             },
             "straight": {
-                "default": "Entre reto",
+                "default": "Mesclar",
                 "name": "Entre reto na {way_name}",
                 "destination": "Entre reto em direção à {destination}"
             },
@@ -447,14 +447,14 @@
         },
         "exit roundabout": {
             "default": {
-                "default": "Exit the traffic circle",
+                "default": "Saia da rotatória",
                 "name": "Exit the traffic circle onto {way_name}",
                 "destination": "Exit the traffic circle towards {destination}"
             }
         },
         "exit rotary": {
             "default": {
-                "default": "Exit the traffic circle",
+                "default": "Saia da rotatória",
                 "name": "Exit the traffic circle onto {way_name}",
                 "destination": "Exit the traffic circle towards {destination}"
             }
