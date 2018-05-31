@@ -484,9 +484,9 @@
                 "destination": "{destination} istikametinde sağa dön"
             },
             "straight": {
-                "default": "Düz git",
-                "name": "{way_name} üzerinde düz git",
-                "destination": "{destination} istikametinde düz git"
+                "default": "Düz devam et",
+                "name": "{way_name} üzerinde düz devam et",
+                "destination": "{destination} istikametinde düz devam et"
             }
         },
         "turn": {
