@@ -29,7 +29,7 @@
         "tr": "Somewhere ulaştınız, hedefiniz karşınızdadır",
         "uk": "Ви прибули у Somewhere прямо перед вами",
         "vi": "Đến Somewhere ở trước mặt",
-        "zh-Hans": "已到达Somewhere，在您正前方"
+        "zh-Hans": "您已到达Somewhere，目的地在您前方。"
     },
     "options": {
         "legIndex": 0,
