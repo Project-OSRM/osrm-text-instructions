@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file. For change 
 - Added a Burmese localization. [#247](https://github.com/Project-OSRM/osrm-text-instructions/pull/247)
 - Added a Finnish localization. [#239](https://github.com/Project-OSRM/osrm-text-instructions/pull/239)
 - Added a Korean localization. [#243](https://github.com/Project-OSRM/osrm-text-instructions/pull/243)
-- Updated translations in Simplified Chinese. [#233](https://github.com/Project-OSRM/osrm-text-instructions/pull/233)
+- Updated translations in Simplified Chinese. [#233](https://github.com/Project-OSRM/osrm-text-instructions/pull/233) [#248](https://github.com/Project-OSRM/osrm-text-instructions/pull/248)
 - Updated Russian grammar with 'chord' status street name. [#245](https://github.com/Project-OSRM/osrm-text-instructions/pull/245)
 - Added Russian church names abbreviations. [#237](https://github.com/Project-OSRM/osrm-text-instructions/pull/237)
 

@@ -30,7 +30,7 @@
         "tr": "Somewhere ulaştınız, hedefiniz sağınızdadır",
         "uk": "Ви прибули у Somewhere праворуч",
         "vi": "Đến Somewhere ở bên phải",
-        "zh-Hans": "已到达Somewhere，在道路右侧"
+        "zh-Hans": "您已到达Somewhere，目的地在您右边。"
     },
     "options": {
         "legIndex": 0,
