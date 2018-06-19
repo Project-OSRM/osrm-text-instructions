@@ -4,7 +4,61 @@
     },
     "v5": {
         "article": [
-            ["^ Rue ", " la rue "]
+            ["^ Acc[èe]s ", " l’accès "],
+            ["^ All[ée]e ", " l’allée "],
+            ["^ (L['’])?Autoroute ", " l’autoroute "],
+            ["^ Avenue ", " l’avenue "],
+            ["^ Boulevard ", " la boulevard "],
+            ["^ Chemin ", " la chemin "],
+            ["^ Cours ", " la cours "],
+            ["^ Entr[ée]e ", " l’entrée "],
+            ["^ Impasse ", " l’impasse "],
+            ["^ Parvis ", " la parvis "],
+            ["^ Passage ", " la passage "],
+            ["^ Place ", " la place "],
+            ["^ Petit[\\- ]Pont ", " la petit-pont "],
+            ["^ Pont ", " la pont "],
+            ["^ Promenade ", " la promenade "],
+            ["^ Quai ", " la quai "],
+            ["^ Route ", " la route "],
+            ["^ Rue ", " la rue "],
+            ["^ Sortie ", " la sortie "],
+            ["^ Souterrain ", " la souterrain "],
+            ["^ Square ", " la square "],
+            ["^ Tunnel ", " la tunnel "],
+            ["^ Voie ", " la voie "]
+        ],
+        "elision": [
+            ["^ Le ", "  du "],
+            ["^ Les ", "  des "],
+            ["^ La ", "  de "],
+
+            ["^ Acc[èe]s ", "  de l’accès "],
+            ["^ All[ée]e ", "  de l’allée "],
+            ["^ (L['’])?Autoroute ", "  de l’autoroute "],
+            ["^ Avenue ", "  de l’avenue "],
+            ["^ Boulevard ", "  de la boulevard "],
+            ["^ Chemin ", "  de la chemin "],
+            ["^ Cours ", "  de la cours "],
+            ["^ Entr[ée]e ", "  de l’entrée "],
+            ["^ Impasse ", "  de l’impasse "],
+            ["^ Parvis ", "  de la parvis "],
+            ["^ Passage ", "  de la passage "],
+            ["^ Place ", "  de la place "],
+            ["^ Petit[\\- ]Pont ", "  de la petit-pont "],
+            ["^ Pont ", "  de la pont "],
+            ["^ Promenade ", "  de la promenade "],
+            ["^ Quai ", "  de la quai "],
+            ["^ Route ", "  de la route "],
+            ["^ Rue ", "  de la rue "],
+            ["^ Sortie ", "  de la sortie "],
+            ["^ Souterrain ", "  de la souterrain "],
+            ["^ Square ", "  de la square "],
+            ["^ Tunnel ", "  de la tunnel "],
+            ["^ Voie ", "  de la voie "],
+
+            ["^ ([AÂÀEÈÉÊËHIÎÏOÔUÙÛÜYŸÆŒ])", "  d’$1"],
+            ["^ (\\S)", "  de $1"]
         ]
     }
 }

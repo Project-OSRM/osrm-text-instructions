@@ -5,6 +5,13 @@ var languages = require('../languages.js');
 
 const grammarTests = {
     'fr': [
+        ['Marseille', 'elision', 'de Marseille'],
+        ['Épinal', 'elision', 'd’Épinal'],
+        ['Le Havre', 'elision', 'du Havre'],
+        ['Les Ulis', 'elision', 'des Ulis'],
+        ['Avenue de l\'Opéra', 'elision', 'de l’avenue de l\'Opéra'],
+        ['Rue de Jarménil', 'elision', 'de la rue de Jarménil'],
+        ['Avenue de l\'Opéra', 'article', 'l’avenue de l\'Opéra'],
         ['Rue de Jarménil', 'article', 'la rue de Jarménil']
     ],
     'ru': [

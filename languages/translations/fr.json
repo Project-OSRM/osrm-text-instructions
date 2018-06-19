@@ -46,8 +46,8 @@
         "modes": {
             "ferry": {
                 "default": "Prendre le ferry",
-                "name": "Prendre le ferry {way_name}",
-                "destination": "Prendre le ferry en direction de {destination}"
+                "name": "Prendre le ferry {way_name:article}",
+                "destination": "Prendre le ferry en direction {destination:elision}"
             }
         },
         "phrase": {
@@ -119,40 +119,40 @@
             "default": {
                 "default": "Tourner {modifier}",
                 "name": "Tourner {modifier} pour rester {way_name:article}",
-                "destination": "Tourner {modifier} en direction de {destination}",
+                "destination": "Tourner {modifier} en direction {destination:elision}",
                 "exit": "Tourner {modifier} sur {way_name:article}"
             },
             "straight": {
                 "default": "Continuer tout droit",
                 "name": "Continuer tout droit pour rester sur {way_name:article}",
-                "destination": "Continuer tout droit en direction de {destination}",
+                "destination": "Continuer tout droit en direction {destination:elision}",
                 "distance": "Continuer tout droit sur {distance}",
                 "namedistance": "Continuer sur {way_name:article} sur {distance}"
             },
             "sharp left": {
                 "default": "Braquer à gauche",
                 "name": "Braquer à gauche pour rester sur {way_name:article}",
-                "destination": "Braquer à gauche en direction de {destination}"
+                "destination": "Braquer à gauche en direction {destination:elision}"
             },
             "sharp right": {
                 "default": "Braquer à droite",
                 "name": "Braquer à droite pour rester sur {way_name:article}",
-                "destination": "Braquer à droite en direction de {destination}"
+                "destination": "Braquer à droite en direction {destination:elision}"
             },
             "slight left": {
                 "default": "S’aligner légèrement à gauche",
                 "name": "S’aligner légèrement à gauche pour rester sur {way_name:article}",
-                "destination": "S’aligner légèrement à gauche en direction de {destination}"
+                "destination": "S’aligner légèrement à gauche en direction {destination:elision}"
             },
             "slight right": {
                 "default": "S’aligner légèrement à droite",
                 "name": "S’aligner légèrement à droite pour rester sur {way_name:article}",
-                "destination": "S’aligner légèrement à droite en direction de {destination}"
+                "destination": "S’aligner légèrement à droite en direction {destination:elision}"
             },
             "uturn": {
                 "default": "Faire demi-tour",
                 "name": "Faire demi-tour et continuer sur {way_name:article}",
-                "destination": "Faire demi-tour en direction de {destination}"
+                "destination": "Faire demi-tour en direction {destination:elision}"
             }
         },
         "depart": {
@@ -166,223 +166,223 @@
             "default": {
                 "default": "Tourner {modifier}",
                 "name": "Tourner {modifier} sur {way_name:article}",
-                "destination": "Tourner {modifier} en direction de {destination}"
+                "destination": "Tourner {modifier} en direction {destination:elision}"
             },
             "straight": {
                 "default": "Continuer tout droit",
                 "name": "Continuer tout droit sur {way_name:article}",
-                "destination": "Continuer tout droit en direction de {destination}"
+                "destination": "Continuer tout droit en direction {destination:elision}"
             },
             "uturn": {
                 "default": "Faire demi-tour à la fin de la route",
-                "name": "Faire demi-tour à la fin de la route {way_name}",
-                "destination": "Faire demi-tour à la fin de la route en direction de {destination}"
+                "name": "Faire demi-tour à la fin de la route {way_name:article}",
+                "destination": "Faire demi-tour à la fin de la route en direction {destination:elision}"
             }
         },
         "fork": {
             "default": {
                 "default": "Rester {modifier} à l’embranchement",
                 "name": "Rester {modifier} à l’embranchement sur {way_name:article}",
-                "destination": "Rester {modifier} à l’embranchement en direction de {destination}"
+                "destination": "Rester {modifier} à l’embranchement en direction {destination:elision}"
             },
             "slight left": {
                 "default": "Rester à gauche à l’embranchement",
                 "name": "Rester à gauche à l’embranchement sur {way_name:article}",
-                "destination": "Rester à gauche à l’embranchement en direction de {destination}"
+                "destination": "Rester à gauche à l’embranchement en direction {destination:elision}"
             },
             "slight right": {
                 "default": "Rester à droite à l’embranchement",
                 "name": "Rester à droite à l’embranchement sur {way_name:article}",
-                "destination": "Rester à droite à l’embranchement en direction de {destination}"
+                "destination": "Rester à droite à l’embranchement en direction {destination:elision}"
             },
             "sharp left": {
                 "default": "Prendre franchement à gauche à l’embranchement",
                 "name": "Prendre franchement à gauche sur {way_name:article}",
-                "destination": "Prendre franchement à gauche en direction de {destination}"
+                "destination": "Prendre franchement à gauche en direction {destination:elision}"
             },
             "sharp right": {
                 "default": "Prendre franchement à droite à l’embranchement",
                 "name": "Prendre franchement à droite sur {way_name:article}",
-                "destination": "Prendre franchement à droite en direction de {destination}"
+                "destination": "Prendre franchement à droite en direction {destination:elision}"
             },
             "uturn": {
                 "default": "Faire demi-tour",
                 "name": "Faire demi-tour sur {way_name:article}",
-                "destination": "Faire demi-tour en direction de {destination}"
+                "destination": "Faire demi-tour en direction {destination:elision}"
             }
         },
         "merge": {
             "default": {
                 "default": "Rejoindre {modifier}",
                 "name": "Rejoindre {modifier} sur {way_name:article}",
-                "destination": "Rejoindre {modifier} en direction de {destination}"
+                "destination": "Rejoindre {modifier} en direction {destination:elision}"
             },
             "straight": {
                 "default": "S’insérer",
                 "name": "S’insérer sur {way_name:article}",
-                "destination": "S’insérer en direction de {destination}"
+                "destination": "S’insérer en direction {destination:elision}"
             },
             "slight left": {
                 "default": "S’insérer légèrement à gauche",
                 "name": "S’insérer légèrement à gauche sur {way_name:article}",
-                "destination": "S’insérer légèrement à gauche en direction de {destination}"
+                "destination": "S’insérer légèrement à gauche en direction {destination:elision}"
             },
             "slight right": {
                 "default": "S’insérer légèrement à droite",
                 "name": "S’insérer légèrement à droite sur {way_name:article}",
-                "destination": "S’insérer à droite en direction de {destination}"
+                "destination": "S’insérer à droite en direction {destination:elision}"
             },
             "sharp left": {
                 "default": "S’insérer à gauche",
                 "name": "S’insérer à gauche sur {way_name:article}",
-                "destination": "S’insérer à gauche en direction de {destination}"
+                "destination": "S’insérer à gauche en direction {destination:elision}"
             },
             "sharp right": {
                 "default": "S’insérer à droite",
                 "name": "S’insérer à droite sur {way_name:article}",
-                "destination": "S’insérer à droite en direction de {destination}"
+                "destination": "S’insérer à droite en direction {destination:elision}"
             },
             "uturn": {
                 "default": "Faire demi-tour",
                 "name": "Faire demi-tour sur {way_name:article}",
-                "destination": "Faire demi-tour en direction de {destination}"
+                "destination": "Faire demi-tour en direction {destination:elision}"
             }
         },
         "new name": {
             "default": {
                 "default": "Continuer {modifier}",
                 "name": "Continuer {modifier} sur {way_name:article}",
-                "destination": "Continuer {modifier} en direction de {destination}"
+                "destination": "Continuer {modifier} en direction {destination:elision}"
             },
             "straight": {
                 "default": "Continuer tout droit",
                 "name": "Continuer tout droit sur {way_name:article}",
-                "destination": "Continuer tout droit en direction de {destination}"
+                "destination": "Continuer tout droit en direction {destination:elision}"
             },
             "sharp left": {
                 "default": "Prendre franchement à gauche",
                 "name": "Prendre franchement à gauche sur {way_name:article}",
-                "destination": "Prendre franchement à gauche en direction de {destination}"
+                "destination": "Prendre franchement à gauche en direction {destination:elision}"
             },
             "sharp right": {
                 "default": "Prendre franchement à droite",
                 "name": "Prendre franchement à droite sur {way_name:article}",
-                "destination": "Prendre franchement à droite en direction de {destination}"
+                "destination": "Prendre franchement à droite en direction {destination:elision}"
             },
             "slight left": {
                 "default": "Continuer légèrement à gauche",
                 "name": "Continuer légèrement à gauche sur {way_name:article}",
-                "destination": "Continuer légèrement à gauche en direction de {destination}"
+                "destination": "Continuer légèrement à gauche en direction {destination:elision}"
             },
             "slight right": {
                 "default": "Continuer légèrement à droite",
                 "name": "Continuer légèrement à droite sur {way_name:article}",
-                "destination": "Continuer légèrement à droite en direction de {destination}"
+                "destination": "Continuer légèrement à droite en direction {destination:elision}"
             },
             "uturn": {
                 "default": "Faire demi-tour",
                 "name": "Faire demi-tour sur {way_name:article}",
-                "destination": "Faire demi-tour en direction de {destination}"
+                "destination": "Faire demi-tour en direction {destination:elision}"
             }
         },
         "notification": {
             "default": {
                 "default": "Continuer {modifier}",
                 "name": "Continuer {modifier} sur {way_name:article}",
-                "destination": "Continuer {modifier} en direction de {destination}"
+                "destination": "Continuer {modifier} en direction {destination:elision}"
             },
             "uturn": {
                 "default": "Faire demi-tour",
                 "name": "Faire demi-tour sur {way_name:article}",
-                "destination": "Faire demi-tour en direction de {destination}"
+                "destination": "Faire demi-tour en direction {destination:elision}"
             }
         },
         "off ramp": {
             "default": {
                 "default": "Prendre la sortie",
                 "name": "Prendre la sortie sur {way_name:article}",
-                "destination": "Prendre la sortie en direction de {destination}",
+                "destination": "Prendre la sortie en direction {destination:elision}",
                 "exit": "Prendre la sortie {exit}",
-                "exit_destination": "Prendre la sortie {exit} en direction de {destination}"
+                "exit_destination": "Prendre la sortie {exit} en direction {destination:elision}"
             },
             "left": {
                 "default": "Prendre la sortie à gauche",
                 "name": "Prendre la sortie à gauche sur {way_name:article}",
-                "destination": "Prendre la sortie à gauche en direction de {destination}",
+                "destination": "Prendre la sortie à gauche en direction {destination:elision}",
                 "exit": "Prendre la sortie {exit} sur la gauche",
-                "exit_destination": "Prendre la sortie {exit} sur la gauche en direction de {destination}"
+                "exit_destination": "Prendre la sortie {exit} sur la gauche en direction {destination:elision}"
             },
             "right": {
                 "default": "Prendre la sortie à droite",
                 "name": "Prendre la sortie à droite sur {way_name:article}",
-                "destination": "Prendre la sortie à droite en direction de {destination}",
+                "destination": "Prendre la sortie à droite en direction {destination:elision}",
                 "exit": "Prendre la sortie {exit} sur la droite",
-                "exit_destination": "Prendre la sortie {exit} sur la droite en direction de {destination}"
+                "exit_destination": "Prendre la sortie {exit} sur la droite en direction {destination:elision}"
             },
             "sharp left": {
                 "default": "Prendre la sortie à gauche",
                 "name": "Prendre la sortie à gauche sur {way_name:article}",
-                "destination": "Prendre la sortie à gauche en direction de {destination}",
+                "destination": "Prendre la sortie à gauche en direction {destination:elision}",
                 "exit": "Prendre la sortie {exit} sur la gauche",
-                "exit_destination": "Prendre la sortie {exit} sur la gauche en direction de {destination}"
+                "exit_destination": "Prendre la sortie {exit} sur la gauche en direction {destination:elision}"
             },
             "sharp right": {
                 "default": "Prendre la sortie à droite",
                 "name": "Prendre la sortie à droite sur {way_name:article}",
-                "destination": "Prendre la sortie à droite en direction de {destination}",
+                "destination": "Prendre la sortie à droite en direction {destination:elision}",
                 "exit": "Prendre la sortie {exit} sur la droite",
-                "exit_destination": "Prendre la sortie {exit} sur la droite en direction de {destination}"
+                "exit_destination": "Prendre la sortie {exit} sur la droite en direction {destination:elision}"
             },
             "slight left": {
                 "default": "Prendre la sortie à gauche",
                 "name": "Prendre la sortie à gauche sur {way_name:article}",
-                "destination": "Prendre la sortie à gauche en direction de {destination}",
+                "destination": "Prendre la sortie à gauche en direction {destination:elision}",
                 "exit": "Prendre la sortie {exit} sur la gauche",
-                "exit_destination": "Prendre la sortie {exit} sur la gauche en direction de {destination}"
+                "exit_destination": "Prendre la sortie {exit} sur la gauche en direction {destination:elision}"
             },
             "slight right": {
                 "default": "Prendre la sortie à droite",
                 "name": "Prendre la sortie à droite sur {way_name:article}",
-                "destination": "Prendre la sortie à droite en direction de {destination}",
+                "destination": "Prendre la sortie à droite en direction {destination:elision}",
                 "exit": "Prendre la sortie {exit} sur la droite",
-                "exit_destination": "Prendre la sortie {exit} sur la droite en direction de {destination}"
+                "exit_destination": "Prendre la sortie {exit} sur la droite en direction {destination:elision}"
             }
         },
         "on ramp": {
             "default": {
                 "default": "Prendre la sortie",
                 "name": "Prendre la sortie sur {way_name:article}",
-                "destination": "Prendre la sortie en direction de {destination}"
+                "destination": "Prendre la sortie en direction {destination:elision}"
             },
             "left": {
                 "default": "Prendre la sortie à gauche",
                 "name": "Prendre la sortie à gauche sur {way_name:article}",
-                "destination": "Prendre la sortie à gauche en direction de {destination}"
+                "destination": "Prendre la sortie à gauche en direction {destination:elision}"
             },
             "right": {
                 "default": "Prendre la sortie à droite",
                 "name": "Prendre la sortie à droite sur {way_name:article}",
-                "destination": "Prendre la sortie à droite en direction de {destination}"
+                "destination": "Prendre la sortie à droite en direction {destination:elision}"
             },
             "sharp left": {
                 "default": "Prendre la sortie à gauche",
                 "name": "Prendre la sortie à gauche sur {way_name:article}",
-                "destination": "Prendre la sortie à gauche en direction de {destination}"
+                "destination": "Prendre la sortie à gauche en direction {destination:elision}"
             },
             "sharp right": {
                 "default": "Prendre la sortie à droite",
                 "name": "Prendre la sortie à droite sur {way_name:article}",
-                "destination": "Prendre la sortie à droite en direction de {destination}"
+                "destination": "Prendre la sortie à droite en direction {destination:elision}"
             },
             "slight left": {
                 "default": "Prendre la sortie à gauche",
                 "name": "Prendre la sortie à gauche sur {way_name:article}",
-                "destination": "Prendre la sortie à gauche en direction de {destination}"
+                "destination": "Prendre la sortie à gauche en direction {destination:elision}"
             },
             "slight right": {
                 "default": "Prendre la sortie à droite",
                 "name": "Prendre la sortie à droite sur {way_name:article}",
-                "destination": "Prendre la sortie à droite en direction de {destination}"
+                "destination": "Prendre la sortie à droite en direction {destination:elision}"
             }
         },
         "rotary": {
@@ -390,22 +390,22 @@
                 "default": {
                     "default": "Prendre le rond-point",
                     "name": "Prendre le rond-point et sortir sur {way_name:article}",
-                    "destination": "Prendre le rond-point et sortir en direction de {destination}"
+                    "destination": "Prendre le rond-point et sortir en direction {destination:elision}"
                 },
                 "name": {
-                    "default": "Prendre le rond-point {rotary_name}",
-                    "name": "Prendre le rond-point {rotary_name} et sortir par {way_name:article}",
-                    "destination": "Prendre le rond-point {rotary_name} et sortir en direction de {destination}"
+                    "default": "Prendre le rond-point {rotary_name:article}",
+                    "name": "Prendre le rond-point {rotary_name:article} et sortir par {way_name:article}",
+                    "destination": "Prendre le rond-point {rotary_name:article} et sortir en direction {destination:elision}"
                 },
                 "exit": {
                     "default": "Prendre le rond-point et prendre la {exit_number} sortie",
                     "name": "Prendre le rond-point et prendre la {exit_number} sortie sur {way_name:article}",
-                    "destination": "Prendre le rond-point et prendre la {exit_number} sortie en direction de {destination}"
+                    "destination": "Prendre le rond-point et prendre la {exit_number} sortie en direction {destination:elision}"
                 },
                 "name_exit": {
-                    "default": "Prendre le rond-point {rotary_name} et prendre la {exit_number} sortie",
-                    "name": "Prendre le rond-point {rotary_name} et prendre la {exit_number} sortie sur {way_name:article}",
-                    "destination": "Prendre le rond-point {rotary_name} et prendre la {exit_number} sortie en direction de {destination}"
+                    "default": "Prendre le rond-point {rotary_name:article} et prendre la {exit_number} sortie",
+                    "name": "Prendre le rond-point {rotary_name:article} et prendre la {exit_number} sortie sur {way_name:article}",
+                    "destination": "Prendre le rond-point {rotary_name:article} et prendre la {exit_number} sortie en direction {destination:elision}"
                 }
             }
         },
@@ -414,12 +414,12 @@
                 "exit": {
                     "default": "Prendre le rond-point et prendre la {exit_number} sortie",
                     "name": "Prendre le rond-point et prendre la {exit_number} sortie sur {way_name:article}",
-                    "destination": "Prendre le rond-point et prendre la {exit_number} sortie en direction de {destination}"
+                    "destination": "Prendre le rond-point et prendre la {exit_number} sortie en direction {destination:elision}"
                 },
                 "default": {
                     "default": "Prendre le rond-point",
                     "name": "Prendre le rond-point et sortir sur {way_name:article}",
-                    "destination": "Prendre le rond-point et sortir en direction de {destination}"
+                    "destination": "Prendre le rond-point et sortir en direction {destination:elision}"
                 }
             }
         },
@@ -427,58 +427,58 @@
             "default": {
                 "default": "Tourner {modifier}",
                 "name": "Tourner {modifier} sur {way_name:article}",
-                "destination": "Tourner {modifier} en direction de {destination}"
+                "destination": "Tourner {modifier} en direction {destination:elision}"
             },
             "left": {
                 "default": "Tourner à gauche",
                 "name": "Tourner à gauche sur {way_name:article}",
-                "destination": "Tourner à gauche en direction de {destination}"
+                "destination": "Tourner à gauche en direction {destination:elision}"
             },
             "right": {
                 "default": "Tourner à droite",
                 "name": "Tourner à droite sur {way_name:article}",
-                "destination": "Tourner à droite en direction de {destination}"
+                "destination": "Tourner à droite en direction {destination:elision}"
             },
             "straight": {
                 "default": "Continuer tout droit",
                 "name": "Continuer tout droit sur {way_name:article}",
-                "destination": "Continuer tout droit en direction de {destination}"
+                "destination": "Continuer tout droit en direction {destination:elision}"
             }
         },
         "exit roundabout": {
             "default": {
                 "default": "Sortir du rond-point",
                 "name": "Sortir du rond-point sur {way_name:article}",
-                "destination": "Sortir du rond-point en direction de {destination}"
+                "destination": "Sortir du rond-point en direction {destination:elision}"
             }
         },
         "exit rotary": {
             "default": {
                 "default": "Sortir du rond-point",
                 "name": "Sortir du rond-point sur {way_name:article}",
-                "destination": "Sortir du rond-point en direction de {destination}"
+                "destination": "Sortir du rond-point en direction {destination:elision}"
             }
         },
         "turn": {
             "default": {
                 "default": "Tourner {modifier}",
                 "name": "Tourner {modifier} sur {way_name:article}",
-                "destination": "Tourner {modifier} en direction de {destination}"
+                "destination": "Tourner {modifier} en direction {destination:elision}"
             },
             "left": {
                 "default": "Tourner à gauche",
                 "name": "Tourner à gauche sur {way_name:article}",
-                "destination": "Tourner à gauche en direction de {destination}"
+                "destination": "Tourner à gauche en direction {destination:elision}"
             },
             "right": {
                 "default": "Tourner à droite",
                 "name": "Tourner à droite sur {way_name:article}",
-                "destination": "Tourner à droite en direction de {destination}"
+                "destination": "Tourner à droite en direction {destination:elision}"
             },
             "straight": {
                 "default": "Aller tout droit",
                 "name": "Aller tout droit sur {way_name:article}",
-                "destination": "Aller tout droit en direction de {destination}"
+                "destination": "Aller tout droit en direction {destination:elision}"
             }
         },
         "use lane": {

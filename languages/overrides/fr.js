@@ -1,9 +1,9 @@
 // Add grammar option to {way_name} depending on phrase context
 
 var replaces = [
-    [' par +\{way_name\}', ' par {way_name:article}'], // eslint-disable-line no-useless-escape
-    [' rester +\{way_name\}', ' rester {way_name:article}'], // eslint-disable-line no-useless-escape
-    [' sur +\{way_name\}', ' sur {way_name:article}'] // eslint-disable-line no-useless-escape
+    [' (de )?\{destination\}', ' {destination:elision}'], // eslint-disable-line no-useless-escape
+    [' {rotary_name\}', ' {rotary_name:article}'], // eslint-disable-line no-useless-escape
+    [' {way_name\}', ' {way_name:article}'] // eslint-disable-line no-useless-escape
 ];
 
 function optionize(phrase) {
