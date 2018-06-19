@@ -4,6 +4,9 @@ var instructions = require('../index.js');
 var languages = require('../languages.js');
 
 const grammarTests = {
+    'fr': [
+        ['Rue de Jarménil', 'article', 'la rue de Jarménil']
+    ],
     'ru': [
         ['Бармалеева улица', 'accusative', 'Бармалееву улицу'],
         ['Бармалеева улица', 'dative', 'Бармалеевой улице'],

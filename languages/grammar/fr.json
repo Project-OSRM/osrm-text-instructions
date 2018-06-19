@@ -1,0 +1,10 @@
+{
+    "meta": {
+        "regExpFlags": "gi"
+    },
+    "v5": {
+        "article": [
+            ["^ Rue ", " la rue "]
+        ]
+    }
+}

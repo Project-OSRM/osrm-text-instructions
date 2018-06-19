@@ -26,6 +26,7 @@ var instructionsVi = require('./languages/translations/vi.json');
 var instructionsZhHans = require('./languages/translations/zh-Hans.json');
 
 // Load all grammar files
+var grammarFr = require('./languages/grammar/fr.json');
 var grammarRu = require('./languages/grammar/ru.json');
 
 // Load all abbreviations files
@@ -76,6 +77,7 @@ var instructions = {
 
 // Create list of supported grammar
 var grammars = {
+    'fr': grammarFr,
     'ru': grammarRu
 };
 
