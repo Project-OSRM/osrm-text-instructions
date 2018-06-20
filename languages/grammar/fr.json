@@ -28,7 +28,7 @@
             ["^ Tunnel ", " le tunnel "],
             ["^ Voie ", " la voie "]
         ],
-        "elision": [
+        "preposition": [
             ["^ Le ", "  du "],
             ["^ Les ", "  des "],
             ["^ La ", "  de La "],
@@ -59,6 +59,11 @@
 
             ["^ ([AÂÀEÈÉÊËIÎÏOÔUÙÛÜYŸÆŒ])", "  d’$1"],
             ["^ (\\S)", "  de $1"]
+        ],
+        "arrival": [
+            ["^ Le ", "  au "],
+            ["^ Les ", "  aux "],
+            ["^ (\\S)", "  à $1"]
         ]
     }
 }

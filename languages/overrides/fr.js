@@ -1,9 +1,11 @@
 // Add grammar option to {way_name} depending on phrase context
 
 var replaces = [
-    [' (de )?\{destination\}', ' {destination:elision}'], // eslint-disable-line no-useless-escape
-    [' {rotary_name\}', ' {rotary_name:article}'], // eslint-disable-line no-useless-escape
-    [' {way_name\}', ' {way_name:article}'] // eslint-disable-line no-useless-escape
+    [' (de )?\{destination\}', ' {destination:preposition}'], // eslint-disable-line no-useless-escape
+    [' \{rotary_name\}', ' {rotary_name:article}'], // eslint-disable-line no-useless-escape
+    [' fin (de )?\{way_name\}', ' {way_name:preposition}'], // eslint-disable-line no-useless-escape
+    [' \{way_name\}', ' {way_name:article}'], // eslint-disable-line no-useless-escape
+    [' (à )?\{waypoint_name\}', ' {waypoint_name:arrival}'] // eslint-disable-line no-useless-escape
 ];
 
 function optionize(phrase) {

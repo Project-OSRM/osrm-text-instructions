@@ -5,15 +5,24 @@ var languages = require('../languages.js');
 
 const grammarTests = {
     'fr': [
-        ['Marseille', 'elision', 'de Marseille'],
-        ['Épinal', 'elision', 'd’Épinal'],
-        ['Le Havre', 'elision', 'du Havre'],
-        ['Les Ulis', 'elision', 'des Ulis'],
-        ['La Rochelle', 'elision', 'de La Rochelle'],
-        ['Avenue de l\'Opéra', 'elision', 'de l’avenue de l\'Opéra'],
-        ['Rue de Jarménil', 'elision', 'de la rue de Jarménil'],
-        ['Avenue de l\'Opéra', 'article', 'l’avenue de l\'Opéra'],
-        ['Rue de Jarménil', 'article', 'la rue de Jarménil']
+        ['Marseille', 'arrival', 'à Marseille'],
+        ['Marseille', 'preposition', 'de Marseille'],
+        ['Épinal', 'arrival', 'à Épinal'],
+        ['Épinal', 'preposition', 'd’Épinal'],
+        ['Le Havre', 'arrival', 'au Havre'],
+        ['Le Havre', 'preposition', 'du Havre'],
+        ['Les Marches', 'arrival', 'aux Marches'],
+        ['Les Marches', 'preposition', 'des Marches'],
+        ['Les Ulis', 'arrival', 'aux Ulis'],
+        ['Les Ulis', 'preposition', 'des Ulis'],
+        ['La Rochelle', 'arrival', 'à La Rochelle'],
+        ['La Rochelle', 'preposition', 'de La Rochelle'],
+        ['Avenue des Champs-Élysées', 'article', 'l’avenue des Champs-Élysées'],
+        ['Avenue des Champs-Élysées', 'preposition', 'de l’avenue des Champs-Élysées'],
+        ['Boulevard Saint-Germain', 'article', 'le boulevard Saint-Germain'],
+        ['Boulevard Saint-Germain', 'preposition', 'du boulevard Saint-Germain'],
+        ['Rue de Jarménil', 'article', 'la rue de Jarménil'],
+        ['Rue de Jarménil', 'preposition', 'de la rue de Jarménil']
     ],
     'ru': [
         ['Бармалеева улица', 'accusative', 'Бармалееву улицу'],
