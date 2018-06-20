@@ -9,6 +9,7 @@ const grammarTests = {
         ['Épinal', 'elision', 'd’Épinal'],
         ['Le Havre', 'elision', 'du Havre'],
         ['Les Ulis', 'elision', 'des Ulis'],
+        ['La Rochelle', 'elision', 'de La Rochelle'],
         ['Avenue de l\'Opéra', 'elision', 'de l’avenue de l\'Opéra'],
         ['Rue de Jarménil', 'elision', 'de la rue de Jarménil'],
         ['Avenue de l\'Opéra', 'article', 'l’avenue de l\'Opéra'],
