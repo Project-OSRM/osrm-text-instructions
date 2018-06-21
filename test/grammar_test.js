@@ -21,6 +21,9 @@ const grammarTests = {
         ['Avenue des Champs-Élysées', 'preposition', 'de l’avenue des Champs-Élysées'],
         ['Boulevard Saint-Germain', 'article', 'le boulevard Saint-Germain'],
         ['Boulevard Saint-Germain', 'preposition', 'du boulevard Saint-Germain'],
+        ['Place Charles de Gaulle', 'article', 'la place Charles de Gaulle'],
+        ['Place Charles de Gaulle', 'preposition', 'de la place Charles de Gaulle'],
+        ['Place Charles de Gaulle', 'rotary', 'le rond-point de la place Charles de Gaulle'],
         ['Rue de Jarménil', 'article', 'la rue de Jarménil'],
         ['Rue de Jarménil', 'preposition', 'de la rue de Jarménil']
     ],
