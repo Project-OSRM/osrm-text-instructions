@@ -37,10 +37,10 @@
                 "uturn": "demi-tour"
             },
             "lanes": {
-                "xo": "Serrer à droite",
-                "ox": "Serrer à gauche",
+                "xo": "Tenir la droite",
+                "ox": "Tenir la gauche",
                 "xox": "Rester au milieu",
-                "oxo": "Rester à gauche ou à droite"
+                "oxo": "Tenir la gauche ou la droite"
             }
         },
         "modes": {
@@ -55,64 +55,64 @@
             "two linked": "{instruction_one}, puis {instruction_two}",
             "one in distance": "Dans {distance}, {instruction_one}",
             "name and ref": "{name} ({ref})",
-            "exit with number": "sortie {exit}"
+            "exit with number": "sortie n°{exit}"
         },
         "arrive": {
             "default": {
-                "default": "Vous êtes arrivés à votre {nth} destination",
+                "default": "Vous êtes arrivé à votre {nth} destination",
                 "upcoming": "Vous arriverez à votre {nth} destination",
-                "short": "Vous êtes arrivés",
+                "short": "Vous êtes arrivé",
                 "short-upcoming": "Vous arriverez",
-                "named": "Vous êtes arrivés {waypoint_name:arrival}"
+                "named": "Vous êtes arrivé {waypoint_name:arrival}"
             },
             "left": {
-                "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche",
+                "default": "Vous êtes arrivé à votre {nth} destination, sur la gauche",
                 "upcoming": "Vous arriverez à votre {nth} destination, sur la gauche",
-                "short": "Vous êtes arrivés",
+                "short": "Vous êtes arrivé",
                 "short-upcoming": "Vous arriverez",
-                "named": "Vous êtes arrivés {waypoint_name:arrival}, sur la gauche"
+                "named": "Vous êtes arrivé {waypoint_name:arrival}, sur la gauche"
             },
             "right": {
-                "default": "Vous êtes arrivés à votre {nth} destination, sur la droite",
+                "default": "Vous êtes arrivé à votre {nth} destination, sur la droite",
                 "upcoming": "Vous arriverez à votre {nth} destination, sur la droite",
-                "short": "Vous êtes arrivés",
+                "short": "Vous êtes arrivé",
                 "short-upcoming": "Vous arriverez",
-                "named": "Vous êtes arrivés {waypoint_name:arrival}, sur la droite"
+                "named": "Vous êtes arrivé à  {waypoint_name:arrival}, sur la droite"
             },
             "sharp left": {
-                "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche",
+                "default": "Vous êtes arrivé à votre {nth} destination, sur la gauche",
                 "upcoming": "Vous arriverez à votre {nth} destination, sur la gauche",
-                "short": "Vous êtes arrivés",
+                "short": "Vous êtes arrivé",
                 "short-upcoming": "Vous arriverez",
-                "named": "Vous êtes arrivés {waypoint_name:arrival}, sur la gauche"
+                "named": "Vous êtes arrivé {waypoint_name:arrival}, sur la gauche"
             },
             "sharp right": {
-                "default": "Vous êtes arrivés à votre {nth} destination, sur la droite",
+                "default": "Vous êtes arrivé à votre {nth} destination, sur la droite",
                 "upcoming": "Vous arriverez à votre {nth} destination, sur la droite",
-                "short": "Vous êtes arrivés",
+                "short": "Vous êtes arrivé",
                 "short-upcoming": "Vous arriverez",
-                "named": "Vous êtes arrivés {waypoint_name:arrival}, sur la droite"
+                "named": "Vous êtes arrivé {waypoint_name:arrival}, sur la droite"
             },
             "slight right": {
-                "default": "Vous êtes arrivés à votre {nth} destination, sur la droite",
+                "default": "Vous êtes arrivé à votre {nth} destination, sur la droite",
                 "upcoming": "Vous arriverez à votre {nth} destination, sur la droite",
-                "short": "Vous êtes arrivés",
+                "short": "Vous êtes arrivé",
                 "short-upcoming": "Vous arriverez",
-                "named": "Vous êtes arrivés {waypoint_name:arrival}, sur la droite"
+                "named": "Vous êtes arrivé {waypoint_name:arrival}, sur la droite"
             },
             "slight left": {
-                "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche",
+                "default": "Vous êtes arrivé à votre {nth} destination, sur la gauche",
                 "upcoming": "Vous arriverez à votre {nth} destination, sur la gauche",
-                "short": "Vous êtes arrivés",
-                "short-upcoming": "Vous arriverez",
-                "named": "Vous êtes arrivés {waypoint_name:arrival}, sur la gauche"
+                "short": "Vous êtes arrivé",
+                "short-upcoming": "Vous êtes arrivé",
+                "named": "Vous êtes arrivé {waypoint_name:arrival}, sur la gauche"
             },
             "straight": {
-                "default": "Vous êtes arrivés à votre {nth} destination, droit devant",
+                "default": "Vous êtes arrivé à votre {nth} destination, droit devant",
                 "upcoming": "Vous arriverez à votre {nth} destination, droit devant",
-                "short": "Vous êtes arrivés",
-                "short-upcoming": "Vous arriverez",
-                "named": "Vous êtes arrivés {waypoint_name:arrival}, droit devant"
+                "short": "Vous êtes arrivé",
+                "short-upcoming": "Vous êtes arrivé",
+                "named": "Vous êtes arrivé {waypoint_name:arrival}, droit devant"
             }
         },
         "continue": {
@@ -130,24 +130,24 @@
                 "namedistance": "Continuer sur {way_name:article} sur {distance}"
             },
             "sharp left": {
-                "default": "Braquer à gauche",
-                "name": "Braquer à gauche pour rester sur {way_name:article}",
-                "destination": "Braquer à gauche en direction {destination:preposition}"
+                "default": "Tourner franchement à gauche",
+                "name": "Tourner franchement à gauche pour rester sur {way_name:article}",
+                "destination": "Tourner franchement à gauche en direction {destination:preposition}"
             },
             "sharp right": {
-                "default": "Braquer à droite",
-                "name": "Braquer à droite pour rester sur {way_name:article}",
-                "destination": "Braquer à droite en direction {destination:preposition}"
+                "default": "Tourner franchement à droite",
+                "name": "Tourner franchement à droite pour rester sur {way_name:article}",
+                "destination": "Tourner franchement à droite en direction {destination:preposition}"
             },
             "slight left": {
-                "default": "S’aligner légèrement à gauche",
-                "name": "S’aligner légèrement à gauche pour rester sur {way_name:article}",
-                "destination": "S’aligner légèrement à gauche en direction {destination:preposition}"
+                "default": "Tourner légèrement à gauche",
+                "name": "Tourner légèrement à gauche pour rester sur {way_name:article}",
+                "destination": "Tourner légèrement à gauche en direction {destination:preposition}"
             },
             "slight right": {
-                "default": "S’aligner légèrement à droite",
-                "name": "S’aligner légèrement à droite pour rester sur {way_name:article}",
-                "destination": "S’aligner légèrement à droite en direction {destination:preposition}"
+                "default": "Tourner légèrement à droite",
+                "name": "Tourner légèrement à droite pour rester sur {way_name:article}",
+                "destination": "Tourner légèrement à droite en direction {destination:preposition}"
             },
             "uturn": {
                 "default": "Faire demi-tour",
@@ -157,9 +157,9 @@
         },
         "depart": {
             "default": {
-                "default": "Rouler vers {direction}",
-                "name": "Rouler vers {direction} sur {way_name:article}",
-                "namedistance": "Rouler vers {direction} sur {way_name:article} sur {distance}"
+                "default": "Se diriger vers {direction}",
+                "name": "Se diriger vers {direction} sur {way_name:article}",
+                "namedistance": "Se diriger vers {direction} sur {way_name:article} sur {distance}"
             }
         },
         "end of road": {
@@ -181,29 +181,29 @@
         },
         "fork": {
             "default": {
-                "default": "Rester {modifier} à l’embranchement",
-                "name": "Rester {modifier} à l’embranchement sur {way_name:article}",
-                "destination": "Rester {modifier} à l’embranchement en direction {destination:preposition}"
+                "default": "Tenir {modifier} à l’embranchement",
+                "name": "Tenir {modifier} sur {way_name:article}",
+                "destination": "Tenir {modifier} en direction {destination:preposition}"
             },
             "slight left": {
-                "default": "Rester à gauche à l’embranchement",
-                "name": "Rester à gauche à l’embranchement sur {way_name:article}",
-                "destination": "Rester à gauche à l’embranchement en direction {destination:preposition}"
+                "default": "Tenir la gauche à l’embranchement",
+                "name": "Tenir la gauche sur {way_name:article}",
+                "destination": "Tenir la gauche en direction {destination:preposition}"
             },
             "slight right": {
-                "default": "Rester à droite à l’embranchement",
-                "name": "Rester à droite à l’embranchement sur {way_name:article}",
-                "destination": "Rester à droite à l’embranchement en direction {destination:preposition}"
+                "default": "Tenir la droite à l’embranchement",
+                "name": "Tenir la droite sur {way_name:article}",
+                "destination": "Tenir la droite en direction {destination:preposition}"
             },
             "sharp left": {
-                "default": "Prendre franchement à gauche à l’embranchement",
-                "name": "Prendre franchement à gauche sur {way_name:article}",
-                "destination": "Prendre franchement à gauche en direction {destination:preposition}"
+                "default": "Tourner franchement à gauche à l’embranchement",
+                "name": "Tourner franchement à gauche sur {way_name:article}",
+                "destination": "Tourner franchement à gauche en direction {destination:preposition}"
             },
             "sharp right": {
-                "default": "Prendre franchement à droite à l’embranchement",
-                "name": "Prendre franchement à droite sur {way_name:article}",
-                "destination": "Prendre franchement à droite en direction {destination:preposition}"
+                "default": "Tourner franchement à droite à l’embranchement",
+                "name": "Tourner franchement à droite sur {way_name:article}",
+                "destination": "Tourner franchement à droite en direction {destination:preposition}"
             },
             "uturn": {
                 "default": "Faire demi-tour",
@@ -260,14 +260,14 @@
                 "destination": "Continuer tout droit en direction {destination:preposition}"
             },
             "sharp left": {
-                "default": "Prendre franchement à gauche",
-                "name": "Prendre franchement à gauche sur {way_name:article}",
-                "destination": "Prendre franchement à gauche en direction {destination:preposition}"
+                "default": "Tourner franchement à gauche",
+                "name": "Tourner franchement à gauche sur {way_name:article}",
+                "destination": "Tourner franchement à gauche en direction {destination:preposition}"
             },
             "sharp right": {
-                "default": "Prendre franchement à droite",
-                "name": "Prendre franchement à droite sur {way_name:article}",
-                "destination": "Prendre franchement à droite en direction {destination:preposition}"
+                "default": "Tourner franchement à droite",
+                "name": "Tourner franchement à droite sur {way_name:article}",
+                "destination": "Tourner franchement à droite en direction {destination:preposition}"
             },
             "slight left": {
                 "default": "Continuer légèrement à gauche",
@@ -389,37 +389,37 @@
             "default": {
                 "default": {
                     "default": "Prendre le rond-point",
-                    "name": "Prendre le rond-point et sortir sur {way_name:article}",
-                    "destination": "Prendre le rond-point et sortir en direction {destination:preposition}"
+                    "name": "Prendre le rond-point, puis sortir sur {way_name:article}",
+                    "destination": "Prendre le rond-point, puis sortir en direction {destination:preposition}"
                 },
                 "name": {
                     "default": "Prendre {rotary_name:rotary}",
-                    "name": "Prendre {rotary_name:rotary} et sortir par {way_name:article}",
-                    "destination": "Prendre {rotary_name:rotary} et sortir en direction {destination:preposition}"
+                    "name": "Prendre {rotary_name:rotary}, puis sortir par {way_name:article}",
+                    "destination": "Prendre {rotary_name:rotary}, puis sortir en direction {destination:preposition}"
                 },
                 "exit": {
-                    "default": "Prendre le rond-point et prendre la {exit_number} sortie",
-                    "name": "Prendre le rond-point et prendre la {exit_number} sortie sur {way_name:article}",
-                    "destination": "Prendre le rond-point et prendre la {exit_number} sortie en direction {destination:preposition}"
+                    "default": "Prendre le rond-point, puis la {exit_number} sortie",
+                    "name": "Prendre le rond-point, puis la {exit_number} sortie sur {way_name:article}",
+                    "destination": "Prendre le rond-point, puis la {exit_number} sortie en direction {destination:preposition}"
                 },
                 "name_exit": {
-                    "default": "Prendre {rotary_name:rotary} et prendre la {exit_number} sortie",
-                    "name": "Prendre {rotary_name:rotary} et prendre la {exit_number} sortie sur {way_name:article}",
-                    "destination": "Prendre {rotary_name:rotary} et prendre la {exit_number} sortie en direction {destination:preposition}"
+                    "default": "Prendre {rotary_name:rotary}, puis la {exit_number} sortie",
+                    "name": "Prendre {rotary_name:rotary}, puis la {exit_number} sortie sur {way_name:article}",
+                    "destination": "Prendre {rotary_name:rotary}, puis la {exit_number} sortie en direction {destination:preposition}"
                 }
             }
         },
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Prendre le rond-point et prendre la {exit_number} sortie",
-                    "name": "Prendre le rond-point et prendre la {exit_number} sortie sur {way_name:article}",
-                    "destination": "Prendre le rond-point et prendre la {exit_number} sortie en direction {destination:preposition}"
+                    "default": "Prendre le rond-point, puis la {exit_number} sortie",
+                    "name": "Prendre le rond-point, puis la {exit_number} sortie sur {way_name:article}",
+                    "destination": "Prendre le rond-point, puis la {exit_number} sortie en direction {destination:preposition}"
                 },
                 "default": {
                     "default": "Prendre le rond-point",
-                    "name": "Prendre le rond-point et sortir sur {way_name:article}",
-                    "destination": "Prendre le rond-point et sortir en direction {destination:preposition}"
+                    "name": "Prendre le rond-point, puis sortir sur {way_name:article}",
+                    "destination": "Prendre le rond-point, puis sortir en direction {destination:preposition}"
                 }
             }
         },
