@@ -5,6 +5,7 @@
     "v5": {
         "article": [
             ["^ Acc[èe]s ", " l’accès "],
+            ["^ Aire ", " l’aire "],
             ["^ All[ée]e ", " l’allée "],
             ["^ (L['’])?Autoroute ", " l’autoroute "],
             ["^ Avenue ", " l’avenue "],
@@ -29,11 +30,13 @@
             ["^ Route ", " la route "],
             ["^ Rue ", " la rue "],
             ["^ Sente ", " la sente "],
+            ["^ Sentier ", " le sentier "],
             ["^ Sortie ", " la sortie "],
             ["^ Souterrain ", " le souterrain "],
             ["^ Square ", " le square "],
             ["^ Terrasse ", " la terrasse "],
             ["^ Tunnel ", " le tunnel "],
+            ["^ Villa ", " le villa "],
             ["^ Voie ", " la voie "]
         ],
         "preposition": [
@@ -42,6 +45,7 @@
             ["^ La ", "  de La "],
 
             ["^ Acc[èe]s ", "  de l’accès "],
+            ["^ Aire ", "  de l’aire "],
             ["^ All[ée]e ", "  de l’allée "],
             ["^ (L['’])?Autoroute ", "  de l’autoroute "],
             ["^ Avenue ", "  de l’avenue "],
@@ -66,11 +70,13 @@
             ["^ Route ", "  de la route "],
             ["^ Rue ", "  de la rue "],
             ["^ Sente ", "  de la sente "],
+            ["^ Sentier ", "  du sentier "],
             ["^ Sortie ", "  de la sortie "],
             ["^ Souterrain ", "  du souterrain "],
             ["^ Square ", "  du square "],
             ["^ Terrasse ", "  de la terrasse "],
             ["^ Tunnel ", "  du tunnel "],
+            ["^ Villa ", "  du villa "],
             ["^ Voie ", "  de la voie "],
 
             ["^ ([AÂÀEÈÉÊËIÎÏOÔUÙÛÜYŸÆŒ])", "  d’$1"],
@@ -82,6 +88,7 @@
             ["^ La ", "  le rond-point de La "],
 
             ["^ Acc[èe]s ", " le rond-point de l’accès "],
+            ["^ Aire ", "  le rond-point de l’aire "],
             ["^ All[ée]e ", "  le rond-point de l’allée "],
             ["^ (L['’])?Autoroute ", "  le rond-point de l’autoroute "],
             ["^ Avenue ", "  le rond-point de l’avenue "],
@@ -106,11 +113,13 @@
             ["^ Route ", "  le rond-point de la route "],
             ["^ Rue ", "  le rond-point de la rue "],
             ["^ Sente ", "  le rond-point de la sente "],
+            ["^ Sentier ", "  le rond-point du sentier "],
             ["^ Sortie ", "  le rond-point de la sortie "],
             ["^ Souterrain ", "  le rond-point du souterrain "],
             ["^ Square ", "  le rond-point du square "],
             ["^ Terrasse ", "  le rond-point de la terrasse "],
             ["^ Tunnel ", "  le rond-point du tunnel "],
+            ["^ Villa ", "  le rond-point du villa "],
             ["^ Voie ", "  le rond-point de la voie "],
 
             ["^ ([AÂÀEÈÉÊËIÎÏOÔUÙÛÜYŸÆŒ])", "  le rond-point d’$1"],
