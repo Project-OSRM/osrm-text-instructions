@@ -44,6 +44,8 @@ const grammarTests = {
         ['Cours la Reine', 'article', 'le cours la Reine'],
         ['Cours la Reine', 'preposition', 'du cours la Reine'],
         ['Cours la Reine', 'rotary', 'le rond-point du cours la Reine'],
+        ['Déviation de Compans', 'article', 'la déviation de Compans'],
+        ['Déviation de Compans', 'preposition', 'de la déviation de Compans'],
         ['Entrée Rue des Halles (Voie A2)', 'article', 'l’entrée Rue des Halles (Voie A2)'],
         ['Entrée Rue des Halles (Voie A2)', 'preposition', 'de l’entrée Rue des Halles (Voie A2)'],
         ['Galerie Vivienne', 'article', 'la galerie Vivienne'],
