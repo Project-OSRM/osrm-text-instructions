@@ -88,6 +88,8 @@ const grammarTests = {
         ['Terrasse Modigliani', 'preposition', 'de la terrasse Modigliani'],
         ['Tunnel des Tuileries', 'article', 'le tunnel des Tuileries'],
         ['Tunnel des Tuileries', 'preposition', 'du tunnel des Tuileries'],
+        ['Viaduc de la Marne', 'article', 'le viaduc de la Marne'],
+        ['Viaduc de la Marne', 'preposition', 'du viaduc de la Marne'],
         ['Villa Blanchard', 'article', 'le villa Blanchard'],
         ['Villa Blanchard', 'preposition', 'du villa Blanchard'],
         ['Voie Georges Pompidou', 'article', 'la voie Georges Pompidou'],

@@ -37,6 +37,7 @@
             ["^ Square ", " le square "],
             ["^ Terrasse ", " la terrasse "],
             ["^ Tunnel ", " le tunnel "],
+            ["^ Viaduc ", " le viaduc "],
             ["^ Villa ", " le villa "],
             ["^ Voie ", " la voie "]
         ],
@@ -78,6 +79,7 @@
             ["^ Square ", "  du square "],
             ["^ Terrasse ", "  de la terrasse "],
             ["^ Tunnel ", "  du tunnel "],
+            ["^ Viaduc ", "  du viaduc "],
             ["^ Villa ", "  du villa "],
             ["^ Voie ", "  de la voie "],
 
@@ -122,6 +124,7 @@
             ["^ Square ", "  le rond-point du square "],
             ["^ Terrasse ", "  le rond-point de la terrasse "],
             ["^ Tunnel ", "  le rond-point du tunnel "],
+            ["^ Viaduc ", "  le rond-point du viaduc "],
             ["^ Villa ", "  le rond-point du villa "],
             ["^ Voie ", "  le rond-point de la voie "],
 
