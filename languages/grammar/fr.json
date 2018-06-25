@@ -49,7 +49,9 @@
             ["^ Tunnel ", " le tunnel "],
             ["^ Viaduc ", " le viaduc "],
             ["^ Villa(ge)? ", " le villa$1 "],
-            ["^ Voie ", " la voie "]
+            ["^ Voie ", " la voie "],
+
+            [" ([dl])'", " $1’"]
         ],
         "preposition": [
             ["^ Le ", "  du "],
@@ -104,7 +106,8 @@
             ["^ Voie ", "  de la voie "],
 
             ["^ ([AÂÀEÈÉÊËIÎÏOÔUÙÛÜYŸÆŒ])", "  d’$1"],
-            ["^ (\\S)", "  de $1"]
+            ["^ (\\S)", "  de $1"],
+            [" ([dl])'", " $1’"]
         ],
         "rotary": [
             ["^ Le ", "  le rond-point du "],
@@ -159,13 +162,16 @@
             ["^ Voie ", "  le rond-point de la voie "],
 
             ["^ ([AÂÀEÈÉÊËIÎÏOÔUÙÛÜYŸÆŒ])", "  le rond-point d’$1"],
-            ["^ (\\S)", "  le rond-point de $1"]
+            ["^ (\\S)", "  le rond-point de $1"],
+            [" ([dl])'", " $1’"]
         ],
         "arrival": [
             ["^ Le ", "  au "],
             ["^ Les ", "  aux "],
             ["^ La ", "  à La "],
-            ["^ (\\S)", "  à $1"]
+            ["^ (\\S)", "  à $1"],
+
+            [" ([dl])'", " $1’"]
         ]
     }
 }
