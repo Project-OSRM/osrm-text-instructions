@@ -48,7 +48,8 @@
             ["^ Traverse ", " la traverse "],
             ["^ Tunnel ", " le tunnel "],
             ["^ Viaduc ", " le viaduc "],
-            ["^ Villa(ge)? ", " le villa$1 "],
+            ["^ Villa ", " la villa "],
+            ["^ Village ", " le village "],
             ["^ Voie ", " la voie "],
 
             [" ([dl])'", " $1’"]
@@ -102,7 +103,8 @@
             ["^ Traverse ", "  de la traverse "],
             ["^ Tunnel ", "  du tunnel "],
             ["^ Viaduc ", "  du viaduc "],
-            ["^ Villa(ge)? ", "  du villa$1 "],
+            ["^ Villa ", "  de la villa "],
+            ["^ Village ", "  du village "],
             ["^ Voie ", "  de la voie "],
 
             ["^ ([AÂÀEÈÉÊËIÎÏOÔUÙÛÜYŸÆŒ])", "  d’$1"],
@@ -158,7 +160,8 @@
             ["^ Traverse ", "  le rond-point de la traverse "],
             ["^ Tunnel ", "  le rond-point du tunnel "],
             ["^ Viaduc ", "  le rond-point du viaduc "],
-            ["^ Villa(ge)? ", "  le rond-point du villa$1 "],
+            ["^ Villa ", "  le rond-point de la villa "],
+            ["^ Village ", "  le rond-point du village "],
             ["^ Voie ", "  le rond-point de la voie "],
 
             ["^ ([AÂÀEÈÉÊËIÎÏOÔUÙÛÜYŸÆŒ])", "  le rond-point d’$1"],
