@@ -213,9 +213,9 @@
         },
         "merge": {
             "default": {
-                "default": "Rejoindre {modifier}",
-                "name": "Rejoindre {modifier} sur {way_name:article}",
-                "destination": "Rejoindre {modifier} en direction {destination:preposition}"
+                "default": "S’insérer {modifier}",
+                "name": "S’insérer {modifier} sur {way_name:article}",
+                "destination": "S’insérer {modifier} en direction {destination:preposition}"
             },
             "straight": {
                 "default": "S’insérer",
