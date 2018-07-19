@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
-## master
+## 0.13.1 2018-07-19
 
 - Updated French localization with articles and prepositions insertion using grammar rules. [#252](https://github.com/Project-OSRM/osrm-text-instructions/pull/252)
 - Added a Burmese localization. [#247](https://github.com/Project-OSRM/osrm-text-instructions/pull/247)
