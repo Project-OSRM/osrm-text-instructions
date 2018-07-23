@@ -23,22 +23,31 @@ urls.api = 'https://www.transifex.com/api/2';
 urls.project = 'project/osrm-text-instructions';
 urls.translation = `${urls.api}/${urls.project}/resource/enjson/translation`;
 
+function writeLocalization(code, content) {
+    // Apply language-specific overrides
+    var output = content;
+    var override = `${__dirname}/../languages/overrides/${code}.js`;
+    if (fs.existsSync(override)) {
+        output = require(override)(output);
+    }
+
+    // Write language file
+    fs.writeFileSync(`${__dirname}/../languages/translations/${code}.json`, JSON.stringify(output, null, 4) + '\n');
+}
+
+// American English is derived from the base English localization, not a
+// localization on Transifex.
+var baseContent = JSON.parse(fs.readFileSync(`${__dirname}/../languages/translations/en.json`));
+writeLocalization('en-US', baseContent);
+
 languages.supportedCodes.forEach((code) => {
     // no need to download english
-    if (code === 'en') return;
+    if (code === 'en' || code === 'en-US') return;
 
     // Download from Transifex
     request.get(`${urls.translation}/${code}`, {auth: auth}, (err, resp, body) => {
         if (err) throw err;
         var content = JSON.parse(JSON.parse(body).content);
-
-        // Apply language-specific overrides
-        var override = `${__dirname}/../languages/overrides/${code}.js`;
-        if (fs.existsSync(override)) {
-            content = require(override)(content);
-        }
-
-        // Write language file
-        fs.writeFileSync(`${__dirname}/../languages/translations/${code}.json`, JSON.stringify(content, null, 4) + '\n');
+        writeLocalization(code, content);
     });
 });

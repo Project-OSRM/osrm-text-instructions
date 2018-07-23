@@ -3,6 +3,7 @@
 var instructionsDa = require('./languages/translations/da.json');
 var instructionsDe = require('./languages/translations/de.json');
 var instructionsEn = require('./languages/translations/en.json');
+var instructionsEnUs = require('./languages/translations/en-US.json');
 var instructionsEo = require('./languages/translations/eo.json');
 var instructionsEs = require('./languages/translations/es.json');
 var instructionsEsEs = require('./languages/translations/es-ES.json');
@@ -52,6 +53,7 @@ var instructions = {
     'da': instructionsDa,
     'de': instructionsDe,
     'en': instructionsEn,
+    'en-US': instructionsEnUs,
     'eo': instructionsEo,
     'es': instructionsEs,
     'es-ES': instructionsEsEs,
@@ -88,6 +90,7 @@ var abbreviations = {
     'da': abbreviationsDa,
     'de': ebbreviationsDe,
     'en': abbreviationsEn,
+    'en-US': abbreviationsEn,
     'es': abbreviationsEs,
     'fr': abbreviationsFr,
     'he': abbreviationsHe,

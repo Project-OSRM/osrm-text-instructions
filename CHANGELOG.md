@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. For change 
 ## master
 
 - Renamed “traffic circle” to “roundabout” in the English localization. [#256](https://github.com/Project-OSRM/osrm-text-instructions/pull/256)
+- Added an American English localization that only differs from the international English localization by the use of “traffic circle” to refer to classic circular junctions. [#256](https://github.com/Project-OSRM/osrm-text-instructions/pull/256)
 
 ## 0.13.1 2018-07-19
 
