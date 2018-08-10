@@ -29,10 +29,10 @@
             "modifier": {
                 "left": "links",
                 "right": "rechts",
-                "sharp left": "linksaf",
-                "sharp right": "rechtsaf",
-                "slight left": "links",
-                "slight right": "rechts",
+                "sharp left": "scherpe bocht naar links",
+                "sharp right": "scherpe bocht naar rechts",
+                "slight left": "iets naar links",
+                "slight right": "iets naar rechts",
                 "straight": "rechtdoor",
                 "uturn": "omkeren"
             },
@@ -47,72 +47,72 @@
             "ferry": {
                 "default": "Neem de veerpont",
                 "name": "Neem de veerpont {way_name}",
-                "destination": "Neem de veerpont naar {destination}"
+                "destination": "Neem de veerpont richting {destination}"
             }
         },
         "phrase": {
-            "two linked by distance": "{instruction_one}, daarna, in {distance}, {instruction_two}",
+            "two linked by distance": "{instruction_one}, dan na {distance}, {instruction_two}",
             "two linked": "{instruction_one}, daarna {instruction_two}",
             "one in distance": "Over {distance}, {instruction_one}",
             "name and ref": "{name} ({ref})",
-            "exit with number": "exit {exit}"
+            "exit with number": "afslag {exit}"
         },
         "arrive": {
             "default": {
                 "default": "Je bent gearriveerd op de {nth} bestemming.",
                 "upcoming": "U arriveert op de {nth} bestemming",
-                "short": "Je bent gearriveerd",
-                "short-upcoming": "U arriveert",
-                "named": "Je bent gearriveerd op {waypoint_name}"
+                "short": "U bent gearriveerd",
+                "short-upcoming": "U zult aankomen",
+                "named": "U bent gearriveerd bij {waypoint_name}"
             },
             "left": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
                 "upcoming": "Uw {nth} bestemming bevindt zich aan de linkerkant",
-                "short": "Je bent gearriveerd",
-                "short-upcoming": "U arriveert",
-                "named": "Je bent gearriveerd. {waypoint_name} bevindt zich links."
+                "short": "U bent gearriveerd",
+                "short-upcoming": "U zult aankomen",
+                "named": "U bent gearriveerd bij {waypoint_name}, de bestemming is aan de linkerkant"
             },
             "right": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
                 "upcoming": "Uw {nth} bestemming bevindt zich aan de rechterkant",
-                "short": "Je bent gearriveerd",
-                "short-upcoming": "U arriveert",
-                "named": "Je bent gearriveerd. {waypoint_name} bevindt zich rechts."
+                "short": "U bent gearriveerd",
+                "short-upcoming": "U zult aankomen",
+                "named": "U bent gearriveerd bij {waypoint_name}, de bestemming is aan de  rechterkant"
             },
             "sharp left": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
                 "upcoming": "Uw {nth} bestemming bevindt zich aan de linkerkant",
-                "short": "Je bent gearriveerd",
-                "short-upcoming": "U arriveert",
-                "named": "Je bent gearriveerd. {waypoint_name} bevindt zich links."
+                "short": "U bent gearriveerd",
+                "short-upcoming": "U zult aankomen",
+                "named": "U bent gearriveerd bij {waypoint_name}, de bestemming is aan de linkerkant"
             },
             "sharp right": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
                 "upcoming": "Uw {nth} bestemming bevindt zich aan de rechterkant",
-                "short": "Je bent gearriveerd",
-                "short-upcoming": "U arriveert",
-                "named": "Je bent gearriveerd. {waypoint_name} bevindt zich rechts."
+                "short": "U bent gearriveerd",
+                "short-upcoming": "U zult aankomen",
+                "named": "U bent gearriveerd bij {waypoint_name},  de bestemming is aan de rechterkant"
             },
             "slight right": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
                 "upcoming": "Uw {nth} bestemming bevindt zich aan de rechterkant",
-                "short": "Je bent gearriveerd",
-                "short-upcoming": "U arriveert",
-                "named": "Je bent gearriveerd. {waypoint_name} bevindt zich rechts."
+                "short": "U bent gearriveerd",
+                "short-upcoming": "U zult aankomen",
+                "named": "U bent gearriveerd bij {waypoint_name},  de bestemming is aan de rechterkant"
             },
             "slight left": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
                 "upcoming": "Uw {nth} bestemming bevindt zich aan de linkerkant",
-                "short": "Je bent gearriveerd",
-                "short-upcoming": "U arriveert",
-                "named": "Je bent gearriveerd. {waypoint_name} bevindt zich links."
+                "short": "U bent gearriveerd",
+                "short-upcoming": "U zult aankomen",
+                "named": "U bent gearriveerd bij {waypoint_name},  de bestemming is aan de linkerkant"
             },
             "straight": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich voor je.",
                 "upcoming": "Uw {nth} bestemming is recht voor u",
-                "short": "Je bent gearriveerd",
-                "short-upcoming": "U arriveert",
-                "named": "Je bent gearriveerd. {waypoint_name} bevindt zich voor je."
+                "short": "U bent gearriveerd",
+                "short-upcoming": "U zult aankomen",
+                "named": "U bent gearriveerd bij {waypoint_name}, de bestemming is recht voor u"
             }
         },
         "continue": {
@@ -182,28 +182,28 @@
         "fork": {
             "default": {
                 "default": "Ga {modifier} op de splitsing",
-                "name": "Ga {modifier} op de splitsing naar {way_name}",
-                "destination": "Ga {modifier} op de splitsing richting {destination}"
+                "name": "Houd {modifier} aan, tot {way_name}",
+                "destination": "Houd {modifier}, in de richting van {destination}"
             },
             "slight left": {
                 "default": "Links aanhouden op de splitsing",
-                "name": "Links aanhouden op de splitsing naar {way_name}",
-                "destination": "Links aanhouden op de splitsing richting {destination}"
+                "name": "Houd links aan, tot {way_name}",
+                "destination": "Houd links aan, richting {destination}"
             },
             "slight right": {
                 "default": "Rechts aanhouden op de splitsing",
-                "name": "Rechts aanhouden op de splitsing naar {way_name}",
-                "destination": "Rechts aanhouden op de splitsing richting {destination}"
+                "name": "Houd rechts aan, tot {way_name}",
+                "destination": "Houd rechts aan, richting {destination}"
             },
             "sharp left": {
-                "default": "Linksaf op de splitsing",
-                "name": "Linksaf naar {way_name}",
-                "destination": "Linksaf richting {destination}"
+                "default": "Neem bij de splitsing, een scherpe bocht, naar links ",
+                "name": "Neem een scherpe bocht naar links, tot aan {way_name}",
+                "destination": "Neem een scherpe bocht naar links, richting {destination}"
             },
             "sharp right": {
-                "default": "Rechtsaf op de splitsing",
-                "name": "Rechtsaf naar {way_name}",
-                "destination": "Rechtsaf richting {destination}"
+                "default": "Neem  op de splitsing, een scherpe bocht, naar rechts",
+                "name": "Neem een scherpe bocht naar rechts, tot aan {way_name}",
+                "destination": "Neem een scherpe bocht naar rechts, richting {destination}"
             },
             "uturn": {
                 "default": "Keer om",
@@ -260,12 +260,12 @@
                 "destination": "Ga rechtdoor richting {destination}"
             },
             "sharp left": {
-                "default": "Linksaf",
+                "default": "Neem een scherpe bocht, naar links",
                 "name": "Linksaf naar {way_name}",
                 "destination": "Linksaf richting {destination}"
             },
             "sharp right": {
-                "default": "Rechtsaf",
+                "default": "Neem een scherpe bocht, naar rechts",
                 "name": "Rechtsaf naar {way_name}",
                 "destination": "Rechtsaf richting {destination}"
             },
