@@ -3,6 +3,7 @@ All notable changes to this project will be documented in this file. For change 
 
 ## master
 
+- Added a Norwegian Bokmål localization. [#261](https://github.com/Project-OSRM/osrm-text-instructions/pull/261)
 - Updated Russian grammar with 'glade' status street name. [#259](https://github.com/Project-OSRM/osrm-text-instructions/pull/259)
 
 ## 0.13.1 2018-07-19

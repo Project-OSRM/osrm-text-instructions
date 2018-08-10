@@ -1,0 +1,493 @@
+{
+    "meta": {
+        "capitalizeFirstLetter": true
+    },
+    "v5": {
+        "constants": {
+            "ordinalize": {
+                "1": "1.",
+                "2": "2.",
+                "3": "3.",
+                "4": "4.",
+                "5": "5.",
+                "6": "6.",
+                "7": "7.",
+                "8": "8.",
+                "9": "9.",
+                "10": "10."
+            },
+            "direction": {
+                "north": "nord",
+                "northeast": "nordøst",
+                "east": "øst",
+                "southeast": "sørøst",
+                "south": "sør",
+                "southwest": "sørvest",
+                "west": "vest",
+                "northwest": "nordvest"
+            },
+            "modifier": {
+                "left": "venstre",
+                "right": "høyre",
+                "sharp left": "skarp venstre",
+                "sharp right": "skarp høyre",
+                "slight left": "litt til venstre",
+                "slight right": "litt til høyre",
+                "straight": "rett frem",
+                "uturn": "U-sving"
+            },
+            "lanes": {
+                "xo": "Hold til høyre",
+                "ox": "Hold til venstre",
+                "xox": "Hold deg i midten",
+                "oxo": "Hold til venstre eller høyre"
+            }
+        },
+        "modes": {
+            "ferry": {
+                "default": "Ta ferja",
+                "name": "Ta ferja {way_name}",
+                "destination": "Ta ferja til {destination}"
+            }
+        },
+        "phrase": {
+            "two linked by distance": "{instruction_one}, deretter {instruction_two} om {distance}",
+            "two linked": "{instruction_one}, deretter {instruction_two}",
+            "one in distance": "Om {distance}, {instruction_one}",
+            "name and ref": "{name} ({ref})",
+            "exit with number": "avkjørsel {exit}"
+        },
+        "arrive": {
+            "default": {
+                "default": "Du har ankommet din {nth} destinasjon",
+                "upcoming": "Du vil ankomme din {nth} destinasjon",
+                "short": "Du har ankommet",
+                "short-upcoming": "Du vil ankomme",
+                "named": "Du har ankommet {waypoint_name}"
+            },
+            "left": {
+                "default": "Du har ankommet din {nth} destinasjon, på din venstre side",
+                "upcoming": "Du vil ankomme din {nth} destinasjon, på din venstre side",
+                "short": "Du har ankommet",
+                "short-upcoming": "Du vil ankomme",
+                "named": "Du har ankommet {waypoint_name}, på din venstre side"
+            },
+            "right": {
+                "default": "Du har ankommet din {nth} destinasjon, på din høyre side",
+                "upcoming": "Du vil ankomme din {nth} destinasjon, på din høyre side",
+                "short": "Du har ankommet",
+                "short-upcoming": "Du vil ankomme",
+                "named": "Du har ankommet {waypoint_name}, på din høyre side"
+            },
+            "sharp left": {
+                "default": "Du har ankommet din {nth} destinasjon, på din venstre side",
+                "upcoming": "Du vil ankomme din {nth} destinasjon, på din venstre side",
+                "short": "Du har ankommet",
+                "short-upcoming": "Du vil ankomme",
+                "named": "Du har ankommet {waypoint_name}, på din venstre side"
+            },
+            "sharp right": {
+                "default": "Du har ankommet din {nth} destinasjon, på din høyre side",
+                "upcoming": "Du vil ankomme din {nth} destinasjon, på din høyre side",
+                "short": "Du har ankommet",
+                "short-upcoming": "Du vil ankomme",
+                "named": "Du har ankommet {waypoint_name}, på din høyre side"
+            },
+            "slight right": {
+                "default": "Du har ankommet din {nth} destinasjon, på din høyre side",
+                "upcoming": "Du vil ankomme din {nth} destinasjon, på din høyre side",
+                "short": "Du har ankommet",
+                "short-upcoming": "Du vil ankomme",
+                "named": "Du har ankommet {waypoint_name}, på din høyre side"
+            },
+            "slight left": {
+                "default": "Du har ankommet din {nth} destinasjon, på din venstre side",
+                "upcoming": "Du vil ankomme din {nth} destinasjon, på din venstre side",
+                "short": "Du har ankommet",
+                "short-upcoming": "Du vil ankomme",
+                "named": "Du har ankommet {waypoint_name}, på din venstre side"
+            },
+            "straight": {
+                "default": "Du har ankommet din {nth} destinasjon, rett forut",
+                "upcoming": "Du vil ankomme din {nth} destinasjon, rett forut",
+                "short": "Du har ankommet",
+                "short-upcoming": "Du vil ankomme",
+                "named": "Du har ankommet {waypoint_name}, rett forut"
+            }
+        },
+        "continue": {
+            "default": {
+                "default": "Ta til {modifier}",
+                "name": "Ta til {modifier} for å bli værende på {way_name}",
+                "destination": "Ta til {modifier} mot {destination}",
+                "exit": "Ta til {modifier} inn på {way_name}"
+            },
+            "straight": {
+                "default": "Fortsett rett frem",
+                "name": "Fortsett rett frem for å bli værende på {way_name}",
+                "destination": "Fortsett mot {destination}",
+                "distance": "Fortsett rett frem, {distance} ",
+                "namedistance": "Fortsett på {way_name}, {distance}"
+            },
+            "sharp left": {
+                "default": "Sving skarpt til venstre",
+                "name": "Sving skarpt til venstre for å bli værende på {way_name}",
+                "destination": "Sving skarpt til venstre mot {destination}"
+            },
+            "sharp right": {
+                "default": "Sving skarpt til høyre",
+                "name": "Sving skarpt til høyre for å bli værende på {way_name}",
+                "destination": "Sving skarpt mot {destination}"
+            },
+            "slight left": {
+                "default": "Sving svakt til venstre",
+                "name": "Sving svakt til venstre for å bli værende på {way_name}",
+                "destination": "Sving svakt til venstre mot {destination}"
+            },
+            "slight right": {
+                "default": "Sving svakt til høyre",
+                "name": "Sving svakt til høyre for å bli værende på {way_name}",
+                "destination": "Sving svakt til høyre mot {destination}"
+            },
+            "uturn": {
+                "default": "Ta en U-sving",
+                "name": "Ta en U-sving og fortsett på {way_name}",
+                "destination": "Ta en U-sving mot {destination}"
+            }
+        },
+        "depart": {
+            "default": {
+                "default": "Kjør i retning {direction}",
+                "name": "Kjør i retning {direction} på {way_name}",
+                "namedistance": "Kjør i retning {direction} på {way_name}, {distance}"
+            }
+        },
+        "end of road": {
+            "default": {
+                "default": "Sving {modifier}",
+                "name": "Ta til {modifier} inn på {way_name}",
+                "destination": "Sving {modifier} mot {destination}"
+            },
+            "straight": {
+                "default": "Fortsett rett frem",
+                "name": "Fortsett rett frem til  {way_name}",
+                "destination": "Fortsett rett frem mot {destination}"
+            },
+            "uturn": {
+                "default": "Ta en U-sving i enden av veien",
+                "name": "Ta en U-sving til {way_name} i enden av veien",
+                "destination": "Ta en U-sving mot {destination} i enden av veien"
+            }
+        },
+        "fork": {
+            "default": {
+                "default": "Hold til {modifier} i veikrysset",
+                "name": "Hold til {modifier} inn på {way_name}",
+                "destination": "Hold til {modifier} mot {destination}"
+            },
+            "slight left": {
+                "default": "Hold til venstre i veikrysset",
+                "name": "Hold til venstre inn på {way_name}",
+                "destination": "Hold til venstre mot {destination}"
+            },
+            "slight right": {
+                "default": "Hold til høyre i veikrysset",
+                "name": "Hold til høyre inn på {way_name}",
+                "destination": "Hold til høyre mot {destination}"
+            },
+            "sharp left": {
+                "default": "Sving skarpt til venstre i veikrysset",
+                "name": "Sving skarpt til venstre inn på {way_name}",
+                "destination": "Sving skarpt til venstre mot {destination}"
+            },
+            "sharp right": {
+                "default": "Sving skarpt til høyre i veikrysset",
+                "name": "Sving skarpt til høyre inn på {way_name}",
+                "destination": "Svings skarpt til høyre mot {destination}"
+            },
+            "uturn": {
+                "default": "Ta en U-sving",
+                "name": "Ta en U-sving til {way_name}",
+                "destination": "Ta en U-sving mot {destination}"
+            }
+        },
+        "merge": {
+            "default": {
+                "default": "Hold {modifier} kjørefelt",
+                "name": "Hold {modifier} kjørefelt inn på {way_name}",
+                "destination": "Hold {modifier} kjørefelt mot {destination}"
+            },
+            "straight": {
+                "default": "Hold kjørefelt",
+                "name": "Hold kjørefelt inn på {way_name}",
+                "destination": "Hold kjørefelt mot {destination}"
+            },
+            "slight left": {
+                "default": "Hold venstre kjørefelt",
+                "name": "Hold venstre kjørefelt inn på {way_name}",
+                "destination": "Hold venstre kjørefelt mot {destination}"
+            },
+            "slight right": {
+                "default": "Hold høyre kjørefelt",
+                "name": "Hold høyre kjørefelt inn på {way_name}",
+                "destination": "Hold høyre kjørefelt mot {destination}"
+            },
+            "sharp left": {
+                "default": "Hold venstre kjørefelt",
+                "name": "Hold venstre kjørefelt inn på {way_name}",
+                "destination": "Hold venstre kjørefelt mot {destination}"
+            },
+            "sharp right": {
+                "default": "Hold høyre kjørefelt",
+                "name": "Hold høyre kjørefelt inn på {way_name}",
+                "destination": "Hold høyre kjørefelt mot {destination}"
+            },
+            "uturn": {
+                "default": "Ta en U-sving",
+                "name": "Ta en U-sving til {way_name}",
+                "destination": "Ta en U-sving mot {destination}"
+            }
+        },
+        "new name": {
+            "default": {
+                "default": "Fortsett {modifier}",
+                "name": "Fortsett {modifier} til {way_name}",
+                "destination": "Fortsett {modifier} mot  {destination}"
+            },
+            "straight": {
+                "default": "Fortsett rett frem",
+                "name": "Fortsett inn på {way_name}",
+                "destination": "Fortsett mot {destination}"
+            },
+            "sharp left": {
+                "default": "Sving skarpt til venstre",
+                "name": "Sving skarpt til venstre inn på {way_name}",
+                "destination": "Sving skarpt til venstre mot {destination}"
+            },
+            "sharp right": {
+                "default": "Sving skarpt til høyre",
+                "name": "Sving skarpt til høyre inn på {way_name}",
+                "destination": "Svings skarpt til høyre mot {destination}"
+            },
+            "slight left": {
+                "default": "Fortsett litt mot venstre",
+                "name": "Fortsett litt mot venstre til {way_name}",
+                "destination": "Fortsett litt mot venstre mot {destination}"
+            },
+            "slight right": {
+                "default": "Fortsett litt mot høyre",
+                "name": "Fortsett litt mot høyre til {way_name}",
+                "destination": "Fortsett litt mot høyre mot {destination}"
+            },
+            "uturn": {
+                "default": "Ta en U-sving",
+                "name": "Ta en U-sving til {way_name}",
+                "destination": "Ta en U-sving mot {destination}"
+            }
+        },
+        "notification": {
+            "default": {
+                "default": "Fortsett {modifier}",
+                "name": "Fortsett {modifier} til {way_name}",
+                "destination": "Fortsett {modifier} mot  {destination}"
+            },
+            "uturn": {
+                "default": "Ta en U-sving",
+                "name": "Ta en U-sving til {way_name}",
+                "destination": "Ta en U-sving mot {destination}"
+            }
+        },
+        "off ramp": {
+            "default": {
+                "default": "Ta avkjørselen",
+                "name": "Ta avkjørselen inn på {way_name}",
+                "destination": "Ta avkjørselen mot {destination}",
+                "exit": "Ta avkjørsel {exit}",
+                "exit_destination": "Ta avkjørsel {exit} mot {destination}"
+            },
+            "left": {
+                "default": "Ta avkjørselen på venstre side",
+                "name": "Ta avkjørselen på venstre side inn på {way_name}",
+                "destination": "Ta avkjørselen på venstre side mot {destination}",
+                "exit": "Ta avkjørsel {exit} på venstre side",
+                "exit_destination": "Ta avkjørsel {exit} på venstre side mot {destination}"
+            },
+            "right": {
+                "default": "Ta avkjørselen på høyre side",
+                "name": "Ta avkjørselen på høyre side inn på {way_name}",
+                "destination": "Ta avkjørselen på høyre side mot {destination}",
+                "exit": "Ta avkjørsel {exit} på høyre side",
+                "exit_destination": "Ta avkjørsel {exit} på høyre side mot {destination}"
+            },
+            "sharp left": {
+                "default": "Ta avkjørselen på venstre side",
+                "name": "Ta avkjørselen på venstre side inn på {way_name}",
+                "destination": "Ta avkjørselen på venstre side mot {destination}",
+                "exit": "Ta avkjørsel {exit} på venstre side",
+                "exit_destination": "Ta avkjørsel {exit} på venstre side mot {destination}"
+            },
+            "sharp right": {
+                "default": "Ta avkjørselen på høyre side",
+                "name": "Ta avkjørselen på høyre side inn på {way_name}",
+                "destination": "Ta avkjørselen på høyre side mot {destination}",
+                "exit": "Ta avkjørsel {exit} på høyre side",
+                "exit_destination": "Ta avkjørsel {exit} på høyre side mot {destination}"
+            },
+            "slight left": {
+                "default": "Ta avkjørselen på venstre side",
+                "name": "Ta avkjørselen på venstre side inn på {way_name}",
+                "destination": "Ta avkjørselen på venstre side mot {destination}",
+                "exit": "Ta avkjørsel {exit} på venstre side",
+                "exit_destination": "Ta avkjørsel {exit} på venstre side mot {destination}"
+            },
+            "slight right": {
+                "default": "Ta avkjørselen på høyre side",
+                "name": "Ta avkjørselen på høyre side inn på {way_name}",
+                "destination": "Ta avkjørselen på høyre side mot {destination}",
+                "exit": "Ta avkjørsel {exit} på høyre side",
+                "exit_destination": "Ta avkjørsel {exit} på høyre side mot {destination}"
+            }
+        },
+        "on ramp": {
+            "default": {
+                "default": "Ta avkjørselen",
+                "name": "Ta avkjørselen inn på {way_name}",
+                "destination": "Ta avkjørselen mot {destination}"
+            },
+            "left": {
+                "default": "Ta avkjørselen på venstre side",
+                "name": "Ta avkjørselen på venstre side inn på {way_name}",
+                "destination": "Ta avkjørselen på venstre side mot {destination}"
+            },
+            "right": {
+                "default": "Ta avkjørselen på høyre side",
+                "name": "Ta avkjørselen på høyre side inn på {way_name}",
+                "destination": "Ta avkjørselen på høyre side mot {destination}"
+            },
+            "sharp left": {
+                "default": "Ta avkjørselen på venstre side",
+                "name": "Ta avkjørselen på venstre side inn på {way_name}",
+                "destination": "Ta avkjørselen på venstre side mot {destination}"
+            },
+            "sharp right": {
+                "default": "Ta avkjørselen på høyre side",
+                "name": "Ta avkjørselen på høyre side inn på {way_name}",
+                "destination": "Ta avkjørselen på høyre side mot {destination}"
+            },
+            "slight left": {
+                "default": "Ta avkjørselen på venstre side",
+                "name": "Ta avkjørselen på venstre side inn på {way_name}",
+                "destination": "Ta avkjørselen på venstre side mot {destination}"
+            },
+            "slight right": {
+                "default": "Ta avkjørselen på høyre side",
+                "name": "Ta avkjørselen på høyre side inn på {way_name}",
+                "destination": "Ta avkjørselen på høyre side mot {destination}"
+            }
+        },
+        "rotary": {
+            "default": {
+                "default": {
+                    "default": "Kjør inn i rundkjøringen",
+                    "name": "Kjør inn i rundkjøringen og deretter ut på {way_name}",
+                    "destination": "Kjør inn i rundkjøringen og deretter ut mot {destination}"
+                },
+                "name": {
+                    "default": "Kjør inn i {rotary_name}",
+                    "name": "Kjør inn i {rotary_name} og deretter ut på {way_name}",
+                    "destination": "Kjør inn i {rotary_name} og deretter ut mot {destination}"
+                },
+                "exit": {
+                    "default": "Kjør inn i rundkjøringen og ta {exit_number} avkjørsel",
+                    "name": "Kjør inn i rundkjøringen og ta {exit_number} avkjørsel ut på {way_name}",
+                    "destination": "Kjør inn i rundkjøringen og ta {exit_number} avkjørsel ut mot {destination} "
+                },
+                "name_exit": {
+                    "default": "Kjør inn i {rotary_name} og ta {exit_number} avkjørsel",
+                    "name": "Kjør inn i {rotary_name} og ta {exit_number} avkjørsel inn på {way_name}",
+                    "destination": "Kjør inn i {rotary_name} og ta {exit_number} avkjørsel mot {destination}"
+                }
+            }
+        },
+        "roundabout": {
+            "default": {
+                "exit": {
+                    "default": "Kjør inn i rundkjøringen og ta {exit_number} avkjørsel",
+                    "name": "Kjør inn i rundkjøringen og ta {exit_number} avkjørsel inn på {way_name}",
+                    "destination": "Kjør inn i rundkjøringen og ta {exit_number} avkjørsel ut mot {destination} "
+                },
+                "default": {
+                    "default": "Kjør inn i rundkjøringen",
+                    "name": "Kjør inn i rundkjøringen og deretter ut på {way_name}",
+                    "destination": "Kjør inn i rundkjøringen og deretter ut mot {destination}"
+                }
+            }
+        },
+        "roundabout turn": {
+            "default": {
+                "default": "Ta en {modifier}",
+                "name": "Ta en {modifier} inn på {way_name}",
+                "destination": "Ta en {modifier} mot {destination}"
+            },
+            "left": {
+                "default": "Sving til venstre",
+                "name": "Sving til venstre inn på {way_name}",
+                "destination": "Sving til venstre mot {destination}"
+            },
+            "right": {
+                "default": "Sving til høyre",
+                "name": "Sving til høyre inn på {way_name}",
+                "destination": "Sving til høyre mot {destination}"
+            },
+            "straight": {
+                "default": "Fortsett rett frem",
+                "name": "Fortsett rett frem til  {way_name}",
+                "destination": "Fortsett rett frem mot {destination}"
+            }
+        },
+        "exit roundabout": {
+            "default": {
+                "default": "Kjør ut av rundkjøringen",
+                "name": "Kjør ut av rundkjøringen og inn på {way_name}",
+                "destination": "Kjør ut av rundkjøringen mot {destination}"
+            }
+        },
+        "exit rotary": {
+            "default": {
+                "default": "Kjør ut av rundkjøringen",
+                "name": "Kjør ut av rundkjøringen og inn på {way_name}",
+                "destination": "Kjør ut av rundkjøringen mot {destination}"
+            }
+        },
+        "turn": {
+            "default": {
+                "default": "Ta en {modifier}",
+                "name": "Ta en {modifier} inn på {way_name}",
+                "destination": "Ta en {modifier} mot {destination}"
+            },
+            "left": {
+                "default": "Sving til venstre",
+                "name": "Sving til venstre inn på {way_name}",
+                "destination": "Sving til venstre mot {destination}"
+            },
+            "right": {
+                "default": "Sving til høyre",
+                "name": "Sving til høyre inn på {way_name}",
+                "destination": "Sving til høyre mot {destination}"
+            },
+            "straight": {
+                "default": "Kjør rett frem",
+                "name": "Kjør rett frem og inn på {way_name}",
+                "destination": "Kjør rett frem mot {destination}"
+            }
+        },
+        "use lane": {
+            "no_lanes": {
+                "default": "Fortsett rett frem"
+            },
+            "default": {
+                "default": "{lane_instruction}"
+            }
+        }
+    }
+}
