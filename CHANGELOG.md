@@ -1,10 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
-## master
+## 0.13.2 2018-08-13
 
 - Added a Norwegian Bokmål localization. [#261](https://github.com/Project-OSRM/osrm-text-instructions/pull/261)
 - Updated Russian grammar with 'glade' status street name. [#259](https://github.com/Project-OSRM/osrm-text-instructions/pull/259)
+- Updated Dutch translations. [#262](https://github.com/Project-OSRM/osrm-text-instructions/pull/262)
 
 ## 0.13.1 2018-07-19
 
