@@ -20,6 +20,7 @@ var instructionsPtBr = require('./languages/translations/pt-BR.json');
 var instructionsPtPt = require('./languages/translations/pt-PT.json');
 var instructionsRo = require('./languages/translations/ro.json');
 var instructionsRu = require('./languages/translations/ru.json');
+var instructionsSl = require('./languages/translations/sl.json');
 var instructionsSv = require('./languages/translations/sv.json');
 var instructionsTr = require('./languages/translations/tr.json');
 var instructionsUk = require('./languages/translations/uk.json');
@@ -70,6 +71,7 @@ var instructions = {
     'pt-PT': instructionsPtPt,
     'ro': instructionsRo,
     'ru': instructionsRu,
+    'sl': instructionsSl,
     'sv': instructionsSv,
     'tr': instructionsTr,
     'uk': instructionsUk,
