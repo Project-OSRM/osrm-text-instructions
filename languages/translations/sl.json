@@ -73,35 +73,35 @@
                 "named": "Prispeli ste na {waypoint_name} na levi"
             },
             "right": {
-                "default": "Prispeli ste na {nth} cilj, na desni",
+                "default": "Prispeli ste na {nth} cilj na desni",
                 "upcoming": "Prispeli boste na {nth} cilj na desni",
                 "short": "Prispeli ste",
                 "short-upcoming": "Prispeli boste",
                 "named": "Prispeli ste na {waypoint_name} na desni"
             },
             "sharp left": {
-                "default": "Prispeli ste na {nth} cilj, na levi",
+                "default": "Prispeli ste na {nth} cilj na levi",
                 "upcoming": "Prispeli boste na {nth} cilj na levi",
                 "short": "Prispeli ste",
                 "short-upcoming": "Prispeli boste",
                 "named": "Prispeli ste na {waypoint_name} na levi"
             },
             "sharp right": {
-                "default": "Prispeli ste na {nth} cilj, na desni",
+                "default": "Prispeli ste na {nth} cilj na desni",
                 "upcoming": "Prispeli boste na {nth} cilj na desni",
                 "short": "Prispeli ste",
                 "short-upcoming": "Prispeli boste",
                 "named": "Prispeli ste na {waypoint_name} na desni"
             },
             "slight right": {
-                "default": "Prispeli ste na {nth} cilj, na desni",
+                "default": "Prispeli ste na {nth} cilj na desni",
                 "upcoming": "Prispeli boste na {nth} cilj na desni",
                 "short": "Prispeli ste",
                 "short-upcoming": "Prispeli boste",
                 "named": "Prispeli ste na {waypoint_name} na desni"
             },
             "slight left": {
-                "default": "Prispeli ste na {nth} cilj, na levi",
+                "default": "Prispeli ste na {nth} cilj na levi",
                 "upcoming": "Prispeli boste na {nth} cilj na levi",
                 "short": "Prispeli ste",
                 "short-upcoming": "Prispeli boste",
@@ -140,14 +140,14 @@
                 "destination": "Zavijte ostro desno v smeri proti {destination}"
             },
             "slight left": {
-                "default": "Nadaljujte rahlo levo",
-                "name": "Nadaljujte rahlo levo na {way_name}",
-                "destination": "Nadaljujte rahlo levo v smeri proti {destination}"
+                "default": "Zavijte rahlo levo",
+                "name": "Zavijte rahlo levo, da ostanete na {way_name}",
+                "destination": "Zavijte rahlo levo v smeri proti {destination}"
             },
             "slight right": {
-                "default": "Nadaljujte rahlo desno",
-                "name": "Nadaljujte rahlo desno na {way_name}",
-                "destination": "Nadaljujte rahlo desno v smeri proti {destination}"
+                "default": "Zavijte rahlo desno",
+                "name": "Zavijte rahlo desno, da ostanete na {way_name}",
+                "destination": "Zavijte rahlo desno v smeri proti {destination}"
             },
             "uturn": {
                 "default": "Polkrožno obrnite",
@@ -176,34 +176,34 @@
             "uturn": {
                 "default": "Na koncu ceste polkrožno obrnite",
                 "name": "Na koncu ceste polkrožno obrnite na {way_name}",
-                "destination": "Na koncu ceste polkrožno obrnite proti {destination}"
+                "destination": "Na koncu ceste polkrožno obrnite v smeri proti {destination}"
             }
         },
         "fork": {
             "default": {
                 "default": "Na razcepu se držite {modifier}",
-                "name": "Na razcepu {way_name} se držite {modifier}",
-                "destination": "Na razcepu v smeri proti {destination} se držite {modifier}"
+                "name": "Držite se {modifier}na {way_name} ",
+                "destination": "Držite se {modifier}v smeri proti {destination}"
             },
             "slight left": {
                 "default": "Na razcepu se držite levo",
-                "name": "Na razcepu {way_name} se držite levo",
-                "destination": "Na razcepu v smeri proti {destination} se držite levo"
+                "name": "Držite se levo na {way_name}",
+                "destination": "Držite se levo v smeri proti {destination}"
             },
             "slight right": {
                 "default": "Na razcepu se držite desno",
-                "name": "Na razcepu {way_name} se držite desno",
-                "destination": "Na razcepu v smeri proti {destination} se držite desno"
+                "name": "Držite se desno na {way_name}",
+                "destination": "Držite se desno v smeri proti {destination}"
             },
             "sharp left": {
-                "default": "Na razcepu zavijte skrajno levo",
-                "name": "Na razcepu {way_name} zavijte skrajno levo",
-                "destination": "Na razcepu v smeri proti {destination} zavijte skrajno levo"
+                "default": "Na razcepu zavijte ostro levo",
+                "name": "Zavijte ostro levo na {way_name} ",
+                "destination": "Zavijte ostro levo v smeri proti {destination} "
             },
             "sharp right": {
-                "default": "Na razcepu zavijte skrajno desno",
-                "name": "Na razcepu {way_name} zavijte skrajno desno",
-                "destination": "Na razcepu v smeri proti {destination} zavijte skrajno desno"
+                "default": "Na razcepu zavijte ostro desno",
+                "name": "Zavijte ostro desno na {way_name} ",
+                "destination": "Zavijte ostro desno v smeri proti {destination} "
             },
             "uturn": {
                 "default": "Polkrožno obrnite",
@@ -262,12 +262,12 @@
             "sharp left": {
                 "default": "Zavijte ostro levo",
                 "name": "Zavijte ostro levo na {way_name}",
-                "destination": "Zavijte skrajno levo proti {way_name}"
+                "destination": "Zavijte ostro levo v smeri proti proti {destination}"
             },
             "sharp right": {
                 "default": "Zavijte ostro desno",
                 "name": "Zavijte ostro desno na {way_name}",
-                "destination": "Zavijte skrajno desno proti {way_name}"
+                "destination": "Zavijte ostro desno v smeri proti {destination}"
             },
             "slight left": {
                 "default": "Nadaljujte rahlo levo",
@@ -389,22 +389,22 @@
             "default": {
                 "default": {
                     "default": "Zapeljite v krožišče",
-                    "name": "Zapeljite v krožišče in izberite izvoz na {way_name}",
+                    "name": "Zapeljite v krožišče in izberite izvoz za {way_name}",
                     "destination": "Zapeljite v krožišče in izberite izvoz v smeri proti {destination}"
                 },
                 "name": {
                     "default": "Zapeljite v {rotary_name}",
-                    "name": "Zapeljite v {rotary_name} in izberite izvoz na {way_name}",
+                    "name": "Zapeljite v {rotary_name} in izberite izvoz za {way_name}",
                     "destination": "Zapeljite v {rotary_name} in izberite izvoz v smeri proti {destination}"
                 },
                 "exit": {
                     "default": "Zapeljite v krožišče in izberite {exit_number}. izvoz",
-                    "name": "Zapeljite v krožišče in izberite {exit_number}. izvoz na {way_name}",
+                    "name": "Zapeljite v krožišče in izberite {exit_number}. izvoz za {way_name}",
                     "destination": "Zapeljite v krožišče in izberite {exit_number}. izvoz v smeri proti {destination}"
                 },
                 "name_exit": {
                     "default": "Zapeljite v {rotary_name} in izberite {exit_number}. izvoz",
-                    "name": "Zapeljite v {rotary_name} in izberite {exit_number}. izvoz na {way_name}",
+                    "name": "Zapeljite v {rotary_name} in izberite {exit_number}. izvoz za {way_name}",
                     "destination": "Zapeljite v {rotary_name} in izberite {exit_number}. izvoz v smeri proti {destination}"
                 }
             }
@@ -413,12 +413,12 @@
             "default": {
                 "exit": {
                     "default": "Zapeljite v krožišče in izberite {exit_number}. izvoz",
-                    "name": "Zapeljite v krožišče in izberite {exit_number}. izvoz na {way_name}",
+                    "name": "Zapeljite v krožišče in izberite {exit_number}. izvoz za {way_name}",
                     "destination": "Zapeljite v krožišče in izberite {exit_number}. izvoz v smeri proti {destination}"
                 },
                 "default": {
                     "default": "Zapeljite v krožišče",
-                    "name": "Zapeljite v krožišče in izberite izvoz na {way_name}",
+                    "name": "Zapeljite v krožišče in izberite izvoz za {way_name}",
                     "destination": "Zapeljite v krožišče in ga zapustite v smeri proti {way_name}"
                 }
             }
@@ -432,12 +432,12 @@
             "left": {
                 "default": "Zavijte levo",
                 "name": "Zavijte levo na {way_name}",
-                "destination": "Zavijte levo proti {destination}"
+                "destination": "Zavijte levo v smeri proti {destination}"
             },
             "right": {
                 "default": "Zavijte desno",
                 "name": "Zavijte desno na {way_name}",
-                "destination": "Zavijte desno proti {destination}"
+                "destination": "Zavijte desno v smeri proti {destination}"
             },
             "straight": {
                 "default": "Nadaljujte naravnost",
@@ -468,17 +468,17 @@
             "left": {
                 "default": "Zavijte levo",
                 "name": "Zavijte levo na {way_name}",
-                "destination": "Zavijte levo proti {destination}"
+                "destination": "Zavijte levo v smeri proti {destination}"
             },
             "right": {
                 "default": "Zavijte desno",
                 "name": "Zavijte desno na {way_name}",
-                "destination": "Zavijte desno proti {destination}"
+                "destination": "Zavijte desno v smeri proti {destination}"
             },
             "straight": {
                 "default": "Peljite naravnost",
                 "name": "Peljite naravnost na {way_name}",
-                "destination": "Peljite naravnost proti {destination}"
+                "destination": "Peljite naravnost v smeri proti {destination}"
             }
         },
         "use lane": {
