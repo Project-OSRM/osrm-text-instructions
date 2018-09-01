@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## master
+
+- Added a Slovenian localization. [#264](https://github.com/Project-OSRM/osrm-text-instructions/pull/264)
+
 ## 0.13.2 2018-08-13
 
 - Added a Norwegian Bokmål localization. [#261](https://github.com/Project-OSRM/osrm-text-instructions/pull/261)
