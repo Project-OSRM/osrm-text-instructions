@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "انعطف نحو Destination 1",
         "da": "Foretag et skarpt højresving mod Destination 1",
         "de": "Scharf rechts abbiegen Richtung Destination 1",
         "en": "Make a sharp right towards Destination 1",

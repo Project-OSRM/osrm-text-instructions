@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "اسلك مسار الدوران واتبع المخرج الأول على Way Name",
         "da": "Tag rundkørslen og forlad ved første afkørsel ad Way Name",
         "de": "Im Kreisverkehr die erste Ausfahrt nehmen auf Way Name",
         "en": "Enter the traffic circle and take the 1st exit onto Way Name",

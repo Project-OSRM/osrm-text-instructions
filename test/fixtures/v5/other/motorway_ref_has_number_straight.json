@@ -8,6 +8,7 @@
         "ref": "Ref1;Ref2"
     },
     "instructions": {
+        "ar": "تابع قدما لتبقى على Ref1",
         "da": "Fortsæt ligeud ad Ref1",
         "de": "Geradeaus weiterfahren auf Ref1",
         "en": "Continue straight to stay on Ref1",

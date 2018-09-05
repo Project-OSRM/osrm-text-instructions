@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "اسلك المخرج 4A يسارا نحو Destination 1",
         "da": "Vælg afkørsel 4A til venstre mod Destination 1\n",
         "de": "Ausfahrt 4A links nehmen Richtung Destination 1",
         "en": "Take exit 4A on the left towards Destination 1",

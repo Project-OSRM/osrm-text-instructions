@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "ar": "توجّه نحو مباشرة لمسافة {distance} ",
         "da": "Hold mod ligeud mod Destination 1",
         "de": "Geradeaus halten an der Gabelung Richtung Destination 1",
         "en": "Keep straight towards Destination 1",

@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "انعطف نحو يمين حاد",
         "da": "Foretag et skarpt højresving",
         "de": "Scharf rechts abbiegen",
         "en": "Make a sharp right",

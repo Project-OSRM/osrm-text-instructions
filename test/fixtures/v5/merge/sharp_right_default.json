@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "انعطف يمينا حادا",
         "da": "Flet til højre",
         "de": "Scharf rechts auffahren",
         "en": "Merge right",

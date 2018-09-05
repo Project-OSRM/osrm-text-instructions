@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "ar": "انعطف يسارا قليلاا نحو Destination 1",
         "da": "Drej til svagt højresving mof Destination 1",
         "de": "Leicht rechts abbiegen Richtung Destination 1",
         "en": "Turn slight right towards Destination 1",

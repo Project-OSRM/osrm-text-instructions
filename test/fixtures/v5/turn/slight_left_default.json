@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "انعطف نحو يسارا قليلا",
         "da": "Foretag et svagt venstresving",
         "de": "Leicht links abbiegen",
         "en": "Make a slight left",

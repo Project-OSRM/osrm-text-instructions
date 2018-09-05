@@ -1,5 +1,6 @@
 {
     "instructions": {
+        "ar": "ستصل إلى الوجهة {nth}، على يمينك",
         "da": "Du vil ankomme til din {nth} destination på højre hånd",
         "de": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts",
         "en": "You will arrive at your {nth} destination, on the right",

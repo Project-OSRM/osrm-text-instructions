@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "اخرج من الدوّار",
         "da": "Forlad rundkørslen",
         "de": "Geradeaus weiterfahren",
         "en": "Exit the traffic circle",

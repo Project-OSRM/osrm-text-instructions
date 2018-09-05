@@ -6,6 +6,7 @@
         "name": "Street Name"
     },
     "instructions": {
+        "ar": "لقد وصلت إلى الوجهة الأول",
         "da": "Du er ankommet til din første destination",
         "de": "Sie haben Ihr erste Ziel erreicht",
         "en": "You have arrived at your 1st destination",

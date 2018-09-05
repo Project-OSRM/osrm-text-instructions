@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "تابع مباشرةا على Way Name",
         "da": "Fortsæt ligeud ad Way Name",
         "de": "Geradeaus weiterfahren auf Way Name",
         "en": "Continue straight onto Way Name",

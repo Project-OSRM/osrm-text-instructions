@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "تابع يسارا باتجاه حاد",
         "da": "Drej skarpt til venstre",
         "de": "Scharf links",
         "en": "Take a sharp left",

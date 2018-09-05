@@ -3,6 +3,7 @@
         "exit": "123A"
     },
     "phrases": {
+        "ar": "مخرج 123A",
         "da": "Afkørsel 123A",
         "de": "Exit 123A",
         "en": "Exit 123A",

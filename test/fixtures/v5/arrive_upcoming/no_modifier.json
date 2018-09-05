@@ -1,5 +1,6 @@
 {
     "instructions": {
+        "ar": "ستصل إلى الوجهة {nth}",
         "da": "Du vil ankomme til din {nth} destination",
         "de": "Sie haben Ihr {nth} Ziel erreicht",
         "en": "You will arrive at your {nth} destination",

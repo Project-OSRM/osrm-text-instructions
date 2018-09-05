@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "انعطف يمين حادا على Way Name",
         "da": "Drej til skarpt højresving ad Way Name",
         "de": "Scharf rechts abbiegen auf Way Name",
         "en": "Turn sharp right onto Way Name",

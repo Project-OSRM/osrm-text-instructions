@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "انعطف يمينا قليلا",
         "da": "Drej let til højre",
         "de": "Leicht rechts weiter",
         "en": "Make a slight right",

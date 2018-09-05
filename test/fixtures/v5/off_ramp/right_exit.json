@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "اسلك المخرج 4A",
         "da": "Vælg afkørsel 4A",
         "de": "Ausfahrt 4A nehmen",
         "en": "Take exit 4A",

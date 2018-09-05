@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "انعطف نحو الدوران للخلف",
         "da": "Foretag et U-vending",
         "de": "180°-Wendung abbiegen",
         "en": "Make a U-turn",

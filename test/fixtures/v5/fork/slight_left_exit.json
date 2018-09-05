@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "انعطف يسارا قليلا لتبقى على Way Name",
         "da": "Hold til venstre på Way Name",
         "de": "Links halten an der Gabelung auf Way Name",
         "en": "Keep left onto Way Name",

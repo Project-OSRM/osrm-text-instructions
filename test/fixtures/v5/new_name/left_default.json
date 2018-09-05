@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "تابع يسارا",
         "da": "Fortsæt venstresving",
         "de": "Links weiterfahren",
         "en": "Continue left",

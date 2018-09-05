@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "انعطف يمينا حادا",
         "da": "Drej skarpt til højre ved udfletningen",
         "de": "Scharf rechts abbiegen an der Gabelung",
         "en": "Take a sharp right at the fork",

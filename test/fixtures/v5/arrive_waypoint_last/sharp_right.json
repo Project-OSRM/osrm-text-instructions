@@ -7,6 +7,7 @@
         "name": "Street Name"
     },
     "instructions": {
+        "ar": "لقد وصلت إلى الوجهة ، على يمينك",
         "da": "Du er ankommet til din destination, som befinder sig til højre",
         "de": "Sie haben Ihr Ziel erreicht, es befindet sich rechts",
         "en": "You have arrived at your destination, on the right",

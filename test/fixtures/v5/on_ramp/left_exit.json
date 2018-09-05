@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "اسلك المدخل يسارا لتبقى على Way Name",
         "da": "Tag afkørslen til venstre ad Way Name",
         "de": "Auffahrt links nehmen auf Way Name",
         "en": "Take the ramp on the left onto Way Name",

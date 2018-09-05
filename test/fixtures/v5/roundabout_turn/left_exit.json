@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "اسلك مسار الدوران يسارا على Way Name",
         "da": "Drej til venstre ad Way Name",
         "de": "Links abbiegen auf Way Name",
         "en": "Turn left onto Way Name",

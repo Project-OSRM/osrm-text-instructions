@@ -8,6 +8,7 @@
         "ref": "Ref0;Ref1 (Another Way (Ref1.1));Ref2"
     },
     "instructions": {
+        "ar": "اسلك مسار الدوران يسارا على Way Name (Ref0)",
         "da": "Drej til venstre ad Way Name (Ref0)",
         "de": "Links abbiegen auf Way Name (Ref0)",
         "en": "Turn left onto Way Name (Ref0)",

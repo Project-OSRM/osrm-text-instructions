@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "اتبع المنحدر على Way Name",
         "da": "Tag afkørslen ad Way Name",
         "de": "Auffahrt nehmen auf Way Name",
         "en": "Take the ramp onto Way Name",

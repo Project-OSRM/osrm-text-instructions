@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "توجّه نحو يمين لمسافة {distance} ",
         "da": "Hold mod højresving mod Destination 1",
         "de": "Rechts halten an der Gabelung Richtung Destination 1",
         "en": "Keep right towards Destination 1",

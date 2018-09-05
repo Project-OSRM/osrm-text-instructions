@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": " اسلك مسار الدخول الى الدوران",
         "da": "Foretag et skarpt venstresving",
         "de": "Scharf links abbiegen",
         "en": "Make a sharp left",

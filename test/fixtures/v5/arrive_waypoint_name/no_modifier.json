@@ -6,6 +6,7 @@
         "name": "Street Name"
     },
     "instructions": {
+        "ar": "لقد وصلت إلى Somewhere",
         "da": "Du er ankommet til Somewhere",
         "de": "Sie haben Ihr Somewhere",
         "en": "You have arrived at Somewhere",

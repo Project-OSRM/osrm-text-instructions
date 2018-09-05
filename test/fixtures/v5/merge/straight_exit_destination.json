@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "تابع قدما نحو مباشرة لمسافة {distance} ",
         "da": "Flet ind mod Destination 1",
         "de": "Geradeaus auffahren Richtung Destination 1",
         "en": "Merge towards Destination 1",
