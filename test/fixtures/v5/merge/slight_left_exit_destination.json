@@ -10,7 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
-        "ar": "انعطف يسارا قليلا نحو Destination 1 ",
+        "ar": "انعطف يساراً قليلاً نحو Destination 1 ",
         "da": "Flet til venstre mod Destination 1",
         "de": "Leicht links auffahren Richtung Destination 1",
         "en": "Merge left towards Destination 1",

@@ -9,7 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
-        "ar": "تابع قدما على Way Name",
+        "ar": "تابع قدماً على Way Name",
         "da": "Flet ind på Way Name",
         "de": "Geradeaus auffahren auf Way Name",
         "en": "Merge onto Way Name",

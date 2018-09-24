@@ -9,7 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
-        "ar": "انعطف يمينا حادا نحو Destination 1 ",
+        "ar": "انعطف يميناً حاداً نحو Destination 1 ",
         "da": "Drej skarpt til højre mod Destination 1",
         "de": "Scharf rechts Richtung Destination 1",
         "en": "Take a sharp right towards Destination 1",

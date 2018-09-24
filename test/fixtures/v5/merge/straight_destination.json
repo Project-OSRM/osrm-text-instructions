@@ -9,7 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
-        "ar": "تابع قدما نحو مباشرة لمسافة {distance} ",
+        "ar": "تابع قدماً نحو Destination 1",
         "da": "Flet ind mod Destination 1",
         "de": "Geradeaus auffahren Richtung Destination 1",
         "en": "Merge towards Destination 1",

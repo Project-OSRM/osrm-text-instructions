@@ -10,7 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
-        "ar": "تابع نحو Destination 1 ",
+        "ar": "تابع يسار حاد نحو Destination 1 ",
         "da": "Fortsæt skarpt venstresving mod Destination 1",
         "de": "Scharf links weiterfahren Richtung Destination 1",
         "en": "Continue sharp left towards Destination 1",

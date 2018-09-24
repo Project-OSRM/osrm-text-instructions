@@ -10,7 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
-        "ar": "تابع نحو Destination 1 ",
+        "ar": "تابع مباشرة نحو Destination 1 ",
         "da": "Fortsæt ligeud mod Destination 1",
         "de": "Geradeaus weiterfahren Richtung Destination 1",
         "en": "Continue straight towards Destination 1",

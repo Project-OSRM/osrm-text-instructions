@@ -5,34 +5,34 @@
     "v5": {
         "constants": {
             "ordinalize": {
-                "1": "الأول",
-                "2": "الثاني",
-                "3": "الثالث",
-                "4": "الرابع",
-                "5": "الخامس",
-                "6": "السادس",
-                "7": "السابع",
-                "8": "الثامن",
-                "9": "التاسع",
-                "10": "العاشر"
+                "1": "الأولى",
+                "2": "الثانية",
+                "3": "الثالثة",
+                "4": "الرابعة",
+                "5": "الخامسة",
+                "6": "السادسة",
+                "7": "السابعة",
+                "8": "الثامنة",
+                "9": "التاسعة",
+                "10": "العاشرة"
             },
             "direction": {
-                "north": "شمالا",
-                "northeast": "شمالا شرقا",
-                "east": "شرقا",
-                "southeast": "جنوبا شرقا",
-                "south": "جنوبا",
-                "southwest": "جنوبا غربا",
-                "west": "غربا",
-                "northwest": "شمالا غربا"
+                "north": "شمالاً",
+                "northeast": "شمالاً شرقاً",
+                "east": "شرقاً",
+                "southeast": "جنوباً شرقاً",
+                "south": "جنوباً",
+                "southwest": "جنوباً غرباً",
+                "west": "غرباً",
+                "northwest": "شمالاً غرباً"
             },
             "modifier": {
                 "left": "يسار",
                 "right": "يمين",
                 "sharp left": "يسار حاد",
                 "sharp right": "يمين حاد",
-                "slight left": "يسارا قليلا",
-                "slight right": "يسارا قليلا",
+                "slight left": "يساراً قليلاً",
+                "slight right": "يساراً قليلاً",
                 "straight": "مباشرة",
                 "uturn": "الدوران للخلف"
             },
@@ -130,29 +130,29 @@
                 "namedistance": "تابع على {way_name} لمسافة {distance}"
             },
             "sharp left": {
-                "default": "انعطف يسارا حادا",
-                "name": "انعطف يسارا حادا لتبقى على  {way_name}",
-                "destination": "انعطف يسارا حادا نحو {destination}"
+                "default": "انعطف يساراً حاداً",
+                "name": "انعطف يساراً حاداً لتبقى على  {way_name}",
+                "destination": "انعطف يساراً حاداً نحو {destination}"
             },
             "sharp right": {
-                "default": "انعطف يمينا حادا ",
-                "name": "انعطف يمينا حادا لتبقى على {way_name}",
-                "destination": "انعطف يمينا حادا نحو {destination}"
+                "default": "انعطف يمينا حاداً ",
+                "name": "انعطف يميناً حاداً لتبقى على {way_name}",
+                "destination": "انعطف يميناً حاداً نحو {destination}"
             },
             "slight left": {
-                "default": "انعطف يسارا قليلا",
-                "name": " انعطف يسارا قليلا لتبقى على  {way_name} ",
-                "destination": "انعطف يسارا قليلا نحو {destination}"
+                "default": "انعطف يساراً قليلاً",
+                "name": " انعطف يساراً قليلاً لتبقى على  {way_name} ",
+                "destination": "انعطف يساراً قليلاً نحو {destination}"
             },
             "slight right": {
-                "default": "انعطف يمينا قليلا",
-                "name": "انعطف يمينا قليلا لتبقى على {way_name}",
-                "destination": "انعطف يمينا قليلا نحو {destination} "
+                "default": "انعطف يميناً قليلاً",
+                "name": "انعطف يميناً قليلاً لتبقى على {way_name}",
+                "destination": "انعطف يميناً قليلاً نحو {destination} "
             },
             "uturn": {
-                "default": "انعطف دورانا عكسيا",
-                "name": "انعطف دورانا عكسيا  وتابع نحو {way_name}",
-                "destination": "انعطف دورانا عكسيا نحو {destination}"
+                "default": "انعطف دوراناً عكسياً",
+                "name": "انعطف دوراناً عكسياً  وتابع نحو {way_name}",
+                "destination": "انعطف دوراناً عكسياً نحو {destination}"
             }
         },
         "depart": {
@@ -169,14 +169,14 @@
                 "destination": "انعطف {modifier}ا نحو {destination}"
             },
             "straight": {
-                "default": "تابع قدما",
+                "default": "تابع قدماً",
                 "name": "تابع إلى الأمام على {way_name}",
-                "destination": "تابع قدما نحو {modifier} لمسافة {distance} "
+                "destination": "تابع قدماً نحو {destination}"
             },
             "uturn": {
-                "default": "انعطف دورانا عكسيا عند نهاية الطريق",
-                "name": "انعطف دورانا عكسيا على {way_name} عند نهاية الطريق",
-                "destination": "انعطف دورانا عكسيا نحو {modifier} لمسافة {distance} "
+                "default": "انعطف دوراناً عكسياً عند نهاية الطريق",
+                "name": "انعطف دوراناً عكسياً على {way_name} عند نهاية الطريق",
+                "destination": "انعطف دوراناً عكسياً نحو {destination} عند نهاية الطريق"
             }
         },
         "fork": {
@@ -186,29 +186,29 @@
                 "destination": "توجّه نحو {modifier} لمسافة {distance} "
             },
             "slight left": {
-                "default": "انعطف يسارا قليلا",
-                "name": "انعطف يسارا قليلا لتبقى على {way_name}",
-                "destination": "انعطف يسارا قليلا نحو {destination}"
+                "default": "انعطف يساراً قليلاً",
+                "name": "انعطف يساراً قليلاً لتبقى على {way_name}",
+                "destination": "انعطف يساراً قليلاً نحو {destination}"
             },
             "slight right": {
-                "default": "انعطف يمينا قليلا",
-                "name": "انعطف يمينا قليلا لتبقى على {way_name}",
-                "destination": "انعطف يمينا قليلا نحو {destination}"
+                "default": "انعطف يميناً قليلاً",
+                "name": "انعطف يميناً قليلاً لتبقى على {way_name}",
+                "destination": "انعطف يميناً قليلاً نحو {destination}"
             },
             "sharp left": {
-                "default": "انعطف يسارا حادا",
-                "name": "انعطف يسارا حادا لتبقى على {way_name}",
-                "destination": "انعطف يسارا حادا نحو {destination}"
+                "default": "انعطف يساراً حاداً",
+                "name": "انعطف يساراً حاداً لتبقى على {way_name}",
+                "destination": "انعطف يساراً حاداً نحو {destination}"
             },
             "sharp right": {
-                "default": "انعطف يمينا حادا",
-                "name": " انعطف يمينا حادا لتبقى على {way_name}",
-                "destination": "انعطف يمينا حادا نحو {destination} "
+                "default": "انعطف يميناً حاداً",
+                "name": " انعطف يميناً حاداً لتبقى على {way_name}",
+                "destination": "انعطف يميناً حاداً نحو {destination} "
             },
             "uturn": {
-                "default": "انعطف دورانا عكسيا",
-                "name": "انعطف دورانا عكسيا على {way_name}",
-                "destination": "انعطف دورانا عكسيا نحو {modifier} لمسافة {distance}"
+                "default": "انعطف دوراناً عكسياً",
+                "name": "انعطف دوراناً عكسياً على {way_name}",
+                "destination": "انعطف دوراناً عكسياً نحو {destination}"
             }
         },
         "merge": {
@@ -218,18 +218,18 @@
                 "destination": "انعطف {modifier} باتجاه {destination}"
             },
             "straight": {
-                "default": "تابع قدما",
-                "name": "تابع قدما على {way_name}",
-                "destination": "تابع قدما نحو {modifier} لمسافة {distance} "
+                "default": "تابع قدماً",
+                "name": "تابع قدماً على {way_name}",
+                "destination": "تابع قدماً نحو {destination}"
             },
             "slight left": {
-                "default": "انعطف يسارا قليلا",
-                "name": "انعطف يسارا قليلا لتبقى على {way_name}",
-                "destination": "انعطف يسارا قليلا نحو {destination} "
+                "default": "انعطف يساراً قليلاً",
+                "name": "انعطف يساراً قليلاً لتبقى على {way_name}",
+                "destination": "انعطف يساراً قليلاً نحو {destination} "
             },
             "slight right": {
-                "default": "انعطف يمينا قليلا",
-                "name": "انعطف يمينا قليلا لتبقى على {way_name}",
+                "default": "انعطف يميناً قليلاً",
+                "name": "انعطف يميناً قليلاً لتبقى على {way_name}",
                 "destination": "انعطف يمينا قليلا نحو {destination}"
             },
             "sharp left": {
@@ -252,7 +252,7 @@
             "default": {
                 "default": "تابع {modifier}ا",
                 "name": "تابع {modifier}ا على {way_name}",
-                "destination": "تابع نحو {destination} "
+                "destination": "تابع {modifier} نحو {destination}"
             },
             "straight": {
                 "default": "تابع قدما",
@@ -289,7 +289,7 @@
             "default": {
                 "default": "تابع {modifier}ا",
                 "name": "تابع {modifier}ا على {way_name}",
-                "destination": "تابع نحو {destination} "
+                "destination": "تابع {modifier} نحو {destination} "
             },
             "uturn": {
                 "default": "انعطف دورانا عكسيا",
@@ -414,7 +414,7 @@
                 "exit": {
                     "default": "ادخل مسار الدوران واسلك المخرج {exit_number}",
                     "name": "اسلك مسار الدوران واتبع المخرج {exit_number} على {way_name}",
-                    "destination": "اسلك مسار الخروج {exit} من الدوران"
+                    "destination": "ادخل مسار الدوران واسلك المخرج {exit_number} باتجاه {destination}"
                 },
                 "default": {
                     "default": "اسلك مسار الدوران",
@@ -427,7 +427,7 @@
             "default": {
                 "default": " اسلك مسار الدخول الى الدوران",
                 "name": "انعطف {modifier} على {way_name}",
-                "destination": "انعطف نحو {destination}"
+                "destination": "انعطف {modifier} نحو {destination}"
             },
             "left": {
                 "default": "اسلك مسار الدوران يسارا",
@@ -463,7 +463,7 @@
             "default": {
                 "default": "انعطف نحو {modifier}",
                 "name": "انعطف {modifier} على {way_name}",
-                "destination": "انعطف نحو {destination}"
+                "destination": "انعطف {modifier} نحو {destination}"
             },
             "left": {
                 "default": "انعطف يسارا",
