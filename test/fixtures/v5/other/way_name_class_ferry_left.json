@@ -8,6 +8,7 @@
         "ref": "Ref1;Ref2"
     },
     "instructions": {
+        "ar": "انعطف يسارا لتبقى على Cool highway (Ref1)",
         "da": "Drej til venstresving videre ad Cool highway (Ref1)",
         "de": "Links weiterfahren auf Cool highway (Ref1)",
         "en": "Turn left to stay on Cool highway (Ref1)",

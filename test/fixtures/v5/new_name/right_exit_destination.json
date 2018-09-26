@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "تابع يمين نحو Destination 1",
         "da": "Fortsæt højresving mod Destination 1",
         "de": "Rechts weiterfahren Richtung Destination 1",
         "en": "Continue right towards Destination 1",

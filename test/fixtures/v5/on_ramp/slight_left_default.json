@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "اسلك المدخل يسارا قليلا",
         "da": "Tag afkørslen til venstre",
         "de": "Auffahrt links Seite nehmen",
         "en": "Take the ramp on the left",

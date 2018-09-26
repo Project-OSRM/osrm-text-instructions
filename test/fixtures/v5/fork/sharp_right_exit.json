@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": " انعطف يميناً حاداً لتبقى على Way Name",
         "da": "Drej skarpt til højre ad Way Name",
         "de": "Scharf rechts auf Way Name",
         "en": "Take a sharp right onto Way Name",

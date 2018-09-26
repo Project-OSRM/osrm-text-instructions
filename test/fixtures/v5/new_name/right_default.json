@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "تابع يمينا",
         "da": "Fortsæt højresving",
         "de": "Rechts weiterfahren",
         "en": "Continue right",

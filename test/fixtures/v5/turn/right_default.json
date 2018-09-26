@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "انعطف يمينا",
         "da": "Drej til højre",
         "de": "Rechts abbiegen",
         "en": "Turn right",

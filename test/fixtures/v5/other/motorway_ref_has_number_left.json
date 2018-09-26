@@ -8,6 +8,7 @@
         "ref": "Ref1;Ref2"
     },
     "instructions": {
+        "ar": "انعطف يسارا لتبقى على Ref1",
         "da": "Drej til venstresving videre ad Ref1",
         "de": "Links weiterfahren auf Ref1",
         "en": "Turn left to stay on Ref1",

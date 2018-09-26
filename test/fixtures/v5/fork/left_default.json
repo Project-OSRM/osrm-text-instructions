@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": " توجّه يسار",
         "da": "Hold til venstresving ved udfletningen",
         "de": "Links halten an der Gabelung",
         "en": "Keep left at the fork",

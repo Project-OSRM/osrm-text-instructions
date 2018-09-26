@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "تابع قدما لتبقى على Way Name",
         "da": "Fortsæt ligeud ad Way Name",
         "de": "Geradeaus weiterfahren auf Way Name",
         "en": "Continue straight to stay on Way Name",

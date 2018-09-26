@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "ادخل Rotary Name واسلك المخرج الثانية على Way Name",
         "da": "Kør ind i Rotary Name og forlad ved anden afkørsel ad Way Name",
         "de": "In den Kreisverkehr fahren und zweite Ausfahrt nehmen auf Way Name",
         "en": "Enter Rotary Name and take the 2nd exit onto Way Name",

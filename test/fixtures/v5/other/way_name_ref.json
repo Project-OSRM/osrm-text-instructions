@@ -8,6 +8,7 @@
         "ref": "Ref1;Ref2"
     },
     "instructions": {
+        "ar": "اسلك مسار الدوران يسارا على Ref1",
         "da": "Drej til venstre ad Ref1",
         "de": "Links abbiegen auf Ref1",
         "en": "Turn left onto Ref1",

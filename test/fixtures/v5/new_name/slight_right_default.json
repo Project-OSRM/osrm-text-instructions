@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "تابع يميناً قليلاً",
         "da": "Fortsæt til højre",
         "de": "Leicht rechts weiter",
         "en": "Continue slightly right",

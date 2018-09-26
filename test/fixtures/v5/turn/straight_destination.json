@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "ar": "انطلق قدما نحو Destination 1",
         "da": "Kør ligeud mod Destination 1",
         "de": "Geradeaus weiterfahren Richtung Destination 1",
         "en": "Go straight towards Destination 1",

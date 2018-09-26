@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "تابع يساراً قليلاً نحو Destination 1 ",
         "da": "Fortsæt svagt venstresving mod Destination 1",
         "de": "Leicht links weiterfahren Richtung Destination 1",
         "en": "Continue slight left towards Destination 1",

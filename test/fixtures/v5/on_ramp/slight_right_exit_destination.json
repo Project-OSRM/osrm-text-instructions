@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "اسلك المدخل يمينا قليلا نحو Destination 1",
         "da": "Tag afkørslen til højre mod Destination 1",
         "de": "Auffahrt rechts nehmen Richtung Destination 1",
         "en": "Take the ramp on the right towards Destination 1",

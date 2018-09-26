@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "انعطف يمينا نحو Destination 1",
         "da": "Drej til højresving mod Destination 1",
         "de": "Rechts abbiegen Richtung Destination 1",
         "en": "Turn right towards Destination 1",

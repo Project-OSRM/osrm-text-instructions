@@ -7,6 +7,7 @@
         "destinations": "Ref1, Ref2: Destination 1, Destination 2"
     },
     "instructions": {
+        "ar": "اسلك المدخل يمينا قليلا نحو Ref1: Destination 1",
         "da": "Tag afkørslen til højre mod Ref1: Destination 1",
         "de": "Ausfahrt rechts nehmen Richtung Ref1: Destination 1",
         "en": "Take the ramp on the right towards Ref1: Destination 1",

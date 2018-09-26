@@ -1,5 +1,6 @@
 {
     "instructions": {
+        "ar": "لقد وصلت",
         "da": "Du er ankommet",
         "de": "Sie haben Ihr {nth} Ziel erreicht",
         "en": "You have arrived",

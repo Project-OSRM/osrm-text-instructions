@@ -10,6 +10,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "انعطف دوراناً عكسياً نحو Destination 1 عند نهاية الطريق",
         "da": "Foretag en U-vending mod Destination 1 for enden af vejen",
         "de": "180°-Wendung Richtung Destination 1 am Ende der Straße",
         "en": "Make a U-turn towards Destination 1 at the end of the road",

@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "انعطف دوراناً عكسياً على Way Name عند نهاية الطريق",
         "da": "Foretag en U-vending ad Way Name for enden af vejen",
         "de": "180°-Wendung auf Way Name am Ende der Straße",
         "en": "Make a U-turn onto Way Name at the end of the road",

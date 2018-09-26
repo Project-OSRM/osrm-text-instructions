@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "الزم يسار على Way Name",
         "da": "Hold mod venstresving på Way Name",
         "de": "Links halten an der Gabelung auf Way Name",
         "en": "Keep left onto Way Name",

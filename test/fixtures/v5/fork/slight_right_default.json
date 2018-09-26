@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "انعطف يميناً قليلاً",
         "da": "Hold til højre ved udfletningen",
         "de": "Rechts halten an der Gabelung",
         "en": "Keep right at the fork",

@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "الزم مباشرة على Way Name",
         "da": "Hold mod ligeud på Way Name",
         "de": "Geradeaus halten an der Gabelung auf Way Name",
         "en": "Keep straight onto Way Name",

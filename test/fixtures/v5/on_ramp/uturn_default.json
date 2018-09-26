@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "اسلك المدخل الدوران للخلف",
         "da": "Tag afkørslen",
         "de": "Auffahrt nehmen",
         "en": "Take the ramp",

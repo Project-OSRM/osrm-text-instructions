@@ -45,6 +45,7 @@
         "name": ""
     },
     "instructions": {
+        "ar": "الزم اليمين أو اليسار",
         "da": "Hold til højre eller venstre",
         "de": "Rechts oder links halten",
         "en": "Keep left or right",

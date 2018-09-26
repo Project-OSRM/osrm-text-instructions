@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "تابع يسار حادا",
         "da": "Fortsæt skarpt venstresving",
         "de": "Scharf links weiterfahren",
         "en": "Continue sharp left",

@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "ar": "اسلك Rotary Name واخرج باتجاه Destination 1",
         "da": "Kør ind i Rotary Name og kør mod Destination 1",
         "de": "In Rotary Name die Ausfahrt Richtung Destination 1 nehmen",
         "en": "Enter Rotary Name and exit towards Destination 1",

@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "تابع يمينا باتجاه حاد",
         "da": "Drej skarpt til højre",
         "de": "Scharf rechts",
         "en": "Take a sharp right",

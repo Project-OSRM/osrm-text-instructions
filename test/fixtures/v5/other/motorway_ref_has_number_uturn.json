@@ -8,6 +8,7 @@
         "ref": "Ref1;Ref2"
     },
     "instructions": {
+        "ar": "انعطف دوراناً عكسياً وتابع نحو Ref1",
         "da": "Foretag en U-vending tilbage ad Ref1",
         "de": "180°-Wendung auf Ref1",
         "en": "Make a U-turn and continue on Ref1",

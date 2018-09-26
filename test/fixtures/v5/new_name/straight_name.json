@@ -8,6 +8,7 @@
         "driving_side": "right"
     },
     "instructions": {
+        "ar": "تابع على Way Name",
         "da": "Fortsæt ad Way Name",
         "de": "Weiterfahren auf Way Name",
         "en": "Continue onto Way Name",

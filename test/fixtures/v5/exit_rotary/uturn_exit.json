@@ -9,6 +9,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "اخرج من مسار الدوران على Way Name",
         "da": "Forlad rundkørslen ad Way Name",
         "de": "180°-Wendung abbiegen auf Way Name",
         "en": "Exit the traffic circle onto Way Name",

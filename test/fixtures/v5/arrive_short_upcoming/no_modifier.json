@@ -1,5 +1,6 @@
 {
     "instructions": {
+        "ar": "ستصل",
         "da": "Du vil ankomme",
         "de": "Sie haben Ihr {nth} Ziel erreicht",
         "en": "You will arrive",

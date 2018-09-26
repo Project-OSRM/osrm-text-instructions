@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "ar": "اسلك مسار الخروج Destination 1",
         "da": "Forlad rundkørslen mod Destination 1",
         "de": "Geradeaus weiterfahren Richtung Destination 1",
         "en": "Exit the traffic circle towards Destination 1",

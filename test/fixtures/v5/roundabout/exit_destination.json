@@ -9,6 +9,7 @@
         "destinations": "Destination 1,Destination 2"
     },
     "instructions": {
+        "ar": "ادخل مسار الدوران واسلك المخرج الأولى باتجاه Destination 1",
         "da": "Tag rundkørslen og forlad ved første afkørsel mod Destination 1",
         "de": "Im Kreisverkehr die erste Ausfahrt nehmen Richtung Destination 1",
         "en": "Enter the traffic circle and take the 1st exit towards Destination 1",

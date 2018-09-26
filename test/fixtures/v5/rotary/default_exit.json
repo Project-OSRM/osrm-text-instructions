@@ -8,6 +8,7 @@
         "exits": "4A;4B"
     },
     "instructions": {
+        "ar": "اسلك مسار الدوران واخرج على Way Name",
         "da": "Tag rundkørslen og kør fra ad Way Name",
         "de": "Im Kreisverkehr die Ausfahrt auf Way Name nehmen",
         "en": "Enter the traffic circle and exit onto Way Name",
