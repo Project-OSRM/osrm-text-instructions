@@ -42,6 +42,8 @@ const grammarTests = {
         ['Petit Chemin de Carpentras', 'preposition', 'du petit chemin de Carpentras'],
         ['Cité Falguière', 'article', 'la cité Falguière'],
         ['Cité Falguière', 'preposition', 'de la cité Falguière'],
+        ['Chaussée Jules César', 'article', 'la chaussée Jules César'],
+        ['Chaussée Jules César', 'preposition', 'de la chaussée Jules César'],
         ['Clos de Baumillons', 'article', 'le clos de Baumillons'],
         ['Clos de Baumillons', 'preposition', 'du clos de Baumillons'],
         ['Corniche du Président John Fitzgerald Kennedy', 'article', 'la corniche du Président John Fitzgerald Kennedy'],
