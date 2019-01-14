@@ -14,10 +14,10 @@
     "url": "git://github.com/Project-OSRM/osrm-text-instructions.js/"
   },
   "devDependencies": {
-    "eslint": "^3.4.0",
-    "tape": "^4.2.2",
-    "mkdirp": "0.5.1",
-    "request": "2.79.0"
+    "eslint": "^3.19.0",
+    "mkdirp": "^0.5.1",
+    "request": "^2.79.0",
+    "tape": "^4.9.2"
   },
   "scripts": {
     "lint": "eslint *.js test/*.js scripts/*.js",
