@@ -1,0 +1,493 @@
+{
+    "meta": {
+        "capitalizeFirstLetter": true
+    },
+    "v5": {
+        "constants": {
+            "ordinalize": {
+                "1": "1.",
+                "2": "2.",
+                "3": "3.",
+                "4": "4.",
+                "5": "5.",
+                "6": "6.",
+                "7": "7.",
+                "8": "8.",
+                "9": "9.",
+                "10": "10."
+            },
+            "direction": {
+                "north": "észak",
+                "northeast": "északkelet",
+                "east": "kelet",
+                "southeast": "délkelet",
+                "south": "dél",
+                "southwest": "délnyugat",
+                "west": "nyugat",
+                "northwest": "északnyugat"
+            },
+            "modifier": {
+                "left": "balra",
+                "right": "jobbra",
+                "sharp left": "élesen balra",
+                "sharp right": "élesen jobbra",
+                "slight left": "enyhén balra",
+                "slight right": "enyhén jobbra",
+                "straight": "egyenesen",
+                "uturn": "vissza"
+            },
+            "lanes": {
+                "xo": "Tartson jobbra",
+                "ox": "Tartson balra",
+                "xox": "Maradjon középen",
+                "oxo": "Tartson balra vagy jobbra"
+            }
+        },
+        "modes": {
+            "ferry": {
+                "default": "Hajtson fel a kompra",
+                "name": "Hajtson fel a kompra {way_name} irányából",
+                "destination": "Hajtson fel a kompra {destination} felé"
+            }
+        },
+        "phrase": {
+            "two linked by distance": "{instruction_one} , majd {distance} múlva, {instruction_two}",
+            "two linked": "{instruction_one} , majd {instruction_two}",
+            "one in distance": "{distance} múlva {instruction_one}",
+            "name and ref": "{name} ({ref})",
+            "exit with number": "{exit} kijárat"
+        },
+        "arrive": {
+            "default": {
+                "default": "Megérkezett a(z) {nth} célponthoz",
+                "upcoming": "Meg fog érkezni a(z) {nth} célponthoz",
+                "short": "Megérkezett",
+                "short-upcoming": "Meg fog érkezni",
+                "named": "Megérkezett a(z) {waypoint_name} célponthoz"
+            },
+            "left": {
+                "default": "Megérkezett a(z) {nth} célponthoz, a bal oldalon",
+                "upcoming": "Meg fog érkezni a(z) {nth} célponthoz, a bal oldalon",
+                "short": "Megérkezett",
+                "short-upcoming": "Meg fog érkezni",
+                "named": "Megérkezett a(z) {waypoint_name} célponthoz a bal oldalon"
+            },
+            "right": {
+                "default": "Megérkezett a(z) {nth} célponthoz, a jobb oldalon",
+                "upcoming": "Meg fog érkezni a(z) {nth} célponthoz, a jobb oldalon",
+                "short": "Megérkezett",
+                "short-upcoming": "Meg fog érkezni",
+                "named": "Megérkezett a(z) {waypoint_name} célponthoz, a jobb oldalon"
+            },
+            "sharp left": {
+                "default": "Megérkezett a(z) {nth} célponthoz, a bal oldalon",
+                "upcoming": "Meg fog érkezni a(z) {nth} célponthoz, a jobb oldalon",
+                "short": "Megérkezett",
+                "short-upcoming": "Meg fog érkezni",
+                "named": "Megérkezett a(z) {waypoint_name} célponthoz a bal oldalon"
+            },
+            "sharp right": {
+                "default": "Megérkezett a(z) {nth} célponthoz, a jobb oldalon",
+                "upcoming": "Meg fog érkezni a(z) {nth} célponthoz, a jobb oldalon",
+                "short": "Megérkezett",
+                "short-upcoming": "Meg fog érkezni",
+                "named": "Megérkezett a(z) {waypoint_name} célponthoz, a jobb oldalon"
+            },
+            "slight right": {
+                "default": "Megérkezett a(z) {nth} célponthoz, a jobb oldalon",
+                "upcoming": "Meg fog érkezni a(z) {nth} célponthoz, a jobb oldalon",
+                "short": "Megérkezett",
+                "short-upcoming": "Meg fog érkezni",
+                "named": "Megérkezett a(z) {waypoint_name} célponthoz, a jobb oldalon"
+            },
+            "slight left": {
+                "default": "Megérkezett a(z) {nth} célponthoz, a bal oldalon",
+                "upcoming": "Meg fog érkezni a(z) {nth} célponthoz, a jobb oldalon",
+                "short": "Megérkezett",
+                "short-upcoming": "Meg fog érkezni",
+                "named": "Megérkezett a(z) {waypoint_name} célponthoz a bal oldalon"
+            },
+            "straight": {
+                "default": "Megérkezett a(z) {nth} célponthoz, egyenesen előre",
+                "upcoming": "Meg fog érkezni a(z) {nth} célponthoz, egyenesen előre",
+                "short": "Megérkezett",
+                "short-upcoming": "Meg fog érkezni",
+                "named": "Megérkezett a(z) {waypoint_name} célponthoz, egyenesen előre"
+            }
+        },
+        "continue": {
+            "default": {
+                "default": "Forduljon {modifier}",
+                "name": "Forduljon {modifier} és maradjon a(z) {way_name} szakaszon",
+                "destination": "Forduljon {modifier} a(z) {destination} felé",
+                "exit": "Forduljon be {modifier} a(z) {way_name} irányába"
+            },
+            "straight": {
+                "default": "Haladjon egyenesen",
+                "name": "Egyenesen tovább maradjon a(z) {way_name} szakaszon",
+                "destination": "Haladjon tovább {destination} felé",
+                "distance": "Haladjon egyenesen {distance} távolságon át",
+                "namedistance": "Halajdon tovább a(z) {way_name} szakaszon {distance} távolságig"
+            },
+            "sharp left": {
+                "default": "Forduljon élesen balra",
+                "name": "Forduljon élesen balra, majd maradjon a(z) {way_name} szakaszon",
+                "destination": "Forduljon élesen balra a(z) {destination} felé"
+            },
+            "sharp right": {
+                "default": "Forduljon élesen jobbra",
+                "name": "Forduljon élesen jobbra, majd maradjon a(z) {way_name} szakaszon",
+                "destination": "Forduljon élesen balra a(z) {destination} felé"
+            },
+            "slight left": {
+                "default": "Forduljon enyhén balra",
+                "name": "Forduljon enyhén balra, majd maradjon a(z) {way_name} szakaszon",
+                "destination": "Forduljon enyhén balra a(z) {destination} felé"
+            },
+            "slight right": {
+                "default": "Forduljon enyhén jobbra",
+                "name": "Forduljon enyhén jobbra, majd maradjon a(z) {way_name} szakaszon",
+                "destination": "Forduljon enyhén jobbra a(z) {destination} felé"
+            },
+            "uturn": {
+                "default": "Forduljon vissza",
+                "name": "Forduljon vissza, majd folytassa a(z) {way_name} szakaszon",
+                "destination": "Forduljon vissza a(z) {destination} célponthoz"
+            }
+        },
+        "depart": {
+            "default": {
+                "default": "Haladjon {direction}",
+                "name": "Haladjon {direction} ezen: {way_name}",
+                "namedistance": "Haladjon {direction} ezen: {way_name} , eddig: {distance}"
+            }
+        },
+        "end of road": {
+            "default": {
+                "default": "Forduljon {modifier}",
+                "name": "Forduljon be {modifier} a(z) {way_name} irányába",
+                "destination": "Forduljon {modifier} a(z) {destination} felé"
+            },
+            "straight": {
+                "default": "Haladjon egyenesen",
+                "name": "Haladjon egyenesen a(z) {way_name} felé",
+                "destination": "Haladjon egyenesen {destination} irányba"
+            },
+            "uturn": {
+                "default": "Forduljon vissza az út végén",
+                "name": "Forduljon vissza a(z) {way_name} végén",
+                "destination": "Forduljon vissza {destination} irányban az út végén"
+            }
+        },
+        "fork": {
+            "default": {
+                "default": "Tartson {modifier} az útválasznál",
+                "name": "Tartson {modifier} a(z) {way_name} szakaszon",
+                "destination": "Tartson {modifier} a(z) {destination} irányába"
+            },
+            "slight left": {
+                "default": "Tartson balra az útválasznál",
+                "name": "Tartson balra a(z) {way_name} felé",
+                "destination": "Tartson balra a(z) {destination} irányába"
+            },
+            "slight right": {
+                "default": "Tartson jobbra az útválasznál",
+                "name": "Tartson jobbra a(z) {way_name} felé",
+                "destination": "Tartson jobbra a(z) {destination} irányába"
+            },
+            "sharp left": {
+                "default": "Forduljon élesen balra az útválasznál",
+                "name": "Forduljon élesen balra a(z) {way_name} felé",
+                "destination": "Forduljon élesen balra a(z) {destination} irányába"
+            },
+            "sharp right": {
+                "default": "Forduljon élesen jobbra az útválasznál",
+                "name": "Forduljon élesen jobbra a(z) {way_name} felé",
+                "destination": "Forduljon élesen jobbra a(z) {destination} irányába"
+            },
+            "uturn": {
+                "default": "Forduljon vissza",
+                "name": "Forduljon vissza erre: {way_name}",
+                "destination": "Forduljon vissza a(z) {destination} célponthoz"
+            }
+        },
+        "merge": {
+            "default": {
+                "default": "Soroljon be {modifier}",
+                "name": "Soroljon be {modifier} erre: {way_name}",
+                "destination": "Soroljon be {modifier} ehhez: {destination}"
+            },
+            "straight": {
+                "default": "Soroljon be",
+                "name": "Soroljon be a(z) {way_name} felé",
+                "destination": "Soroljon be a(z) {destination} irányába"
+            },
+            "slight left": {
+                "default": "Soroljon be balra",
+                "name": "Sorljon be balra a(z) {way_name} felé",
+                "destination": "Soroljon be balra a(z) {destination} irányába"
+            },
+            "slight right": {
+                "default": "Soroljon be jobbra",
+                "name": "Soroljon be jobbra a(z) {way_name} felé",
+                "destination": "Soroljon be jobbra a(z) {destination} irányába"
+            },
+            "sharp left": {
+                "default": "Soroljon be balra",
+                "name": "Sorljon be balra a(z) {way_name} felé",
+                "destination": "Soroljon be balra a(z) {destination} irányába"
+            },
+            "sharp right": {
+                "default": "Soroljon be jobbra",
+                "name": "Soroljon be jobbra a(z) {way_name} felé",
+                "destination": "Soroljon be jobbra a(z) {destination} irányába"
+            },
+            "uturn": {
+                "default": "Forduljon vissza",
+                "name": "Forduljon vissza erre: {way_name}",
+                "destination": "Forduljon vissza a(z) {destination} célponthoz"
+            }
+        },
+        "new name": {
+            "default": {
+                "default": "Haladjon {modifier}",
+                "name": "Haladjon tovább {modifier} a(z) {way_name} felé",
+                "destination": "Haladjon tovább {modifier} a(z) {destination} irányába"
+            },
+            "straight": {
+                "default": "Haladjon egyenesen",
+                "name": "Haladjon tovább a(z) {way_name} felé",
+                "destination": "Haladjon tovább {destination} felé"
+            },
+            "sharp left": {
+                "default": "Forduljon élesen balra",
+                "name": "Forduljon élesen balra a(z) {way_name} felé",
+                "destination": "Forduljon élesen balra a(z) {destination} irányába"
+            },
+            "sharp right": {
+                "default": "Forduljon élesen jobbra",
+                "name": "Forduljon élesen jobbra a(z) {way_name}  felé",
+                "destination": "Forduljon élesen jobbra a(z) {destination} irányába"
+            },
+            "slight left": {
+                "default": "Haladjon enyhén balra",
+                "name": "Haladjon tovább enyhén balra a(z) {way_name} felé",
+                "destination": "Haladjon tovább enyhén balra a(z) {destination} irányába"
+            },
+            "slight right": {
+                "default": "Haladjon enyhén jobbra",
+                "name": "Haladjon tovább enyhén jobbra a(z) {way_name} felé",
+                "destination": "Haladjon tovább enyhén jobbra a(z) {destination} irányába"
+            },
+            "uturn": {
+                "default": "Forduljon vissza",
+                "name": "Forduljon vissza erre: {way_name}",
+                "destination": "Forduljon vissza a(z) {destination} célponthoz"
+            }
+        },
+        "notification": {
+            "default": {
+                "default": "Haladjon {modifier}",
+                "name": "Haladjon tovább {modifier} a(z) {way_name} felé",
+                "destination": "Haladjon tovább {modifier} a(z) {destination} irányába"
+            },
+            "uturn": {
+                "default": "Forduljon vissza",
+                "name": "Forduljon vissza erre: {way_name}",
+                "destination": "Forduljon vissza a(z) {destination} célponthoz"
+            }
+        },
+        "off ramp": {
+            "default": {
+                "default": "Hajts az átkötő útszakaszra",
+                "name": "Hajtson az átkötő útszakaszra a(z) {way_name} felé",
+                "destination": "Hajtson az átkötő útszakaszra a(z) {destination} irányába",
+                "exit": "Hajtson ki ezen: {exit}",
+                "exit_destination": "Hajtson ki a(z) {exit} kijáraton a(z) {destination} irányába"
+            },
+            "left": {
+                "default": "Hajtson az átkötő útszakaszra balról",
+                "name": "Hajtson az átkötő útszakaszra balról a(z) {way_name} felé",
+                "destination": "Hajtson az átkötő útszakaszra balról a(z) {destination} irányába",
+                "exit": "Hajtson ki a(z) {exit} kijáraton balról",
+                "exit_destination": "Hajtson ki a(z) {exit} kijáraton balról a(z) {destination} irányába"
+            },
+            "right": {
+                "default": "Hajtson az átkötő útszakaszra jobbról",
+                "name": "Hajtson az átkötő útszakaszra jobbról a(z) {way_name} felé",
+                "destination": "Hajtson az átkötő útszakaszra jobbról a(z) {destination} irányába",
+                "exit": "Hajtson ki a(z) {exit} kijáraton jobbról",
+                "exit_destination": "Hajtson ki a(z) {exit} kijáraton jobbról a(z) {destination} irányába"
+            },
+            "sharp left": {
+                "default": "Hajtson az átkötő útszakaszra balról",
+                "name": "Hajtson az átkötő útszakaszra balról a(z) {way_name} felé",
+                "destination": "Hajtson az átkötő útszakaszra balról a(z) {destination} irányába",
+                "exit": "Hajtson ki a(z) {exit} kijáraton balról",
+                "exit_destination": "Hajtson ki a(z) {exit} kijáraton balról a(z) {destination} irányába"
+            },
+            "sharp right": {
+                "default": "Hajtson az átkötő útszakaszra jobbról",
+                "name": "Hajtson az átkötő útszakaszra jobbról a(z) {way_name} felé",
+                "destination": "Hajtson az átkötő útszakaszra jobbról a(z) {destination} irányába",
+                "exit": "Hajtson ki a(z) {exit} kijáraton jobbról",
+                "exit_destination": "Hajtson ki a(z) {exit} kijáraton jobbról a(z) {destination} irányába"
+            },
+            "slight left": {
+                "default": "Hajtson at átkötő útszakaszra balról",
+                "name": "Hajtson az átkötő útszakaszra balról a(z) {way_name} felé",
+                "destination": "Hajtson az átkötő útszakaszra balról a(z) {destination} irányába",
+                "exit": "Hajtson ki a(z) {exit} kijáraton balról",
+                "exit_destination": "Hajtson ki a(z) {exit} kijáraton balról a(z) {destination} irányába"
+            },
+            "slight right": {
+                "default": "Hajtson az átkötő útszakaszra jobbról",
+                "name": "Hajtson az átkötő útszakaszra jobbról a(z) {way_name} felé",
+                "destination": "Hajtson az átkötő útszakaszra jobbról a(z) {destination} irányába",
+                "exit": "Hajtson ki a(z) {exit} kijáraton jobbról",
+                "exit_destination": "Hajtson ki a(z) {exit} kijáraton jobbról a(z) {destination} irányába"
+            }
+        },
+        "on ramp": {
+            "default": {
+                "default": "Hajtson az átkötő útszakaszra",
+                "name": "Hajtson az átkötő útszakaszra a(z) {way_name} felé",
+                "destination": "Hajtson az átkötő útszakaszra a(z) {destination} irányába"
+            },
+            "left": {
+                "default": "Hajtson az átkötő útszakaszra balról",
+                "name": "Hajtson az átkötő útszakaszra balról a(z) {way_name} felé",
+                "destination": "Hajtson az átkötő útszakaszra balról a(z) {destination} irányába"
+            },
+            "right": {
+                "default": "Hajtson az átkötő útszakaszra jobbról",
+                "name": "Hajtson az átkötő útszakaszra jobbról a(z) {way_name} felé",
+                "destination": "Hajtson az átkötő útszakaszra jobbról a(z) {destination} irányába"
+            },
+            "sharp left": {
+                "default": "Hajtson az átkötő útszakaszra balról",
+                "name": "Hajtson az átkötő útszakaszra balról a(z) {way_name} felé",
+                "destination": "Hajtson az átkötő útszakaszra balról a(z) {destination} irányába"
+            },
+            "sharp right": {
+                "default": "Hajtson az átkötő útszakaszra jobbról",
+                "name": "Hajtson az átkötő útszakaszra jobbról a(z) {way_name} felé",
+                "destination": "Hajtson az átkötő útszakaszra jobbról a(z) {destination} irányába"
+            },
+            "slight left": {
+                "default": "Hajtson az átkötő útszakaszra balról",
+                "name": "Hajtson az átkötő útszakaszra balról a(z) {way_name} felé",
+                "destination": "Hajtson az átkötő útszakaszra balról a(z) {destination} irányába"
+            },
+            "slight right": {
+                "default": "Hajtson az átkötő útszakaszra jobbról",
+                "name": "Hajtson az átkötő útszakaszra jobbról a(z) {way_name} felé",
+                "destination": "Hajtson az átkötő útszakaszra jobbról a(z) {destination} irányába"
+            }
+        },
+        "rotary": {
+            "default": {
+                "default": {
+                    "default": "Haladjon be a körforgalomba",
+                    "name": "Hajtson a körforgalomba, majd hajtson ki a(z) {way_name} felé",
+                    "destination": "Hajtson a körforgalomba, majd hajtson ki a(z) {destination} irányába"
+                },
+                "name": {
+                    "default": "Hajtson be a(z) {rotary_name} körforgalomba",
+                    "name": "Hajtson be a(z) {rotary_name} körforgalomba, majd hajtson ki a(z) {way_name} felé",
+                    "destination": "Hajtson be a(z) {rotary_name} körforgalomba, majd hajtson ki a(z) {destination} irányába"
+                },
+                "exit": {
+                    "default": "Hajtson be a körforgalomba, majd hajtson ki a(z) {exit_number} kijáraton",
+                    "name": "Hajtson be a körforgalomba, majd hajtson ki a(z) {exit_number} kijáraton a(z) {way_name} felé",
+                    "destination": "Hajtson be a körforgalomba, majd hajtson ki a(z) {exit_number} kijáraton a(z) {destination} irányába"
+                },
+                "name_exit": {
+                    "default": "Hajtson be a(z) {rotary_name} körforgalomba, majd hajtson ki a(z) {exit_number} kijáraton",
+                    "name": "Hajtson be a(z) {rotary_name} körforgalomba, majd hajtson ki a(z) {exit_number} kijáraton a(z) {way_name} felé",
+                    "destination": "Hajtson be a(z) {rotary_name} körforgalomba, majd hajtson ki a(z) {exit_number} kijáraton a(z) {destination} irányába"
+                }
+            }
+        },
+        "roundabout": {
+            "default": {
+                "exit": {
+                    "default": "Hajtson be a körforgalomba, majd hajtson ki a(z) {exit_number} kijáraton",
+                    "name": "Hajtson be a körforgalomba, majd hajtson ki a(z) {exit_number} kijáraton a(z) {way_name} felé",
+                    "destination": "Hajtson be a körforgalomba, majd hajtson ki a(z) {exit_number} kijáraton a(z) {destination} irányába"
+                },
+                "default": {
+                    "default": "Haladjon be a körforgalomba",
+                    "name": "Hajtson a körforgalomba, majd hagyja el a körforgalmat a(z) {way_name} felé",
+                    "destination": "Hajtson a körforgalomba, majd hagyja el a körforgalmat a(z) {destination} irányába"
+                }
+            }
+        },
+        "roundabout turn": {
+            "default": {
+                "default": "Forduljon {modifier}",
+                "name": "Forduljon {modifier} a(z) {way_name} felé",
+                "destination": "Forduljon {modifier} a(z) {destination} irányába"
+            },
+            "left": {
+                "default": "Forduljon balra",
+                "name": "Forduljon balra a(z) {way_name} irányába",
+                "destination": "Forduljon balra a(z) {destination} irányába"
+            },
+            "right": {
+                "default": "Forduljon jobbra",
+                "name": "Forduljon jobbra a(z) {way_name} felé",
+                "destination": "Forduljon jobbra a(z) {destination} irányába"
+            },
+            "straight": {
+                "default": "Haladjon egyenesen",
+                "name": "Haladjon egyenesen a(z) {way_name} felé",
+                "destination": "Haladjon egyenesen {destination} irányba"
+            }
+        },
+        "exit roundabout": {
+            "default": {
+                "default": "Hagyja el a körforgalmat",
+                "name": "Hajtson ki a körforgalomból a(z) {way_name} felé",
+                "destination": "Hajtson ki a körforgalomból a(z) {destination} irányába"
+            }
+        },
+        "exit rotary": {
+            "default": {
+                "default": "Hagyja el a körforgalmat",
+                "name": "Hajtson ki a körforgalomból a(z) {way_name} felé",
+                "destination": "Hajtson ki a körforgalomból a(z) {destination} irányába"
+            }
+        },
+        "turn": {
+            "default": {
+                "default": "Forduljon {modifier}",
+                "name": "Forduljon {modifier} a(z) {way_name} felé",
+                "destination": "Forduljon {modifier} a(z) {destination} irányába"
+            },
+            "left": {
+                "default": "Forduljon balra",
+                "name": "Forduljon balra a(z) {way_name} irányába",
+                "destination": "Forduljon balra a(z) {destination} irányába"
+            },
+            "right": {
+                "default": "Forduljon jobbra",
+                "name": "Forduljon jobbra a(z) {way_name} felé",
+                "destination": "Forduljon jobbra a(z) {destination} irányába"
+            },
+            "straight": {
+                "default": "Menjen egyenesen",
+                "name": "Hajtson egyenesen a(z) {way_name} felé",
+                "destination": "Hajtson egyenesen a(z) {destination} irányába"
+            }
+        },
+        "use lane": {
+            "no_lanes": {
+                "default": "Haladjon egyenesen"
+            },
+            "default": {
+                "default": "{lane_instruction}"
+            }
+        }
+    }
+}
