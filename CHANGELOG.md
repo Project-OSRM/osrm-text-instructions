@@ -3,6 +3,7 @@ All notable changes to this project will be documented in this file. For change 
 
 ## master
 
+- Added a Hungarian localization. [#274](https://github.com/Project-OSRM/osrm-text-instructions/pull/274)
 - Added an Arabic localization. [#267](https://github.com/Project-OSRM/osrm-text-instructions/pull/267)
 - Added a Slovenian localization. [#264](https://github.com/Project-OSRM/osrm-text-instructions/pull/264)
 - Updated French grammar with 'chaussée' status street name. [#268](https://github.com/Project-OSRM/osrm-text-instructions/pull/268)

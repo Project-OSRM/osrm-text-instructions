@@ -54,7 +54,7 @@
             "two linked by distance": "{instruction_one} , majd {distance} múlva, {instruction_two}",
             "two linked": "{instruction_one} , majd {instruction_two}",
             "one in distance": "{distance} múlva {instruction_one}",
-            "name and ref": "{name} ({ref})",
+            "name and ref": "{name} ( {ref} )",
             "exit with number": "{exit} kijárat"
         },
         "arrive": {
@@ -123,11 +123,11 @@
                 "exit": "Forduljon be {modifier} a(z) {way_name} irányába"
             },
             "straight": {
-                "default": "Haladjon egyenesen",
-                "name": "Egyenesen tovább maradjon a(z) {way_name} szakaszon",
-                "destination": "Haladjon tovább {destination} felé",
-                "distance": "Haladjon egyenesen {distance} távolságon át",
-                "namedistance": "Halajdon tovább a(z) {way_name} szakaszon {distance} távolságig"
+                "default": "Hajtson tovább egyenesen",
+                "name": "Hajtson tovább egyenesen a(z) {way_name} szakaszon",
+                "destination": "Hajtson tovább {destination} felé",
+                "distance": "Hajtson tovább egyenesen {distance} távolságig",
+                "namedistance": "Hajtson tovább a(z) {way_name} szakaszon {distance} távolságig"
             },
             "sharp left": {
                 "default": "Forduljon élesen balra",
@@ -157,9 +157,9 @@
         },
         "depart": {
             "default": {
-                "default": "Haladjon {direction}",
-                "name": "Haladjon {direction} ezen: {way_name}",
-                "namedistance": "Haladjon {direction} ezen: {way_name} , eddig: {distance}"
+                "default": "Hajtson {direction} felé",
+                "name": "Hajtson {direction} felé a(z) {way_name} szakaszon",
+                "namedistance": "Hajtson {direction} felé a(z) {way_name} , {distance} távolságig"
             }
         },
         "end of road": {
@@ -169,9 +169,9 @@
                 "destination": "Forduljon {modifier} a(z) {destination} felé"
             },
             "straight": {
-                "default": "Haladjon egyenesen",
-                "name": "Haladjon egyenesen a(z) {way_name} felé",
-                "destination": "Haladjon egyenesen {destination} irányba"
+                "default": "Hajtson tovább egyenesen",
+                "name": "Hajtson tovább egyenesen a(z) {way_name} felé",
+                "destination": "Hajtson tovább egyenesen {destination} irányba"
             },
             "uturn": {
                 "default": "Forduljon vissza az út végén",
@@ -197,25 +197,25 @@
             },
             "sharp left": {
                 "default": "Forduljon élesen balra az útválasznál",
-                "name": "Forduljon élesen balra a(z) {way_name} felé",
+                "name": "Forduljon be élesen balra a(z) {way_name} felé",
                 "destination": "Forduljon élesen balra a(z) {destination} irányába"
             },
             "sharp right": {
                 "default": "Forduljon élesen jobbra az útválasznál",
-                "name": "Forduljon élesen jobbra a(z) {way_name} felé",
+                "name": "Forduljon be élesen jobbra a(z) {way_name} felé",
                 "destination": "Forduljon élesen jobbra a(z) {destination} irányába"
             },
             "uturn": {
                 "default": "Forduljon vissza",
-                "name": "Forduljon vissza erre: {way_name}",
+                "name": "Forduljon vissza a(z) {way_name} felé",
                 "destination": "Forduljon vissza a(z) {destination} célponthoz"
             }
         },
         "merge": {
             "default": {
                 "default": "Soroljon be {modifier}",
-                "name": "Soroljon be {modifier} erre: {way_name}",
-                "destination": "Soroljon be {modifier} ehhez: {destination}"
+                "name": "Soroljon be {modifier} a(z) {way_name} felé",
+                "destination": "Soroljon be {modifier} a(z) {destination} irányába"
             },
             "straight": {
                 "default": "Soroljon be",
@@ -244,65 +244,65 @@
             },
             "uturn": {
                 "default": "Forduljon vissza",
-                "name": "Forduljon vissza erre: {way_name}",
+                "name": "Forduljon vissza a(z) {way_name} felé",
                 "destination": "Forduljon vissza a(z) {destination} célponthoz"
             }
         },
         "new name": {
             "default": {
-                "default": "Haladjon {modifier}",
-                "name": "Haladjon tovább {modifier} a(z) {way_name} felé",
-                "destination": "Haladjon tovább {modifier} a(z) {destination} irányába"
+                "default": "Hajtson tovább {modifier}",
+                "name": "Hajtsontovább {modifier} a(z) {way_name} felé",
+                "destination": "Hajtson tovább {modifier} a(z) {destination} irányába"
             },
             "straight": {
-                "default": "Haladjon egyenesen",
-                "name": "Haladjon tovább a(z) {way_name} felé",
-                "destination": "Haladjon tovább {destination} felé"
+                "default": "Hajtson tovább egyenesen",
+                "name": "Hajtson tovább a(z) {way_name} felé",
+                "destination": "Hajtson tovább {destination} felé"
             },
             "sharp left": {
                 "default": "Forduljon élesen balra",
-                "name": "Forduljon élesen balra a(z) {way_name} felé",
+                "name": "Forduljon be élesen balra a(z) {way_name} felé",
                 "destination": "Forduljon élesen balra a(z) {destination} irányába"
             },
             "sharp right": {
                 "default": "Forduljon élesen jobbra",
-                "name": "Forduljon élesen jobbra a(z) {way_name}  felé",
+                "name": "Forduljon be élesen jobbra a(z) {way_name}  felé",
                 "destination": "Forduljon élesen jobbra a(z) {destination} irányába"
             },
             "slight left": {
-                "default": "Haladjon enyhén balra",
-                "name": "Haladjon tovább enyhén balra a(z) {way_name} felé",
-                "destination": "Haladjon tovább enyhén balra a(z) {destination} irányába"
+                "default": "Hajtson tovább enyhén balra",
+                "name": "Hajtson tovább enyhén balra a(z) {way_name} felé",
+                "destination": "Hajtson tovább enyhén balra a(z) {destination} irányába"
             },
             "slight right": {
-                "default": "Haladjon enyhén jobbra",
-                "name": "Haladjon tovább enyhén jobbra a(z) {way_name} felé",
-                "destination": "Haladjon tovább enyhén jobbra a(z) {destination} irányába"
+                "default": "Hajtson tovább enyhén jobbra",
+                "name": "Hajtson tovább enyhén jobbra a(z) {way_name} felé",
+                "destination": "Hajtson tovább enyhén jobbra a(z) {destination} irányába"
             },
             "uturn": {
                 "default": "Forduljon vissza",
-                "name": "Forduljon vissza erre: {way_name}",
+                "name": "Forduljon vissza a(z) {way_name} felé",
                 "destination": "Forduljon vissza a(z) {destination} célponthoz"
             }
         },
         "notification": {
             "default": {
-                "default": "Haladjon {modifier}",
-                "name": "Haladjon tovább {modifier} a(z) {way_name} felé",
-                "destination": "Haladjon tovább {modifier} a(z) {destination} irányába"
+                "default": "Hajtson tovább {modifier}",
+                "name": "Hajtson tovább {modifier} a(z) {way_name} felé",
+                "destination": "Hajtson tovább {modifier} a(z) {destination} irányába"
             },
             "uturn": {
                 "default": "Forduljon vissza",
-                "name": "Forduljon vissza erre: {way_name}",
+                "name": "Forduljon vissza a(z) {way_name} felé",
                 "destination": "Forduljon vissza a(z) {destination} célponthoz"
             }
         },
         "off ramp": {
             "default": {
-                "default": "Hajts az átkötő útszakaszra",
+                "default": "Hajtson az átkötő útszakaszra",
                 "name": "Hajtson az átkötő útszakaszra a(z) {way_name} felé",
                 "destination": "Hajtson az átkötő útszakaszra a(z) {destination} irányába",
-                "exit": "Hajtson ki ezen: {exit}",
+                "exit": "Hajtson ki a(z) {exit} kijáraton",
                 "exit_destination": "Hajtson ki a(z) {exit} kijáraton a(z) {destination} irányába"
             },
             "left": {
@@ -388,9 +388,9 @@
         "rotary": {
             "default": {
                 "default": {
-                    "default": "Haladjon be a körforgalomba",
-                    "name": "Hajtson a körforgalomba, majd hajtson ki a(z) {way_name} felé",
-                    "destination": "Hajtson a körforgalomba, majd hajtson ki a(z) {destination} irányába"
+                    "default": "Hajtson be a körforgalomba",
+                    "name": "Hajtson be a körforgalomba, majd hajtson ki a(z) {way_name} felé",
+                    "destination": "Hajtson be a körforgalomba, majd hajtson ki a(z) {destination} irányába"
                 },
                 "name": {
                     "default": "Hajtson be a(z) {rotary_name} körforgalomba",
@@ -417,7 +417,7 @@
                     "destination": "Hajtson be a körforgalomba, majd hajtson ki a(z) {exit_number} kijáraton a(z) {destination} irányába"
                 },
                 "default": {
-                    "default": "Haladjon be a körforgalomba",
+                    "default": "Hajtson be a körforgalomba",
                     "name": "Hajtson a körforgalomba, majd hagyja el a körforgalmat a(z) {way_name} felé",
                     "destination": "Hajtson a körforgalomba, majd hagyja el a körforgalmat a(z) {destination} irányába"
                 }
@@ -426,35 +426,35 @@
         "roundabout turn": {
             "default": {
                 "default": "Forduljon {modifier}",
-                "name": "Forduljon {modifier} a(z) {way_name} felé",
+                "name": "Forduljon be {modifier} a(z) {way_name} felé",
                 "destination": "Forduljon {modifier} a(z) {destination} irányába"
             },
             "left": {
                 "default": "Forduljon balra",
-                "name": "Forduljon balra a(z) {way_name} irányába",
+                "name": "Forduljon be balra a(z) {way_name} irányába",
                 "destination": "Forduljon balra a(z) {destination} irányába"
             },
             "right": {
                 "default": "Forduljon jobbra",
-                "name": "Forduljon jobbra a(z) {way_name} felé",
+                "name": "Forduljon be jobbra a(z) {way_name} felé",
                 "destination": "Forduljon jobbra a(z) {destination} irányába"
             },
             "straight": {
-                "default": "Haladjon egyenesen",
-                "name": "Haladjon egyenesen a(z) {way_name} felé",
-                "destination": "Haladjon egyenesen {destination} irányba"
+                "default": "Hajtson egyenesen",
+                "name": "Hajtson egyenesen a(z) {way_name} felé",
+                "destination": "Hajtson egyenesen {destination} irányba"
             }
         },
         "exit roundabout": {
             "default": {
-                "default": "Hagyja el a körforgalmat",
+                "default": "Hajtson ki a körforgalomból",
                 "name": "Hajtson ki a körforgalomból a(z) {way_name} felé",
                 "destination": "Hajtson ki a körforgalomból a(z) {destination} irányába"
             }
         },
         "exit rotary": {
             "default": {
-                "default": "Hagyja el a körforgalmat",
+                "default": "Hajtson ki a körforgalomból",
                 "name": "Hajtson ki a körforgalomból a(z) {way_name} felé",
                 "destination": "Hajtson ki a körforgalomból a(z) {destination} irányába"
             }
@@ -462,28 +462,28 @@
         "turn": {
             "default": {
                 "default": "Forduljon {modifier}",
-                "name": "Forduljon {modifier} a(z) {way_name} felé",
+                "name": "Forduljon be {modifier} a(z) {way_name} felé",
                 "destination": "Forduljon {modifier} a(z) {destination} irányába"
             },
             "left": {
                 "default": "Forduljon balra",
-                "name": "Forduljon balra a(z) {way_name} irányába",
+                "name": "Forduljon be balra a(z) {way_name} irányába",
                 "destination": "Forduljon balra a(z) {destination} irányába"
             },
             "right": {
                 "default": "Forduljon jobbra",
-                "name": "Forduljon jobbra a(z) {way_name} felé",
+                "name": "Forduljon be jobbra a(z) {way_name} felé",
                 "destination": "Forduljon jobbra a(z) {destination} irányába"
             },
             "straight": {
-                "default": "Menjen egyenesen",
+                "default": "Hajtson egyenesen",
                 "name": "Hajtson egyenesen a(z) {way_name} felé",
                 "destination": "Hajtson egyenesen a(z) {destination} irányába"
             }
         },
         "use lane": {
             "no_lanes": {
-                "default": "Haladjon egyenesen"
+                "default": "Hajtson egyenesen"
             },
             "default": {
                 "default": "{lane_instruction}"
