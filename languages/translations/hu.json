@@ -46,15 +46,15 @@
         "modes": {
             "ferry": {
                 "default": "Hajtson fel a kompra",
-                "name": "Hajtson fel a kompra {way_name} irányából",
-                "destination": "Hajtson fel a kompra {destination} felé"
+                "name": "Hajtson fel a kompra a(z) {way_name} felé",
+                "destination": "Hajtson fel a kompra a(z) {destination} irányába"
             }
         },
         "phrase": {
-            "two linked by distance": "{instruction_one} , majd {distance} múlva, {instruction_two}",
-            "two linked": "{instruction_one} , majd {instruction_two}",
+            "two linked by distance": "{instruction_one}, majd {distance} múlva, {instruction_two}",
+            "two linked": "{instruction_one}, majd {instruction_two}",
             "one in distance": "{distance} múlva {instruction_one}",
-            "name and ref": "{name} ( {ref} )",
+            "name and ref": "{name} ({ref})",
             "exit with number": "{exit} kijárat"
         },
         "arrive": {
@@ -119,47 +119,47 @@
             "default": {
                 "default": "Forduljon {modifier}",
                 "name": "Forduljon {modifier} és maradjon a(z) {way_name} szakaszon",
-                "destination": "Forduljon {modifier} a(z) {destination} felé",
+                "destination": "Forduljon {modifier} a(z) {destination} irányába",
                 "exit": "Forduljon be {modifier} a(z) {way_name} irányába"
             },
             "straight": {
                 "default": "Hajtson tovább egyenesen",
                 "name": "Hajtson tovább egyenesen a(z) {way_name} szakaszon",
-                "destination": "Hajtson tovább {destination} felé",
+                "destination": "Hajtson tovább {destination} irányába",
                 "distance": "Hajtson tovább egyenesen {distance} távolságig",
                 "namedistance": "Hajtson tovább a(z) {way_name} szakaszon {distance} távolságig"
             },
             "sharp left": {
                 "default": "Forduljon élesen balra",
                 "name": "Forduljon élesen balra, majd maradjon a(z) {way_name} szakaszon",
-                "destination": "Forduljon élesen balra a(z) {destination} felé"
+                "destination": "Forduljon élesen balra a(z) {destination} irányába"
             },
             "sharp right": {
                 "default": "Forduljon élesen jobbra",
                 "name": "Forduljon élesen jobbra, majd maradjon a(z) {way_name} szakaszon",
-                "destination": "Forduljon élesen balra a(z) {destination} felé"
+                "destination": "Forduljon élesen balra a(z) {destination} irányába"
             },
             "slight left": {
                 "default": "Forduljon enyhén balra",
                 "name": "Forduljon enyhén balra, majd maradjon a(z) {way_name} szakaszon",
-                "destination": "Forduljon enyhén balra a(z) {destination} felé"
+                "destination": "Forduljon enyhén balra a(z) {destination} irányába"
             },
             "slight right": {
                 "default": "Forduljon enyhén jobbra",
                 "name": "Forduljon enyhén jobbra, majd maradjon a(z) {way_name} szakaszon",
-                "destination": "Forduljon enyhén jobbra a(z) {destination} felé"
+                "destination": "Forduljon enyhén jobbra a(z) {destination} irányába"
             },
             "uturn": {
                 "default": "Forduljon vissza",
                 "name": "Forduljon vissza, majd folytassa a(z) {way_name} szakaszon",
-                "destination": "Forduljon vissza a(z) {destination} célponthoz"
+                "destination": "Forduljon vissza a(z) {destination} irányába"
             }
         },
         "depart": {
             "default": {
-                "default": "Hajtson {direction} felé",
-                "name": "Hajtson {direction} felé a(z) {way_name} szakaszon",
-                "namedistance": "Hajtson {direction} felé a(z) {way_name} , {distance} távolságig"
+                "default": "Hajtson a(z) {direction} irányába",
+                "name": "Hajtson a(z) {direction} irányába a(z) {way_name} szakaszon",
+                "namedistance": "Hajtson a(z) {direction} irányába a(z) {way_name} felé {distance}  távolságig"
             }
         },
         "end of road": {
@@ -418,8 +418,8 @@
                 },
                 "default": {
                     "default": "Hajtson be a körforgalomba",
-                    "name": "Hajtson a körforgalomba, majd hagyja el a körforgalmat a(z) {way_name} felé",
-                    "destination": "Hajtson a körforgalomba, majd hagyja el a körforgalmat a(z) {destination} irányába"
+                    "name": "Hajtson a körforgalomba, majd hagyja el a körforgalmat a(z) {way_name}  felé",
+                    "destination": "Hajtson a körforgalomba, majd hagyja el a körforgalmat a(z) {destination}  irányába"
                 }
             }
         },
