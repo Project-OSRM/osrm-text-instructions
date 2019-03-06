@@ -159,7 +159,7 @@
             "default": {
                 "default": "Hajtson a(z) {direction} irányába",
                 "name": "Hajtson a(z) {direction} irányába a(z) {way_name} szakaszon",
-                "namedistance": "Hajtson a(z) {direction} irányába a(z) {way_name} felé {distance}  távolságig"
+                "namedistance": "Hajtson a(z) {direction} irányába a(z) {way_name} felé {distance} távolságig"
             }
         },
         "end of road": {
@@ -418,8 +418,8 @@
                 },
                 "default": {
                     "default": "Hajtson be a körforgalomba",
-                    "name": "Hajtson a körforgalomba, majd hagyja el a körforgalmat a(z) {way_name}  felé",
-                    "destination": "Hajtson a körforgalomba, majd hagyja el a körforgalmat a(z) {destination}  irányába"
+                    "name": "Hajtson a körforgalomba, majd hagyja el a körforgalmat a(z) {way_name} felé",
+                    "destination": "Hajtson a körforgalomba, majd hagyja el a körforgalmat a(z) {destination} irányába"
                 }
             }
         },
