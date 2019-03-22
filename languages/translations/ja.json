@@ -5,16 +5,16 @@
     "v5": {
         "constants": {
             "ordinalize": {
-                "1": "1 番",
-                "2": "2 番",
-                "3": "3 番",
-                "4": "4 番",
-                "5": "5 番",
-                "6": "6 番",
-                "7": "7 番",
-                "8": "8 番",
-                "9": "9 番",
-                "10": "10 番"
+                "1": "1 つ目の",
+                "2": "2 つ目の",
+                "3": "3 つ目の",
+                "4": "4 つ目の",
+                "5": "5 つ目の",
+                "6": "6 つ目の",
+                "7": "7 つ目の",
+                "8": "8 つ目の",
+                "9": "9 つ目の",
+                "10": "10 番目の"
             },
             "direction": {
                 "north": "北",
@@ -84,7 +84,7 @@
                 "upcoming": "{nth}目の目的地に到着しました。目的地は左側です",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
-                "named": "{waypoint_name}に到着しました。目的地は左側です。"
+                "named": "{waypoint_name}に到着しました。目的地は左側です"
             },
             "sharp right": {
                 "default": "{nth}目の目的地に到着しました。目的地は右側です",
@@ -105,7 +105,7 @@
                 "upcoming": "{nth}目の目的地に到着しました。目的地は左側です",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
-                "named": "{waypoint_name}に到着しました。目的地は左側です。"
+                "named": "{waypoint_name}に到着しました。目的地は左側です"
             },
             "straight": {
                 "default": "{nth}目の目的地に到着しました。目的地は前方です",
@@ -307,42 +307,42 @@
             },
             "left": {
                 "default": "左方向のランプに向かう",
-                "name": "左方向のランプに向かい、{way_name}にのる",
+                "name": "左方向のランプに向かい、{way_name}を進む",
                 "destination": "左方向のランプに向かい、その後{destination}へ向かう",
                 "exit": "左方向の{exit}出口を出る",
                 "exit_destination": "左方向の{exit}出口を出て{destination}へ向かう"
             },
             "right": {
                 "default": "右方向のランプに向かう",
-                "name": "右方向のランプに向かい、{way_name}にのる",
+                "name": "右方向のランプに向かい、{way_name}を進む",
                 "destination": "右方向のランプに向かい、その後{destination}へ向かう",
                 "exit": "右方向の{exit}出口を出る",
                 "exit_destination": "右方向の{exit}出口を出て{destination}へ向かう"
             },
             "sharp left": {
                 "default": "左方向のランプに向かう",
-                "name": "左方向のランプに向かい、{way_name}にのる",
+                "name": "左方向のランプに向かい、{way_name}を進む",
                 "destination": "左方向のランプに向かい、{destination}へ向かう",
                 "exit": "左方向の{exit}出口を出る",
                 "exit_destination": "左方向の{exit}出口を出て{destination}へ向かう"
             },
             "sharp right": {
                 "default": "右方向のランプに向かう",
-                "name": "右方向のランプに向かい、{way_name}にのる",
+                "name": "右方向のランプに向かい、{way_name}を進む",
                 "destination": "右方向のランプに向かい、{destination}へ向かう",
                 "exit": "右方向の{exit}出口を出る",
                 "exit_destination": "右方向の{exit}出口を出て{destination}へ向かう"
             },
             "slight left": {
                 "default": "左方向のランプへ向かう",
-                "name": "左方向のランプに向かい、{way_name}にのる",
+                "name": "左方向のランプに向かい、{way_name}を進む",
                 "destination": "左方向のランプに向かい、その後{destination}へ向かう",
                 "exit": "左方向の{exit}出口を出る",
                 "exit_destination": "左方向の{exit}出口を出て{destination}へ向かう"
             },
             "slight right": {
                 "default": "右方向のランプへ向かう",
-                "name": "右方向のランプに向かい、{way_name}にのる",
+                "name": "右方向のランプに向かい、{way_name}を進む",
                 "destination": "右方向のランプに向かい、その後{destination}へ向かう",
                 "exit": "右方向の{exit}出口を出る",
                 "exit_destination": "右方向の{exit}出口を出て{destination}へ向かう"
@@ -351,60 +351,60 @@
         "on ramp": {
             "default": {
                 "default": "ランプへ向かう",
-                "name": "ランプへ向かい、{way_name}にのる",
+                "name": "ランプへ向かい、{way_name}を進む",
                 "destination": "ランプに向かい、その後{destination}へ向かう"
             },
             "left": {
                 "default": "左方向のランプへ向かう",
-                "name": "左方向のランプに向かい、{way_name}にのる",
+                "name": "左方向のランプに向かい、{way_name}を進む",
                 "destination": "左方向のランプに向かい、その後{destination}へ向かう"
             },
             "right": {
                 "default": "右方向のランプへ向かう",
-                "name": "右方向のランプに向かい、{way_name}にのる",
+                "name": "右方向のランプに向かい、{way_name}を進む",
                 "destination": "右方向のランプに向かい、その後{destination}へ向かう"
             },
             "sharp left": {
                 "default": "左方向のランプへ向かう",
-                "name": "左方向のランプに向かい、{way_name}にのる",
+                "name": "左方向のランプに向かい、{way_name}を進む",
                 "destination": "左方向のランプに向かい、その後{destination}へ向かう"
             },
             "sharp right": {
                 "default": "右方向のランプへ向かう",
-                "name": "右方向のランプに向かい、{way_name}にのる",
+                "name": "右方向のランプに向かい、{way_name}を進む",
                 "destination": "右方向のランプに向かい、その後{destination}へ向かう"
             },
             "slight left": {
                 "default": "左方向のランプへ向かう",
-                "name": "左方向のランプに向かい、{way_name}にのる",
+                "name": "左方向のランプに向かい、{way_name}を進む",
                 "destination": "左方向のランプに向かい、その後{destination}へ向かう"
             },
             "slight right": {
                 "default": "右方向のランプへ向かう",
-                "name": "右方向のランプに向かい、{way_name}にのる",
+                "name": "右方向のランプに向かい、{way_name}を進む",
                 "destination": "右方向のランプに向かい、その後{destination}へ向かう"
             }
         },
         "rotary": {
             "default": {
                 "default": {
-                    "default": "ランアバウトにのる",
-                    "name": "ランアバウトから{way_name}にのる",
+                    "default": "ランアバウトへ進む",
+                    "name": "ランアバウトから{way_name}へ進む",
                     "destination": "ランアバウトをから{destination}へ向かう"
                 },
                 "name": {
                     "default": "{rotary_name}に入る",
-                    "name": "{rotary_name}から{way_name}にのる",
+                    "name": "{rotary_name}から{way_name}を進む",
                     "destination": "{rotary_name}から{destination}へ向かう"
                 },
                 "exit": {
                     "default": "ランアバウト{exit_number}番出口を出る",
-                    "name": "ランアバウト{exit_number}番出口を出て{way_name}にのる",
+                    "name": "ランアバウト{exit_number}番出口を出て{way_name}を進む",
                     "destination": "ランアバウト{exit_number}番出口を出て{destination}へ向かう"
                 },
                 "name_exit": {
                     "default": "{rotary_name}に入り、{exit_number}番出口を出る",
-                    "name": "{rotary_name}の{exit_number}番出口から{way_name}にのる",
+                    "name": "{rotary_name}の{exit_number}番出口から{way_name}を進む",
                     "destination": "{rotary_name}の{exit_number}番出口から{destination}へ向かう"
                 }
             }
@@ -413,12 +413,12 @@
             "default": {
                 "exit": {
                     "default": "ランアバウト{exit_number}番出口を出る",
-                    "name": "ランアバウト{exit_number}番出口を出て{way_name}にのる",
+                    "name": "ランアバウト{exit_number}番出口を出て{way_name}を進む",
                     "destination": "ランアバウト{exit_number}番出口を出て{destination}へ向かう"
                 },
                 "default": {
-                    "default": "ランアバウトにのる",
-                    "name": "ランアバウトを出て{way_name}にのる",
+                    "default": "ランアバウトへ進む",
+                    "name": "ランアバウトを出て{way_name}を進む",
                     "destination": "ランアバウトを出て{destination}へ向かう"
                 }
             }
@@ -426,17 +426,17 @@
         "roundabout turn": {
             "default": {
                 "default": "{modifier}に向かう",
-                "name": "{modifier}に向かい、{way_name}にのる",
+                "name": "{modifier}に向かい、{way_name}を進む",
                 "destination": "{modifier}に向かい、その後{destination}へ向かう"
             },
             "left": {
                 "default": "左折する",
-                "name": "左折して{way_name}にのる",
+                "name": "左折して{way_name}を進む",
                 "destination": "左折して{destination}へ向かう"
             },
             "right": {
                 "default": "右折する",
-                "name": "右折して{way_name}にのる",
+                "name": "右折して{way_name}を進む",
                 "destination": "右折して{destination}へ向かう"
             },
             "straight": {
@@ -448,31 +448,31 @@
         "exit roundabout": {
             "default": {
                 "default": "ランアバウトを出る",
-                "name": "ランアバウトを出て{way_name}にのる",
+                "name": "ランアバウトを出て{way_name}を進む",
                 "destination": "ランアバウトを出て{destination}へ向かう"
             }
         },
         "exit rotary": {
             "default": {
                 "default": "ランアバウトを出る",
-                "name": "ランアバウトを出て{way_name}にのる",
+                "name": "ランアバウトを出て{way_name}を進む",
                 "destination": "ランアバウトを出て{destination}へ向かう"
             }
         },
         "turn": {
             "default": {
                 "default": "{modifier}に向かう",
-                "name": "{modifier}に向かい、{way_name}にのる",
+                "name": "{modifier}に向かい、{way_name}を進む",
                 "destination": "{modifier}に向かい、その後{destination}へ向かう"
             },
             "left": {
                 "default": "左折する",
-                "name": "左折して{way_name}にのる",
+                "name": "左折して{way_name}を進む",
                 "destination": "左折して{destination}へ向かう"
             },
             "right": {
                 "default": "右折する",
-                "name": "右折して{way_name}にのる",
+                "name": "右折して{way_name}を進む",
                 "destination": "右折して{destination}へ向かう"
             },
             "straight": {
