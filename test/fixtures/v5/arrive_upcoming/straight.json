@@ -10,7 +10,7 @@
         "fi": "Saavut {nth} määränpäähäsi, suoraan edessä",
         "fr": "Vous arriverez à votre {nth} destination, droit devant",
         "he": "אתה תגיע אל היעד ה{nth} שלך, בהמשך",
-        "hu": "Meg fog érkezni a(z) {nth} célponthoz, egyenesen előre",
+        "hu": "Meg fog érkezni {nth:article} célponthoz, egyenesen előre",
         "id": "Anda telah tiba di tujuan ke-{nth}, lurus saja",
         "it": "sei arrivato alla tua {nth} destinazione, si trova davanti a te",
         "ko": "직진하시면 {nth} 목적지에 도착할 예정입니다.",
