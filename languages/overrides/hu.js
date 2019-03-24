@@ -1,6 +1,9 @@
 // Add grammar option to {way_name} and others depending on phrase context
 
 var replaces = [
+    [' (a\\(z\\) +)?\\{((way_name)|(destination))\\} +felé', ' {$2:sublative_to}'], // eslint-disable-line no-useless-escape
+    [' (a\\(z\\) +)?\\{((way_name)|(destination))\\} +irányába\\b', ' {$2:sublative_toward}'], // eslint-disable-line no-useless-escape
+    [' (a\\(z\\) +)?\\{((way_name)|(destination))\\} +szakaszon\\b', ' {$2:superessive}'], // eslint-disable-line no-useless-escape
     [' a\\(z\\) +\\{(\\w+)\\}', ' {$1:article}'] // eslint-disable-line no-useless-escape
 ];
 
