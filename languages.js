@@ -10,6 +10,7 @@ var instructionsEsEs = require('./languages/translations/es-ES.json');
 var instructionsFi = require('./languages/translations/fi.json');
 var instructionsFr = require('./languages/translations/fr.json');
 var instructionsHe = require('./languages/translations/he.json');
+var instructionsHu = require('./languages/translations/hu.json');
 var instructionsId = require('./languages/translations/id.json');
 var instructionsIt = require('./languages/translations/it.json');
 var instructionsJa = require('./languages/translations/ja.json');
@@ -31,6 +32,7 @@ var instructionsZhHans = require('./languages/translations/zh-Hans.json');
 
 // Load all grammar files
 var grammarFr = require('./languages/grammar/fr.json');
+var grammarHu = require('./languages/grammar/hu.json');
 var grammarRu = require('./languages/grammar/ru.json');
 
 // Load all abbreviations files
@@ -63,6 +65,7 @@ var instructions = {
     'fi': instructionsFi,
     'fr': instructionsFr,
     'he': instructionsHe,
+    'hu': instructionsHu,
     'id': instructionsId,
     'it': instructionsIt,
     'ja': instructionsJa,
@@ -86,6 +89,7 @@ var instructions = {
 // Create list of supported grammar
 var grammars = {
     'fr': grammarFr,
+    'hu': grammarHu,
     'ru': grammarRu
 };
 
