@@ -1,0 +1,493 @@
+{
+    "meta": {
+        "capitalizeFirstLetter": true
+    },
+    "v5": {
+        "constants": {
+            "ordinalize": {
+                "1": "1.",
+                "2": "2.",
+                "3": "3.",
+                "4": "4.",
+                "5": "5.",
+                "6": "6.",
+                "7": "7.",
+                "8": "8.",
+                "9": "9.",
+                "10": "10."
+            },
+            "direction": {
+                "north": "észak",
+                "northeast": "északkelet",
+                "east": "kelet",
+                "southeast": "délkelet",
+                "south": "dél",
+                "southwest": "délnyugat",
+                "west": "nyugat",
+                "northwest": "északnyugat"
+            },
+            "modifier": {
+                "left": "balra",
+                "right": "jobbra",
+                "sharp left": "élesen balra",
+                "sharp right": "élesen jobbra",
+                "slight left": "enyhén balra",
+                "slight right": "enyhén jobbra",
+                "straight": "egyenesen",
+                "uturn": "vissza"
+            },
+            "lanes": {
+                "xo": "Tartson jobbra",
+                "ox": "Tartson balra",
+                "xox": "Maradjon középen",
+                "oxo": "Tartson balra vagy jobbra"
+            }
+        },
+        "modes": {
+            "ferry": {
+                "default": "Hajtson fel a kompra",
+                "name": "Hajtson fel a kompra {way_name:sublative_to}",
+                "destination": "Hajtson fel a kompra {destination:sublative_toward}"
+            }
+        },
+        "phrase": {
+            "two linked by distance": "{instruction_one}, majd {distance} múlva, {instruction_two}",
+            "two linked": "{instruction_one}, majd {instruction_two}",
+            "one in distance": "{distance} múlva {instruction_one}",
+            "name and ref": "{name} ({ref})",
+            "exit with number": "{exit} kijárat"
+        },
+        "arrive": {
+            "default": {
+                "default": "Megérkezett {nth:article} célponthoz",
+                "upcoming": "Meg fog érkezni {nth:article} célponthoz",
+                "short": "Megérkezett",
+                "short-upcoming": "Meg fog érkezni",
+                "named": "Megérkezett {waypoint_name:article} célponthoz"
+            },
+            "left": {
+                "default": "Megérkezett {nth:article} célponthoz, a bal oldalon",
+                "upcoming": "Meg fog érkezni {nth:article} célponthoz, a bal oldalon",
+                "short": "Megérkezett",
+                "short-upcoming": "Meg fog érkezni",
+                "named": "Megérkezett {waypoint_name:article} célponthoz a bal oldalon"
+            },
+            "right": {
+                "default": "Megérkezett {nth:article} célponthoz, a jobb oldalon",
+                "upcoming": "Meg fog érkezni {nth:article} célponthoz, a jobb oldalon",
+                "short": "Megérkezett",
+                "short-upcoming": "Meg fog érkezni",
+                "named": "Megérkezett {waypoint_name:article} célponthoz, a jobb oldalon"
+            },
+            "sharp left": {
+                "default": "Megérkezett {nth:article} célponthoz, a bal oldalon",
+                "upcoming": "Meg fog érkezni {nth:article} célponthoz, a jobb oldalon",
+                "short": "Megérkezett",
+                "short-upcoming": "Meg fog érkezni",
+                "named": "Megérkezett {waypoint_name:article} célponthoz a bal oldalon"
+            },
+            "sharp right": {
+                "default": "Megérkezett {nth:article} célponthoz, a jobb oldalon",
+                "upcoming": "Meg fog érkezni {nth:article} célponthoz, a jobb oldalon",
+                "short": "Megérkezett",
+                "short-upcoming": "Meg fog érkezni",
+                "named": "Megérkezett {waypoint_name:article} célponthoz, a jobb oldalon"
+            },
+            "slight right": {
+                "default": "Megérkezett {nth:article} célponthoz, a jobb oldalon",
+                "upcoming": "Meg fog érkezni {nth:article} célponthoz, a jobb oldalon",
+                "short": "Megérkezett",
+                "short-upcoming": "Meg fog érkezni",
+                "named": "Megérkezett {waypoint_name:article} célponthoz, a jobb oldalon"
+            },
+            "slight left": {
+                "default": "Megérkezett {nth:article} célponthoz, a bal oldalon",
+                "upcoming": "Meg fog érkezni {nth:article} célponthoz, a jobb oldalon",
+                "short": "Megérkezett",
+                "short-upcoming": "Meg fog érkezni",
+                "named": "Megérkezett {waypoint_name:article} célponthoz a bal oldalon"
+            },
+            "straight": {
+                "default": "Megérkezett {nth:article} célponthoz, egyenesen előre",
+                "upcoming": "Meg fog érkezni {nth:article} célponthoz, egyenesen előre",
+                "short": "Megérkezett",
+                "short-upcoming": "Meg fog érkezni",
+                "named": "Megérkezett {waypoint_name:article} célponthoz, egyenesen előre"
+            }
+        },
+        "continue": {
+            "default": {
+                "default": "Forduljon {modifier}",
+                "name": "Forduljon {modifier} és maradjon {way_name:superessive}",
+                "destination": "Forduljon {modifier} {destination:sublative_toward}",
+                "exit": "Forduljon be {modifier} {way_name:sublative_toward}"
+            },
+            "straight": {
+                "default": "Hajtson tovább egyenesen",
+                "name": "Hajtson tovább egyenesen {way_name:superessive}",
+                "destination": "Hajtson tovább {destination:sublative_toward}",
+                "distance": "Hajtson tovább egyenesen {distance} távolságig",
+                "namedistance": "Hajtson tovább {way_name:superessive} {distance} távolságig"
+            },
+            "sharp left": {
+                "default": "Forduljon élesen balra",
+                "name": "Forduljon élesen balra, majd maradjon {way_name:superessive}",
+                "destination": "Forduljon élesen balra {destination:sublative_toward}"
+            },
+            "sharp right": {
+                "default": "Forduljon élesen jobbra",
+                "name": "Forduljon élesen jobbra, majd maradjon {way_name:superessive}",
+                "destination": "Forduljon élesen balra {destination:sublative_toward}"
+            },
+            "slight left": {
+                "default": "Forduljon enyhén balra",
+                "name": "Forduljon enyhén balra, majd maradjon {way_name:superessive}",
+                "destination": "Forduljon enyhén balra {destination:sublative_toward}"
+            },
+            "slight right": {
+                "default": "Forduljon enyhén jobbra",
+                "name": "Forduljon enyhén jobbra, majd maradjon {way_name:superessive}",
+                "destination": "Forduljon enyhén jobbra {destination:sublative_toward}"
+            },
+            "uturn": {
+                "default": "Forduljon vissza",
+                "name": "Forduljon vissza, majd folytassa {way_name:superessive}",
+                "destination": "Forduljon vissza {destination:sublative_toward}"
+            }
+        },
+        "depart": {
+            "default": {
+                "default": "Hajtson {direction:article} irányába",
+                "name": "Hajtson {direction:article} irányába {way_name:superessive}",
+                "namedistance": "Hajtson {direction:article} irányába {way_name:sublative_to} {distance} távolságig"
+            }
+        },
+        "end of road": {
+            "default": {
+                "default": "Forduljon {modifier}",
+                "name": "Forduljon be {modifier} {way_name:sublative_toward}",
+                "destination": "Forduljon {modifier} {destination:sublative_to}"
+            },
+            "straight": {
+                "default": "Hajtson tovább egyenesen",
+                "name": "Hajtson tovább egyenesen {way_name:sublative_to}",
+                "destination": "Hajtson tovább egyenesen {destination:sublative_toward}"
+            },
+            "uturn": {
+                "default": "Forduljon vissza az út végén",
+                "name": "Forduljon vissza {way_name:article} végén",
+                "destination": "Forduljon vissza {destination:article} irányában az út végén"
+            }
+        },
+        "fork": {
+            "default": {
+                "default": "Tartson {modifier} az útválasznál",
+                "name": "Tartson {modifier} {way_name:superessive}",
+                "destination": "Tartson {modifier} {destination:sublative_toward}"
+            },
+            "slight left": {
+                "default": "Tartson balra az útválasznál",
+                "name": "Tartson balra {way_name:sublative_to}",
+                "destination": "Tartson balra {destination:sublative_toward}"
+            },
+            "slight right": {
+                "default": "Tartson jobbra az útválasznál",
+                "name": "Tartson jobbra {way_name:sublative_to}",
+                "destination": "Tartson jobbra {destination:sublative_toward}"
+            },
+            "sharp left": {
+                "default": "Forduljon élesen balra az útválasznál",
+                "name": "Forduljon be élesen balra {way_name:sublative_to}",
+                "destination": "Forduljon élesen balra {destination:sublative_toward}"
+            },
+            "sharp right": {
+                "default": "Forduljon élesen jobbra az útválasznál",
+                "name": "Forduljon be élesen jobbra {way_name:sublative_to}",
+                "destination": "Forduljon élesen jobbra {destination:sublative_toward}"
+            },
+            "uturn": {
+                "default": "Forduljon vissza",
+                "name": "Forduljon vissza {way_name:sublative_to}",
+                "destination": "Forduljon vissza {destination:article} célponthoz"
+            }
+        },
+        "merge": {
+            "default": {
+                "default": "Soroljon be {modifier}",
+                "name": "Soroljon be {modifier} {way_name:sublative_to}",
+                "destination": "Soroljon be {modifier} {destination:sublative_toward}"
+            },
+            "straight": {
+                "default": "Soroljon be",
+                "name": "Soroljon be {way_name:sublative_to}",
+                "destination": "Soroljon be {destination:sublative_toward}"
+            },
+            "slight left": {
+                "default": "Soroljon be balra",
+                "name": "Sorljon be balra {way_name:sublative_to}",
+                "destination": "Soroljon be balra {destination:sublative_toward}"
+            },
+            "slight right": {
+                "default": "Soroljon be jobbra",
+                "name": "Soroljon be jobbra {way_name:sublative_to}",
+                "destination": "Soroljon be jobbra {destination:sublative_toward}"
+            },
+            "sharp left": {
+                "default": "Soroljon be balra",
+                "name": "Sorljon be balra {way_name:sublative_to}",
+                "destination": "Soroljon be balra {destination:sublative_toward}"
+            },
+            "sharp right": {
+                "default": "Soroljon be jobbra",
+                "name": "Soroljon be jobbra {way_name:sublative_to}",
+                "destination": "Soroljon be jobbra {destination:sublative_toward}"
+            },
+            "uturn": {
+                "default": "Forduljon vissza",
+                "name": "Forduljon vissza {way_name:sublative_to}",
+                "destination": "Forduljon vissza {destination:article} célponthoz"
+            }
+        },
+        "new name": {
+            "default": {
+                "default": "Hajtson tovább {modifier}",
+                "name": "Hajtsontovább {modifier} {way_name:sublative_to}",
+                "destination": "Hajtson tovább {modifier} {destination:sublative_toward}"
+            },
+            "straight": {
+                "default": "Hajtson tovább egyenesen",
+                "name": "Hajtson tovább {way_name:sublative_to}",
+                "destination": "Hajtson tovább {destination:sublative_to}"
+            },
+            "sharp left": {
+                "default": "Forduljon élesen balra",
+                "name": "Forduljon be élesen balra {way_name:sublative_to}",
+                "destination": "Forduljon élesen balra {destination:sublative_toward}"
+            },
+            "sharp right": {
+                "default": "Forduljon élesen jobbra",
+                "name": "Forduljon be élesen jobbra {way_name:sublative_to}",
+                "destination": "Forduljon élesen jobbra {destination:sublative_toward}"
+            },
+            "slight left": {
+                "default": "Hajtson tovább enyhén balra",
+                "name": "Hajtson tovább enyhén balra {way_name:sublative_to}",
+                "destination": "Hajtson tovább enyhén balra {destination:sublative_toward}"
+            },
+            "slight right": {
+                "default": "Hajtson tovább enyhén jobbra",
+                "name": "Hajtson tovább enyhén jobbra {way_name:sublative_to}",
+                "destination": "Hajtson tovább enyhén jobbra {destination:sublative_toward}"
+            },
+            "uturn": {
+                "default": "Forduljon vissza",
+                "name": "Forduljon vissza {way_name:sublative_to}",
+                "destination": "Forduljon vissza {destination:article} célponthoz"
+            }
+        },
+        "notification": {
+            "default": {
+                "default": "Hajtson tovább {modifier}",
+                "name": "Hajtson tovább {modifier} {way_name:sublative_to}",
+                "destination": "Hajtson tovább {modifier} {destination:sublative_toward}"
+            },
+            "uturn": {
+                "default": "Forduljon vissza",
+                "name": "Forduljon vissza {way_name:sublative_to}",
+                "destination": "Forduljon vissza {destination:article} célponthoz"
+            }
+        },
+        "off ramp": {
+            "default": {
+                "default": "Hajtson az átkötő útszakaszra",
+                "name": "Hajtson az átkötő útszakaszra {way_name:sublative_to}",
+                "destination": "Hajtson az átkötő útszakaszra {destination:sublative_toward}",
+                "exit": "Hajtson ki {exit:article} kijáraton",
+                "exit_destination": "Hajtson ki {exit:article} kijáraton {destination:sublative_toward}"
+            },
+            "left": {
+                "default": "Hajtson az átkötő útszakaszra balról",
+                "name": "Hajtson az átkötő útszakaszra balról {way_name:sublative_to}",
+                "destination": "Hajtson az átkötő útszakaszra balról {destination:sublative_toward}",
+                "exit": "Hajtson ki {exit:article} kijáraton balról",
+                "exit_destination": "Hajtson ki {exit:article} kijáraton balról {destination:sublative_toward}"
+            },
+            "right": {
+                "default": "Hajtson az átkötő útszakaszra jobbról",
+                "name": "Hajtson az átkötő útszakaszra jobbról {way_name:sublative_to}",
+                "destination": "Hajtson az átkötő útszakaszra jobbról {destination:sublative_toward}",
+                "exit": "Hajtson ki {exit:article} kijáraton jobbról",
+                "exit_destination": "Hajtson ki {exit:article} kijáraton jobbról {destination:sublative_toward}"
+            },
+            "sharp left": {
+                "default": "Hajtson az átkötő útszakaszra balról",
+                "name": "Hajtson az átkötő útszakaszra balról {way_name:sublative_to}",
+                "destination": "Hajtson az átkötő útszakaszra balról {destination:sublative_toward}",
+                "exit": "Hajtson ki {exit:article} kijáraton balról",
+                "exit_destination": "Hajtson ki {exit:article} kijáraton balról {destination:sublative_toward}"
+            },
+            "sharp right": {
+                "default": "Hajtson az átkötő útszakaszra jobbról",
+                "name": "Hajtson az átkötő útszakaszra jobbról {way_name:sublative_to}",
+                "destination": "Hajtson az átkötő útszakaszra jobbról {destination:sublative_toward}",
+                "exit": "Hajtson ki {exit:article} kijáraton jobbról",
+                "exit_destination": "Hajtson ki {exit:article} kijáraton jobbról {destination:sublative_toward}"
+            },
+            "slight left": {
+                "default": "Hajtson at átkötő útszakaszra balról",
+                "name": "Hajtson az átkötő útszakaszra balról {way_name:sublative_to}",
+                "destination": "Hajtson az átkötő útszakaszra balról {destination:sublative_toward}",
+                "exit": "Hajtson ki {exit:article} kijáraton balról",
+                "exit_destination": "Hajtson ki {exit:article} kijáraton balról {destination:sublative_toward}"
+            },
+            "slight right": {
+                "default": "Hajtson az átkötő útszakaszra jobbról",
+                "name": "Hajtson az átkötő útszakaszra jobbról {way_name:sublative_to}",
+                "destination": "Hajtson az átkötő útszakaszra jobbról {destination:sublative_toward}",
+                "exit": "Hajtson ki {exit:article} kijáraton jobbról",
+                "exit_destination": "Hajtson ki {exit:article} kijáraton jobbról {destination:sublative_toward}"
+            }
+        },
+        "on ramp": {
+            "default": {
+                "default": "Hajtson az átkötő útszakaszra",
+                "name": "Hajtson az átkötő útszakaszra {way_name:sublative_to}",
+                "destination": "Hajtson az átkötő útszakaszra {destination:sublative_toward}"
+            },
+            "left": {
+                "default": "Hajtson az átkötő útszakaszra balról",
+                "name": "Hajtson az átkötő útszakaszra balról {way_name:sublative_to}",
+                "destination": "Hajtson az átkötő útszakaszra balról {destination:sublative_toward}"
+            },
+            "right": {
+                "default": "Hajtson az átkötő útszakaszra jobbról",
+                "name": "Hajtson az átkötő útszakaszra jobbról {way_name:sublative_to}",
+                "destination": "Hajtson az átkötő útszakaszra jobbról {destination:sublative_toward}"
+            },
+            "sharp left": {
+                "default": "Hajtson az átkötő útszakaszra balról",
+                "name": "Hajtson az átkötő útszakaszra balról {way_name:sublative_to}",
+                "destination": "Hajtson az átkötő útszakaszra balról {destination:sublative_toward}"
+            },
+            "sharp right": {
+                "default": "Hajtson az átkötő útszakaszra jobbról",
+                "name": "Hajtson az átkötő útszakaszra jobbról {way_name:sublative_to}",
+                "destination": "Hajtson az átkötő útszakaszra jobbról {destination:sublative_toward}"
+            },
+            "slight left": {
+                "default": "Hajtson az átkötő útszakaszra balról",
+                "name": "Hajtson az átkötő útszakaszra balról {way_name:sublative_to}",
+                "destination": "Hajtson az átkötő útszakaszra balról {destination:sublative_toward}"
+            },
+            "slight right": {
+                "default": "Hajtson az átkötő útszakaszra jobbról",
+                "name": "Hajtson az átkötő útszakaszra jobbról {way_name:sublative_to}",
+                "destination": "Hajtson az átkötő útszakaszra jobbról {destination:sublative_toward}"
+            }
+        },
+        "rotary": {
+            "default": {
+                "default": {
+                    "default": "Hajtson be a körforgalomba",
+                    "name": "Hajtson be a körforgalomba, majd hajtson ki {way_name:sublative_to}",
+                    "destination": "Hajtson be a körforgalomba, majd hajtson ki {destination:sublative_toward}"
+                },
+                "name": {
+                    "default": "Hajtson be {rotary_name:article} körforgalomba",
+                    "name": "Hajtson be {rotary_name:article} körforgalomba, majd hajtson ki {way_name:sublative_to}",
+                    "destination": "Hajtson be {rotary_name:article} körforgalomba, majd hajtson ki {destination:sublative_toward}"
+                },
+                "exit": {
+                    "default": "Hajtson be a körforgalomba, majd hajtson ki {exit_number:article} kijáraton",
+                    "name": "Hajtson be a körforgalomba, majd hajtson ki {exit_number:article} kijáraton {way_name:sublative_to}",
+                    "destination": "Hajtson be a körforgalomba, majd hajtson ki {exit_number:article} kijáraton {destination:sublative_toward}"
+                },
+                "name_exit": {
+                    "default": "Hajtson be {rotary_name:article} körforgalomba, majd hajtson ki {exit_number:article} kijáraton",
+                    "name": "Hajtson be {rotary_name:article} körforgalomba, majd hajtson ki {exit_number:article} kijáraton {way_name:sublative_to}",
+                    "destination": "Hajtson be {rotary_name:article} körforgalomba, majd hajtson ki {exit_number:article} kijáraton {destination:sublative_toward}"
+                }
+            }
+        },
+        "roundabout": {
+            "default": {
+                "exit": {
+                    "default": "Hajtson be a körforgalomba, majd hajtson ki {exit_number:article} kijáraton",
+                    "name": "Hajtson be a körforgalomba, majd hajtson ki {exit_number:article} kijáraton {way_name:sublative_to}",
+                    "destination": "Hajtson be a körforgalomba, majd hajtson ki {exit_number:article} kijáraton {destination:sublative_toward}"
+                },
+                "default": {
+                    "default": "Hajtson be a körforgalomba",
+                    "name": "Hajtson a körforgalomba, majd hagyja el a körforgalmat {way_name:sublative_to}",
+                    "destination": "Hajtson a körforgalomba, majd hagyja el a körforgalmat {destination:sublative_toward}"
+                }
+            }
+        },
+        "roundabout turn": {
+            "default": {
+                "default": "Forduljon {modifier}",
+                "name": "Forduljon be {modifier} {way_name:sublative_to}",
+                "destination": "Forduljon {modifier} {destination:sublative_toward}"
+            },
+            "left": {
+                "default": "Forduljon balra",
+                "name": "Forduljon be balra {way_name:sublative_toward}",
+                "destination": "Forduljon balra {destination:sublative_toward}"
+            },
+            "right": {
+                "default": "Forduljon jobbra",
+                "name": "Forduljon be jobbra {way_name:sublative_to}",
+                "destination": "Forduljon jobbra {destination:sublative_toward}"
+            },
+            "straight": {
+                "default": "Hajtson egyenesen",
+                "name": "Hajtson egyenesen {way_name:sublative_to}",
+                "destination": "Hajtson egyenesen {destination:sublative_toward}"
+            }
+        },
+        "exit roundabout": {
+            "default": {
+                "default": "Hajtson ki a körforgalomból",
+                "name": "Hajtson ki a körforgalomból {way_name:sublative_to}",
+                "destination": "Hajtson ki a körforgalomból {destination:sublative_toward}"
+            }
+        },
+        "exit rotary": {
+            "default": {
+                "default": "Hajtson ki a körforgalomból",
+                "name": "Hajtson ki a körforgalomból {way_name:sublative_to}",
+                "destination": "Hajtson ki a körforgalomból {destination:sublative_toward}"
+            }
+        },
+        "turn": {
+            "default": {
+                "default": "Forduljon {modifier}",
+                "name": "Forduljon be {modifier} {way_name:sublative_to}",
+                "destination": "Forduljon {modifier} {destination:sublative_toward}"
+            },
+            "left": {
+                "default": "Forduljon balra",
+                "name": "Forduljon be balra {way_name:sublative_toward}",
+                "destination": "Forduljon balra {destination:sublative_toward}"
+            },
+            "right": {
+                "default": "Forduljon jobbra",
+                "name": "Forduljon be jobbra {way_name:sublative_to}",
+                "destination": "Forduljon jobbra {destination:sublative_toward}"
+            },
+            "straight": {
+                "default": "Hajtson egyenesen",
+                "name": "Hajtson egyenesen {way_name:sublative_to}",
+                "destination": "Hajtson egyenesen {destination:sublative_toward}"
+            }
+        },
+        "use lane": {
+            "no_lanes": {
+                "default": "Hajtson egyenesen"
+            },
+            "default": {
+                "default": "{lane_instruction}"
+            }
+        }
+    }
+}

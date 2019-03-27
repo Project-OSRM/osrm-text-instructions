@@ -237,8 +237,8 @@ module.exports = function(version) {
         },
         grammarize: function(language, name, grammar) {
             if (!language) throw new Error('No language code provided');
-            // Process way/rotary name with applying grammar rules if any
-            if (name && grammar && grammars && grammars[language] && grammars[language][version]) {
+            // Process way/rotary/any name with applying grammar rules if any
+            if (grammar && grammars && grammars[language] && grammars[language][version]) {
                 var rules = grammars[language][version][grammar];
                 if (rules) {
                     // Pass original name to rules' regular expressions enclosed with spaces for simplier parsing
