@@ -77,7 +77,7 @@
                 "upcoming": "Vous arriverez à votre {nth} destination, sur la droite",
                 "short": "Vous êtes arrivé",
                 "short-upcoming": "Vous arriverez",
-                "named": "Vous êtes arrivé à  {waypoint_name:arrival}, sur la droite"
+                "named": "Vous êtes arrivé {waypoint_name:arrival}, sur la droite"
             },
             "sharp left": {
                 "default": "Vous êtes arrivé à votre {nth} destination, sur la gauche",
