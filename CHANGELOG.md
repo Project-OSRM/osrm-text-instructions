@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file. For change 
 - Added a Japanese localization. [#277](https://github.com/Project-OSRM/osrm-text-instructions/pull/277)
 - Added an Arabic localization. [#267](https://github.com/Project-OSRM/osrm-text-instructions/pull/267)
 - Added a Slovenian localization. [#264](https://github.com/Project-OSRM/osrm-text-instructions/pull/264)
+- Updated Russian arrive instructions. [#278](https://github.com/Project-OSRM/osrm-text-instructions/pull/278)
 - Updated French grammar with 'chaussée' status street name and better articles matching. [#268](https://github.com/Project-OSRM/osrm-text-instructions/pull/268)[#279](https://github.com/Project-OSRM/osrm-text-instructions/pull/279)
 
 ## 0.13.2 2018-08-13
