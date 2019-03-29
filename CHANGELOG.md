@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
-## master
+## 0.13.3 2019-03-29
 
 - Added a Hungarian localization and grammar. [#274](https://github.com/Project-OSRM/osrm-text-instructions/pull/274)
 - Added a Japanese localization. [#277](https://github.com/Project-OSRM/osrm-text-instructions/pull/277)
