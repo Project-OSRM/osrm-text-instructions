@@ -28,6 +28,7 @@ var instructionsSv = require('./languages/translations/sv.json');
 var instructionsTr = require('./languages/translations/tr.json');
 var instructionsUk = require('./languages/translations/uk.json');
 var instructionsVi = require('./languages/translations/vi.json');
+var instructionsYo = require('./languages/translations/yo.json');
 var instructionsZhHans = require('./languages/translations/zh-Hans.json');
 
 // Load all grammar files
@@ -83,6 +84,7 @@ var instructions = {
     'tr': instructionsTr,
     'uk': instructionsUk,
     'vi': instructionsVi,
+    'yo': instructionsYo,
     'zh-Hans': instructionsZhHans
 };
 

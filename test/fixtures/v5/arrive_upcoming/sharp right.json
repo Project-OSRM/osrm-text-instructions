@@ -28,6 +28,7 @@
         "tr": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
         "uk": "Ви наближаєтесь до вашого {nth} місця призначення, праворуч",
         "vi": "Đến nơi {nth} ở bên phải",
+        "yo": "O yoo de ọdọ ọ{nth}nlo, lori ọtun",
         "zh-Hans": "您即将到达您的{nth}个目的地，目的地在道路右侧"
     }
 }
