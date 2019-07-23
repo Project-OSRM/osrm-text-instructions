@@ -388,9 +388,9 @@
         "rotary": {
             "default": {
                 "default": {
-                    "default": "Enter the traffic circle",
-                    "name": "Enter the traffic circle and exit onto {way_name}",
-                    "destination": "Enter the traffic circle and exit towards {destination}"
+                    "default": "Enter the roundabout",
+                    "name": "Enter the roundabout and exit onto {way_name}",
+                    "destination": "Enter the roundabout and exit towards {destination}"
                 },
                 "name": {
                     "default": "Enter {rotary_name}",
@@ -398,9 +398,9 @@
                     "destination": "Enter {rotary_name} and exit towards {destination}"
                 },
                 "exit": {
-                    "default": "Enter the traffic circle and take the {exit_number} exit",
-                    "name": "Enter the traffic circle and take the {exit_number} exit onto {way_name}",
-                    "destination": "Enter the traffic circle and take the {exit_number} exit towards {destination}"
+                    "default": "Enter the roundabout and take the {exit_number} exit",
+                    "name": "Enter the roundabout and take the {exit_number} exit onto {way_name}",
+                    "destination": "Enter the roundabout and take the {exit_number} exit towards {destination}"
                 },
                 "name_exit": {
                     "default": "Enter {rotary_name} and take the {exit_number} exit",
@@ -412,14 +412,14 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Enter the traffic circle and take the {exit_number} exit",
-                    "name": "Enter the traffic circle and take the {exit_number} exit onto {way_name}",
-                    "destination": "Enter the traffic circle and take the {exit_number} exit towards {destination}"
+                    "default": "Enter the roundabout and take the {exit_number} exit",
+                    "name": "Enter the roundabout and take the {exit_number} exit onto {way_name}",
+                    "destination": "Enter the roundabout and take the {exit_number} exit towards {destination}"
                 },
                 "default": {
-                    "default": "Enter the traffic circle",
-                    "name": "Enter the traffic circle and exit onto {way_name}",
-                    "destination": "Enter the traffic circle and exit towards {destination}"
+                    "default": "Enter the roundabout",
+                    "name": "Enter the roundabout and exit onto {way_name}",
+                    "destination": "Enter the roundabout and exit towards {destination}"
                 }
             }
         },
@@ -447,16 +447,16 @@
         },
         "exit roundabout": {
             "default": {
-                "default": "Exit the traffic circle",
-                "name": "Exit the traffic circle onto {way_name}",
-                "destination": "Exit the traffic circle towards {destination}"
+                "default": "Exit the roundabout",
+                "name": "Exit the roundabout onto {way_name}",
+                "destination": "Exit the roundabout towards {destination}"
             }
         },
         "exit rotary": {
             "default": {
-                "default": "Exit the traffic circle",
-                "name": "Exit the traffic circle onto {way_name}",
-                "destination": "Exit the traffic circle towards {destination}"
+                "default": "Exit the roundabout",
+                "name": "Exit the roundabout onto {way_name}",
+                "destination": "Exit the roundabout towards {destination}"
             }
         },
         "turn": {
