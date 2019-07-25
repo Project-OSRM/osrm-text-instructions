@@ -1,0 +1,493 @@
+{
+    "meta": {
+        "capitalizeFirstLetter": true
+    },
+    "v5": {
+        "constants": {
+            "ordinalize": {
+                "1": "1st",
+                "2": "2nd",
+                "3": "3rd",
+                "4": "4th",
+                "5": "5th",
+                "6": "6th",
+                "7": "7th",
+                "8": "8th",
+                "9": "9th",
+                "10": "10th"
+            },
+            "direction": {
+                "north": "ariwa",
+                "northeast": "Ariwa",
+                "east": "õrùn",
+                "southeast": "Guusu ila oorun",
+                "south": "guusu",
+                "southwest": "Southwest",
+                "west": "oorun",
+                "northwest": "ariwa-oorun"
+            },
+            "modifier": {
+                "left": "apa osi",
+                "right": "ọtun",
+                "sharp left": "didasilẹ",
+                "sharp right": "didasilẹ ọtun",
+                "slight left": "diẹ osi",
+                "slight right": "diẹ ọtun",
+                "straight": "Taara",
+                "uturn": "U-tan"
+            },
+            "lanes": {
+                "xo": "pa ọtun",
+                "ox": "pa osi",
+                "xox": "Jeki ni arin",
+                "oxo": "Jeki osi tabi ọtun"
+            }
+        },
+        "modes": {
+            "ferry": {
+                "default": "Gba ọkọ oju-omi naa",
+                "name": "Gba ọkọ oju-omi naa {way_name}",
+                "destination": "Mu ọna ọkọ lọ si ọna {destination}"
+            }
+        },
+        "phrase": {
+            "two linked by distance": "{instruction_one}, lẹhinna, ni {distance} {instruction_two}",
+            "two linked": "{instruction_one}, lẹhinna {instruction_two}",
+            "one in distance": "Ni {distance}, {instruction_one}",
+            "name and ref": "{name} ({ref})",
+            "exit with number": "Jade {exit}"
+        },
+        "arrive": {
+            "default": {
+                "default": "O ti de ọdọ rẹ {nth} ibi ti nlo",
+                "upcoming": "O yoo de ọdọ rẹ {nth} ibi ti nlo",
+                "short": "O ti de",
+                "short-upcoming": "Iwọ yoo de",
+                "named": "O ti de {waypoint_name}"
+            },
+            "left": {
+                "default": "O ti de ọdọ rẹ {nth} nlo, lori osi",
+                "upcoming": "O yoo de ọdọ rẹ {nth} nlo, lori osi",
+                "short": "O ti de",
+                "short-upcoming": "Iwọ yoo de",
+                "named": "O ti de {waypoint_name}, lori osi"
+            },
+            "right": {
+                "default": "O ti de ọdọ rẹ {nth} nlo, lori ọtun",
+                "upcoming": "O yoo de ọdọ ọ {nth} nlo, lori ọtun",
+                "short": "O ti de",
+                "short-upcoming": "Iwọ yoo de",
+                "named": "O ti de {waypoint_name}, ni apa otun"
+            },
+            "sharp left": {
+                "default": "O ti de ọdọ rẹ {nth} nlo, lori osi",
+                "upcoming": "O yoo de ọdọ rẹ {nth} nlo, lori lef",
+                "short": "O ti de",
+                "short-upcoming": "Iwọ yoo de",
+                "named": "O ti de {waypoint_name}, lori osi"
+            },
+            "sharp right": {
+                "default": "O ti de ọdọ rẹ {nth} nlo, lori ọtun",
+                "upcoming": "O yoo de ọdọ ọ {nth} nlo, lori ọtun",
+                "short": "O ti de",
+                "short-upcoming": "Iwọ yoo de",
+                "named": "O ti de {waypoint_name}, ni apa otun"
+            },
+            "slight right": {
+                "default": "O ti de ọdọ rẹ {nth} nlo, lori ọtun",
+                "upcoming": "O yoo de ọdọ ọ {nth} nlo, lori ọtun",
+                "short": "O ti de",
+                "short-upcoming": "Iwọ yoo de",
+                "named": "O ti de {waypoint_name}, ni apa otun"
+            },
+            "slight left": {
+                "default": "O ti de ọdọ rẹ {nth} nlo, lori osi",
+                "upcoming": "O yoo de ọdọ rẹ {nth} nlo, lori lef",
+                "short": "O ti de",
+                "short-upcoming": "Iwọ yoo de",
+                "named": "O ti de {waypoint_name}, lori osi"
+            },
+            "straight": {
+                "default": "O ti de ọdọ rẹ {nth} nlo, ni gígùn niwaju",
+                "upcoming": "O yoo de ọdọ rẹ {nth} nlo, ni gígùn niwaju",
+                "short": "O ti de",
+                "short-upcoming": "Iwọ yoo de",
+                "named": "O ti de {waypoint_name}, ni gígùn niwaju"
+            }
+        },
+        "continue": {
+            "default": {
+                "default": "Tan-an {modifier}",
+                "name": "Tan-an {modifier} lati duro si {way_name}",
+                "destination": "Tan-an {modifier} si ọna {destination}",
+                "exit": "Tan-an {modifier} pẹlẹpẹlẹ {way_name}"
+            },
+            "straight": {
+                "default": "Tẹsiwaju ni gígùn",
+                "name": "Tesiwaju ni gígùn lati duro si {way_name}",
+                "destination": "Tesiwaju si ọna {destination}",
+                "distance": "Tesiwaju tẹsiwaju fun {distance}",
+                "namedistance": "Tesiwaju {way_name} fun {distance}"
+            },
+            "sharp left": {
+                "default": "Ṣe kan osi osi",
+                "name": "Ṣe ọpa didasilẹ lati duro si {way_name}",
+                "destination": "Ṣe idasilẹ mimu si ọna {destination}"
+            },
+            "sharp right": {
+                "default": "Ṣe idasilẹ to dara",
+                "name": "Ṣe idasilẹ to dara lati duro si {way_name}",
+                "destination": "Ṣe didasilẹ si ọtun si ọna {destination}"
+            },
+            "slight left": {
+                "default": "Ṣe diẹ osi",
+                "name": "Ṣe diẹ si osi lati duro si {way_name}",
+                "destination": "Ṣe diẹ si apa osi si ọna {destination}"
+            },
+            "slight right": {
+                "default": "Ṣe diẹ diẹ si ọtun",
+                "name": "Ṣe diẹ si ọtun lati duro si {way_name}",
+                "destination": "Ṣe diẹ si ọtun si ọna {destination}"
+            },
+            "uturn": {
+                "default": "Ṣe ayipada U",
+                "name": "Ṣe ayipada U ati tẹsiwaju {way_name}",
+                "destination": "Ṣe ọna U-ọna si ọna {destination}"
+            }
+        },
+        "depart": {
+            "default": {
+                "default": "Ori {direction}",
+                "name": "Ori {direction} lori {way_name}",
+                "namedistance": "Ori {direction} lori {way_name} fun {distance}"
+            }
+        },
+        "end of road": {
+            "default": {
+                "default": "Tan-an {modifier}",
+                "name": "Tan-an {modifier} pẹlẹpẹlẹ {way_name}",
+                "destination": "Tan-an {modifier} si ọna {destination}"
+            },
+            "straight": {
+                "default": "Tẹsiwaju ni gígùn",
+                "name": "Tesiwaju tẹsiwaju lẹsẹkẹsẹ {way_name}",
+                "destination": "Tesiwaju si ọna ọtun {destination}"
+            },
+            "uturn": {
+                "default": "Ṣe a-ẹ-yipada ni opin ọna",
+                "name": "Ṣe U-tan pẹlẹpẹlẹ {way_name} ni opin ọna",
+                "destination": "Ṣe ọna U-ọna si ọna {destination} ni opin ọna"
+            }
+        },
+        "fork": {
+            "default": {
+                "default": "Jeki {modifier} ni orita",
+                "name": "Jeki {modifier} pẹlẹpẹlẹ {way_name}",
+                "destination": "Jeki {modifier} si ọna {destination}"
+            },
+            "slight left": {
+                "default": "Jeki osi ni orita",
+                "name": "Jeki pẹlẹpẹlẹ osi {way_name}",
+                "destination": "Jeki osi si ọna {destination}"
+            },
+            "slight right": {
+                "default": "Jeki ọtun ni orita",
+                "name": "Jeki ọtun pẹlẹpẹlẹ {way_name}",
+                "destination": "Pa ọtun si ọna {destination}"
+            },
+            "sharp left": {
+                "default": "Mu apa osi ni orita",
+                "name": "Mu pẹlẹpẹlẹ sisun ti osi {way_name}",
+                "destination": "Mu apa osi to ni ọna {destination}"
+            },
+            "sharp right": {
+                "default": "Mu didasilẹ to dara ni orita",
+                "name": "Mu pẹlẹsẹ to dara julọ {way_name}",
+                "destination": "Mu ọna didasilẹ taara si ọna {destination}"
+            },
+            "uturn": {
+                "default": "Ṣe ayipada U",
+                "name": "Ṣe U-tan pẹlẹpẹlẹ {way_name}",
+                "destination": "Ṣe ọna U-ọna si ọna {destination}"
+            }
+        },
+        "merge": {
+            "default": {
+                "default": "Dapọ {modifier}",
+                "name": "Dapọ {modifier} pẹlẹpẹlẹ {way_name}",
+                "destination": "Dapọ {modifier} si ọna {destination}"
+            },
+            "straight": {
+                "default": "Dapọ",
+                "name": "Darapọ pẹlẹpẹlẹ {way_name}",
+                "destination": "Darapọ si ọna {destination}"
+            },
+            "slight left": {
+                "default": "Dapọ osi",
+                "name": "Dapọ pẹlẹpẹlẹ osi {way_name}",
+                "destination": "Dapọ si ọna osi si ọna {destination}"
+            },
+            "slight right": {
+                "default": "Dapọ ọtun",
+                "name": "Darapọ mọ pẹlẹpẹlẹ {way_name}",
+                "destination": "Darapọ ọtun si ọna {destination}"
+            },
+            "sharp left": {
+                "default": "Dapọ osi",
+                "name": "Dapọ pẹlẹpẹlẹ osi {way_name}",
+                "destination": "Dapọ si ọna osi si ọna {destination}"
+            },
+            "sharp right": {
+                "default": "Dapọ ọtun",
+                "name": "Darapọ mọ pẹlẹpẹlẹ {way_name}",
+                "destination": "Darapọ ọtun si ọna {destination}"
+            },
+            "uturn": {
+                "default": "Ṣe ayipada U",
+                "name": "Ṣe U-tan pẹlẹpẹlẹ {way_name}",
+                "destination": "Ṣe ọna U-ọna si ọna {destination}"
+            }
+        },
+        "new name": {
+            "default": {
+                "default": "Tesiwaju {modifier}",
+                "name": "Tesiwaju {modifier} pẹlẹpẹlẹ {way_name}",
+                "destination": "Tesiwaju {modifier} si ọna {destination}"
+            },
+            "straight": {
+                "default": "Tẹsiwaju ni gígùn",
+                "name": "Tẹsiwaju pẹlẹpẹlẹ {way_name}",
+                "destination": "Tesiwaju si ọna {destination}"
+            },
+            "sharp left": {
+                "default": "Mu apa osi to ni didasilẹ",
+                "name": "Mu pẹlẹpẹlẹ sisun ti osi {way_name}",
+                "destination": "Mu apa osi to ni ọna {destination}"
+            },
+            "sharp right": {
+                "default": "Mu ẹtọ to dara julọ",
+                "name": "Mu pẹlẹsẹ to dara julọ {way_name}",
+                "destination": "Mu ọna didasilẹ taara si ọna {destination}"
+            },
+            "slight left": {
+                "default": "Tẹsiwaju ni apa osi",
+                "name": "Tesiwaju die-die silẹ pẹlẹpẹlẹ {way_name}",
+                "destination": "Tẹsiwaju ni apa osi si ọna {destination}"
+            },
+            "slight right": {
+                "default": "Tẹsiwaju die-die ọtun",
+                "name": "Tesiwaju die-die ọtun pẹlẹpẹlẹ {way_name}",
+                "destination": "Tẹsiwaju die-die si ọna ọtun {destination}"
+            },
+            "uturn": {
+                "default": "Ṣe ayipada U",
+                "name": "Ṣe U-tan pẹlẹpẹlẹ {way_name}",
+                "destination": "Ṣe ọna U-ọna si ọna {destination}"
+            }
+        },
+        "notification": {
+            "default": {
+                "default": "Tesiwaju {modifier}",
+                "name": "Tesiwaju {modifier} pẹlẹpẹlẹ {way_name}",
+                "destination": "Tesiwaju {modifier} si ọna {destination}"
+            },
+            "uturn": {
+                "default": "Ṣe ayipada U",
+                "name": "Ṣe U-tan pẹlẹpẹlẹ {way_name}",
+                "destination": "Ṣe ọna U-ọna si ọna {destination}"
+            }
+        },
+        "off ramp": {
+            "default": {
+                "default": "Ya awọn ibọn",
+                "name": "Mu awọn rampan si pẹlẹpẹlẹ {way_name}",
+                "destination": "Mu awọn rampu si ọna {destination}",
+                "exit": "Mu jade kuro {exit}",
+                "exit_destination": "Mu jade kuro {exit} si ọna {destination}"
+            },
+            "left": {
+                "default": "Gba rampu ni apa osi",
+                "name": "Gba awọn ibọn ni apa osi pẹlẹpẹlẹ {way_name}",
+                "destination": "Mu awọn rampu ni apa osi si ọna {destination}",
+                "exit": "Mu jade kuro {exit} lori osi",
+                "exit_destination": "Mu jade kuro {exit} ni apa osi si ọna {destination}"
+            },
+            "right": {
+                "default": "Gba awọn rampu ni apa ọtun",
+                "name": "Mu awọn rampu lori ọtun pẹlẹpẹlẹ {way_name}",
+                "destination": "Gba eefin naa ni apa ọtun si ọna {destination}",
+                "exit": "Mu jade kuro {exit} ni apa otun",
+                "exit_destination": "Mu jade kuro {exit} lori ọtun si ọna {destination}"
+            },
+            "sharp left": {
+                "default": "Gba rampu ni apa osi",
+                "name": "Gba awọn ibọn ni apa osi pẹlẹpẹlẹ {way_name}",
+                "destination": "Mu awọn rampu ni apa osi si ọna {destination}",
+                "exit": "Mu jade kuro {exit} lori osi",
+                "exit_destination": "Mu jade kuro {exit} ni apa osi si ọna {destination}"
+            },
+            "sharp right": {
+                "default": "Gba awọn rampu ni apa ọtun",
+                "name": "Mu awọn rampu lori ọtun pẹlẹpẹlẹ {way_name}",
+                "destination": "Gba eefin naa ni apa ọtun si ọna {destination}",
+                "exit": "Mu jade kuro {exit} ni apa otun",
+                "exit_destination": "Mu jade kuro {exit} lori ọtun si ọna {destination}"
+            },
+            "slight left": {
+                "default": "Gba rampu ni apa osi",
+                "name": "Gba awọn ibọn ni apa osi pẹlẹpẹlẹ {way_name}",
+                "destination": "Mu awọn rampu ni apa osi si ọna {destination}",
+                "exit": "Mu jade kuro {exit} lori osi",
+                "exit_destination": "Mu jade kuro {exit} ni apa osi si ọna {destination}"
+            },
+            "slight right": {
+                "default": "Gba awọn rampu ni apa ọtun",
+                "name": "Mu awọn rampu lori ọtun pẹlẹpẹlẹ {way_name}",
+                "destination": "Gba eefin naa ni apa ọtun si ọna {destination}",
+                "exit": "Mu jade kuro {exit} ni apa otun",
+                "exit_destination": "Mu jade kuro {exit} lori ọtun si ọna {destination}"
+            }
+        },
+        "on ramp": {
+            "default": {
+                "default": "Ya awọn ibọn",
+                "name": "Mu awọn rampan si pẹlẹpẹlẹ {way_name}",
+                "destination": "Mu awọn rampu si ọna {destination}"
+            },
+            "left": {
+                "default": "Gba rampu ni apa osi",
+                "name": "Gba awọn ibọn ni apa osi pẹlẹpẹlẹ {way_name}",
+                "destination": "Mu awọn rampu ni apa osi si ọna {destination}"
+            },
+            "right": {
+                "default": "Gba awọn rampu ni apa ọtun",
+                "name": "Mu awọn rampu lori ọtun pẹlẹpẹlẹ {way_name}",
+                "destination": "Gba eefin naa ni apa ọtun si ọna {destination}"
+            },
+            "sharp left": {
+                "default": "Gba rampu ni apa osi",
+                "name": "Gba awọn ibọn ni apa osi pẹlẹpẹlẹ {way_name}",
+                "destination": "Mu awọn rampu ni apa osi si ọna {destination}"
+            },
+            "sharp right": {
+                "default": "Gba awọn rampu ni apa ọtun",
+                "name": "Mu awọn rampu lori ọtun pẹlẹpẹlẹ {way_name}",
+                "destination": "Gba eefin naa ni apa ọtun si ọna {destination}"
+            },
+            "slight left": {
+                "default": "Gba rampu ni apa osi",
+                "name": "Gba awọn ibọn ni apa osi pẹlẹpẹlẹ {way_name}",
+                "destination": "Mu awọn rampu ni apa osi si ọna {destination}"
+            },
+            "slight right": {
+                "default": "Gba awọn rampu ni apa ọtun",
+                "name": "Mu awọn rampu lori ọtun pẹlẹpẹlẹ {way_name}",
+                "destination": "Gba eefin naa ni apa ọtun si ọna {destination}"
+            }
+        },
+        "rotary": {
+            "default": {
+                "default": {
+                    "default": "Tẹ ẹkun ijabọ",
+                    "name": "Tẹ atẹgun iṣowo ati jade ni pẹlẹpẹlẹ {way_name}",
+                    "destination": "Tẹ ọna iṣọwo ati jade lọ si ọna {destination}"
+                },
+                "name": {
+                    "default": "Tẹ {rotary_name}",
+                    "name": "Tẹ {rotary_name} ati jade ni pẹlẹpẹlẹ {way_name}",
+                    "destination": "Tẹ {rotary_name} ati jade lọ si ọna {destination}"
+                },
+                "exit": {
+                    "default": "Tẹ ẹkun ijabọ ati ki o ya {exit_number} jade",
+                    "name": "Tẹ ẹkun ijabọ ati ki o ya {exit_number} jade pẹlẹpẹlẹ {way_name}",
+                    "destination": "Tẹ ẹkun ijabọ ati ki o ya {exit_number} jade si ọna {destination}"
+                },
+                "name_exit": {
+                    "default": "Tẹ {rotary_name} ki o si ya {exit_number} jade",
+                    "name": "Tẹ {rotary_name} ki o si ya {exit_number} jade pẹlẹpẹlẹ {way_name}",
+                    "destination": "Tẹ {rotary_name} ki o si ya {exit_number} jade si ọna {destination}"
+                }
+            }
+        },
+        "roundabout": {
+            "default": {
+                "exit": {
+                    "default": "Tẹ ẹkun ijabọ ati ki o ya {exit_number} jade",
+                    "name": "Tẹ ẹkun ijabọ ati ki o ya {exit_number} jade pẹlẹpẹlẹ {way_name}",
+                    "destination": "Tẹ ẹkun ijabọ ati ki o ya {exit_number} jade si ọna {destination}"
+                },
+                "default": {
+                    "default": "Tẹ ẹkun ijabọ",
+                    "name": "Tẹ atẹgun iṣowo ati jade ni pẹlẹpẹlẹ {way_name}",
+                    "destination": "Tẹ ọna iṣọwo ati jade lọ si ọna {destination}"
+                }
+            }
+        },
+        "roundabout turn": {
+            "default": {
+                "default": "Ṣe a {modifier}",
+                "name": "Ṣe a {modifier} pẹlẹpẹlẹ {way_name}",
+                "destination": "Ṣe a {modifier} si ọna {destination}"
+            },
+            "left": {
+                "default": "Ya si apa osi",
+                "name": "Tan apa osi pẹlẹpẹlẹ {way_name}",
+                "destination": "Tan apa osi si ọna {destination}"
+            },
+            "right": {
+                "default": "Ya sowo otun",
+                "name": "Tan ọtun si {way_name}",
+                "destination": "Tan-ọtun si ọna {destination}"
+            },
+            "straight": {
+                "default": "Tẹsiwaju ni gígùn",
+                "name": "Tesiwaju tẹsiwaju lẹsẹkẹsẹ {way_name}",
+                "destination": "Tesiwaju si ọna ọtun {destination}"
+            }
+        },
+        "exit roundabout": {
+            "default": {
+                "default": "Jade ni ọna iṣowo",
+                "name": "Jade ni ọna iṣakoso pẹlẹpẹlẹ {way_name}",
+                "destination": "Jade ọna opopona si ọna {destination}"
+            }
+        },
+        "exit rotary": {
+            "default": {
+                "default": "Jade ni ọna iṣowo",
+                "name": "Jade ni ọna iṣakoso pẹlẹpẹlẹ {way_name}",
+                "destination": "Jade ọna opopona si ọna {destination}"
+            }
+        },
+        "turn": {
+            "default": {
+                "default": "Ṣe a {modifier}",
+                "name": "Ṣe a {modifier} pẹlẹpẹlẹ {way_name}",
+                "destination": "Ṣe a {modifier} si ọna {destination}"
+            },
+            "left": {
+                "default": "Ya si apa osi",
+                "name": "Tan apa osi pẹlẹpẹlẹ {way_name}",
+                "destination": "Tan apa osi si ọna {destination}"
+            },
+            "right": {
+                "default": "Ya sowo otun",
+                "name": "Tan ọtun si {way_name}",
+                "destination": "Tan-ọtun si ọna {destination}"
+            },
+            "straight": {
+                "default": "Rin taara",
+                "name": "Lọ si pẹkipẹki {way_name}",
+                "destination": "Lọ taara si ọna {destination}"
+            }
+        },
+        "use lane": {
+            "no_lanes": {
+                "default": "Tẹsiwaju ni gígùn"
+            },
+            "default": {
+                "default": "{lane_instruction}"
+            }
+        }
+    }
+}
