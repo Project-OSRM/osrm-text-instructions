@@ -476,7 +476,7 @@
                 "destination": "Drej til højre mod {destination}"
             },
             "straight": {
-                "default": "Fortsæt ligeud",
+                "default": "Kør ligeud",
                 "name": "Kør ligeud ad {way_name}",
                 "destination": "Kør ligeud mod {destination}"
             }
