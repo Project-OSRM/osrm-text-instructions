@@ -27,12 +27,12 @@
                 "northwest": "nordvest"
             },
             "modifier": {
-                "left": "venstre",
-                "right": "højre",
-                "sharp left": "skarpt venstresving",
-                "sharp right": "skarpt højresving",
-                "slight left": "svagt venstresving",
-                "slight right": "svagt højresving",
+                "left": "til venstre",
+                "right": "til højre",
+                "sharp left": "skarpt til venstre",
+                "sharp right": "skarpt til højre",
+                "slight left": "svagt til venstre",
+                "slight right": "svagt til højre",
                 "straight": "ligeud",
                 "uturn": "U-vending"
             },
@@ -117,10 +117,10 @@
         },
         "continue": {
             "default": {
-                "default": "Drej til {modifier}",
-                "name": "Drej til {modifier} videre ad {way_name}",
-                "destination": "Drej til {modifier} mod {destination}",
-                "exit": "Drej til {modifier} ad {way_name}"
+                "default": "Drej {modifier}",
+                "name": "Drej {modifier} videre ad {way_name}",
+                "destination": "Drej {modifier} mod {destination}",
+                "exit": "Drej {modifier} ad {way_name}"
             },
             "straight": {
                 "default": "Fortsæt ligeud",
@@ -164,9 +164,9 @@
         },
         "end of road": {
             "default": {
-                "default": "Drej til {modifier}",
-                "name": "Drej til {modifier} ad {way_name}",
-                "destination": "Drej til {modifier} mod {destination}"
+                "default": "Drej {modifier}",
+                "name": "Drej {modifier} ad {way_name}",
+                "destination": "Drej {modifier} mod {destination}"
             },
             "straight": {
                 "default": "Fortsæt ligeud",
@@ -181,9 +181,9 @@
         },
         "fork": {
             "default": {
-                "default": "Hold til {modifier} ved udfletningen",
-                "name": "Hold til {modifier} på {way_name}",
-                "destination": "Hold til {modifier} mod {destination}"
+                "default": "Hold {modifier} ved udfletningen",
+                "name": "Hold {modifier} på {way_name}",
+                "destination": "Hold {modifier} mod {destination}"
             },
             "slight left": {
                 "default": "Hold til venstre ved udfletningen",
@@ -213,9 +213,9 @@
         },
         "merge": {
             "default": {
-                "default": "Flet til {modifier}",
-                "name": "Flet til {modifier} ad {way_name}",
-                "destination": "Flet til {modifier} mod {destination}"
+                "default": "Flet {modifier}",
+                "name": "Flet {modifier} ad {way_name}",
+                "destination": "Flet {modifier} mod {destination}"
             },
             "straight": {
                 "default": "Flet",
@@ -250,9 +250,9 @@
         },
         "new name": {
             "default": {
-                "default": "Fortsæt til {modifier}",
-                "name": "Fortsæt til {modifier} ad {way_name}",
-                "destination": "Fortsæt til {modifier} mod {destination}"
+                "default": "Fortsæt {modifier}",
+                "name": "Fortsæt {modifier} ad {way_name}",
+                "destination": "Fortsæt {modifier} mod {destination}"
             },
             "straight": {
                 "default": "Fortsæt ligeud",
@@ -287,9 +287,9 @@
         },
         "notification": {
             "default": {
-                "default": "Fortsæt til {modifier}",
-                "name": "Fortsæt til {modifier} ad {way_name}",
-                "destination": "Fortsæt til {modifier} mod {destination}"
+                "default": "Fortsæt {modifier}",
+                "name": "Fortsæt {modifier} ad {way_name}",
+                "destination": "Fortsæt {modifier} mod {destination}"
             },
             "uturn": {
                 "default": "Foretag en U-vending",
@@ -425,9 +425,9 @@
         },
         "roundabout turn": {
             "default": {
-                "default": "Drej til {modifier}",
-                "name": "Drej til {modifier} ad {way_name}",
-                "destination": "Drej til {modifier} mod {destination}"
+                "default": "Drej {modifier}",
+                "name": "Drej {modifier} ad {way_name}",
+                "destination": "Drej {modifier} mod {destination}"
             },
             "left": {
                 "default": "Drej til venstre",
@@ -461,9 +461,9 @@
         },
         "turn": {
             "default": {
-                "default": "Drej til {modifier}",
-                "name": "Drej til {modifier} ad {way_name}",
-                "destination": "Drej til {modifier} mod {destination}"
+                "default": "Drej {modifier}",
+                "name": "Drej {modifier} ad {way_name}",
+                "destination": "Drej {modifier} mod {destination}"
             },
             "left": {
                 "default": "Drej til venstre",
