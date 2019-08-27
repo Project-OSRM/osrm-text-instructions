@@ -10,7 +10,7 @@
     },
     "instructions": {
         "ar": "توجّه نحو يسار لمسافة {distance} ",
-        "da": "Hold mod venstresving mod Destination 1",
+        "da": "Hold til venstre mod Destination 1",
         "de": "Links halten an der Gabelung Richtung Destination 1",
         "en": "Keep left towards Destination 1",
         "eo": "Pluu maldekstren direkte al Destination 1",

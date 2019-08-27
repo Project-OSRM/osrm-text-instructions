@@ -10,7 +10,7 @@
     },
     "instructions": {
         "ar": "توجّه نحو يمين لمسافة {distance} ",
-        "da": "Hold mod højresving mod Destination 1",
+        "da": "Hold til højre mod Destination 1",
         "de": "Rechts halten an der Gabelung Richtung Destination 1",
         "en": "Keep right towards Destination 1",
         "eo": "Pluu dekstren direkte al Destination 1",
