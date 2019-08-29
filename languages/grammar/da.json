@@ -1,0 +1,15 @@
+{
+    "meta": {
+        "regExpFlags": "gi"
+    },
+    "v5": {
+        "fork": [
+            ["^ (ligeud) ", "Fortsæt $1 "],
+            ["^ ", "Hold "]
+        ],
+        "turn": [
+            ["^ (U\\-vending) ", "Foretag en $1 "],
+            ["^ ", "Drej "]
+        ]
+    }
+}

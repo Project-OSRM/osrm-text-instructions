@@ -117,10 +117,10 @@
         },
         "continue": {
             "default": {
-                "default": "Drej {modifier}",
-                "name": "Drej {modifier} videre ad {way_name}",
-                "destination": "Drej {modifier} mod {destination}",
-                "exit": "Drej {modifier} ad {way_name}"
+                "default": "{modifier:turn}",
+                "name": "{modifier:turn} videre ad {way_name}",
+                "destination": "{modifier:turn} mod {destination}",
+                "exit": "{modifier:turn} ad {way_name}"
             },
             "straight": {
                 "default": "Fortsæt ligeud",
@@ -164,9 +164,9 @@
         },
         "end of road": {
             "default": {
-                "default": "Drej {modifier}",
-                "name": "Drej {modifier} ad {way_name}",
-                "destination": "Drej {modifier} mod {destination}"
+                "default": "{modifier:turn}",
+                "name": "{modifier:turn} ad {way_name}",
+                "destination": "{modifier:turn} mod {destination}"
             },
             "straight": {
                 "default": "Fortsæt ligeud",
@@ -181,9 +181,9 @@
         },
         "fork": {
             "default": {
-                "default": "Hold {modifier} ved udfletningen",
-                "name": "Hold {modifier} på {way_name}",
-                "destination": "Hold {modifier} mod {destination}"
+                "default": "{modifier:fork} ved udfletningen",
+                "name": "{modifier:fork} på {way_name}",
+                "destination": "{modifier:fork} mod {destination}"
             },
             "slight left": {
                 "default": "Hold til venstre ved udfletningen",
@@ -425,9 +425,9 @@
         },
         "roundabout turn": {
             "default": {
-                "default": "Drej {modifier}",
-                "name": "Drej {modifier} ad {way_name}",
-                "destination": "Drej {modifier} mod {destination}"
+                "default": "{modifier:turn}",
+                "name": "{modifier:turn} ad {way_name}",
+                "destination": "{modifier:turn} mod {destination}"
             },
             "left": {
                 "default": "Drej til venstre",
@@ -461,9 +461,9 @@
         },
         "turn": {
             "default": {
-                "default": "Drej {modifier}",
-                "name": "Drej {modifier} ad {way_name}",
-                "destination": "Drej {modifier} mod {destination}"
+                "default": "{modifier:turn}",
+                "name": "{modifier:turn} ad {way_name}",
+                "destination": "{modifier:turn} mod {destination}"
             },
             "left": {
                 "default": "Drej til venstre",
