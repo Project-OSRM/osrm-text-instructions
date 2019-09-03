@@ -17,22 +17,22 @@
                 "10": "tiende"
             },
             "direction": {
-                "north": "Nord",
-                "northeast": "Nordøst",
-                "east": "Øst",
-                "southeast": "Sydøst",
-                "south": "Syd",
-                "southwest": "Sydvest",
-                "west": "Vest",
-                "northwest": "Nordvest"
+                "north": "nord",
+                "northeast": "nordøst",
+                "east": "øst",
+                "southeast": "sydøst",
+                "south": "syd",
+                "southwest": "sydvest",
+                "west": "vest",
+                "northwest": "nordvest"
             },
             "modifier": {
-                "left": "venstresving",
-                "right": "højresving",
-                "sharp left": "skarpt venstresving",
-                "sharp right": "skarpt højresving",
-                "slight left": "svagt venstresving",
-                "slight right": "svagt højresving",
+                "left": "til venstre",
+                "right": "til højre",
+                "sharp left": "skarpt til venstre",
+                "sharp right": "skarpt til højre",
+                "slight left": "svagt til venstre",
+                "slight right": "svagt til højre",
                 "straight": "ligeud",
                 "uturn": "U-vending"
             },
@@ -47,13 +47,13 @@
             "ferry": {
                 "default": "Tag færgen",
                 "name": "Tag færgen {way_name}",
-                "destination": "Tag færgen i retning {destination}"
+                "destination": "Tag færgen i retning mod {destination}"
             }
         },
         "phrase": {
-            "two linked by distance": "{instruction_one} derefter, efter {distance}, {instruction_two}",
+            "two linked by distance": "{instruction_one}, derefter, efter {distance}, {instruction_two}",
             "two linked": "{instruction_one}, derefter {instruction_two}",
-            "one in distance": "Efter {distance} {instruction_one}",
+            "one in distance": "Efter {distance}, {instruction_one}",
             "name and ref": "{name} ({ref})",
             "exit with number": "afkørsel {exit}"
         },
@@ -108,19 +108,19 @@
                 "named": "Du er ankommet til {waypoint_name}, som befinder sig til venstre"
             },
             "straight": {
-                "default": "Du er ankommet til din {nth} destination, der befinder sig lige frem",
-                "upcoming": "Du vil ankomme til din {nth} destination foran dig",
+                "default": "Du er ankommet til din {nth} destination, der befinder sig lige fremme",
+                "upcoming": "Du vil ankomme til din {nth} destination lige fremme",
                 "short": "Du er ankommet",
                 "short-upcoming": "Du vil ankomme",
-                "named": "Du er ankommet til {waypoint_name}, der befinder sig lige frem"
+                "named": "Du er ankommet til {waypoint_name}, der befinder sig lige fremme"
             }
         },
         "continue": {
             "default": {
-                "default": "Drej til {modifier}",
-                "name": "Drej til {modifier} videre ad {way_name}",
-                "destination": "Drej til {modifier} mod {destination}",
-                "exit": "Drej til {modifier} ad {way_name}"
+                "default": "{modifier:turn}",
+                "name": "{modifier:turn} videre ad {way_name}",
+                "destination": "{modifier:turn} mod {destination}",
+                "exit": "{modifier:turn} ad {way_name}"
             },
             "straight": {
                 "default": "Fortsæt ligeud",
@@ -140,7 +140,7 @@
                 "destination": "Drej skarpt til højre mod {destination}"
             },
             "slight left": {
-                "default": "Drej left til venstre",
+                "default": "Drej let til venstre",
                 "name": "Drej let til venstre videre ad {way_name}",
                 "destination": "Drej let til venstre mod {destination}"
             },
@@ -159,14 +159,14 @@
             "default": {
                 "default": "Kør mod {direction}",
                 "name": "Kør mod {direction} ad {way_name}",
-                "namedistance": "Fortsæt {distance} ad {way_name}mod {direction}"
+                "namedistance": "Fortsæt {distance} ad {way_name} mod {direction}"
             }
         },
         "end of road": {
             "default": {
-                "default": "Drej til {modifier}",
-                "name": "Drej til {modifier} ad {way_name}",
-                "destination": "Drej til {modifier} mof {destination}"
+                "default": "{modifier:turn}",
+                "name": "{modifier:turn} ad {way_name}",
+                "destination": "{modifier:turn} mod {destination}"
             },
             "straight": {
                 "default": "Fortsæt ligeud",
@@ -181,9 +181,9 @@
         },
         "fork": {
             "default": {
-                "default": "Hold til {modifier} ved udfletningen",
-                "name": "Hold mod {modifier} på {way_name}",
-                "destination": "Hold mod {modifier} mod {destination}"
+                "default": "{modifier:fork} ved udfletningen",
+                "name": "{modifier:fork} på {way_name}",
+                "destination": "{modifier:fork} mod {destination}"
             },
             "slight left": {
                 "default": "Hold til venstre ved udfletningen",
@@ -213,9 +213,9 @@
         },
         "merge": {
             "default": {
-                "default": "Flet til {modifier}",
-                "name": "Flet til {modifier} ad {way_name}",
-                "destination": "Flet til {modifier} mod {destination}"
+                "default": "Flet {modifier}",
+                "name": "Flet {modifier} ad {way_name}",
+                "destination": "Flet {modifier} mod {destination}"
             },
             "straight": {
                 "default": "Flet",
@@ -302,50 +302,50 @@
                 "default": "Tag afkørslen",
                 "name": "Tag afkørslen ad {way_name}",
                 "destination": "Tag afkørslen mod {destination}",
-                "exit": "Vælg afkørsel {exit}",
-                "exit_destination": "Vælg afkørsel {exit} mod {destination}"
+                "exit": "Tag afkørsel {exit}",
+                "exit_destination": "Tag afkørsel {exit} mod {destination}"
             },
             "left": {
                 "default": "Tag afkørslen til venstre",
                 "name": "Tag afkørslen til venstre ad {way_name}",
                 "destination": "Tag afkørslen til venstre mod {destination}",
-                "exit": "Vælg afkørsel {exit} til venstre",
-                "exit_destination": "Vælg afkørsel {exit} til venstre mod {destination}\n"
+                "exit": "Tag afkørsel {exit} til venstre",
+                "exit_destination": "Tag afkørsel {exit} til venstre mod {destination}"
             },
             "right": {
                 "default": "Tag afkørslen til højre",
                 "name": "Tag afkørslen til højre ad {way_name}",
                 "destination": "Tag afkørslen til højre mod {destination}",
-                "exit": "Vælg afkørsel {exit} til højre",
-                "exit_destination": "Vælg afkørsel {exit} til højre mod {destination}"
+                "exit": "Tag afkørsel {exit} til højre",
+                "exit_destination": "Tag afkørsel {exit} til højre mod {destination}"
             },
             "sharp left": {
                 "default": "Tag afkørslen til venstre",
                 "name": "Tag afkørslen til venstre ad {way_name}",
                 "destination": "Tag afkørslen til venstre mod {destination}",
-                "exit": "Vælg afkørsel {exit} til venstre",
-                "exit_destination": "Vælg afkørsel {exit} til venstre mod {destination}\n"
+                "exit": "Tag afkørsel {exit} til venstre",
+                "exit_destination": "Tag afkørsel {exit} til venstre mod {destination}"
             },
             "sharp right": {
                 "default": "Tag afkørslen til højre",
                 "name": "Tag afkørslen til højre ad {way_name}",
                 "destination": "Tag afkørslen til højre mod {destination}",
-                "exit": "Vælg afkørsel {exit} til højre",
-                "exit_destination": "Vælg afkørsel {exit} til højre mod {destination}"
+                "exit": "Tag afkørsel {exit} til højre",
+                "exit_destination": "Tag afkørsel {exit} til højre mod {destination}"
             },
             "slight left": {
                 "default": "Tag afkørslen til venstre",
                 "name": "Tag afkørslen til venstre ad {way_name}",
                 "destination": "Tag afkørslen til venstre mod {destination}",
-                "exit": "Vælg afkørsel {exit} til venstre",
-                "exit_destination": "Vælg afkørsel {exit} til venstre mod {destination}\n"
+                "exit": "Tag afkørsel {exit} til venstre",
+                "exit_destination": "Tag afkørsel {exit} til venstre mod {destination}"
             },
             "slight right": {
                 "default": "Tag afkørslen til højre",
                 "name": "Tag afkørslen til højre ad {way_name}",
                 "destination": "Tag afkørslen til højre mod {destination}",
-                "exit": "Vælg afkørsel {exit} til højre",
-                "exit_destination": "Vælg afkørsel {exit} til højre mod {destination}"
+                "exit": "Tag afkørsel {exit} til højre",
+                "exit_destination": "Tag afkørsel {exit} til højre mod {destination}"
             }
         },
         "on ramp": {
@@ -389,45 +389,45 @@
             "default": {
                 "default": {
                     "default": "Kør ind i rundkørslen",
-                    "name": "Tag rundkørslen og kør fra ad {way_name}",
-                    "destination": "Tag rundkørslen og kør mod {destination}"
+                    "name": "I rundkørslen, kør fra ad {way_name}",
+                    "destination": "I rundkørslen, kør mod {destination}"
                 },
                 "name": {
                     "default": "Kør ind i {rotary_name}",
-                    "name": "Kør ind i {rotary_name} og kør ad {way_name} ",
+                    "name": "Kør ind i {rotary_name} og kør fra ad {way_name}",
                     "destination": "Kør ind i {rotary_name} og kør mod {destination}"
                 },
                 "exit": {
-                    "default": "Tag rundkørslen og forlad ved {exit_number} afkørsel",
-                    "name": "Tag rundkørslen og forlad ved {exit_number} afkørsel ad {way_name}",
-                    "destination": "Tag rundkørslen og forlad ved {exit_number} afkørsel mod {destination}"
+                    "default": "I rundkørslen, tag {exit_number} afkørsel",
+                    "name": "I rundkørslen, tag {exit_number} afkørsel ad {way_name}",
+                    "destination": "I rundkørslen, tag {exit_number} afkørsel mod {destination}"
                 },
                 "name_exit": {
-                    "default": "Kør ind i {rotary_name} og forlad ved {exit_number} afkørsel",
-                    "name": "Kør ind i {rotary_name} og forlad ved {exit_number} afkørsel ad {way_name}",
-                    "destination": "Kør ind i {rotary_name} og forlad ved {exit_number} afkørsel mod {destination}"
+                    "default": "Kør ind i {rotary_name} og tag {exit_number} afkørsel",
+                    "name": "Kør ind i {rotary_name} og tag {exit_number} afkørsel ad {way_name}",
+                    "destination": "Kør ind i {rotary_name} og tag {exit_number} afkørsel mod {destination}"
                 }
             }
         },
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Tag rundkørslen og forlad ved {exit_number} afkørsel",
-                    "name": "Tag rundkørslen og forlad ved {exit_number} afkørsel ad {way_name}",
-                    "destination": "Tag rundkørslen og forlad ved {exit_number} afkørsel mod {destination}"
+                    "default": "I rundkørslen, tag {exit_number} afkørsel",
+                    "name": "I rundkørslen, tag {exit_number} afkørsel ad {way_name}",
+                    "destination": "I rundkørslen, tag {exit_number} afkørsel mod {destination}"
                 },
                 "default": {
                     "default": "Kør ind i rundkørslen",
-                    "name": "Tag rundkørslen og kør fra ad {way_name}",
-                    "destination": "Tag rundkørslen og kør mod {destination}"
+                    "name": "I rundkørslen, kør fra ad {way_name}",
+                    "destination": "I rundkørslen, kør mod {destination}"
                 }
             }
         },
         "roundabout turn": {
             "default": {
-                "default": "Foretag et {modifier}",
-                "name": "Foretag et {modifier} ad {way_name}",
-                "destination": "Foretag et {modifier} mod {destination}"
+                "default": "{modifier:turn}",
+                "name": "{modifier:turn} ad {way_name}",
+                "destination": "{modifier:turn} mod {destination}"
             },
             "left": {
                 "default": "Drej til venstre",
@@ -449,7 +449,7 @@
             "default": {
                 "default": "Forlad rundkørslen",
                 "name": "Forlad rundkørslen ad {way_name}",
-                "destination": "Forlad rundkørslen mod  {destination}"
+                "destination": "Forlad rundkørslen mod {destination}"
             }
         },
         "exit rotary": {
@@ -461,9 +461,9 @@
         },
         "turn": {
             "default": {
-                "default": "Foretag et {modifier}",
-                "name": "Foretag et {modifier} ad {way_name}",
-                "destination": "Foretag et {modifier} mod {destination}"
+                "default": "{modifier:turn}",
+                "name": "{modifier:turn} ad {way_name}",
+                "destination": "{modifier:turn} mod {destination}"
             },
             "left": {
                 "default": "Drej til venstre",
@@ -476,7 +476,7 @@
                 "destination": "Drej til højre mod {destination}"
             },
             "straight": {
-                "default": "Fortsæt ligeud",
+                "default": "Kør ligeud",
                 "name": "Kør ligeud ad {way_name}",
                 "destination": "Kør ligeud mod {destination}"
             }

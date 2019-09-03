@@ -32,6 +32,7 @@ var instructionsYo = require('./languages/translations/yo.json');
 var instructionsZhHans = require('./languages/translations/zh-Hans.json');
 
 // Load all grammar files
+var grammarDa = require('./languages/grammar/da.json');
 var grammarFr = require('./languages/grammar/fr.json');
 var grammarHu = require('./languages/grammar/hu.json');
 var grammarRu = require('./languages/grammar/ru.json');
@@ -90,6 +91,7 @@ var instructions = {
 
 // Create list of supported grammar
 var grammars = {
+    'da': grammarDa,
     'fr': grammarFr,
     'hu': grammarHu,
     'ru': grammarRu

@@ -11,7 +11,8 @@
         "plads": "Pl.",
         "universitet": "Uni.",
         "vænge": "vg.",
-        "station": "St."
+        "station": "St.",
+        "kongens": "Kgs."
     },
     "classifications": {
         "avenue": "Ave",
@@ -23,7 +24,7 @@
         "vestre": "V.",
         "øster": "Ø.",
         "østre": "Ø.",
-        "boulevard": "Boul."
+        "boulevard": "Blvd"
     },
     "directions": {
         "sydøst": "SØ",
