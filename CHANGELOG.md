@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file. For change 
 
 ## master
 
+
+## 0.13.4 2019-09-16
+
 - Added a Yoruba localization. [#284](https://github.com/Project-OSRM/osrm-text-instructions/pull/284)
 - Renamed “traffic circle” to “roundabout” in the English localization. [#285](https://github.com/Project-OSRM/osrm-text-instructions/pull/285)
 - Rewrote the Burmese localization. [#282](https://github.com/Project-OSRM/osrm-text-instructions/pull/282)
