@@ -64,7 +64,7 @@ tape.test('verify existence/update fixtures', function(assert) {
         } else {
             assert.ok(
                 fs.existsSync(fileToWrite),
-                `verified existance of ${phrasePath}`
+                `verified existence of ${phrasePath}`
             );
         }
     }
@@ -682,6 +682,11 @@ tape.test('verify existence/update fixtures', function(assert) {
         // exit with number
         checkOrWritePhrase(basePath, 'exit with number', {
             exit: '123A'
+        });
+
+        // junction name
+        checkOrWritePhrase(basePath, 'junction name', {
+            junctionName: 'Shibuya Crossing'
         });
     }
 
