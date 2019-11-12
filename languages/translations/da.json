@@ -463,22 +463,26 @@
             "default": {
                 "default": "{modifier:turn}",
                 "name": "{modifier:turn} ad {way_name}",
-                "destination": "{modifier:turn} mod {destination}"
+                "destination": "{modifier:turn} mod {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Drej til venstre",
                 "name": "Drej til venstre ad {way_name}",
-                "destination": "Drej til venstre mod {destination}"
+                "destination": "Drej til venstre mod {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Drej til højre",
                 "name": "Drej til højre ad {way_name}",
-                "destination": "Drej til højre mod {destination}"
+                "destination": "Drej til højre mod {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Kør ligeud",
                 "name": "Kør ligeud ad {way_name}",
-                "destination": "Kør ligeud mod {destination}"
+                "destination": "Kør ligeud mod {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

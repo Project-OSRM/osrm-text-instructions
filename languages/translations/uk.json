@@ -463,22 +463,26 @@
             "default": {
                 "default": "Рухайтесь {modifier}",
                 "name": "Рухайтесь {modifier} на {way_name}",
-                "destination": "Рухайтесь {modifier} в напрямку {destination}"
+                "destination": "Рухайтесь {modifier} в напрямку {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Поверніть ліворуч",
                 "name": "Поверніть ліворуч на {way_name}",
-                "destination": "Поверніть ліворуч у напрямку {destination}"
+                "destination": "Поверніть ліворуч у напрямку {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Поверніть праворуч",
                 "name": "Поверніть праворуч на {way_name}",
-                "destination": "Поверніть праворуч у напрямку {destination}"
+                "destination": "Поверніть праворуч у напрямку {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Рухайтесь прямо",
                 "name": "Рухайтесь прямо по {way_name}",
-                "destination": "Рухайтесь прямо у напрямку {destination}"
+                "destination": "Рухайтесь прямо у напрямку {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

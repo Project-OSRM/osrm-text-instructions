@@ -463,22 +463,26 @@
             "default": {
                 "default": "Quẹo {modifier}",
                 "name": "Quẹo {modifier} vào {way_name}",
-                "destination": "Quẹo {modifier} về {destination}"
+                "destination": "Quẹo {modifier} về {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Quẹo trái",
                 "name": "Quẹo trái vào {way_name}",
-                "destination": "Quẹo trái về {destination}"
+                "destination": "Quẹo trái về {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Quẹo phải",
                 "name": "Quẹo phải vào {way_name}",
-                "destination": "Quẹo phải về {destination}"
+                "destination": "Quẹo phải về {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Chạy thẳng",
                 "name": "Chạy thẳng vào {way_name}",
-                "destination": "Chạy thẳng về {destination}"
+                "destination": "Chạy thẳng về {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

@@ -463,22 +463,26 @@
             "default": {
                 "default": "פנה {modifier}",
                 "name": "פנה {modifier} על {way_name}",
-                "destination": "פנה {modifier} לכיוון {destination}"
+                "destination": "פנה {modifier} לכיוון {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "פנה שמאלה",
                 "name": "פנה שמאלה ל{way_name}",
-                "destination": "פנה שמאלה לכיוון {destination}"
+                "destination": "פנה שמאלה לכיוון {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "פנה ימינה",
                 "name": "פנה ימינה ל{way_name}",
-                "destination": "פנה ימינה לכיוון {destination}"
+                "destination": "פנה ימינה לכיוון {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "המשך ישר",
                 "name": "המשך ישר ל{way_name}",
-                "destination": "המשך ישר לכיוון {destination}"
+                "destination": "המשך ישר לכיוון {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

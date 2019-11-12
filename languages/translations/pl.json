@@ -493,22 +493,26 @@
             "default": {
                 "default": "{modifier}",
                 "name": "{modifier} na {way_name}",
-                "destination": "{modifier} w kierunku {destination}"
+                "destination": "{modifier} w kierunku {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Skręć w lewo",
                 "name": "Skręć w lewo na {way_name}",
-                "destination": "Skręć w lewo w kierunku {destination}"
+                "destination": "Skręć w lewo w kierunku {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Skręć w prawo",
                 "name": "Skręć w prawo na {way_name}",
-                "destination": "Skręć w prawo w kierunku {destination}"
+                "destination": "Skręć w prawo w kierunku {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Jedź prosto",
                 "name": "Jedź prosto na {way_name}",
-                "destination": "Jedź prosto w kierunku {destination}"
+                "destination": "Jedź prosto w kierunku {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

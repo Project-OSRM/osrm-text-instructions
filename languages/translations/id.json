@@ -343,7 +343,7 @@
             "slight right": {
                 "default": "Ambil jalan melandai di sebelah kanan",
                 "name": "Ambil jalan melandai di sebelah kanan ke {way_name}",
-                "destination": "Ambil jalan melandai di sebelah kanan  menuju {destination}",
+                "destination": "Ambil jalan melandai di sebelah kanan menuju {destination}",
                 "exit": "Take exit {exit} on the right",
                 "exit_destination": "Take exit {exit} on the right towards {destination}"
             }
@@ -362,7 +362,7 @@
             "right": {
                 "default": "Ambil jalan melandai di sebelah kanan",
                 "name": "Ambil jalan melandai di sebelah kanan ke {way_name}",
-                "destination": "Ambil jalan melandai di sebelah kanan  menuju {destination}"
+                "destination": "Ambil jalan melandai di sebelah kanan menuju {destination}"
             },
             "sharp left": {
                 "default": "Ambil jalan yang melandai di sebelah kiri",
@@ -372,7 +372,7 @@
             "sharp right": {
                 "default": "Ambil jalan melandai di sebelah kanan",
                 "name": "Ambil jalan melandai di sebelah kanan ke {way_name}",
-                "destination": "Ambil jalan melandai di sebelah kanan  menuju {destination}"
+                "destination": "Ambil jalan melandai di sebelah kanan menuju {destination}"
             },
             "slight left": {
                 "default": "Ambil jalan yang melandai di sebelah kiri",
@@ -382,7 +382,7 @@
             "slight right": {
                 "default": "Ambil jalan melandai di sebelah kanan",
                 "name": "Ambil jalan melandai di sebelah kanan ke {way_name}",
-                "destination": "Ambil jalan melandai di sebelah kanan  menuju {destination}"
+                "destination": "Ambil jalan melandai di sebelah kanan menuju {destination}"
             }
         },
         "rotary": {
@@ -493,22 +493,26 @@
             "default": {
                 "default": "Lakukan {modifier}",
                 "name": "Lakukan {modifier} ke arah {way_name}",
-                "destination": "Lakukan {modifier} menuju {destination}"
+                "destination": "Lakukan {modifier} menuju {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Belok kiri",
                 "name": "Belok kiri ke {way_name}",
-                "destination": "Belok kiri menuju {destination}"
+                "destination": "Belok kiri menuju {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Belok kanan",
                 "name": "Belok kanan ke {way_name}",
-                "destination": "Belok kanan menuju {destination}"
+                "destination": "Belok kanan menuju {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Lurus",
                 "name": "Lurus arah {way_name}",
-                "destination": "Lurus menuju {destination}"
+                "destination": "Lurus menuju {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

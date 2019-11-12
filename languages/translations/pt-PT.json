@@ -463,22 +463,26 @@
             "default": {
                 "default": "Siga {modifier}",
                 "name": "Siga {modifier} para{way_name}",
-                "destination": "Siga {modifier} em direção a {destination}"
+                "destination": "Siga {modifier} em direção a {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Vire à esquerda",
                 "name": "Vire à esquerda para {way_name}",
-                "destination": "Vire à esquerda em direção a {destination}"
+                "destination": "Vire à esquerda em direção a {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Vire à direita",
                 "name": "Vire à direita para {way_name}",
-                "destination": "Vire à direita em direção a {destination}"
+                "destination": "Vire à direita em direção a {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Vá em frente",
                 "name": "Vá em frente para {way_name}",
-                "destination": "Vá em frente em direção a {destination}"
+                "destination": "Vá em frente em direção a {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

@@ -463,22 +463,26 @@
             "default": {
                 "default": "Ṣe a {modifier}",
                 "name": "Ṣe a {modifier} pẹlẹpẹlẹ {way_name}",
-                "destination": "Ṣe a {modifier} si ọna {destination}"
+                "destination": "Ṣe a {modifier} si ọna {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Ya si apa osi",
                 "name": "Tan apa osi pẹlẹpẹlẹ {way_name}",
-                "destination": "Tan apa osi si ọna {destination}"
+                "destination": "Tan apa osi si ọna {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Ya sowo otun",
                 "name": "Tan ọtun si {way_name}",
-                "destination": "Tan-ọtun si ọna {destination}"
+                "destination": "Tan-ọtun si ọna {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Rin taara",
                 "name": "Lọ si pẹkipẹki {way_name}",
-                "destination": "Lọ taara si ọna {destination}"
+                "destination": "Lọ taara si ọna {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

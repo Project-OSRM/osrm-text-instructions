@@ -463,22 +463,26 @@
             "default": {
                 "default": "Tourner {modifier}",
                 "name": "Tourner {modifier} sur {way_name:article}",
-                "destination": "Tourner {modifier} en direction {destination:preposition}"
+                "destination": "Tourner {modifier} en direction {destination:preposition}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Tourner à gauche",
                 "name": "Tourner à gauche sur {way_name:article}",
-                "destination": "Tourner à gauche en direction {destination:preposition}"
+                "destination": "Tourner à gauche en direction {destination:preposition}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Tourner à droite",
                 "name": "Tourner à droite sur {way_name:article}",
-                "destination": "Tourner à droite en direction {destination:preposition}"
+                "destination": "Tourner à droite en direction {destination:preposition}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Aller tout droit",
                 "name": "Aller tout droit sur {way_name:article}",
-                "destination": "Aller tout droit en direction {destination:preposition}"
+                "destination": "Aller tout droit en direction {destination:preposition}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

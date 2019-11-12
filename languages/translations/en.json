@@ -463,22 +463,26 @@
             "default": {
                 "default": "Make a {modifier}",
                 "name": "Make a {modifier} onto {way_name}",
-                "destination": "Make a {modifier} towards {destination}"
+                "destination": "Make a {modifier} towards {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Turn left",
                 "name": "Turn left onto {way_name}",
-                "destination": "Turn left towards {destination}"
+                "destination": "Turn left towards {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Turn right",
                 "name": "Turn right onto {way_name}",
-                "destination": "Turn right towards {destination}"
+                "destination": "Turn right towards {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Go straight",
                 "name": "Go straight onto {way_name}",
-                "destination": "Go straight towards {destination}"
+                "destination": "Go straight towards {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

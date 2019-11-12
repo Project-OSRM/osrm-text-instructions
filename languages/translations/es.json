@@ -164,7 +164,7 @@
         },
         "end of road": {
             "default": {
-                "default": "Gira  a {modifier}",
+                "default": "Gira a {modifier}",
                 "name": "Gira a {modifier} en {way_name}",
                 "destination": "Gira a {modifier} hacia {destination}"
             },
@@ -181,7 +181,7 @@
         },
         "fork": {
             "default": {
-                "default": "Mantente  {modifier} en el cruza",
+                "default": "Mantente {modifier} en el cruza",
                 "name": "Mantente {modifier} en {way_name}",
                 "destination": "Mantente {modifier} hacia {destination}"
             },
@@ -463,22 +463,26 @@
             "default": {
                 "default": "Sigue {modifier}",
                 "name": "Sigue {modifier} en {way_name}",
-                "destination": "Sigue {modifier} hacia {destination}"
+                "destination": "Sigue {modifier} hacia {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Gira a la izquierda",
                 "name": "Gira a la izquierda en {way_name}",
-                "destination": "Gira a la izquierda hacia {destination}"
+                "destination": "Gira a la izquierda hacia {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Gira a la derecha",
                 "name": "Gira a la derecha en {way_name}",
-                "destination": "Gira a la derecha hacia {destination}"
+                "destination": "Gira a la derecha hacia {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Ve recto",
                 "name": "Ve recto en {way_name}",
-                "destination": "Ve recto hacia {destination}"
+                "destination": "Ve recto hacia {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

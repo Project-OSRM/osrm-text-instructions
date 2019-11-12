@@ -463,22 +463,26 @@
             "default": {
                 "default": "Gira {modifier}",
                 "name": "Gira {modifier} por {way_name}",
-                "destination": "Gira {modifier} hacia {destination}"
+                "destination": "Gira {modifier} hacia {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Gira a la izquierda",
                 "name": "Gira a la izquierda por {way_name}",
-                "destination": "Gira a la izquierda hacia {destination}"
+                "destination": "Gira a la izquierda hacia {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Gira a la derecha",
                 "name": "Gira a la derecha por {way_name}",
-                "destination": "Gira a la derecha hacia {destination}"
+                "destination": "Gira a la derecha hacia {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Continúa recto",
                 "name": "Continúa recto por {way_name}",
-                "destination": "Continúa recto hacia {destination}"
+                "destination": "Continúa recto hacia {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

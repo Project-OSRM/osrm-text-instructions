@@ -463,22 +463,26 @@
             "default": {
                 "default": "انعطف نحو {modifier}",
                 "name": "انعطف {modifier} على {way_name}",
-                "destination": "انعطف {modifier} نحو {destination}"
+                "destination": "انعطف {modifier} نحو {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "انعطف يسارا",
                 "name": "اسلك مسار الدوران يسارا على {way_name}",
-                "destination": "انعطف يسارا نحو {destination}"
+                "destination": "انعطف يسارا نحو {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "انعطف يمينا",
                 "name": "اسلك مسار الدوران يمينا على {way_name}",
-                "destination": "انعطف يمينا نحو {destination}"
+                "destination": "انعطف يمينا نحو {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "انطلق قدما",
                 "name": "انطلق قدما على {way_name}",
-                "destination": "انطلق قدما نحو {destination}"
+                "destination": "انطلق قدما نحو {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

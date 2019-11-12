@@ -463,22 +463,26 @@
             "default": {
                 "default": "Zavijte {modifier}",
                 "name": "Zavijte {modifier} na {way_name}",
-                "destination": "Zavijte {modifier} v smeri proti {destination}"
+                "destination": "Zavijte {modifier} v smeri proti {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Zavijte levo",
                 "name": "Zavijte levo na {way_name}",
-                "destination": "Zavijte levo v smeri proti {destination}"
+                "destination": "Zavijte levo v smeri proti {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Zavijte desno",
                 "name": "Zavijte desno na {way_name}",
-                "destination": "Zavijte desno v smeri proti {destination}"
+                "destination": "Zavijte desno v smeri proti {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Peljite naravnost",
                 "name": "Peljite naravnost na {way_name}",
-                "destination": "Peljite naravnost v smeri proti {destination}"
+                "destination": "Peljite naravnost v smeri proti {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

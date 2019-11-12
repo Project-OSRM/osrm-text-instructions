@@ -463,22 +463,26 @@
             "default": {
                 "default": "{modifier} 하세요.",
                 "name": "{modifier} 하시고 {way_name}로 가세요.",
-                "destination": "{modifier} 하시고 {destination}까지 가세요."
+                "destination": "{modifier} 하시고 {destination}까지 가세요.",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "좌회전 하세요.",
                 "name": "좌회전 하시고 {way_name}로 가세요.",
-                "destination": "좌회전 하시고 {destination}까지 가세요."
+                "destination": "좌회전 하시고 {destination}까지 가세요.",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "우회전 하세요.",
                 "name": "우회전 하시고 {way_name}로 가세요.",
-                "destination": "우회전 하시고 {destination}까지 가세요."
+                "destination": "우회전 하시고 {destination}까지 가세요.",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "직진 하세요.",
                 "name": "직진하시고 {way_name}로 가세요.",
-                "destination": "직진하시고 {destination}까지 가세요."
+                "destination": "직진하시고 {destination}까지 가세요.",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

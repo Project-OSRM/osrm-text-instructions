@@ -463,22 +463,26 @@
             "default": {
                 "default": "{modifier}に向かう",
                 "name": "{modifier}に向かい、{way_name}を進む",
-                "destination": "{modifier}に向かい、その後{destination}へ向かう"
+                "destination": "{modifier}に向かい、その後{destination}へ向かう",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "左折する",
                 "name": "左折して{way_name}を進む",
-                "destination": "左折して{destination}へ向かう"
+                "destination": "左折して{destination}へ向かう",
+                "junction_name": "{junction_name}を左折です"
             },
             "right": {
                 "default": "右折する",
                 "name": "右折して{way_name}を進む",
-                "destination": "右折して{destination}へ向かう"
+                "destination": "右折して{destination}へ向かう",
+                "junction_name": "{junction_name}を右折です"
             },
             "straight": {
                 "default": "直進する",
                 "name": "{way_name}を直進する",
-                "destination": "{destination}に向けて直進する"
+                "destination": "{destination}に向けて直進する",
+                "junction_name": "{junction_name}を直進する"
             }
         },
         "use lane": {

@@ -463,22 +463,26 @@
             "default": {
                 "default": "{modifier}转弯",
                 "name": "{modifier}转弯，驶入{way_name}",
-                "destination": "{modifier}转弯，前往{destination}"
+                "destination": "{modifier}转弯，前往{destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "左转",
                 "name": "左转，驶入{way_name}",
-                "destination": "左转，前往{destination}"
+                "destination": "左转，前往{destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "右转",
                 "name": "右转，驶入{way_name}",
-                "destination": "右转，前往{destination}"
+                "destination": "右转，前往{destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "直行",
                 "name": "直行，驶入{way_name}",
-                "destination": "直行，前往{destination}"
+                "destination": "直行，前往{destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

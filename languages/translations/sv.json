@@ -404,7 +404,7 @@
                 },
                 "name_exit": {
                     "default": "I {rotary_name}, ta {exit_number} avfarten",
-                    "name": "I {rotary_name}, ta {exit_number}  avfarten in på {way_name}",
+                    "name": "I {rotary_name}, ta {exit_number} avfarten in på {way_name}",
                     "destination": "I {rotary_name}, ta {exit_number} avfarten mot {destination}"
                 }
             }
@@ -463,22 +463,26 @@
             "default": {
                 "default": "Sväng {modifier}",
                 "name": "Sväng {modifier} in på {way_name}",
-                "destination": "Sväng {modifier} mot {destination}"
+                "destination": "Sväng {modifier} mot {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Sväng vänster",
                 "name": "Sväng vänster in på {way_name}",
-                "destination": "Sväng vänster mot {destination}"
+                "destination": "Sväng vänster mot {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Sväng höger",
                 "name": "Sväng höger in på {way_name}",
-                "destination": "Sväng höger mot {destination}"
+                "destination": "Sväng höger mot {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Kör rakt fram",
                 "name": "Kör rakt fram in på {way_name}",
-                "destination": "Kör rakt fram mot {destination}"
+                "destination": "Kör rakt fram mot {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

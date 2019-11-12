@@ -463,22 +463,26 @@
             "default": {
                 "default": "Veturu {modifier}",
                 "name": "Veturu {modifier} al {way_name}",
-                "destination": "Veturu {modifier} direkte al {destination}"
+                "destination": "Veturu {modifier} direkte al {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Turniĝu maldekstren",
                 "name": "Turniĝu maldekstren al {way_name}",
-                "destination": "Turniĝu maldekstren direkte al {destination}"
+                "destination": "Turniĝu maldekstren direkte al {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Turniĝu dekstren",
                 "name": "Turniĝu dekstren al {way_name}",
-                "destination": "Turniĝu dekstren direkte al {destination}"
+                "destination": "Turniĝu dekstren direkte al {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Veturu rekten",
                 "name": "Veturu rekten al {way_name}",
-                "destination": "Veturu rekten direkte al {destination}"
+                "destination": "Veturu rekten direkte al {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

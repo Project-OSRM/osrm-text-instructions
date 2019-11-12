@@ -310,7 +310,7 @@
                 "name": "Pegue a rampa à esquerda em {way_name}",
                 "destination": "Pegue a rampa à esquerda sentido {destination}",
                 "exit": "Pegue a saída {exit} à esquerda",
-                "exit_destination": "Pegue a saída {exit}  à esquerda em direção à {destination}"
+                "exit_destination": "Pegue a saída {exit} à esquerda em direção à {destination}"
             },
             "right": {
                 "default": "Pegue a rampa à direita",
@@ -324,7 +324,7 @@
                 "name": "Pegue a rampa à esquerda em {way_name}",
                 "destination": "Pegue a rampa à esquerda sentido {destination}",
                 "exit": "Pegue a saída {exit} à esquerda",
-                "exit_destination": "Pegue a saída {exit}  à esquerda em direção à {destination}"
+                "exit_destination": "Pegue a saída {exit} à esquerda em direção à {destination}"
             },
             "sharp right": {
                 "default": "Pegue a rampa à direita",
@@ -338,7 +338,7 @@
                 "name": "Pegue a rampa à esquerda em {way_name}",
                 "destination": "Pegue a rampa à esquerda sentido {destination}",
                 "exit": "Pegue a saída {exit} à esquerda",
-                "exit_destination": "Pegue a saída {exit}  à esquerda em direção à {destination}"
+                "exit_destination": "Pegue a saída {exit} à esquerda em direção à {destination}"
             },
             "slight right": {
                 "default": "Pegue a rampa à direita",
@@ -463,22 +463,26 @@
             "default": {
                 "default": "Siga {modifier}",
                 "name": "Siga {modifier} em {way_name}",
-                "destination": "Siga {modifier} sentido {destination}"
+                "destination": "Siga {modifier} sentido {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Vire à esquerda",
                 "name": "Vire à esquerda em {way_name}",
-                "destination": "Vire à esquerda sentido {destination}"
+                "destination": "Vire à esquerda sentido {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Vire à direita",
                 "name": "Vire à direita em {way_name}",
-                "destination": "Vire à direita sentido {destination}"
+                "destination": "Vire à direita sentido {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Siga em frente",
                 "name": "Siga em frente em {way_name}",
-                "destination": "Siga em frente sentido {destination}"
+                "destination": "Siga em frente sentido {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

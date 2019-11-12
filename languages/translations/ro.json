@@ -405,7 +405,7 @@
                 "name_exit": {
                     "default": "Intrați în {rotary_name} și urmați {exit_number} ieșire",
                     "name": "Intrați în {rotary_name} și urmați {exit_number} ieșire pe {way_name}",
-                    "destination": "Intrați în  {rotary_name} și urmați {exit_number} ieșire spre {destination}"
+                    "destination": "Intrați în {rotary_name} și urmați {exit_number} ieșire spre {destination}"
                 }
             }
         },
@@ -463,22 +463,26 @@
             "default": {
                 "default": "Virați {modifier}",
                 "name": "Virați {modifier} pe {way_name}",
-                "destination": "Virați {modifier} spre {destination}"
+                "destination": "Virați {modifier} spre {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Virați la stânga",
                 "name": "Virați la stânga pe {way_name}",
-                "destination": "Virați la stânga spre {destination}"
+                "destination": "Virați la stânga spre {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Virați la dreapta",
                 "name": "Virați la dreapta pe {way_name}",
-                "destination": "Virați la dreapta spre {destination}"
+                "destination": "Virați la dreapta spre {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Mergeți înainte",
                 "name": "Mergeți înainte pe {way_name}",
-                "destination": "Mergeți înainte spre {destination}"
+                "destination": "Mergeți înainte spre {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

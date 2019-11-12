@@ -463,22 +463,26 @@
             "default": {
                 "default": "Forduljon {modifier}",
                 "name": "Forduljon be {modifier} {way_name:sublative_to}",
-                "destination": "Forduljon {modifier} {destination:sublative_toward}"
+                "destination": "Forduljon {modifier} {destination:sublative_toward}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Forduljon balra",
                 "name": "Forduljon be balra {way_name:sublative_toward}",
-                "destination": "Forduljon balra {destination:sublative_toward}"
+                "destination": "Forduljon balra {destination:sublative_toward}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Forduljon jobbra",
                 "name": "Forduljon be jobbra {way_name:sublative_to}",
-                "destination": "Forduljon jobbra {destination:sublative_toward}"
+                "destination": "Forduljon jobbra {destination:sublative_toward}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Hajtson egyenesen",
                 "name": "Hajtson egyenesen {way_name:sublative_to}",
-                "destination": "Hajtson egyenesen {destination:sublative_toward}"
+                "destination": "Hajtson egyenesen {destination:sublative_toward}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

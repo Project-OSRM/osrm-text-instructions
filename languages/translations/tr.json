@@ -493,22 +493,26 @@
             "default": {
                 "default": "{modifier} yöne dön",
                 "name": "{way_name} üzerinde {modifier} yöne dön",
-                "destination": "{destination} istikametinde {modifier} yöne dön"
+                "destination": "{destination} istikametinde {modifier} yöne dön",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Sola dönün",
                 "name": "{way_name} üzerinde sola dön",
-                "destination": "{destination} istikametinde sola dön"
+                "destination": "{destination} istikametinde sola dön",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Sağa dönün",
                 "name": "{way_name} üzerinde sağa dön",
-                "destination": "{destination} istikametinde sağa dön"
+                "destination": "{destination} istikametinde sağa dön",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Düz git",
                 "name": "{way_name} üzerinde düz git",
-                "destination": "{destination} istikametinde düz git"
+                "destination": "{destination} istikametinde düz git",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

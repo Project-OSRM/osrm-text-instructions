@@ -463,22 +463,26 @@
             "default": {
                 "default": "{modifier}ကိုလှည့်ပါ",
                 "name": "{modifier}ပေါ်သို့{way_name}ကိုဆက်သွားပါ ",
-                "destination": "{modifier}ဆီသို့{destination}ကို ဆက်သွားပါ "
+                "destination": "{modifier}ဆီသို့{destination}ကို ဆက်သွားပါ ",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "ဘယ်ဘက်သို့ပြန်လှည့်ပါ",
                 "name": "{way_name}ပေါ်သို့ဘယ်ဘက်ကိုဆက်သွားပါ ",
-                "destination": "{destination}ဘယ်ဘက်သို့ ကွေ့ပါ"
+                "destination": "{destination}ဘယ်ဘက်သို့ ကွေ့ပါ",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "ညာဘက်သို့ပြန်လှည့်ပါ",
                 "name": "{way_name}ပေါ်သို့ညာဘက်ကိုလာရောက်ပေါင်းဆုံပါ ",
-                "destination": "{destination}ညာဘက်သို့ ကွေ့ပါ"
+                "destination": "{destination}ညာဘက်သို့ ကွေ့ပါ",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "တည့်တည့်သွားပါ",
                 "name": "{way_name}ပေါ်သို့တည့်တည့်သွားပါ",
-                "destination": "{destination}ဆီသို့တည့်တည့်သွားပါ"
+                "destination": "{destination}ဆီသို့တည့်တည့်သွားပါ",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

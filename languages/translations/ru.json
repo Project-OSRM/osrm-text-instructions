@@ -463,22 +463,26 @@
             "default": {
                 "default": "Двигайтесь {modifier}",
                 "name": "Двигайтесь {modifier} на {way_name:accusative}",
-                "destination": "Двигайтесь {modifier}  в направлении {destination}"
+                "destination": "Двигайтесь {modifier} в направлении {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Поверните налево",
                 "name": "Поверните налево на {way_name:accusative}",
-                "destination": "Поверните налево в направлении {destination}"
+                "destination": "Поверните налево в направлении {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Поверните направо",
                 "name": "Поверните направо на {way_name:accusative}",
-                "destination": "Поверните направо  в направлении {destination}"
+                "destination": "Поверните направо в направлении {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Двигайтесь прямо",
                 "name": "Двигайтесь по {way_name:dative}",
-                "destination": "Двигайтесь в направлении {destination}"
+                "destination": "Двигайтесь в направлении {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {
