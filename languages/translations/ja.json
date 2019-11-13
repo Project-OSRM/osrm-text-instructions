@@ -299,53 +299,53 @@
         },
         "off ramp": {
             "default": {
-                "default": "出口に向かう",
-                "name": "{way_name}方面、出口に向かう",
-                "destination": "{destination}方面、出口に向かう",
-                "exit": "{exit} 出口に向かう",
-                "exit_destination": "{destination} 方面、{exit}　出口に向かう"
+                "default": "出口です",
+                "name": "{way_name}方面、出口です",
+                "destination": "{destination}方面、出口です",
+                "exit": "{exit} 出口です",
+                "exit_destination": "{destination} 方面、{exit}　出口です"
             },
             "left": {
-                "default": "左方向、出口に向かう",
-                "name": "左方向、{way_name}方面、出口に向かう",
-                "destination": "左方向、{destination}方面、出口に向かう",
-                "exit": "左方向、{exit} 出口に向かう",
-                "exit_destination": "左方向、{destination} 方面、{exit}　出口に向かう"
+                "default": "左方向、出口です",
+                "name": "左方向、{way_name}方面、出口です",
+                "destination": "左方向、{destination}方面、出口です",
+                "exit": "左方向、{exit} 出口です",
+                "exit_destination": "左方向、{destination} 方面、{exit}　出口です"
             },
             "right": {
-                "default": "右方向、出口に向かう",
-                "name": "右方向、{way_name}方面、出口に向かう",
-                "destination": "右方向、{destination}方面、出口に向かう",
-                "exit": "右方向、{exit} 出口に向かう",
-                "exit_destination": "右方向、{destination} 方面、{exit}　出口に向かう"
+                "default": "右方向、出口です",
+                "name": "右方向、{way_name}方面、出口です",
+                "destination": "右方向、{destination}方面、出口です",
+                "exit": "右方向、{exit} 出口です",
+                "exit_destination": "右方向、{destination} 方面、{exit}　出口です"
             },
             "sharp left": {
-                "default": "左方向、出口に向かう",
-                "name": "左方向、{way_name}方面、出口に向かう",
-                "destination": "左方向、{destination}方面、出口に向かう",
-                "exit": "左方向、{exit} 出口に向かう",
-                "exit_destination": "左方向、{destination} 方面、{exit}　出口に向かう"
+                "default": "左方向、出口です",
+                "name": "左方向、{way_name}方面、出口です",
+                "destination": "左方向、{destination}方面、出口です",
+                "exit": "左方向、{exit} 出口です",
+                "exit_destination": "左方向、{destination} 方面、{exit}　出口です"
             },
             "sharp right": {
-                "default": "右方向、出口に向かう",
-                "name": "右方向、{way_name}方面、出口に向かう",
-                "destination": "右方向、{destination}方面、出口に向かう",
-                "exit": "右方向、{exit} 出口に向かう",
-                "exit_destination": "右方向、{destination} 方面、{exit}　出口に向かう"
+                "default": "右方向、出口です",
+                "name": "右方向、{way_name}方面、出口です",
+                "destination": "右方向、{destination}方面、出口です",
+                "exit": "右方向、{exit} 出口です",
+                "exit_destination": "右方向、{destination} 方面、{exit}　出口です"
             },
             "slight left": {
-                "default": "左方向、出口に向かう",
-                "name": "左方向、{way_name}方面、出口に向かう",
-                "destination": "左方向、{destination}方面、出口に向かう",
-                "exit": "左方向、{exit} 出口に向かう",
-                "exit_destination": "左方向、{destination} 方面、{exit}　出口に向かう"
+                "default": "左方向、出口です",
+                "name": "左方向、{way_name}方面、出口です",
+                "destination": "左方向、{destination}方面、出口です",
+                "exit": "左方向、{exit} 出口です",
+                "exit_destination": "左方向、{destination} 方面、{exit}　出口です"
             },
             "slight right": {
-                "default": "右方向、出口に向かう",
-                "name": "右方向、{way_name}方面、出口に向かう",
-                "destination": "右方向、{destination}方面、出口に向かう",
-                "exit": "右方向、{exit} 出口に向かう",
-                "exit_destination": "右方向、{destination} 方面、{exit}　出口に向かう"
+                "default": "右方向、出口です",
+                "name": "右方向、{way_name}方面、出口です",
+                "destination": "右方向、{destination}方面、出口です",
+                "exit": "右方向、{exit} 出口です",
+                "exit_destination": "右方向、{destination} 方面、{exit}　出口です"
             }
         },
         "on ramp": {
