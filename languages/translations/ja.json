@@ -464,7 +464,7 @@
                 "default": "{modifier}に向かう",
                 "name": "{modifier}に向かい、{way_name}を進む",
                 "destination": "{modifier}に向かい、その後{destination}へ向かう",
-                "junction_name": "Make a {modifier} at {junction_name}"
+                "junction_name": "{junction_name}を{modifier}です"
             },
             "left": {
                 "default": "左折する",
@@ -482,7 +482,7 @@
                 "default": "直進する",
                 "name": "{way_name}を直進する",
                 "destination": "{destination}に向けて直進する",
-                "junction_name": "{junction_name}を直進する"
+                "junction_name": "{junction_name}を直進です"
             }
         },
         "use lane": {
