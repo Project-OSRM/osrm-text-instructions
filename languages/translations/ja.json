@@ -29,8 +29,8 @@
             "modifier": {
                 "left": "左",
                 "right": "右",
-                "sharp left": "大きく左",
-                "sharp right": "大きく右",
+                "sharp left": "左戻る",
+                "sharp right": "右戻る",
                 "slight left": "斜め左",
                 "slight right": "斜め右",
                 "straight": "直進",
