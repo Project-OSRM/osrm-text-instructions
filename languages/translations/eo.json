@@ -166,17 +166,20 @@
             "default": {
                 "default": "Veturu {modifier}",
                 "name": "Veturu {modifier} direkte al {way_name}",
-                "destination": "Veturu {modifier} direkte al {destination}"
+                "destination": "Veturu {modifier} direkte al {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Veturu rekten",
                 "name": "Veturu rekten al {way_name}",
-                "destination": "Veturu rekten direkte al {destination}"
+                "destination": "Veturu rekten direkte al {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Turniĝu malantaŭen ĉe fino de la vojo",
                 "name": "Turniĝu malantaŭen al {way_name} ĉe fino de la vojo",
-                "destination": "Turniĝu malantaŭen direkte al {destination} ĉe fino de la vojo"
+                "destination": "Turniĝu malantaŭen direkte al {destination} ĉe fino de la vojo",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

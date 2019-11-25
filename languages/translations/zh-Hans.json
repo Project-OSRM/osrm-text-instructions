@@ -166,17 +166,20 @@
             "default": {
                 "default": "{modifier}行驶",
                 "name": "{modifier}行驶，驶入{way_name}",
-                "destination": "{modifier}行驶，前往{destination}"
+                "destination": "{modifier}行驶，前往{destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "继续直行",
                 "name": "继续直行，驶入{way_name}",
-                "destination": "继续直行，前往{destination}"
+                "destination": "继续直行，前往{destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "在道路尽头调头",
                 "name": "在道路尽头调头驶入{way_name}",
-                "destination": "在道路尽头调头，前往{destination}"
+                "destination": "在道路尽头调头，前往{destination}",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

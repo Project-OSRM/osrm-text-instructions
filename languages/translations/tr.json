@@ -166,17 +166,20 @@
             "default": {
                 "default": "{modifier} tarafa dönün",
                 "name": "{way_name} üzerinde {modifier} yöne dön",
-                "destination": "{destination} istikametinde {modifier} yöne dön"
+                "destination": "{destination} istikametinde {modifier} yöne dön",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Düz devam edin",
                 "name": "{way_name} üzerinde düz devam et",
-                "destination": "{destination} istikametinde düz devam et"
+                "destination": "{destination} istikametinde düz devam et",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Yolun sonunda U dönüşü yapın",
                 "name": "Yolun sonunda {way_name} üzerinde bir U-dönüşü yap",
-                "destination": "Yolun sonunda {destination} istikametinde bir U-dönüşü yap"
+                "destination": "Yolun sonunda {destination} istikametinde bir U-dönüşü yap",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

@@ -166,17 +166,20 @@
             "default": {
                 "default": "Quẹo {modifier}",
                 "name": "Quẹo {modifier} vào {way_name}",
-                "destination": "Quẹo {modifier} về {destination}"
+                "destination": "Quẹo {modifier} về {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Chạy thẳng",
                 "name": "Chạy tiếp trên {way_name}",
-                "destination": "Chạy tiếp về {destination}"
+                "destination": "Chạy tiếp về {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Quẹo ngược lại tại cuối đường",
                 "name": "Quẹo ngược vào {way_name} tại cuối đường",
-                "destination": "Quẹo ngược về {destination} tại cuối đường"
+                "destination": "Quẹo ngược về {destination} tại cuối đường",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

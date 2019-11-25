@@ -166,17 +166,20 @@
             "default": {
                 "default": "Tourner {modifier}",
                 "name": "Tourner {modifier} sur {way_name:article}",
-                "destination": "Tourner {modifier} en direction {destination:preposition}"
+                "destination": "Tourner {modifier} en direction {destination:preposition}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Continuer tout droit",
                 "name": "Continuer tout droit sur {way_name:article}",
-                "destination": "Continuer tout droit en direction {destination:preposition}"
+                "destination": "Continuer tout droit en direction {destination:preposition}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Faire demi-tour à la fin de la route",
                 "name": "Faire demi-tour à la fin {way_name:preposition}",
-                "destination": "Faire demi-tour à la fin de la route en direction {destination:preposition}"
+                "destination": "Faire demi-tour à la fin de la route en direction {destination:preposition}",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

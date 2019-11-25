@@ -166,17 +166,20 @@
             "default": {
                 "default": "{modifier} abbiegen",
                 "name": "{modifier} abbiegen auf {way_name}",
-                "destination": "{modifier} abbiegen Richtung {destination}"
+                "destination": "{modifier} abbiegen Richtung {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Geradeaus weiterfahren",
                 "name": "Geradeaus weiterfahren auf {way_name}",
-                "destination": "Geradeaus weiterfahren Richtung {destination}"
+                "destination": "Geradeaus weiterfahren Richtung {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "180°-Wendung am Ende der Straße",
                 "name": "180°-Wendung auf {way_name} am Ende der Straße",
-                "destination": "180°-Wendung Richtung {destination} am Ende der Straße"
+                "destination": "180°-Wendung Richtung {destination} am Ende der Straße",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

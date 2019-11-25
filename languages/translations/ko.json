@@ -166,17 +166,20 @@
             "default": {
                 "default": "{modifier} 회전하세요.",
                 "name": "{modifier}회전하고 {way_name}로 가세요.",
-                "destination": "{modifier}회전 하신 후 {destination}로 가세요."
+                "destination": "{modifier}회전 하신 후 {destination}로 가세요.",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "계속 직진해 주세요.",
                 "name": "{way_name}로 계속 직진해 주세요.",
-                "destination": "{destination}까지 직진해 주세요."
+                "destination": "{destination}까지 직진해 주세요.",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "도로 끝까지 가서 유턴해 주세요.",
                 "name": "도로 끝까지 가서 유턴해서 {way_name}로 가세요.",
-                "destination": "도로 끝까지 가서 유턴해서 {destination} 까지 가세요."
+                "destination": "도로 끝까지 가서 유턴해서 {destination} 까지 가세요.",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

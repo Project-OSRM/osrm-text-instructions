@@ -166,17 +166,20 @@
             "default": {
                 "default": "Ga {modifier}",
                 "name": "Ga {modifier} naar {way_name}",
-                "destination": "Ga {modifier} richting {destination}"
+                "destination": "Ga {modifier} richting {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Ga in de aangegeven richting",
                 "name": "Ga naar {way_name}",
-                "destination": "Ga richting {destination}"
+                "destination": "Ga richting {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Keer om",
                 "name": "Keer om naar {way_name}",
-                "destination": "Keer om richting {destination}"
+                "destination": "Keer om richting {destination}",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

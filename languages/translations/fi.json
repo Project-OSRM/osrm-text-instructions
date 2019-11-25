@@ -166,17 +166,20 @@
             "default": {
                 "default": "Käänny {modifier}",
                 "name": "Käänny {modifier} tielle {way_name}",
-                "destination": "Käänny {modifier} suuntana {destination}"
+                "destination": "Käänny {modifier} suuntana {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Jatka suoraan eteenpäin",
                 "name": "Jatka suoraan eteenpäin tielle {way_name}",
-                "destination": "Jatka suoraan eteenpäin suuntana {destination}"
+                "destination": "Jatka suoraan eteenpäin suuntana {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Tien päässä tee U-käännös",
                 "name": "Tien päässä tee U-käännös tielle {way_name}",
-                "destination": "Tien päässä tee U-käännös suuntana {destination}"
+                "destination": "Tien päässä tee U-käännös suuntana {destination}",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

@@ -166,17 +166,20 @@
             "default": {
                 "default": "Поверните {modifier}",
                 "name": "Поверните {modifier} на {way_name:accusative}",
-                "destination": "Поверните {modifier} в направлении {destination}"
+                "destination": "Поверните {modifier} в направлении {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Двигайтесь прямо",
                 "name": "Двигайтесь прямо по {way_name:dative}",
-                "destination": "Двигайтесь прямо в направлении {destination}"
+                "destination": "Двигайтесь прямо в направлении {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "В конце дороги развернитесь",
                 "name": "Развернитесь в конце {way_name:genitive}",
-                "destination": "В конце дороги развернитесь в направлении {destination}"
+                "destination": "В конце дороги развернитесь в направлении {destination}",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

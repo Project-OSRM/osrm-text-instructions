@@ -166,17 +166,20 @@
             "default": {
                 "default": "{modifier:turn}",
                 "name": "{modifier:turn} ad {way_name}",
-                "destination": "{modifier:turn} mod {destination}"
+                "destination": "{modifier:turn} mod {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Fortsæt ligeud",
                 "name": "Fortsæt ligeud ad {way_name}",
-                "destination": "Fortsæt ligeud mod {destination}"
+                "destination": "Fortsæt ligeud mod {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Foretag en U-vending for enden af vejen",
                 "name": "Foretag en U-vending ad {way_name} for enden af vejen",
-                "destination": "Foretag en U-vending mod {destination} for enden af vejen"
+                "destination": "Foretag en U-vending mod {destination} for enden af vejen",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

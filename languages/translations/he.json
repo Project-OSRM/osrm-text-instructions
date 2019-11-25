@@ -166,17 +166,20 @@
             "default": {
                 "default": "פנה {modifier}",
                 "name": "פנה {modifier} על {way_name}",
-                "destination": "פנה {modifier} לכיוון {destination}"
+                "destination": "פנה {modifier} לכיוון {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "המשך ישר",
                 "name": "המשך ישר על {way_name}",
-                "destination": "המשך ישר לכיוון {destination}"
+                "destination": "המשך ישר לכיוון {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "פנה פניית פרסה בסוף הדרך",
                 "name": "פנה פניית פרסה על {way_name} בסוף הדרך",
-                "destination": "פנה פניית פרסה לכיוון {destination} בסוף הדרך"
+                "destination": "פנה פניית פרסה לכיוון {destination} בסוף הדרך",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

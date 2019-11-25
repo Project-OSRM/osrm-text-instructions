@@ -166,17 +166,20 @@
             "default": {
                 "default": "Forduljon {modifier}",
                 "name": "Forduljon be {modifier} {way_name:sublative_toward}",
-                "destination": "Forduljon {modifier} {destination:sublative_to}"
+                "destination": "Forduljon {modifier} {destination:sublative_to}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Hajtson tovább egyenesen",
                 "name": "Hajtson tovább egyenesen {way_name:sublative_to}",
-                "destination": "Hajtson tovább egyenesen {destination:sublative_toward}"
+                "destination": "Hajtson tovább egyenesen {destination:sublative_toward}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Forduljon vissza az út végén",
                 "name": "Forduljon vissza {way_name:article} végén",
-                "destination": "Forduljon vissza {destination:article} irányában az út végén"
+                "destination": "Forduljon vissza {destination:article} irányában az út végén",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

@@ -166,17 +166,20 @@
             "default": {
                 "default": "Tan-an {modifier}",
                 "name": "Tan-an {modifier} pẹlẹpẹlẹ {way_name}",
-                "destination": "Tan-an {modifier} si ọna {destination}"
+                "destination": "Tan-an {modifier} si ọna {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Tẹsiwaju ni gígùn",
                 "name": "Tesiwaju tẹsiwaju lẹsẹkẹsẹ {way_name}",
-                "destination": "Tesiwaju si ọna ọtun {destination}"
+                "destination": "Tesiwaju si ọna ọtun {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Ṣe a-ẹ-yipada ni opin ọna",
                 "name": "Ṣe U-tan pẹlẹpẹlẹ {way_name} ni opin ọna",
-                "destination": "Ṣe ọna U-ọna si ọna {destination} ni opin ọna"
+                "destination": "Ṣe ọna U-ọna si ọna {destination} ni opin ọna",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

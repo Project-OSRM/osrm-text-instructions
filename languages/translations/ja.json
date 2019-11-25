@@ -166,17 +166,20 @@
             "default": {
                 "default": "{modifier}に曲がる",
                 "name": "{modifier}に曲がり、{way_name}を進む",
-                "destination": "{modifier}に曲がり、{destination}へ向かう"
+                "destination": "{modifier}に曲がり、{destination}へ向かう",
+                "junction_name": "{junction_name}を{modifier}です"
             },
             "straight": {
                 "default": "直進する",
                 "name": "{way_name}を直進する",
-                "destination": "直進し、{destination}へ向かう"
+                "destination": "直進し、{destination}へ向かう",
+                "junction_name": "{junction_name}を直進です"
             },
             "uturn": {
                 "default": "突き当りでUターンする",
                 "name": "{way_name}の突き当りでUターンする",
-                "destination": "突き当たりでUターンし、{destination}へ向かう"
+                "destination": "突き当たりでUターンし、{destination}へ向かう",
+                "junction_name": "{junction_name}の突き当りでUターンする"
             }
         },
         "fork": {

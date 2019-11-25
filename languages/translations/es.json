@@ -166,17 +166,20 @@
             "default": {
                 "default": "Gira a {modifier}",
                 "name": "Gira a {modifier} en {way_name}",
-                "destination": "Gira a {modifier} hacia {destination}"
+                "destination": "Gira a {modifier} hacia {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Continúa recto",
                 "name": "Continúa recto en {way_name}",
-                "destination": "Continúa recto hacia {destination}"
+                "destination": "Continúa recto hacia {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Haz un cambio de sentido al final de la via",
                 "name": "Haz un cambio de sentido en {way_name} al final de la via",
-                "destination": "Haz un cambio de sentido hacia {destination} al final de la via"
+                "destination": "Haz un cambio de sentido hacia {destination} al final de la via",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

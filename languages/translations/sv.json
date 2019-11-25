@@ -166,17 +166,20 @@
             "default": {
                 "default": "Sväng {modifier}",
                 "name": "Sväng {modifier} in på {way_name}",
-                "destination": "Sväng {modifier} mot {destination}"
+                "destination": "Sväng {modifier} mot {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Fortsätt rakt fram",
                 "name": "Fortsätt rakt fram in på {way_name}",
-                "destination": "Fortsätt rakt fram mot {destination}"
+                "destination": "Fortsätt rakt fram mot {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Gör en U-sväng i slutet av vägen",
                 "name": "Gör en U-sväng in på {way_name} i slutet av vägen",
-                "destination": "Gör en U-sväng mot {destination} i slutet av vägen"
+                "destination": "Gör en U-sväng mot {destination} i slutet av vägen",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

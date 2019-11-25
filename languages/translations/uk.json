@@ -166,17 +166,20 @@
             "default": {
                 "default": "Поверніть {modifier}",
                 "name": "Поверніть {modifier} на {way_name}",
-                "destination": "Поверніть {modifier} у напрямку {destination}"
+                "destination": "Поверніть {modifier} у напрямку {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Продовжуйте рух прямо",
                 "name": "Продовжуйте рух прямо до {way_name}",
-                "destination": "Продовжуйте рух прямо у напрямку {destination}"
+                "destination": "Продовжуйте рух прямо у напрямку {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Здійсніть розворот в кінці дороги",
                 "name": "Здійсніть розворот на {way_name} в кінці дороги",
-                "destination": "Здійсніть розворот у напрямку {destination} в кінці дороги"
+                "destination": "Здійсніть розворот у напрямку {destination} в кінці дороги",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

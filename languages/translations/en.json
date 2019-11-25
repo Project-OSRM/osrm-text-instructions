@@ -166,17 +166,20 @@
             "default": {
                 "default": "Turn {modifier}",
                 "name": "Turn {modifier} onto {way_name}",
-                "destination": "Turn {modifier} towards {destination}"
+                "destination": "Turn {modifier} towards {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Continue straight",
                 "name": "Continue straight onto {way_name}",
-                "destination": "Continue straight towards {destination}"
+                "destination": "Continue straight towards {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Make a U-turn at the end of the road",
                 "name": "Make a U-turn onto {way_name} at the end of the road",
-                "destination": "Make a U-turn towards {destination} at the end of the road"
+                "destination": "Make a U-turn towards {destination} at the end of the road",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

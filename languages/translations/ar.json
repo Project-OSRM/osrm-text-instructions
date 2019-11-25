@@ -166,17 +166,20 @@
             "default": {
                 "default": "انعطف {modifier}ا",
                 "name": "انعطف {modifier}ا على {way_name}",
-                "destination": "انعطف {modifier}ا نحو {destination}"
+                "destination": "انعطف {modifier}ا نحو {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "تابع قدماً",
                 "name": "تابع إلى الأمام على {way_name}",
-                "destination": "تابع قدماً نحو {destination}"
+                "destination": "تابع قدماً نحو {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "انعطف دوراناً عكسياً عند نهاية الطريق",
                 "name": "انعطف دوراناً عكسياً على {way_name} عند نهاية الطريق",
-                "destination": "انعطف دوراناً عكسياً نحو {destination} عند نهاية الطريق"
+                "destination": "انعطف دوراناً عكسياً نحو {destination} عند نهاية الطريق",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

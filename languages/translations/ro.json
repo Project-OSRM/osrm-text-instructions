@@ -166,17 +166,20 @@
             "default": {
                 "default": "Virați {modifier}",
                 "name": "Virați {modifier} pe {way_name}",
-                "destination": "Virați {modifier} spre {destination}"
+                "destination": "Virați {modifier} spre {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Continuați înainte",
                 "name": "Continuați înainte pe {way_name}",
-                "destination": "Continuați înainte spre {destination}"
+                "destination": "Continuați înainte spre {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Întoarceți-vă la sfârșitul drumului",
                 "name": "Întoarceți-vă pe {way_name} la sfârșitul drumului",
-                "destination": "Întoarceți-vă spre {destination} la sfârșitul drumului"
+                "destination": "Întoarceți-vă spre {destination} la sfârșitul drumului",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

@@ -166,17 +166,20 @@
             "default": {
                 "default": "Vire {modifier}",
                 "name": "Vire {modifier} em {way_name}",
-                "destination": "Vire {modifier} sentido {destination}"
+                "destination": "Vire {modifier} sentido {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Continue em frente",
                 "name": "Continue em frente em {way_name}",
-                "destination": "Continue em frente sentido {destination}"
+                "destination": "Continue em frente sentido {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Faça o retorno no fim da rua",
                 "name": "Faça o retorno em {way_name} no fim da rua",
-                "destination": "Faça o retorno sentido {destination} no fim da rua"
+                "destination": "Faça o retorno sentido {destination} no fim da rua",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

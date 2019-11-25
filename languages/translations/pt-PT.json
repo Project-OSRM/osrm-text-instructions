@@ -166,17 +166,20 @@
             "default": {
                 "default": "Vire {modifier}",
                 "name": "Vire {modifier} para {way_name}",
-                "destination": "Vire {modifier} em direção a {destination}"
+                "destination": "Vire {modifier} em direção a {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Continue em frente",
                 "name": "Continue em frente para {way_name}",
-                "destination": "Continue em frente em direção a {destination}"
+                "destination": "Continue em frente em direção a {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "No final da estrada faça uma inversão de marcha",
                 "name": "No final da estrada faça uma inversão de marcha para {way_name} ",
-                "destination": "No final da estrada faça uma inversão de marcha em direção a {destination}"
+                "destination": "No final da estrada faça uma inversão de marcha em direção a {destination}",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

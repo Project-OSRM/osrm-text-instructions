@@ -166,17 +166,20 @@
             "default": {
                 "default": "Zavijte {modifier}",
                 "name": "Zavijte {modifier} na {way_name}",
-                "destination": "Zavijte {modifier} v smeri proti {destination}"
+                "destination": "Zavijte {modifier} v smeri proti {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Nadaljujte naravnost",
                 "name": "Nadaljujte naravnost na {way_name}",
-                "destination": "Nadaljujte naravnost v smeri proti {destination}"
+                "destination": "Nadaljujte naravnost v smeri proti {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Na koncu ceste polkrožno obrnite",
                 "name": "Na koncu ceste polkrožno obrnite na {way_name}",
-                "destination": "Na koncu ceste polkrožno obrnite v smeri proti {destination}"
+                "destination": "Na koncu ceste polkrožno obrnite v smeri proti {destination}",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

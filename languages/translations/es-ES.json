@@ -166,17 +166,20 @@
             "default": {
                 "default": "Al final de la calle gira {modifier}",
                 "name": "Al final de la calle gira {modifier} por {way_name}",
-                "destination": "Al final de la calle gira {modifier} hacia {destination}"
+                "destination": "Al final de la calle gira {modifier} hacia {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Al final de la calle continúa recto",
                 "name": "Al final de la calle continúa recto por {way_name}",
-                "destination": "Al final de la calle continúa recto hacia {destination}"
+                "destination": "Al final de la calle continúa recto hacia {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Al final de la calle haz un cambio de sentido",
                 "name": "Al final de la calle haz un cambio de sentido en {way_name}",
-                "destination": "Al final de la calle haz un cambio de sentido hacia {destination}"
+                "destination": "Al final de la calle haz un cambio de sentido hacia {destination}",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

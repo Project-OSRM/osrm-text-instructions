@@ -166,17 +166,20 @@
             "default": {
                 "default": "Sving {modifier}",
                 "name": "Ta til {modifier} inn på {way_name}",
-                "destination": "Sving {modifier} mot {destination}"
+                "destination": "Sving {modifier} mot {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Fortsett rett frem",
                 "name": "Fortsett rett frem til {way_name}",
-                "destination": "Fortsett rett frem mot {destination}"
+                "destination": "Fortsett rett frem mot {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Ta en U-sving i enden av veien",
                 "name": "Ta en U-sving til {way_name} i enden av veien",
-                "destination": "Ta en U-sving mot {destination} i enden av veien"
+                "destination": "Ta en U-sving mot {destination} i enden av veien",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

@@ -166,17 +166,20 @@
             "default": {
                 "default": "{modifier}သို့လှည့်ပါ",
                 "name": "{way_name}​ပေါ်သို့ {modifier}ကိုလှည့်ပါ",
-                "destination": "{destination}ဆီသို့ {modifier}ကို လှည့်ပါ"
+                "destination": "{destination}ဆီသို့ {modifier}ကို လှည့်ပါ",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "ဖြောင့်ဖြောင့်တန်းတန်း ဆက်သွားပါ",
                 "name": "{way_name}​ပေါ်သို့တည့်တည့်ဆက်သွားပါ",
-                "destination": "{destination}ဆီသို့တည့်တည့်ဆက်သွားပါ"
+                "destination": "{destination}ဆီသို့တည့်တည့်ဆက်သွားပါ",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "လမ်းအဆုံးတွင် ဂ-ကွေ့ကွေ့ပါ",
                 "name": "လမ်းအဆုံးတွင် {way_name}​ပေါ်သို့ဂ-ကွေ့ကွေ့ပါ",
-                "destination": "လမ်းအဆုံးတွင်{destination}ဆီသို့ ဂကွေ့ချိုးကွေ့ပါ"
+                "destination": "လမ်းအဆုံးတွင်{destination}ဆီသို့ ဂကွေ့ချိုးကွေ့ပါ",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

@@ -166,17 +166,20 @@
             "default": {
                 "default": "Skręć {modifier}",
                 "name": "Skręć {modifier} na {way_name}",
-                "destination": "Skręć {modifier} w kierunku {destination}"
+                "destination": "Skręć {modifier} w kierunku {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Kontynuuj prosto",
                 "name": "Kontynuuj prosto na {way_name}",
-                "destination": "Kontynuuj prosto w kierunku {destination}"
+                "destination": "Kontynuuj prosto w kierunku {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Zawróć na końcu ulicy",
                 "name": "Zawróć na końcu ulicy na {way_name}",
-                "destination": "Zawróć na końcu ulicy w kierunku {destination}"
+                "destination": "Zawróć na końcu ulicy w kierunku {destination}",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

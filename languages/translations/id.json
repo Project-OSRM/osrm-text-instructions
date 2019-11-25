@@ -166,17 +166,20 @@
             "default": {
                 "default": "Belok {modifier}",
                 "name": "Belok {modifier} ke {way_name}",
-                "destination": "Belok {modifier} menuju {destination}"
+                "destination": "Belok {modifier} menuju {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Lurus terus",
                 "name": "Tetap lurus ke {way_name} ",
-                "destination": "Tetap lurus menuju {destination}"
+                "destination": "Tetap lurus menuju {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Putar balik di akhir jalan",
                 "name": "Putar balik di {way_name} di akhir jalan",
-                "destination": "Putar balik menuju {destination} di akhir jalan"
+                "destination": "Putar balik menuju {destination} di akhir jalan",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {

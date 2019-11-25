@@ -166,17 +166,20 @@
             "default": {
                 "default": "Gira a {modifier}",
                 "name": "Gira a {modifier} in {way_name}",
-                "destination": "Gira a {modifier} verso {destination}"
+                "destination": "Gira a {modifier} verso {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Continua dritto",
                 "name": "Continua dritto in {way_name}",
-                "destination": "Continua dritto verso {destination}"
+                "destination": "Continua dritto verso {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Fai un’inversione a U alla fine della strada",
                 "name": "Fai un’inversione a U in {way_name} alla fine della strada",
-                "destination": "Fai un’inversione a U verso {destination} alla fine della strada"
+                "destination": "Fai un’inversione a U verso {destination} alla fine della strada",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {
