@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "turn",
+            "modifier": "uturn"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "Make a الدوران للخلف at Shibuya Crossing",
+        "da": "Make a U-vending at Shibuya Crossing",
+        "de": "Make a 180°-Wendung at Shibuya Crossing",
+        "en": "Make a U-turn at Shibuya Crossing",
+        "eo": "Make a turniĝu malantaŭen at Shibuya Crossing",
+        "es": "Make a cambio de sentido at Shibuya Crossing",
+        "es-ES": "Make a cambio de sentido at Shibuya Crossing",
+        "fi": "Make a U-käännös at Shibuya Crossing",
+        "fr": "Make a demi-tour at Shibuya Crossing",
+        "he": "Make a פניית פרסה at Shibuya Crossing",
+        "hu": "Make a vissza at Shibuya Crossing",
+        "id": "Make a putar balik at Shibuya Crossing",
+        "it": "Make a inversione a U at Shibuya Crossing",
+        "ja": "Shibuya CrossingをUターンです",
+        "ko": "Make a 유턴 at Shibuya Crossing",
+        "my": "Make a ဂ-ကွေ့ at Shibuya Crossing",
+        "nl": "Make a omkeren at Shibuya Crossing",
+        "no": "Make a U-sving at Shibuya Crossing",
+        "pl": "Make a zawróć at Shibuya Crossing",
+        "pt-BR": "Make a retorno at Shibuya Crossing",
+        "pt-PT": "Make a inversão de marcha at Shibuya Crossing",
+        "ro": "Make a întoarcere at Shibuya Crossing",
+        "ru": "Make a на разворот at Shibuya Crossing",
+        "sl": "Make a polkrožni obrat at Shibuya Crossing",
+        "sv": "Make a U-sväng at Shibuya Crossing",
+        "tr": "Make a U dönüşü at Shibuya Crossing",
+        "uk": "Make a розворот at Shibuya Crossing",
+        "vi": "Make a ngược at Shibuya Crossing",
+        "yo": "Make a U-tan at Shibuya Crossing",
+        "zh-Hans": "Make a 调头 at Shibuya Crossing"
+    }
+}

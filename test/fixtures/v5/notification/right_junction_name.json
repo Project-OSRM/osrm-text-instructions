@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "notification",
+            "modifier": "right"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "تابع يمينا على Way Name",
+        "da": "Fortsæt til højre ad Way Name",
+        "de": "Rechts weiterfahren auf Way Name",
+        "en": "Continue right onto Way Name",
+        "eo": "Pluu dekstren al Way Name",
+        "es": "Continúa derecha en Way Name",
+        "es-ES": "Continúa a la derecha por Way Name",
+        "fi": "Jatka oikeall(e/a) tielle Way Name",
+        "fr": "Continuer à droite sur Way Name",
+        "he": "המשך ימינה על Way Name",
+        "hu": "Hajtson tovább jobbra a Way Name felé",
+        "id": "Lanjutkan kanan menuju Way Name",
+        "it": "Continua a destra in Way Name",
+        "ja": "Way Nameを右に進む",
+        "ko": "우회전해서 Way Name로 가세요.",
+        "my": "Way Name​ပေါ်သို့ ညာဘက်ကိုဆက်သွားပါ",
+        "nl": "Ga rechts naar Way Name",
+        "no": "Fortsett høyre til Way Name",
+        "pl": "Kontynuuj prawo na Way Name",
+        "pt-BR": "Continue à direita em Way Name",
+        "pt-PT": "Continue à direita para Way Name",
+        "ro": "Continuați dreapta pe Way Name",
+        "ru": "Двигайтесь направо по Way Name",
+        "sl": "Nadaljujte desno na Way Name",
+        "sv": "Fortsätt höger på Way Name",
+        "tr": "Way Name üzerinde sağ yönde devam et",
+        "uk": "Рухайтесь праворуч на Way Name",
+        "vi": "Chạy tiếp bên phải trên Way Name",
+        "yo": "Tesiwaju ọtun pẹlẹpẹlẹ Way Name",
+        "zh-Hans": "继续向右，驶入Way Name"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "fork",
+            "modifier": "straight"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "الزم مباشرة على Way Name",
+        "da": "Fortsæt ligeud på Way Name",
+        "de": "Geradeaus halten an der Gabelung auf Way Name",
+        "en": "Keep straight onto Way Name",
+        "eo": "Pluu rekten al Way Name",
+        "es": "Mantente recto en Way Name",
+        "es-ES": "Mantente recto por Way Name",
+        "fi": "Jatka suoraan eteenpäin tielle Way Name",
+        "fr": "Tenir tout droit sur Way Name",
+        "he": "היצמד ישר על Way Name",
+        "hu": "Tartson egyenesen a Way Name szakaszon",
+        "id": "Tetap lurus di pertigaan ke Way Name",
+        "it": "Mantieni la dritto al bivio in Way Name",
+        "ja": "Way Nameの直進車線を進む",
+        "ko": "직진하고 Way Name로 가세요.",
+        "my": "Way Name​ပေါ်သို့ ဖြောင့်ဖြောင့်တန်းတန်းကိုဆက်သွားပါ",
+        "nl": "Houd rechtdoor aan, tot Way Name",
+        "no": "Hold til rett frem inn på Way Name",
+        "pl": "Na rozwidleniu trzymaj się prosto na Way Name",
+        "pt-BR": "Mantenha-se em frente na bifurcação em Way Name",
+        "pt-PT": "Mantenha-se em frente para Way Name",
+        "ro": "Țineți înainte la bifurcație pe Way Name",
+        "ru": "На развилке двигайтесь прямо на Way Name",
+        "sl": "Držite se naravnostna Way Name ",
+        "sv": "Håll till rakt fram in på Way Name",
+        "tr": "Way Name üzerindeki yol ayrımında düz yönde kal",
+        "uk": "Тримайтеся прямо і рухайтесь на Way Name",
+        "vi": "Giữ bên thẳng vào Way Name",
+        "yo": "Jeki Taara pẹlẹpẹlẹ Way Name",
+        "zh-Hans": "在岔道口保持直行，驶入Way Name"
+    }
+}

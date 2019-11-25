@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "roundabout turn",
+            "modifier": "uturn"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "انعطف الدوران للخلف على Way Name",
+        "da": "Foretag en U-vending ad Way Name",
+        "de": "180°-Wendung abbiegen auf Way Name",
+        "en": "Make a U-turn onto Way Name",
+        "eo": "Veturu turniĝu malantaŭen al Way Name",
+        "es": "Sigue cambio de sentido en Way Name",
+        "es-ES": "Siga cambio de sentido en Way Name",
+        "fi": "Käänny U-käännös tielle Way Name",
+        "fr": "Tourner demi-tour sur Way Name",
+        "he": "פנה פניית פרסה על Way Name",
+        "hu": "Forduljon be vissza a Way Name felé",
+        "id": "Lakukan putar balik ke arah Way Name",
+        "it": "Gira a inversione a U in Way Name",
+        "ja": "Uターンに向かい、Way Nameを進む",
+        "ko": "유턴 하시고 Way Name로 가세요.",
+        "my": "ဂ-ကွေ့​ပေါ်သို့Way Nameကိုဆက်သွားပါ ",
+        "nl": "Ga omkeren naar Way Name",
+        "no": "Ta en U-sving inn på Way Name",
+        "pl": "Zawróć na Way Name",
+        "pt-BR": "Siga retorno em Way Name",
+        "pt-PT": "Siga inversão de marcha para Way Name",
+        "ro": "La sensul giratoriu virați întoarcere pe Way Name",
+        "ru": "Двигайтесь на разворот на Way Name",
+        "sl": "Zavijte polkrožni obrat na Way Name",
+        "sv": "Sväng U-sväng in på Way Name",
+        "tr": "Way Name üzerinde U dönüşü yöne dön",
+        "uk": "Рухайтесь розворот на Way Name",
+        "vi": "Quẹo ngược vào Way Name",
+        "yo": "Ṣe a U-tan pẹlẹpẹlẹ Way Name",
+        "zh-Hans": "调头转弯，驶入Way Name"
+    }
+}

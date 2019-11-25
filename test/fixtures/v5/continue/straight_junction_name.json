@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "continue",
+            "modifier": "straight"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "تابع قدما لتبقى على Way Name",
+        "da": "Fortsæt ligeud ad Way Name",
+        "de": "Geradeaus weiterfahren auf Way Name",
+        "en": "Continue straight to stay on Way Name",
+        "eo": "Veturu rekten al Way Name",
+        "es": "Continúa en Way Name",
+        "es-ES": "Continúa en Way Name",
+        "fi": "Jatka suoraan pysyäksesi tiellä Way Name",
+        "fr": "Continuer tout droit pour rester sur Way Name",
+        "he": "המשך ישר כדי להישאר על Way Name",
+        "hu": "Hajtson tovább egyenesen a Way Name szakaszon",
+        "id": "Terus ke Way Name",
+        "it": "Continua dritto per stare su Way Name",
+        "ja": "Way Nameを直進する",
+        "ko": "Way Name 로 계속 직진해 주세요.",
+        "my": "Way Name​ပေါ်တွင်နေရန်တည်တည့်ဆက်သွာပါ",
+        "nl": "Blijf rechtdoor gaan op Way Name",
+        "no": "Fortsett rett frem for å bli værende på Way Name",
+        "pl": "Jedź dalej prosto, aby pozostać na Way Name",
+        "pt-BR": "Continue em frente para manter-se na Way Name",
+        "pt-PT": "Continue em frente para se manter em Way Name",
+        "ro": "Mergeți înainte pe Way Name",
+        "ru": "Продолжите движение по Way Name",
+        "sl": "Nadaljujte naravnost, da ostanete na Way Name",
+        "sv": "Kör rakt fram och fortsätt på Way Name",
+        "tr": "Way Name üzerinde kalmak için düz devam et",
+        "uk": "Продовжуйте рух прямо залишаючись на Way Name",
+        "vi": "Chạy tiếp trên Way Name",
+        "yo": "Tesiwaju ni gígùn lati duro si Way Name",
+        "zh-Hans": "在Way Name上继续直行"
+    }
+}

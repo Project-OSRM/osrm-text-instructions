@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "continue",
+            "modifier": "uturn"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "انعطف دوراناً عكسياً وتابع نحو Way Name",
+        "da": "Foretag en U-vending tilbage ad Way Name",
+        "de": "180°-Wendung auf Way Name",
+        "en": "Make a U-turn and continue on Way Name",
+        "eo": "Turniĝu malantaŭen al Way Name",
+        "es": "Haz un cambio de sentido y continúa en Way Name",
+        "es-ES": "Haz un cambio de sentido y continúa en Way Name",
+        "fi": "Tee U-käännös ja jatka tietä Way Name",
+        "fr": "Faire demi-tour et continuer sur Way Name",
+        "he": "פנה פניית פרסה והמשך על Way Name",
+        "hu": "Forduljon vissza, majd folytassa a Way Name szakaszon",
+        "id": "Putar balik ke arah Way Name",
+        "it": "Fai un’inversione ad U poi continua su Way Name",
+        "ja": "Uターンし、Way Nameを進む",
+        "ko": "유턴해서 Way Name로 가세요.",
+        "my": "Way Nameလမ်းဘက်သို့ ဂ-ကွေ့ကွေ့ပြီးဆက်သွားပါ",
+        "nl": "Draai om en ga verder op Way Name",
+        "no": "Ta en U-sving og fortsett på Way Name",
+        "pl": "Zawróć i jedź dalej Way Name",
+        "pt-BR": "Faça o retorno e continue em Way Name",
+        "pt-PT": "Faça inversão de marcha e continue em Way Name",
+        "ro": "Întoarceți-vă și continuați pe Way Name",
+        "ru": "Развернитесь и продолжите движение по Way Name",
+        "sl": "Polkrožno obrnite in nadaljujte po Way Name",
+        "sv": "Gör en U-sväng och fortsätt på Way Name",
+        "tr": "Bir U-dönüşü yap ve Way Name devam et",
+        "uk": "Здійсніть розворот та рухайтесь по Way Name",
+        "vi": "Quẹo ngược lại trên Way Name",
+        "yo": "Ṣe ayipada U ati tẹsiwaju Way Name",
+        "zh-Hans": "前方调头，继续在Way Name上行驶"
+    }
+}

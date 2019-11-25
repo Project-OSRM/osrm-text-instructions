@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "turn",
+            "modifier": "sharp right"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "Make a يمين حاد at Shibuya Crossing",
+        "da": "Make a skarpt til højre at Shibuya Crossing",
+        "de": "Make a scharf rechts at Shibuya Crossing",
+        "en": "Make a sharp right at Shibuya Crossing",
+        "eo": "Make a dekstregen at Shibuya Crossing",
+        "es": "Make a cerrada a la derecha at Shibuya Crossing",
+        "es-ES": "Make a cerrada a la derecha at Shibuya Crossing",
+        "fi": "Make a jyrkästi oikeaan at Shibuya Crossing",
+        "fr": "Make a franchement à droite at Shibuya Crossing",
+        "he": "Make a חדה ימינה at Shibuya Crossing",
+        "hu": "Make a élesen jobbra at Shibuya Crossing",
+        "id": "Make a tajam kanan at Shibuya Crossing",
+        "it": "Make a destra at Shibuya Crossing",
+        "ja": "Shibuya Crossingを右戻るです",
+        "ko": "Make a 바로우회전 at Shibuya Crossing",
+        "my": "Make a ညာဘက် ထောင့်ချိုး at Shibuya Crossing",
+        "nl": "Make a scherpe bocht naar rechts at Shibuya Crossing",
+        "no": "Make a skarp høyre at Shibuya Crossing",
+        "pl": "Make a ostro w prawo at Shibuya Crossing",
+        "pt-BR": "Make a fechada à direita at Shibuya Crossing",
+        "pt-PT": "Make a acentuadamente à direita at Shibuya Crossing",
+        "ro": "Make a puternic dreapta at Shibuya Crossing",
+        "ru": "Make a направо at Shibuya Crossing",
+        "sl": "Make a ostro desno at Shibuya Crossing",
+        "sv": "Make a höger at Shibuya Crossing",
+        "tr": "Make a keskin sağ at Shibuya Crossing",
+        "uk": "Make a різко праворуч at Shibuya Crossing",
+        "vi": "Make a phải gắt at Shibuya Crossing",
+        "yo": "Make a didasilẹ ọtun at Shibuya Crossing",
+        "zh-Hans": "Make a 急向右 at Shibuya Crossing"
+    }
+}

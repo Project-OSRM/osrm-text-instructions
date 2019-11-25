@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "continue",
+            "modifier": "slight left"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": " انعطف يساراً قليلاً لتبقى على Way Name ",
+        "da": "Drej let til venstre videre ad Way Name",
+        "de": "Leicht links weiter auf Way Name",
+        "en": "Make a slight left to stay on Way Name",
+        "eo": "Turniĝu ete maldekstren al Way Name",
+        "es": "Dobla levemente a la izquierda en Way Name",
+        "es-ES": "Doble levemente a la izquierda en Way Name",
+        "fi": "Jatka loivasti vasempaan pysyäksesi tiellä Way Name",
+        "fr": "Tourner légèrement à gauche pour rester sur Way Name",
+        "he": "פנה קלות שמאלה כדי להישאר על Way Name",
+        "hu": "Forduljon enyhén balra, majd maradjon a Way Name szakaszon",
+        "id": "Tetap agak di kiri ke Way Name",
+        "it": "Fai una leggera curva a sinistra per stare su Way Name",
+        "ja": "斜め左に曲がり、Way Nameを進む",
+        "ko": "약간 좌회전 하고 Way Name로 가세요.",
+        "my": "Way Nameပေါ်တွင်နေရန် ဘယ်ဘက်အနည်းငယ်ကွေ့ပါ",
+        "nl": "Links afbuigen om op Way Name te blijven",
+        "no": "Sving svakt til venstre for å bli værende på Way Name",
+        "pl": "Skręć w lewo w łagodny zakręt, aby pozostać na Way Name",
+        "pt-BR": "Faça uma curva suave a esquerda para manter-se na Way Name",
+        "pt-PT": "Vire ligeiramente à esquerda para se manter em Way Name",
+        "ro": "Virați ușor la stânga pe Way Name",
+        "ru": "Плавно поверните налево на Way Name",
+        "sl": "Zavijte rahlo levo, da ostanete na Way Name",
+        "sv": "Sväng vänster och fortsätt på Way Name",
+        "tr": "Way Name üzerinde kalmak için sola hafif dönüş yap",
+        "uk": "Поверніть плавно ліворуч щоб залишитись на Way Name",
+        "vi": "Nghiêng về bên trái để chạy tiếp trên Way Name",
+        "yo": "Ṣe diẹ si osi lati duro si Way Name",
+        "zh-Hans": "前方稍向左转，继续在Way Name上行驶"
+    }
+}

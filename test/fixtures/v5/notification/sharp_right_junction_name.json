@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "notification",
+            "modifier": "sharp right"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "تابع يمين حادا على Way Name",
+        "da": "Fortsæt skarpt til højre ad Way Name",
+        "de": "Scharf rechts weiterfahren auf Way Name",
+        "en": "Continue sharp right onto Way Name",
+        "eo": "Pluu dekstregen al Way Name",
+        "es": "Continúa cerrada a la derecha en Way Name",
+        "es-ES": "Continúa cerrada a la derecha por Way Name",
+        "fi": "Jatka jyrkästi oikeaan tielle Way Name",
+        "fr": "Continuer franchement à droite sur Way Name",
+        "he": "המשך חדה ימינה על Way Name",
+        "hu": "Hajtson tovább élesen jobbra a Way Name felé",
+        "id": "Lanjutkan tajam kanan menuju Way Name",
+        "it": "Continua a destra in Way Name",
+        "ja": "Way Nameを右戻るに進む",
+        "ko": "바로우회전해서 Way Name로 가세요.",
+        "my": "Way Name​ပေါ်သို့ ညာဘက် ထောင့်ချိုးကိုဆက်သွားပါ",
+        "nl": "Ga scherpe bocht naar rechts naar Way Name",
+        "no": "Fortsett skarp høyre til Way Name",
+        "pl": "Kontynuuj ostro w prawo na Way Name",
+        "pt-BR": "Continue fechada à direita em Way Name",
+        "pt-PT": "Continue acentuadamente à direita para Way Name",
+        "ro": "Continuați puternic dreapta pe Way Name",
+        "ru": "Двигайтесь направо по Way Name",
+        "sl": "Nadaljujte ostro desno na Way Name",
+        "sv": "Fortsätt höger på Way Name",
+        "tr": "Way Name üzerinde keskin sağ yönde devam et",
+        "uk": "Рухайтесь різко праворуч на Way Name",
+        "vi": "Chạy tiếp bên phải gắt trên Way Name",
+        "yo": "Tesiwaju didasilẹ ọtun pẹlẹpẹlẹ Way Name",
+        "zh-Hans": "继续急向右，驶入Way Name"
+    }
+}

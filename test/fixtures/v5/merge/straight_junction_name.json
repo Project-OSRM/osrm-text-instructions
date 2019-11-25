@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "merge",
+            "modifier": "straight"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "تابع قدماً على Way Name",
+        "da": "Flet ind på Way Name",
+        "de": "Geradeaus auffahren auf Way Name",
+        "en": "Merge onto Way Name",
+        "eo": "Enveturu al Way Name",
+        "es": "Incorpórate a Way Name",
+        "es-ES": "Incorpórate por Way Name",
+        "fi": "Liity tielle Way Name",
+        "fr": "S’insérer sur Way Name",
+        "he": "השתלב על Way Name",
+        "hu": "Soroljon be a Way Name felé",
+        "id": "Bergabung lurus ke arah Way Name",
+        "it": "Immettiti dritto in Way Name",
+        "ja": "合流し、Way Nameを進む",
+        "ko": "Way Name로 합류하세요.",
+        "my": "Way Name​ပေါ်သို့လာရောက်ပေါင်းဆုံပါ",
+        "nl": "Ga verder op Way Name",
+        "no": "Hold kjørefelt inn på Way Name",
+        "pl": "Włącz się prosto na Way Name",
+        "pt-BR": "Entre reto na Way Name",
+        "pt-PT": " Una-se ao tráfego para Way Name",
+        "ro": "Intrați pe Way Name",
+        "ru": "Продолжите движение по Way Name",
+        "sl": "Vključite se v promet na Way Name",
+        "sv": "Kör in på Way Name",
+        "tr": "Way Name üzerinde düz yöne gir",
+        "uk": "Приєднайтеся до потоку на Way Name",
+        "vi": "Nhập vào Way Name",
+        "yo": "Darapọ pẹlẹpẹlẹ Way Name",
+        "zh-Hans": "直行并道，驶入Way Name"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "end of road",
+            "modifier": "straight"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "Continue straight at Shibuya Crossing",
+        "da": "Continue straight at Shibuya Crossing",
+        "de": "Continue straight at Shibuya Crossing",
+        "en": "Continue straight at Shibuya Crossing",
+        "eo": "Continue straight at Shibuya Crossing",
+        "es": "Continue straight at Shibuya Crossing",
+        "es-ES": "Continue straight at Shibuya Crossing",
+        "fi": "Continue straight at Shibuya Crossing",
+        "fr": "Continue straight at Shibuya Crossing",
+        "he": "Continue straight at Shibuya Crossing",
+        "hu": "Continue straight at Shibuya Crossing",
+        "id": "Continue straight at Shibuya Crossing",
+        "it": "Continue straight at Shibuya Crossing",
+        "ja": "Shibuya Crossingを直進です",
+        "ko": "Continue straight at Shibuya Crossing",
+        "my": "Continue straight at Shibuya Crossing",
+        "nl": "Continue straight at Shibuya Crossing",
+        "no": "Continue straight at Shibuya Crossing",
+        "pl": "Continue straight at Shibuya Crossing",
+        "pt-BR": "Continue straight at Shibuya Crossing",
+        "pt-PT": "Continue straight at Shibuya Crossing",
+        "ro": "Continue straight at Shibuya Crossing",
+        "ru": "Continue straight at Shibuya Crossing",
+        "sl": "Continue straight at Shibuya Crossing",
+        "sv": "Continue straight at Shibuya Crossing",
+        "tr": "Continue straight at Shibuya Crossing",
+        "uk": "Continue straight at Shibuya Crossing",
+        "vi": "Continue straight at Shibuya Crossing",
+        "yo": "Continue straight at Shibuya Crossing",
+        "zh-Hans": "Continue straight at Shibuya Crossing"
+    }
+}

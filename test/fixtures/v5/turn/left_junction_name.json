@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "turn",
+            "modifier": "left"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "Turn left at Shibuya Crossing",
+        "da": "Turn left at Shibuya Crossing",
+        "de": "Turn left at Shibuya Crossing",
+        "en": "Turn left at Shibuya Crossing",
+        "eo": "Turn left at Shibuya Crossing",
+        "es": "Turn left at Shibuya Crossing",
+        "es-ES": "Turn left at Shibuya Crossing",
+        "fi": "Turn left at Shibuya Crossing",
+        "fr": "Turn left at Shibuya Crossing",
+        "he": "Turn left at Shibuya Crossing",
+        "hu": "Turn left at Shibuya Crossing",
+        "id": "Turn left at Shibuya Crossing",
+        "it": "Turn left at Shibuya Crossing",
+        "ja": "Shibuya Crossingを左折です",
+        "ko": "Turn left at Shibuya Crossing",
+        "my": "Turn left at Shibuya Crossing",
+        "nl": "Turn left at Shibuya Crossing",
+        "no": "Turn left at Shibuya Crossing",
+        "pl": "Turn left at Shibuya Crossing",
+        "pt-BR": "Turn left at Shibuya Crossing",
+        "pt-PT": "Turn left at Shibuya Crossing",
+        "ro": "Turn left at Shibuya Crossing",
+        "ru": "Turn left at Shibuya Crossing",
+        "sl": "Turn left at Shibuya Crossing",
+        "sv": "Turn left at Shibuya Crossing",
+        "tr": "Turn left at Shibuya Crossing",
+        "uk": "Turn left at Shibuya Crossing",
+        "vi": "Turn left at Shibuya Crossing",
+        "yo": "Turn left at Shibuya Crossing",
+        "zh-Hans": "Turn left at Shibuya Crossing"
+    }
+}

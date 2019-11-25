@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "turn",
+            "modifier": "straight"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "Go straight at Shibuya Crossing",
+        "da": "Go straight at Shibuya Crossing",
+        "de": "Go straight at Shibuya Crossing",
+        "en": "Go straight at Shibuya Crossing",
+        "eo": "Go straight at Shibuya Crossing",
+        "es": "Go straight at Shibuya Crossing",
+        "es-ES": "Go straight at Shibuya Crossing",
+        "fi": "Go straight at Shibuya Crossing",
+        "fr": "Go straight at Shibuya Crossing",
+        "he": "Go straight at Shibuya Crossing",
+        "hu": "Go straight at Shibuya Crossing",
+        "id": "Go straight at Shibuya Crossing",
+        "it": "Go straight at Shibuya Crossing",
+        "ja": "Shibuya Crossingを直進です",
+        "ko": "Go straight at Shibuya Crossing",
+        "my": "Go straight at Shibuya Crossing",
+        "nl": "Go straight at Shibuya Crossing",
+        "no": "Go straight at Shibuya Crossing",
+        "pl": "Go straight at Shibuya Crossing",
+        "pt-BR": "Go straight at Shibuya Crossing",
+        "pt-PT": "Go straight at Shibuya Crossing",
+        "ro": "Go straight at Shibuya Crossing",
+        "ru": "Go straight at Shibuya Crossing",
+        "sl": "Go straight at Shibuya Crossing",
+        "sv": "Go straight at Shibuya Crossing",
+        "tr": "Go straight at Shibuya Crossing",
+        "uk": "Go straight at Shibuya Crossing",
+        "vi": "Go straight at Shibuya Crossing",
+        "yo": "Go straight at Shibuya Crossing",
+        "zh-Hans": "Go straight at Shibuya Crossing"
+    }
+}

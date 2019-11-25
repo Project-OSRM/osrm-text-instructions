@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "notification",
+            "modifier": "straight"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "تابع مباشرةا على Way Name",
+        "da": "Fortsæt ligeud ad Way Name",
+        "de": "Geradeaus weiterfahren auf Way Name",
+        "en": "Continue straight onto Way Name",
+        "eo": "Pluu rekten al Way Name",
+        "es": "Continúa recto en Way Name",
+        "es-ES": "Continúa recto por Way Name",
+        "fi": "Jatka suoraan eteenpäin tielle Way Name",
+        "fr": "Continuer tout droit sur Way Name",
+        "he": "המשך ישר על Way Name",
+        "hu": "Hajtson tovább egyenesen a Way Name felé",
+        "id": "Lanjutkan lurus menuju Way Name",
+        "it": "Continua a dritto in Way Name",
+        "ja": "Way Nameを直進に進む",
+        "ko": "직진해서 Way Name로 가세요.",
+        "my": "Way Name​ပေါ်သို့ ဖြောင့်ဖြောင့်တန်းတန်းကိုဆက်သွားပါ",
+        "nl": "Ga rechtdoor naar Way Name",
+        "no": "Fortsett rett frem til Way Name",
+        "pl": "Kontynuuj prosto na Way Name",
+        "pt-BR": "Continue em frente em Way Name",
+        "pt-PT": "Continue em frente para Way Name",
+        "ro": "Continuați înainte pe Way Name",
+        "ru": "Двигайтесь прямо по Way Name",
+        "sl": "Nadaljujte naravnost na Way Name",
+        "sv": "Fortsätt rakt fram på Way Name",
+        "tr": "Way Name üzerinde düz yönde devam et",
+        "uk": "Рухайтесь прямо на Way Name",
+        "vi": "Chạy tiếp bên thẳng trên Way Name",
+        "yo": "Tesiwaju Taara pẹlẹpẹlẹ Way Name",
+        "zh-Hans": "继续直行，驶入Way Name"
+    }
+}

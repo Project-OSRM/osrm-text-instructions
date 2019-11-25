@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "end of road",
+            "modifier": "slight right"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "Turn يساراً قليلاً at Shibuya Crossing",
+        "da": "Turn svagt til højre at Shibuya Crossing",
+        "de": "Turn leicht rechts at Shibuya Crossing",
+        "en": "Turn slight right at Shibuya Crossing",
+        "eo": "Turn dekstreten at Shibuya Crossing",
+        "es": "Turn levemente a la derecha at Shibuya Crossing",
+        "es-ES": "Turn ligeramente a la derecha at Shibuya Crossing",
+        "fi": "Turn loivasti oikeaan at Shibuya Crossing",
+        "fr": "Turn légèrement à droite at Shibuya Crossing",
+        "he": "Turn קלה ימינה at Shibuya Crossing",
+        "hu": "Turn enyhén jobbra at Shibuya Crossing",
+        "id": "Turn agak ke kanan at Shibuya Crossing",
+        "it": "Turn destra leggermente at Shibuya Crossing",
+        "ja": "Shibuya Crossingを斜め右です",
+        "ko": "Turn 조금오른쪽 at Shibuya Crossing",
+        "my": "Turn ညာဘက် အနည်းငယ် at Shibuya Crossing",
+        "nl": "Turn iets naar rechts at Shibuya Crossing",
+        "no": "Turn litt til høyre at Shibuya Crossing",
+        "pl": "Turn łagodnie w prawo at Shibuya Crossing",
+        "pt-BR": "Turn suave à direita at Shibuya Crossing",
+        "pt-PT": "Turn ligeiramente à direita at Shibuya Crossing",
+        "ro": "Turn ușor dreapta at Shibuya Crossing",
+        "ru": "Turn правее at Shibuya Crossing",
+        "sl": "Turn rahlo desno at Shibuya Crossing",
+        "sv": "Turn höger at Shibuya Crossing",
+        "tr": "Turn hafif sağ at Shibuya Crossing",
+        "uk": "Turn плавно праворуч at Shibuya Crossing",
+        "vi": "Turn phải nghiêng at Shibuya Crossing",
+        "yo": "Turn diẹ ọtun at Shibuya Crossing",
+        "zh-Hans": "Turn 稍向右 at Shibuya Crossing"
+    }
+}

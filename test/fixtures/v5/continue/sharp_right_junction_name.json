@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "continue",
+            "modifier": "sharp right"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "انعطف يميناً حاداً لتبقى على Way Name",
+        "da": "Drej skarpt til højre videre ad Way Name",
+        "de": "Scharf rechts weiterfahren auf Way Name",
+        "en": "Make a sharp right to stay on Way Name",
+        "eo": "Turniĝu ege dekstren al Way Name",
+        "es": "Gira a la derecha en Way Name",
+        "es-ES": "Gire a la derecha en Way Name",
+        "fi": "Jatka jyrkästi oikeaan pysyäksesi tiellä Way Name",
+        "fr": "Tourner franchement à droite pour rester sur Way Name",
+        "he": "פנה בחדות ימינה כדי להישאר על Way Name",
+        "hu": "Forduljon élesen jobbra, majd maradjon a Way Name szakaszon",
+        "id": "Make a sharp right to stay on Way Name",
+        "it": "Fai una curva stretta a destra per stare su Way Name",
+        "ja": "大きく右に曲がり、Way Nameを進む",
+        "ko": "급우회전 하고 Way Name로 가세요.",
+        "my": "Way Nameပေါ်တွင်နေရန် ညာဘက်ထောင့်ချိုးကွေ့ပါ",
+        "nl": "Sla scherp rechts af om op Way Name te blijven",
+        "no": "Sving skarpt til høyre for å bli værende på Way Name",
+        "pl": "Skręć w prawo w ostry zakręt, aby pozostać na Way Name",
+        "pt-BR": "Faça uma curva fechada a direita para manter-se na Way Name",
+        "pt-PT": "Vire acentuadamente à direita para se manter em Way Name",
+        "ro": "Virați puternic la dreapta pe Way Name",
+        "ru": "Резко поверните направо на Way Name",
+        "sl": "Zavijte ostro desno, da ostanete na Way Name",
+        "sv": "Sväng höger och fortsätt på Way Name",
+        "tr": "Way Name üzerinde kalmak için sağa keskin dönüş yap",
+        "uk": "Поверніть різко праворуч щоб залишитись на Way Name",
+        "vi": "Quẹo gắt bên phải để chạy tiếp trên Way Name",
+        "yo": "Ṣe idasilẹ to dara lati duro si Way Name",
+        "zh-Hans": "前方右急转弯，继续在Way Name上行驶"
+    }
+}

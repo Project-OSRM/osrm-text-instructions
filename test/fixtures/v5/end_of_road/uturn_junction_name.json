@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "end of road",
+            "modifier": "uturn"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "da": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "de": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "en": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "eo": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "es": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "es-ES": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "fi": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "fr": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "he": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "hu": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "id": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "it": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "ja": "Shibuya Crossingの突き当りでUターンする",
+        "ko": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "my": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "nl": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "no": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "pl": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "pt-BR": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "pt-PT": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "ro": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "ru": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "sl": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "sv": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "tr": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "uk": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "vi": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "yo": "Make a U-turn at Shibuya Crossing at the end of the road",
+        "zh-Hans": "Make a U-turn at Shibuya Crossing at the end of the road"
+    }
+}
