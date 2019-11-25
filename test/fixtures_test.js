@@ -132,7 +132,7 @@ tape.test('verify existence/update fixtures', function(assert) {
         // junction_name
         step = Object.assign(clone(baseStep), {
             name: 'Way Name',
-            junction_name: 'Shibuya Crossing'
+            'junction_name': 'Shibuya Crossing'
         });
         checkOrWrite(step, `${basePath}_junction_name`);
     }
