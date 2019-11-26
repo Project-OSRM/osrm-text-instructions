@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Vire acentuadamente à esquerda",
                 "name": "Vire acentuadamente à esquerda para se manter em {way_name}",
-                "destination": "Vire acentuadamente à esquerda em direção a {destination}"
+                "destination": "Vire acentuadamente à esquerda em direção a {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Vire acentuadamente à direita",
                 "name": "Vire acentuadamente à direita para se manter em {way_name}",
-                "destination": "Vire acentuadamente à direita em direção a {destination}"
+                "destination": "Vire acentuadamente à direita em direção a {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Vire ligeiramente à esquerda",
                 "name": "Vire ligeiramente à esquerda para se manter em {way_name}",
-                "destination": "Vire ligeiramente à esquerda em direção a {destination}"
+                "destination": "Vire ligeiramente à esquerda em direção a {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Vire ligeiramente à direita",
                 "name": "Vire ligeiramente à direita para se manter em {way_name}",
-                "destination": "Vire ligeiramente à direita em direção a {destination}"
+                "destination": "Vire ligeiramente à direita em direção a {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Faça inversão de marcha",
                 "name": "Faça inversão de marcha e continue em {way_name}",
-                "destination": "Faça inversão de marcha em direção a {destination}"
+                "destination": "Faça inversão de marcha em direção a {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

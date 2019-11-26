@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "大きく左に曲がる",
                 "name": "大きく左に曲がり、{way_name}を進む",
-                "destination": "大きく左に曲がり、{destination}へ向かう"
+                "destination": "大きく左に曲がり、{destination}へ向かう",
+                "junction_name": "{junction_name}を左戻るです"
             },
             "sharp right": {
                 "default": "大きく右に曲がる",
                 "name": "大きく右に曲がり、{way_name}を進む",
-                "destination": "大きく右に曲がり、{destination}へ向かう"
+                "destination": "大きく右に曲がり、{destination}へ向かう",
+                "junction_name": "{junction_name}を右戻るです"
             },
             "slight left": {
                 "default": "斜め左に曲がる",
                 "name": "斜め左に曲がり、{way_name}を進む",
-                "destination": "斜め左に曲がり、{destination}へ向かう"
+                "destination": "斜め左に曲がり、{destination}へ向かう",
+                "junction_name": "{junction_name}を斜め左です"
             },
             "slight right": {
                 "default": "斜め右に曲がる",
                 "name": "斜め右に曲がり、{way_name}を進む",
-                "destination": "斜め右に曲がり、{destination}へ向かう"
+                "destination": "斜め右に曲がり、{destination}へ向かう",
+                "junction_name": "{junction_name}を斜め右です"
             },
             "uturn": {
                 "default": "Uターンする",
                 "name": "Uターンし、{way_name}を進む",
-                "destination": "Uターンし、{destination}へ向かう"
+                "destination": "Uターンし、{destination}へ向かう",
+                "junction_name": "{junction_name}をUターン"
             }
         },
         "depart": {

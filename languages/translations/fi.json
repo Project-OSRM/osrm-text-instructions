@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Jatka jyrkästi vasempaan",
                 "name": "Jatka jyrkästi vasempaan pysyäksesi tiellä {way_name}",
-                "destination": "Jatka jyrkästi vasempaan suuntana {destination}"
+                "destination": "Jatka jyrkästi vasempaan suuntana {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Jatka jyrkästi oikeaan",
                 "name": "Jatka jyrkästi oikeaan pysyäksesi tiellä {way_name}",
-                "destination": "Jatka jyrkästi oikeaan suuntana {destination}"
+                "destination": "Jatka jyrkästi oikeaan suuntana {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Jatka loivasti vasempaan",
                 "name": "Jatka loivasti vasempaan pysyäksesi tiellä {way_name}",
-                "destination": "Jatka loivasti vasempaan suuntana {destination}"
+                "destination": "Jatka loivasti vasempaan suuntana {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Jatka loivasti oikeaan",
                 "name": "Jatka loivasti oikeaan pysyäksesi tiellä {way_name}",
-                "destination": "Jatka loivasti oikeaan suuntana {destination}"
+                "destination": "Jatka loivasti oikeaan suuntana {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Tee U-käännös",
                 "name": "Tee U-käännös ja jatka tietä {way_name}",
-                "destination": "Tee U-käännös suuntana {destination}"
+                "destination": "Tee U-käännös suuntana {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

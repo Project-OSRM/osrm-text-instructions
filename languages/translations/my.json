@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "ဘယ်ဘက်ထောင့်ချိုးကွေ့ပါ",
                 "name": "{way_name}ပေါ်တွင်နေရန် ဘယ်ဘက်ထောင့်ချိုးကွေ့ပါ",
-                "destination": "{destination}ဆီသို့ ဘယ်ဘက်ထောင့်ချိုးကွေ့ပါ"
+                "destination": "{destination}ဆီသို့ ဘယ်ဘက်ထောင့်ချိုးကွေ့ပါ",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "ညာဘက် ထောင့်ချိုးကွေ့ပါ",
                 "name": "{way_name}ပေါ်တွင်နေရန် ညာဘက်ထောင့်ချိုးကွေ့ပါ",
-                "destination": "{destination}ဆီသို့ ညာဘက်ထောင့်ချိုးကွေ့ပါ"
+                "destination": "{destination}ဆီသို့ ညာဘက်ထောင့်ချိုးကွေ့ပါ",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "ဘယ်ဘက် အနည်းငယ်ကွေ့ပါ",
                 "name": "{way_name}ပေါ်တွင်နေရန် ဘယ်ဘက်အနည်းငယ်ကွေ့ပါ",
-                "destination": "{destination}ဆီသို့ ဘယ်ဘက်အနည်းငယ်ချိုးကွေ့ပါ"
+                "destination": "{destination}ဆီသို့ ဘယ်ဘက်အနည်းငယ်ချိုးကွေ့ပါ",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "ညာဘက် အနည်းငယ်ချိုးကွေ့ပါ",
                 "name": "{way_name}ပေါ်တွင်နေရန် ညာဘက်အနည်းငယ်ကွေ့ပါ",
-                "destination": "{destination}ဆီသို့ ညာဘက်အနည်းငယ်ချိုးကွေ့ပါ"
+                "destination": "{destination}ဆီသို့ ညာဘက်အနည်းငယ်ချိုးကွေ့ပါ",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "ဂ-ကွေ့ ကွေ့ပါ",
                 "name": "{way_name}လမ်းဘက်သို့ ဂ-ကွေ့ကွေ့ပြီးဆက်သွားပါ",
-                "destination": "{destination}ဆီသို့ ဂကွေ့ချိုးကွေ့ပါ"
+                "destination": "{destination}ဆီသို့ ဂကွေ့ချိုးကွေ့ပါ",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

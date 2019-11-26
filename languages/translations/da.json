@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Drej skarpt til venstre",
                 "name": "Drej skarpt til venstre videre ad {way_name}",
-                "destination": "Drej skarpt til venstre mod {destination}"
+                "destination": "Drej skarpt til venstre mod {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Drej skarpt til højre",
                 "name": "Drej skarpt til højre videre ad {way_name}",
-                "destination": "Drej skarpt til højre mod {destination}"
+                "destination": "Drej skarpt til højre mod {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Drej let til venstre",
                 "name": "Drej let til venstre videre ad {way_name}",
-                "destination": "Drej let til venstre mod {destination}"
+                "destination": "Drej let til venstre mod {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Drej let til højre",
                 "name": "Drej let til højre videre ad {way_name}",
-                "destination": "Drej let til højre mod {destination}"
+                "destination": "Drej let til højre mod {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Foretag en U-vending",
                 "name": "Foretag en U-vending tilbage ad {way_name}",
-                "destination": "Foretag en U-vending mod {destination}"
+                "destination": "Foretag en U-vending mod {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

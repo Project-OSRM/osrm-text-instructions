@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Svolta a sinistra",
                 "name": "Fai una curva stretta a sinistra per stare su {way_name}",
-                "destination": "Svolta a sinistra verso {destination}"
+                "destination": "Svolta a sinistra verso {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Svolta a destra",
                 "name": "Fai una curva stretta a destra per stare su {way_name}",
-                "destination": "Svolta a destra verso {destination}"
+                "destination": "Svolta a destra verso {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Fai una leggera curva a sinistra",
                 "name": "Fai una leggera curva a sinistra per stare su {way_name}",
-                "destination": "Fai una leggera curva a sinistra verso {destination}"
+                "destination": "Fai una leggera curva a sinistra verso {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Fai una leggera curva a destra",
                 "name": "Fai una leggera curva a destra per stare su {way_name}",
-                "destination": "Fai una leggera curva a destra verso {destination}"
+                "destination": "Fai una leggera curva a destra verso {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Fai un’inversione a U",
                 "name": "Fai un’inversione ad U poi continua su {way_name}",
-                "destination": "Fai un’inversione a U verso {destination}"
+                "destination": "Fai un’inversione a U verso {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

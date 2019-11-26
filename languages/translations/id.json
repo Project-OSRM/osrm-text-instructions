@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Belok kiri tajam",
                 "name": "Make a sharp left to stay on {way_name}",
-                "destination": "Belok kiri tajam menuju {destination}"
+                "destination": "Belok kiri tajam menuju {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Belok kanan tajam",
                 "name": "Make a sharp right to stay on {way_name}",
-                "destination": "Belok kanan tajam menuju {destination}"
+                "destination": "Belok kanan tajam menuju {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Tetap agak di kiri",
                 "name": "Tetap agak di kiri ke {way_name}",
-                "destination": "Tetap agak di kiri menuju {destination}"
+                "destination": "Tetap agak di kiri menuju {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Tetap agak di kanan",
                 "name": "Tetap agak di kanan ke {way_name}",
-                "destination": "Tetap agak di kanan menuju {destination}"
+                "destination": "Tetap agak di kanan menuju {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Putar balik",
                 "name": "Putar balik ke arah {way_name}",
-                "destination": "Putar balik menuju {destination}"
+                "destination": "Putar balik menuju {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

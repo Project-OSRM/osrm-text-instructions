@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Поверніть різко ліворуч",
                 "name": "Поверніть різко ліворуч щоб залишитись на {way_name}",
-                "destination": "Поверніть різко ліворуч у напрямку {destination}"
+                "destination": "Поверніть різко ліворуч у напрямку {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Поверніть різко праворуч",
                 "name": "Поверніть різко праворуч щоб залишитись на {way_name}",
-                "destination": "Поверніть різко праворуч у напрямку {destination}"
+                "destination": "Поверніть різко праворуч у напрямку {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Поверніть різко ліворуч",
                 "name": "Поверніть плавно ліворуч щоб залишитись на {way_name}",
-                "destination": "Поверніть плавно ліворуч у напрямку {destination}"
+                "destination": "Поверніть плавно ліворуч у напрямку {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Поверніть плавно праворуч",
                 "name": "Поверніть плавно праворуч щоб залишитись на {way_name}",
-                "destination": "Поверніть плавно праворуч у напрямку {destination}"
+                "destination": "Поверніть плавно праворуч у напрямку {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Здійсніть розворот",
                 "name": "Здійсніть розворот та рухайтесь по {way_name}",
-                "destination": "Здійсніть розворот у напрямку {destination}"
+                "destination": "Здійсніть розворот у напрямку {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

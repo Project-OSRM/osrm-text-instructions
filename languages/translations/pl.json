@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Skręć ostro w lewo",
                 "name": "Skręć w lewo w ostry zakręt, aby pozostać na {way_name}",
-                "destination": "Skręć ostro w lewo w kierunku {destination}"
+                "destination": "Skręć ostro w lewo w kierunku {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Skręć ostro w prawo",
                 "name": "Skręć w prawo w ostry zakręt, aby pozostać na {way_name}",
-                "destination": "Skręć ostro w prawo w kierunku {destination}"
+                "destination": "Skręć ostro w prawo w kierunku {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Skręć w lewo w łagodny zakręt",
                 "name": "Skręć w lewo w łagodny zakręt, aby pozostać na {way_name}",
-                "destination": "Skręć w lewo w łagodny zakręt na {destination}"
+                "destination": "Skręć w lewo w łagodny zakręt na {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Skręć w prawo w łagodny zakręt",
                 "name": "Skręć w prawo w łagodny zakręt, aby pozostać na {way_name}",
-                "destination": "Skręć w prawo w łagodny zakręt na {destination}"
+                "destination": "Skręć w prawo w łagodny zakręt na {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Zawróć",
                 "name": "Zawróć i jedź dalej {way_name}",
-                "destination": "Zawróć w kierunku {destination}"
+                "destination": "Zawróć w kierunku {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

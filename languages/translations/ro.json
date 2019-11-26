@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Virați puternic la stânga",
                 "name": "Virați puternic la stânga pe {way_name}",
-                "destination": "Virați puternic la stânga spre {destination}"
+                "destination": "Virați puternic la stânga spre {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Virați puternic la dreapta",
                 "name": "Virați puternic la dreapta pe {way_name}",
-                "destination": "Virați puternic la dreapta spre {destination}"
+                "destination": "Virați puternic la dreapta spre {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Virați ușor la stânga",
                 "name": "Virați ușor la stânga pe {way_name}",
-                "destination": "Virați ușor la stânga spre {destination}"
+                "destination": "Virați ușor la stânga spre {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Virați ușor la dreapta",
                 "name": "Virați ușor la dreapta pe {way_name}",
-                "destination": "Virați ușor la dreapta spre {destination}"
+                "destination": "Virați ușor la dreapta spre {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Întoarceți-vă",
                 "name": "Întoarceți-vă și continuați pe {way_name}",
-                "destination": "Întoarceți-vă spre {destination}"
+                "destination": "Întoarceți-vă spre {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

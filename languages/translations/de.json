@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Scharf links",
                 "name": "Scharf links weiterfahren auf {way_name}",
-                "destination": "Scharf links Richtung {destination}"
+                "destination": "Scharf links Richtung {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Scharf rechts",
                 "name": "Scharf rechts weiterfahren auf {way_name}",
-                "destination": "Scharf rechts Richtung {destination}"
+                "destination": "Scharf rechts Richtung {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Leicht links",
                 "name": "Leicht links weiter auf {way_name}",
-                "destination": "Leicht links weiter Richtung {destination}"
+                "destination": "Leicht links weiter Richtung {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Leicht rechts weiter",
                 "name": "Leicht rechts weiter auf {way_name}",
-                "destination": "Leicht rechts weiter Richtung {destination}"
+                "destination": "Leicht rechts weiter Richtung {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "180°-Wendung",
                 "name": "180°-Wendung auf {way_name}",
-                "destination": "180°-Wendung Richtung {destination}"
+                "destination": "180°-Wendung Richtung {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

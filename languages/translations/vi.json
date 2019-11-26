@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Quẹo gắt bên trái",
                 "name": "Quẹo gắt bên trái để chạy tiếp trên {way_name}",
-                "destination": "Quẹo gắt bên trái về {destination}"
+                "destination": "Quẹo gắt bên trái về {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Quẹo gắt bên phải",
                 "name": "Quẹo gắt bên phải để chạy tiếp trên {way_name}",
-                "destination": "Quẹo gắt bên phải về {destination}"
+                "destination": "Quẹo gắt bên phải về {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Nghiêng về bên trái",
                 "name": "Nghiêng về bên trái để chạy tiếp trên {way_name}",
-                "destination": "Nghiêng về bên trái về {destination}"
+                "destination": "Nghiêng về bên trái về {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Nghiêng về bên phải",
                 "name": "Nghiêng về bên phải để chạy tiếp trên {way_name}",
-                "destination": "Nghiêng về bên phải về {destination}"
+                "destination": "Nghiêng về bên phải về {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Quẹo ngược lại",
                 "name": "Quẹo ngược lại trên {way_name}",
-                "destination": "Quẹo ngược về {destination}"
+                "destination": "Quẹo ngược về {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

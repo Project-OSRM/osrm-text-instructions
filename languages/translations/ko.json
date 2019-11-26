@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "급좌회전 하세요.",
                 "name": "급좌회전 하신 후 {way_name}로 가세요.",
-                "destination": "급좌회전 하신 후 {destination}로 가세요."
+                "destination": "급좌회전 하신 후 {destination}로 가세요.",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "급우회전 하세요.",
                 "name": "급우회전 하고 {way_name}로 가세요.",
-                "destination": "급우회전 하신 후 {destination}로 가세요."
+                "destination": "급우회전 하신 후 {destination}로 가세요.",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "약간 좌회전하세요.",
                 "name": "약간 좌회전 하고 {way_name}로 가세요.",
-                "destination": "약간 좌회전 하신 후 {destination}로 가세요."
+                "destination": "약간 좌회전 하신 후 {destination}로 가세요.",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "약간 우회전하세요.",
                 "name": "약간 우회전 하고 {way_name}로 가세요.",
-                "destination": "약간 우회전 하신 후 {destination}로 가세요."
+                "destination": "약간 우회전 하신 후 {destination}로 가세요.",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "유턴 하세요",
                 "name": "유턴해서 {way_name}로 가세요.",
-                "destination": "유턴하신 후 {destination}로 가세요."
+                "destination": "유턴하신 후 {destination}로 가세요.",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Ṣe kan osi osi",
                 "name": "Ṣe ọpa didasilẹ lati duro si {way_name}",
-                "destination": "Ṣe idasilẹ mimu si ọna {destination}"
+                "destination": "Ṣe idasilẹ mimu si ọna {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Ṣe idasilẹ to dara",
                 "name": "Ṣe idasilẹ to dara lati duro si {way_name}",
-                "destination": "Ṣe didasilẹ si ọtun si ọna {destination}"
+                "destination": "Ṣe didasilẹ si ọtun si ọna {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Ṣe diẹ osi",
                 "name": "Ṣe diẹ si osi lati duro si {way_name}",
-                "destination": "Ṣe diẹ si apa osi si ọna {destination}"
+                "destination": "Ṣe diẹ si apa osi si ọna {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Ṣe diẹ diẹ si ọtun",
                 "name": "Ṣe diẹ si ọtun lati duro si {way_name}",
-                "destination": "Ṣe diẹ si ọtun si ọna {destination}"
+                "destination": "Ṣe diẹ si ọtun si ọna {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Ṣe ayipada U",
                 "name": "Ṣe ayipada U ati tẹsiwaju {way_name}",
-                "destination": "Ṣe ọna U-ọna si ọna {destination}"
+                "destination": "Ṣe ọna U-ọna si ọna {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

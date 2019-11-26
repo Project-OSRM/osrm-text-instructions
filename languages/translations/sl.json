@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Zavijte ostro levo",
                 "name": "Zavijte ostro levo, da ostanete na {way_name}",
-                "destination": "Zavijte ostro levo v smeri proti {destination}"
+                "destination": "Zavijte ostro levo v smeri proti {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Zavijte ostro desno",
                 "name": "Zavijte ostro desno, da ostanete na {way_name}",
-                "destination": "Zavijte ostro desno v smeri proti {destination}"
+                "destination": "Zavijte ostro desno v smeri proti {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Zavijte rahlo levo",
                 "name": "Zavijte rahlo levo, da ostanete na {way_name}",
-                "destination": "Zavijte rahlo levo v smeri proti {destination}"
+                "destination": "Zavijte rahlo levo v smeri proti {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Zavijte rahlo desno",
                 "name": "Zavijte rahlo desno, da ostanete na {way_name}",
-                "destination": "Zavijte rahlo desno v smeri proti {destination}"
+                "destination": "Zavijte rahlo desno v smeri proti {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Polkrožno obrnite",
                 "name": "Polkrožno obrnite in nadaljujte po {way_name}",
-                "destination": "Polkrožno obrnite v smeri proti {destination}"
+                "destination": "Polkrožno obrnite v smeri proti {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

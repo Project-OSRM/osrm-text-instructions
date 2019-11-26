@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "انعطف يساراً حاداً",
                 "name": "انعطف يساراً حاداً لتبقى على  {way_name}",
-                "destination": "انعطف يساراً حاداً نحو {destination}"
+                "destination": "انعطف يساراً حاداً نحو {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "انعطف يمينا حاداً ",
                 "name": "انعطف يميناً حاداً لتبقى على {way_name}",
-                "destination": "انعطف يميناً حاداً نحو {destination}"
+                "destination": "انعطف يميناً حاداً نحو {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "انعطف يساراً قليلاً",
                 "name": " انعطف يساراً قليلاً لتبقى على  {way_name} ",
-                "destination": "انعطف يساراً قليلاً نحو {destination}"
+                "destination": "انعطف يساراً قليلاً نحو {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "انعطف يميناً قليلاً",
                 "name": "انعطف يميناً قليلاً لتبقى على {way_name}",
-                "destination": "انعطف يميناً قليلاً نحو {destination} "
+                "destination": "انعطف يميناً قليلاً نحو {destination} ",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "انعطف دوراناً عكسياً",
                 "name": "انعطف دوراناً عكسياً  وتابع نحو {way_name}",
-                "destination": "انعطف دوراناً عكسياً نحو {destination}"
+                "destination": "انعطف دوراناً عكسياً نحو {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Forduljon élesen balra",
                 "name": "Forduljon élesen balra, majd maradjon {way_name:superessive}",
-                "destination": "Forduljon élesen balra {destination:sublative_toward}"
+                "destination": "Forduljon élesen balra {destination:sublative_toward}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Forduljon élesen jobbra",
                 "name": "Forduljon élesen jobbra, majd maradjon {way_name:superessive}",
-                "destination": "Forduljon élesen balra {destination:sublative_toward}"
+                "destination": "Forduljon élesen balra {destination:sublative_toward}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Forduljon enyhén balra",
                 "name": "Forduljon enyhén balra, majd maradjon {way_name:superessive}",
-                "destination": "Forduljon enyhén balra {destination:sublative_toward}"
+                "destination": "Forduljon enyhén balra {destination:sublative_toward}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Forduljon enyhén jobbra",
                 "name": "Forduljon enyhén jobbra, majd maradjon {way_name:superessive}",
-                "destination": "Forduljon enyhén jobbra {destination:sublative_toward}"
+                "destination": "Forduljon enyhén jobbra {destination:sublative_toward}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Forduljon vissza",
                 "name": "Forduljon vissza, majd folytassa {way_name:superessive}",
-                "destination": "Forduljon vissza {destination:sublative_toward}"
+                "destination": "Forduljon vissza {destination:sublative_toward}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

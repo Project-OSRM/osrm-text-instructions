@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Sväng vänster",
                 "name": "Sväng vänster och fortsätt på {way_name}",
-                "destination": "Sväng vänster mot {destination}"
+                "destination": "Sväng vänster mot {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Sväng höger",
                 "name": "Sväng höger och fortsätt på {way_name}",
-                "destination": "Sväng höger mot {destination}"
+                "destination": "Sväng höger mot {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Sväng vänster",
                 "name": "Sväng vänster och fortsätt på {way_name}",
-                "destination": "Sväng vänster mot {destination}"
+                "destination": "Sväng vänster mot {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Sväng höger",
                 "name": "Sväng höger och fortsätt på {way_name}",
-                "destination": "Sväng höger mot {destination}"
+                "destination": "Sväng höger mot {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Gör en U-sväng",
                 "name": "Gör en U-sväng och fortsätt på {way_name}",
-                "destination": "Gör en U-sväng mot {destination}"
+                "destination": "Gör en U-sväng mot {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

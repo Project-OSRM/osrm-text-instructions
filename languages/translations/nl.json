@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Linksaf",
                 "name": "Sla scherp links af om op {way_name} te blijven",
-                "destination": "Linksaf richting {destination}"
+                "destination": "Linksaf richting {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Rechtsaf",
                 "name": "Sla scherp rechts af om op {way_name} te blijven",
-                "destination": "Rechtsaf richting {destination}"
+                "destination": "Rechtsaf richting {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Ga links",
                 "name": "Links afbuigen om op {way_name} te blijven",
-                "destination": "Rechts afbuigen om op {destination} te blijven"
+                "destination": "Rechts afbuigen om op {destination} te blijven",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Rechts afbuigen",
                 "name": "Rechts afbuigen om op {way_name} te blijven",
-                "destination": "Rechts afbuigen richting {destination}"
+                "destination": "Rechts afbuigen richting {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Keer om",
                 "name": "Draai om en ga verder op {way_name}",
-                "destination": "Keer om richting {destination}"
+                "destination": "Keer om richting {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

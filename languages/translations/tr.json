@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Sola keskin dönüş yap",
                 "name": "{way_name} üzerinde kalmak için sola keskin dönüş yap",
-                "destination": "{destination} istikametinde sola keskin dönüş yap"
+                "destination": "{destination} istikametinde sola keskin dönüş yap",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Sağa keskin dönüş yap",
                 "name": "{way_name} üzerinde kalmak için sağa keskin dönüş yap",
-                "destination": "{destination} istikametinde sağa keskin dönüş yap"
+                "destination": "{destination} istikametinde sağa keskin dönüş yap",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Sola hafif dönüş yap",
                 "name": "{way_name} üzerinde kalmak için sola hafif dönüş yap",
-                "destination": "{destination} istikametinde sola hafif dönüş yap"
+                "destination": "{destination} istikametinde sola hafif dönüş yap",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Sağa hafif dönüş yap",
                 "name": "{way_name} üzerinde kalmak için sağa hafif dönüş yap",
-                "destination": "{destination} istikametinde sağa hafif dönüş yap"
+                "destination": "{destination} istikametinde sağa hafif dönüş yap",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "U dönüşü yapın",
                 "name": "Bir U-dönüşü yap ve {way_name} devam et",
-                "destination": "{destination} istikametinde bir U-dönüşü yap"
+                "destination": "{destination} istikametinde bir U-dönüşü yap",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Faça uma curva fechada a esquerda",
                 "name": "Faça uma curva fechada a esquerda para manter-se na {way_name}",
-                "destination": "Faça uma curva fechada a esquerda sentido {destination}"
+                "destination": "Faça uma curva fechada a esquerda sentido {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Faça uma curva fechada a direita",
                 "name": "Faça uma curva fechada a direita para manter-se na {way_name}",
-                "destination": "Faça uma curva fechada a direita sentido {destination}"
+                "destination": "Faça uma curva fechada a direita sentido {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Faça uma curva suave a esquerda",
                 "name": "Faça uma curva suave a esquerda para manter-se na {way_name}",
-                "destination": "Faça uma curva suave a esquerda em direção a {destination}"
+                "destination": "Faça uma curva suave a esquerda em direção a {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Faça uma curva suave a direita",
                 "name": "Faça uma curva suave a direita para manter-se na {way_name}",
-                "destination": "Faça uma curva suave a direita em direção a {destination}"
+                "destination": "Faça uma curva suave a direita em direção a {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Faça o retorno",
                 "name": "Faça o retorno e continue em {way_name}",
-                "destination": "Faça o retorno sentido {destination}"
+                "destination": "Faça o retorno sentido {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Sving skarpt til venstre",
                 "name": "Sving skarpt til venstre for å bli værende på {way_name}",
-                "destination": "Sving skarpt til venstre mot {destination}"
+                "destination": "Sving skarpt til venstre mot {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Sving skarpt til høyre",
                 "name": "Sving skarpt til høyre for å bli værende på {way_name}",
-                "destination": "Sving skarpt mot {destination}"
+                "destination": "Sving skarpt mot {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Sving svakt til venstre",
                 "name": "Sving svakt til venstre for å bli værende på {way_name}",
-                "destination": "Sving svakt til venstre mot {destination}"
+                "destination": "Sving svakt til venstre mot {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Sving svakt til høyre",
                 "name": "Sving svakt til høyre for å bli værende på {way_name}",
-                "destination": "Sving svakt til høyre mot {destination}"
+                "destination": "Sving svakt til høyre mot {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Ta en U-sving",
                 "name": "Ta en U-sving og fortsett på {way_name}",
-                "destination": "Ta en U-sving mot {destination}"
+                "destination": "Ta en U-sving mot {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

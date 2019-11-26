@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "פנה בחדות שמאלה",
                 "name": "פנה בחדות שמאלה כדי להישאר על {way_name}",
-                "destination": "פנה בחדות שמאלה לכיוון {destination}"
+                "destination": "פנה בחדות שמאלה לכיוון {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "פנה בחדות ימינה",
                 "name": "פנה בחדות ימינה כדי להישאר על {way_name}",
-                "destination": "פנה בחדות ימינה לכיוון {destination}"
+                "destination": "פנה בחדות ימינה לכיוון {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "פנה קלות שמאלה",
                 "name": "פנה קלות שמאלה כדי להישאר על {way_name}",
-                "destination": "פנה קלות שמאלה לכיוון {destination}"
+                "destination": "פנה קלות שמאלה לכיוון {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "פנה קלות ימינה",
                 "name": "פנה קלות ימינה כדי להישאר על {way_name}",
-                "destination": "פנה קלות ימינה לכיוון {destination}"
+                "destination": "פנה קלות ימינה לכיוון {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "פנה פניית פרסה",
                 "name": "פנה פניית פרסה והמשך על {way_name}",
-                "destination": "פנה פניית פרסה לכיוון {destination}"
+                "destination": "פנה פניית פרסה לכיוון {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {

@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Gire a la izquierda",
                 "name": "Gire a la izquierda en {way_name}",
-                "destination": "Gire a la izquierda hacia {destination}"
+                "destination": "Gire a la izquierda hacia {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Gire a la derecha",
                 "name": "Gire a la derecha en {way_name}",
-                "destination": "Gire a la derecha hacia {destination}"
+                "destination": "Gire a la derecha hacia {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Gire a la izquierda",
                 "name": "Doble levemente a la izquierda en {way_name}",
-                "destination": "Gire a la izquierda hacia {destination}"
+                "destination": "Gire a la izquierda hacia {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Gire a la izquierda",
                 "name": "Doble levemente a la derecha en {way_name}",
-                "destination": "Gire a la izquierda hacia {destination}"
+                "destination": "Gire a la izquierda hacia {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Haz un cambio de sentido",
                 "name": "Haz un cambio de sentido y continúa en {way_name}",
-                "destination": "Haz un cambio de sentido hacia {destination}"
+                "destination": "Haz un cambio de sentido hacia {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {
