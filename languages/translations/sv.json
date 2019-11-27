@@ -133,31 +133,31 @@
                 "default": "Sväng vänster",
                 "name": "Sväng vänster och fortsätt på {way_name}",
                 "destination": "Sväng vänster mot {destination}",
-                "junction_name": "Make a sharp left at {junction_name}"
+                "junction_name": "Sväng vänster vid {junction_name}"
             },
             "sharp right": {
                 "default": "Sväng höger",
                 "name": "Sväng höger och fortsätt på {way_name}",
                 "destination": "Sväng höger mot {destination}",
-                "junction_name": "Make a sharp right at {junction_name}"
+                "junction_name": "Sväng höger vid {junction_name}"
             },
             "slight left": {
                 "default": "Sväng vänster",
                 "name": "Sväng vänster och fortsätt på {way_name}",
                 "destination": "Sväng vänster mot {destination}",
-                "junction_name": "Make a slight left at {junction_name}"
+                "junction_name": "Sväng vänster vid {junction_name}"
             },
             "slight right": {
                 "default": "Sväng höger",
                 "name": "Sväng höger och fortsätt på {way_name}",
                 "destination": "Sväng höger mot {destination}",
-                "junction_name": "Make a slight right at {junction_name}"
+                "junction_name": "Sväng höger vid {junction_name}"
             },
             "uturn": {
                 "default": "Gör en U-sväng",
                 "name": "Gör en U-sväng och fortsätt på {way_name}",
                 "destination": "Gör en U-sväng mot {destination}",
-                "junction_name": "Make a U-turn at {junction_name}"
+                "junction_name": "Gör en U-sväng vid {junction_name}"
             }
         },
         "depart": {
@@ -172,19 +172,19 @@
                 "default": "Sväng {modifier}",
                 "name": "Sväng {modifier} in på {way_name}",
                 "destination": "Sväng {modifier} mot {destination}",
-                "junction_name": "Turn {modifier} at {junction_name}"
+                "junction_name": "Sväng {modifier} vid {junction_name}"
             },
             "straight": {
                 "default": "Fortsätt rakt fram",
                 "name": "Fortsätt rakt fram in på {way_name}",
                 "destination": "Fortsätt rakt fram mot {destination}",
-                "junction_name": "Continue straight at {junction_name}"
+                "junction_name": "Fortsätt rakt fram vid {junction_name}"
             },
             "uturn": {
                 "default": "Gör en U-sväng i slutet av vägen",
                 "name": "Gör en U-sväng in på {way_name} i slutet av vägen",
                 "destination": "Gör en U-sväng mot {destination} i slutet av vägen",
-                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
+                "junction_name": "Gör en U-sväng vid {junction_name}"
             }
         },
         "fork": {
@@ -472,25 +472,25 @@
                 "default": "Sväng {modifier}",
                 "name": "Sväng {modifier} in på {way_name}",
                 "destination": "Sväng {modifier} mot {destination}",
-                "junction_name": "Make a {modifier} at {junction_name}"
+                "junction_name": "Sväng {modifier} vid {junction_name}"
             },
             "left": {
                 "default": "Sväng vänster",
                 "name": "Sväng vänster in på {way_name}",
                 "destination": "Sväng vänster mot {destination}",
-                "junction_name": "Turn left at {junction_name}"
+                "junction_name": "Sväng vänster vid {junction_name}"
             },
             "right": {
                 "default": "Sväng höger",
                 "name": "Sväng höger in på {way_name}",
                 "destination": "Sväng höger mot {destination}",
-                "junction_name": "Turn right at {junction_name}"
+                "junction_name": "Sväng höger vid {junction_name}"
             },
             "straight": {
                 "default": "Kör rakt fram",
                 "name": "Kör rakt fram in på {way_name}",
                 "destination": "Kör rakt fram mot {destination}",
-                "junction_name": "Go straight at {junction_name}"
+                "junction_name": "Kör rakt fram vid {junction_name}"
             }
         },
         "use lane": {

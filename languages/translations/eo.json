@@ -133,31 +133,31 @@
                 "default": "Turniĝu ege maldekstren",
                 "name": "Turniĝu ege maldekstren al {way_name}",
                 "destination": "Turniĝu ege maldekstren direkte al {destination}",
-                "junction_name": "Make a sharp left at {junction_name}"
+                "junction_name": "Turniĝu ege maldekstren ĉe {junction_name}"
             },
             "sharp right": {
                 "default": "Turniĝu ege dekstren",
                 "name": "Turniĝu ege dekstren al {way_name}",
                 "destination": "Turniĝu ege dekstren direkte al {destination}",
-                "junction_name": "Make a sharp right at {junction_name}"
+                "junction_name": "Turniĝu ege dekstren ĉe {junction_name}"
             },
             "slight left": {
                 "default": "Turniĝu ete maldekstren",
                 "name": "Turniĝu ete maldekstren al {way_name}",
                 "destination": "Turniĝu ete maldekstren direkte al {destination}",
-                "junction_name": "Make a slight left at {junction_name}"
+                "junction_name": "Turniĝu ete maldekstren ĉe {junction_name}"
             },
             "slight right": {
                 "default": "Turniĝu ete dekstren",
                 "name": "Turniĝu ete dekstren al {way_name}",
                 "destination": "Turniĝu ete dekstren direkte al {destination}",
-                "junction_name": "Make a slight right at {junction_name}"
+                "junction_name": "Turniĝu ete dekstren ĉe {junction_name}"
             },
             "uturn": {
                 "default": "Turniĝu malantaŭen",
                 "name": "Turniĝu malantaŭen al {way_name}",
                 "destination": "Turniĝu malantaŭen direkte al {destination}",
-                "junction_name": "Make a U-turn at {junction_name}"
+                "junction_name": "Turniĝu malantaŭen ĉe {junction_name}"
             }
         },
         "depart": {
@@ -172,19 +172,19 @@
                 "default": "Veturu {modifier}",
                 "name": "Veturu {modifier} direkte al {way_name}",
                 "destination": "Veturu {modifier} direkte al {destination}",
-                "junction_name": "Turn {modifier} at {junction_name}"
+                "junction_name": "Veturu {modifier} ĉe {junction_name}"
             },
             "straight": {
                 "default": "Veturu rekten",
                 "name": "Veturu rekten al {way_name}",
                 "destination": "Veturu rekten direkte al {destination}",
-                "junction_name": "Continue straight at {junction_name}"
+                "junction_name": "Veturu rekten ĉe {junction_name}"
             },
             "uturn": {
                 "default": "Turniĝu malantaŭen ĉe fino de la vojo",
                 "name": "Turniĝu malantaŭen al {way_name} ĉe fino de la vojo",
                 "destination": "Turniĝu malantaŭen direkte al {destination} ĉe fino de la vojo",
-                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
+                "junction_name": "Turniĝu malantaŭen ĉe {junction_name} ĉe fino de la vojo"
             }
         },
         "fork": {
@@ -472,25 +472,25 @@
                 "default": "Veturu {modifier}",
                 "name": "Veturu {modifier} al {way_name}",
                 "destination": "Veturu {modifier} direkte al {destination}",
-                "junction_name": "Make a {modifier} at {junction_name}"
+                "junction_name": "Veturu {modifier} ĉe {junction_name}"
             },
             "left": {
                 "default": "Turniĝu maldekstren",
                 "name": "Turniĝu maldekstren al {way_name}",
                 "destination": "Turniĝu maldekstren direkte al {destination}",
-                "junction_name": "Turn left at {junction_name}"
+                "junction_name": "Turniĝu maldekstren ĉe {junction_name}"
             },
             "right": {
                 "default": "Turniĝu dekstren",
                 "name": "Turniĝu dekstren al {way_name}",
                 "destination": "Turniĝu dekstren direkte al {destination}",
-                "junction_name": "Turn right at {junction_name}"
+                "junction_name": "Turniĝu dekstren ĉe {junction_name}"
             },
             "straight": {
                 "default": "Veturu rekten",
                 "name": "Veturu rekten al {way_name}",
                 "destination": "Veturu rekten direkte al {destination}",
-                "junction_name": "Go straight at {junction_name}"
+                "junction_name": "Veturu rekten ĉe {junction_name}"
             }
         },
         "use lane": {

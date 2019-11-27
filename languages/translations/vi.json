@@ -133,31 +133,31 @@
                 "default": "Quẹo gắt bên trái",
                 "name": "Quẹo gắt bên trái để chạy tiếp trên {way_name}",
                 "destination": "Quẹo gắt bên trái về {destination}",
-                "junction_name": "Make a sharp left at {junction_name}"
+                "junction_name": "Quẹo gắt bên trái ở {junction_name}"
             },
             "sharp right": {
                 "default": "Quẹo gắt bên phải",
                 "name": "Quẹo gắt bên phải để chạy tiếp trên {way_name}",
                 "destination": "Quẹo gắt bên phải về {destination}",
-                "junction_name": "Make a sharp right at {junction_name}"
+                "junction_name": "Quẹo gắt bên phải ở {junction_name}"
             },
             "slight left": {
                 "default": "Nghiêng về bên trái",
                 "name": "Nghiêng về bên trái để chạy tiếp trên {way_name}",
                 "destination": "Nghiêng về bên trái về {destination}",
-                "junction_name": "Make a slight left at {junction_name}"
+                "junction_name": "Nghiêng về bên trái ở {junction_name}"
             },
             "slight right": {
                 "default": "Nghiêng về bên phải",
                 "name": "Nghiêng về bên phải để chạy tiếp trên {way_name}",
                 "destination": "Nghiêng về bên phải về {destination}",
-                "junction_name": "Make a slight right at {junction_name}"
+                "junction_name": "Nghiêng về bên phải ở {junction_name}"
             },
             "uturn": {
                 "default": "Quẹo ngược lại",
                 "name": "Quẹo ngược lại trên {way_name}",
                 "destination": "Quẹo ngược về {destination}",
-                "junction_name": "Make a U-turn at {junction_name}"
+                "junction_name": "Quẹo ngược lại ở {junction_name}"
             }
         },
         "depart": {
@@ -172,19 +172,19 @@
                 "default": "Quẹo {modifier}",
                 "name": "Quẹo {modifier} vào {way_name}",
                 "destination": "Quẹo {modifier} về {destination}",
-                "junction_name": "Turn {modifier} at {junction_name}"
+                "junction_name": "Quẹo {modifier} ở {junction_name}"
             },
             "straight": {
                 "default": "Chạy thẳng",
                 "name": "Chạy tiếp trên {way_name}",
                 "destination": "Chạy tiếp về {destination}",
-                "junction_name": "Continue straight at {junction_name}"
+                "junction_name": "Chạy thẳng ở {junction_name}"
             },
             "uturn": {
                 "default": "Quẹo ngược lại tại cuối đường",
                 "name": "Quẹo ngược vào {way_name} tại cuối đường",
                 "destination": "Quẹo ngược về {destination} tại cuối đường",
-                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
+                "junction_name": "Quẹo ngược lại ở {junction_name}"
             }
         },
         "fork": {
@@ -472,25 +472,25 @@
                 "default": "Quẹo {modifier}",
                 "name": "Quẹo {modifier} vào {way_name}",
                 "destination": "Quẹo {modifier} về {destination}",
-                "junction_name": "Make a {modifier} at {junction_name}"
+                "junction_name": "Quẹo {modifier} ở {junction_name}"
             },
             "left": {
                 "default": "Quẹo trái",
                 "name": "Quẹo trái vào {way_name}",
                 "destination": "Quẹo trái về {destination}",
-                "junction_name": "Turn left at {junction_name}"
+                "junction_name": "Quẹo trái ở {junction_name}"
             },
             "right": {
                 "default": "Quẹo phải",
                 "name": "Quẹo phải vào {way_name}",
                 "destination": "Quẹo phải về {destination}",
-                "junction_name": "Turn right at {junction_name}"
+                "junction_name": "Quẹo phải ở {junction_name}"
             },
             "straight": {
                 "default": "Chạy thẳng",
                 "name": "Chạy thẳng vào {way_name}",
                 "destination": "Chạy thẳng về {destination}",
-                "junction_name": "Go straight at {junction_name}"
+                "junction_name": "Chạy thẳng ở {junction_name}"
             }
         },
         "use lane": {

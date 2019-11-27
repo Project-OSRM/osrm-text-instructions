@@ -133,31 +133,31 @@
                 "default": "Sving skarpt til venstre",
                 "name": "Sving skarpt til venstre for å bli værende på {way_name}",
                 "destination": "Sving skarpt til venstre mot {destination}",
-                "junction_name": "Make a sharp left at {junction_name}"
+                "junction_name": "Sving skarpt til venstre i {junction_name}"
             },
             "sharp right": {
                 "default": "Sving skarpt til høyre",
                 "name": "Sving skarpt til høyre for å bli værende på {way_name}",
                 "destination": "Sving skarpt mot {destination}",
-                "junction_name": "Make a sharp right at {junction_name}"
+                "junction_name": "Sving skarpt til høyre i {junction_name}"
             },
             "slight left": {
                 "default": "Sving svakt til venstre",
                 "name": "Sving svakt til venstre for å bli værende på {way_name}",
                 "destination": "Sving svakt til venstre mot {destination}",
-                "junction_name": "Make a slight left at {junction_name}"
+                "junction_name": "Sving svakt til venstre i {junction_name}"
             },
             "slight right": {
                 "default": "Sving svakt til høyre",
                 "name": "Sving svakt til høyre for å bli værende på {way_name}",
                 "destination": "Sving svakt til høyre mot {destination}",
-                "junction_name": "Make a slight right at {junction_name}"
+                "junction_name": "Sving svakt til høyre i {junction_name}"
             },
             "uturn": {
                 "default": "Ta en U-sving",
                 "name": "Ta en U-sving og fortsett på {way_name}",
                 "destination": "Ta en U-sving mot {destination}",
-                "junction_name": "Make a U-turn at {junction_name}"
+                "junction_name": "Ta en U-sving i {junction_name}"
             }
         },
         "depart": {
@@ -172,19 +172,19 @@
                 "default": "Sving {modifier}",
                 "name": "Ta til {modifier} inn på {way_name}",
                 "destination": "Sving {modifier} mot {destination}",
-                "junction_name": "Turn {modifier} at {junction_name}"
+                "junction_name": "Sving {modifier} i {junction_name}"
             },
             "straight": {
                 "default": "Fortsett rett frem",
                 "name": "Fortsett rett frem til {way_name}",
                 "destination": "Fortsett rett frem mot {destination}",
-                "junction_name": "Continue straight at {junction_name}"
+                "junction_name": "Fortsett rett frem i {junction_name}"
             },
             "uturn": {
                 "default": "Ta en U-sving i enden av veien",
                 "name": "Ta en U-sving til {way_name} i enden av veien",
                 "destination": "Ta en U-sving mot {destination} i enden av veien",
-                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
+                "junction_name": "Ta en U-sving i {junction_name} i enden av veien"
             }
         },
         "fork": {
@@ -472,25 +472,25 @@
                 "default": "Ta en {modifier}",
                 "name": "Ta en {modifier} inn på {way_name}",
                 "destination": "Ta en {modifier} mot {destination}",
-                "junction_name": "Make a {modifier} at {junction_name}"
+                "junction_name": "Ta en {modifier} i {junction_name}"
             },
             "left": {
                 "default": "Sving til venstre",
                 "name": "Sving til venstre inn på {way_name}",
                 "destination": "Sving til venstre mot {destination}",
-                "junction_name": "Turn left at {junction_name}"
+                "junction_name": "Sving til venstre i {junction_name}"
             },
             "right": {
                 "default": "Sving til høyre",
                 "name": "Sving til høyre inn på {way_name}",
                 "destination": "Sving til høyre mot {destination}",
-                "junction_name": "Turn right at {junction_name}"
+                "junction_name": "Sving til høyre i {junction_name}"
             },
             "straight": {
                 "default": "Kjør rett frem",
                 "name": "Kjør rett frem og inn på {way_name}",
                 "destination": "Kjør rett frem mot {destination}",
-                "junction_name": "Go straight at {junction_name}"
+                "junction_name": "Kjør rett frem i {junction_name}"
             }
         },
         "use lane": {

@@ -133,31 +133,31 @@
                 "default": "Forduljon élesen balra",
                 "name": "Forduljon élesen balra, majd maradjon {way_name:superessive}",
                 "destination": "Forduljon élesen balra {destination:sublative_toward}",
-                "junction_name": "Make a sharp left at {junction_name}"
+                "junction_name": "Forduljon élesen balra az {junction_name}"
             },
             "sharp right": {
                 "default": "Forduljon élesen jobbra",
                 "name": "Forduljon élesen jobbra, majd maradjon {way_name:superessive}",
                 "destination": "Forduljon élesen balra {destination:sublative_toward}",
-                "junction_name": "Make a sharp right at {junction_name}"
+                "junction_name": "Forduljon élesen jobbra az {junction_name}"
             },
             "slight left": {
                 "default": "Forduljon enyhén balra",
                 "name": "Forduljon enyhén balra, majd maradjon {way_name:superessive}",
                 "destination": "Forduljon enyhén balra {destination:sublative_toward}",
-                "junction_name": "Make a slight left at {junction_name}"
+                "junction_name": "Forduljon enyhén balra az {junction_name}"
             },
             "slight right": {
                 "default": "Forduljon enyhén jobbra",
                 "name": "Forduljon enyhén jobbra, majd maradjon {way_name:superessive}",
                 "destination": "Forduljon enyhén jobbra {destination:sublative_toward}",
-                "junction_name": "Make a slight right at {junction_name}"
+                "junction_name": "Forduljon enyhén jobbra az {junction_name}"
             },
             "uturn": {
                 "default": "Forduljon vissza",
                 "name": "Forduljon vissza, majd folytassa {way_name:superessive}",
                 "destination": "Forduljon vissza {destination:sublative_toward}",
-                "junction_name": "Make a U-turn at {junction_name}"
+                "junction_name": "Forduljon vissza az {junction_name}"
             }
         },
         "depart": {
@@ -172,19 +172,19 @@
                 "default": "Forduljon {modifier}",
                 "name": "Forduljon be {modifier} {way_name:sublative_toward}",
                 "destination": "Forduljon {modifier} {destination:sublative_to}",
-                "junction_name": "Turn {modifier} at {junction_name}"
+                "junction_name": "Forduljon be {modifier} az {junction_name}"
             },
             "straight": {
                 "default": "Hajtson tovább egyenesen",
                 "name": "Hajtson tovább egyenesen {way_name:sublative_to}",
                 "destination": "Hajtson tovább egyenesen {destination:sublative_toward}",
-                "junction_name": "Continue straight at {junction_name}"
+                "junction_name": "Hajtson tovább egyenesen az {junction_name}"
             },
             "uturn": {
                 "default": "Forduljon vissza az út végén",
                 "name": "Forduljon vissza {way_name:article} végén",
                 "destination": "Forduljon vissza {destination:article} irányában az út végén",
-                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
+                "junction_name": "Forduljon vissza az {junction_name} irányában az út végén"
             }
         },
         "fork": {
@@ -472,25 +472,25 @@
                 "default": "Forduljon {modifier}",
                 "name": "Forduljon be {modifier} {way_name:sublative_to}",
                 "destination": "Forduljon {modifier} {destination:sublative_toward}",
-                "junction_name": "Make a {modifier} at {junction_name}"
+                "junction_name": "Forduljon be {modifier} az {junction_name}"
             },
             "left": {
                 "default": "Forduljon balra",
                 "name": "Forduljon be balra {way_name:sublative_toward}",
                 "destination": "Forduljon balra {destination:sublative_toward}",
-                "junction_name": "Turn left at {junction_name}"
+                "junction_name": "Forduljon be balra az {junction_name}"
             },
             "right": {
                 "default": "Forduljon jobbra",
                 "name": "Forduljon be jobbra {way_name:sublative_to}",
                 "destination": "Forduljon jobbra {destination:sublative_toward}",
-                "junction_name": "Turn right at {junction_name}"
+                "junction_name": "Forduljon be jobbra az {junction_name}"
             },
             "straight": {
                 "default": "Hajtson egyenesen",
                 "name": "Hajtson egyenesen {way_name:sublative_to}",
                 "destination": "Hajtson egyenesen {destination:sublative_toward}",
-                "junction_name": "Go straight at {junction_name}"
+                "junction_name": "Hajtson egyenese az {junction_name}"
             }
         },
         "use lane": {

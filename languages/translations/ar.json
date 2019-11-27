@@ -131,33 +131,33 @@
             },
             "sharp left": {
                 "default": "انعطف يساراً حاداً",
-                "name": "انعطف يساراً حاداً لتبقى على  {way_name}",
+                "name": "انعطف يساراً حاداً لتبقى على {way_name}",
                 "destination": "انعطف يساراً حاداً نحو {destination}",
-                "junction_name": "Make a sharp left at {junction_name}"
+                "junction_name": "انعطف يساراً حاداً لتبقى على {junction_name}"
             },
             "sharp right": {
                 "default": "انعطف يمينا حاداً ",
                 "name": "انعطف يميناً حاداً لتبقى على {way_name}",
                 "destination": "انعطف يميناً حاداً نحو {destination}",
-                "junction_name": "Make a sharp right at {junction_name}"
+                "junction_name": "انعطف يميناً حاداً لتبقى على {junction_name}"
             },
             "slight left": {
                 "default": "انعطف يساراً قليلاً",
-                "name": " انعطف يساراً قليلاً لتبقى على  {way_name} ",
+                "name": "انعطف يساراً قليلاً لتبقى على {way_name}",
                 "destination": "انعطف يساراً قليلاً نحو {destination}",
-                "junction_name": "Make a slight left at {junction_name}"
+                "junction_name": "انعطف يساراً قليلاً لتبقى على {junction_name}"
             },
             "slight right": {
                 "default": "انعطف يميناً قليلاً",
                 "name": "انعطف يميناً قليلاً لتبقى على {way_name}",
-                "destination": "انعطف يميناً قليلاً نحو {destination} ",
-                "junction_name": "Make a slight right at {junction_name}"
+                "destination": "انعطف يميناً قليلاً نحو {destination}",
+                "junction_name": "انعطف يميناً قليلاً نحو {junction_name}"
             },
             "uturn": {
                 "default": "انعطف دوراناً عكسياً",
                 "name": "انعطف دوراناً عكسياً  وتابع نحو {way_name}",
                 "destination": "انعطف دوراناً عكسياً نحو {destination}",
-                "junction_name": "Make a U-turn at {junction_name}"
+                "junction_name": "انعطف دوراناً عكسياً  وتابع نحو {junction_name}"
             }
         },
         "depart": {
@@ -172,19 +172,19 @@
                 "default": "انعطف {modifier}ا",
                 "name": "انعطف {modifier}ا على {way_name}",
                 "destination": "انعطف {modifier}ا نحو {destination}",
-                "junction_name": "Turn {modifier} at {junction_name}"
+                "junction_name": "انعطف {modifier}ا على {junction_name}"
             },
             "straight": {
                 "default": "تابع قدماً",
                 "name": "تابع إلى الأمام على {way_name}",
                 "destination": "تابع قدماً نحو {destination}",
-                "junction_name": "Continue straight at {junction_name}"
+                "junction_name": "تابع إلى الأمام على {junction_name}"
             },
             "uturn": {
                 "default": "انعطف دوراناً عكسياً عند نهاية الطريق",
                 "name": "انعطف دوراناً عكسياً على {way_name} عند نهاية الطريق",
                 "destination": "انعطف دوراناً عكسياً نحو {destination} عند نهاية الطريق",
-                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
+                "junction_name": "انعطف دوراناً عكسياً نحو {junction_name} عند نهاية الطريق"
             }
         },
         "fork": {
@@ -472,25 +472,25 @@
                 "default": "انعطف نحو {modifier}",
                 "name": "انعطف {modifier} على {way_name}",
                 "destination": "انعطف {modifier} نحو {destination}",
-                "junction_name": "Make a {modifier} at {junction_name}"
+                "junction_name": "انعطف {modifier} على {junction_name}"
             },
             "left": {
                 "default": "انعطف يسارا",
                 "name": "اسلك مسار الدوران يسارا على {way_name}",
                 "destination": "انعطف يسارا نحو {destination}",
-                "junction_name": "Turn left at {junction_name}"
+                "junction_name": "اسلك مسار الدوران يسارا على {junction_name}"
             },
             "right": {
                 "default": "انعطف يمينا",
                 "name": "اسلك مسار الدوران يمينا على {way_name}",
                 "destination": "انعطف يمينا نحو {destination}",
-                "junction_name": "Turn right at {junction_name}"
+                "junction_name": "اسلك مسار الدوران يمينا على {junction_name}"
             },
             "straight": {
                 "default": "انطلق قدما",
                 "name": "انطلق قدما على {way_name}",
                 "destination": "انطلق قدما نحو {destination}",
-                "junction_name": "Go straight at {junction_name}"
+                "junction_name": "انطلق قدما على {junction_name}"
             }
         },
         "use lane": {

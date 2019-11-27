@@ -133,31 +133,31 @@
                 "default": "Sola keskin dönüş yap",
                 "name": "{way_name} üzerinde kalmak için sola keskin dönüş yap",
                 "destination": "{destination} istikametinde sola keskin dönüş yap",
-                "junction_name": "Make a sharp left at {junction_name}"
+                "junction_name": "{junction_name} konumunda sola keskin dönüş yap"
             },
             "sharp right": {
                 "default": "Sağa keskin dönüş yap",
                 "name": "{way_name} üzerinde kalmak için sağa keskin dönüş yap",
                 "destination": "{destination} istikametinde sağa keskin dönüş yap",
-                "junction_name": "Make a sharp right at {junction_name}"
+                "junction_name": "{junction_name} konumunda sağa keskin dönüş yap"
             },
             "slight left": {
                 "default": "Sola hafif dönüş yap",
                 "name": "{way_name} üzerinde kalmak için sola hafif dönüş yap",
                 "destination": "{destination} istikametinde sola hafif dönüş yap",
-                "junction_name": "Make a slight left at {junction_name}"
+                "junction_name": "{junction_name} konumunda sola hafif dönüş yap"
             },
             "slight right": {
                 "default": "Sağa hafif dönüş yap",
                 "name": "{way_name} üzerinde kalmak için sağa hafif dönüş yap",
                 "destination": "{destination} istikametinde sağa hafif dönüş yap",
-                "junction_name": "Make a slight right at {junction_name}"
+                "junction_name": "{junction_name} konumunda sağa hafif dönüş yap"
             },
             "uturn": {
                 "default": "U dönüşü yapın",
                 "name": "Bir U-dönüşü yap ve {way_name} devam et",
                 "destination": "{destination} istikametinde bir U-dönüşü yap",
-                "junction_name": "Make a U-turn at {junction_name}"
+                "junction_name": "{junction_name} konumunda U dönüşü yapın"
             }
         },
         "depart": {
@@ -172,19 +172,19 @@
                 "default": "{modifier} tarafa dönün",
                 "name": "{way_name} üzerinde {modifier} yöne dön",
                 "destination": "{destination} istikametinde {modifier} yöne dön",
-                "junction_name": "Turn {modifier} at {junction_name}"
+                "junction_name": "{junction_name} konumunda {modifier} tarafa dönün"
             },
             "straight": {
                 "default": "Düz devam edin",
                 "name": "{way_name} üzerinde düz devam et",
                 "destination": "{destination} istikametinde düz devam et",
-                "junction_name": "Continue straight at {junction_name}"
+                "junction_name": "{junction_name} konumunda düz devam et"
             },
             "uturn": {
                 "default": "Yolun sonunda U dönüşü yapın",
                 "name": "Yolun sonunda {way_name} üzerinde bir U-dönüşü yap",
                 "destination": "Yolun sonunda {destination} istikametinde bir U-dönüşü yap",
-                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
+                "junction_name": "{junction_name} konumunda bir U-dönüşü yap"
             }
         },
         "fork": {
@@ -502,25 +502,25 @@
                 "default": "{modifier} yöne dön",
                 "name": "{way_name} üzerinde {modifier} yöne dön",
                 "destination": "{destination} istikametinde {modifier} yöne dön",
-                "junction_name": "Make a {modifier} at {junction_name}"
+                "junction_name": "{junction_name} konumunda {modifier} yöne dön"
             },
             "left": {
                 "default": "Sola dönün",
                 "name": "{way_name} üzerinde sola dön",
                 "destination": "{destination} istikametinde sola dön",
-                "junction_name": "Turn left at {junction_name}"
+                "junction_name": "{junction_name} konumunda sola dön"
             },
             "right": {
                 "default": "Sağa dönün",
                 "name": "{way_name} üzerinde sağa dön",
                 "destination": "{destination} istikametinde sağa dön",
-                "junction_name": "Turn right at {junction_name}"
+                "junction_name": "{junction_name} konumunda sağa dön"
             },
             "straight": {
                 "default": "Düz git",
                 "name": "{way_name} üzerinde düz git",
                 "destination": "{destination} istikametinde düz git",
-                "junction_name": "Go straight at {junction_name}"
+                "junction_name": "{junction_name} konumunda düz git"
             }
         },
         "use lane": {
