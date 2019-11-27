@@ -184,7 +184,7 @@
                 "default": "Ta en U-sving i enden av veien",
                 "name": "Ta en U-sving til {way_name} i enden av veien",
                 "destination": "Ta en U-sving mot {destination} i enden av veien",
-                "junction_name": "Ta en U-sving i {junction_name} i enden av veien"
+                "junction_name": "Ta en U-sving i {junction_name}"
             }
         },
         "fork": {

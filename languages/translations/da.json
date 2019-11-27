@@ -184,7 +184,7 @@
                 "default": "Foretag en U-vending for enden af vejen",
                 "name": "Foretag en U-vending ad {way_name} for enden af vejen",
                 "destination": "Foretag en U-vending mod {destination} for enden af vejen",
-                "junction_name": "Foretag en U-vending ved {junction_name} for enden af vejen"
+                "junction_name": "Foretag en U-vending ved {junction_name}"
             }
         },
         "fork": {

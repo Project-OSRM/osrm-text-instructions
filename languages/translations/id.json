@@ -184,7 +184,7 @@
                 "default": "Putar balik di akhir jalan",
                 "name": "Putar balik di {way_name} di akhir jalan",
                 "destination": "Putar balik menuju {destination} di akhir jalan",
-                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "fork": {

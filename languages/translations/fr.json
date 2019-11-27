@@ -184,7 +184,7 @@
                 "default": "Faire demi-tour à la fin de la route",
                 "name": "Faire demi-tour à la fin {way_name:preposition}",
                 "destination": "Faire demi-tour à la fin de la route en direction {destination:preposition}",
-                "junction_name": "Faire demi-tour à la fin de la route en {junction_name}"
+                "junction_name": "Faire demi-tour en {junction_name}"
             }
         },
         "fork": {

@@ -184,7 +184,7 @@
                 "default": "Turniĝu malantaŭen ĉe fino de la vojo",
                 "name": "Turniĝu malantaŭen al {way_name} ĉe fino de la vojo",
                 "destination": "Turniĝu malantaŭen direkte al {destination} ĉe fino de la vojo",
-                "junction_name": "Turniĝu malantaŭen ĉe {junction_name} ĉe fino de la vojo"
+                "junction_name": "Turniĝu malantaŭen ĉe {junction_name}"
             }
         },
         "fork": {

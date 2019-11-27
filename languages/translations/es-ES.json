@@ -184,7 +184,7 @@
                 "default": "Al final de la calle haz un cambio de sentido",
                 "name": "Al final de la calle haz un cambio de sentido en {way_name}",
                 "destination": "Al final de la calle haz un cambio de sentido hacia {destination}",
-                "junction_name": "Al final de la calle haz un cambio de sentido y continúa en {junction_name}"
+                "junction_name": "Haz un cambio de sentido en {junction_name}"
             }
         },
         "fork": {

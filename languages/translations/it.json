@@ -184,7 +184,7 @@
                 "default": "Fai un’inversione a U alla fine della strada",
                 "name": "Fai un’inversione a U in {way_name} alla fine della strada",
                 "destination": "Fai un’inversione a U verso {destination} alla fine della strada",
-                "junction_name": "Fai un’inversione a U al {junction_name} alla fine della strada"
+                "junction_name": "Fai un’inversione a U al {junction_name}"
             }
         },
         "fork": {

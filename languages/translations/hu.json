@@ -184,7 +184,7 @@
                 "default": "Forduljon vissza az út végén",
                 "name": "Forduljon vissza {way_name:article} végén",
                 "destination": "Forduljon vissza {destination:article} irányában az út végén",
-                "junction_name": "Forduljon vissza az {junction_name} irányában az út végén"
+                "junction_name": "Forduljon vissza az {junction_name}"
             }
         },
         "fork": {

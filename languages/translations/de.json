@@ -184,7 +184,7 @@
                 "default": "180°-Wendung am Ende der Straße",
                 "name": "180°-Wendung auf {way_name} am Ende der Straße",
                 "destination": "180°-Wendung Richtung {destination} am Ende der Straße",
-                "junction_name": "180°-Wendung an {junction_name} am Ende der Straße"
+                "junction_name": "180°-Wendung an {junction_name}"
             }
         },
         "fork": {

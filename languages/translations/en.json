@@ -184,7 +184,7 @@
                 "default": "Make a U-turn at the end of the road",
                 "name": "Make a U-turn onto {way_name} at the end of the road",
                 "destination": "Make a U-turn towards {destination} at the end of the road",
-                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "fork": {
