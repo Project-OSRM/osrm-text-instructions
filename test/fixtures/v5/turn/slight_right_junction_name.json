@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "turn",
+            "modifier": "slight right"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "انعطف يساراً قليلاً على Shibuya Crossing",
+        "da": "Drej svagt til højre ved Shibuya Crossing",
+        "de": "Make a leicht rechts at Shibuya Crossing",
+        "en": "Make a slight right at Shibuya Crossing",
+        "eo": "Veturu dekstreten ĉe Shibuya Crossing",
+        "es": "Sigue levemente a la derecha en Shibuya Crossing",
+        "es-ES": "Gira ligeramente a la derecha en Shibuya Crossing",
+        "fi": "Käänny loivasti oikeaan Shibuya Crossing",
+        "fr": "Tourner légèrement à droite en Shibuya Crossing",
+        "he": "פנה קלה ימינה על Shibuya Crossing",
+        "hu": "Forduljon be enyhén jobbra az Shibuya Crossing",
+        "id": "Make a agak ke kanan at Shibuya Crossing",
+        "it": "Gira a destra leggermente al Shibuya Crossing",
+        "ja": "Shibuya Crossingを斜め右です",
+        "ko": "Shibuya Crossing에서 조금오른쪽 하세요.",
+        "my": "ညာဘက် အနည်းငယ်ပေါ်သို့Shibuya Crossingကိုဆက်သွားပါ",
+        "nl": "Ga iets naar rechts bij Shibuya Crossing",
+        "no": "Ta en litt til høyre i Shibuya Crossing",
+        "pl": "Łagodnie w prawo na Shibuya Crossing",
+        "pt-BR": "Siga suave à direita em Shibuya Crossing",
+        "pt-PT": "Siga ligeiramente à direita em Shibuya Crossing",
+        "ro": "Virați ușor dreapta la Shibuya Crossing",
+        "ru": "Двигайтесь правее на Shibuya Crossing",
+        "sl": "Zavijte rahlo desno na Shibuya Crossing",
+        "sv": "Sväng höger vid Shibuya Crossing",
+        "tr": "Shibuya Crossing konumunda hafif sağ yöne dön",
+        "uk": "Make a плавно праворуч at Shibuya Crossing",
+        "vi": "Quẹo phải nghiêng ở Shibuya Crossing",
+        "yo": "Ṣe a diẹ ọtun ni Shibuya Crossing",
+        "zh-Hans": "Make a 稍向右 at Shibuya Crossing"
+    }
+}

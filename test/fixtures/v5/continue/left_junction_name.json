@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "continue",
+            "modifier": "left"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "انعطف يسارا لتبقى على Way Name",
+        "da": "Drej til venstre videre ad Way Name",
+        "de": "Links weiterfahren auf Way Name",
+        "en": "Turn left to stay on Way Name",
+        "eo": "Veturu maldekstren al Way Name",
+        "es": "Cruza a laizquierda en Way Name",
+        "es-ES": "Cruce a la izquierda en Way Name",
+        "fi": "Käänny vasemmall(e/a) pysyäksesi tiellä Way Name",
+        "fr": "Tourner à gauche pour rester sur Way Name",
+        "he": "פנה שמאלה כדי להישאר בWay Name",
+        "hu": "Forduljon balra és maradjon a Way Name szakaszon",
+        "id": "Terus kiri ke Way Name",
+        "it": "Gira a sinistra per stare su Way Name",
+        "ja": "左に曲がり、Way Nameを進む",
+        "ko": "좌회전 회전하고 Way Name로 직진해 주세요.",
+        "my": "Way Name​ပေါ်တွင်နေရန် ဘယ်ဘက်ကိုလှည့်ပါ",
+        "nl": "Sla links om op Way Name te blijven",
+        "no": "Ta til venstre for å bli værende på Way Name",
+        "pl": "Skręć w lewo, aby pozostać na Way Name",
+        "pt-BR": "Vire à esquerda para manter-se na Way Name",
+        "pt-PT": "Vire à esquerda para se manter em Way Name",
+        "ro": "Virați stânga pe Way Name",
+        "ru": "Двигайтесь налево по Way Name",
+        "sl": "Zavijte levo na Way Name",
+        "sv": "Sväng vänster och fortsätt på Way Name",
+        "tr": "Way Name üzerinde kalmak için sol yöne dön",
+        "uk": "Повернітьліворуч залишаючись на Way Name",
+        "vi": "Quẹo trái để chạy tiếp trên Way Name",
+        "yo": "Tan-an apa osi lati duro si Way Name",
+        "zh-Hans": "在Way Name上继续向左行驶"
+    }
+}

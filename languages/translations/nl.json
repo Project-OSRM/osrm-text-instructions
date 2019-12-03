@@ -77,7 +77,7 @@
                 "upcoming": "Uw {nth} bestemming bevindt zich aan de rechterkant",
                 "short": "U bent gearriveerd",
                 "short-upcoming": "U zult aankomen",
-                "named": "U bent gearriveerd bij {waypoint_name}, de bestemming is aan de  rechterkant"
+                "named": "U bent gearriveerd bij {waypoint_name}, de bestemming is aan de rechterkant"
             },
             "sharp left": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
@@ -91,21 +91,21 @@
                 "upcoming": "Uw {nth} bestemming bevindt zich aan de rechterkant",
                 "short": "U bent gearriveerd",
                 "short-upcoming": "U zult aankomen",
-                "named": "U bent gearriveerd bij {waypoint_name},  de bestemming is aan de rechterkant"
+                "named": "U bent gearriveerd bij {waypoint_name}, de bestemming is aan de rechterkant"
             },
             "slight right": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
                 "upcoming": "Uw {nth} bestemming bevindt zich aan de rechterkant",
                 "short": "U bent gearriveerd",
                 "short-upcoming": "U zult aankomen",
-                "named": "U bent gearriveerd bij {waypoint_name},  de bestemming is aan de rechterkant"
+                "named": "U bent gearriveerd bij {waypoint_name}, de bestemming is aan de rechterkant"
             },
             "slight left": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
                 "upcoming": "Uw {nth} bestemming bevindt zich aan de linkerkant",
                 "short": "U bent gearriveerd",
                 "short-upcoming": "U zult aankomen",
-                "named": "U bent gearriveerd bij {waypoint_name},  de bestemming is aan de linkerkant"
+                "named": "U bent gearriveerd bij {waypoint_name}, de bestemming is aan de linkerkant"
             },
             "straight": {
                 "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich voor je.",
@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Linksaf",
                 "name": "Sla scherp links af om op {way_name} te blijven",
-                "destination": "Linksaf richting {destination}"
+                "destination": "Linksaf richting {destination}",
+                "junction_name": "Linksaf bij {junction_name}"
             },
             "sharp right": {
                 "default": "Rechtsaf",
                 "name": "Sla scherp rechts af om op {way_name} te blijven",
-                "destination": "Rechtsaf richting {destination}"
+                "destination": "Rechtsaf richting {destination}",
+                "junction_name": "Rechtsaf bij {junction_name}"
             },
             "slight left": {
                 "default": "Ga links",
                 "name": "Links afbuigen om op {way_name} te blijven",
-                "destination": "Rechts afbuigen om op {destination} te blijven"
+                "destination": "Rechts afbuigen om op {destination} te blijven",
+                "junction_name": "Ga links bij {junction_name}"
             },
             "slight right": {
                 "default": "Rechts afbuigen",
                 "name": "Rechts afbuigen om op {way_name} te blijven",
-                "destination": "Rechts afbuigen richting {destination}"
+                "destination": "Rechts afbuigen richting {destination}",
+                "junction_name": "Rechts afbuigen bij {junction_name}"
             },
             "uturn": {
                 "default": "Keer om",
                 "name": "Draai om en ga verder op {way_name}",
-                "destination": "Keer om richting {destination}"
+                "destination": "Keer om richting {destination}",
+                "junction_name": "Keer om bij {junction_name}"
             }
         },
         "depart": {
@@ -166,17 +171,20 @@
             "default": {
                 "default": "Ga {modifier}",
                 "name": "Ga {modifier} naar {way_name}",
-                "destination": "Ga {modifier} richting {destination}"
+                "destination": "Ga {modifier} richting {destination}",
+                "junction_name": "Ga {modifier} bij {junction_name}"
             },
             "straight": {
                 "default": "Ga in de aangegeven richting",
                 "name": "Ga naar {way_name}",
-                "destination": "Ga richting {destination}"
+                "destination": "Ga richting {destination}",
+                "junction_name": "Ga rechtdoor bij {junction_name}"
             },
             "uturn": {
                 "default": "Keer om",
                 "name": "Keer om naar {way_name}",
-                "destination": "Keer om richting {destination}"
+                "destination": "Keer om richting {destination}",
+                "junction_name": "Keer om bij {junction_name}"
             }
         },
         "fork": {
@@ -201,7 +209,7 @@
                 "destination": "Neem een scherpe bocht naar links, richting {destination}"
             },
             "sharp right": {
-                "default": "Neem  op de splitsing, een scherpe bocht, naar rechts",
+                "default": "Neem op de splitsing, een scherpe bocht, naar rechts",
                 "name": "Neem een scherpe bocht naar rechts, tot aan {way_name}",
                 "destination": "Neem een scherpe bocht naar rechts, richting {destination}"
             },
@@ -463,22 +471,26 @@
             "default": {
                 "default": "Ga {modifier}",
                 "name": "Ga {modifier} naar {way_name}",
-                "destination": "Ga {modifier} richting {destination}"
+                "destination": "Ga {modifier} richting {destination}",
+                "junction_name": "Ga {modifier} bij {junction_name}"
             },
             "left": {
                 "default": "Ga linksaf",
                 "name": "Ga linksaf naar {way_name}",
-                "destination": "Ga linksaf richting {destination}"
+                "destination": "Ga linksaf richting {destination}",
+                "junction_name": "Ga linksaf bij {junction_name}"
             },
             "right": {
                 "default": "Ga rechtsaf",
                 "name": "Ga rechtsaf naar {way_name}",
-                "destination": "Ga rechtsaf richting {destination}"
+                "destination": "Ga rechtsaf richting {destination}",
+                "junction_name": "Ga rechtsaf bij {junction_name}"
             },
             "straight": {
                 "default": "Ga rechtdoor",
                 "name": "Ga rechtdoor naar {way_name}",
-                "destination": "Ga rechtdoor richting {destination}"
+                "destination": "Ga rechtdoor richting {destination}",
+                "junction_name": "Ga rechtdoor bij {junction_name}"
             }
         },
         "use lane": {

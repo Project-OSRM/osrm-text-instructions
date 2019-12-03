@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "modifier": "left",
+            "type": "rotary"
+        },
+        "name": "Way Name",
+        "rotary_name": "Rotary Name",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "اسلك Rotary Name واخرج على Way Name",
+        "da": "Kør ind i Rotary Name og kør fra ad Way Name",
+        "de": "In Rotary Name die Ausfahrt auf Way Name nehmen",
+        "en": "Enter Rotary Name and exit onto Way Name",
+        "eo": "Enveturu Rotary Name kaj elveturu al Way Name",
+        "es": "Entra en Rotary Name y sal en Way Name",
+        "es-ES": "En Rotary Name sal por Way Name",
+        "fi": "Aja liikenneympyrään Rotary Name ja valitse erkanemiskaista tielle Way Name",
+        "fr": "Prendre le rond-point de Rotary Name, puis sortir par Way Name",
+        "he": "היכנס לRotary Name וצא על Way Name",
+        "hu": "Hajtson be a Rotary Name körforgalomba, majd hajtson ki a Way Name felé",
+        "id": "Masuk Rotary Name dan keluar arah Way Name",
+        "it": "Immèttitì in Rotary Name ed esci su Way Name",
+        "ja": "Rotary NameからWay Nameを進む",
+        "ko": "Rotary Name로 진입해서 Way Name로 나가세요.",
+        "my": "Rotary Nameအဝိုင်းပတ်ဝင်ပြီးWay Nameပေါ်သို့ထွက်ပါ",
+        "nl": "Verlaat het knooppunt Rotary Name naar Way Name",
+        "no": "Kjør inn i Rotary Name og deretter ut på Way Name",
+        "pl": "Wjedź na Rotary Name i skręć na Way Name",
+        "pt-BR": "Entre em Rotary Name e saia em Way Name",
+        "pt-PT": "Entre em Rotary Name e saia para Way Name",
+        "ro": "Intrați în Rotary Name și ieșiți pe Way Name",
+        "ru": "На Rotary Name сверните на Way Name",
+        "sl": "Zapeljite v Rotary Name in izberite izvoz za Way Name",
+        "sv": "I Rotary Name, ta av in på Way Name",
+        "tr": "Rotary Name dönel kavşağa gir ve Way Name üzerinde çık",
+        "uk": "Рухайтесь по Rotary Name та поверніть на Way Name",
+        "vi": "Đi vào Rotary Name và ra tại Way Name",
+        "yo": "Tẹ Rotary Name ati jade ni pẹlẹpẹlẹ Way Name",
+        "zh-Hans": "通过Rotary Name环岛后驶入Way Name"
+    }
+}

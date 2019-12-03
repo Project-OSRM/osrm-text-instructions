@@ -190,7 +190,14 @@ module.exports = function(version) {
             var wayName = this.getWayName(language, step, options);
 
             // Decide which instruction string to use
-            // Destination takes precedence over name
+            // In order of precedence:
+            //   - exit + destination signage
+            //   - destination signage
+            //   - exit signage
+            //   - junction name
+            //   - road name
+            //   - waypoint name (for arrive maneuver)
+            //   - default
             var instruction;
             if (step.destinations && step.exits && instructionObject.exit_destination) {
                 instruction = instructionObject.exit_destination;
@@ -198,6 +205,8 @@ module.exports = function(version) {
                 instruction = instructionObject.destination;
             } else if (step.exits && instructionObject.exit) {
                 instruction = instructionObject.exit;
+            } else if (step.junction_name && instructionObject.junction_name) {
+                instruction = instructionObject.junction_name;
             } else if (wayName && instructionObject.name) {
                 instruction = instructionObject.name;
             } else if (options.waypointName && instructionObject.named) {
@@ -230,7 +239,8 @@ module.exports = function(version) {
                 'modifier': instructions[language][version].constants.modifier[modifier],
                 'direction': this.directionFromDegree(language, step.maneuver.bearing_after),
                 'nth': nthWaypoint,
-                'waypoint_name': options.waypointName
+                'waypoint_name': options.waypointName,
+                'junction_name': (step.junction_name || '').split(';')[0]
             };
 
             return this.tokenize(language, instruction, replaceTokens, options);

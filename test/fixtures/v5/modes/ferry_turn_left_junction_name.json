@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "continue",
+            "modifier": "straight"
+        },
+        "mode": "ferry",
+        "name": "Way Name",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "اسلك العبّارة Way Name",
+        "da": "Tag færgen Way Name",
+        "de": "Fähre nehmen Way Name",
+        "en": "Take the ferry Way Name",
+        "eo": "Enpramiĝu Way Name",
+        "es": "Coge el ferry Way Name",
+        "es-ES": "Coge el ferry Way Name",
+        "fi": "Aja lautalle Way Name",
+        "fr": "Prendre le ferry Way Name",
+        "he": "עלה על המעבורת Way Name",
+        "hu": "Hajtson fel a kompra a Way Name felé",
+        "id": "Naik ferry di Way Name",
+        "it": "Prendi il traghetto Way Name",
+        "ja": "Way Nameのフェリーに乗る",
+        "ko": "페리를 타시오 Way Name",
+        "my": "Way Nameကို ဖယ်ရီစီးသွားပါ",
+        "nl": "Neem de veerpont Way Name",
+        "no": "Ta ferja Way Name",
+        "pl": "Weź prom Way Name",
+        "pt-BR": "Pegue a balsa Way Name",
+        "pt-PT": "Apanhe o ferry Way Name",
+        "ro": "Luați feribotul Way Name",
+        "ru": "Погрузитесь на паром Way Name",
+        "sl": "Pojdite na trajekt Way Name",
+        "sv": "Ta färjan på Way Name",
+        "tr": "Way Name vapurunu kullan",
+        "uk": "Скористайтесь поромом Way Name",
+        "vi": "Lên phà Way Name",
+        "yo": "Gba ọkọ oju-omi naa Way Name",
+        "zh-Hans": "乘坐Way Name轮渡"
+    }
+}

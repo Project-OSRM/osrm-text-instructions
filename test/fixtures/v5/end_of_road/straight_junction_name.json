@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "end of road",
+            "modifier": "straight"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "تابع إلى الأمام على Shibuya Crossing",
+        "da": "Fortsæt ligeud ved Shibuya Crossing",
+        "de": "Geradeaus weiterfahren an Shibuya Crossing",
+        "en": "Continue straight at Shibuya Crossing",
+        "eo": "Veturu rekten ĉe Shibuya Crossing",
+        "es": "Continúa recto en Shibuya Crossing",
+        "es-ES": "Al final de la calle continúa recto en Shibuya Crossing",
+        "fi": "Jatka suoraan eteenpäin tielle Shibuya Crossing",
+        "fr": "Continuer tout droit en Shibuya Crossing",
+        "he": "המשך ישר על Shibuya Crossing",
+        "hu": "Hajtson tovább egyenesen az Shibuya Crossing",
+        "id": "Continue straight at Shibuya Crossing",
+        "it": "Continua dritto al Shibuya Crossing",
+        "ja": "Shibuya Crossingを直進です",
+        "ko": "Shibuya Crossing에서 계속 직진해 주세요.",
+        "my": "Shibuya Crossing​ပေါ်သို့တည့်တည့်ဆက်သွားပါ",
+        "nl": "Ga rechtdoor bij Shibuya Crossing",
+        "no": "Fortsett rett frem i Shibuya Crossing",
+        "pl": "Kontynuuj prosto na Shibuya Crossing",
+        "pt-BR": "Continue em frente em Shibuya Crossing",
+        "pt-PT": "Continue em frente em Shibuya Crossing",
+        "ro": "Continuați înainte la Shibuya Crossing",
+        "ru": "Двигайтесь прямо по Shibuya Crossing",
+        "sl": "Nadaljujte naravnost na Shibuya Crossing",
+        "sv": "Fortsätt rakt fram vid Shibuya Crossing",
+        "tr": "Shibuya Crossing konumunda düz devam et",
+        "uk": "Продовжуйте рух прямо до Shibuya Crossing",
+        "vi": "Chạy thẳng ở Shibuya Crossing",
+        "yo": "Tẹsiwaju ni gígùn ni Shibuya Crossing",
+        "zh-Hans": "Continue straight at Shibuya Crossing"
+    }
+}

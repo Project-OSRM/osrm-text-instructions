@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Gire a la izquierda",
                 "name": "Gire a la izquierda en {way_name}",
-                "destination": "Gire a la izquierda hacia {destination}"
+                "destination": "Gire a la izquierda hacia {destination}",
+                "junction_name": "Gire a la izquierda en {junction_name}"
             },
             "sharp right": {
                 "default": "Gire a la derecha",
                 "name": "Gire a la derecha en {way_name}",
-                "destination": "Gire a la derecha hacia {destination}"
+                "destination": "Gire a la derecha hacia {destination}",
+                "junction_name": "Gire a la derecha en {junction_name}"
             },
             "slight left": {
                 "default": "Gire a la izquierda",
                 "name": "Doble levemente a la izquierda en {way_name}",
-                "destination": "Gire a la izquierda hacia {destination}"
+                "destination": "Gire a la izquierda hacia {destination}",
+                "junction_name": "Doble levemente a la izquierda en {junction_name}"
             },
             "slight right": {
                 "default": "Gire a la izquierda",
                 "name": "Doble levemente a la derecha en {way_name}",
-                "destination": "Gire a la izquierda hacia {destination}"
+                "destination": "Gire a la izquierda hacia {destination}",
+                "junction_name": "Doble levemente a la derecha en {junction_name}"
             },
             "uturn": {
                 "default": "Haz un cambio de sentido",
                 "name": "Haz un cambio de sentido y continúa en {way_name}",
-                "destination": "Haz un cambio de sentido hacia {destination}"
+                "destination": "Haz un cambio de sentido hacia {destination}",
+                "junction_name": "Haz un cambio de sentido en {junction_name}"
             }
         },
         "depart": {
@@ -166,17 +171,20 @@
             "default": {
                 "default": "Al final de la calle gira {modifier}",
                 "name": "Al final de la calle gira {modifier} por {way_name}",
-                "destination": "Al final de la calle gira {modifier} hacia {destination}"
+                "destination": "Al final de la calle gira {modifier} hacia {destination}",
+                "junction_name": "Al final de la calle gira {modifier} en {junction_name}"
             },
             "straight": {
                 "default": "Al final de la calle continúa recto",
                 "name": "Al final de la calle continúa recto por {way_name}",
-                "destination": "Al final de la calle continúa recto hacia {destination}"
+                "destination": "Al final de la calle continúa recto hacia {destination}",
+                "junction_name": "Al final de la calle continúa recto en {junction_name}"
             },
             "uturn": {
                 "default": "Al final de la calle haz un cambio de sentido",
                 "name": "Al final de la calle haz un cambio de sentido en {way_name}",
-                "destination": "Al final de la calle haz un cambio de sentido hacia {destination}"
+                "destination": "Al final de la calle haz un cambio de sentido hacia {destination}",
+                "junction_name": "Haz un cambio de sentido en {junction_name}"
             }
         },
         "fork": {
@@ -463,22 +471,26 @@
             "default": {
                 "default": "Gira {modifier}",
                 "name": "Gira {modifier} por {way_name}",
-                "destination": "Gira {modifier} hacia {destination}"
+                "destination": "Gira {modifier} hacia {destination}",
+                "junction_name": "Gira {modifier} en {junction_name}"
             },
             "left": {
                 "default": "Gira a la izquierda",
                 "name": "Gira a la izquierda por {way_name}",
-                "destination": "Gira a la izquierda hacia {destination}"
+                "destination": "Gira a la izquierda hacia {destination}",
+                "junction_name": "Gira a la izquierda en {junction_name}"
             },
             "right": {
                 "default": "Gira a la derecha",
                 "name": "Gira a la derecha por {way_name}",
-                "destination": "Gira a la derecha hacia {destination}"
+                "destination": "Gira a la derecha hacia {destination}",
+                "junction_name": "Gira a la derecha en junction_name}"
             },
             "straight": {
                 "default": "Continúa recto",
                 "name": "Continúa recto por {way_name}",
-                "destination": "Continúa recto hacia {destination}"
+                "destination": "Continúa recto hacia {destination}",
+                "junction_name": "Continúa recto en {junction_name}"
             }
         },
         "use lane": {

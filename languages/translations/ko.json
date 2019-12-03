@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "급좌회전 하세요.",
                 "name": "급좌회전 하신 후 {way_name}로 가세요.",
-                "destination": "급좌회전 하신 후 {destination}로 가세요."
+                "destination": "급좌회전 하신 후 {destination}로 가세요.",
+                "junction_name": "{junction_name}에서 급좌회전."
             },
             "sharp right": {
                 "default": "급우회전 하세요.",
                 "name": "급우회전 하고 {way_name}로 가세요.",
-                "destination": "급우회전 하신 후 {destination}로 가세요."
+                "destination": "급우회전 하신 후 {destination}로 가세요.",
+                "junction_name": "{junction_name}에서 급우회전."
             },
             "slight left": {
                 "default": "약간 좌회전하세요.",
                 "name": "약간 좌회전 하고 {way_name}로 가세요.",
-                "destination": "약간 좌회전 하신 후 {destination}로 가세요."
+                "destination": "약간 좌회전 하신 후 {destination}로 가세요.",
+                "junction_name": "{junction_name}에서 약간 좌회전."
             },
             "slight right": {
                 "default": "약간 우회전하세요.",
                 "name": "약간 우회전 하고 {way_name}로 가세요.",
-                "destination": "약간 우회전 하신 후 {destination}로 가세요."
+                "destination": "약간 우회전 하신 후 {destination}로 가세요.",
+                "junction_name": "{junction_name}에서 약간 우회전."
             },
             "uturn": {
                 "default": "유턴 하세요",
                 "name": "유턴해서 {way_name}로 가세요.",
-                "destination": "유턴하신 후 {destination}로 가세요."
+                "destination": "유턴하신 후 {destination}로 가세요.",
+                "junction_name": "{junction_name}에서 유턴 하세요."
             }
         },
         "depart": {
@@ -166,17 +171,20 @@
             "default": {
                 "default": "{modifier} 회전하세요.",
                 "name": "{modifier}회전하고 {way_name}로 가세요.",
-                "destination": "{modifier}회전 하신 후 {destination}로 가세요."
+                "destination": "{modifier}회전 하신 후 {destination}로 가세요.",
+                "junction_name": "{junction_name}에서 {modifier} 회전하세요."
             },
             "straight": {
                 "default": "계속 직진해 주세요.",
                 "name": "{way_name}로 계속 직진해 주세요.",
-                "destination": "{destination}까지 직진해 주세요."
+                "destination": "{destination}까지 직진해 주세요.",
+                "junction_name": "{junction_name}에서 계속 직진해 주세요."
             },
             "uturn": {
                 "default": "도로 끝까지 가서 유턴해 주세요.",
                 "name": "도로 끝까지 가서 유턴해서 {way_name}로 가세요.",
-                "destination": "도로 끝까지 가서 유턴해서 {destination} 까지 가세요."
+                "destination": "도로 끝까지 가서 유턴해서 {destination} 까지 가세요.",
+                "junction_name": "{junction_name}에서 유턴 하세요."
             }
         },
         "fork": {
@@ -463,22 +471,26 @@
             "default": {
                 "default": "{modifier} 하세요.",
                 "name": "{modifier} 하시고 {way_name}로 가세요.",
-                "destination": "{modifier} 하시고 {destination}까지 가세요."
+                "destination": "{modifier} 하시고 {destination}까지 가세요.",
+                "junction_name": "{junction_name}에서 {modifier} 하세요."
             },
             "left": {
                 "default": "좌회전 하세요.",
                 "name": "좌회전 하시고 {way_name}로 가세요.",
-                "destination": "좌회전 하시고 {destination}까지 가세요."
+                "destination": "좌회전 하시고 {destination}까지 가세요.",
+                "junction_name": "{junction_name}에서 좌회전."
             },
             "right": {
                 "default": "우회전 하세요.",
                 "name": "우회전 하시고 {way_name}로 가세요.",
-                "destination": "우회전 하시고 {destination}까지 가세요."
+                "destination": "우회전 하시고 {destination}까지 가세요.",
+                "junction_name": "{junction_name}에서 우회전."
             },
             "straight": {
                 "default": "직진 하세요.",
                 "name": "직진하시고 {way_name}로 가세요.",
-                "destination": "직진하시고 {destination}까지 가세요."
+                "destination": "직진하시고 {destination}까지 가세요.",
+                "junction_name": "{junction_name}에서 직진 하세요."
             }
         },
         "use lane": {

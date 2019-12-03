@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "roundabout turn",
+            "modifier": "right"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "اسلك مسار الدوران يمينا على Way Name",
+        "da": "Drej til højre ad Way Name",
+        "de": "Rechts abbiegen auf Way Name",
+        "en": "Turn right onto Way Name",
+        "eo": "Turniĝu dekstren al Way Name",
+        "es": "Gira a la derecha en Way Name",
+        "es-ES": "Gire a la derecha en Way Name",
+        "fi": "Käänny oikeaan tielle Way Name",
+        "fr": "Tourner à droite sur Way Name",
+        "he": "פנה ימינה לWay Name",
+        "hu": "Forduljon be jobbra a Way Name felé",
+        "id": "Belok kanan ke Way Name",
+        "it": "Svolta a destra in Way Name",
+        "ja": "右折してWay Nameを進む",
+        "ko": "우회전 하시고 Way Name로 가세요.",
+        "my": "Way Nameပေါ်သို့ညာဘက်ကိုလာရောက်ပေါင်းဆုံပါ",
+        "nl": "Ga rechtsaf naar Way Name",
+        "no": "Sving til høyre inn på Way Name",
+        "pl": "Skręć w prawo na Way Name",
+        "pt-BR": "Vire à direita em Way Name",
+        "pt-PT": "Vire à direita para Way Name",
+        "ro": "La sensul giratoriu virați la dreapta pe Way Name",
+        "ru": "Сверните направо на Way Name",
+        "sl": "Zavijte desno na Way Name",
+        "sv": "Sväng höger in på Way Name",
+        "tr": "Way Name üzerinde sağa dön",
+        "uk": "Поверніть праворуч на Way Name",
+        "vi": "Quẹo phải vào Way Name",
+        "yo": "Tan ọtun si Way Name",
+        "zh-Hans": "右转，驶入Way Name"
+    }
+}

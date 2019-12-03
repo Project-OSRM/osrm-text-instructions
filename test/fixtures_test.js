@@ -64,7 +64,7 @@ tape.test('verify existence/update fixtures', function(assert) {
         } else {
             assert.ok(
                 fs.existsSync(fileToWrite),
-                `verified existance of ${phrasePath}`
+                `verified existence of ${phrasePath}`
             );
         }
     }
@@ -90,7 +90,7 @@ tape.test('verify existence/update fixtures', function(assert) {
             );
             assert.ok(true, `updated ${testName}`);
         } else {
-            // check for existance
+            // check for existence
             assert.ok(
                 fs.existsSync(fileName),
                 `verified existence of ${testName}`
@@ -128,6 +128,13 @@ tape.test('verify existence/update fixtures', function(assert) {
             exits: '4A;4B'
         });
         checkOrWrite(step, `${basePath}_exit_destination`);
+
+        // junction_name
+        step = Object.assign(clone(baseStep), {
+            name: 'Way Name',
+            'junction_name': 'Shibuya Crossing'
+        });
+        checkOrWrite(step, `${basePath}_junction_name`);
     }
 
     ['modes', 'other', 'arrive_waypoint', 'arrive_waypoint_last', 'arrive_waypoint_name', 'arrive_upcoming', 'arrive_short', 'arrive_short_upcoming'].concat(constants.types).forEach((type) => {
@@ -639,10 +646,10 @@ tape.test('verify existence/update fixtures', function(assert) {
             );
             assert.ok(true, `updated ${phrase}`);
         } else {
-            // check for existance
+            // check for existence
             assert.ok(
                 fs.existsSync(fileName),
-                `verified existance of ${phrase}`
+                `verified existence of ${phrase}`
             );
         }
     }

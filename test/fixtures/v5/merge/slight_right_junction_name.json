@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "merge",
+            "modifier": "slight right"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "انعطف يميناً قليلاً لتبقى على Way Name",
+        "da": "Flet til højre ad Way Name",
+        "de": "Leicht rechts auffahren auf Way Name",
+        "en": "Merge right onto Way Name",
+        "eo": "Enveturu de dekstre al Way Name",
+        "es": "Incorpórate a la derecha en Way Name",
+        "es-ES": "Incorpórate a la derecha por Way Name",
+        "fi": "Liity oikealle, tielle Way Name",
+        "fr": "S’insérer légèrement à droite sur Way Name",
+        "he": "השתלב ימינה על Way Name",
+        "hu": "Soroljon be jobbra a Way Name felé",
+        "id": "Bergabung di kanan ke arah Way Name",
+        "it": "Immèttitì a destra in Way Name",
+        "ja": "右に合流し、Way Nameを進む",
+        "ko": "우측Way Name로 합류하세요.",
+        "my": "Way Name​ပေါ်သို့ညာဘက်ကိုလာရောက်ပေါင်းဆုံပါ",
+        "nl": "Bij de splitsing rechts aanhouden naar Way Name",
+        "no": "Hold høyre kjørefelt inn på Way Name",
+        "pl": "Włącz się z prawej strony na Way Name",
+        "pt-BR": "Entre à direita na Way Name",
+        "pt-PT": "Una-se ao tráfego à direita para Way Name",
+        "ro": "Intrați în dreapta pe Way Name",
+        "ru": "Перестройтесь правее на Way Name",
+        "sl": "Vključite se v promet na desni na Way Name",
+        "sv": "Byt till högra körfältet, in på Way Name",
+        "tr": "Way Name üzerinde sağa gir",
+        "uk": "Приєднайтеся до потоку праворуч на Way Name",
+        "vi": "Nhập sang phải vào Way Name",
+        "yo": "Darapọ mọ pẹlẹpẹlẹ Way Name",
+        "zh-Hans": "稍向右并道，驶入Way Name"
+    }
+}

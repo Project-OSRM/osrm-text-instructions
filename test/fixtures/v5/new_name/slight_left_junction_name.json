@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "new name",
+            "modifier": "slight left"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "تابع يساراً قليلاً على Way Name",
+        "da": "Fortsæt til venstre ad Way Name",
+        "de": "Leicht links weiter auf Way Name",
+        "en": "Continue slightly left onto Way Name",
+        "eo": "Pluu ete maldekstren al Way Name",
+        "es": "Continúa levemente a la izquierda en Way Name",
+        "es-ES": "Continúa ligeramente por la izquierda por Way Name",
+        "fi": "Jatka loivasti vasempaan tielle Way Name",
+        "fr": "Continuer légèrement à gauche sur Way Name",
+        "he": "המשך בנטייה קלה שמאלה על Way Name",
+        "hu": "Hajtson tovább enyhén balra a Way Name felé",
+        "id": "Lanjut dengan agak di kiri ke Way Name",
+        "it": "Continua leggermente a sinistra in Way Name",
+        "ja": "Way Nameを斜め左方向に進む",
+        "ko": "약간 좌회전해서 Way Name로 가세요.",
+        "my": "Way Name​ပေါ်သို့ဘယ်ဘက် အနည်းငယ်ဆက်သွားပါ",
+        "nl": "Links aanhouden naar Way Name",
+        "no": "Fortsett litt mot venstre til Way Name",
+        "pl": "Kontynuuj łagodnie w lewo na Way Name",
+        "pt-BR": "Continue ligeiramente à esquerda em Way Name",
+        "pt-PT": "Continue ligeiramente à esquerda para Way Name",
+        "ro": "Continuați ușor la stânga pe Way Name",
+        "ru": "Плавно поверните налево на Way Name",
+        "sl": "Nadaljujte rahlo levo na Way Name",
+        "sv": "Fortsätt med lätt vänstersväng in på Way Name",
+        "tr": "Way Name üzerinde hafif solda devam et",
+        "uk": "Рухайтесь плавно ліворуч на Way Name",
+        "vi": "Nghiêng về bên trái vào Way Name",
+        "yo": "Tesiwaju die-die silẹ pẹlẹpẹlẹ Way Name",
+        "zh-Hans": "继续稍向左，驶入Way Name"
+    }
+}

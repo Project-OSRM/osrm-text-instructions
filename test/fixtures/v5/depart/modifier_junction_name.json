@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "bearing_after": 0,
+            "type": "depart",
+            "modifier": "left"
+        },
+        "name": "Way Name",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "توجّه شمالاً نحو Way Name",
+        "da": "Kør mod nord ad Way Name",
+        "de": "Fahren Sie Richtung Norden auf Way Name",
+        "en": "Head north on Way Name",
+        "eo": "Direktiĝu norden al Way Name",
+        "es": "Ve a norte en Way Name",
+        "es-ES": "Dirígete al norte por Way Name",
+        "fi": "Aja tietä Way Name pohjoiseen",
+        "fr": "Se diriger vers le nord sur Way Name",
+        "he": "התכוונן צפון על Way Name",
+        "hu": "Hajtson az észak irányába a Way Name szakaszon",
+        "id": "Arah utara di Way Name",
+        "it": "Continua verso nord in Way Name",
+        "ja": "Way Nameを北に進む",
+        "ko": "북쪽 로 가서 Way Name 를 이용하세요. ",
+        "my": "မြောက်အရပ်ကို Way Nameအပေါ်တွင် ဦးတည်ပါ",
+        "nl": "Neem Way Name in noordelijke richting",
+        "no": "Kjør i retning nord på Way Name",
+        "pl": "Kieruj się północ na Way Name",
+        "pt-BR": "Siga norte em Way Name",
+        "pt-PT": "Dirija-se para norte em Way Name",
+        "ro": "Mergeți spre nord pe Way Name",
+        "ru": "Двигайтесь в северном направлении по Way Name",
+        "sl": "Peljite v smeri sever po Way Name",
+        "sv": "Kör åt norr på Way Name",
+        "tr": "Way Name üzerinde kuzey yöne git",
+        "uk": "Прямуйте на північ по Way Name",
+        "vi": "Đi về hướng bắc trên Way Name",
+        "yo": "Ori ariwa lori Way Name",
+        "zh-Hans": "出发向北，驶入Way Name"
+    }
+}

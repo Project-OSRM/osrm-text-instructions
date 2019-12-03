@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "前方左急转弯",
                 "name": "前方左急转弯，继续在{way_name}上行驶",
-                "destination": "左急转弯，前往{destination}"
+                "destination": "左急转弯，前往{destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "前方右急转弯",
                 "name": "前方右急转弯，继续在{way_name}上行驶",
-                "destination": "右急转弯，前往{destination}"
+                "destination": "右急转弯，前往{destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "前方稍向左转",
                 "name": "前方稍向左转，继续在{way_name}上行驶",
-                "destination": "稍向左转，前往{destination}"
+                "destination": "稍向左转，前往{destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "前方稍向右转",
                 "name": "前方稍向右转，继续在{way_name}上行驶",
-                "destination": "前方稍向右转，前往{destination}"
+                "destination": "前方稍向右转，前往{destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "前方调头",
                 "name": "前方调头，继续在{way_name}上行驶",
-                "destination": "前方调头，前往{destination}"
+                "destination": "前方调头，前往{destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {
@@ -166,17 +171,20 @@
             "default": {
                 "default": "{modifier}行驶",
                 "name": "{modifier}行驶，驶入{way_name}",
-                "destination": "{modifier}行驶，前往{destination}"
+                "destination": "{modifier}行驶，前往{destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "继续直行",
                 "name": "继续直行，驶入{way_name}",
-                "destination": "继续直行，前往{destination}"
+                "destination": "继续直行，前往{destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "在道路尽头调头",
                 "name": "在道路尽头调头驶入{way_name}",
-                "destination": "在道路尽头调头，前往{destination}"
+                "destination": "在道路尽头调头，前往{destination}",
+                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
             }
         },
         "fork": {
@@ -463,22 +471,26 @@
             "default": {
                 "default": "{modifier}转弯",
                 "name": "{modifier}转弯，驶入{way_name}",
-                "destination": "{modifier}转弯，前往{destination}"
+                "destination": "{modifier}转弯，前往{destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "左转",
                 "name": "左转，驶入{way_name}",
-                "destination": "左转，前往{destination}"
+                "destination": "左转，前往{destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "右转",
                 "name": "右转，驶入{way_name}",
-                "destination": "右转，前往{destination}"
+                "destination": "右转，前往{destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "直行",
                 "name": "直行，驶入{way_name}",
-                "destination": "直行，前往{destination}"
+                "destination": "直行，前往{destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

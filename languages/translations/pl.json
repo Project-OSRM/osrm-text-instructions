@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Skręć ostro w lewo",
                 "name": "Skręć w lewo w ostry zakręt, aby pozostać na {way_name}",
-                "destination": "Skręć ostro w lewo w kierunku {destination}"
+                "destination": "Skręć ostro w lewo w kierunku {destination}",
+                "junction_name": "Skręć ostro w lewo na {junction_name}"
             },
             "sharp right": {
                 "default": "Skręć ostro w prawo",
                 "name": "Skręć w prawo w ostry zakręt, aby pozostać na {way_name}",
-                "destination": "Skręć ostro w prawo w kierunku {destination}"
+                "destination": "Skręć ostro w prawo w kierunku {destination}",
+                "junction_name": "Skręć ostro w prawo na {junction_name}"
             },
             "slight left": {
                 "default": "Skręć w lewo w łagodny zakręt",
                 "name": "Skręć w lewo w łagodny zakręt, aby pozostać na {way_name}",
-                "destination": "Skręć w lewo w łagodny zakręt na {destination}"
+                "destination": "Skręć w lewo w łagodny zakręt na {destination}",
+                "junction_name": "Skręć w lewo w łagodny zakręt na {junction_name}"
             },
             "slight right": {
                 "default": "Skręć w prawo w łagodny zakręt",
                 "name": "Skręć w prawo w łagodny zakręt, aby pozostać na {way_name}",
-                "destination": "Skręć w prawo w łagodny zakręt na {destination}"
+                "destination": "Skręć w prawo w łagodny zakręt na {destination}",
+                "junction_name": "Skręć w prawo w łagodny zakręt na {junction_name}"
             },
             "uturn": {
                 "default": "Zawróć",
                 "name": "Zawróć i jedź dalej {way_name}",
-                "destination": "Zawróć w kierunku {destination}"
+                "destination": "Zawróć w kierunku {destination}",
+                "junction_name": "Zawróć na {junction_name}"
             }
         },
         "depart": {
@@ -166,17 +171,20 @@
             "default": {
                 "default": "Skręć {modifier}",
                 "name": "Skręć {modifier} na {way_name}",
-                "destination": "Skręć {modifier} w kierunku {destination}"
+                "destination": "Skręć {modifier} w kierunku {destination}",
+                "junction_name": "Skręć {modifier} na {junction_name}"
             },
             "straight": {
                 "default": "Kontynuuj prosto",
                 "name": "Kontynuuj prosto na {way_name}",
-                "destination": "Kontynuuj prosto w kierunku {destination}"
+                "destination": "Kontynuuj prosto w kierunku {destination}",
+                "junction_name": "Kontynuuj prosto na {junction_name}"
             },
             "uturn": {
                 "default": "Zawróć na końcu ulicy",
                 "name": "Zawróć na końcu ulicy na {way_name}",
-                "destination": "Zawróć na końcu ulicy w kierunku {destination}"
+                "destination": "Zawróć na końcu ulicy w kierunku {destination}",
+                "junction_name": "Zawróć na {junction_name}"
             }
         },
         "fork": {
@@ -493,22 +501,26 @@
             "default": {
                 "default": "{modifier}",
                 "name": "{modifier} na {way_name}",
-                "destination": "{modifier} w kierunku {destination}"
+                "destination": "{modifier} w kierunku {destination}",
+                "junction_name": "{modifier} na {junction_name}"
             },
             "left": {
                 "default": "Skręć w lewo",
                 "name": "Skręć w lewo na {way_name}",
-                "destination": "Skręć w lewo w kierunku {destination}"
+                "destination": "Skręć w lewo w kierunku {destination}",
+                "junction_name": "Skręć w lewo na {junction_name}"
             },
             "right": {
                 "default": "Skręć w prawo",
                 "name": "Skręć w prawo na {way_name}",
-                "destination": "Skręć w prawo w kierunku {destination}"
+                "destination": "Skręć w prawo w kierunku {destination}",
+                "junction_name": "Skręć w prawo na {junction_name}"
             },
             "straight": {
                 "default": "Jedź prosto",
                 "name": "Jedź prosto na {way_name}",
-                "destination": "Jedź prosto w kierunku {destination}"
+                "destination": "Jedź prosto w kierunku {destination}",
+                "junction_name": "Jedź prosto na {junction_name}"
             }
         },
         "use lane": {
