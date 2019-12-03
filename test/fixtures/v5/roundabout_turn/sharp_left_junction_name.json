@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "roundabout turn",
+            "modifier": "sharp left"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "انعطف يسار حاد على Way Name",
+        "da": "Drej skarpt til venstre ad Way Name",
+        "de": "Scharf links abbiegen auf Way Name",
+        "en": "Make a sharp left onto Way Name",
+        "eo": "Veturu maldekstregen al Way Name",
+        "es": "Sigue cerrada a la izquierda en Way Name",
+        "es-ES": "Siga cerrada a la izquierda en Way Name",
+        "fi": "Käänny jyrkästi vasempaan tielle Way Name",
+        "fr": "Tourner franchement à gauche sur Way Name",
+        "he": "פנה חדה שמאלה על Way Name",
+        "hu": "Forduljon be élesen balra a Way Name felé",
+        "id": "Lakukan tajam kiri ke arah Way Name",
+        "it": "Gira a sinistra in Way Name",
+        "ja": "左戻るに向かい、Way Nameを進む",
+        "ko": "바로좌회전 하시고 Way Name로 가세요.",
+        "my": "ဘယ်ဘက် ထောင့်ချိုး​ပေါ်သို့Way Nameကိုဆက်သွားပါ ",
+        "nl": "Ga scherpe bocht naar links naar Way Name",
+        "no": "Ta en skarp venstre inn på Way Name",
+        "pl": "Ostro w lewo na Way Name",
+        "pt-BR": "Siga fechada à esquerda em Way Name",
+        "pt-PT": "Siga acentuadamente à esquerda para Way Name",
+        "ro": "La sensul giratoriu virați puternic stânga pe Way Name",
+        "ru": "Двигайтесь налево на Way Name",
+        "sl": "Zavijte ostro levo na Way Name",
+        "sv": "Sväng vänster in på Way Name",
+        "tr": "Way Name üzerinde keskin sol yöne dön",
+        "uk": "Рухайтесь різко ліворуч на Way Name",
+        "vi": "Quẹo trái gắt vào Way Name",
+        "yo": "Ṣe a didasilẹ pẹlẹpẹlẹ Way Name",
+        "zh-Hans": "急向左转弯，驶入Way Name"
+    }
+}

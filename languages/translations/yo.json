@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Ṣe kan osi osi",
                 "name": "Ṣe ọpa didasilẹ lati duro si {way_name}",
-                "destination": "Ṣe idasilẹ mimu si ọna {destination}"
+                "destination": "Ṣe idasilẹ mimu si ọna {destination}",
+                "junction_name": "Ṣe kan osi ni {junction_name}"
             },
             "sharp right": {
                 "default": "Ṣe idasilẹ to dara",
                 "name": "Ṣe idasilẹ to dara lati duro si {way_name}",
-                "destination": "Ṣe didasilẹ si ọtun si ọna {destination}"
+                "destination": "Ṣe didasilẹ si ọtun si ọna {destination}",
+                "junction_name": "Ṣe idasilẹ to dara ni {junction_name}"
             },
             "slight left": {
                 "default": "Ṣe diẹ osi",
                 "name": "Ṣe diẹ si osi lati duro si {way_name}",
-                "destination": "Ṣe diẹ si apa osi si ọna {destination}"
+                "destination": "Ṣe diẹ si apa osi si ọna {destination}",
+                "junction_name": "Ṣe diẹ osi ni {junction_name}"
             },
             "slight right": {
                 "default": "Ṣe diẹ diẹ si ọtun",
                 "name": "Ṣe diẹ si ọtun lati duro si {way_name}",
-                "destination": "Ṣe diẹ si ọtun si ọna {destination}"
+                "destination": "Ṣe diẹ si ọtun si ọna {destination}",
+                "junction_name": "Ṣe diẹ diẹ si ọtun ni {junction_name}"
             },
             "uturn": {
                 "default": "Ṣe ayipada U",
                 "name": "Ṣe ayipada U ati tẹsiwaju {way_name}",
-                "destination": "Ṣe ọna U-ọna si ọna {destination}"
+                "destination": "Ṣe ọna U-ọna si ọna {destination}",
+                "junction_name": "Ṣe ayipada U ni {junction_name}"
             }
         },
         "depart": {
@@ -166,17 +171,20 @@
             "default": {
                 "default": "Tan-an {modifier}",
                 "name": "Tan-an {modifier} pẹlẹpẹlẹ {way_name}",
-                "destination": "Tan-an {modifier} si ọna {destination}"
+                "destination": "Tan-an {modifier} si ọna {destination}",
+                "junction_name": "Tan-an {modifier} ni {junction_name}"
             },
             "straight": {
                 "default": "Tẹsiwaju ni gígùn",
                 "name": "Tesiwaju tẹsiwaju lẹsẹkẹsẹ {way_name}",
-                "destination": "Tesiwaju si ọna ọtun {destination}"
+                "destination": "Tesiwaju si ọna ọtun {destination}",
+                "junction_name": "Tẹsiwaju ni gígùn ni {junction_name}"
             },
             "uturn": {
                 "default": "Ṣe a-ẹ-yipada ni opin ọna",
                 "name": "Ṣe U-tan pẹlẹpẹlẹ {way_name} ni opin ọna",
-                "destination": "Ṣe ọna U-ọna si ọna {destination} ni opin ọna"
+                "destination": "Ṣe ọna U-ọna si ọna {destination} ni opin ọna",
+                "junction_name": "Ṣe ayipada U ni {junction_name}"
             }
         },
         "fork": {
@@ -463,22 +471,26 @@
             "default": {
                 "default": "Ṣe a {modifier}",
                 "name": "Ṣe a {modifier} pẹlẹpẹlẹ {way_name}",
-                "destination": "Ṣe a {modifier} si ọna {destination}"
+                "destination": "Ṣe a {modifier} si ọna {destination}",
+                "junction_name": "Ṣe a {modifier} ni {junction_name}"
             },
             "left": {
                 "default": "Ya si apa osi",
                 "name": "Tan apa osi pẹlẹpẹlẹ {way_name}",
-                "destination": "Tan apa osi si ọna {destination}"
+                "destination": "Tan apa osi si ọna {destination}",
+                "junction_name": "Ya si apa osi ni {junction_name}"
             },
             "right": {
                 "default": "Ya sowo otun",
                 "name": "Tan ọtun si {way_name}",
-                "destination": "Tan-ọtun si ọna {destination}"
+                "destination": "Tan-ọtun si ọna {destination}",
+                "junction_name": "Ya sowo otun ni {junction_name}"
             },
             "straight": {
                 "default": "Rin taara",
                 "name": "Lọ si pẹkipẹki {way_name}",
-                "destination": "Lọ taara si ọna {destination}"
+                "destination": "Lọ taara si ọna {destination}",
+                "junction_name": "Rin taara ni {junction_name}"
             }
         },
         "use lane": {

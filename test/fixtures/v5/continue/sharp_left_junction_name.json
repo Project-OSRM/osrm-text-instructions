@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "continue",
+            "modifier": "sharp left"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "انعطف يساراً حاداً لتبقى على Shibuya Crossing",
+        "da": "Drej skarpt til venstre videre ved Shibuya Crossing",
+        "de": "Scharf links weiterfahren an Shibuya Crossing",
+        "en": "Make a sharp left at Shibuya Crossing",
+        "eo": "Turniĝu ege maldekstren ĉe Shibuya Crossing",
+        "es": "Gira a la izquierda en Shibuya Crossing",
+        "es-ES": "Gire a la izquierda en Shibuya Crossing",
+        "fi": "Jatka jyrkästi vasempaan tielle Shibuya Crossing",
+        "fr": "Tourner franchement à gauche en Shibuya Crossing",
+        "he": "פנה בחדות שמאלה כדי להישאר על Shibuya Crossing",
+        "hu": "Forduljon élesen balra az Shibuya Crossing",
+        "id": "Make a sharp left at Shibuya Crossing",
+        "it": "Fai una curva stretta a sinistra al Shibuya Crossing",
+        "ja": "Shibuya Crossingを左戻るです",
+        "ko": "Shibuya Crossing에서 급좌회전.",
+        "my": "Shibuya Crossingပေါ်တွင်နေရန် ဘယ်ဘက်ထောင့်ချိုးကွေ့ပါ",
+        "nl": "Linksaf bij Shibuya Crossing",
+        "no": "Sving skarpt til venstre i Shibuya Crossing",
+        "pl": "Skręć ostro w lewo na Shibuya Crossing",
+        "pt-BR": "Faça uma curva fechada a esquerda em Shibuya Crossing",
+        "pt-PT": "Vire acentuadamente à esquerda em Shibuya Crossing",
+        "ro": "Virați puternic la stânga la Shibuya Crossing",
+        "ru": "Резко поверните налево на Shibuya Crossing",
+        "sl": "Zavijte ostro levo na Shibuya Crossing",
+        "sv": "Sväng vänster vid Shibuya Crossing",
+        "tr": "Shibuya Crossing konumunda sola keskin dönüş yap",
+        "uk": "Поверніть різко ліворуч щоб залишитись на Shibuya Crossing",
+        "vi": "Quẹo gắt bên trái ở Shibuya Crossing",
+        "yo": "Ṣe kan osi ni Shibuya Crossing",
+        "zh-Hans": "Make a sharp left at Shibuya Crossing"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "exit roundabout",
+            "modifier": "straight"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "اخرج من مسار الدوران على Way Name",
+        "da": "Forlad rundkørslen ad Way Name",
+        "de": "Geradeaus weiterfahren auf Way Name",
+        "en": "Exit the roundabout onto Way Name",
+        "eo": "Elveturu trafikcirklegon al Way Name",
+        "es": "Sal la rotonda en Way Name",
+        "es-ES": "Toma la salida por Way Name",
+        "fi": "Poistu liikenneympyrästä tielle Way Name",
+        "fr": "Sortir du rond-point sur Way Name",
+        "he": "צא ממעגל התנועה לWay Name",
+        "hu": "Hajtson ki a körforgalomból a Way Name felé",
+        "id": "Tetap lurus ke Way Name ",
+        "it": "Continua dritto in Way Name",
+        "ja": "ランアバウトを出てWay Nameを進む",
+        "ko": "로타리에서 진출해서 Way Name로 가세요.",
+        "my": "Way Nameပေါ်သို့အဝိုင်းပတ်လမ်းမှထွက်ပါ",
+        "nl": "Verlaat de rotonde en ga verder op Way Name",
+        "no": "Kjør ut av rundkjøringen og inn på Way Name",
+        "pl": "Kontynuuj prosto na Way Name",
+        "pt-BR": "Exit the roundabout onto Way Name",
+        "pt-PT": "Saia da rotunda para Way Name",
+        "ro": "Ieșiți din sensul giratoriu pe Way Name",
+        "ru": "Сверните с круговой развязки на Way Name",
+        "sl": "Zapustite krožišče in zapeljite na Way Name",
+        "sv": "Kör ut ur rondellen in på Way Name",
+        "tr": "Way Name üzerinde düz devam et",
+        "uk": "Залишить коло на Way Name зʼїзді",
+        "vi": "Ra bùng binh vào Way Name",
+        "yo": "Jade ni ọna iṣakoso pẹlẹpẹlẹ Way Name",
+        "zh-Hans": "驶离环岛，驶入Way Name"
+    }
+}

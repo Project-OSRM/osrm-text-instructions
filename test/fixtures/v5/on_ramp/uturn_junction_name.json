@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "on ramp",
+            "modifier": "uturn"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "اتبع المنحدر على Way Name",
+        "da": "Tag afkørslen ad Way Name",
+        "de": "Auffahrt nehmen auf Way Name",
+        "en": "Take the ramp onto Way Name",
+        "eo": "Direktiĝu al enveturejo al Way Name",
+        "es": "Toma la rampa en Way Name",
+        "es-ES": "Coge la cuesta por Way Name",
+        "fi": "Aja erkanemiskaistaa tielle Way Name",
+        "fr": "Prendre la sortie sur Way Name",
+        "he": "צא ביציאה על Way Name",
+        "hu": "Hajtson az átkötő útszakaszra a Way Name felé",
+        "id": "Ambil jalan melandai ke Way Name",
+        "it": "Prendi la rampa in Way Name",
+        "ja": "Way Name方面、入口です",
+        "ko": "램프로 진입해서 Way Name로 가세요.",
+        "my": "Way Nameပေါ်သို့ချဉ်းကပ်လမ်းကိုယူပါ",
+        "nl": "Neem de oprit naar Way Name",
+        "no": "Ta avkjørselen inn på Way Name",
+        "pl": "Weź zjazd na Way Name",
+        "pt-BR": "Pegue a rampa em Way Name",
+        "pt-PT": "Saia na saída para Way Name",
+        "ro": "Urmați breteaua pe Way Name",
+        "ru": "Сверните на въезд на Way Name",
+        "sl": "Zapeljite na izhod na Way Name",
+        "sv": "Ta påfarten in på Way Name",
+        "tr": "Way Name üzerindeki bağlantı yoluna geç",
+        "uk": "Рухайтесь на вʼїзд на Way Name",
+        "vi": "Đi đường nhánh Way Name",
+        "yo": "Mu awọn rampan si pẹlẹpẹlẹ Way Name",
+        "zh-Hans": "上匝道，驶入Way Name"
+    }
+}

@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Svolta a sinistra",
                 "name": "Fai una curva stretta a sinistra per stare su {way_name}",
-                "destination": "Svolta a sinistra verso {destination}"
+                "destination": "Svolta a sinistra verso {destination}",
+                "junction_name": "Fai una curva stretta a sinistra al {junction_name}"
             },
             "sharp right": {
                 "default": "Svolta a destra",
                 "name": "Fai una curva stretta a destra per stare su {way_name}",
-                "destination": "Svolta a destra verso {destination}"
+                "destination": "Svolta a destra verso {destination}",
+                "junction_name": "Fai una curva stretta a destra al {junction_name}"
             },
             "slight left": {
                 "default": "Fai una leggera curva a sinistra",
                 "name": "Fai una leggera curva a sinistra per stare su {way_name}",
-                "destination": "Fai una leggera curva a sinistra verso {destination}"
+                "destination": "Fai una leggera curva a sinistra verso {destination}",
+                "junction_name": "Fai una leggera curva a sinistra al {junction_name}"
             },
             "slight right": {
                 "default": "Fai una leggera curva a destra",
                 "name": "Fai una leggera curva a destra per stare su {way_name}",
-                "destination": "Fai una leggera curva a destra verso {destination}"
+                "destination": "Fai una leggera curva a destra verso {destination}",
+                "junction_name": "Fai una leggera curva a destra al {junction_name}"
             },
             "uturn": {
                 "default": "Fai un’inversione a U",
                 "name": "Fai un’inversione ad U poi continua su {way_name}",
-                "destination": "Fai un’inversione a U verso {destination}"
+                "destination": "Fai un’inversione a U verso {destination}",
+                "junction_name": "Fai un’inversione ad U al {junction_name}"
             }
         },
         "depart": {
@@ -166,17 +171,20 @@
             "default": {
                 "default": "Gira a {modifier}",
                 "name": "Gira a {modifier} in {way_name}",
-                "destination": "Gira a {modifier} verso {destination}"
+                "destination": "Gira a {modifier} verso {destination}",
+                "junction_name": "Gira a {modifier} al {junction_name}"
             },
             "straight": {
                 "default": "Continua dritto",
                 "name": "Continua dritto in {way_name}",
-                "destination": "Continua dritto verso {destination}"
+                "destination": "Continua dritto verso {destination}",
+                "junction_name": "Continua dritto al {junction_name}"
             },
             "uturn": {
                 "default": "Fai un’inversione a U alla fine della strada",
                 "name": "Fai un’inversione a U in {way_name} alla fine della strada",
-                "destination": "Fai un’inversione a U verso {destination} alla fine della strada"
+                "destination": "Fai un’inversione a U verso {destination} alla fine della strada",
+                "junction_name": "Fai un’inversione a U al {junction_name}"
             }
         },
         "fork": {
@@ -303,14 +311,14 @@
                 "name": "Prendi la rampa in {way_name}",
                 "destination": "Prendi la rampa verso {destination}",
                 "exit": "Prendi l’uscita {exit}",
-                "exit_destination": "Prendi l’uscita  {exit} verso {destination}"
+                "exit_destination": "Prendi l’uscita {exit} verso {destination}"
             },
             "left": {
                 "default": "Prendi la rampa a sinistra",
                 "name": "Prendi la rampa a sinistra in {way_name}",
                 "destination": "Prendi la rampa a sinistra verso {destination}",
                 "exit": "Prendi l’uscita {exit} a sinistra",
-                "exit_destination": "Prendi la {exit}  uscita a sinistra verso {destination}"
+                "exit_destination": "Prendi la {exit} uscita a sinistra verso {destination}"
             },
             "right": {
                 "default": "Prendi la rampa a destra",
@@ -324,7 +332,7 @@
                 "name": "Prendi la rampa a sinistra in {way_name}",
                 "destination": "Prendi la rampa a sinistra verso {destination}",
                 "exit": "Prendi l’uscita {exit} a sinistra",
-                "exit_destination": "Prendi la {exit}  uscita a sinistra verso {destination}"
+                "exit_destination": "Prendi la {exit} uscita a sinistra verso {destination}"
             },
             "sharp right": {
                 "default": "Prendi la rampa a destra",
@@ -338,7 +346,7 @@
                 "name": "Prendi la rampa a sinistra in {way_name}",
                 "destination": "Prendi la rampa a sinistra verso {destination}",
                 "exit": "Prendi l’uscita {exit} a sinistra",
-                "exit_destination": "Prendi la {exit}  uscita a sinistra verso {destination}"
+                "exit_destination": "Prendi la {exit} uscita a sinistra verso {destination}"
             },
             "slight right": {
                 "default": "Prendi la rampa a destra",
@@ -405,7 +413,7 @@
                 "name_exit": {
                     "default": "Immèttitì in {rotary_name} e prendi la {exit_number} uscita",
                     "name": "Immèttitì in {rotary_name} e prendi la {exit_number} uscita in {way_name}",
-                    "destination": "Immèttitì in {rotary_name} e prendi la {exit_number}  uscita verso {destination}"
+                    "destination": "Immèttitì in {rotary_name} e prendi la {exit_number} uscita verso {destination}"
                 }
             }
         },
@@ -493,22 +501,26 @@
             "default": {
                 "default": "Gira a {modifier}",
                 "name": "Gira a {modifier} in {way_name}",
-                "destination": "Gira a {modifier} verso {destination}"
+                "destination": "Gira a {modifier} verso {destination}",
+                "junction_name": "Gira a {modifier} al {junction_name}"
             },
             "left": {
                 "default": "Svolta a sinistra",
                 "name": "Svolta a sinistra in {way_name}",
-                "destination": "Svolta a sinistra verso {destination}"
+                "destination": "Svolta a sinistra verso {destination}",
+                "junction_name": "Svolta a sinistra al {junction_name}"
             },
             "right": {
                 "default": "Gira a destra",
                 "name": "Svolta a destra in {way_name}",
-                "destination": "Svolta a destra verso {destination}"
+                "destination": "Svolta a destra verso {destination}",
+                "junction_name": "Svolta a destra al {junction_name}"
             },
             "straight": {
                 "default": "Prosegui dritto",
                 "name": "Continua su {way_name}",
-                "destination": "Continua verso {destination}"
+                "destination": "Continua verso {destination}",
+                "junction_name": "Prosegui dritto al {junction_name}"
             }
         },
         "use lane": {

@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Jatka jyrkästi vasempaan",
                 "name": "Jatka jyrkästi vasempaan pysyäksesi tiellä {way_name}",
-                "destination": "Jatka jyrkästi vasempaan suuntana {destination}"
+                "destination": "Jatka jyrkästi vasempaan suuntana {destination}",
+                "junction_name": "Jatka jyrkästi vasempaan tielle {junction_name}"
             },
             "sharp right": {
                 "default": "Jatka jyrkästi oikeaan",
                 "name": "Jatka jyrkästi oikeaan pysyäksesi tiellä {way_name}",
-                "destination": "Jatka jyrkästi oikeaan suuntana {destination}"
+                "destination": "Jatka jyrkästi oikeaan suuntana {destination}",
+                "junction_name": "Jatka jyrkästi oikeaan tielle {junction_name}"
             },
             "slight left": {
                 "default": "Jatka loivasti vasempaan",
                 "name": "Jatka loivasti vasempaan pysyäksesi tiellä {way_name}",
-                "destination": "Jatka loivasti vasempaan suuntana {destination}"
+                "destination": "Jatka loivasti vasempaan suuntana {destination}",
+                "junction_name": "Jatka loivasti vasempaan tielle {junction_name}"
             },
             "slight right": {
                 "default": "Jatka loivasti oikeaan",
                 "name": "Jatka loivasti oikeaan pysyäksesi tiellä {way_name}",
-                "destination": "Jatka loivasti oikeaan suuntana {destination}"
+                "destination": "Jatka loivasti oikeaan suuntana {destination}",
+                "junction_name": "Jatka loivasti oikeaan tielle {junction_name}"
             },
             "uturn": {
                 "default": "Tee U-käännös",
                 "name": "Tee U-käännös ja jatka tietä {way_name}",
-                "destination": "Tee U-käännös suuntana {destination}"
+                "destination": "Tee U-käännös suuntana {destination}",
+                "junction_name": "Tee U-käännös tielle {junction_name}"
             }
         },
         "depart": {
@@ -166,17 +171,20 @@
             "default": {
                 "default": "Käänny {modifier}",
                 "name": "Käänny {modifier} tielle {way_name}",
-                "destination": "Käänny {modifier} suuntana {destination}"
+                "destination": "Käänny {modifier} suuntana {destination}",
+                "junction_name": "Käänny {modifier} tielle {junction_name}"
             },
             "straight": {
                 "default": "Jatka suoraan eteenpäin",
                 "name": "Jatka suoraan eteenpäin tielle {way_name}",
-                "destination": "Jatka suoraan eteenpäin suuntana {destination}"
+                "destination": "Jatka suoraan eteenpäin suuntana {destination}",
+                "junction_name": "Jatka suoraan eteenpäin tielle {junction_name}"
             },
             "uturn": {
                 "default": "Tien päässä tee U-käännös",
                 "name": "Tien päässä tee U-käännös tielle {way_name}",
-                "destination": "Tien päässä tee U-käännös suuntana {destination}"
+                "destination": "Tien päässä tee U-käännös suuntana {destination}",
+                "junction_name": "Tien päässä tee U-käännös tielle {junction_name}"
             }
         },
         "fork": {
@@ -463,22 +471,26 @@
             "default": {
                 "default": "Käänny {modifier}",
                 "name": "Käänny {modifier} tielle {way_name}",
-                "destination": "Käänny {modifier} suuntana {destination}"
+                "destination": "Käänny {modifier} suuntana {destination}",
+                "junction_name": "Käänny {modifier} {junction_name}"
             },
             "left": {
                 "default": "Käänny vasempaan",
                 "name": "Käänny vasempaan tielle {way_name}",
-                "destination": "Käänny vasempaan suuntana {destination}"
+                "destination": "Käänny vasempaan suuntana {destination}",
+                "junction_name": "Käänny vasemmalle {junction_name}"
             },
             "right": {
                 "default": "Käänny oikeaan",
                 "name": "Käänny oikeaan tielle {way_name}",
-                "destination": "Käänny oikeaan suuntana {destination}"
+                "destination": "Käänny oikeaan suuntana {destination}",
+                "junction_name": "Käänny oikealle {junction_name}"
             },
             "straight": {
                 "default": "Aja suoraan eteenpäin",
                 "name": "Aja suoraan eteenpäin tielle {way_name}",
-                "destination": "Aja suoraan eteenpäin suuntana {destination}"
+                "destination": "Aja suoraan eteenpäin suuntana {destination}",
+                "junction_name": "Aja suoraan eteenpäin {junction_name}"
             }
         },
         "use lane": {

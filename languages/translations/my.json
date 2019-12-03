@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "ဘယ်ဘက်ထောင့်ချိုးကွေ့ပါ",
                 "name": "{way_name}ပေါ်တွင်နေရန် ဘယ်ဘက်ထောင့်ချိုးကွေ့ပါ",
-                "destination": "{destination}ဆီသို့ ဘယ်ဘက်ထောင့်ချိုးကွေ့ပါ"
+                "destination": "{destination}ဆီသို့ ဘယ်ဘက်ထောင့်ချိုးကွေ့ပါ",
+                "junction_name": "{junction_name}ပေါ်တွင်နေရန် ဘယ်ဘက်ထောင့်ချိုးကွေ့ပါ"
             },
             "sharp right": {
                 "default": "ညာဘက် ထောင့်ချိုးကွေ့ပါ",
                 "name": "{way_name}ပေါ်တွင်နေရန် ညာဘက်ထောင့်ချိုးကွေ့ပါ",
-                "destination": "{destination}ဆီသို့ ညာဘက်ထောင့်ချိုးကွေ့ပါ"
+                "destination": "{destination}ဆီသို့ ညာဘက်ထောင့်ချိုးကွေ့ပါ",
+                "junction_name": "{junction_name}ပေါ်တွင်နေရန် ညာဘက်ထောင့်ချိုးကွေ့ပါ"
             },
             "slight left": {
                 "default": "ဘယ်ဘက် အနည်းငယ်ကွေ့ပါ",
                 "name": "{way_name}ပေါ်တွင်နေရန် ဘယ်ဘက်အနည်းငယ်ကွေ့ပါ",
-                "destination": "{destination}ဆီသို့ ဘယ်ဘက်အနည်းငယ်ချိုးကွေ့ပါ"
+                "destination": "{destination}ဆီသို့ ဘယ်ဘက်အနည်းငယ်ချိုးကွေ့ပါ",
+                "junction_name": "{junction_name}ပေါ်တွင်နေရန် ဘယ်ဘက်အနည်းငယ်ကွေ့ပါ"
             },
             "slight right": {
                 "default": "ညာဘက် အနည်းငယ်ချိုးကွေ့ပါ",
                 "name": "{way_name}ပေါ်တွင်နေရန် ညာဘက်အနည်းငယ်ကွေ့ပါ",
-                "destination": "{destination}ဆီသို့ ညာဘက်အနည်းငယ်ချိုးကွေ့ပါ"
+                "destination": "{destination}ဆီသို့ ညာဘက်အနည်းငယ်ချိုးကွေ့ပါ",
+                "junction_name": "{junction_name}ပေါ်တွင်နေရန် ညာဘက်အနည်းငယ်ကွေ့ပါ"
             },
             "uturn": {
                 "default": "ဂ-ကွေ့ ကွေ့ပါ",
                 "name": "{way_name}လမ်းဘက်သို့ ဂ-ကွေ့ကွေ့ပြီးဆက်သွားပါ",
-                "destination": "{destination}ဆီသို့ ဂကွေ့ချိုးကွေ့ပါ"
+                "destination": "{destination}ဆီသို့ ဂကွေ့ချိုးကွေ့ပါ",
+                "junction_name": "{junction_name}လမ်းဘက်သို့ ဂ-ကွေ့ကွေ့ပြီးဆက်သွားပါ"
             }
         },
         "depart": {
@@ -166,17 +171,20 @@
             "default": {
                 "default": "{modifier}သို့လှည့်ပါ",
                 "name": "{way_name}​ပေါ်သို့ {modifier}ကိုလှည့်ပါ",
-                "destination": "{destination}ဆီသို့ {modifier}ကို လှည့်ပါ"
+                "destination": "{destination}ဆီသို့ {modifier}ကို လှည့်ပါ",
+                "junction_name": "{junction_name}​ပေါ်သို့ {modifier}ကိုလှည့်ပါ"
             },
             "straight": {
                 "default": "ဖြောင့်ဖြောင့်တန်းတန်း ဆက်သွားပါ",
                 "name": "{way_name}​ပေါ်သို့တည့်တည့်ဆက်သွားပါ",
-                "destination": "{destination}ဆီသို့တည့်တည့်ဆက်သွားပါ"
+                "destination": "{destination}ဆီသို့တည့်တည့်ဆက်သွားပါ",
+                "junction_name": "{junction_name}​ပေါ်သို့တည့်တည့်ဆက်သွားပါ"
             },
             "uturn": {
                 "default": "လမ်းအဆုံးတွင် ဂ-ကွေ့ကွေ့ပါ",
                 "name": "လမ်းအဆုံးတွင် {way_name}​ပေါ်သို့ဂ-ကွေ့ကွေ့ပါ",
-                "destination": "လမ်းအဆုံးတွင်{destination}ဆီသို့ ဂကွေ့ချိုးကွေ့ပါ"
+                "destination": "လမ်းအဆုံးတွင်{destination}ဆီသို့ ဂကွေ့ချိုးကွေ့ပါ",
+                "junction_name": "လမ်းအဆုံးတွင် {junction_name}​ပေါ်သို့ဂ-ကွေ့ကွေ့ပါ"
             }
         },
         "fork": {
@@ -462,23 +470,27 @@
         "turn": {
             "default": {
                 "default": "{modifier}ကိုလှည့်ပါ",
-                "name": "{modifier}ပေါ်သို့{way_name}ကိုဆက်သွားပါ ",
-                "destination": "{modifier}ဆီသို့{destination}ကို ဆက်သွားပါ "
+                "name": "{modifier}ပေါ်သို့{way_name}ကိုဆက်သွားပါ",
+                "destination": "{modifier}ဆီသို့{destination}ကို ဆက်သွားပါ ",
+                "junction_name": "{modifier}ပေါ်သို့{junction_name}ကိုဆက်သွားပါ"
             },
             "left": {
                 "default": "ဘယ်ဘက်သို့ပြန်လှည့်ပါ",
-                "name": "{way_name}ပေါ်သို့ဘယ်ဘက်ကိုဆက်သွားပါ ",
-                "destination": "{destination}ဘယ်ဘက်သို့ ကွေ့ပါ"
+                "name": "{way_name}ပေါ်သို့ဘယ်ဘက်ကိုဆက်သွားပါ",
+                "destination": "{destination}ဘယ်ဘက်သို့ ကွေ့ပါ",
+                "junction_name": "{junction_name}ပေါ်သို့ဘယ်ဘက်ကိုဆက်သွားပါ"
             },
             "right": {
                 "default": "ညာဘက်သို့ပြန်လှည့်ပါ",
-                "name": "{way_name}ပေါ်သို့ညာဘက်ကိုလာရောက်ပေါင်းဆုံပါ ",
-                "destination": "{destination}ညာဘက်သို့ ကွေ့ပါ"
+                "name": "{way_name}ပေါ်သို့ညာဘက်ကိုလာရောက်ပေါင်းဆုံပါ",
+                "destination": "{destination}ညာဘက်သို့ ကွေ့ပါ",
+                "junction_name": "{junction_name}ပေါ်သို့ညာဘက်ကိုလာရောက်ပေါင်းဆုံပါ"
             },
             "straight": {
                 "default": "တည့်တည့်သွားပါ",
                 "name": "{way_name}ပေါ်သို့တည့်တည့်သွားပါ",
-                "destination": "{destination}ဆီသို့တည့်တည့်သွားပါ"
+                "destination": "{destination}ဆီသို့တည့်တည့်သွားပါ",
+                "junction_name": "{junction_name}ပေါ်သို့တည့်တည့်သွားပါ"
             }
         },
         "use lane": {

@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Scharf links",
                 "name": "Scharf links weiterfahren auf {way_name}",
-                "destination": "Scharf links Richtung {destination}"
+                "destination": "Scharf links Richtung {destination}",
+                "junction_name": "Scharf links weiterfahren an {junction_name}"
             },
             "sharp right": {
                 "default": "Scharf rechts",
                 "name": "Scharf rechts weiterfahren auf {way_name}",
-                "destination": "Scharf rechts Richtung {destination}"
+                "destination": "Scharf rechts Richtung {destination}",
+                "junction_name": "Scharf rechts weiterfahren an {junction_name}"
             },
             "slight left": {
                 "default": "Leicht links",
                 "name": "Leicht links weiter auf {way_name}",
-                "destination": "Leicht links weiter Richtung {destination}"
+                "destination": "Leicht links weiter Richtung {destination}",
+                "junction_name": "Leicht links weiter an {junction_name}"
             },
             "slight right": {
                 "default": "Leicht rechts weiter",
                 "name": "Leicht rechts weiter auf {way_name}",
-                "destination": "Leicht rechts weiter Richtung {destination}"
+                "destination": "Leicht rechts weiter Richtung {destination}",
+                "junction_name": "Leicht rechts weiter an {junction_name}"
             },
             "uturn": {
                 "default": "180°-Wendung",
                 "name": "180°-Wendung auf {way_name}",
-                "destination": "180°-Wendung Richtung {destination}"
+                "destination": "180°-Wendung Richtung {destination}",
+                "junction_name": "180°-Wendung an {junction_name}"
             }
         },
         "depart": {
@@ -166,24 +171,27 @@
             "default": {
                 "default": "{modifier} abbiegen",
                 "name": "{modifier} abbiegen auf {way_name}",
-                "destination": "{modifier} abbiegen Richtung {destination}"
+                "destination": "{modifier} abbiegen Richtung {destination}",
+                "junction_name": "{modifier} abbiegen an {junction_name}"
             },
             "straight": {
                 "default": "Geradeaus weiterfahren",
                 "name": "Geradeaus weiterfahren auf {way_name}",
-                "destination": "Geradeaus weiterfahren Richtung {destination}"
+                "destination": "Geradeaus weiterfahren Richtung {destination}",
+                "junction_name": "Geradeaus weiterfahren an {junction_name}"
             },
             "uturn": {
                 "default": "180°-Wendung am Ende der Straße",
                 "name": "180°-Wendung auf {way_name} am Ende der Straße",
-                "destination": "180°-Wendung Richtung {destination} am Ende der Straße"
+                "destination": "180°-Wendung Richtung {destination} am Ende der Straße",
+                "junction_name": "180°-Wendung an {junction_name}"
             }
         },
         "fork": {
             "default": {
                 "default": "{modifier} halten an der Gabelung",
                 "name": "{modifier} halten an der Gabelung auf {way_name}",
-                "destination": "{modifier}  halten an der Gabelung Richtung {destination}"
+                "destination": "{modifier} halten an der Gabelung Richtung {destination}"
             },
             "slight left": {
                 "default": "Links halten an der Gabelung",
@@ -493,22 +501,26 @@
             "default": {
                 "default": "{modifier} abbiegen",
                 "name": "{modifier} abbiegen auf {way_name}",
-                "destination": "{modifier} abbiegen Richtung {destination}"
+                "destination": "{modifier} abbiegen Richtung {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Links abbiegen",
                 "name": "Links abbiegen auf {way_name}",
-                "destination": "Links abbiegen Richtung {destination}"
+                "destination": "Links abbiegen Richtung {destination}",
+                "junction_name": "Links abbiegen an {junction_name}"
             },
             "right": {
                 "default": "Rechts abbiegen",
                 "name": "Rechts abbiegen auf {way_name}",
-                "destination": "Rechts abbiegen Richtung {destination}"
+                "destination": "Rechts abbiegen Richtung {destination}",
+                "junction_name": "Rechts abbiegen an {junction_name}"
             },
             "straight": {
                 "default": "Geradeaus weiterfahren",
                 "name": "Geradeaus weiterfahren auf {way_name}",
-                "destination": "Geradeaus weiterfahren Richtung {destination}"
+                "destination": "Geradeaus weiterfahren Richtung {destination}",
+                "junction_name": "Geradeaus weiterfahren an {junction_name}"
             }
         },
         "use lane": {

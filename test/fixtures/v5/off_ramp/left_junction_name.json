@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "off ramp",
+            "modifier": "left"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "اسلك المدخل يسارا حادا لتبقى على Way Name",
+        "da": "Tag afkørslen til venstre ad Way Name",
+        "de": "Ausfahrt links nehmen auf Way Name",
+        "en": "Take the ramp on the left onto Way Name",
+        "eo": "Direktiĝu al enveturejo ĉe maldekstre al Way Name",
+        "es": "Toma la salida en la izquierda en Way Name",
+        "es-ES": "Coge la cuesta abajo de la izquierda por Way Name",
+        "fi": "Aja vasemmalla olevaa erkanemiskaistaa tielle Way Name",
+        "fr": "Prendre la sortie à gauche sur Way Name",
+        "he": "צא ביציאה שמשמאלך על Way Name",
+        "hu": "Hajtson az átkötő útszakaszra balról a Way Name felé",
+        "id": "Ambil jalan melandai di sebelah kiri ke arah Way Name",
+        "it": "Prendi la rampa a sinistra in Way Name",
+        "ja": "左方向、Way Name方面、出口です",
+        "ko": "왼쪽의 램프로 진출해서 Way Name로 가세요.",
+        "my": "Way Nameပေါ်သို့ဘယ်ဘက် ပေါ်တွင်ချဉ်းကပ်လမ်းကိုယူပါ",
+        "nl": "Neem de afrit links naar Way Name",
+        "no": "Ta avkjørselen på venstre side inn på Way Name",
+        "pl": "Weź zjazd po lewej na Way Name",
+        "pt-BR": "Pegue a rampa à esquerda em Way Name",
+        "pt-PT": "Saia na saída à esquerda para Way Name",
+        "ro": "Urmați breteaua din stânga pe Way Name",
+        "ru": "Сверните на левый съезд на Way Name",
+        "sl": "Zapeljite na izhod na levi na Way Name",
+        "sv": "Ta avfarten till vänster in på Way Name",
+        "tr": "Way Name üzerindeki sol bağlantı yoluna geç",
+        "uk": "Рухайтесь на зʼїзд ліворуч на Way Name",
+        "vi": "Đi đường nhánh Way Name bên trái",
+        "yo": "Gba awọn ibọn ni apa osi pẹlẹpẹlẹ Way Name",
+        "zh-Hans": "下左侧匝道，上Way Name"
+    }
+}

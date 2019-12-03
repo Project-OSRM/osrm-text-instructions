@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "fork",
+            "modifier": "sharp right"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": " انعطف يميناً حاداً لتبقى على Way Name",
+        "da": "Drej skarpt til højre ad Way Name",
+        "de": "Scharf rechts auf Way Name",
+        "en": "Take a sharp right onto Way Name",
+        "eo": "Turniĝu ege dekstren al Way Name",
+        "es": "Gira a la derecha en Way Name",
+        "es-ES": "Gira a la derecha por Way Name",
+        "fi": "Käänny tienhaarassa jyrkästi oikeaan tielle Way Name",
+        "fr": "Tourner franchement à droite sur Way Name",
+        "he": "פנה בחדות ימינה על Way Name",
+        "hu": "Forduljon be élesen jobbra a Way Name felé",
+        "id": "Belok kanan tajam ke arah Way Name",
+        "it": "Svolta a destra in Way Name",
+        "ja": "大きく右方向に曲がり、Way Nameを進む",
+        "ko": "급우회전 해서 Way Name로 가세요.",
+        "my": "Way Nameပေါ်သို့ ညာဘက်ထောင့်ချိုးယူပါ",
+        "nl": "Neem een scherpe bocht naar rechts, tot aan Way Name",
+        "no": "Sving skarpt til høyre inn på Way Name",
+        "pl": "Skręć ostro w prawo na Way Name",
+        "pt-BR": "Faça uma curva fechada à direita em Way Name",
+        "pt-PT": "Vire acentuadamente à direita para Way Name",
+        "ro": "Virați puternic dreapta la bifurcație pe Way Name",
+        "ru": "Резко поверните направо на Way Name",
+        "sl": "Zavijte ostro desno na Way Name ",
+        "sv": "Sväng höger in på Way Name",
+        "tr": "Way Name yoluna doğru sağa keskin dönüş yapın",
+        "uk": "Прийміть різко праворуч на Way Name",
+        "vi": "Quẹo gắt bên phải vào Way Name",
+        "yo": "Mu pẹlẹsẹ to dara julọ Way Name",
+        "zh-Hans": "在岔道口右急转弯，驶入Way Name"
+    }
+}

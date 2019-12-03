@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "end of road",
+            "modifier": "sharp right"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "انعطف يمين حادا على Shibuya Crossing",
+        "da": "Drej skarpt til højre ved Shibuya Crossing",
+        "de": "Scharf rechts abbiegen an Shibuya Crossing",
+        "en": "Turn sharp right at Shibuya Crossing",
+        "eo": "Veturu dekstregen ĉe Shibuya Crossing",
+        "es": "Gira a cerrada a la derecha en Shibuya Crossing",
+        "es-ES": "Al final de la calle gira cerrada a la derecha en Shibuya Crossing",
+        "fi": "Käänny jyrkästi oikeaan tielle Shibuya Crossing",
+        "fr": "Tourner franchement à droite en Shibuya Crossing",
+        "he": "פנה חדה ימינה על Shibuya Crossing",
+        "hu": "Forduljon be élesen jobbra az Shibuya Crossing",
+        "id": "Turn tajam kanan at Shibuya Crossing",
+        "it": "Gira a destra al Shibuya Crossing",
+        "ja": "Shibuya Crossingを右戻るです",
+        "ko": "Shibuya Crossing에서 바로우회전 회전하세요.",
+        "my": "Shibuya Crossing​ပေါ်သို့ ညာဘက် ထောင့်ချိုးကိုလှည့်ပါ",
+        "nl": "Ga scherpe bocht naar rechts bij Shibuya Crossing",
+        "no": "Sving skarp høyre i Shibuya Crossing",
+        "pl": "Skręć ostro w prawo na Shibuya Crossing",
+        "pt-BR": "Vire fechada à direita em Shibuya Crossing",
+        "pt-PT": "Vire acentuadamente à direita em Shibuya Crossing",
+        "ro": "Virați puternic dreapta la Shibuya Crossing",
+        "ru": "Поверните направо на Shibuya Crossing",
+        "sl": "Zavijte ostro desno na Shibuya Crossing",
+        "sv": "Sväng höger vid Shibuya Crossing",
+        "tr": "Shibuya Crossing konumunda keskin sağ tarafa dönün",
+        "uk": "Поверніть різко праворуч на Shibuya Crossing",
+        "vi": "Quẹo phải gắt ở Shibuya Crossing",
+        "yo": "Tan-an didasilẹ ọtun ni Shibuya Crossing",
+        "zh-Hans": "Turn 急向右 at Shibuya Crossing"
+    }
+}

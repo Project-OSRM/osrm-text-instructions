@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Поверніть різко ліворуч",
                 "name": "Поверніть різко ліворуч щоб залишитись на {way_name}",
-                "destination": "Поверніть різко ліворуч у напрямку {destination}"
+                "destination": "Поверніть різко ліворуч у напрямку {destination}",
+                "junction_name": "Поверніть різко ліворуч щоб залишитись на {junction_name}"
             },
             "sharp right": {
                 "default": "Поверніть різко праворуч",
                 "name": "Поверніть різко праворуч щоб залишитись на {way_name}",
-                "destination": "Поверніть різко праворуч у напрямку {destination}"
+                "destination": "Поверніть різко праворуч у напрямку {destination}",
+                "junction_name": "Поверніть різко праворуч щоб залишитись на {junction_name}"
             },
             "slight left": {
                 "default": "Поверніть різко ліворуч",
                 "name": "Поверніть плавно ліворуч щоб залишитись на {way_name}",
-                "destination": "Поверніть плавно ліворуч у напрямку {destination}"
+                "destination": "Поверніть плавно ліворуч у напрямку {destination}",
+                "junction_name": "Поверніть плавно ліворуч щоб залишитись на {junction_name}"
             },
             "slight right": {
                 "default": "Поверніть плавно праворуч",
                 "name": "Поверніть плавно праворуч щоб залишитись на {way_name}",
-                "destination": "Поверніть плавно праворуч у напрямку {destination}"
+                "destination": "Поверніть плавно праворуч у напрямку {destination}",
+                "junction_name": "Поверніть плавно праворуч щоб залишитись на {junction_name}"
             },
             "uturn": {
                 "default": "Здійсніть розворот",
                 "name": "Здійсніть розворот та рухайтесь по {way_name}",
-                "destination": "Здійсніть розворот у напрямку {destination}"
+                "destination": "Здійсніть розворот у напрямку {destination}",
+                "junction_name": "Здійсніть розворот та рухайтесь по {junction_name}"
             }
         },
         "depart": {
@@ -166,17 +171,20 @@
             "default": {
                 "default": "Поверніть {modifier}",
                 "name": "Поверніть {modifier} на {way_name}",
-                "destination": "Поверніть {modifier} у напрямку {destination}"
+                "destination": "Поверніть {modifier} у напрямку {destination}",
+                "junction_name": "Поверніть {modifier} на {junction_name}"
             },
             "straight": {
                 "default": "Продовжуйте рух прямо",
                 "name": "Продовжуйте рух прямо до {way_name}",
-                "destination": "Продовжуйте рух прямо у напрямку {destination}"
+                "destination": "Продовжуйте рух прямо у напрямку {destination}",
+                "junction_name": "Продовжуйте рух прямо до {junction_name}"
             },
             "uturn": {
                 "default": "Здійсніть розворот в кінці дороги",
                 "name": "Здійсніть розворот на {way_name} в кінці дороги",
-                "destination": "Здійсніть розворот у напрямку {destination} в кінці дороги"
+                "destination": "Здійсніть розворот у напрямку {destination} в кінці дороги",
+                "junction_name": "Здійсніть розворот на {junction_name}"
             }
         },
         "fork": {
@@ -463,22 +471,26 @@
             "default": {
                 "default": "Рухайтесь {modifier}",
                 "name": "Рухайтесь {modifier} на {way_name}",
-                "destination": "Рухайтесь {modifier} в напрямку {destination}"
+                "destination": "Рухайтесь {modifier} в напрямку {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Поверніть ліворуч",
                 "name": "Поверніть ліворуч на {way_name}",
-                "destination": "Поверніть ліворуч у напрямку {destination}"
+                "destination": "Поверніть ліворуч у напрямку {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Поверніть праворуч",
                 "name": "Поверніть праворуч на {way_name}",
-                "destination": "Поверніть праворуч у напрямку {destination}"
+                "destination": "Поверніть праворуч у напрямку {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Рухайтесь прямо",
                 "name": "Рухайтесь прямо по {way_name}",
-                "destination": "Рухайтесь прямо у напрямку {destination}"
+                "destination": "Рухайтесь прямо у напрямку {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

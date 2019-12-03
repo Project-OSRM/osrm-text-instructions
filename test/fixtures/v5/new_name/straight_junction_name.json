@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "new name",
+            "modifier": "straight"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "تابع على Way Name",
+        "da": "Fortsæt ad Way Name",
+        "de": "Weiterfahren auf Way Name",
+        "en": "Continue onto Way Name",
+        "eo": "Veturu rekten al Way Name",
+        "es": "Continúa en Way Name",
+        "es-ES": "Continúa por Way Name",
+        "fi": "Jatka tielle Way Name",
+        "fr": "Continuer tout droit sur Way Name",
+        "he": "המשך על Way Name",
+        "hu": "Hajtson tovább a Way Name felé",
+        "id": "Terus ke Way Name",
+        "it": "Continua in Way Name",
+        "ja": "Way Nameを直進する",
+        "ko": "Way Name로 계속 가세요.",
+        "my": "Way Nameပေါ်သို့ဆက်သွားပါ",
+        "nl": "Ga rechtdoor naar Way Name",
+        "no": "Fortsett inn på Way Name",
+        "pl": "Kontynuuj na Way Name",
+        "pt-BR": "Continue em Way Name",
+        "pt-PT": "Continue para Way Name",
+        "ro": "Continuați pe Way Name",
+        "ru": "Продолжите движение по Way Name",
+        "sl": "Nadaljujte na Way Name",
+        "sv": "Fortsätt in på Way Name",
+        "tr": "Way Name üzerinde devam et",
+        "uk": "Рухайтесь по Way Name",
+        "vi": "Chạy tiếp trên Way Name",
+        "yo": "Tẹsiwaju pẹlẹpẹlẹ Way Name",
+        "zh-Hans": "继续在Way Name上直行"
+    }
+}

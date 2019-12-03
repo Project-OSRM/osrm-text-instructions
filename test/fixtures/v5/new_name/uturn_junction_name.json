@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "new name",
+            "modifier": "uturn"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "انعطف دورانا عكسيا على Way Name",
+        "da": "Foretag en U-vending ad Way Name",
+        "de": "180°-Wendung auf Way Name",
+        "en": "Make a U-turn onto Way Name",
+        "eo": "Turniĝu malantaŭen al Way Name",
+        "es": "Haz un cambio de sentido en Way Name",
+        "es-ES": "Haz un cambio de sentido en Way Name",
+        "fi": "Tee U-käännös tielle Way Name",
+        "fr": "Faire demi-tour sur Way Name",
+        "he": "פנה פניית פרסה על Way Name",
+        "hu": "Forduljon vissza a Way Name felé",
+        "id": "Putar balik ke arah Way Name",
+        "it": "Fai un’inversione a U in Way Name",
+        "ja": "Uターンし、Way Nameを進む",
+        "ko": "유턴해서 Way Name로 가세요.",
+        "my": "Way Nameလမ်းဘက်သို့ ဂ-ကွေ့ ကွေ့ပါ",
+        "nl": "Keer om naar Way Name",
+        "no": "Ta en U-sving til Way Name",
+        "pl": "Zawróć na Way Name",
+        "pt-BR": "Faça o retorno em Way Name",
+        "pt-PT": "Faça inversão de marcha para Way Name",
+        "ro": "Întoarceți-vă pe Way Name",
+        "ru": "Развернитесь на Way Name",
+        "sl": "Polkrožno obrnite na Way Name",
+        "sv": "Gör en U-sväng in på Way Name",
+        "tr": "Way Name yoluna U dönüşü yapın",
+        "uk": "Здійсніть розворот на Way Name",
+        "vi": "Quẹo ngược lại Way Name",
+        "yo": "Ṣe U-tan pẹlẹpẹlẹ Way Name",
+        "zh-Hans": "前方调头，上Way Name"
+    }
+}

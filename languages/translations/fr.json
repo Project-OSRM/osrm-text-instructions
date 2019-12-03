@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Tourner franchement à gauche",
                 "name": "Tourner franchement à gauche pour rester sur {way_name:article}",
-                "destination": "Tourner franchement à gauche en direction {destination:preposition}"
+                "destination": "Tourner franchement à gauche en direction {destination:preposition}",
+                "junction_name": "Tourner franchement à gauche en {junction_name}"
             },
             "sharp right": {
                 "default": "Tourner franchement à droite",
                 "name": "Tourner franchement à droite pour rester sur {way_name:article}",
-                "destination": "Tourner franchement à droite en direction {destination:preposition}"
+                "destination": "Tourner franchement à droite en direction {destination:preposition}",
+                "junction_name": "Tourner franchement à droite en {junction_name}"
             },
             "slight left": {
                 "default": "Tourner légèrement à gauche",
                 "name": "Tourner légèrement à gauche pour rester sur {way_name:article}",
-                "destination": "Tourner légèrement à gauche en direction {destination:preposition}"
+                "destination": "Tourner légèrement à gauche en direction {destination:preposition}",
+                "junction_name": "Tourner légèrement à gauche en {junction_name}"
             },
             "slight right": {
                 "default": "Tourner légèrement à droite",
                 "name": "Tourner légèrement à droite pour rester sur {way_name:article}",
-                "destination": "Tourner légèrement à droite en direction {destination:preposition}"
+                "destination": "Tourner légèrement à droite en direction {destination:preposition}",
+                "junction_name": "Tourner légèrement à droite en {junction_name}"
             },
             "uturn": {
                 "default": "Faire demi-tour",
                 "name": "Faire demi-tour et continuer sur {way_name:article}",
-                "destination": "Faire demi-tour en direction {destination:preposition}"
+                "destination": "Faire demi-tour en direction {destination:preposition}",
+                "junction_name": "Faire demi-tour en {junction_name}"
             }
         },
         "depart": {
@@ -166,17 +171,20 @@
             "default": {
                 "default": "Tourner {modifier}",
                 "name": "Tourner {modifier} sur {way_name:article}",
-                "destination": "Tourner {modifier} en direction {destination:preposition}"
+                "destination": "Tourner {modifier} en direction {destination:preposition}",
+                "junction_name": "Tourner {modifier} en {junction_name}"
             },
             "straight": {
                 "default": "Continuer tout droit",
                 "name": "Continuer tout droit sur {way_name:article}",
-                "destination": "Continuer tout droit en direction {destination:preposition}"
+                "destination": "Continuer tout droit en direction {destination:preposition}",
+                "junction_name": "Continuer tout droit en {junction_name}"
             },
             "uturn": {
                 "default": "Faire demi-tour à la fin de la route",
                 "name": "Faire demi-tour à la fin {way_name:preposition}",
-                "destination": "Faire demi-tour à la fin de la route en direction {destination:preposition}"
+                "destination": "Faire demi-tour à la fin de la route en direction {destination:preposition}",
+                "junction_name": "Faire demi-tour en {junction_name}"
             }
         },
         "fork": {
@@ -463,22 +471,26 @@
             "default": {
                 "default": "Tourner {modifier}",
                 "name": "Tourner {modifier} sur {way_name:article}",
-                "destination": "Tourner {modifier} en direction {destination:preposition}"
+                "destination": "Tourner {modifier} en direction {destination:preposition}",
+                "junction_name": "Tourner {modifier} en {junction_name}"
             },
             "left": {
                 "default": "Tourner à gauche",
                 "name": "Tourner à gauche sur {way_name:article}",
-                "destination": "Tourner à gauche en direction {destination:preposition}"
+                "destination": "Tourner à gauche en direction {destination:preposition}",
+                "junction_name": "Tourner à gauche en {junction_name}"
             },
             "right": {
                 "default": "Tourner à droite",
                 "name": "Tourner à droite sur {way_name:article}",
-                "destination": "Tourner à droite en direction {destination:preposition}"
+                "destination": "Tourner à droite en direction {destination:preposition}",
+                "junction_name": "Tourner à droite en {junction_name}"
             },
             "straight": {
                 "default": "Aller tout droit",
                 "name": "Aller tout droit sur {way_name:article}",
-                "destination": "Aller tout droit en direction {destination:preposition}"
+                "destination": "Aller tout droit en direction {destination:preposition}",
+                "junction_name": "Aller tout droit en {junction_name}"
             }
         },
         "use lane": {

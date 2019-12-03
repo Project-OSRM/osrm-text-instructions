@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "end of road",
+            "modifier": "right"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "انعطف يمينا على Shibuya Crossing",
+        "da": "Drej til højre ved Shibuya Crossing",
+        "de": "Rechts abbiegen an Shibuya Crossing",
+        "en": "Turn right at Shibuya Crossing",
+        "eo": "Veturu dekstren ĉe Shibuya Crossing",
+        "es": "Gira a derecha en Shibuya Crossing",
+        "es-ES": "Al final de la calle gira a la derecha en Shibuya Crossing",
+        "fi": "Käänny oikeall(e/a) tielle Shibuya Crossing",
+        "fr": "Tourner à droite en Shibuya Crossing",
+        "he": "פנה ימינה על Shibuya Crossing",
+        "hu": "Forduljon be jobbra az Shibuya Crossing",
+        "id": "Turn kanan at Shibuya Crossing",
+        "it": "Gira a destra al Shibuya Crossing",
+        "ja": "Shibuya Crossingを右です",
+        "ko": "Shibuya Crossing에서 우회전 회전하세요.",
+        "my": "Shibuya Crossing​ပေါ်သို့ ညာဘက်ကိုလှည့်ပါ",
+        "nl": "Ga rechts bij Shibuya Crossing",
+        "no": "Sving høyre i Shibuya Crossing",
+        "pl": "Skręć prawo na Shibuya Crossing",
+        "pt-BR": "Vire à direita em Shibuya Crossing",
+        "pt-PT": "Vire à direita em Shibuya Crossing",
+        "ro": "Virați dreapta la Shibuya Crossing",
+        "ru": "Поверните направо на Shibuya Crossing",
+        "sl": "Zavijte desno na Shibuya Crossing",
+        "sv": "Sväng höger vid Shibuya Crossing",
+        "tr": "Shibuya Crossing konumunda sağ tarafa dönün",
+        "uk": "Поверніть праворуч на Shibuya Crossing",
+        "vi": "Quẹo phải ở Shibuya Crossing",
+        "yo": "Tan-an ọtun ni Shibuya Crossing",
+        "zh-Hans": "Turn 向右 at Shibuya Crossing"
+    }
+}

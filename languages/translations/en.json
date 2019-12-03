@@ -132,27 +132,32 @@
             "sharp left": {
                 "default": "Make a sharp left",
                 "name": "Make a sharp left to stay on {way_name}",
-                "destination": "Make a sharp left towards {destination}"
+                "destination": "Make a sharp left towards {destination}",
+                "junction_name": "Make a sharp left at {junction_name}"
             },
             "sharp right": {
                 "default": "Make a sharp right",
                 "name": "Make a sharp right to stay on {way_name}",
-                "destination": "Make a sharp right towards {destination}"
+                "destination": "Make a sharp right towards {destination}",
+                "junction_name": "Make a sharp right at {junction_name}"
             },
             "slight left": {
                 "default": "Make a slight left",
                 "name": "Make a slight left to stay on {way_name}",
-                "destination": "Make a slight left towards {destination}"
+                "destination": "Make a slight left towards {destination}",
+                "junction_name": "Make a slight left at {junction_name}"
             },
             "slight right": {
                 "default": "Make a slight right",
                 "name": "Make a slight right to stay on {way_name}",
-                "destination": "Make a slight right towards {destination}"
+                "destination": "Make a slight right towards {destination}",
+                "junction_name": "Make a slight right at {junction_name}"
             },
             "uturn": {
                 "default": "Make a U-turn",
                 "name": "Make a U-turn and continue on {way_name}",
-                "destination": "Make a U-turn towards {destination}"
+                "destination": "Make a U-turn towards {destination}",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "depart": {
@@ -166,17 +171,20 @@
             "default": {
                 "default": "Turn {modifier}",
                 "name": "Turn {modifier} onto {way_name}",
-                "destination": "Turn {modifier} towards {destination}"
+                "destination": "Turn {modifier} towards {destination}",
+                "junction_name": "Turn {modifier} at {junction_name}"
             },
             "straight": {
                 "default": "Continue straight",
                 "name": "Continue straight onto {way_name}",
-                "destination": "Continue straight towards {destination}"
+                "destination": "Continue straight towards {destination}",
+                "junction_name": "Continue straight at {junction_name}"
             },
             "uturn": {
                 "default": "Make a U-turn at the end of the road",
                 "name": "Make a U-turn onto {way_name} at the end of the road",
-                "destination": "Make a U-turn towards {destination} at the end of the road"
+                "destination": "Make a U-turn towards {destination} at the end of the road",
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "fork": {
@@ -463,22 +471,26 @@
             "default": {
                 "default": "Make a {modifier}",
                 "name": "Make a {modifier} onto {way_name}",
-                "destination": "Make a {modifier} towards {destination}"
+                "destination": "Make a {modifier} towards {destination}",
+                "junction_name": "Make a {modifier} at {junction_name}"
             },
             "left": {
                 "default": "Turn left",
                 "name": "Turn left onto {way_name}",
-                "destination": "Turn left towards {destination}"
+                "destination": "Turn left towards {destination}",
+                "junction_name": "Turn left at {junction_name}"
             },
             "right": {
                 "default": "Turn right",
                 "name": "Turn right onto {way_name}",
-                "destination": "Turn right towards {destination}"
+                "destination": "Turn right towards {destination}",
+                "junction_name": "Turn right at {junction_name}"
             },
             "straight": {
                 "default": "Go straight",
                 "name": "Go straight onto {way_name}",
-                "destination": "Go straight towards {destination}"
+                "destination": "Go straight towards {destination}",
+                "junction_name": "Go straight at {junction_name}"
             }
         },
         "use lane": {

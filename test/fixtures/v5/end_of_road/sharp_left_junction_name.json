@@ -1,0 +1,43 @@
+{
+    "step": {
+        "maneuver": {
+            "type": "end of road",
+            "modifier": "sharp left"
+        },
+        "name": "Way Name",
+        "driving_side": "right",
+        "junction_name": "Shibuya Crossing"
+    },
+    "instructions": {
+        "ar": "انعطف يسار حادا على Shibuya Crossing",
+        "da": "Drej skarpt til venstre ved Shibuya Crossing",
+        "de": "Scharf links abbiegen an Shibuya Crossing",
+        "en": "Turn sharp left at Shibuya Crossing",
+        "eo": "Veturu maldekstregen ĉe Shibuya Crossing",
+        "es": "Gira a cerrada a la izquierda en Shibuya Crossing",
+        "es-ES": "Al final de la calle gira cerrada a la izquierda en Shibuya Crossing",
+        "fi": "Käänny jyrkästi vasempaan tielle Shibuya Crossing",
+        "fr": "Tourner franchement à gauche en Shibuya Crossing",
+        "he": "פנה חדה שמאלה על Shibuya Crossing",
+        "hu": "Forduljon be élesen balra az Shibuya Crossing",
+        "id": "Turn tajam kiri at Shibuya Crossing",
+        "it": "Gira a sinistra al Shibuya Crossing",
+        "ja": "Shibuya Crossingを左戻るです",
+        "ko": "Shibuya Crossing에서 바로좌회전 회전하세요.",
+        "my": "Shibuya Crossing​ပေါ်သို့ ဘယ်ဘက် ထောင့်ချိုးကိုလှည့်ပါ",
+        "nl": "Ga scherpe bocht naar links bij Shibuya Crossing",
+        "no": "Sving skarp venstre i Shibuya Crossing",
+        "pl": "Skręć ostro w lewo na Shibuya Crossing",
+        "pt-BR": "Vire fechada à esquerda em Shibuya Crossing",
+        "pt-PT": "Vire acentuadamente à esquerda em Shibuya Crossing",
+        "ro": "Virați puternic stânga la Shibuya Crossing",
+        "ru": "Поверните налево на Shibuya Crossing",
+        "sl": "Zavijte ostro levo na Shibuya Crossing",
+        "sv": "Sväng vänster vid Shibuya Crossing",
+        "tr": "Shibuya Crossing konumunda keskin sol tarafa dönün",
+        "uk": "Поверніть різко ліворуч на Shibuya Crossing",
+        "vi": "Quẹo trái gắt ở Shibuya Crossing",
+        "yo": "Tan-an didasilẹ ni Shibuya Crossing",
+        "zh-Hans": "Turn 急向左 at Shibuya Crossing"
+    }
+}
