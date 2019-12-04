@@ -112,7 +112,7 @@
                 "upcoming": "Você vai chegar ao seu {nth} destino, em frente",
                 "short": "Você chegou",
                 "short-upcoming": "Você vai chegar",
-                "named": "You have arrived at {waypoint_name}, straight ahead"
+                "named": "Você chegou a {waypoint_name}, logo em frente"
             }
         },
         "continue": {
@@ -190,18 +190,18 @@
         "fork": {
             "default": {
                 "default": "Mantenha-se {modifier} na bifurcação",
-                "name": "Mantenha-se {modifier} na bifurcação em {way_name}",
-                "destination": "Mantenha-se {modifier} na bifurcação sentido {destination}"
+                "name": "Permaneça {modifier} para {way_name}",
+                "destination": "Permaneça {modifier} em direção à {destination}"
             },
             "slight left": {
                 "default": "Mantenha-se à esquerda na bifurcação",
-                "name": "Mantenha-se à esquerda na bifurcação em {way_name}",
-                "destination": "Mantenha-se à esquerda na bifurcação sentido {destination}"
+                "name": "Permaneça à esquerda para {way_name}",
+                "destination": "Permaneça à esquerda em direção à {destination}"
             },
             "slight right": {
                 "default": "Mantenha-se à direita na bifurcação",
-                "name": "Mantenha-se à direita na bifurcação em {way_name}",
-                "destination": "Mantenha-se à direita na bifurcação sentido {destination}"
+                "name": "Permaneça à direita para {way_name}",
+                "destination": "Permaneça à direita em direção à {destination}"
             },
             "sharp left": {
                 "default": "Faça uma curva fechada à esquerda na bifurcação",
@@ -227,8 +227,8 @@
             },
             "straight": {
                 "default": "Mesclar",
-                "name": "Entre reto na {way_name}",
-                "destination": "Entre reto em direção à {destination}"
+                "name": "Entre na {way_name}",
+                "destination": "Mesclar para {destination}"
             },
             "slight left": {
                 "default": "Entre à esquerda",
@@ -397,7 +397,7 @@
             "default": {
                 "default": {
                     "default": "Entre na rotatória",
-                    "name": "Entre na rotatória e saia na {way_name}",
+                    "name": "Entre na rotatória e saia em {way_name}",
                     "destination": "Entre na rotatória e saia sentido {destination}"
                 },
                 "name": {
@@ -406,9 +406,9 @@
                     "destination": "Entre em {rotary_name} e saia sentido {destination}"
                 },
                 "exit": {
-                    "default": "Entre na rotatória e pegue a {exit_number} saída",
-                    "name": "Entre na rotatória e pegue a {exit_number} saída na {way_name}",
-                    "destination": "Entre na rotatória e pegue a {exit_number} saída sentido {destination}"
+                    "default": "Entre na rotatória e saia na {exit_number} saída",
+                    "name": "Entre na rotatória e saia na {exit_number} saída em {way_name}",
+                    "destination": "Entre na rotatória e saia na {exit_number} saída sentido {destination}"
                 },
                 "name_exit": {
                     "default": "Entre em {rotary_name} e saia na {exit_number} saída",
@@ -420,13 +420,13 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Entre na rotatória e pegue a {exit_number} saída",
-                    "name": "Entre na rotatória e pegue a {exit_number} saída na {way_name}",
-                    "destination": "Entre na rotatória e pegue a {exit_number} saída sentido {destination}"
+                    "default": "Entre na rotatória e saia na {exit_number} saída",
+                    "name": "Entre na rotatória e saia na {exit_number} saída em {way_name}",
+                    "destination": "Entre na rotatória e saia na {exit_number} saída sentido {destination}"
                 },
                 "default": {
                     "default": "Entre na rotatória",
-                    "name": "Entre na rotatória e saia na {way_name}",
+                    "name": "Entre na rotatória e saia em {way_name}",
                     "destination": "Entre na rotatória e saia sentido {destination}"
                 }
             }
