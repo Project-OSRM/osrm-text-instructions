@@ -112,7 +112,7 @@
                 "upcoming": "Está a chegar ao seu {nth} destino, em frente",
                 "short": "Chegou",
                 "short-upcoming": "Está a chegar",
-                "named": "Chegou a {waypoint_name}, em frente"
+                "named": "Chegou a {waypoint_name}, mesmo em frente"
             }
         },
         "continue": {
@@ -406,9 +406,9 @@
                     "destination": "Entre em {rotary_name} e saia em direção a {destination}"
                 },
                 "exit": {
-                    "default": "Entre na rotunda e saia na saída {exit_number}",
-                    "name": "Entre na rotunda e saia na saída {exit_number} para {way_name}",
-                    "destination": "Entre na rotunda e saia na saída {exit_number} em direção a {destination}"
+                    "default": "Entre na rotunda e saia na {exit_number} saída",
+                    "name": "Entre na rotunda e saia na {exit_number} saída para {way_name}",
+                    "destination": "Entre na rotunda e saia na {exit_number} saída em direção a {destination}"
                 },
                 "name_exit": {
                     "default": "Entre em {rotary_name} e saia na saída {exit_number}",
@@ -420,9 +420,9 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Entre na rotunda e saia na saída {exit_number}",
-                    "name": "Entre na rotunda e saia na saída {exit_number} para {way_name}",
-                    "destination": "Entre na rotunda e saia na saída {exit_number} em direção a {destination}"
+                    "default": "Entre na rotunda e saia na {exit_number} saída",
+                    "name": "Entre na rotunda, saia na {exit_number} saída em direção a {way_name}",
+                    "destination": "Entre na rotunda e saia na {exit_number} saída em direção a {destination}"
                 },
                 "default": {
                     "default": "Entre na rotunda",
