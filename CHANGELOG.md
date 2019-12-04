@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. For change 
 ## master
 
 - Update Japanese localization, add named intersections. [#290](https://github.com/Project-OSRM/osrm-text-instructions/pull/290)
+- Corrected various Portuguese translations. [#283](https://github.com/Project-OSRM/osrm-text-instructions/pull/283)
 
 ## 0.13.4 2019-09-16
 
