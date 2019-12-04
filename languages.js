@@ -41,7 +41,7 @@ var grammarRu = require('./languages/grammar/ru.json');
 var abbreviationsBg = require('./languages/abbreviations/bg.json');
 var abbreviationsCa = require('./languages/abbreviations/ca.json');
 var abbreviationsDa = require('./languages/abbreviations/da.json');
-var ebbreviationsDe = require('./languages/abbreviations/de.json');
+var abbreviationsDe = require('./languages/abbreviations/de.json');
 var abbreviationsEn = require('./languages/abbreviations/en.json');
 var abbreviationsEs = require('./languages/abbreviations/es.json');
 var abbreviationsFr = require('./languages/abbreviations/fr.json');
@@ -102,7 +102,7 @@ var abbreviations = {
     'bg': abbreviationsBg,
     'ca': abbreviationsCa,
     'da': abbreviationsDa,
-    'de': ebbreviationsDe,
+    'de': abbreviationsDe,
     'en': abbreviationsEn,
     'es': abbreviationsEs,
     'fr': abbreviationsFr,
