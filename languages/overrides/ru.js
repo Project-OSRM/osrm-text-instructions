@@ -6,6 +6,7 @@ var replaces = [
     ['(на) +\{((way_name)|(rotary_name))\} +по', '$1 {$2:prepositional} по'], // eslint-disable-line no-useless-escape
     ['(в +конце) +\{((way_name)|(rotary_name))\}', '$1 {$2:genitive}'], // eslint-disable-line no-useless-escape
     ['(по) +\{((way_name)|(rotary_name))\}', '$1 {$2:dative}'], // eslint-disable-line no-useless-escape
+    ['\{(junction_name)\}', '{$1:dative}'], // eslint-disable-line no-useless-escape
     ['(на) +\{((way_name)|(rotary_name))\}', '$1 {$2:accusative}'] // eslint-disable-line no-useless-escape
 ];
 
