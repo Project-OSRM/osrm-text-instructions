@@ -59,57 +59,57 @@
         },
         "arrive": {
             "default": {
-                "default": "{nth}目の目的地に到着しました",
-                "upcoming": "まもなく{nth}目の目的地に到着します",
+                "default": "{nth}目的地に到着しました",
+                "upcoming": "まもなく{nth}目的地に到着します",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
                 "named": "{waypoint_name}に到着しました"
             },
             "left": {
-                "default": "{nth}目の目的地に到着しました。目的地は左側です",
-                "upcoming": "まもなく{nth}目の目的地に到着します。目的地は左側です",
+                "default": "{nth}目的地に到着しました。目的地は左側です",
+                "upcoming": "まもなく{nth}目的地に到着します。目的地は左側です",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
                 "named": "{waypoint_name}に到着しました。目的地は左側です"
             },
             "right": {
-                "default": "{nth}目の目的地に到着しました。目的地は右側です",
-                "upcoming": "まもなく{nth}目の目的地に到着します。目的地は右側です",
+                "default": "{nth}目的地に到着しました。目的地は右側です",
+                "upcoming": "まもなく{nth}目的地に到着します。目的地は右側です",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
                 "named": "{waypoint_name}に到着しました。目的地は右側です"
             },
             "sharp left": {
-                "default": "{nth}目の目的地に到着しました。目的地は左側です",
-                "upcoming": "{nth}目の目的地に到着しました。目的地は左側です",
+                "default": "{nth}目的地に到着しました。目的地は左側です",
+                "upcoming": "{nth}目的地に到着しました。目的地は左側です",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
                 "named": "{waypoint_name}に到着しました。目的地は左側です"
             },
             "sharp right": {
-                "default": "{nth}目の目的地に到着しました。目的地は右側です",
-                "upcoming": "まもなく{nth}目の目的地に到着します。目的地は右側です",
+                "default": "{nth}目的地に到着しました。目的地は右側です",
+                "upcoming": "まもなく{nth}目的地に到着します。目的地は右側です",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
                 "named": "{waypoint_name}に到着しました。目的地は右側です"
             },
             "slight right": {
-                "default": "{nth}目の目的地に到着しました。目的地は右側です",
-                "upcoming": "まもなく{nth}目の目的地に到着します。目的地は右側です",
+                "default": "{nth}目的地に到着しました。目的地は右側です",
+                "upcoming": "まもなく{nth}目的地に到着します。目的地は右側です",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
                 "named": "{waypoint_name}に到着しました。目的地は右側です"
             },
             "slight left": {
-                "default": "{nth}目の目的地に到着しました。目的地は左側です",
-                "upcoming": "{nth}目の目的地に到着しました。目的地は左側です",
+                "default": "{nth}目的地に到着しました。目的地は左側です",
+                "upcoming": "{nth}目的地に到着しました。目的地は左側です",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
                 "named": "{waypoint_name}に到着しました。目的地は左側です"
             },
             "straight": {
-                "default": "{nth}目の目的地に到着しました。目的地は前方です",
-                "upcoming": "まもなく{nth}目の目的地に到着します。目的地は前方です",
+                "default": "{nth}目的地に到着しました。目的地は前方です",
+                "upcoming": "まもなく{nth}目的地に到着します。目的地は前方です",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
                 "named": "{waypoint_name}に到着しました。目的地は前方です"
