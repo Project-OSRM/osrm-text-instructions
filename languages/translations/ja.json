@@ -308,50 +308,50 @@
         "off ramp": {
             "default": {
                 "default": "出口です",
-                "name": "{way_name}方面、です",
-                "destination": "{destination}方面、です",
+                "name": "{way_name}方面です",
+                "destination": "{destination}方面です",
                 "exit": "{exit} 出口です",
                 "exit_destination": "{destination} 方面、{exit}　出口です"
             },
             "left": {
-                "default": "左方向、です",
-                "name": "左方向、{way_name}方面、です",
-                "destination": "左方向、{destination}方面、です",
+                "default": "左方向です",
+                "name": "左方向、{way_name}方面です",
+                "destination": "左方向、{destination}方面です",
                 "exit": "左方向、{exit} 出口です",
                 "exit_destination": "左方向、{destination} 方面、{exit}　出口です"
             },
             "right": {
-                "default": "右方向、です",
-                "name": "右方向、{way_name}方面、です",
-                "destination": "右方向、{destination}方面、です",
+                "default": "右方向です",
+                "name": "右方向、{way_name}方面です",
+                "destination": "右方向、{destination}方面です",
                 "exit": "右方向、{exit} 出口です",
                 "exit_destination": "右方向、{destination} 方面、{exit}　出口です"
             },
             "sharp left": {
-                "default": "左方向、です",
-                "name": "左方向、{way_name}方面、です",
-                "destination": "左方向、{destination}方面、です",
+                "default": "左方向です",
+                "name": "左方向、{way_name}方面です",
+                "destination": "左方向、{destination}方面です",
                 "exit": "左方向、{exit} 出口です",
                 "exit_destination": "左方向、{destination} 方面、{exit}　出口です"
             },
             "sharp right": {
-                "default": "右方向、です",
-                "name": "右方向、{way_name}方面、です",
-                "destination": "右方向、{destination}方面、です",
+                "default": "右方向です",
+                "name": "右方向、{way_name}方面です",
+                "destination": "右方向、{destination}方面です",
                 "exit": "右方向、{exit} 出口です",
                 "exit_destination": "右方向、{destination} 方面、{exit}　出口です"
             },
             "slight left": {
-                "default": "左方向、です",
-                "name": "左方向、{way_name}方面、です",
-                "destination": "左方向、{destination}方面、です",
+                "default": "左方向です",
+                "name": "左方向、{way_name}方面です",
+                "destination": "左方向、{destination}方面です",
                 "exit": "左方向、{exit} 出口です",
                 "exit_destination": "左方向、{destination} 方面、{exit}　出口です"
             },
             "slight right": {
-                "default": "右方向、です",
-                "name": "右方向、{way_name}方面、です",
-                "destination": "右方向、{destination}方面、です",
+                "default": "右方向です",
+                "name": "右方向、{way_name}方面です",
+                "destination": "右方向、{destination}方面です",
                 "exit": "右方向、{exit} 出口です",
                 "exit_destination": "右方向、{destination} 方面、{exit}　出口です"
             }
