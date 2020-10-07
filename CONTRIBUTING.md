@@ -68,8 +68,8 @@ After we merge the PR containing your localization updates and release a new ver
 Please consider also translating the following related projects, which work together with OSRM Text Instructions to give the user a complete turn-by-turn navigation experience:
 
 * [Mapbox Navigation SDK for Android](https://www.transifex.com/mapbox/mapbox-navigation-sdk-for-android/), which adds turn-by-turn navigation functionality to an Android application, including voice instructions powered by this library ([instructions](https://github.com/mapbox/mapbox-navigation-android/#translations))
-* [Mapbox Navigation SDK for iOS](https://www.transifex.com/mapbox/mapbox-navigation-ios/), the corresponding library for iOS applications ([instructions](https://github.com/mapbox/mapbox-navigation-ios/blob/master/CONTRIBUTING.md#adding-or-updating-a-localization))
-  * This SDK automatically requests [voice instructions in the system language](https://github.com/mapbox/mapbox-navigation-ios/blob/master/docs/guides/Localization%20and%20Internationalization.md#spoken-instructions) if the SDK is also available in that language.
+* [Mapbox Navigation SDK for iOS](https://www.transifex.com/mapbox/mapbox-navigation-ios/), the corresponding library for iOS applications ([instructions](https://github.com/mapbox/mapbox-navigation-ios/blob/main/CONTRIBUTING.md#adding-or-updating-a-localization))
+  * This SDK automatically requests [voice instructions in the system language](https://docs.mapbox.com/ios/navigation/overview/localization-and-internationalization/#spoken-instructions) if the SDK is also available in that language.
 * [Mapbox Maps SDK](https://www.transifex.com/mapbox/mapbox-gl-native/), which is responsible for the map view and minor UI elements such as the compass ([instructions](https://github.com/mapbox/mapbox-gl-native/blob/master/platform/ios/DEVELOPING.md#adding-a-localization))
 
 ## Releasing a new version
