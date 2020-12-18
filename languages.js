@@ -35,6 +35,7 @@ var instructionsZhHans = require('./languages/translations/zh-Hans.json');
 var grammarDa = require('./languages/grammar/da.json');
 var grammarFr = require('./languages/grammar/fr.json');
 var grammarHu = require('./languages/grammar/hu.json');
+var grammarPt = require('./languages/grammar/pt.json');
 var grammarRu = require('./languages/grammar/ru.json');
 
 // Load all abbreviations files
@@ -50,6 +51,7 @@ var abbreviationsHu = require('./languages/abbreviations/hu.json');
 var abbreviationsLt = require('./languages/abbreviations/lt.json');
 var abbreviationsNl = require('./languages/abbreviations/nl.json');
 var abbreviationsRu = require('./languages/abbreviations/ru.json');
+var abbreviationsPt = require('./languages/abbreviations/pt.json');
 var abbreviationsSl = require('./languages/abbreviations/sl.json');
 var abbreviationsSv = require('./languages/abbreviations/sv.json');
 var abbreviationsUk = require('./languages/abbreviations/uk.json');
@@ -94,6 +96,8 @@ var grammars = {
     'da': grammarDa,
     'fr': grammarFr,
     'hu': grammarHu,
+    'pt-BR': grammarPt,
+    'pt-PT': grammarPt,
     'ru': grammarRu
 };
 
@@ -110,6 +114,8 @@ var abbreviations = {
     'hu': abbreviationsHu,
     'lt': abbreviationsLt,
     'nl': abbreviationsNl,
+    'pt-BR': abbreviationsPt,
+    'pt-PT': abbreviationsPt,
     'ru': abbreviationsRu,
     'sl': abbreviationsSl,
     'sv': abbreviationsSv,
