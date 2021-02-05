@@ -1,0 +1,505 @@
+﻿{
+    "meta": {
+        "capitalizeFirstLetter": true
+    },
+    "v5": {
+        "constants": {
+            "ordinalize": {
+                "1": "اولین",
+                "2": "دومین",
+                "3": "سومین",
+                "4": "چهارمین",
+                "5": "پنجمین",
+                "6": "ششمین",
+                "7": "هفتمین",
+                "8": "هشتمین",
+                "9": "نهمین",
+                "10": "دهمین"
+            },
+            "direction": {
+                "north": "شمال",
+                "northeast": "شمال شرقی",
+                "east": "شمال غربی",
+                "southeast": "جنوب شرقی",
+                "south": "جنوب",
+                "southwest": "جنوب غربی",
+                "west": "غرب",
+                "northwest": "شمال غربی"
+            },
+            "modifier": {
+                "left": "چپ",
+                "right": "راست",
+                "sharp left": "کاملا به چپ",
+                "sharp right": "کاملا به راست",
+                "slight left": "کمی به چپ",
+                "slight right": "کمی به راست",
+                "straight": "مستقیم",
+                "uturn": "دوربرگردان"
+            },
+            "lanes": {
+                "xo": "در سمت راست بمانید",
+                "ox": "در سمت چپ بمانید",
+                "xox": "در وسط بمانید",
+                "oxo": "در چپ یا راست بمانید"
+            }
+        },
+        "modes": {
+            "ferry": {
+                "default": "با کشتی بروید",
+                "name": "با کشتی به {way_name} بروید",
+                "destination": "با کشتی به سمت {destination} بروید"
+            }
+        },
+        "phrase": {
+            "two linked by distance": "{instruction_one} سپس به {distance} و {instruction_two}",
+            "two linked": "{instruction_one} سپس {instruction_two}",
+            "one in distance": "در {distance}{instruction_one}",
+            "name and ref": "{name}({ref})",
+            "exit with number": "از {exit} خارج شوید"
+        },
+        "arrive": {
+            "default": {
+                "default": "شما به {nth} مقصد خود رسیدید",
+                "upcoming": "شما به {nth} مقصد خود خواهید رسید",
+                "short": "شما رسیدید",
+                "short-upcoming": "شما خواهید رسید",
+                "named": "شما به {waypoint_name} رسیدید"
+            },
+            "left": {
+                "default": "در سمت چپ شما به {nth} مقصد خود رسیدید",
+                "upcoming": "در سمت چپ شما به {nth} مقصد خود خواهید رسید",
+                "short": "شما رسیدید",
+                "short-upcoming": "شما خواهید رسید",
+                "named": "در سمت چپ شما به {waypoint_name} رسیدید"
+            },
+            "right": {
+                "default": "در سمت راست شماه به {nth} مقصد خود رسیدید",
+                "upcoming": "در سمت راست شما به {nth}مقصد خود خواهید رسید",
+                "short": "شما رسیدید",
+                "short-upcoming": "شما خواهید رسید",
+                "named": "در سمت راست شما به {waypoint_name} رسیدید"
+            },
+            "sharp left": {
+                "default": "در سمت چپ شمابه به {nth} مقصد خود رسیدید",
+                "upcoming": "در سمت چپ شما به {nth} مقصد خود خواهید رسید",
+                "short": "شما رسیدید",
+                "short-upcoming": "شما خواهید رسید",
+                "named": "در سمت چپ شما به {waypoint_name} رسیدید"
+            },
+            "sharp right": {
+                "default": "در سمت راست شماه به {nth} مقصد خود رسیدید",
+                "upcoming": "در سمت راست شما به {nth}مقصد خود خواهید رسید",
+                "short": "شما رسیدید",
+                "short-upcoming": "شما خواهید رسید",
+                "named": "در سمت راست شما به {waypoint_name} رسیدید"
+            },
+            "slight right": {
+                "default": "در سمت راست شماه به {nth} مقصد خود رسیدید",
+                "upcoming": "در سمت راست شما به {nth}مقصد خود خواهید رسید",
+                "short": "شما رسیدید",
+                "short-upcoming": "شما خواهید رسید",
+                "named": "در سمت راست شما به {waypoint_name} رسیدید"
+            },
+            "slight left": {
+                "default": "در سمت چپ شمابه به {nth} مقصد خود رسیدید",
+                "upcoming": "در سمت چپ شما به {nth} مقصد خود خواهید رسید",
+                "short": "شما رسیدید",
+                "short-upcoming": "شما خواهید رسید",
+                "named": "در سمت چپ شما به {waypoint_name} رسیدید"
+            },
+            "straight": {
+                "default": "مستقیماً شما به {nth} مقصد خود رسیدید",
+                "upcoming": "مستقیماً شما به {nth} مقصد خود خواهید رسید",
+                "short": "شما رسیدید",
+                "short-upcoming": "شما خواهید رسید",
+                "named": "مستقیماً شما به {waypoint_name} رسیدید"
+            }
+        },
+        "continue": {
+            "default": {
+                "default": "به {modifier} برانید",
+                "name": "به {modifier} برانید و در {way_name} بمانید",
+                "destination": "به سمت {destination} به {modifier} برانید",
+                "exit": "به {modifier}در {way_name} برانید"
+            },
+            "straight": {
+                "default": "مستقیم ادامه دهید",
+                "name": "مستقیم ادامه دهید تا در {way_name} بمانید",
+                "destination": "به سمت {destination} ادامه دهید",
+                "distance": "برای {distance} مستقیم ادامه دهید",
+                "namedistance": "برای {distance} در {way_name} ادامه دهید "
+            },
+            "sharp left": {
+                "default": "کاملا به چپ برانید ( پیچ تند )",
+                "name": "کاملا به چپ برانید تا در {way_name} بمانید",
+                "destination": "به سمت {destination} کاملا به چپ برانید",
+                "junction_name": "در {junction_name} کاملا به چپ برانید"
+            },
+            "sharp right": {
+                "default": "کاملا به راست برانید (پیچ تند)",
+                "name": "کاملا به راست برانید تا در {way_name} بمانید",
+                "destination": "به سمت {destination} کاملا به راست برانید",
+                "junction_name": "در {junction_name} کاملا به راست برانید"
+            },
+            "slight left": {
+                "default": "کمی به چپ برانید",
+                "name": "کمی با چپ برانید تا در {way_name} بمانید",
+                "destination": "به سمت {destination} کمی به چپ برانید",
+                "junction_name": "در {junction_name} کمی به چپ برانید"
+            },
+            "slight right": {
+                "default": "کمی به راست برانید",
+                "name": "کمی به راست برانید تا در {way_name} بمانید",
+                "destination": "به سمت {destination} کمی به راست برانید",
+                "junction_name": "در {junction_name} کمی به راست برانید"
+            },
+            "uturn": {
+                "default": "دوربرگدان را دور بزنید",
+                "name": "دوبرگردان را دوربزنید و در {way_name} ادامه دهید",
+                "destination": "به سمت {destination} دور برگردان را دور بزنید",
+                "junction_name": "در {junction_name} دوربرگردان رو دور بزنید"
+            }
+        },
+        "depart": {
+            "default": {
+                "default": "به سمت {direction}",
+                "name": "در {way_name} به سمت {direction}",
+                "namedistance": "برای {distance} در {way_name} به سمت {direction} برانید"
+            }
+        },
+        "end of road": {
+            "default": {
+                "default": "به {modifier} برانید",
+                "name": "به {modifier}در {way_name} برانید",
+                "destination": "به سمت {destination} به {modifier} برانید",
+                "junction_name": "در {junction_name} به {modifier} برانید"
+            },
+            "straight": {
+                "default": "در مسیر خود ادامه دهید",
+                "name": "در {way_name} مستقیماً ادامه دهید",
+                "destination": "به سمت {destination} مستقیماً ادامه دهید",
+                "junction_name": "در {junction_name} مستقیم ادامه دهید"
+            },
+            "uturn": {
+                "default": "در پایان مسیر دوربرگردان را دور بزنید",
+                "name": "در پایان مسیر دوربرگردان را در {way_name} دور بزنید",
+                "destination": "در پایان مسیر به سمت {destination} دور برگردان را دور بزنید",
+                "junction_name": "در {junction_name} دوربرگردان رو دور بزنید"
+            }
+        },
+        "fork": {
+            "default": {
+                "default": "در دوراهی از سمت {modifier} برانید",
+                "name": "در {way_name} به {modifier} برانید",
+                "destination": "به سمت {destination} به {modifier} برانید"
+            },
+            "slight left": {
+                "default": "در دوراهی به چپ برانید",
+                "name": "در {way_name} به چپ برانید",
+                "destination": "به سمت {destination} به چپ برانید"
+            },
+            "slight right": {
+                "default": "در دوراهی به سمت راست برانید",
+                "name": "در {way_name} به راست برانید",
+                "destination": "در مسیر {destination} به راست برانید"
+            },
+            "sharp left": {
+                "default": "در دوراهی کاملا به چپ بپیچید",
+                "name": "در {way_name} کاملا به چپ بپیچید",
+                "destination": "به سمت {destination} کاملا به چپ بپیچید"
+            },
+            "sharp right": {
+                "default": "در دوراهی کاملا به راست بپیچید",
+                "name": "در {way_name} کاملا به راست بپیچید",
+                "destination": "به سمت {destination} کاملا به چپ بپیچید"
+            },
+            "uturn": {
+                "default": "دوربرگدان را دور بزنید",
+                "name": "دور برگردان را در {way_name} دور بزنید",
+                "destination": "به سمت {destination} دور برگردان را دور بزنید"
+            }
+        },
+        "merge": {
+            "default": {
+                "default": "به سمت {modifier} تغییر مسیر دهید",
+                "name": "به سمت {modifier} در {way_name} تغییر مسیر دهید",
+                "destination": "در مسیر {destination} به سمت {modifier} تغییر مسید دهید"
+            },
+            "straight": {
+                "default": "تغییر مسیر",
+                "name": "در {way_name} تغییر مسیر دهید",
+                "destination": "به سمت {destination} تغییر مسیر دهید"
+            },
+            "slight left": {
+                "default": "به سمت چپ تغییر مسیر دهید",
+                "name": "در {way_name} به سمت چپ تغییر مسیر دهید",
+                "destination": "در مسیر {destination} به سمت چپ تغییر مسیر دهید"
+            },
+            "slight right": {
+                "default": "به سمت راست تغییر مسیر دهید",
+                "name": "در {way_name} به سمت راست تغییر مسیر دهید",
+                "destination": "در مسیر {destination} به سمت راست تغییر مسیر دهید"
+            },
+            "sharp left": {
+                "default": "به سمت چپ تغییر مسیر دهید",
+                "name": "در {way_name} به سمت چپ تغییر مسیر دهید",
+                "destination": "در مسیر {destination} به سمت چپ تغییر مسیر دهید"
+            },
+            "sharp right": {
+                "default": "به سمت راست تغییر مسیر دهید",
+                "name": "در {way_name} به سمت راست تغییر مسیر دهید",
+                "destination": "در مسیر {destination} به سمت راست تغییر مسیر دهید"
+            },
+            "uturn": {
+                "default": "دوربرگدان را دور بزنید",
+                "name": "دور برگردان را در {way_name} دور بزنید",
+                "destination": "به سمت {destination} دور برگردان را دور بزنید"
+            }
+        },
+        "new name": {
+            "default": {
+                "default": "در {modifier} ادامه دهید",
+                "name": "در {way_name} در{modifier} ادامه دهید",
+                "destination": "به سمت {destination} در {modifier} ادامه دهید"
+            },
+            "straight": {
+                "default": "در مسیر خود ادامه دهید",
+                "name": "در {way_name} ادامه دهید",
+                "destination": "به سمت {destination} ادامه دهید"
+            },
+            "sharp left": {
+                "default": "کاملا به چپ بپیچید",
+                "name": "در {way_name} کاملا به چپ بپیچید",
+                "destination": "به سمت {destination} کاملا به چپ بپیچید"
+            },
+            "sharp right": {
+                "default": "کاملا به راست بپیچید",
+                "name": "در {way_name} کاملا به راست بپیچید",
+                "destination": "به سمت {destination} کاملا به چپ بپیچید"
+            },
+            "slight left": {
+                "default": "به ارامی به چپ ادامه دهید",
+                "name": "به آرامی به چپ در {way_name} ادامه دهید",
+                "destination": "به آرامی به چپ در مسیر {destination} ادامه دهید"
+            },
+            "slight right": {
+                "default": "به آرامی به راست ادامه دهید",
+                "name": "به آرامی به راست در {way_name} ادامه دهید",
+                "destination": "به ارامی به راست در مسیر {destination}ادامه دهید"
+            },
+            "uturn": {
+                "default": "دوربرگدان را دور بزنید",
+                "name": "دور برگردان را در {way_name} دور بزنید",
+                "destination": "به سمت {destination} دور برگردان را دور بزنید"
+            }
+        },
+        "notification": {
+            "default": {
+                "default": "در {modifier} ادامه دهید",
+                "name": "در {way_name} در {modifier} ادامه دهید",
+                "destination": "به سمت {destination} {modifier} ادامه دهید"
+            },
+            "uturn": {
+                "default": "دوربرگدان را دور بزنید",
+                "name": "دور برگردان را در {way_name} دور بزنید",
+                "destination": "به سمت {destination} دور برگردان را دور بزنید"
+            }
+        },
+        "off ramp": {
+            "default": {
+                "default": "روی پل بروید",
+                "name": "روی پل به {way_name} بروید",
+                "destination": "در مسیر {destination} روی پل بروید",
+                "exit": "از خروجی {exit} خارج شوید",
+                "exit_destination": "از خروجی {exit} به سمت {destination} خارج شوید"
+            },
+            "left": {
+                "default": "در چپ روی پل بروید",
+                "name": "از سمت چپ به روی پل به {way_name} بروید",
+                "destination": "از سمت چپ روی پل به سمت {destination} بروید",
+                "exit": "از سمت چپ از خروچی {exit} خارج شوید",
+                "exit_destination": "به سمت {destination} از سمت چپ از {exit} خارج شوید"
+            },
+            "right": {
+                "default": "از سمت راست روی پل بروید",
+                "name": "روی پل در راست به {way_name} بروید",
+                "destination": "روی پل در راست به سمت {destination} بروید",
+                "exit": "از سمت راست از خروجی {exit} خارج شوید",
+                "exit_destination": "به سمت {destination} از خروجی {exit} خارج شودی"
+            },
+            "sharp left": {
+                "default": "در چپ روی پل بروید",
+                "name": "از سمت چپ به روی پل به {way_name} بروید",
+                "destination": "از سمت چپ روی پل به سمت {destination} بروید",
+                "exit": "از سمت چپ از خروچی {exit} خارج شوید",
+                "exit_destination": "به سمت {destination} از سمت چپ از {exit} خارج شوید"
+            },
+            "sharp right": {
+                "default": "از سمت راست روی پل بروید",
+                "name": "روی پل در راست به {way_name} بروید",
+                "destination": "روی پل در راست به سمت {destination} بروید",
+                "exit": "از سمت راست از خروجی {exit} خارج شوید",
+                "exit_destination": "به سمت {destination} از خروجی {exit} خارج شودی"
+            },
+            "slight left": {
+                "default": "در چپ روی پل بروید",
+                "name": "از سمت چپ به روی پل به {way_name} بروید",
+                "destination": "از سمت چپ روی پل به سمت {destination} بروید",
+                "exit": "از سمت چپ از خروچی {exit} خارج شوید",
+                "exit_destination": "به سمت {destination} از سمت چپ از {exit} خارج شوید"
+            },
+            "slight right": {
+                "default": "از سمت راست روی پل بروید",
+                "name": "روی پل در راست به {way_name} بروید",
+                "destination": "روی پل در راست به سمت {destination} بروید",
+                "exit": "از سمت راست از خروجی {exit} خارج شوید",
+                "exit_destination": "به سمت {destination} از خروجی {exit} خارج شودی"
+            }
+        },
+        "on ramp": {
+            "default": {
+                "default": "روی پل بروید",
+                "name": "روی پل به {way_name} بروید",
+                "destination": "در مسیر {destination} روی پل بروید"
+            },
+            "left": {
+                "default": "در چپ روی پل بروید",
+                "name": "از سمت چپ به روی پل به {way_name} بروید",
+                "destination": "از سمت چپ روی پل به سمت {destination} بروید"
+            },
+            "right": {
+                "default": "از سمت راست روی پل بروید",
+                "name": "روی پل در راست به {way_name} بروید",
+                "destination": "روی پل در راست به سمت {destination} بروید"
+            },
+            "sharp left": {
+                "default": "در چپ روی پل بروید",
+                "name": "از سمت چپ به روی پل به {way_name} بروید",
+                "destination": "از سمت چپ روی پل به سمت {destination} بروید"
+            },
+            "sharp right": {
+                "default": "از سمت راست روی پل بروید",
+                "name": "روی پل در راست به {way_name} بروید",
+                "destination": "روی پل در راست به سمت {destination} بروید"
+            },
+            "slight left": {
+                "default": "در چپ روی پل بروید",
+                "name": "از سمت چپ به روی پل به {way_name} بروید",
+                "destination": "از سمت چپ روی پل به سمت {destination} بروید"
+            },
+            "slight right": {
+                "default": "از سمت راست روی پل بروید",
+                "name": "روی پل در راست به {way_name} بروید",
+                "destination": "روی پل در راست به سمت {destination} بروید"
+            }
+        },
+        "rotary": {
+            "default": {
+                "default": {
+                    "default": "وارد میدان شوید",
+                    "name": "وارد میدان شوید و در {way_name} خارج شوید",
+                    "destination": "وارد میدان شوید و به سمت {destination} بروید"
+                },
+                "name": {
+                    "default": "وارد {rotary_name} شوید",
+                    "name": "وارد {rotary_name} شوید و در {way_name} خارج شوید",
+                    "destination": "وارد {rotary_name} شوید و به سمت {destination} خارج شوید"
+                },
+                "exit": {
+                    "default": "وارد میدان شوید و از خروجی {exit_number} خارج شوید",
+                    "name": "وارد میدان شوید و از خروجی {exit_number} در {way_name} خارج شوید",
+                    "destination": "وارد میدان شوید و از خروجی {exit_number} به سمت {destination} خارج شوید"
+                },
+                "name_exit": {
+                    "default": "وارد {rotary_name} شوید و از خروجی {exit_number} خارج شوید",
+                    "name": "وارد {rotary_name} شوید و از خروجی {exit_number} در {way_name} خارج شوید",
+                    "destination": "وارد {rotary_name} شوید و به سمت {destination} از خروجی {exit_number} خارج شوید"
+                }
+            }
+        },
+        "roundabout": {
+            "default": {
+                "exit": {
+                    "default": "وارد میدان شوید و از خروجی {exit_number} خارج شوید",
+                    "name": "وارد میدان شوید و از خروجی {exit_number} در {way_name} خارج شوید",
+                    "destination": "وارد میدان شوید و از خروجی {exit_number} به سمت {destination} خارج شوید"
+                },
+                "default": {
+                    "default": "وارد میدان شوید",
+                    "name": "وارد میدان شوید و در {way_name} خارج شوید",
+                    "destination": "وارد میدان شوید و به سمت {destination} بروید"
+                }
+            }
+        },
+        "roundabout turn": {
+            "default": {
+                "default": "{modifier}بروید",
+                "name": "در {way_name}به {modifier} بروید",
+                "destination": "در مسیر {destination} به {modifier} بروید"
+            },
+            "left": {
+                "default": "به چپ بپیچید",
+                "name": "در {way_name} به چپ بپیچید",
+                "destination": "در مسیر {destination} به چپ بپیچید"
+            },
+            "right": {
+                "default": "به راست بپیچید",
+                "name": "به راست در {way_name}بروید",
+                "destination": "در مسیر {destination} به راست بروید"
+            },
+            "straight": {
+                "default": "در مسیر خود ادامه دهید",
+                "name": "در {way_name} مستقیماً ادامه دهید",
+                "destination": "به سمت {destination} مستقیماً ادامه دهید"
+            }
+        },
+        "exit roundabout": {
+            "default": {
+                "default": "از میدان خارج شوید",
+                "name": "در {way_name}از میدان خارج شوید",
+                "destination": "در مسیر {destination} از میدان خارج شوید"
+            }
+        },
+        "exit rotary": {
+            "default": {
+                "default": "از میدان خارج شوید",
+                "name": "در {way_name}از میدان خارج شوید",
+                "destination": "در مسیر {destination} از میدان خارج شوید"
+            }
+        },
+        "turn": {
+            "default": {
+                "default": "{modifier}بروید",
+                "name": "در {way_name}به {modifier} بروید",
+                "destination": "در مسیر {destination} به {modifier} بروید",
+                "junction_name": "در {junction_name}به {modifier} بروید"
+            },
+            "left": {
+                "default": "به چپ بپیچید",
+                "name": "در {way_name} به چپ بپیچید",
+                "destination": "در مسیر {destination} به چپ بپیچید",
+                "junction_name": "در {junction_name} به جپ بپیچید"
+            },
+            "right": {
+                "default": "به راست بپیچید",
+                "name": "به راست در {way_name}بروید",
+                "destination": "در مسیر {destination} به راست بروید",
+                "junction_name": "در {junction_name}به راست بروید"
+            },
+            "straight": {
+                "default": "مستقیم بروید",
+                "name": "مستقیم به {way_name} بروید",
+                "destination": "مستقیم به سمت {destination} بروید",
+                "junction_name": "مستقیم به {junction_name}بروید"
+            }
+        },
+        "use lane": {
+            "no_lanes": {
+                "default": "در مسیر خود ادامه دهید"
+            },
+            "default": {
+                "default": "{lane_instruction}"
+            }
+        }
+    }
+}
