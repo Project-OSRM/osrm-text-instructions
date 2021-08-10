@@ -1,0 +1,505 @@
+{
+    "meta": {
+        "capitalizeFirstLetter": true
+    },
+    "v5": {
+        "constants": {
+            "ordinalize": {
+                "1": "1.",
+                "2": "2.",
+                "3": "3.",
+                "4": "4.",
+                "5": "5.",
+                "6": "6.",
+                "7": "7.",
+                "8": "8.",
+                "9": "9.",
+                "10": "10."
+            },
+            "direction": {
+                "north": "sever",
+                "northeast": "severovýchod",
+                "east": "východ",
+                "southeast": "jihovýchod",
+                "south": "jih",
+                "southwest": "jihozápad",
+                "west": "západ",
+                "northwest": "severozápad"
+            },
+            "modifier": {
+                "left": "vlevo",
+                "right": "vpravo",
+                "sharp left": "ostře vlevo",
+                "sharp right": "ostře vpravo",
+                "slight left": "mírně vlevo",
+                "slight right": "mírně vpravo",
+                "straight": "rovně",
+                "uturn": "otočte se"
+            },
+            "lanes": {
+                "xo": "Držte se vpravo",
+                "ox": "Držte se vlevo",
+                "xox": "Držte se uprostřed",
+                "oxo": "Držte se vlevo nebo vpravo"
+            }
+        },
+        "modes": {
+            "ferry": {
+                "default": "Jeďte trajektem",
+                "name": "Jeďte trajektem {way_name}",
+                "destination": "Jeďte trajektem směrem {destination}"
+            }
+        },
+        "phrase": {
+            "two linked by distance": "{instruction_one}, pak na {distance}, {instruction_two}",
+            "two linked": "{instruction_one}, pak {instruction_two}",
+            "one in distance": "Na {distance}, {instruction_one}",
+            "name and ref": "{name} ({ref})",
+            "exit with number": "Opusťte {exit}"
+        },
+        "arrive": {
+            "default": {
+                "default": "Dorazili jste do {nth} cíle",
+                "upcoming": "Dorazíte do {nth} cíle",
+                "short": "Dorazili jste",
+                "short-upcoming": "Dorazíte",
+                "named": "Dorazili jste do {waypoint_name}"
+            },
+            "left": {
+                "default": "Dorazili jste do {nth} cíle vlevo",
+                "upcoming": "Dorazíte do {nth} cíle nalevo",
+                "short": "Dorazili jste",
+                "short-upcoming": "Dorazíte",
+                "named": "Dorazili jste do {waypoint_name} vlevo"
+            },
+            "right": {
+                "default": "Dorazili jste do {nth} cíle vpravo",
+                "upcoming": "Dorazíte do {nth} cíle vpravo",
+                "short": "Dorazili jste",
+                "short-upcoming": "Dorazíte",
+                "named": "Dorazili jste do {waypoint_name} vpravo"
+            },
+            "sharp left": {
+                "default": "Dorazili jste do {nth} cíle ostře vlevo",
+                "upcoming": "Dorazíte do {nth} cíle ostře vlevo",
+                "short": "Dorazili jste",
+                "short-upcoming": "Dorazíte",
+                "named": "Dorazili jste do {waypoint_name} ostře vlevo"
+            },
+            "sharp right": {
+                "default": "Dorazili jste do {nth} cíle ostře vpravo",
+                "upcoming": "Dorazíte do {nth} cíle ostře vpravo",
+                "short": "Dorazili jste",
+                "short-upcoming": "Dorazíte",
+                "named": "Dorazili jste do {waypoint_name} ostře vpravo"
+            },
+            "slight right": {
+                "default": "Dorazili jste do {nth} cíle mírně vpravo",
+                "upcoming": "Dorazíte do {nth} cíle mírně vpravo",
+                "short": "Dorazili jste",
+                "short-upcoming": "Dorazíte",
+                "named": "Dorazili jste do {waypoint_name} mírně vpravo"
+            },
+            "slight left": {
+                "default": "Dorazili jste do {nth} cíle mírně vlevo",
+                "upcoming": "Dorazíte do {nth} cíle mírně vlevo",
+                "short": "Dorazili jste",
+                "short-upcoming": "Dorazíte",
+                "named": "Dorazili jste do {waypoint_name} mírně vlevo"
+            },
+            "straight": {
+                "default": "Dorazili jste do {nth} cíle přímo před sebou",
+                "upcoming": "Dorazíte do {nth} cíle přímo před sebou",
+                "short": "Dorazili jste",
+                "short-upcoming": "Dorazíte",
+                "named": "Dorazili jste do {waypoint_name} přímo před sebou"
+            }
+        },
+        "continue": {
+            "default": {
+                "default": "Odbočte {modifier}",
+                "name": "Odbočte {modifier} a zůstaňte na {way_name}",
+                "destination": "Odbočte {modifier} směrem na {destination}",
+                "exit": "Odbočte {modifier} na {way_name}"
+            },
+            "straight": {
+                "default": "Pokračujte rovně",
+                "name": "Pokračujte rovně a zůstaňte na {way_name}",
+                "destination": "Pokračujte směrem na {destination}",
+                "distance": "Pokračujte rovně do {distance}",
+                "namedistance": "Pokračujte na {way_name} do {distance}"
+            },
+            "sharp left": {
+                "default": "Zahněte ostře doleva",
+                "name": "Zahněte ostře doleva a zůstaňte na {way_name}",
+                "destination": "Zahněte ostře doleva směrem na {destination}",
+                "junction_name": "Zahněte ostře doleva na {junction_name}"
+            },
+            "sharp right": {
+                "default": "Zahněte ostře doprava",
+                "name": "Zahněte ostře doprava a zůstaňte na {way_name}",
+                "destination": "Zahněte ostře doprava směrem na {destination}",
+                "junction_name": "Zahněte ostře doprava na {junction_name}"
+            },
+            "slight left": {
+                "default": "Zahněte mírně doleva",
+                "name": "Zahněte mírně doleva a zůstaňte na {way_name}",
+                "destination": "Zahněte mírně doleva směrem na {destination}",
+                "junction_name": "Zahněte mírně doleva na {junction_name}"
+            },
+            "slight right": {
+                "default": "Zahněte mírně doprava",
+                "name": "Zahněte mírně doprava a zůstaňte na {way_name}",
+                "destination": "Zahněte mírně doprava směrem na {destination}",
+                "junction_name": "Zahněte mírně doprava na {junction_name}"
+            },
+            "uturn": {
+                "default": "Otočte se",
+                "name": "Otočte se a pokračujte na {way_name}",
+                "destination": "Otočte se směrem na {destination}",
+                "junction_name": "Otočte se na {junction_name}"
+            }
+        },
+        "depart": {
+            "default": {
+                "default": "Jeďte na {direction}",
+                "name": "Jeďte na {direction} po {way_name}",
+                "namedistance": "Jeďte na {direction} po {way_name} do {distance}"
+            }
+        },
+        "end of road": {
+            "default": {
+                "default": "Odbočte {modifier}",
+                "name": "Odbočte {modifier} na {way_name}",
+                "destination": "Odbočte {modifier} směrem na {destination}",
+                "junction_name": "Odbočte {modifier} na {junction_name}"
+            },
+            "straight": {
+                "default": "Pokračujte rovně",
+                "name": "Pokračujte rovně na {way_name}",
+                "destination": "Pokračujte rovně směrem na {destination}",
+                "junction_name": "Pokračujte rovně na {junction_name}"
+            },
+            "uturn": {
+                "default": "Otočte se na konci cesty",
+                "name": "Otočte se na {way_name} na konci cesty",
+                "destination": "Otočte se směrem na {destination} na konci cesty",
+                "junction_name": "Otočte se na {junction_name}"
+            }
+        },
+        "fork": {
+            "default": {
+                "default": "Držte se {modifier} na rozcestí",
+                "name": "Držte se {modifier} na {way_name}",
+                "destination": "Držte se {modifier} směrem na {destination}"
+            },
+            "slight left": {
+                "default": "Držte se mírně vlevo na rozcestí",
+                "name": "Držte se mírně vlevo na {way_name}",
+                "destination": "Držte se mírně vlevo směrem na {destination}"
+            },
+            "slight right": {
+                "default": "Držte se mírně vpravo na rozcestí",
+                "name": "Držte se mírně vpravo na {way_name}",
+                "destination": "Držte se mírně vpravo směrem na {destination}"
+            },
+            "sharp left": {
+                "default": "Odbočte ostře vlevo na rozcestí",
+                "name": "Odbočte ostře vlevo na {way_name}",
+                "destination": "Odbočte ostře vlevo směrem na {destination}"
+            },
+            "sharp right": {
+                "default": "Odbočte ostře vpravo na rozcestí",
+                "name": "Odbočte ostře vpravo na {way_name}",
+                "destination": "Odbočte ostře vpravo směrem na {destination}"
+            },
+            "uturn": {
+                "default": "Otočte se",
+                "name": "Otočte se na {way_name}",
+                "destination": "Otočte se směrem na {destination}"
+            }
+        },
+        "merge": {
+            "default": {
+                "default": "Zařaďte se {modifier}",
+                "name": "Zařaďte se {modifier} na {way_name}",
+                "destination": "Zařaďte se {modifier} směrem na {destination}"
+            },
+            "straight": {
+                "default": "Zařaďte se",
+                "name": "Zařaďte se na {way_name}",
+                "destination": "Zařaďte se směrem na {destination}"
+            },
+            "slight left": {
+                "default": "Zařaďte se mírně vlevo",
+                "name": "Zařaďte se mírně vlevo na {way_name}",
+                "destination": "Zařaďte se mírně vlevo směrem na {destination}"
+            },
+            "slight right": {
+                "default": "Zařaďte se mírně vpravo",
+                "name": "Zařaďte se mírně vpravo na {way_name}",
+                "destination": "Zařaďte se mírně vpravo směrem na {destination}"
+            },
+            "sharp left": {
+                "default": "Zařaďte se ostře vlevo",
+                "name": "Zařaďte se ostře vlevo na {way_name}",
+                "destination": "Zařaďte se ostře vlevo směrem na {destination}"
+            },
+            "sharp right": {
+                "default": "Zařaďte se ostře vpravo",
+                "name": "Zařaďte se ostře vpravo na {way_name}",
+                "destination": "Zařaďte se ostře vpravo směrem na {destination}"
+            },
+            "uturn": {
+                "default": "Otočte se",
+                "name": "Otočte se na {way_name}",
+                "destination": "Otočte se směrem na {destination}"
+            }
+        },
+        "new name": {
+            "default": {
+                "default": "Pokračujte {modifier}",
+                "name": "Pokračujte {modifier} na {way_name}",
+                "destination": "Pokračujte {modifier} směrem na {destination}"
+            },
+            "straight": {
+                "default": "Pokračujte rovně",
+                "name": "Pokračujte na {way_name}",
+                "destination": "Pokračujte směrem na {destination}"
+            },
+            "sharp left": {
+                "default": "Odbočte ostře vlevo",
+                "name": "Odbočte ostře vlevo na {way_name}",
+                "destination": "Odbočte ostře vlevo směrem na {destination}"
+            },
+            "sharp right": {
+                "default": "Odbočte ostře vpravo",
+                "name": "Odbočte ostře vpravo na {way_name}",
+                "destination": "Odbočte ostře vpravo směrem na {destination}"
+            },
+            "slight left": {
+                "default": "Pokračujte mírně vlevo",
+                "name": "Pokračujte mírně vlevo na {way_name}",
+                "destination": "Pokračujte mírně vlevo směrem na {destination}"
+            },
+            "slight right": {
+                "default": "Pokračujte mírně vpravo",
+                "name": "Pokračujte mírně vpravo na {way_name}",
+                "destination": "Pokračujte mírně vpravo směrem na {destination}"
+            },
+            "uturn": {
+                "default": "Otočte se",
+                "name": "Otočte se na {way_name}",
+                "destination": "Otočte se směrem na {destination}"
+            }
+        },
+        "notification": {
+            "default": {
+                "default": "Pokračujte {modifier}",
+                "name": "Pokračujte {modifier} na {way_name}",
+                "destination": "Pokračujte {modifier} směrem na {destination}"
+            },
+            "uturn": {
+                "default": "Otočte se",
+                "name": "Otočte se na {way_name}",
+                "destination": "Otočte se směrem na {destination}"
+            }
+        },
+        "off ramp": {
+            "default": {
+                "default": "Jeďte nájezdem",
+                "name": "Jeďte nájezdem na {way_name}",
+                "destination": "Jeďte nájezdem směrem na {destination}",
+                "exit": "Jeďte výjezdem {exit}",
+                "exit_destination": "Jeďte výjezdem {exit} směrem na {destination}"
+            },
+            "left": {
+                "default": "Jeďte nájezdem vlevo",
+                "name": "Jeďte nájezdem vlevo na {way_name}",
+                "destination": "Jeďte nájezdem vlevo směrem na {destination}",
+                "exit": "Jeďte výjezdem {exit} vlevo",
+                "exit_destination": "Jeďte výjezdem {exit} vlevo směrem na {destination}"
+            },
+            "right": {
+                "default": "Jeďte nájezdem vpravo",
+                "name": "Jeďte nájezdem vpravo na {way_name}",
+                "destination": "Jeďte nájezdem vpravo směrem na {destination}",
+                "exit": "Jeďte výjezdem {exit} vpravo",
+                "exit_destination": "Jeďte výjezdem {exit} vpravo směrem na {destination}"
+            },
+            "sharp left": {
+                "default": "Jeďte nájezdem ostře vlevo",
+                "name": "Jeďte nájezdem ostře vlevo na {way_name}",
+                "destination": "Jeďte nájezdem ostře vlevo směrem na {destination}",
+                "exit": "Jeďte výjezdem {exit} ostře vlevo",
+                "exit_destination": "Jeďte výjezdem {exit} ostře vlevo směrem na {destination}"
+            },
+            "sharp right": {
+                "default": "Jeďte nájezdem ostře vpravo",
+                "name": "Jeďte nájezdem ostře vpravo na {way_name}",
+                "destination": "Jeďte nájezdem ostře vpravo směrem na {destination}",
+                "exit": "Jeďte výjezdem {exit} ostře vpravo",
+                "exit_destination": "Jeďte výjezdem {exit} ostře vpravo směrem na {destination}"
+            },
+            "slight left": {
+                "default": "Jeďte nájezdem mírně vlevo",
+                "name": "Jeďte nájezdem mírně vlevo na {way_name}",
+                "destination": "Jeďte nájezdem mírně vlevo směrem na {destination}",
+                "exit": "Jeďte výjezdem {exit} mírně vlevo",
+                "exit_destination": "Jeďte výjezdem {exit} mírně vlevo směrem na {destination}"
+            },
+            "slight right": {
+                "default": "Jeďte nájezdem mírně vpravo",
+                "name": "Jeďte nájezdem mírně vpravo na {way_name}",
+                "destination": "Jeďte nájezdem mírně vpravo směrem na {destination}",
+                "exit": "Jeďte výjezdem {exit} mírně vpravo",
+                "exit_destination": "Jeďte výjezdem {exit} mírně vpravo směrem na {destination}"
+            }
+        },
+        "on ramp": {
+            "default": {
+                "default": "Jeďte nájezdem",
+                "name": "Jeďte nájezdem na {way_name}",
+                "destination": "Jeďte nájezdem směrem na {destination}"
+            },
+            "left": {
+                "default": "Jeďte nájezdem vlevo",
+                "name": "Jeďte nájezdem vlevo na {way_name}",
+                "destination": "Jeďte nájezdem vlevo směrem na {destination}"
+            },
+            "right": {
+                "default": "Jeďte nájezdem vpravo",
+                "name": "Jeďte nájezdem vpravo na {way_name}",
+                "destination": "Jeďte nájezdem vpravo směrem na {destination}"
+            },
+            "sharp left": {
+                "default": "Jeďte nájezdem ostře vlevo",
+                "name": "Jeďte nájezdem ostře vlevo na {way_name}",
+                "destination": "Jeďte nájezdem ostře vlevo směrem na {destination}"
+            },
+            "sharp right": {
+                "default": "Jeďte nájezdem ostře vpravo",
+                "name": "Jeďte nájezdem ostře vpravo na {way_name}",
+                "destination": "Jeďte nájezdem ostře vpravo směrem na {destination}"
+            },
+            "slight left": {
+                "default": "Jeďte nájezdem mírně vlevo",
+                "name": "Jeďte nájezdem mírně vlevo na {way_name}",
+                "destination": "Jeďte nájezdem mírně vlevo směrem na {destination}"
+            },
+            "slight right": {
+                "default": "Jeďte nájezdem mírně vpravo",
+                "name": "Jeďte nájezdem mírně vpravo na {way_name}",
+                "destination": "Jeďte nájezdem mírně vpravo směrem na {destination}"
+            }
+        },
+        "rotary": {
+            "default": {
+                "default": {
+                    "default": "Jeďte na kruhový objezd",
+                    "name": "Jeďte na kruhový objezd a výjezdem na {way_name}",
+                    "destination": "Jeďte na kruhový objezd a výjezdem směrem na {destination}"
+                },
+                "name": {
+                    "default": "Jeďte {rotary_name}",
+                    "name": "Jeďte {rotary_name} a výjezdem na {way_name}",
+                    "destination": "Jeďte {rotary_name} a výjezdem směrem na {destination}"
+                },
+                "exit": {
+                    "default": "Jeďte na kruhový objezd a použijte {exit_number} výjezd",
+                    "name": "Jeďte na kruhový objezd a použijte {exit_number} výjezd na {way_name}",
+                    "destination": "Jeďte na kruhový objezd a použijte {exit_number} výjezd směrem na {destination}"
+                },
+                "name_exit": {
+                    "default": "Jeďte {rotary_name} a použijte {exit_number} výjezd",
+                    "name": "Jeďte {rotary_name} a použijte {exit_number} výjezd na {way_name}",
+                    "destination": "Jeďte {rotary_name} a použijte {exit_number} výjezd směrem na {destination}"
+                }
+            }
+        },
+        "roundabout": {
+            "default": {
+                "exit": {
+                    "default": "Jeďte na kruhový objezd a použijte {exit_number} výjezd",
+                    "name": "Jeďte na kruhový objezd a použijte {exit_number} výjezd na {way_name}",
+                    "destination": "Jeďte na kruhový objezd a použijte {exit_number} výjezd směrem na {destination}"
+                },
+                "default": {
+                    "default": "Jeďte na kruhový objezd",
+                    "name": "Jeďte na kruhový objezd a výjezdem na {way_name}",
+                    "destination": "Jeďte na kruhový objezd a výjezdem směrem na {destination}"
+                }
+            }
+        },
+        "roundabout turn": {
+            "default": {
+                "default": "Odbočte {modifier}",
+                "name": "Odbočte {modifier} na {way_name}",
+                "destination": "Odbočte {modifier} směrem na {destination}"
+            },
+            "left": {
+                "default": "Odbočte vlevo",
+                "name": "Odbočte vlevo na {way_name}",
+                "destination": "Odbočte vlevo směrem na {destination}"
+            },
+            "right": {
+                "default": "Odbočte vpravo",
+                "name": "Odbočte vpravo na {way_name}",
+                "destination": "Odbočte vpravo směrem na {destination}"
+            },
+            "straight": {
+                "default": "Pokračujte rovně",
+                "name": "Pokračujte rovně na {way_name}",
+                "destination": "Pokračujte rovně směrem na {destination}"
+            }
+        },
+        "exit roundabout": {
+            "default": {
+                "default": "Opusťte kruhový objezd",
+                "name": "Opusťte kruhový objezd na {way_name}",
+                "destination": "Opusťte kruhový objezd směrem na {destination}"
+            }
+        },
+        "exit rotary": {
+            "default": {
+                "default": "Opusťte kruhový objezd",
+                "name": "Opusťte kruhový objezd na {way_name}",
+                "destination": "Opusťte kruhový objezd směrem na {destination}"
+            }
+        },
+        "turn": {
+            "default": {
+                "default": "Odbočte {modifier}",
+                "name": "Odbočte {modifier} na {way_name}",
+                "destination": "Odbočte {modifier} směrem na {destination}",
+                "junction_name": "Odbočte {modifier} na {junction_name}"
+            },
+            "left": {
+                "default": "Odbočte vlevo",
+                "name": "Odbočte vlevo na {way_name}",
+                "destination": "Odbočte vlevo směrem na {destination}",
+                "junction_name": "Odbočte vlevo na {junction_name}"
+            },
+            "right": {
+                "default": "Odbočte vpravo",
+                "name": "Odbočte vpravo na {way_name}",
+                "destination": "Odbočte vpravo směrem na {destination}",
+                "junction_name": "Odbočte vpravo na {junction_name}"
+            },
+            "straight": {
+                "default": "Jeďte rovně",
+                "name": "Jeďte rovně na {way_name}",
+                "destination": "Jeďte rovně směrem na {destination}",
+                "junction_name": "Jeďte rovně na {junction_name}"
+            }
+        },
+        "use lane": {
+            "no_lanes": {
+                "default": "Pokračujte rovně"
+            },
+            "default": {
+                "default": "{lane_instruction}"
+            }
+        }
+    }
+}
