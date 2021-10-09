@@ -489,6 +489,8 @@ tape.test('verify grammar files structure', function(assert) {
     Object.keys(languages.grammars).forEach((l) => {
         var grammar = languages.grammars[l];
 
+        assert.ok(grammar.meta.regExpFlags.includes('g'), l + ' grammar has "g" regexp option');
+
         assert.ok(grammar.v5, l + ' grammar has v5 version');
 
         Object.keys(grammar.v5).forEach((g) => {
