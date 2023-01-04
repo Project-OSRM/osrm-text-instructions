@@ -396,9 +396,9 @@
         "rotary": {
             "default": {
                 "default": {
-                    "default": "Prendre le rond-point",
-                    "name": "Prendre le rond-point, puis sortir sur {way_name:article}",
-                    "destination": "Prendre le rond-point, puis sortir en direction {destination:preposition}"
+                    "default": "Prendre le giratoire",
+                    "name": "Prendre le giratoire, puis sortir sur {way_name:article}",
+                    "destination": "Prendre le giratoire, puis sortir en direction {destination:preposition}"
                 },
                 "name": {
                     "default": "Prendre {rotary_name:rotary}",
@@ -406,9 +406,9 @@
                     "destination": "Prendre {rotary_name:rotary}, puis sortir en direction {destination:preposition}"
                 },
                 "exit": {
-                    "default": "Prendre le rond-point, puis la {exit_number} sortie",
-                    "name": "Prendre le rond-point, puis la {exit_number} sortie sur {way_name:article}",
-                    "destination": "Prendre le rond-point, puis la {exit_number} sortie en direction {destination:preposition}"
+                    "default": "Prendre le giratoire, puis la {exit_number} sortie",
+                    "name": "Prendre le giratoire, puis la {exit_number} sortie sur {way_name:article}",
+                    "destination": "Prendre le giratoire, puis la {exit_number} sortie en direction {destination:preposition}"
                 },
                 "name_exit": {
                     "default": "Prendre {rotary_name:rotary}, puis la {exit_number} sortie",
@@ -420,14 +420,14 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Prendre le rond-point, puis la {exit_number} sortie",
-                    "name": "Prendre le rond-point, puis la {exit_number} sortie sur {way_name:article}",
-                    "destination": "Prendre le rond-point, puis la {exit_number} sortie en direction {destination:preposition}"
+                    "default": "Prendre le giratoire, puis la {exit_number} sortie",
+                    "name": "Prendre le giratoire, puis la {exit_number} sortie sur {way_name:article}",
+                    "destination": "Prendre le giratoire, puis la {exit_number} sortie en direction {destination:preposition}"
                 },
                 "default": {
-                    "default": "Prendre le rond-point",
-                    "name": "Prendre le rond-point, puis sortir sur {way_name:article}",
-                    "destination": "Prendre le rond-point, puis sortir en direction {destination:preposition}"
+                    "default": "Prendre le giratoire",
+                    "name": "Prendre le giratoire, puis sortir sur {way_name:article}",
+                    "destination": "Prendre le giratoire, puis sortir en direction {destination:preposition}"
                 }
             }
         },
@@ -455,16 +455,16 @@
         },
         "exit roundabout": {
             "default": {
-                "default": "Sortir du rond-point",
-                "name": "Sortir du rond-point sur {way_name:article}",
-                "destination": "Sortir du rond-point en direction {destination:preposition}"
+                "default": "Sortir du giratoire",
+                "name": "Sortir du giratoire sur {way_name:article}",
+                "destination": "Sortir du giratoire en direction {destination:preposition}"
             }
         },
         "exit rotary": {
             "default": {
-                "default": "Sortir du rond-point",
-                "name": "Sortir du rond-point sur {way_name:article}",
-                "destination": "Sortir du rond-point en direction {destination:preposition}"
+                "default": "Sortir du giratoire",
+                "name": "Sortir du giratoire sur {way_name:article}",
+                "destination": "Sortir du giratoire en direction {destination:preposition}"
             }
         },
         "turn": {
