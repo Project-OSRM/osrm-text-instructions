@@ -178,7 +178,7 @@
                 "default": "Chạy thẳng",
                 "name": "Chạy tiếp trên {way_name}",
                 "destination": "Chạy tiếp về {destination}",
-                "junction_name": "Chạy thẳng ở {junction_name}"
+                "junction_name": "Chạy tiếp qua {junction_name}"
             },
             "uturn": {
                 "default": "Quẹo ngược lại tại cuối đường",
@@ -396,9 +396,9 @@
         "rotary": {
             "default": {
                 "default": {
-                    "default": "Đi vào bùng binh",
-                    "name": "Đi vào bùng binh và ra tại {way_name}",
-                    "destination": "Đi vào bùng binh và ra về {destination}"
+                    "default": "Đi vào vòng xuyến",
+                    "name": "Đi vào vòng xuyến và ra tại {way_name}",
+                    "destination": "Đi vào vòng xuyến và ra để đi {destination}"
                 },
                 "name": {
                     "default": "Đi vào {rotary_name}",
@@ -406,9 +406,9 @@
                     "destination": "Đi và {rotary_name} và ra về {destination}"
                 },
                 "exit": {
-                    "default": "Đi vào bùng binh và ra tại đường {exit_number}",
-                    "name": "Đi vào bùng binh và ra tại đường {exit_number} tức {way_name}",
-                    "destination": "Đi vào bùng binh và ra tại đường {exit_number} về {destination}"
+                    "default": "Đi vào vòng xuyến và ra tại đường {exit_number}",
+                    "name": "Đi vào vòng xuyến và ra tại đường {exit_number} tức {way_name}",
+                    "destination": "Đi vào vòng xuyến và ra tại đường {exit_number} đến {destination}"
                 },
                 "name_exit": {
                     "default": "Đi vào {rotary_name} và ra tại đường {exit_number}",
@@ -420,14 +420,14 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Đi vào bùng binh và ra tại đường {exit_number}",
-                    "name": "Đi vào bùng binh và ra tại đường {exit_number} tức {way_name}",
-                    "destination": "Đi vào bùng binh và ra tại đường {exit_number} về {destination}"
+                    "default": "Đi vào vòng xuyến và ra tại đường {exit_number}",
+                    "name": "Đi vào vòng xuyến và ra tại đường {exit_number} tức {way_name}",
+                    "destination": "Đi vào vòng xuyến và ra tại đường {exit_number} đến {destination}"
                 },
                 "default": {
-                    "default": "Đi vào bùng binh",
-                    "name": "Đi vào bùng binh và ra tại {way_name}",
-                    "destination": "Đi vào bùng binh và ra về {destination}"
+                    "default": "Đi vào vòng xuyến",
+                    "name": "Đi vào vòng xuyến và ra tại {way_name}",
+                    "destination": "Đi vào vòng xuyến và ra để đi {destination}"
                 }
             }
         },
@@ -490,7 +490,7 @@
                 "default": "Chạy thẳng",
                 "name": "Chạy thẳng vào {way_name}",
                 "destination": "Chạy thẳng về {destination}",
-                "junction_name": "Chạy thẳng ở {junction_name}"
+                "junction_name": "Chạy thẳng qua {junction_name}"
             }
         },
         "use lane": {
