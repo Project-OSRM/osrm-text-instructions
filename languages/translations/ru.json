@@ -45,9 +45,9 @@
         },
         "modes": {
             "ferry": {
-                "default": "Погрузитесь на паром",
-                "name": "Погрузитесь на паром {way_name}",
-                "destination": "Погрузитесь на паром в направлении {destination}"
+                "default": "Садитесь на паром",
+                "name": "Садитесь на паром {way_name}",
+                "destination": "Садитесь на паром в направлении {destination}"
             }
         },
         "phrase": {
@@ -109,10 +109,10 @@
             },
             "straight": {
                 "default": "Вы прибыли в {nth} пункт назначения, он находится перед вами",
-                "upcoming": "Вы прибываете в {nth} пункт назначения, он будет перед вами",
+                "upcoming": "Вы прибываете в {nth} пункт назначения, он будет впереди",
                 "short": "Вы прибыли",
                 "short-upcoming": "Вы скоро прибудете",
-                "named": "Вы прибыли в пункт назначения, {waypoint_name}, он находится перед Вами"
+                "named": "Вы прибыли в пункт назначения, {waypoint_name}, он находится перед вами"
             }
         },
         "continue": {
@@ -133,31 +133,31 @@
                 "default": "Резко поверните налево",
                 "name": "Резко поверните налево на {way_name:accusative}",
                 "destination": "Резко поверните налево в направлении {destination}",
-                "junction_name": "Резко поверните налево на {junction_name}"
+                "junction_name": "На {junction_name} резко поверните налево"
             },
             "sharp right": {
                 "default": "Резко поверните направо",
                 "name": "Резко поверните направо на {way_name:accusative}",
                 "destination": "Резко поверните направо в направлении {destination}",
-                "junction_name": "Резко поверните направо на {junction_name}"
+                "junction_name": "На {junction_name} резко поверните направо"
             },
             "slight left": {
                 "default": "Плавно поверните налево",
                 "name": "Плавно поверните налево на {way_name:accusative}",
                 "destination": "Плавно поверните налево в направлении {destination}",
-                "junction_name": "Плавно поверните налево на {junction_name}"
+                "junction_name": "На {junction_name} плавно поверните налево"
             },
             "slight right": {
                 "default": "Плавно поверните направо",
                 "name": "Плавно поверните направо на {way_name:accusative}",
                 "destination": "Плавно поверните направо в направлении {destination}",
-                "junction_name": "Плавно поверните направо на {junction_name}"
+                "junction_name": "На {junction_name} плавно поверните направо"
             },
             "uturn": {
                 "default": "Развернитесь",
                 "name": "Развернитесь и продолжите движение по {way_name:dative}",
                 "destination": "Развернитесь в направлении {destination}",
-                "junction_name": "Развернитесь и продолжите движение по {junction_name}"
+                "junction_name": "Развернитесь на {junction_name}"
             }
         },
         "depart": {
@@ -172,19 +172,19 @@
                 "default": "Поверните {modifier}",
                 "name": "Поверните {modifier} на {way_name:accusative}",
                 "destination": "Поверните {modifier} в направлении {destination}",
-                "junction_name": "Поверните {modifier} на {junction_name}"
+                "junction_name": "На {junction_name} поверните {modifier}"
             },
             "straight": {
                 "default": "Двигайтесь прямо",
                 "name": "Двигайтесь прямо по {way_name:dative}",
                 "destination": "Двигайтесь прямо в направлении {destination}",
-                "junction_name": "Двигайтесь прямо по {junction_name}"
+                "junction_name": "На {junction_name} двигатесь прямо"
             },
             "uturn": {
                 "default": "В конце дороги развернитесь",
                 "name": "Развернитесь в конце {way_name:genitive}",
                 "destination": "В конце дороги развернитесь в направлении {destination}",
-                "junction_name": "Развернитесь в конце {junction_name}"
+                "junction_name": "В конце дороги развернитесь на {junction_name}"
             }
         },
         "fork": {
@@ -472,25 +472,25 @@
                 "default": "Двигайтесь {modifier}",
                 "name": "Двигайтесь {modifier} на {way_name:accusative}",
                 "destination": "Двигайтесь {modifier} в направлении {destination}",
-                "junction_name": "Двигайтесь {modifier} на {junction_name}"
+                "junction_name": "На {junction_name} двигайтесь {modifier}"
             },
             "left": {
                 "default": "Поверните налево",
                 "name": "Поверните налево на {way_name:accusative}",
                 "destination": "Поверните налево в направлении {destination}",
-                "junction_name": "Поверните налево на {junction_name}"
+                "junction_name": "На {junction_name} поверните налево"
             },
             "right": {
                 "default": "Поверните направо",
                 "name": "Поверните направо на {way_name:accusative}",
                 "destination": "Поверните направо в направлении {destination}",
-                "junction_name": "Поверните направо на {junction_name}"
+                "junction_name": "На {junction_name} поверните направо"
             },
             "straight": {
                 "default": "Двигайтесь прямо",
                 "name": "Двигайтесь по {way_name:dative}",
                 "destination": "Двигайтесь в направлении {destination}",
-                "junction_name": "Двигайтесь по {junction_name}"
+                "junction_name": "На {junction_name} двигайтесь прямо"
             }
         },
         "use lane": {
