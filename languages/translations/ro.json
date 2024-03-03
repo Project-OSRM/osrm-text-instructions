@@ -406,9 +406,9 @@
                     "destination": "Intrați în {rotary_name} și ieșiți spre {destination}"
                 },
                 "exit": {
-                    "default": "Intrați în sensul giratoriu și urmați {exit_number} ieșire",
-                    "name": "Intrați în sensul giratoriu și urmați {exit_number} ieșire pe {way_name}",
-                    "destination": "Intrați în sensul giratoriu și urmați {exit_number} ieșire spre {destination}"
+                    "default": "Intrați în sensul giratoriu și mergeți spre ieșirea {exit_number}",
+                    "name": "Intrați în sensul giratoriu și mergeți spre ieșirea {exit_number} pe {way_name}",
+                    "destination": "Intrați în sensul giratoriu și mergeți spre ieșirea {exit_number} spre {destination}"
                 },
                 "name_exit": {
                     "default": "Intrați în {rotary_name} și urmați {exit_number} ieșire",
@@ -420,9 +420,9 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Intrați în sensul giratoriu și urmați {exit_number} ieșire",
-                    "name": "Intrați în sensul giratoriu și urmați {exit_number} ieșire pe {way_name}",
-                    "destination": "Intrați în sensul giratoriu și urmați {exit_number} ieșire spre {destination}"
+                    "default": "Intrați în sensul giratoriu și mergeți spre ieșirea {exit_number}",
+                    "name": "Intrați în sensul giratoriu și mergeți spre ieșirea {exit_number} pe {way_name}",
+                    "destination": "Intrați în sensul giratoriu și mergeți spre ieșirea {exit_number} spre {destination}"
                 },
                 "default": {
                     "default": "Intrați în sensul giratoriu",
