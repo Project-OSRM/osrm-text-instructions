@@ -396,9 +396,9 @@
         "rotary": {
             "default": {
                 "default": {
-                    "default": "Dönel kavşağa gir",
-                    "name": "Dönel kavşağa gir ve {way_name} üzerinde çık",
-                    "destination": "Dönel kavşağa gir ve {destination} istikametinde çık"
+                    "default": "Göbekli kavşağa gir",
+                    "name": "Göbekli kavşağa gir ve {way_name} üzerinde çık",
+                    "destination": "Göbekli kavşağa gir ve {destination} istikametinde çık"
                 },
                 "name": {
                     "default": "{rotary_name} dönel kavşağa gir",
@@ -406,9 +406,9 @@
                     "destination": "{rotary_name} dönel kavşağa gir ve {destination} istikametinde çık"
                 },
                 "exit": {
-                    "default": "Dönel kavşağa gir ve {exit_number} numaralı çıkışa gir",
-                    "name": "Dönel kavşağa gir ve {way_name} üzerindeki {exit_number} numaralı çıkışa gir",
-                    "destination": "Dönel kavşağa gir ve {destination} istikametindeki {exit_number} numaralı çıkışa gir"
+                    "default": "Göbekli kavşağa gir ve {exit_number} numaralı çıkışa gir",
+                    "name": "Göbekli kavşağa gir ve {way_name} üzerindeki {exit_number} numaralı çıkışa gir",
+                    "destination": "Göbekli kavşağa gir ve {destination} istikametindeki {exit_number} numaralı çıkışa gir"
                 },
                 "name_exit": {
                     "default": "{rotary_name} dönel kavşağa gir ve {exit_number} numaralı çıkışa gir",
@@ -458,21 +458,6 @@
                 "default": "{modifier} yöne dön",
                 "name": "{way_name} üzerinde {modifier} yöne dön",
                 "destination": "{destination} istikametinde {modifier} yöne dön"
-            },
-            "left": {
-                "default": "Sola dön",
-                "name": "{way_name} üzerinde sola dön",
-                "destination": "{destination} istikametinde sola dön"
-            },
-            "right": {
-                "default": "Sağa dön",
-                "name": "{way_name} üzerinde sağa dön",
-                "destination": "{destination} istikametinde sağa dön"
-            },
-            "straight": {
-                "default": "Düz devam et",
-                "name": "{way_name} üzerinde düz devam et",
-                "destination": "{destination} istikametinde düz devam et"
             }
         },
         "exit rotary": {
@@ -480,21 +465,6 @@
                 "default": "{modifier} yöne dön",
                 "name": "{way_name} üzerinde {modifier} yöne dön",
                 "destination": "{destination} istikametinde {modifier} yöne dön"
-            },
-            "left": {
-                "default": "Sola dön",
-                "name": "{way_name} üzerinde sola dön",
-                "destination": "{destination} istikametinde sola dön"
-            },
-            "right": {
-                "default": "Sağa dön",
-                "name": "{way_name} üzerinde sağa dön",
-                "destination": "{destination} istikametinde sağa dön"
-            },
-            "straight": {
-                "default": "Düz devam et",
-                "name": "{way_name} üzerinde düz devam et",
-                "destination": "{destination} istikametinde düz devam et"
             }
         },
         "turn": {
