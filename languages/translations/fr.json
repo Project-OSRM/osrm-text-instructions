@@ -133,31 +133,31 @@
                 "default": "Tourner franchement à gauche",
                 "name": "Tourner franchement à gauche pour rester sur {way_name:article}",
                 "destination": "Tourner franchement à gauche en direction {destination:preposition}",
-                "junction_name": "Tourner franchement à gauche en {junction_name}"
+                "junction_name": "Tourner franchement à gauche à {junction_name}"
             },
             "sharp right": {
                 "default": "Tourner franchement à droite",
                 "name": "Tourner franchement à droite pour rester sur {way_name:article}",
                 "destination": "Tourner franchement à droite en direction {destination:preposition}",
-                "junction_name": "Tourner franchement à droite en {junction_name}"
+                "junction_name": "Tourner franchement à droite à {junction_name}"
             },
             "slight left": {
                 "default": "Tourner légèrement à gauche",
                 "name": "Tourner légèrement à gauche pour rester sur {way_name:article}",
                 "destination": "Tourner légèrement à gauche en direction {destination:preposition}",
-                "junction_name": "Tourner légèrement à gauche en {junction_name}"
+                "junction_name": "Tourner légèrement à gauche à {junction_name}"
             },
             "slight right": {
                 "default": "Tourner légèrement à droite",
                 "name": "Tourner légèrement à droite pour rester sur {way_name:article}",
                 "destination": "Tourner légèrement à droite en direction {destination:preposition}",
-                "junction_name": "Tourner légèrement à droite en {junction_name}"
+                "junction_name": "Tourner légèrement à droite à {junction_name}"
             },
             "uturn": {
                 "default": "Faire demi-tour",
                 "name": "Faire demi-tour et continuer sur {way_name:article}",
                 "destination": "Faire demi-tour en direction {destination:preposition}",
-                "junction_name": "Faire demi-tour en {junction_name}"
+                "junction_name": "Faire demi-tour à {junction_name}"
             }
         },
         "depart": {
@@ -172,19 +172,19 @@
                 "default": "Tourner {modifier}",
                 "name": "Tourner {modifier} sur {way_name:article}",
                 "destination": "Tourner {modifier} en direction {destination:preposition}",
-                "junction_name": "Tourner {modifier} en {junction_name}"
+                "junction_name": "Tourner {modifier} à {junction_name}"
             },
             "straight": {
                 "default": "Continuer tout droit",
                 "name": "Continuer tout droit sur {way_name:article}",
                 "destination": "Continuer tout droit en direction {destination:preposition}",
-                "junction_name": "Continuer tout droit en {junction_name}"
+                "junction_name": "Continuer tout droit à {junction_name}"
             },
             "uturn": {
                 "default": "Faire demi-tour à la fin de la route",
-                "name": "Faire demi-tour à la fin {way_name:preposition}",
+                "name": "Faire demi-tour sur {way_name:article} à la fin de la route",
                 "destination": "Faire demi-tour à la fin de la route en direction {destination:preposition}",
-                "junction_name": "Faire demi-tour en {junction_name}"
+                "junction_name": "Faire demi-tour à {junction_name}"
             }
         },
         "fork": {
@@ -396,19 +396,19 @@
         "rotary": {
             "default": {
                 "default": {
-                    "default": "Prendre le rond-point",
-                    "name": "Prendre le rond-point, puis sortir sur {way_name:article}",
-                    "destination": "Prendre le rond-point, puis sortir en direction {destination:preposition}"
+                    "default": "Prendre le giratoire",
+                    "name": "Prendre le giratoire et sortir sur {way_name:article}",
+                    "destination": "Prendre le giratoire et sortir en direction {destination:preposition}"
                 },
                 "name": {
                     "default": "Prendre {rotary_name:rotary}",
-                    "name": "Prendre {rotary_name:rotary}, puis sortir par {way_name:article}",
+                    "name": "Prendre {rotary_name:rotary}, puis sortir sur {way_name:article}",
                     "destination": "Prendre {rotary_name:rotary}, puis sortir en direction {destination:preposition}"
                 },
                 "exit": {
-                    "default": "Prendre le rond-point, puis la {exit_number} sortie",
-                    "name": "Prendre le rond-point, puis la {exit_number} sortie sur {way_name:article}",
-                    "destination": "Prendre le rond-point, puis la {exit_number} sortie en direction {destination:preposition}"
+                    "default": "Prendre le giratoire et prendre la {exit_number} sortie",
+                    "name": "Prendre le giratoire et prendre la {exit_number} sortie sur {way_name:article}",
+                    "destination": "Prendre le giratoire et prendre la {exit_number} sortie en direction {destination:preposition}"
                 },
                 "name_exit": {
                     "default": "Prendre {rotary_name:rotary}, puis la {exit_number} sortie",
@@ -420,14 +420,14 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Prendre le rond-point, puis la {exit_number} sortie",
-                    "name": "Prendre le rond-point, puis la {exit_number} sortie sur {way_name:article}",
-                    "destination": "Prendre le rond-point, puis la {exit_number} sortie en direction {destination:preposition}"
+                    "default": "Prendre le giratoire et prendre la {exit_number} sortie",
+                    "name": "Prendre le giratoire et prendre la {exit_number} sortie sur {way_name:article}",
+                    "destination": "Prendre le giratoire et prendre la {exit_number} sortie en direction {destination:preposition}"
                 },
                 "default": {
-                    "default": "Prendre le rond-point",
-                    "name": "Prendre le rond-point, puis sortir sur {way_name:article}",
-                    "destination": "Prendre le rond-point, puis sortir en direction {destination:preposition}"
+                    "default": "Prendre le giratoire",
+                    "name": "Prendre le giratoire et sortir sur {way_name:article}",
+                    "destination": "Prendre le giratoire et sortir en direction {destination:preposition}"
                 }
             }
         },
@@ -455,16 +455,16 @@
         },
         "exit roundabout": {
             "default": {
-                "default": "Sortir du rond-point",
-                "name": "Sortir du rond-point sur {way_name:article}",
-                "destination": "Sortir du rond-point en direction {destination:preposition}"
+                "default": "Sortir du giratoire",
+                "name": "Sortir du giratoire sur {way_name:article}",
+                "destination": "Sortir du giratoire en direction {destination:preposition}"
             }
         },
         "exit rotary": {
             "default": {
-                "default": "Sortir du rond-point",
-                "name": "Sortir du rond-point sur {way_name:article}",
-                "destination": "Sortir du rond-point en direction {destination:preposition}"
+                "default": "Sortir du giratoire",
+                "name": "Sortir du giratoire sur {way_name:article}",
+                "destination": "Sortir du giratoire en direction {destination:preposition}"
             }
         },
         "turn": {
@@ -472,25 +472,25 @@
                 "default": "Tourner {modifier}",
                 "name": "Tourner {modifier} sur {way_name:article}",
                 "destination": "Tourner {modifier} en direction {destination:preposition}",
-                "junction_name": "Tourner {modifier} en {junction_name}"
+                "junction_name": "Tourner {modifier} à {junction_name}"
             },
             "left": {
                 "default": "Tourner à gauche",
                 "name": "Tourner à gauche sur {way_name:article}",
                 "destination": "Tourner à gauche en direction {destination:preposition}",
-                "junction_name": "Tourner à gauche en {junction_name}"
+                "junction_name": "Tourner à gauche à {junction_name}"
             },
             "right": {
                 "default": "Tourner à droite",
                 "name": "Tourner à droite sur {way_name:article}",
                 "destination": "Tourner à droite en direction {destination:preposition}",
-                "junction_name": "Tourner à droite en {junction_name}"
+                "junction_name": "Tourner à droite à {junction_name}"
             },
             "straight": {
                 "default": "Aller tout droit",
                 "name": "Aller tout droit sur {way_name:article}",
                 "destination": "Aller tout droit en direction {destination:preposition}",
-                "junction_name": "Aller tout droit en {junction_name}"
+                "junction_name": "Aller tout droit à {junction_name}"
             }
         },
         "use lane": {
