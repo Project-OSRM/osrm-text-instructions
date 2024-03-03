@@ -61,57 +61,57 @@
             "default": {
                 "default": "Dojechano do miejsca docelowego {nth}",
                 "upcoming": "Dojechano do miejsca docelowego {nth}",
-                "short": "Dojechano do miejsca docelowego {nth}",
-                "short-upcoming": "Dojechano do miejsca docelowego {nth}",
+                "short": "Dotarłeś na miejsce",
+                "short-upcoming": "Dotrzesz na miejsce",
                 "named": "Dojechano do {waypoint_name}"
             },
             "left": {
                 "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
                 "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
-                "short": "Dojechano do miejsca docelowego {nth}",
-                "short-upcoming": "Dojechano do miejsca docelowego {nth}",
+                "short": "Dotarłeś na miejsce",
+                "short-upcoming": "Dotrzesz na miejsce",
                 "named": "Dojechano do {waypoint_name}, po lewej stronie"
             },
             "right": {
                 "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
                 "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
-                "short": "Dojechano do miejsca docelowego {nth}",
-                "short-upcoming": "Dojechano do miejsca docelowego {nth}",
+                "short": "Dotarłeś na miejsce",
+                "short-upcoming": "Dotrzesz na miejsce",
                 "named": "Dojechano do {waypoint_name}, po prawej stronie"
             },
             "sharp left": {
                 "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
                 "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
-                "short": "Dojechano do miejsca docelowego {nth}",
-                "short-upcoming": "Dojechano do miejsca docelowego {nth}",
+                "short": "Dotarłeś na miejsce",
+                "short-upcoming": "Dotrzesz na miejsce",
                 "named": "Dojechano do {waypoint_name}, po lewej stronie"
             },
             "sharp right": {
                 "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
                 "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
-                "short": "Dojechano do miejsca docelowego {nth}",
-                "short-upcoming": "Dojechano do miejsca docelowego {nth}",
+                "short": "Dotarłeś na miejsce",
+                "short-upcoming": "Dotrzesz na miejsce",
                 "named": "Dojechano do {waypoint_name}, po prawej stronie"
             },
             "slight right": {
                 "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
                 "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
-                "short": "Dojechano do miejsca docelowego {nth}",
-                "short-upcoming": "Dojechano do miejsca docelowego {nth}",
+                "short": "Dotarłeś na miejsce",
+                "short-upcoming": "Dotrzesz na miejsce",
                 "named": "Dojechano do {waypoint_name}, po prawej stronie"
             },
             "slight left": {
                 "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
                 "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
-                "short": "Dojechano do miejsca docelowego {nth}",
-                "short-upcoming": "Dojechano do miejsca docelowego {nth}",
+                "short": "Dotarłeś na miejsce",
+                "short-upcoming": "Dotrzesz na miejsce",
                 "named": "Dojechano do {waypoint_name}, po lewej stronie"
             },
             "straight": {
                 "default": "Dojechano do miejsca docelowego {nth} , prosto",
                 "upcoming": "Dojechano do miejsca docelowego {nth} , prosto",
-                "short": "Dojechano do miejsca docelowego {nth}",
-                "short-upcoming": "Dojechano do miejsca docelowego {nth}",
+                "short": "Dotarłeś na miejsce",
+                "short-upcoming": "Dotrzesz na miejsce",
                 "named": "Dojechano do {waypoint_name}, prosto"
             }
         },
@@ -458,21 +458,6 @@
                 "default": "{modifier}",
                 "name": "{modifier} na {way_name}",
                 "destination": "{modifier} w kierunku {destination}"
-            },
-            "left": {
-                "default": "Skręć w lewo",
-                "name": "Skręć w lewo na {way_name}",
-                "destination": "Skręć w lewo w kierunku {destination}"
-            },
-            "right": {
-                "default": "Skręć w prawo",
-                "name": "Skręć w prawo na {way_name}",
-                "destination": "Skręć w prawo w kierunku {destination}"
-            },
-            "straight": {
-                "default": "Kontynuuj prosto",
-                "name": "Kontynuuj prosto na {way_name}",
-                "destination": "Kontynuuj prosto w kierunku {destination}"
             }
         },
         "exit rotary": {
@@ -480,21 +465,6 @@
                 "default": "{modifier}",
                 "name": "{modifier} na {way_name}",
                 "destination": "{modifier} w kierunku {destination}"
-            },
-            "left": {
-                "default": "Skręć w lewo",
-                "name": "Skręć w lewo na {way_name}",
-                "destination": "Skręć w lewo w kierunku {destination}"
-            },
-            "right": {
-                "default": "Skręć w prawo",
-                "name": "Skręć w prawo na {way_name}",
-                "destination": "Skręć w prawo w kierunku {destination}"
-            },
-            "straight": {
-                "default": "Jedź prosto",
-                "name": "Jedź prosto na {way_name}",
-                "destination": "Jedź prosto w kierunku {destination}"
             }
         },
         "turn": {
