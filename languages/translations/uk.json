@@ -133,31 +133,31 @@
                 "default": "Поверніть різко ліворуч",
                 "name": "Поверніть різко ліворуч щоб залишитись на {way_name}",
                 "destination": "Поверніть різко ліворуч у напрямку {destination}",
-                "junction_name": "Поверніть різко ліворуч щоб залишитись на {junction_name}"
+                "junction_name": "Поверніть різко ліворуч на {junction_name}"
             },
             "sharp right": {
                 "default": "Поверніть різко праворуч",
                 "name": "Поверніть різко праворуч щоб залишитись на {way_name}",
                 "destination": "Поверніть різко праворуч у напрямку {destination}",
-                "junction_name": "Поверніть різко праворуч щоб залишитись на {junction_name}"
+                "junction_name": "Поверніть різко праворуч на {junction_name}"
             },
             "slight left": {
                 "default": "Поверніть різко ліворуч",
                 "name": "Поверніть плавно ліворуч щоб залишитись на {way_name}",
                 "destination": "Поверніть плавно ліворуч у напрямку {destination}",
-                "junction_name": "Поверніть плавно ліворуч щоб залишитись на {junction_name}"
+                "junction_name": "Поверніть плавно ліворуч на {junction_name}"
             },
             "slight right": {
                 "default": "Поверніть плавно праворуч",
                 "name": "Поверніть плавно праворуч щоб залишитись на {way_name}",
                 "destination": "Поверніть плавно праворуч у напрямку {destination}",
-                "junction_name": "Поверніть плавно праворуч щоб залишитись на {junction_name}"
+                "junction_name": "Поверніть плавно праворуч на {junction_name}"
             },
             "uturn": {
                 "default": "Здійсніть розворот",
                 "name": "Здійсніть розворот та рухайтесь по {way_name}",
                 "destination": "Здійсніть розворот у напрямку {destination}",
-                "junction_name": "Здійсніть розворот та рухайтесь по {junction_name}"
+                "junction_name": "Здійсніть розворот на {junction_name}"
             }
         },
         "depart": {
@@ -178,7 +178,7 @@
                 "default": "Продовжуйте рух прямо",
                 "name": "Продовжуйте рух прямо до {way_name}",
                 "destination": "Продовжуйте рух прямо у напрямку {destination}",
-                "junction_name": "Продовжуйте рух прямо до {junction_name}"
+                "junction_name": "Продовжуйте рух прямо на {junction_name}"
             },
             "uturn": {
                 "default": "Здійсніть розворот в кінці дороги",
@@ -396,9 +396,9 @@
         "rotary": {
             "default": {
                 "default": {
-                    "default": "Рухайтесь по колу",
-                    "name": "Рухайтесь по колу до {way_name}",
-                    "destination": "Рухайтесь по колу в напрямку {destination}"
+                    "default": "Рухайтесь по кільцю",
+                    "name": "Рухайтесь по кільцю до {way_name}",
+                    "destination": "Рухайтесь по кільцю в напрямку {destination}"
                 },
                 "name": {
                     "default": "Рухайтесь по {rotary_name}",
@@ -406,9 +406,9 @@
                     "destination": "Рухайтесь по {rotary_name} та поверніть в напрямку {destination}"
                 },
                 "exit": {
-                    "default": "Рухайтесь по колу та повереніть у {exit_number} з'їзд",
-                    "name": "Рухайтесь по колу та поверніть у {exit_number} з'їзд на {way_name}",
-                    "destination": "Рухайтесь по колу та поверніть у {exit_number} з'їзд у напрямку {destination}"
+                    "default": "Рухайтесь по кільцю та поверніть у {exit_number} з'їзд",
+                    "name": "Рухайтесь по кільцю та поверніть у {exit_number} з'їзд на {way_name}",
+                    "destination": "Рухайтесь по кільцю та поверніть у {exit_number} з'їзд у напрямку {destination}"
                 },
                 "name_exit": {
                     "default": "Рухайтесь по {rotary_name} та поверніть у {exit_number} з'їзд",
@@ -420,14 +420,14 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Рухайтесь по колу та повереніть у {exit_number} з'їзд",
-                    "name": "Рухайтесь по колу та поверніть у {exit_number} з'їзд на {way_name}",
-                    "destination": "Рухайтесь по колу та поверніть у {exit_number} з'їзд у напрямку {destination}"
+                    "default": "Рухайтесь по кільцю та поверніть у {exit_number} з'їзд",
+                    "name": "Рухайтесь по кільцю та поверніть у {exit_number} з'їзд на {way_name}",
+                    "destination": "Рухайтесь по кільцю та поверніть у {exit_number} з'їзд у напрямку {destination}"
                 },
                 "default": {
-                    "default": "Рухайтесь по колу",
-                    "name": "Рухайтесь по колу до {way_name}",
-                    "destination": "Рухайтесь по колу в напрямку {destination}"
+                    "default": "Рухайтесь по кільцю",
+                    "name": "Рухайтесь по кільцю до {way_name}",
+                    "destination": "Рухайтесь по кільцю в напрямку {destination}"
                 }
             }
         },
@@ -455,16 +455,16 @@
         },
         "exit roundabout": {
             "default": {
-                "default": "Залишить коло",
-                "name": "Залишить коло на {way_name} зʼїзді",
-                "destination": "Залишить коло в напрямку {destination}"
+                "default": "Залишить кільце",
+                "name": "Залишить кільце на {way_name}",
+                "destination": "Залишить кільце в напрямку {destination}"
             }
         },
         "exit rotary": {
             "default": {
-                "default": "Залишить коло",
-                "name": "Залишить коло на {way_name} зʼїзді",
-                "destination": "Залишить коло в напрямку {destination}"
+                "default": "Залишить кільце",
+                "name": "Залишить кільце в напрямку {way_name}",
+                "destination": "Залишить кільце в напрямку {destination}"
             }
         },
         "turn": {
@@ -472,25 +472,25 @@
                 "default": "Рухайтесь {modifier}",
                 "name": "Рухайтесь {modifier} на {way_name}",
                 "destination": "Рухайтесь {modifier} в напрямку {destination}",
-                "junction_name": "Make a {modifier} at {junction_name}"
+                "junction_name": "Здійсніть {modifier} на {junction_name}"
             },
             "left": {
                 "default": "Поверніть ліворуч",
                 "name": "Поверніть ліворуч на {way_name}",
                 "destination": "Поверніть ліворуч у напрямку {destination}",
-                "junction_name": "Turn left at {junction_name}"
+                "junction_name": "Поверніть ліворуч на {junction_name}"
             },
             "right": {
                 "default": "Поверніть праворуч",
                 "name": "Поверніть праворуч на {way_name}",
                 "destination": "Поверніть праворуч у напрямку {destination}",
-                "junction_name": "Turn right at {junction_name}"
+                "junction_name": "Поверніть праворуч на {junction_name}"
             },
             "straight": {
                 "default": "Рухайтесь прямо",
                 "name": "Рухайтесь прямо по {way_name}",
                 "destination": "Рухайтесь прямо у напрямку {destination}",
-                "junction_name": "Go straight at {junction_name}"
+                "junction_name": "Рухайтесь прямо на {junction_name}"
             }
         },
         "use lane": {
