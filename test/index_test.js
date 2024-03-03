@@ -50,8 +50,10 @@ tape.test('v5 tokenize', function(assert) {
             return value;
         }
     });
-    assert.equal(formatsTokens, 'Take me <prosody rate="slow">home</prosody>, Country <prosody rate="slow">Road</prosody>',
-                 'Formats tokens');
+    assert.equal(
+        formatsTokens,
+        'Take me <prosody rate="slow">home</prosody>, Country <prosody rate="slow">Road</prosody>',
+        'Formats tokens');
 
     var capitalizesTokens = v5Compiler.tokenize('en', '{modifier} turns are prohibited here', {
         modifier: 'left'
@@ -64,8 +66,10 @@ tape.test('v5 tokenize', function(assert) {
             return value;
         }
     });
-    assert.equal(capitalizesTokens, '<strong>Left</strong> turns are prohibited here',
-                 'Capitalizes tokens before formatting');
+    assert.equal(
+        capitalizesTokens,
+        '<strong>Left</strong> turns are prohibited here',
+        'Capitalizes tokens before formatting');
 
     var formatsGrammaticalTokens = v5Compiler.tokenize('ru', 'Плавно поверните налево на {way_name:accusative}', {
         'way_name': 'Бармалеева улица'
@@ -74,8 +78,10 @@ tape.test('v5 tokenize', function(assert) {
             return token === 'way_name' ? value.toLocaleUpperCase('ru') : value;
         }
     });
-    assert.equal(formatsGrammaticalTokens, 'Плавно поверните налево на БАРМАЛЕЕВУ УЛИЦУ',
-                 'Formats tokens after grammaticalization but before insertion');
+    assert.equal(
+        formatsGrammaticalTokens,
+        'Плавно поверните налево на БАРМАЛЕЕВУ УЛИЦУ',
+        'Formats tokens after grammaticalization but before insertion');
 
     assert.end();
 });
@@ -236,7 +242,7 @@ tape.test('v5 compile', function(t) {
         assert.throws(function() {
             v5Compiler.compile();
         }, /No language code provided/
-    );
+        );
 
         assert.end();
     });

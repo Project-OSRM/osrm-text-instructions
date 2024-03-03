@@ -149,9 +149,9 @@ module.exports = function(version) {
             if (instructions[language][version].modes[mode]) {
                 instructionObject = instructions[language][version].modes[mode];
             } else {
-              // omit side from off ramp if same as driving_side
-              // note: side will be undefined if the input is from OSRM <5.14
-              // but the condition should still evaluate properly regardless
+                // omit side from off ramp if same as driving_side
+                // note: side will be undefined if the input is from OSRM <5.14
+                // but the condition should still evaluate properly regardless
                 var omitSide = type === 'off ramp' && modifier.indexOf(side) >= 0;
                 if (instructions[language][version][type][modifier] && !omitSide) {
                     instructionObject = instructions[language][version][type][modifier];
@@ -271,29 +271,30 @@ module.exports = function(version) {
             // Keep this function context to use in inline function below (no arrow functions in ES4)
             var that = this;
             var startedWithToken = false;
-            var output = instruction.replace(/\{(\w+)(?::(\w+))?\}/g, function(token, tag, grammar, offset) {
-                var value = tokens[tag];
+            var output = instruction
+                .replace(/\{(\w+)(?::(\w+))?\}/g, function(token, tag, grammar, offset) {
+                    var value = tokens[tag];
 
-                // Return unknown token unchanged
-                if (typeof value === 'undefined') {
-                    return token;
-                }
+                    // Return unknown token unchanged
+                    if (typeof value === 'undefined') {
+                        return token;
+                    }
 
-                value = that.grammarize(language, value, grammar);
+                    value = that.grammarize(language, value, grammar);
 
-                // If this token appears at the beginning of the instruction, capitalize it.
-                if (offset === 0 && instructions[language].meta.capitalizeFirstLetter) {
-                    startedWithToken = true;
-                    value = that.capitalizeFirstLetter(language, value);
-                }
+                    // If this token appears at the beginning of the instruction, capitalize it.
+                    if (offset === 0 && instructions[language].meta.capitalizeFirstLetter) {
+                        startedWithToken = true;
+                        value = that.capitalizeFirstLetter(language, value);
+                    }
 
-                if (options && options.formatToken) {
-                    value = options.formatToken(tag, value);
-                }
+                    if (options && options.formatToken) {
+                        value = options.formatToken(tag, value);
+                    }
 
-                return value;
-            })
-            .replace(/ {2}/g, ' '); // remove excess spaces
+                    return value;
+                })
+                .replace(/ {2}/g, ' '); // remove excess spaces
 
             if (!startedWithToken && instructions[language].meta.capitalizeFirstLetter) {
                 return this.capitalizeFirstLetter(language, output);

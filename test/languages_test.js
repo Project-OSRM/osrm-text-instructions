@@ -48,9 +48,9 @@ tape.test('verify language files structure', function(assert) {
         );
 
         assert.deepEqual(
-          Object.keys(translation.v5.arrive.default),
-          Object.keys(english.v5.arrive.default),
-          l + ' has correct default upcoming arrive keys'
+            Object.keys(translation.v5.arrive.default),
+            Object.keys(english.v5.arrive.default),
+            l + ' has correct default upcoming arrive keys'
         );
 
         // exclude zh-Hans until full translation is available
