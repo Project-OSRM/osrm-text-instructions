@@ -61,7 +61,7 @@
             "default": {
                 "default": "Sei arrivato alla tua {nth} destinazione",
                 "upcoming": "Sei arrivato alla tua {nth} destinazione",
-                "short": "Sei arrivato alla tua {nth} destinazione",
+                "short": "Sei arrivato",
                 "short-upcoming": "Arriverai",
                 "named": "Sei arrivato in {waypoint_name}"
             },
@@ -396,9 +396,9 @@
         "rotary": {
             "default": {
                 "default": {
-                    "default": "Immettiti nella rotonda",
-                    "name": "Immettiti nella ritonda ed esci in {way_name}",
-                    "destination": "Immettiti nella ritonda ed esci verso {destination}"
+                    "default": "Entra nella rotonda",
+                    "name": "Entra nella rotonda e prendi l’uscita in {way_name}",
+                    "destination": "Entra nella rotonda e prendi l’uscita verso {destination}"
                 },
                 "name": {
                     "default": "Immèttitì in {rotary_name}",
@@ -458,21 +458,6 @@
                 "default": "Fai una {modifier}",
                 "name": "Fai una {modifier} in {way_name}",
                 "destination": "Fai una {modifier} verso {destination}"
-            },
-            "left": {
-                "default": "Svolta a sinistra",
-                "name": "Svolta a sinistra in {way_name}",
-                "destination": "Svolta a sinistra verso {destination}"
-            },
-            "right": {
-                "default": "Gira a destra",
-                "name": "Svolta a destra in {way_name}",
-                "destination": "Svolta a destra verso {destination}"
-            },
-            "straight": {
-                "default": "Continua dritto",
-                "name": "Continua dritto in {way_name}",
-                "destination": "Continua dritto verso {destination}"
             }
         },
         "exit rotary": {
@@ -480,21 +465,6 @@
                 "default": "Fai una {modifier}",
                 "name": "Fai una {modifier} in {way_name}",
                 "destination": "Fai una {modifier} verso {destination}"
-            },
-            "left": {
-                "default": "Svolta a sinistra",
-                "name": "Svolta a sinistra in {way_name}",
-                "destination": "Svolta a sinistra verso {destination}"
-            },
-            "right": {
-                "default": "Gira a destra",
-                "name": "Svolta a destra in {way_name}",
-                "destination": "Svolta a destra verso {destination}"
-            },
-            "straight": {
-                "default": "Prosegui dritto",
-                "name": "Continua su {way_name}",
-                "destination": "Continua verso {destination}"
             }
         },
         "turn": {
