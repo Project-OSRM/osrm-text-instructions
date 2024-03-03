@@ -11,6 +11,7 @@
     },
     "instructions": {
         "ar": "تابع يسار نحو Destination 1",
+        "ca": "Continua esquerra cap a Destination 1",
         "da": "Fortsæt til venstre mod Destination 1",
         "de": "Links weiterfahren Richtung Destination 1",
         "en": "Continue left towards Destination 1",

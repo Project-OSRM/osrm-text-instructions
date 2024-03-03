@@ -11,6 +11,7 @@
     },
     "instructions": {
         "ar": "تابع نحو Destination 1",
+        "ca": "Continueu cap a Destination 1",
         "da": "Fortsæt mod Destination 1",
         "de": "Weiterfahren in Richtung Destination 1",
         "en": "Continue towards Destination 1",

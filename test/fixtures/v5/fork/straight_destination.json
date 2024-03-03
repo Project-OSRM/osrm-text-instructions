@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "توجّه نحو مباشرة لمسافة {distance} ",
+        "ca": "Mantingueu-vos recte cap a Destination 1",
         "da": "Fortsæt ligeud mod Destination 1",
         "de": "Geradeaus halten an der Gabelung Richtung Destination 1",
         "en": "Keep straight towards Destination 1",

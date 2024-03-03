@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "اخرج من مسار الدوران على Way Name",
+        "ca": "Surt de la rotonda a Way Name",
         "da": "Forlad rundkørslen ad Way Name",
         "de": "Leicht rechts abbiegen auf Way Name",
         "en": "Exit the roundabout onto Way Name",

@@ -9,6 +9,7 @@
     },
     "instructions": {
         "ar": "انعطف يسار على Way Name",
+        "ca": "Incorpora’t esquerra a Way Name",
         "da": "Flet til venstre ad Way Name",
         "de": "Links auffahren auf Way Name",
         "en": "Merge left onto Way Name",

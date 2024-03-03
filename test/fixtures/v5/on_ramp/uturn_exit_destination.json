@@ -11,6 +11,7 @@
     },
     "instructions": {
         "ar": "اتبع المنحدر باتجاه Destination 1",
+        "ca": "Pren la rampa cap a Destination 1",
         "da": "Tag afkørslen mod Destination 1",
         "de": "Auffahrt nehmen Richtung Destination 1",
         "en": "Take the ramp towards Destination 1",

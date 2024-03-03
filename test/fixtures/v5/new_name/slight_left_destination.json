@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "تابع يسارا باتجاه قليلا نحو Destination 1",
+        "ca": "Continua lleugerament a l’esquerra cap a Destination 1",
         "da": "Fortsæt til venstre mod Destination 1",
         "de": "Leicht links weiter Richtung Destination 1",
         "en": "Continue slightly left towards Destination 1",

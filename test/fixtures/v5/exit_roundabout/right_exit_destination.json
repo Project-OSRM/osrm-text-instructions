@@ -11,6 +11,7 @@
     },
     "instructions": {
         "ar": "اسلك مسار الخروج Destination 1",
+        "ca": "Surt de la rotonda cap a Destination 1",
         "da": "Forlad rundkørslen mod Destination 1",
         "de": "Rechts abbiegen Richtung Destination 1",
         "en": "Exit the roundabout towards Destination 1",

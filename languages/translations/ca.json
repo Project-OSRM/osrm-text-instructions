@@ -5,497 +5,497 @@
     "v5": {
         "constants": {
             "ordinalize": {
-                "1": "1st",
-                "2": "2nd",
-                "3": "3rd",
-                "4": "4th",
-                "5": "5th",
-                "6": "6th",
-                "7": "7th",
-                "8": "8th",
-                "9": "9th",
-                "10": "10th"
+                "1": "1r",
+                "2": "2n",
+                "3": "3r",
+                "4": "4t",
+                "5": "5è",
+                "6": "6è",
+                "7": "7è",
+                "8": "8è",
+                "9": "9è",
+                "10": "10è"
             },
             "direction": {
-                "north": "north",
-                "northeast": "northeast",
-                "east": "east",
-                "southeast": "southeast",
-                "south": "south",
-                "southwest": "southwest",
-                "west": "west",
-                "northwest": "northwest"
+                "north": "nord",
+                "northeast": "nord-est",
+                "east": "est",
+                "southeast": "sud-est",
+                "south": "sud",
+                "southwest": "sud-oest",
+                "west": "oest",
+                "northwest": "nord-oest"
             },
             "modifier": {
-                "left": "left",
-                "right": "right",
-                "sharp left": "sharp left",
-                "sharp right": "sharp right",
-                "slight left": "slight left",
-                "slight right": "slight right",
-                "straight": "straight",
-                "uturn": "U-turn"
+                "left": "esquerra",
+                "right": "dreta",
+                "sharp left": "tancat a l’esquerra",
+                "sharp right": "tancat a la dreta",
+                "slight left": "lleugerament a l’esquera",
+                "slight right": "lleugerament a la dreta",
+                "straight": "recte",
+                "uturn": "canvi de sentit"
             },
             "lanes": {
-                "xo": "Keep right",
-                "ox": "Keep left",
-                "xox": "Keep in the middle",
-                "oxo": "Keep left or right"
+                "xo": "Mantingui’s a la dreta",
+                "ox": "Mantingui’s a l’esquerra",
+                "xox": "Mantingui’s al mig",
+                "oxo": "Mantingui’s a esquerra o dreta"
             }
         },
         "modes": {
             "ferry": {
-                "default": "Take the ferry",
-                "name": "Take the ferry {way_name}",
-                "destination": "Take the ferry towards {destination}"
+                "default": "Agafi el ferry",
+                "name": "Agafi el ferry {way_name}",
+                "destination": "Afagi el ferry cap a {destination}"
             }
         },
         "phrase": {
-            "two linked by distance": "{instruction_one}, then, in {distance}, {instruction_two}",
-            "two linked": "{instruction_one}, then {instruction_two}",
-            "one in distance": "In {distance}, {instruction_one}",
+            "two linked by distance": "{instruction_one} i després, a {distance}, {instruction_two}",
+            "two linked": "{instruction_one} i després {instruction_two}",
+            "one in distance": "A {distance}, {instruction_one}",
             "name and ref": "{name} ({ref})",
-            "exit with number": "exit {exit}"
+            "exit with number": "eixir {exit}"
         },
         "arrive": {
             "default": {
-                "default": "You have arrived at your {nth} destination",
-                "upcoming": "You will arrive at your {nth} destination",
-                "short": "You have arrived",
-                "short-upcoming": "You will arrive",
-                "named": "You have arrived at {waypoint_name}"
+                "default": "Heu arribat al vostre {nth} destí",
+                "upcoming": "Arribareu al vostre {nth} destí",
+                "short": "Heu arribat",
+                "short-upcoming": "Arribareu",
+                "named": "Heu arribat a {waypoint_name}"
             },
             "left": {
-                "default": "You have arrived at your {nth} destination, on the left",
-                "upcoming": "You will arrive at your {nth} destination, on the left",
-                "short": "You have arrived",
-                "short-upcoming": "You will arrive",
-                "named": "You have arrived at {waypoint_name}, on the left"
+                "default": "Heu arribat al vostre {nth} destí, a l’esquerra",
+                "upcoming": "Arribareu al vostre {nth} destí, a l’esquerra",
+                "short": "Heu arribat",
+                "short-upcoming": "Arribareu",
+                "named": "Heu arribat a {waypoint_name}, a l’esquerra"
             },
             "right": {
-                "default": "You have arrived at your {nth} destination, on the right",
-                "upcoming": "You will arrive at your {nth} destination, on the right",
-                "short": "You have arrived",
-                "short-upcoming": "You will arrive",
-                "named": "You have arrived at {waypoint_name}, on the right"
+                "default": "Heu arribat al vostre {nth} destí, a la dreta",
+                "upcoming": "Arribareu al vostre {nth} destí, a la dreta",
+                "short": "Heu arribat",
+                "short-upcoming": "Arribareu",
+                "named": "Heu arribat a {waypoint_name}, a la dreta"
             },
             "sharp left": {
-                "default": "You have arrived at your {nth} destination, on the left",
-                "upcoming": "You will arrive at your {nth} destination, on the left",
-                "short": "You have arrived",
-                "short-upcoming": "You will arrive",
-                "named": "You have arrived at {waypoint_name}, on the left"
+                "default": "Heu arribat al vostre {nth} destí, a l’esquerra",
+                "upcoming": "Arribareu al vostre {nth} destí, a l’esquerra",
+                "short": "Heu arribat",
+                "short-upcoming": "Arribareu",
+                "named": "Heu arribat a {waypoint_name}, a l’esquerra"
             },
             "sharp right": {
-                "default": "You have arrived at your {nth} destination, on the right",
-                "upcoming": "You will arrive at your {nth} destination, on the right",
-                "short": "You have arrived",
-                "short-upcoming": "You will arrive",
-                "named": "You have arrived at {waypoint_name}, on the right"
+                "default": "Heu arribat al vostre {nth} destí, a la dreta",
+                "upcoming": "Arribareu al vostre {nth} destí, a la dreta",
+                "short": "Heu arribat",
+                "short-upcoming": "Arribareu",
+                "named": "Heu arribat a {waypoint_name}, a la dreta"
             },
             "slight right": {
-                "default": "You have arrived at your {nth} destination, on the right",
-                "upcoming": "You will arrive at your {nth} destination, on the right",
-                "short": "You have arrived",
-                "short-upcoming": "You will arrive",
-                "named": "You have arrived at {waypoint_name}, on the right"
+                "default": "Heu arribat al vostre {nth} destí, a la dreta",
+                "upcoming": "Arribareu al vostre {nth} destí, a la dreta",
+                "short": "Heu arribat",
+                "short-upcoming": "Arribareu",
+                "named": "Heu arribat a {waypoint_name}, a la dreta"
             },
             "slight left": {
-                "default": "You have arrived at your {nth} destination, on the left",
-                "upcoming": "You will arrive at your {nth} destination, on the left",
-                "short": "You have arrived",
-                "short-upcoming": "You will arrive",
-                "named": "You have arrived at {waypoint_name}, on the left"
+                "default": "Has arribat al teu {nth} destí, a l’esquerra",
+                "upcoming": "Arribareu al vostre {nth} destí, a l’esquerra",
+                "short": "Heu arribat",
+                "short-upcoming": "Arribareu",
+                "named": "Heu arribat a {waypoint_name}, a l’esquerra"
             },
             "straight": {
-                "default": "You have arrived at your {nth} destination, straight ahead",
-                "upcoming": "You will arrive at your {nth} destination, straight ahead",
-                "short": "You have arrived",
-                "short-upcoming": "You will arrive",
-                "named": "You have arrived at {waypoint_name}, straight ahead"
+                "default": "Has arribat al teu {nth} destí, tot recte",
+                "upcoming": "Arribareu al vostre {nth} destí, tot recte",
+                "short": "Heu arribat",
+                "short-upcoming": "Arribareu",
+                "named": "Heu arribat a {waypoint_name}, just davant"
             }
         },
         "continue": {
             "default": {
-                "default": "Turn {modifier}",
-                "name": "Turn {modifier} to stay on {way_name}",
-                "destination": "Turn {modifier} towards {destination}",
-                "exit": "Turn {modifier} onto {way_name}"
+                "default": "Giri {modifier}",
+                "name": "Giri a {modifier} per a mantenir-se a {way_name}",
+                "destination": "Giri {modifier} cap a {destination}",
+                "exit": "Giri {modifier} a {way_name}"
             },
             "straight": {
-                "default": "Continue straight",
-                "name": "Continue straight to stay on {way_name}",
-                "destination": "Continue towards {destination}",
-                "distance": "Continue straight for {distance}",
-                "namedistance": "Continue on {way_name} for {distance}"
+                "default": "Continueu recte",
+                "name": "Continueu a {way_name}",
+                "destination": "Continueu cap a {destination}",
+                "distance": "Continueu recte per {distance}",
+                "namedistance": "Continueu a {way_name} per {distance}"
             },
             "sharp left": {
-                "default": "Make a sharp left",
-                "name": "Make a sharp left to stay on {way_name}",
-                "destination": "Make a sharp left towards {destination}",
-                "junction_name": "Make a sharp left at {junction_name}"
+                "default": "Feu un gir tancat a l’esquerra",
+                "name": "Feu un gir tancat a l’esquerra per mantenir-vos a {way_name}",
+                "destination": "Feu un gir tancat a l’esquerra cap a {destination}",
+                "junction_name": "Feu un gir tancat a l’esquerra a {junction_name}"
             },
             "sharp right": {
-                "default": "Make a sharp right",
-                "name": "Make a sharp right to stay on {way_name}",
-                "destination": "Make a sharp right towards {destination}",
-                "junction_name": "Make a sharp right at {junction_name}"
+                "default": "Feu un gir tancat a la dreta",
+                "name": "Feu un gir tancat a la dreta per mantenir-vos a {way_name}",
+                "destination": "Feu un gir tancat a la dreta cap a {destination}",
+                "junction_name": "Feu un gir tancat a la dreta a {junction_name}"
             },
             "slight left": {
-                "default": "Make a slight left",
-                "name": "Make a slight left to stay on {way_name}",
-                "destination": "Make a slight left towards {destination}",
-                "junction_name": "Make a slight left at {junction_name}"
+                "default": "Feu un lleuger gir a l’esquerra",
+                "name": "Feu un lleuger gir a l’esquerra per mantenir-vos a {way_name}",
+                "destination": "Feu un lleuger gir a l’esquerra cap a {destination}",
+                "junction_name": "Feu un lleuger gir a l’esquerra a {junction_name}"
             },
             "slight right": {
-                "default": "Make a slight right",
-                "name": "Make a slight right to stay on {way_name}",
-                "destination": "Make a slight right towards {destination}",
-                "junction_name": "Make a slight right at {junction_name}"
+                "default": "Feu un lleuger gir a la dreta",
+                "name": "Feu un lleuger gir a la dreta per mantenir-vos a {way_name}",
+                "destination": "Feu un lleuger gir a la dreta cap a {destination}",
+                "junction_name": "Feu un lleuger gir a la dreta a {junction_name}"
             },
             "uturn": {
-                "default": "Make a U-turn",
-                "name": "Make a U-turn and continue on {way_name}",
-                "destination": "Make a U-turn towards {destination}",
-                "junction_name": "Make a U-turn at {junction_name}"
+                "default": "Feu un canvi de sentit",
+                "name": "Feu un canvi de sentit i continueu per {way_name}",
+                "destination": "Feu un canvi de sentit cap a {destination}",
+                "junction_name": "Feu un canvi de sentit a {junction_name}"
             }
         },
         "depart": {
             "default": {
-                "default": "Head {direction}",
-                "name": "Head {direction} on {way_name}",
-                "namedistance": "Head {direction} on {way_name} for {distance}"
+                "default": "Dirigiu-vos {direction}",
+                "name": "Dirigiu-vos {direction} per {way_name}",
+                "namedistance": "Dirigiu-vos{direction} per {way_name} durant {distance}"
             }
         },
         "end of road": {
             "default": {
-                "default": "Turn {modifier}",
-                "name": "Turn {modifier} onto {way_name}",
-                "destination": "Turn {modifier} towards {destination}",
-                "junction_name": "Turn {modifier} at {junction_name}"
+                "default": "Giri {modifier}",
+                "name": "Giri {modifier} a {way_name}",
+                "destination": "Giri {modifier} cap a {destination}",
+                "junction_name": "Gireu {modifier} a {junction_name}"
             },
             "straight": {
-                "default": "Continue straight",
-                "name": "Continue straight onto {way_name}",
-                "destination": "Continue straight towards {destination}",
-                "junction_name": "Continue straight at {junction_name}"
+                "default": "Continueu recte",
+                "name": "Continueu recte per {way_name}",
+                "destination": "Continueu recte cap a {destination}",
+                "junction_name": "Continueu recte a {junction_name}"
             },
             "uturn": {
-                "default": "Make a U-turn at the end of the road",
-                "name": "Make a U-turn onto {way_name} at the end of the road",
-                "destination": "Make a U-turn towards {destination} at the end of the road",
-                "junction_name": "Make a U-turn at {junction_name}"
+                "default": "Feu un canvi de sentit al final del vial",
+                "name": "Feun un canvi de sentit per {way_name} al final del vial",
+                "destination": "Feu un canvi de sentit cap a {destination} al final del vial",
+                "junction_name": "Feu un canvi de sentit a {junction_name}F"
             }
         },
         "fork": {
             "default": {
-                "default": "Keep {modifier} at the fork",
-                "name": "Keep {modifier} onto {way_name}",
-                "destination": "Keep {modifier} towards {destination}"
+                "default": "Mantingueu-vos {modifier} a la bifurcació",
+                "name": "Mantingueu-vos {modifier} per {way_name}",
+                "destination": "Mantingueu-vos {modifier} cap a {destination}"
             },
             "slight left": {
-                "default": "Keep left at the fork",
-                "name": "Keep left onto {way_name}",
-                "destination": "Keep left towards {destination}"
+                "default": "Mantingueu-vos a l’esquerra a la bifurcació",
+                "name": "Mantingueu-vos a l’esquerra per {way_name}",
+                "destination": "Mantingueu-vos a l’esquerra cap a {destination}"
             },
             "slight right": {
-                "default": "Keep right at the fork",
-                "name": "Keep right onto {way_name}",
-                "destination": "Keep right towards {destination}"
+                "default": "Mantingueu-vos a la dreta a la bifurcació",
+                "name": "Mantingueu-vos a la dreta per {way_name}",
+                "destination": "Mantingueu-vos a la dreta cap a {destination}"
             },
             "sharp left": {
-                "default": "Take a sharp left at the fork",
-                "name": "Take a sharp left onto {way_name}",
-                "destination": "Take a sharp left towards {destination}"
+                "default": "Feu un gir tancat a l’esquerra a la bifurcació",
+                "name": "Feu un gir tancat a l’esquerra per {way_name}",
+                "destination": "Feu un gir tancat a l’esquerra cap a {destination}"
             },
             "sharp right": {
-                "default": "Take a sharp right at the fork",
-                "name": "Take a sharp right onto {way_name}",
-                "destination": "Take a sharp right towards {destination}"
+                "default": "Feu un gir tancat a la dreta a la bifurcació",
+                "name": "Feu un gir tancat a la dreta per {way_name}",
+                "destination": "Feu un gir tancat a la dreta cap a {destination}"
             },
             "uturn": {
-                "default": "Make a U-turn",
-                "name": "Make a U-turn onto {way_name}",
-                "destination": "Make a U-turn towards {destination}"
+                "default": "Feu un canvi de sentit",
+                "name": "Feu un canvi de sentit per {way_name}",
+                "destination": "Feu un canvi de sentit cap a {destination}"
             }
         },
         "merge": {
             "default": {
-                "default": "Merge {modifier}",
-                "name": "Merge {modifier} onto {way_name}",
-                "destination": "Merge {modifier} towards {destination}"
+                "default": "Incorpora’t {modifier}",
+                "name": "Incorpora’t {modifier} a {way_name}",
+                "destination": "Incorpora’t {modifier} cap a {destination}"
             },
             "straight": {
-                "default": "Merge",
-                "name": "Merge onto {way_name}",
-                "destination": "Merge towards {destination}"
+                "default": "Incorpora’t",
+                "name": "Incorpora’t a {way_name}",
+                "destination": "Incorpora’t cap a {destination}"
             },
             "slight left": {
-                "default": "Merge left",
-                "name": "Merge left onto {way_name}",
-                "destination": "Merge left towards {destination}"
+                "default": "Incorpora’t a l'esquerra",
+                "name": "Incorpora’t a l’esquerra a {way_name}",
+                "destination": "Incorpora’t a l’esquerra cap a {destination}"
             },
             "slight right": {
-                "default": "Merge right",
-                "name": "Merge right onto {way_name}",
-                "destination": "Merge right towards {destination}"
+                "default": "Incorpora’t a la dreta",
+                "name": "Incorpora’t a la dreta a {way_name}",
+                "destination": "Incorpora’t a la dreta cap a {destination}"
             },
             "sharp left": {
-                "default": "Merge left",
-                "name": "Merge left onto {way_name}",
-                "destination": "Merge left towards {destination}"
+                "default": "Incorpora’t a l’esquerra",
+                "name": "Incorpora’t a l’esquerra a {way_name}",
+                "destination": "Incorpora’t a l’esquerra cap a {destination}"
             },
             "sharp right": {
-                "default": "Merge right",
-                "name": "Merge right onto {way_name}",
-                "destination": "Merge right towards {destination}"
+                "default": "Incorpora’t a la dreta",
+                "name": "Incorpora’t a la dreta a {way_name}",
+                "destination": "Incorpora’t a la dreta cap a {destination}"
             },
             "uturn": {
-                "default": "Make a U-turn",
-                "name": "Make a U-turn onto {way_name}",
-                "destination": "Make a U-turn towards {destination}"
+                "default": "Feu un canvi de sentit",
+                "name": "Feu un canvi de sentit a {way_name}",
+                "destination": "Feu un canvi de sentit cap a {destination}"
             }
         },
         "new name": {
             "default": {
-                "default": "Continue {modifier}",
-                "name": "Continue {modifier} onto {way_name}",
-                "destination": "Continue {modifier} towards {destination}"
+                "default": "Continua {modifier}",
+                "name": "Continua {modifier} a {way_name}",
+                "destination": "Continua {modifier} cap a {destination}"
             },
             "straight": {
-                "default": "Continue straight",
-                "name": "Continue onto {way_name}",
-                "destination": "Continue towards {destination}"
+                "default": "Continueu recte",
+                "name": "Continua a {way_name}",
+                "destination": "Continuen cap a {destination}"
             },
             "sharp left": {
-                "default": "Take a sharp left",
-                "name": "Take a sharp left onto {way_name}",
-                "destination": "Take a sharp left towards {destination}"
+                "default": "Feu un gir tancat a l’esquerra",
+                "name": "Feu un gir tancat a l’esquerra a {way_name}",
+                "destination": "Feu un gir tancat a l’esquerra cap a {destination}"
             },
             "sharp right": {
-                "default": "Take a sharp right",
-                "name": "Take a sharp right onto {way_name}",
-                "destination": "Take a sharp right towards {destination}"
+                "default": "Feu un gir tancat a la dreta",
+                "name": "Feu un gir tancat a la dreta a {way_name}",
+                "destination": "Feu un gir tancat a la dreta cap a {destination}"
             },
             "slight left": {
-                "default": "Continue slightly left",
-                "name": "Continue slightly left onto {way_name}",
-                "destination": "Continue slightly left towards {destination}"
+                "default": "Continua lleugerament a l’esquerra",
+                "name": "Continua lleugerament a l’esquerra a {way_name}",
+                "destination": "Continua lleugerament a l’esquerra cap a {destination}"
             },
             "slight right": {
-                "default": "Continue slightly right",
-                "name": "Continue slightly right onto {way_name}",
-                "destination": "Continue slightly right towards {destination}"
+                "default": "Continua lleugerament a la dreta",
+                "name": "Continua lleugerament a la dreta a {way_name}",
+                "destination": "Continua lleugerament a la dreta cap a {destination}"
             },
             "uturn": {
-                "default": "Make a U-turn",
-                "name": "Make a U-turn onto {way_name}",
-                "destination": "Make a U-turn towards {destination}"
+                "default": "Feu un canvi de sentit",
+                "name": "Feu un canvi de sentit a {way_name}",
+                "destination": "Feu un canvi de sentit cap a {destination}"
             }
         },
         "notification": {
             "default": {
-                "default": "Continue {modifier}",
-                "name": "Continue {modifier} onto {way_name}",
-                "destination": "Continue {modifier} towards {destination}"
+                "default": "Continua {modifier}",
+                "name": "Continua {modifier} a {way_name}",
+                "destination": "Continua {modifier} cap a {destination}"
             },
             "uturn": {
-                "default": "Make a U-turn",
-                "name": "Make a U-turn onto {way_name}",
-                "destination": "Make a U-turn towards {destination}"
+                "default": "Feu un canvi de sentit",
+                "name": "Feu un canvi de sentit a {way_name}",
+                "destination": "Feu un canvi de sentit cap a {destination}"
             }
         },
         "off ramp": {
             "default": {
-                "default": "Take the ramp",
-                "name": "Take the ramp onto {way_name}",
-                "destination": "Take the ramp towards {destination}",
-                "exit": "Take exit {exit}",
-                "exit_destination": "Take exit {exit} towards {destination}"
+                "default": "Pren la rampa",
+                "name": "Pren la rampa a {way_name}",
+                "destination": "Pren la rampa cap a {destination}",
+                "exit": "Pren la sortida {exit}",
+                "exit_destination": "Pren la sortida {exit} cap a {destination}"
             },
             "left": {
-                "default": "Take the ramp on the left",
-                "name": "Take the ramp on the left onto {way_name}",
-                "destination": "Take the ramp on the left towards {destination}",
-                "exit": "Take exit {exit} on the left",
-                "exit_destination": "Take exit {exit} on the left towards {destination}"
+                "default": "Pren la rampa a l’esquerra",
+                "name": "Pren la rampa a l’esquerra a {way_name}",
+                "destination": "Pren la rampa a l’esquerra cap a {destination}",
+                "exit": "Pren la sortida {exit} a l’esquerra",
+                "exit_destination": "Pren la sortida {exit} a l’esquerra cap a {destination}"
             },
             "right": {
-                "default": "Take the ramp on the right",
-                "name": "Take the ramp on the right onto {way_name}",
-                "destination": "Take the ramp on the right towards {destination}",
-                "exit": "Take exit {exit} on the right",
-                "exit_destination": "Take exit {exit} on the right towards {destination}"
+                "default": "Pren la rampa a la dreta",
+                "name": "Pren la rampa a la dreta a {way_name}",
+                "destination": "Pren la rampa a la dreta cap a {destination}",
+                "exit": "Pren la sortida {exit} a la dreta",
+                "exit_destination": "Pren la sortida {exit} a la dreta cap a {destination}"
             },
             "sharp left": {
-                "default": "Take the ramp on the left",
-                "name": "Take the ramp on the left onto {way_name}",
-                "destination": "Take the ramp on the left towards {destination}",
-                "exit": "Take exit {exit} on the left",
-                "exit_destination": "Take exit {exit} on the left towards {destination}"
+                "default": "Pren la rampa a l’esquerra",
+                "name": "Pren la rampa a l’esquerra a {way_name}",
+                "destination": "Pren la rampa a l’esquerra cap a {destination}",
+                "exit": "Pren la sortida {exit} a l’esquerra",
+                "exit_destination": "Pren la sortida {exit} a l’esquerra cap a {destination}"
             },
             "sharp right": {
-                "default": "Take the ramp on the right",
-                "name": "Take the ramp on the right onto {way_name}",
-                "destination": "Take the ramp on the right towards {destination}",
-                "exit": "Take exit {exit} on the right",
-                "exit_destination": "Take exit {exit} on the right towards {destination}"
+                "default": "Pren la rampa a la dreta",
+                "name": "Pren la rampa a la dreta a {way_name}",
+                "destination": "Pren la rampa a la dreta cap a {destination}",
+                "exit": "Pren la sortida {exit} a la dreta",
+                "exit_destination": "Pren la sortida {exit} a la dreta cap a {destination}"
             },
             "slight left": {
-                "default": "Take the ramp on the left",
-                "name": "Take the ramp on the left onto {way_name}",
-                "destination": "Take the ramp on the left towards {destination}",
-                "exit": "Take exit {exit} on the left",
-                "exit_destination": "Take exit {exit} on the left towards {destination}"
+                "default": "Pren la rampa a l’esquerra",
+                "name": "Pren la rampa a l’esquerra a {way_name}",
+                "destination": "Pren la rampa a l’esquerra cap a {destination}",
+                "exit": "Pren la sortida {exit} a l’esquerra",
+                "exit_destination": "Pren la sortida {exit} a l’esquerra cap a {destination}"
             },
             "slight right": {
-                "default": "Take the ramp on the right",
-                "name": "Take the ramp on the right onto {way_name}",
-                "destination": "Take the ramp on the right towards {destination}",
-                "exit": "Take exit {exit} on the right",
-                "exit_destination": "Take exit {exit} on the right towards {destination}"
+                "default": "Pren la rampa a la dreta",
+                "name": "Pren la rampa a la dreta a {way_name}",
+                "destination": "Pren la rampa a la dreta cap a {destination}",
+                "exit": "Pren la sortida {exit} a la dreta",
+                "exit_destination": "Pren la sortida {exit} a la dreta cap a {destination}"
             }
         },
         "on ramp": {
             "default": {
-                "default": "Take the ramp",
-                "name": "Take the ramp onto {way_name}",
-                "destination": "Take the ramp towards {destination}"
+                "default": "Pren la rampa",
+                "name": "Pren la rampa a {way_name}",
+                "destination": "Pren la rampa cap a {destination}"
             },
             "left": {
-                "default": "Take the ramp on the left",
-                "name": "Take the ramp on the left onto {way_name}",
-                "destination": "Take the ramp on the left towards {destination}"
+                "default": "Pren la rampa a l’esquerra",
+                "name": "Pren la rampa a l’esquerra a {way_name}",
+                "destination": "Pren la rampa a l’esquerra cap a {destination}"
             },
             "right": {
-                "default": "Take the ramp on the right",
-                "name": "Take the ramp on the right onto {way_name}",
-                "destination": "Take the ramp on the right towards {destination}"
+                "default": "Pren la rampa a la dreta",
+                "name": "Pren la rampa a la dreta a {way_name}",
+                "destination": "Pren la rampa a la dreta cap a {destination}"
             },
             "sharp left": {
-                "default": "Take the ramp on the left",
-                "name": "Take the ramp on the left onto {way_name}",
-                "destination": "Take the ramp on the left towards {destination}"
+                "default": "Pren la rampa a l’esquerra",
+                "name": "Pren la rampa a l’esquerra a {way_name}",
+                "destination": "Pren la rampa a l’esquerra cap a {destination}"
             },
             "sharp right": {
-                "default": "Take the ramp on the right",
-                "name": "Take the ramp on the right onto {way_name}",
-                "destination": "Take the ramp on the right towards {destination}"
+                "default": "Pren la rampa a la dreta",
+                "name": "Pren la rampa a la dreta a {way_name}",
+                "destination": "Pren la rampa a la dreta cap a {destination}"
             },
             "slight left": {
-                "default": "Take the ramp on the left",
-                "name": "Take the ramp on the left onto {way_name}",
-                "destination": "Take the ramp on the left towards {destination}"
+                "default": "Pren la rampa a l’esquerra",
+                "name": "Pren la rampa a l’esquerra a {way_name}",
+                "destination": "Pren la rampa a l’esquerra cap a {destination}"
             },
             "slight right": {
-                "default": "Take the ramp on the right",
-                "name": "Take the ramp on the right onto {way_name}",
-                "destination": "Take the ramp on the right towards {destination}"
+                "default": "Pren la rampa a la dreta",
+                "name": "Pren la rampa a la dreta a {way_name}",
+                "destination": "Pren la rampa a la dreta cap a {destination}"
             }
         },
         "rotary": {
             "default": {
                 "default": {
-                    "default": "Enter the roundabout",
-                    "name": "Enter the roundabout and exit onto {way_name}",
-                    "destination": "Enter the roundabout and exit towards {destination}"
+                    "default": "Entra a la rotonda",
+                    "name": "Entra a la rotonda i surt a {way_name}",
+                    "destination": "Entra a la rotonda i surt cap a {destination}"
                 },
                 "name": {
-                    "default": "Enter {rotary_name}",
-                    "name": "Enter {rotary_name} and exit onto {way_name}",
-                    "destination": "Enter {rotary_name} and exit towards {destination}"
+                    "default": "Entra {rotary_name}",
+                    "name": "Entra {rotary_name} i surt a {way_name}",
+                    "destination": "Entra {rotary_name} i surt cap a {destination}"
                 },
                 "exit": {
-                    "default": "Enter the roundabout and take the {exit_number} exit",
-                    "name": "Enter the roundabout and take the {exit_number} exit onto {way_name}",
-                    "destination": "Enter the roundabout and take the {exit_number} exit towards {destination}"
+                    "default": "Entra a la rotonda i pren la sortida {exit_number}",
+                    "name": "Entra a la rotonda i pren la sortida {exit_number} a {way_name}",
+                    "destination": "Entra a la rotonda i prent la sortida {exit_number} cap a {destination}"
                 },
                 "name_exit": {
-                    "default": "Enter {rotary_name} and take the {exit_number} exit",
-                    "name": "Enter {rotary_name} and take the {exit_number} exit onto {way_name}",
-                    "destination": "Enter {rotary_name} and take the {exit_number} exit towards {destination}"
+                    "default": "Entra {rotary_name} i pren la sortida {exit_number}",
+                    "name": "Entra {rotary_name} i pren la sortida {exit_number} a {way_name}",
+                    "destination": "Entra {rotary_name} i pren la sortida {exit_number} cap a {destination}"
                 }
             }
         },
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Enter the roundabout and take the {exit_number} exit",
-                    "name": "Enter the roundabout and take the {exit_number} exit onto {way_name}",
-                    "destination": "Enter the roundabout and take the {exit_number} exit towards {destination}"
+                    "default": "Entra a la rotonda i pren la sortida {exit_number}",
+                    "name": "Entra a la rotonda i pren la sortida {exit_number} a {way_name}",
+                    "destination": "Entra a la rotonda i prent la sortida {exit_number} cap a {destination}"
                 },
                 "default": {
-                    "default": "Enter the roundabout",
-                    "name": "Enter the roundabout and exit onto {way_name}",
-                    "destination": "Enter the roundabout and exit towards {destination}"
+                    "default": "Entra a la rotonda",
+                    "name": "Entra a la rotonda i surt a {way_name}",
+                    "destination": "Entra a la rotonda i surt cap a {destination}"
                 }
             }
         },
         "roundabout turn": {
             "default": {
-                "default": "Make a {modifier}",
-                "name": "Make a {modifier} onto {way_name}",
-                "destination": "Make a {modifier} towards {destination}"
+                "default": "Fes un {modifier}",
+                "name": "Fes un {modifier} a {way_name}",
+                "destination": "Fes un {modifier} cap a {destination}"
             },
             "left": {
-                "default": "Turn left",
-                "name": "Turn left onto {way_name}",
-                "destination": "Turn left towards {destination}"
+                "default": "Giri a l’esquerra",
+                "name": "Gira a l’esquerra a {way_name}",
+                "destination": "Gira a l’esquerra cap a {destination}"
             },
             "right": {
-                "default": "Turn right",
-                "name": "Turn right onto {way_name}",
-                "destination": "Turn right towards {destination}"
+                "default": "Giri a la dreta",
+                "name": "Gira a la dreta a {way_name}",
+                "destination": "Gira a la dreta cap a {destination}"
             },
             "straight": {
-                "default": "Continue straight",
-                "name": "Continue straight onto {way_name}",
-                "destination": "Continue straight towards {destination}"
+                "default": "Continueu recte",
+                "name": "Continueu recte per {way_name}",
+                "destination": "Continueu recte cap a {destination}"
             }
         },
         "exit roundabout": {
             "default": {
-                "default": "Exit the roundabout",
-                "name": "Exit the roundabout onto {way_name}",
-                "destination": "Exit the roundabout towards {destination}"
+                "default": "Surt de la rotonda",
+                "name": "Surt de la rotonda a {way_name}",
+                "destination": "Surt de la rotonda cap a {destination}"
             }
         },
         "exit rotary": {
             "default": {
-                "default": "Exit the roundabout",
-                "name": "Exit the roundabout onto {way_name}",
-                "destination": "Exit the roundabout towards {destination}"
+                "default": "Surt de la rotonda",
+                "name": "Surt de la rotonda a {way_name}",
+                "destination": "Surt de la rotonda cap a {destination}"
             }
         },
         "turn": {
             "default": {
-                "default": "Make a {modifier}",
-                "name": "Make a {modifier} onto {way_name}",
-                "destination": "Make a {modifier} towards {destination}",
-                "junction_name": "Make a {modifier} at {junction_name}"
+                "default": "Fes un {modifier}",
+                "name": "Fes un {modifier} a {way_name}",
+                "destination": "Fes un {modifier} cap a {destination}",
+                "junction_name": "Fes un {modifier} a {junction_name}"
             },
             "left": {
-                "default": "Turn left",
-                "name": "Turn left onto {way_name}",
-                "destination": "Turn left towards {destination}",
-                "junction_name": "Turn left at {junction_name}"
+                "default": "Giri a l’esquerra",
+                "name": "Gira a l’esquerra a {way_name}",
+                "destination": "Gira a l’esquerra cap a {destination}",
+                "junction_name": "Gira a l’esquerra a {junction_name}"
             },
             "right": {
-                "default": "Turn right",
-                "name": "Turn right onto {way_name}",
-                "destination": "Turn right towards {destination}",
-                "junction_name": "Turn right at {junction_name}"
+                "default": "Giri a la dreta",
+                "name": "Gira a la dreta a {way_name}",
+                "destination": "Gira a la dreta cap a {destination}",
+                "junction_name": "Gira a la dreta a {junction_name}"
             },
             "straight": {
-                "default": "Go straight",
-                "name": "Go straight onto {way_name}",
-                "destination": "Go straight towards {destination}",
-                "junction_name": "Go straight at {junction_name}"
+                "default": "Vagi recte",
+                "name": "Ves recte a {way_name}",
+                "destination": "Ves recte cap a {destination}",
+                "junction_name": "Ves recte a {junction_name}"
             }
         },
         "use lane": {
             "no_lanes": {
-                "default": "Continue straight"
+                "default": "Continueu recte"
             },
             "default": {
                 "default": "{lane_instruction}"

@@ -1,6 +1,7 @@
 {
     "instructions": {
         "ar": "ستصل إلى الوجهة {nth}، مباشرة أمامك",
+        "ca": "Arribareu al vostre {nth} destí, tot recte",
         "da": "Du vil ankomme til din {nth} destination lige fremme",
         "de": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich geradeaus",
         "en": "You will arrive at your {nth} destination, straight ahead",

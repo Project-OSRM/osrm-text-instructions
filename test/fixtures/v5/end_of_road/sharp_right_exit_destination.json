@@ -11,6 +11,7 @@
     },
     "instructions": {
         "ar": "انعطف يمين حادا نحو Destination 1",
+        "ca": "Giri tancat a la dreta cap a Destination 1",
         "da": "Drej skarpt til højre mod Destination 1",
         "de": "Scharf rechts abbiegen Richtung Destination 1",
         "en": "Turn sharp right towards Destination 1",

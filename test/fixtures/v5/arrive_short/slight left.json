@@ -1,6 +1,7 @@
 {
     "instructions": {
         "ar": "لقد وصلت",
+        "ca": "Heu arribat",
         "da": "Du er ankommet",
         "de": "Sie haben Ihr {nth} Ziel erreicht",
         "en": "You have arrived",

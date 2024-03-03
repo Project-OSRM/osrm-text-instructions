@@ -11,6 +11,7 @@
     },
     "instructions": {
         "ar": "تابع يسارا باتجاه حاد نحو Destination 1",
+        "ca": "Feu un gir tancat a l’esquerra cap a Destination 1",
         "da": "Drej skarpt til venstre mod Destination 1",
         "de": "Scharf links Richtung Destination 1",
         "en": "Take a sharp left towards Destination 1",

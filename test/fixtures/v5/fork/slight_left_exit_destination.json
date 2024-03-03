@@ -11,6 +11,7 @@
     },
     "instructions": {
         "ar": "انعطف يساراً قليلاً نحو Destination 1",
+        "ca": "Mantingueu-vos a l’esquerra cap a Destination 1",
         "da": "Hold til venstre mod Destination 1",
         "de": "Links halten an der Gabelung Richtung Destination 1",
         "en": "Keep left towards Destination 1",

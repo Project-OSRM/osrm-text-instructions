@@ -11,6 +11,7 @@
     },
     "instructions": {
         "ar": "تابع يمينا باتجاه قليلا نحو Destination 1",
+        "ca": "Continua lleugerament a la dreta cap a Destination 1",
         "da": "Fortsæt til højre mod Destination 1",
         "de": "Leicht rechts weiter Richtung Destination 1",
         "en": "Continue slightly right towards Destination 1",

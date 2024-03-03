@@ -1,6 +1,7 @@
 {
     "instructions": {
         "ar": "ستصل",
+        "ca": "Arribareu",
         "da": "Du vil ankomme",
         "de": "Sie haben Ihr {nth} Ziel erreicht",
         "en": "You will arrive",

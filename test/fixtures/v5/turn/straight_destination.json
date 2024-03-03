@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "انطلق قدما نحو Destination 1",
+        "ca": "Ves recte cap a Destination 1",
         "da": "Kør ligeud mod Destination 1",
         "de": "Geradeaus weiterfahren Richtung Destination 1",
         "en": "Go straight towards Destination 1",

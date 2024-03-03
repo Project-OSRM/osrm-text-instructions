@@ -9,6 +9,7 @@
     },
     "instructions": {
         "ar": "اسلك مسار الدوران واخرج باتجاه Destination 1",
+        "ca": "Entra a la rotonda i surt cap a Destination 1",
         "da": "I rundkørslen, kør mod Destination 1",
         "de": "Im Kreisverkehr die Ausfahrt Richtung Destination 1 nehmen",
         "en": "Enter the roundabout and exit towards Destination 1",

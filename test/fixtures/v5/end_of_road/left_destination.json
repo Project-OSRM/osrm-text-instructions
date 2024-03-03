@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "انعطف يسارا نحو Destination 1",
+        "ca": "Giri esquerra cap a Destination 1",
         "da": "Drej til venstre mod Destination 1",
         "de": "Links abbiegen Richtung Destination 1",
         "en": "Turn left towards Destination 1",

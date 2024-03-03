@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "اسلك مسار الدوران يسارا على Way Name",
+        "ca": "Gira a l’esquerra a Way Name",
         "da": "Drej til venstre ad Way Name",
         "de": "Links abbiegen auf Way Name",
         "en": "Turn left onto Way Name",

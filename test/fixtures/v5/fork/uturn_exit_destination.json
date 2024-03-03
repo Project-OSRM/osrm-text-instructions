@@ -11,6 +11,7 @@
     },
     "instructions": {
         "ar": "انعطف دوراناً عكسياً نحو Destination 1",
+        "ca": "Feu un canvi de sentit cap a Destination 1",
         "da": "Foretag en U-vending mod Destination 1",
         "de": "180°-Wendung Richtung Destination 1",
         "en": "Make a U-turn towards Destination 1",

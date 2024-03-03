@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "تابع يمين حاد نحو Destination 1 ",
+        "ca": "Continua tancat a la dreta cap a Destination 1",
         "da": "Fortsæt skarpt til højre mod Destination 1",
         "de": "Scharf rechts weiterfahren Richtung Destination 1",
         "en": "Continue sharp right towards Destination 1",
