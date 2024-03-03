@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "انعطف يساراً قليلاًا على Way Name",
+        "ca": "Giri lleugerament a l’esquera a Way Name",
         "da": "Drej svagt til venstre ad Way Name",
         "de": "Leicht links abbiegen auf Way Name",
         "en": "Turn slight left onto Way Name",
@@ -33,11 +34,11 @@
         "ro": "Virați ușor stânga pe Way Name",
         "ru": "Поверните левее на Way Name",
         "sl": "Zavijte rahlo levo na Way Name",
-        "sv": "Sväng vänster in på Way Name",
+        "sv": "Sväng svagt vänster in på Way Name",
         "tr": "Way Name üzerinde hafif sol yöne dön",
         "uk": "Поверніть плавно ліворуч на Way Name",
         "vi": "Quẹo trái nghiêng vào Way Name",
-        "yo": "Tan-an diẹ osi pẹlẹpẹlẹ Way Name",
+        "yo": "Yipada diẹ osi pẹlẹpẹlẹ Way Name",
         "zh-Hans": "稍向左行驶，驶入Way Name"
     }
 }

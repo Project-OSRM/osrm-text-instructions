@@ -9,6 +9,7 @@
     },
     "instructions": {
         "ar": "انعطف يساراً قليلاًا",
+        "ca": "Giri lleugerament a la dreta",
         "da": "Drej svagt til højre",
         "de": "Leicht rechts abbiegen",
         "en": "Turn slight right",
@@ -32,11 +33,11 @@
         "ro": "Virați ușor dreapta",
         "ru": "Поверните правее",
         "sl": "Zavijte rahlo desno",
-        "sv": "Sväng höger",
+        "sv": "Sväng svagt höger",
         "tr": "Hafif sağ tarafa dönün",
         "uk": "Поверніть плавно праворуч",
         "vi": "Quẹo phải nghiêng",
-        "yo": "Tan-an diẹ ọtun",
+        "yo": "Yipada diẹ ọtun",
         "zh-Hans": "稍向右行驶"
     }
 }

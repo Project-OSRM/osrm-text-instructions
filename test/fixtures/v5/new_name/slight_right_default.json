@@ -9,6 +9,7 @@
     },
     "instructions": {
         "ar": "تابع يميناً قليلاً",
+        "ca": "Continua lleugerament a la dreta",
         "da": "Fortsæt til højre",
         "de": "Leicht rechts weiter",
         "en": "Continue slightly right",
@@ -32,7 +33,7 @@
         "ro": "Continuați ușor la dreapta",
         "ru": "Плавно поверните направо",
         "sl": "Nadaljujte rahlo desno",
-        "sv": "Fortsätt med lätt högersväng",
+        "sv": "Fortsätt svagt höger",
         "tr": "Hafif sağdan devam edin",
         "uk": "Рухайтесь плавно праворуч",
         "vi": "Nghiêng về bên phải",

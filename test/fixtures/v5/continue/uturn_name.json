@@ -9,6 +9,7 @@
     },
     "instructions": {
         "ar": "انعطف دوراناً عكسياً وتابع نحو Way Name",
+        "ca": "Feu un canvi de sentit i continueu per Way Name",
         "da": "Foretag en U-vending tilbage ad Way Name",
         "de": "180°-Wendung auf Way Name",
         "en": "Make a U-turn and continue on Way Name",
@@ -24,7 +25,7 @@
         "ja": "Uターンし、Way Nameを進む",
         "ko": "유턴해서 Way Name로 가세요.",
         "my": "Way Nameလမ်းဘက်သို့ ဂ-ကွေ့ကွေ့ပြီးဆက်သွားပါ",
-        "nl": "Draai om en ga verder op Way Name",
+        "nl": "Keer om en ga verder op Way Name",
         "no": "Ta en U-sving og fortsett på Way Name",
         "pl": "Zawróć i jedź dalej Way Name",
         "pt-BR": "Faça o retorno e continue em Way Name",
@@ -36,7 +37,7 @@
         "tr": "Bir U-dönüşü yap ve Way Name devam et",
         "uk": "Здійсніть розворот та рухайтесь по Way Name",
         "vi": "Quẹo ngược lại trên Way Name",
-        "yo": "Ṣe ayipada U ati tẹsiwaju Way Name",
+        "yo": "Ṣe U-Tan ki o tẹsiwaju Way Name",
         "zh-Hans": "前方调头，继续在Way Name上行驶"
     }
 }

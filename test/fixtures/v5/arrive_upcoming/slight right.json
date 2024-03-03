@@ -1,6 +1,7 @@
 {
     "instructions": {
         "ar": "ستصل إلى الوجهة {nth}، على يمينك",
+        "ca": "Arribareu al vostre {nth} destí, a la dreta",
         "da": "Du vil ankomme til din {nth} destination på højre hånd",
         "de": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts",
         "en": "You will arrive at your {nth} destination, on the right",
@@ -13,10 +14,10 @@
         "hu": "Meg fog érkezni {nth:article} célponthoz, a jobb oldalon",
         "id": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan",
         "it": "Sei arrivato alla tua {nth} destinazione, sulla destra",
-        "ja": "まもなく{nth}目の目的地に到着します。目的地は右側です",
+        "ja": "まもなく{nth}目的地に到着します。目的地は右側です",
         "ko": "우측에 {nth} 목적지에 도착할 예정입니다.",
         "my": "သင် သွားလိုသော{nth} ခရီးပန်းတိုင်သို့ ညာဘက်ကွေ့ကာ ရောက်လိမ့်မည်",
-        "nl": "Uw {nth} bestemming bevindt zich aan de rechterkant",
+        "nl": "U zult arriveren bij uw {nth} bestemming, deze bevindt zich aan de rechterkant",
         "no": "Du vil ankomme din {nth} destinasjon, på din høyre side",
         "pl": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
         "pt-BR": "Você chegará ao seu {nth} destino, à direita",

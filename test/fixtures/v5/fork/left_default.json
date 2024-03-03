@@ -9,6 +9,7 @@
     },
     "instructions": {
         "ar": " توجّه يسار",
+        "ca": "Mantingueu-vos esquerra a la bifurcació",
         "da": "Hold til venstre ved udfletningen",
         "de": "Links halten an der Gabelung",
         "en": "Keep left at the fork",
@@ -24,7 +25,7 @@
         "ja": "分岐を左に進む",
         "ko": "갈림길에서 좌회전 으로 가세요.",
         "my": "လမ်းဆုံလမ်းခွတွင် ဘယ်ဘက်ကိုဆက်သွားပါ",
-        "nl": "Ga links op de splitsing",
+        "nl": "Houd links aan op de splitsing",
         "no": "Hold til venstre i veikrysset",
         "pl": "Na rozwidleniu trzymaj się lewo",
         "pt-BR": "Mantenha-se à esquerda na bifurcação",

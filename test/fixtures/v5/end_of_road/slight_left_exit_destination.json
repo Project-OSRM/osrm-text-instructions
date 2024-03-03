@@ -11,6 +11,7 @@
     },
     "instructions": {
         "ar": "انعطف يساراً قليلاًا نحو Destination 1",
+        "ca": "Giri lleugerament a l’esquera cap a Destination 1",
         "da": "Drej svagt til venstre mod Destination 1",
         "de": "Leicht links abbiegen Richtung Destination 1",
         "en": "Turn slight left towards Destination 1",
@@ -34,11 +35,11 @@
         "ro": "Virați ușor stânga spre Destination 1",
         "ru": "Поверните левее в направлении Destination 1",
         "sl": "Zavijte rahlo levo v smeri proti Destination 1",
-        "sv": "Sväng vänster mot Destination 1",
+        "sv": "Sväng svagt vänster mot Destination 1",
         "tr": "Destination 1 istikametinde hafif sol yöne dön",
         "uk": "Поверніть плавно ліворуч у напрямку Destination 1",
         "vi": "Quẹo trái nghiêng về Destination 1",
-        "yo": "Tan-an diẹ osi si ọna Destination 1",
+        "yo": "Yipada diẹ osi si ọna Destination 1",
         "zh-Hans": "稍向左行驶，前往Destination 1"
     }
 }

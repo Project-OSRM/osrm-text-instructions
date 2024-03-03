@@ -9,6 +9,7 @@
     },
     "instructions": {
         "ar": "اسلك المدخل مباشرة",
+        "ca": "Pren la rampa",
         "da": "Tag afkørslen",
         "de": "Auffahrt nehmen",
         "en": "Take the ramp",
@@ -24,7 +25,7 @@
         "ja": "入口です",
         "ko": "램프로 진입해 주세요..",
         "my": "ချဉ်းကပ်လမ်းကိုယူပါ",
-        "nl": "Neem de oprit",
+        "nl": "Neem de afrit",
         "no": "Ta avkjørselen",
         "pl": "Weź zjazd",
         "pt-BR": "Pegue a rampa",

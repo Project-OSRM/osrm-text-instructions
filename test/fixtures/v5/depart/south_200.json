@@ -8,6 +8,7 @@
     },
     "instructions": {
         "ar": "توجّه جنوباً",
+        "ca": "Dirigiu-vos sud",
         "da": "Kør mod syd",
         "de": "Fahren Sie Richtung Süden",
         "en": "Head south",
@@ -23,7 +24,7 @@
         "ja": "南に進む",
         "ko": "남쪽로 가세요",
         "my": "တောင်အရပ်သို့ ဦးတည်ပါ",
-        "nl": "Vertrek in zuidelijke richting",
+        "nl": "Ga richting het zuiden",
         "no": "Kjør i retning sør",
         "pl": "Kieruj się południe",
         "pt-BR": "Siga sul",

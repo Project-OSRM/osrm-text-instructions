@@ -29,10 +29,10 @@
             "modifier": {
                 "left": "vänster",
                 "right": "höger",
-                "sharp left": "vänster",
-                "sharp right": "höger",
-                "slight left": "vänster",
-                "slight right": "höger",
+                "sharp left": "skarpt vänster",
+                "sharp right": "skarpt höger",
+                "slight left": "svagt vänster",
+                "slight right": "svagt höger",
                 "straight": "rakt fram",
                 "uturn": "U-sväng"
             },
@@ -55,7 +55,7 @@
             "two linked": "{instruction_one}, sedan {instruction_two}",
             "one in distance": "Om {distance}, {instruction_one}",
             "name and ref": "{name} ({ref})",
-            "exit with number": "exit {exit}"
+            "exit with number": "avfart {exit}"
         },
         "arrive": {
             "default": {
@@ -130,28 +130,28 @@
                 "namedistance": "Fortsätt på {way_name} i {distance}"
             },
             "sharp left": {
-                "default": "Sväng vänster",
-                "name": "Sväng vänster och fortsätt på {way_name}",
-                "destination": "Sväng vänster mot {destination}",
-                "junction_name": "Sväng vänster vid {junction_name}"
+                "default": "Sväng skarpt vänster",
+                "name": "Sväng skarpt vänster och fortsätt på {way_name}",
+                "destination": "Sväng skarpt vänster mot {destination}",
+                "junction_name": "Sväng skarpt vänster vid {junction_name}"
             },
             "sharp right": {
-                "default": "Sväng höger",
-                "name": "Sväng höger och fortsätt på {way_name}",
-                "destination": "Sväng höger mot {destination}",
-                "junction_name": "Sväng höger vid {junction_name}"
+                "default": "Sväng skarpt höger",
+                "name": "Sväng skarpt höger och fortsätt på {way_name}",
+                "destination": "Sväng skarpt höger mot {destination}",
+                "junction_name": "Sväng skarpt höger vid {junction_name}"
             },
             "slight left": {
-                "default": "Sväng vänster",
-                "name": "Sväng vänster och fortsätt på {way_name}",
-                "destination": "Sväng vänster mot {destination}",
-                "junction_name": "Sväng vänster vid {junction_name}"
+                "default": "Sväng svagt vänster",
+                "name": "Sväng svagt vänster och fortsätt på {way_name}",
+                "destination": "Sväng svagt vänster mot {destination}",
+                "junction_name": "Sväng svagt vänster vid {junction_name}"
             },
             "slight right": {
-                "default": "Sväng höger",
-                "name": "Sväng höger och fortsätt på {way_name}",
-                "destination": "Sväng höger mot {destination}",
-                "junction_name": "Sväng höger vid {junction_name}"
+                "default": "Sväng svagt höger",
+                "name": "Sväng svagt höger och fortsätt på {way_name}",
+                "destination": "Sväng svagt höger mot {destination}",
+                "junction_name": "Sväng svagt höger vid {junction_name}"
             },
             "uturn": {
                 "default": "Gör en U-sväng",
@@ -164,7 +164,7 @@
             "default": {
                 "default": "Kör åt {direction}",
                 "name": "Kör åt {direction} på {way_name}",
-                "namedistance": "Kör {distance} åt {direction} på {way_name}"
+                "namedistance": "Kör åt {direction} på {way_name} i {distance} "
             }
         },
         "end of road": {
@@ -181,9 +181,9 @@
                 "junction_name": "Fortsätt rakt fram vid {junction_name}"
             },
             "uturn": {
-                "default": "Gör en U-sväng i slutet av vägen",
-                "name": "Gör en U-sväng in på {way_name} i slutet av vägen",
-                "destination": "Gör en U-sväng mot {destination} i slutet av vägen",
+                "default": "Gör en U-sväng där vägen slutar",
+                "name": "Gör en U-sväng in på {way_name} där vägen slutar",
+                "destination": "Gör en U-sväng mot {destination} där vägen slutar",
                 "junction_name": "Gör en U-sväng vid {junction_name}"
             }
         },
@@ -204,14 +204,14 @@
                 "destination": "Håll till höger mot {destination}"
             },
             "sharp left": {
-                "default": "Sväng vänster där vägen delar sig",
-                "name": "Sväng vänster in på {way_name}",
-                "destination": "Sväng vänster mot {destination}"
+                "default": "Sväng skarpt vänster där vägen delar sig",
+                "name": "Sväng skarpt vänster in på {way_name}",
+                "destination": "Sväng skarpt vänster mot {destination}"
             },
             "sharp right": {
-                "default": "Sväng höger där vägen delar sig",
-                "name": "Sväng höger in på {way_name}",
-                "destination": "Sväng höger mot {destination}"
+                "default": "Sväng skarpt höger där vägen delar sig",
+                "name": "Sväng skarpt höger in på {way_name}",
+                "destination": "Sväng skarpt höger mot {destination}"
             },
             "uturn": {
                 "default": "Gör en U-sväng",
@@ -221,34 +221,34 @@
         },
         "merge": {
             "default": {
-                "default": "Byt till {modifier} körfält",
-                "name": "Byt till {modifier} körfält, in på {way_name}",
-                "destination": "Byt till {modifier} körfält, mot {destination}"
+                "default": "Håll till {modifier}",
+                "name": "Håll till {modifier} in på {way_name}",
+                "destination": "Håll till {modifier} mot {destination}"
             },
             "straight": {
-                "default": "Fortsätt",
-                "name": "Kör in på {way_name}",
-                "destination": "Kör mot {destination}"
+                "default": "Hålla",
+                "name": "Håll in på {way_name}",
+                "destination": "Håll mot {destination}"
             },
             "slight left": {
-                "default": "Byt till vänstra körfältet",
-                "name": "Byt till vänstra körfältet, in på {way_name}",
-                "destination": "Byt till vänstra körfältet, mot {destination}"
+                "default": "Håll till vänster",
+                "name": "Håll till vänster in på {way_name}",
+                "destination": "Håll till vänster mot {destination}"
             },
             "slight right": {
-                "default": "Byt till högra körfältet",
-                "name": "Byt till högra körfältet, in på {way_name}",
-                "destination": "Byt till högra körfältet, mot {destination}"
+                "default": "Håll till höger",
+                "name": "Håll till höger in på {way_name}",
+                "destination": "Håll till höger mot {destination}"
             },
             "sharp left": {
-                "default": "Byt till vänstra körfältet",
-                "name": "Byt till vänstra körfältet, in på {way_name}",
-                "destination": "Byt till vänstra körfältet, mot {destination}"
+                "default": "Håll till vänster",
+                "name": "Håll till vänster in på {way_name}",
+                "destination": "Håll till vänster mot {destination}"
             },
             "sharp right": {
-                "default": "Byt till högra körfältet",
-                "name": "Byt till högra körfältet, in på {way_name}",
-                "destination": "Byt till högra körfältet, mot {destination}"
+                "default": "Håll till höger",
+                "name": "Håll till höger in på {way_name}",
+                "destination": "Håll till höger mot {destination}"
             },
             "uturn": {
                 "default": "Gör en U-sväng",
@@ -278,14 +278,14 @@
                 "destination": "Gör en skarp högersväng mot {destination}"
             },
             "slight left": {
-                "default": "Fortsätt med lätt vänstersväng",
-                "name": "Fortsätt med lätt vänstersväng in på {way_name}",
-                "destination": "Fortsätt med lätt vänstersväng mot {destination}"
+                "default": "Fortsätt svagt vänster",
+                "name": "Fortsätt svagt vänster in på {way_name}",
+                "destination": "Fortsätt svagt vänster mot {destination}"
             },
             "slight right": {
-                "default": "Fortsätt med lätt högersväng",
-                "name": "Fortsätt med lätt högersväng in på {way_name}",
-                "destination": "Fortsätt med lätt högersväng mot {destination}"
+                "default": "Fortsätt svagt höger",
+                "name": "Fortsätt svagt höger in på {way_name}",
+                "destination": "Fortsätt svagt höger mot {destination}"
             },
             "uturn": {
                 "default": "Gör en U-sväng",
@@ -397,8 +397,8 @@
             "default": {
                 "default": {
                     "default": "Kör in i rondellen",
-                    "name": "I rondellen, ta avfarten in på {way_name}",
-                    "destination": "I rondellen, ta av mot {destination}"
+                    "name": "I rondellen ta av mot {way_name}",
+                    "destination": "I rondellen ta av mot {destination}"
                 },
                 "name": {
                     "default": "Kör in i {rotary_name}",
@@ -406,9 +406,9 @@
                     "destination": "I {rotary_name}, ta av mot {destination}"
                 },
                 "exit": {
-                    "default": "I rondellen, ta {exit_number} avfarten",
-                    "name": "I rondellen, ta {exit_number} avfarten in på {way_name}",
-                    "destination": "I rondellen, ta {exit_number} avfarten mot {destination}"
+                    "default": "I rondellen ta {exit_number} avfarten",
+                    "name": "I rondellen ta {exit_number} avfarten in på {way_name}",
+                    "destination": "I rondellen ta {exit_number} avfarten mot {destination}"
                 },
                 "name_exit": {
                     "default": "I {rotary_name}, ta {exit_number} avfarten",
@@ -420,14 +420,14 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "I rondellen, ta {exit_number} avfarten",
-                    "name": "I rondellen, ta {exit_number} avfarten in på {way_name}",
-                    "destination": "I rondellen, ta {exit_number} avfarten mot {destination}"
+                    "default": "I rondellen ta {exit_number} avfarten",
+                    "name": "I rondellen ta {exit_number} avfarten in på {way_name}",
+                    "destination": "I rondellen ta {exit_number} avfarten mot {destination}"
                 },
                 "default": {
                     "default": "Kör in i rondellen",
-                    "name": "I rondellen, ta avfarten in på {way_name}",
-                    "destination": "I rondellen, ta av mot {destination}"
+                    "name": "I rondellen ta av mot {way_name}",
+                    "destination": "I rondellen ta av mot {destination}"
                 }
             }
         },

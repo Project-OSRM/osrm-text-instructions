@@ -11,6 +11,7 @@
     },
     "instructions": {
         "ar": "انعطف دوراناً عكسياً نحو Destination 1",
+        "ca": "Feu un canvi de sentit cap a Destination 1",
         "da": "Foretag en U-vending mod Destination 1",
         "de": "180°-Wendung Richtung Destination 1",
         "en": "Make a U-turn towards Destination 1",
@@ -38,7 +39,7 @@
         "tr": "Destination 1 istikametinde bir U-dönüşü yap",
         "uk": "Здійсніть розворот у напрямку Destination 1",
         "vi": "Quẹo ngược về Destination 1",
-        "yo": "Ṣe ọna U-ọna si ọna Destination 1",
+        "yo": "Ṣe U-Tan si ọnaDestination 1",
         "zh-Hans": "前方调头，前往Destination 1"
     }
 }

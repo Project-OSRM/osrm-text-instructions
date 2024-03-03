@@ -9,6 +9,7 @@
     },
     "instructions": {
         "ar": "انعطف يسارا",
+        "ca": "Giri esquerra",
         "da": "Drej til venstre",
         "de": "Links abbiegen",
         "en": "Turn left",
@@ -36,7 +37,7 @@
         "tr": "Sol tarafa dönün",
         "uk": "Поверніть ліворуч",
         "vi": "Quẹo trái",
-        "yo": "Tan-an apa osi",
+        "yo": "Yipada apa osi",
         "zh-Hans": "向左行驶"
     }
 }

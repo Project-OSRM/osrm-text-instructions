@@ -9,6 +9,7 @@
     },
     "instructions": {
         "ar": "انعطف دوراناً عكسياً وتابع نحو Cool highway",
+        "ca": "Feu un canvi de sentit i continueu per Cool highway",
         "da": "Foretag en U-vending tilbage ad Cool highway",
         "de": "180°-Wendung auf Cool highway",
         "en": "Make a U-turn and continue on Cool highway",
@@ -24,7 +25,7 @@
         "ja": "Uターンし、Cool highwayを進む",
         "ko": "유턴해서 Cool highway로 가세요.",
         "my": "Cool highwayလမ်းဘက်သို့ ဂ-ကွေ့ကွေ့ပြီးဆက်သွားပါ",
-        "nl": "Draai om en ga verder op Cool highway",
+        "nl": "Keer om en ga verder op Cool highway",
         "no": "Ta en U-sving og fortsett på Cool highway",
         "pl": "Zawróć i jedź dalej Cool highway",
         "pt-BR": "Faça o retorno e continue em Cool highway",
@@ -36,7 +37,7 @@
         "tr": "Bir U-dönüşü yap ve Cool highway devam et",
         "uk": "Здійсніть розворот та рухайтесь по Cool highway",
         "vi": "Quẹo ngược lại trên Cool highway",
-        "yo": "Ṣe ayipada U ati tẹsiwaju Cool highway",
+        "yo": "Ṣe U-Tan ki o tẹsiwaju Cool highway",
         "zh-Hans": "前方调头，继续在Cool highway上行驶"
     },
     "options": {

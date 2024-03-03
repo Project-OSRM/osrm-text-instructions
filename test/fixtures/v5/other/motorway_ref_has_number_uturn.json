@@ -9,6 +9,7 @@
     },
     "instructions": {
         "ar": "انعطف دوراناً عكسياً وتابع نحو Ref1",
+        "ca": "Feu un canvi de sentit i continueu per Ref1",
         "da": "Foretag en U-vending tilbage ad Ref1",
         "de": "180°-Wendung auf Ref1",
         "en": "Make a U-turn and continue on Ref1",
@@ -24,7 +25,7 @@
         "ja": "Uターンし、Ref1を進む",
         "ko": "유턴해서 Ref1로 가세요.",
         "my": "Ref1လမ်းဘက်သို့ ဂ-ကွေ့ကွေ့ပြီးဆက်သွားပါ",
-        "nl": "Draai om en ga verder op Ref1",
+        "nl": "Keer om en ga verder op Ref1",
         "no": "Ta en U-sving og fortsett på Ref1",
         "pl": "Zawróć i jedź dalej Ref1",
         "pt-BR": "Faça o retorno e continue em Ref1",
@@ -36,7 +37,7 @@
         "tr": "Bir U-dönüşü yap ve Ref1 devam et",
         "uk": "Здійсніть розворот та рухайтесь по Ref1",
         "vi": "Quẹo ngược lại trên Ref1",
-        "yo": "Ṣe ayipada U ati tẹsiwaju Ref1",
+        "yo": "Ṣe U-Tan ki o tẹsiwaju Ref1",
         "zh-Hans": "前方调头，继续在Ref1上行驶"
     },
     "options": {

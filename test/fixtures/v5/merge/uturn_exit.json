@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "انعطف دورانا عكسيا على Way Name",
+        "ca": "Feu un canvi de sentit a Way Name",
         "da": "Foretag en U-vending ad Way Name",
         "de": "180°-Wendung auf Way Name",
         "en": "Make a U-turn onto Way Name",

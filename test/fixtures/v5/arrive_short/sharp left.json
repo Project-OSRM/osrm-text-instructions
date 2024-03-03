@@ -1,6 +1,7 @@
 {
     "instructions": {
         "ar": "لقد وصلت",
+        "ca": "Heu arribat",
         "da": "Du er ankommet",
         "de": "Sie haben Ihr {nth} Ziel erreicht",
         "en": "You have arrived",
@@ -18,7 +19,7 @@
         "my": "သင်သွားလိုသော နေရာသို့ ရောက်ရှိပြီ",
         "nl": "U bent gearriveerd",
         "no": "Du har ankommet",
-        "pl": "Dojechano do miejsca docelowego {nth}",
+        "pl": "Dotarłeś na miejsce",
         "pt-BR": "Você chegou",
         "pt-PT": "Chegou",
         "ro": "Ați ajuns",

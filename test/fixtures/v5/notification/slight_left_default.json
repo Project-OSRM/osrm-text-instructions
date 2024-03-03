@@ -9,6 +9,7 @@
     },
     "instructions": {
         "ar": "تابع يساراً قليلاًا",
+        "ca": "Continua lleugerament a l’esquera",
         "da": "Fortsæt svagt til venstre",
         "de": "Leicht links weiterfahren",
         "en": "Continue slight left",
@@ -32,7 +33,7 @@
         "ro": "Continuați ușor stânga",
         "ru": "Двигайтесь левее",
         "sl": "Nadaljujte rahlo levo",
-        "sv": "Fortsätt vänster",
+        "sv": "Fortsätt svagt vänster",
         "tr": "Hafif sol yönde devam et",
         "uk": "Рухайтесь плавно ліворуч",
         "vi": "Chạy tiếp bên trái nghiêng",

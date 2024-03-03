@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "انعطف يسارا على Way Name",
+        "ca": "Giri esquerra a Way Name",
         "da": "Drej til venstre ad Way Name",
         "de": "Links abbiegen auf Way Name",
         "en": "Turn left onto Way Name",
@@ -37,7 +38,7 @@
         "tr": "Way Name üzerinde sol yöne dön",
         "uk": "Поверніть ліворуч на Way Name",
         "vi": "Quẹo trái vào Way Name",
-        "yo": "Tan-an apa osi pẹlẹpẹlẹ Way Name",
+        "yo": "Yipada apa osi pẹlẹpẹlẹ Way Name",
         "zh-Hans": "向左行驶，驶入Way Name"
     }
 }

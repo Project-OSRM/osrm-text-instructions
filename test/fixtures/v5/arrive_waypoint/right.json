@@ -8,6 +8,7 @@
     },
     "instructions": {
         "ar": "لقد وصلت إلى الوجهة الأولى، على يمينك",
+        "ca": "Heu arribat al vostre 1r destí, a la dreta",
         "da": "Du er ankommet til din første destination, som befinder sig til højre",
         "de": "Sie haben Ihr erste Ziel erreicht, es befindet sich rechts",
         "en": "You have arrived at your 1st destination, on the right",
@@ -20,10 +21,10 @@
         "hu": "Megérkezett az 1. célponthoz, a jobb oldalon",
         "id": "Anda telah tiba di tujuan ke-1, di sebelah kanan",
         "it": "Sei arrivato alla tua 1ª destinazione, sulla destra",
-        "ja": "1 つ目の目の目的地に到着しました。目的地は右側です",
+        "ja": "1つ目の目的地に到着しました。目的地は右側です",
         "ko": "우측에 첫번쩨 목적지가 있습니다.",
         "my": "သင် သွားလိုသော ပထမခရီးပန်းတိုင်သို့ ညာဘက်ကွေ့ကာ ရောက်ရှိပြီ",
-        "nl": "Je bent gearriveerd. De 1e bestemming bevindt zich rechts.",
+        "nl": "U bent gearriveerd op uw 1e bestemming, deze bevindt zich aan de rechterkant",
         "no": "Du har ankommet din 1. destinasjon, på din høyre side",
         "pl": "Dojechano do miejsca docelowego 1., po prawej stronie",
         "pt-BR": "Você chegou ao seu 1º destino, à direita",
@@ -35,7 +36,7 @@
         "tr": "Birinci hedefinize ulaştınız, hedefiniz sağınızdadır",
         "uk": "Ви прибули у ваш 1й пункт призначення, він – праворуч",
         "vi": "Đến nơi đầu tiên ở bên phải",
-        "yo": "O ti de ọdọ rẹ 1st nlo, lori ọtun",
+        "yo": "O ti de ọdọ rẹ Ọgọta 1 nlo, lori ọtun",
         "zh-Hans": "您已经到达您的第一个目的地，目的地在道路右侧"
     },
     "options": {

@@ -9,6 +9,7 @@
     },
     "instructions": {
         "ar": "اسلك مسار الدوران يسارا",
+        "ca": "Giri a l’esquerra",
         "da": "Drej til venstre",
         "de": "Links abbiegen",
         "en": "Turn left",
@@ -21,7 +22,7 @@
         "hu": "Forduljon balra",
         "id": "Belok kiri",
         "it": "Svolta a sinistra",
-        "ja": "左折する",
+        "ja": "左折です",
         "ko": "좌회전 하세요.",
         "my": "ဘယ်ဘက်သို့ပြန်လှည့်ပါ",
         "nl": "Ga linksaf",

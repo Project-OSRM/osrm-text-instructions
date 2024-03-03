@@ -9,6 +9,7 @@
     },
     "instructions": {
         "ar": "الزم مباشرة على Way Name",
+        "ca": "Mantingueu-vos recte per Way Name",
         "da": "Fortsæt ligeud på Way Name",
         "de": "Geradeaus halten an der Gabelung auf Way Name",
         "en": "Keep straight onto Way Name",
@@ -24,7 +25,7 @@
         "ja": "Way Nameの直進車線を進む",
         "ko": "직진하고 Way Name로 가세요.",
         "my": "Way Name​ပေါ်သို့ ဖြောင့်ဖြောင့်တန်းတန်းကိုဆက်သွားပါ",
-        "nl": "Houd rechtdoor aan, tot Way Name",
+        "nl": "Houd rechtdoor aan tot Way Name",
         "no": "Hold til rett frem inn på Way Name",
         "pl": "Na rozwidleniu trzymaj się prosto na Way Name",
         "pt-BR": "Permaneça em frente para Way Name",

@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file. For change 
 
 ## master
 
+- This package now requires Node 16 and above. [#312](https://github.com/Project-OSRM/osrm-text-instructions/pull/312)
+- Added a Catalan localization. [#312](https://github.com/Project-OSRM/osrm-text-instructions/pull/312)
+- Updated translations in Brazilian Portuguese, Danish, Esperanto, French, Hungarian, Japanese, Polish, Russian, Simplified Chinese, Swedish, Ukrainian, and Yoruba. [#312](https://github.com/Project-OSRM/osrm-text-instructions/pull/312)
+
 ## 0.14.0 2019-12-04
 
 - Update Japanese localization, add named intersections. [#290](https://github.com/Project-OSRM/osrm-text-instructions/pull/290)

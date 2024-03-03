@@ -449,7 +449,7 @@
             },
             "straight": {
                 "default": "Lurus terus",
-                "name": "Tetap lurus ke {way_name} ",
+                "name": "Tetap lurus ke {way_name}",
                 "destination": "Tetap lurus menuju {destination}"
             }
         },
@@ -458,21 +458,6 @@
                 "default": "Lakukan {modifier}",
                 "name": "Lakukan {modifier} ke arah {way_name}",
                 "destination": "Lakukan {modifier} menuju {destination}"
-            },
-            "left": {
-                "default": "Belok kiri",
-                "name": "Belok kiri ke {way_name}",
-                "destination": "Belok kiri menuju {destination}"
-            },
-            "right": {
-                "default": "Belok kanan",
-                "name": "Belok kanan ke {way_name}",
-                "destination": "Belok kanan menuju {destination}"
-            },
-            "straight": {
-                "default": "Lurus terus",
-                "name": "Tetap lurus ke {way_name} ",
-                "destination": "Tetap lurus menuju {destination}"
             }
         },
         "exit rotary": {
@@ -480,21 +465,6 @@
                 "default": "Lakukan {modifier}",
                 "name": "Lakukan {modifier} ke arah {way_name}",
                 "destination": "Lakukan {modifier} menuju {destination}"
-            },
-            "left": {
-                "default": "Belok kiri",
-                "name": "Belok kiri ke {way_name}",
-                "destination": "Belok kiri menuju {destination}"
-            },
-            "right": {
-                "default": "Belok kanan",
-                "name": "Belok kanan ke {way_name}",
-                "destination": "Belok kanan menuju {destination}"
-            },
-            "straight": {
-                "default": "Lurus",
-                "name": "Lurus arah {way_name}",
-                "destination": "Lurus menuju {destination}"
             }
         },
         "turn": {

@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "انعطف يسارا حادا لتبقى على Way Name",
+        "ca": "Feu un gir tancat a l’esquerra a Way Name",
         "da": "Drej skarpt til venstre ad Way Name",
         "de": "Scharf links auf Way Name",
         "en": "Take a sharp left onto Way Name",
@@ -25,7 +26,7 @@
         "ja": "大きく左方向に曲がり、Way Nameを進む",
         "ko": "급좌회전 해서 Way Name로 가세요.",
         "my": "Way Nameပေါ်တွင်နေရန် ဘယ်ဘက်ထောင့်ချိုးယူပါ",
-        "nl": "Linksaf naar Way Name",
+        "nl": "Neem een scherpe bocht naar links naar Way Name",
         "no": "Sving skarpt til venstre inn på Way Name",
         "pl": "Skręć ostro w lewo w Way Name",
         "pt-BR": "Faça uma curva fechada à esquerda em Way Name",

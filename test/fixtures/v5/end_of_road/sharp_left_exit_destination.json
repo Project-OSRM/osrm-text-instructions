@@ -11,6 +11,7 @@
     },
     "instructions": {
         "ar": "انعطف يسار حادا نحو Destination 1",
+        "ca": "Giri tancat a l’esquerra cap a Destination 1",
         "da": "Drej skarpt til venstre mod Destination 1",
         "de": "Scharf links abbiegen Richtung Destination 1",
         "en": "Turn sharp left towards Destination 1",
@@ -34,11 +35,11 @@
         "ro": "Virați puternic stânga spre Destination 1",
         "ru": "Поверните налево в направлении Destination 1",
         "sl": "Zavijte ostro levo v smeri proti Destination 1",
-        "sv": "Sväng vänster mot Destination 1",
+        "sv": "Sväng skarpt vänster mot Destination 1",
         "tr": "Destination 1 istikametinde keskin sol yöne dön",
         "uk": "Поверніть різко ліворуч у напрямку Destination 1",
         "vi": "Quẹo trái gắt về Destination 1",
-        "yo": "Tan-an didasilẹ si ọna Destination 1",
+        "yo": "Yipada didasilẹ si ọna Destination 1",
         "zh-Hans": "急向左行驶，前往Destination 1"
     }
 }

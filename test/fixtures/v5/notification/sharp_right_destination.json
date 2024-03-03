@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "تابع يمين حاد نحو Destination 1 ",
+        "ca": "Continua tancat a la dreta cap a Destination 1",
         "da": "Fortsæt skarpt til højre mod Destination 1",
         "de": "Scharf rechts weiterfahren Richtung Destination 1",
         "en": "Continue sharp right towards Destination 1",
@@ -33,7 +34,7 @@
         "ro": "Continuați puternic dreapta spre Destination 1",
         "ru": "Двигайтесь направо в направлении Destination 1",
         "sl": "Nadaljujte ostro desno v smeri proti Destination 1",
-        "sv": "Fortsätt höger mot Destination 1",
+        "sv": "Fortsätt skarpt höger mot Destination 1",
         "tr": "Destination 1 istikametinde keskin sağ yönde devam et",
         "uk": "Рухайтесь різко праворуч у напрямку Destination 1",
         "vi": "Chạy tiếp bên phải gắt về Destination 1",

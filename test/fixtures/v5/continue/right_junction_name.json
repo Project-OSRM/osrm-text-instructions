@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "انعطف يمينا لتبقى على Way Name",
+        "ca": "Giri a dreta per a mantenir-se a Way Name",
         "da": "Drej til højre videre ad Way Name",
         "de": "Rechts weiterfahren auf Way Name",
         "en": "Turn right to stay on Way Name",
@@ -25,7 +26,7 @@
         "ja": "右に曲がり、Way Nameを進む",
         "ko": "우회전 회전하고 Way Name로 직진해 주세요.",
         "my": "Way Name​ပေါ်တွင်နေရန် ညာဘက်ကိုလှည့်ပါ",
-        "nl": "Sla rechts om op Way Name te blijven",
+        "nl": "Ga rechts om op Way Name te blijven",
         "no": "Ta til høyre for å bli værende på Way Name",
         "pl": "Skręć w prawo, aby pozostać na Way Name",
         "pt-BR": "Vire à direita para manter-se na Way Name",
@@ -37,7 +38,7 @@
         "tr": "Way Name üzerinde kalmak için sağ yöne dön",
         "uk": "Повернітьправоруч залишаючись на Way Name",
         "vi": "Quẹo phải để chạy tiếp trên Way Name",
-        "yo": "Tan-an ọtun lati duro si Way Name",
+        "yo": "Yipada ọtun lati duro si Way Name",
         "zh-Hans": "在Way Name上继续向右行驶"
     }
 }

@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "اتبع المنحدر على Way Name",
+        "ca": "Pren la rampa a Way Name",
         "da": "Tag afkørslen ad Way Name",
         "de": "Auffahrt nehmen auf Way Name",
         "en": "Take the ramp onto Way Name",
@@ -25,7 +26,7 @@
         "ja": "Way Name方面、入口です",
         "ko": "램프로 진입해서 Way Name로 가세요.",
         "my": "Way Nameပေါ်သို့ချဉ်းကပ်လမ်းကိုယူပါ",
-        "nl": "Neem de oprit naar Way Name",
+        "nl": "Neem de afrit naar Way Name",
         "no": "Ta avkjørselen inn på Way Name",
         "pl": "Weź zjazd na Way Name",
         "pt-BR": "Pegue a rampa em Way Name",

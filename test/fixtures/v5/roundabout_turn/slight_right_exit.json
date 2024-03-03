@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "انعطف يساراً قليلاً على Way Name",
+        "ca": "Fes un lleugerament a la dreta a Way Name",
         "da": "Drej svagt til højre ad Way Name",
         "de": "Leicht rechts abbiegen auf Way Name",
         "en": "Make a slight right onto Way Name",
@@ -33,7 +34,7 @@
         "ro": "La sensul giratoriu virați ușor dreapta pe Way Name",
         "ru": "Двигайтесь правее на Way Name",
         "sl": "Zavijte rahlo desno na Way Name",
-        "sv": "Sväng höger in på Way Name",
+        "sv": "Sväng svagt höger in på Way Name",
         "tr": "Way Name üzerinde hafif sağ yöne dön",
         "uk": "Рухайтесь плавно праворуч на Way Name",
         "vi": "Quẹo phải nghiêng vào Way Name",

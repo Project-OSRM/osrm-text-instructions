@@ -4,6 +4,7 @@
     },
     "phrases": {
         "ar": "مخرج 123A",
+        "ca": "Eixir 123A",
         "da": "Afkørsel 123A",
         "de": "Exit 123A",
         "en": "Exit 123A",
@@ -27,7 +28,7 @@
         "ro": "Ieșirea 123A",
         "ru": "Съезд 123A",
         "sl": "Izhod št. 123A",
-        "sv": "Exit 123A",
+        "sv": "Avfart 123A",
         "tr": "Exit 123A",
         "uk": "З'їзд 123A",
         "vi": "Lối ra 123A",

@@ -9,6 +9,7 @@
     },
     "instructions": {
         "ar": "انعطف يسارا لتبقى على Ref1",
+        "ca": "Giri a esquerra per a mantenir-se a Ref1",
         "da": "Drej til venstre videre ad Ref1",
         "de": "Links weiterfahren auf Ref1",
         "en": "Turn left to stay on Ref1",
@@ -24,7 +25,7 @@
         "ja": "左に曲がり、Ref1を進む",
         "ko": "좌회전 회전하고 Ref1로 직진해 주세요.",
         "my": "Ref1​ပေါ်တွင်နေရန် ဘယ်ဘက်ကိုလှည့်ပါ",
-        "nl": "Sla links om op Ref1 te blijven",
+        "nl": "Ga links om op Ref1 te blijven",
         "no": "Ta til venstre for å bli værende på Ref1",
         "pl": "Skręć w lewo, aby pozostać na Ref1",
         "pt-BR": "Vire à esquerda para manter-se na Ref1",
@@ -36,7 +37,7 @@
         "tr": "Ref1 üzerinde kalmak için sol yöne dön",
         "uk": "Повернітьліворуч залишаючись на Ref1",
         "vi": "Quẹo trái để chạy tiếp trên Ref1",
-        "yo": "Tan-an apa osi lati duro si Ref1",
+        "yo": "Yipada apa osi lati duro si Ref1",
         "zh-Hans": "在Ref1上继续向左行驶"
     },
     "options": {

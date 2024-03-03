@@ -9,6 +9,7 @@
     },
     "instructions": {
         "ar": "انعطف يمين حادا",
+        "ca": "Giri tancat a la dreta",
         "da": "Drej skarpt til højre",
         "de": "Scharf rechts abbiegen",
         "en": "Turn sharp right",
@@ -32,11 +33,11 @@
         "ro": "Virați puternic dreapta",
         "ru": "Поверните направо",
         "sl": "Zavijte ostro desno",
-        "sv": "Sväng höger",
+        "sv": "Sväng skarpt höger",
         "tr": "Keskin sağ tarafa dönün",
         "uk": "Поверніть різко праворуч",
         "vi": "Quẹo phải gắt",
-        "yo": "Tan-an didasilẹ ọtun",
+        "yo": "Yipada didasilẹ ọtun",
         "zh-Hans": "急向右行驶"
     }
 }

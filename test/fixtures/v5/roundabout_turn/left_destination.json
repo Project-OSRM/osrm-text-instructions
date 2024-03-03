@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "انعطف يسارا نحو Destination 1",
+        "ca": "Gira a l’esquerra cap a Destination 1",
         "da": "Drej til venstre mod Destination 1",
         "de": "Links abbiegen Richtung Destination 1",
         "en": "Turn left towards Destination 1",
@@ -37,7 +38,7 @@
         "tr": "Destination 1 istikametinde sola dön",
         "uk": "Поверніть ліворуч у напрямку Destination 1",
         "vi": "Quẹo trái về Destination 1",
-        "yo": "Tan apa osi si ọna Destination 1",
+        "yo": "Yipada si apa osiDestination 1",
         "zh-Hans": "左转，前往Destination 1"
     }
 }

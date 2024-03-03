@@ -5,15 +5,15 @@
     "v5": {
         "constants": {
             "ordinalize": {
-                "1": "1 つ目の",
-                "2": "2 つ目の",
-                "3": "3 つ目の",
-                "4": "4 つ目の",
-                "5": "5 つ目の",
-                "6": "6 つ目の",
-                "7": "7 つ目の",
-                "8": "8 つ目の",
-                "9": "9 つ目の",
+                "1": "1つ目の",
+                "2": "2つ目の",
+                "3": "3つ目の",
+                "4": "4つ目の",
+                "5": "5つ目の",
+                "6": "6つ目の",
+                "7": "7つ目の",
+                "8": "8つ目の",
+                "9": "9つ目の",
                 "10": "10 番目の"
             },
             "direction": {
@@ -59,57 +59,57 @@
         },
         "arrive": {
             "default": {
-                "default": "{nth}目の目的地に到着しました",
-                "upcoming": "まもなく{nth}目の目的地に到着します",
+                "default": "{nth}目的地に到着しました",
+                "upcoming": "まもなく{nth}目的地に到着します",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
                 "named": "{waypoint_name}に到着しました"
             },
             "left": {
-                "default": "{nth}目の目的地に到着しました。目的地は左側です",
-                "upcoming": "まもなく{nth}目の目的地に到着します。目的地は左側です",
+                "default": "{nth}目的地に到着しました。目的地は左側です",
+                "upcoming": "まもなく{nth}目的地に到着します。目的地は左側です",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
                 "named": "{waypoint_name}に到着しました。目的地は左側です"
             },
             "right": {
-                "default": "{nth}目の目的地に到着しました。目的地は右側です",
-                "upcoming": "まもなく{nth}目の目的地に到着します。目的地は右側です",
+                "default": "{nth}目的地に到着しました。目的地は右側です",
+                "upcoming": "まもなく{nth}目的地に到着します。目的地は右側です",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
                 "named": "{waypoint_name}に到着しました。目的地は右側です"
             },
             "sharp left": {
-                "default": "{nth}目の目的地に到着しました。目的地は左側です",
-                "upcoming": "{nth}目の目的地に到着しました。目的地は左側です",
+                "default": "{nth}目的地に到着しました。目的地は左側です",
+                "upcoming": "{nth}目的地に到着しました。目的地は左側です",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
                 "named": "{waypoint_name}に到着しました。目的地は左側です"
             },
             "sharp right": {
-                "default": "{nth}目の目的地に到着しました。目的地は右側です",
-                "upcoming": "まもなく{nth}目の目的地に到着します。目的地は右側です",
+                "default": "{nth}目的地に到着しました。目的地は右側です",
+                "upcoming": "まもなく{nth}目的地に到着します。目的地は右側です",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
                 "named": "{waypoint_name}に到着しました。目的地は右側です"
             },
             "slight right": {
-                "default": "{nth}目の目的地に到着しました。目的地は右側です",
-                "upcoming": "まもなく{nth}目の目的地に到着します。目的地は右側です",
+                "default": "{nth}目的地に到着しました。目的地は右側です",
+                "upcoming": "まもなく{nth}目的地に到着します。目的地は右側です",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
                 "named": "{waypoint_name}に到着しました。目的地は右側です"
             },
             "slight left": {
-                "default": "{nth}目の目的地に到着しました。目的地は左側です",
-                "upcoming": "{nth}目の目的地に到着しました。目的地は左側です",
+                "default": "{nth}目的地に到着しました。目的地は左側です",
+                "upcoming": "{nth}目的地に到着しました。目的地は左側です",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
                 "named": "{waypoint_name}に到着しました。目的地は左側です"
             },
             "straight": {
-                "default": "{nth}目の目的地に到着しました。目的地は前方です",
-                "upcoming": "まもなく{nth}目の目的地に到着します。目的地は前方です",
+                "default": "{nth}目的地に到着しました。目的地は前方です",
+                "upcoming": "まもなく{nth}目的地に到着します。目的地は前方です",
                 "short": "目的地に到着しました",
                 "short-upcoming": "まもなく目的地に到着します",
                 "named": "{waypoint_name}に到着しました。目的地は前方です"
@@ -123,11 +123,11 @@
                 "exit": "{modifier}に曲がり、{way_name}を進む"
             },
             "straight": {
-                "default": "直進する",
-                "name": "{way_name}を直進する",
-                "destination": "{destination}に向けて直進する",
-                "distance": "{distance}直進する",
-                "namedistance": "{way_name}を{distance}直進する"
+                "default": "直進です",
+                "name": "{way_name}を直進です",
+                "destination": "{destination}に向けて直進です",
+                "distance": "{distance}直進です",
+                "namedistance": "{way_name}を{distance}直進です"
             },
             "sharp left": {
                 "default": "大きく左に曲がる",
@@ -154,7 +154,7 @@
                 "junction_name": "{junction_name}を斜め右です"
             },
             "uturn": {
-                "default": "Uターンする",
+                "default": "Uターンです",
                 "name": "Uターンし、{way_name}を進む",
                 "destination": "Uターンし、{destination}へ向かう",
                 "junction_name": "{junction_name}をUターン"
@@ -175,16 +175,16 @@
                 "junction_name": "{junction_name}を{modifier}です"
             },
             "straight": {
-                "default": "直進する",
-                "name": "{way_name}を直進する",
+                "default": "直進です",
+                "name": "{way_name}を直進です",
                 "destination": "直進し、{destination}へ向かう",
                 "junction_name": "{junction_name}を直進です"
             },
             "uturn": {
-                "default": "突き当りでUターンする",
-                "name": "{way_name}の突き当りでUターンする",
+                "default": "突き当りでUターンです",
+                "name": "{way_name}の突き当りでUターンです",
                 "destination": "突き当たりでUターンし、{destination}へ向かう",
-                "junction_name": "{junction_name}の突き当りでUターンする"
+                "junction_name": "{junction_name}でUターンです"
             }
         },
         "fork": {
@@ -214,44 +214,44 @@
                 "destination": "大きく右方向に曲がり、{destination}へ向かう"
             },
             "uturn": {
-                "default": "Uターンする",
+                "default": "Uターンです",
                 "name": "Uターンし、{way_name}を進む",
                 "destination": "Uターンし、{destination}へ向かう"
             }
         },
         "merge": {
             "default": {
-                "default": "{modifier}に合流する",
+                "default": "{modifier}に合流です",
                 "name": "{modifier}に合流し、{way_name}を進む",
                 "destination": "{modifier}に合流し、{destination}へ向かう"
             },
             "straight": {
-                "default": "合流する",
+                "default": "合流です",
                 "name": "合流し、{way_name}を進む",
                 "destination": "合流し、{destination}へ向かう"
             },
             "slight left": {
-                "default": "左に合流する",
+                "default": "左に合流です",
                 "name": "左に合流し、{way_name}を進む",
                 "destination": "左に合流し、{destination}へ向かう"
             },
             "slight right": {
-                "default": "右に合流する",
+                "default": "右に合流です",
                 "name": "右に合流し、{way_name}を進む",
                 "destination": "右に合流し、{destination}へ向かう"
             },
             "sharp left": {
-                "default": "左に合流する",
+                "default": "左に合流です",
                 "name": "左に合流し、{way_name}を進む",
                 "destination": "左に合流し、{destination}へ向かう"
             },
             "sharp right": {
-                "default": "右に合流する",
+                "default": "右に合流です",
                 "name": "右に合流し、{way_name}を進む",
                 "destination": "右に合流し、{destination}へ向かう"
             },
             "uturn": {
-                "default": "Uターンする",
+                "default": "Uターンです",
                 "name": "Uターンし、{way_name}を進む",
                 "destination": "Uターンし、{destination}へ向かう"
             }
@@ -263,9 +263,9 @@
                 "destination": "{destination}に向けて{modifier}に進む"
             },
             "straight": {
-                "default": "直進する",
-                "name": "{way_name}を直進する",
-                "destination": "{destination}へ向けて直進する"
+                "default": "直進です",
+                "name": "{way_name}を直進です",
+                "destination": "{destination}へ向けて直進です"
             },
             "sharp left": {
                 "default": "大きく左に曲がる",
@@ -288,7 +288,7 @@
                 "destination": "{destination}に向けて斜め右方向に進む"
             },
             "uturn": {
-                "default": "Uターンする",
+                "default": "Uターンです",
                 "name": "Uターンし、{way_name}を進む",
                 "destination": "Uターンし、{destination}へ向かう"
             }
@@ -300,7 +300,7 @@
                 "destination": "{destination}へ向けて{modifier}に進む"
             },
             "uturn": {
-                "default": "Uターンする",
+                "default": "Uターンです",
                 "name": "Uターンし、{way_name}を進む",
                 "destination": "Uターンし、{destination}へ向かう"
             }
@@ -308,50 +308,50 @@
         "off ramp": {
             "default": {
                 "default": "出口です",
-                "name": "{way_name}方面、出口です",
-                "destination": "{destination}方面、出口です",
+                "name": "{way_name}方面です",
+                "destination": "{destination}方面です",
                 "exit": "{exit} 出口です",
                 "exit_destination": "{destination} 方面、{exit}　出口です"
             },
             "left": {
-                "default": "左方向、出口です",
-                "name": "左方向、{way_name}方面、出口です",
-                "destination": "左方向、{destination}方面、出口です",
+                "default": "左方向です",
+                "name": "左方向、{way_name}方面です",
+                "destination": "左方向、{destination}方面です",
                 "exit": "左方向、{exit} 出口です",
                 "exit_destination": "左方向、{destination} 方面、{exit}　出口です"
             },
             "right": {
-                "default": "右方向、出口です",
-                "name": "右方向、{way_name}方面、出口です",
-                "destination": "右方向、{destination}方面、出口です",
+                "default": "右方向です",
+                "name": "右方向、{way_name}方面です",
+                "destination": "右方向、{destination}方面です",
                 "exit": "右方向、{exit} 出口です",
                 "exit_destination": "右方向、{destination} 方面、{exit}　出口です"
             },
             "sharp left": {
-                "default": "左方向、出口です",
-                "name": "左方向、{way_name}方面、出口です",
-                "destination": "左方向、{destination}方面、出口です",
+                "default": "左方向です",
+                "name": "左方向、{way_name}方面です",
+                "destination": "左方向、{destination}方面です",
                 "exit": "左方向、{exit} 出口です",
                 "exit_destination": "左方向、{destination} 方面、{exit}　出口です"
             },
             "sharp right": {
-                "default": "右方向、出口です",
-                "name": "右方向、{way_name}方面、出口です",
-                "destination": "右方向、{destination}方面、出口です",
+                "default": "右方向です",
+                "name": "右方向、{way_name}方面です",
+                "destination": "右方向、{destination}方面です",
                 "exit": "右方向、{exit} 出口です",
                 "exit_destination": "右方向、{destination} 方面、{exit}　出口です"
             },
             "slight left": {
-                "default": "左方向、出口です",
-                "name": "左方向、{way_name}方面、出口です",
-                "destination": "左方向、{destination}方面、出口です",
+                "default": "左方向です",
+                "name": "左方向、{way_name}方面です",
+                "destination": "左方向、{destination}方面です",
                 "exit": "左方向、{exit} 出口です",
                 "exit_destination": "左方向、{destination} 方面、{exit}　出口です"
             },
             "slight right": {
-                "default": "右方向、出口です",
-                "name": "右方向、{way_name}方面、出口です",
-                "destination": "右方向、{destination}方面、出口です",
+                "default": "右方向です",
+                "name": "右方向、{way_name}方面です",
+                "destination": "右方向、{destination}方面です",
                 "exit": "右方向、{exit} 出口です",
                 "exit_destination": "右方向、{destination} 方面、{exit}　出口です"
             }
@@ -396,9 +396,9 @@
         "rotary": {
             "default": {
                 "default": {
-                    "default": "ランアバウトへ進む",
-                    "name": "ランアバウトから{way_name}へ進む",
-                    "destination": "ランアバウトをから{destination}へ向かう"
+                    "default": "円形交差点に入る",
+                    "name": "円形交差点に入り、{way_name}に進む",
+                    "destination": "円形交差点に入り、{destination}方面へ向かう"
                 },
                 "name": {
                     "default": "{rotary_name}に入る",
@@ -406,9 +406,9 @@
                     "destination": "{rotary_name}から{destination}へ向かう"
                 },
                 "exit": {
-                    "default": "ランアバウト{exit_number}番出口を出る",
-                    "name": "ランアバウト{exit_number}番出口を出て{way_name}を進む",
-                    "destination": "ランアバウト{exit_number}番出口を出て{destination}へ向かう"
+                    "default": "円形交差点に入り、{exit_number}番出口を出る",
+                    "name": "円形交差点に入り、{exit_number}番出口を出て{way_name}を進む",
+                    "destination": "円形交差点に入り、{exit_number}番出口を出て{destination}へ向かう"
                 },
                 "name_exit": {
                     "default": "{rotary_name}に入り、{exit_number}番出口を出る",
@@ -420,14 +420,14 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "ランアバウト{exit_number}番出口を出る",
-                    "name": "ランアバウト{exit_number}番出口を出て{way_name}を進む",
-                    "destination": "ランアバウト{exit_number}番出口を出て{destination}へ向かう"
+                    "default": "環状交差点に入り、{exit_number}番出口を出る",
+                    "name": "環状交差点に入り、{exit_number}番出口を出て{way_name}を進む",
+                    "destination": "環状交差点に入り、{exit_number}番出口を出て{destination}へ向かう"
                 },
                 "default": {
-                    "default": "ランアバウトへ進む",
-                    "name": "ランアバウトを出て{way_name}を進む",
-                    "destination": "ランアバウトを出て{destination}へ向かう"
+                    "default": "環状交差点に入る",
+                    "name": "環状交差点に入り、{way_name}を進む",
+                    "destination": "環状交差点に入り、{destination}へ向かう"
                 }
             }
         },
@@ -438,33 +438,33 @@
                 "destination": "{modifier}に向かい、その後{destination}へ向かう"
             },
             "left": {
-                "default": "左折する",
+                "default": "左折です",
                 "name": "左折して{way_name}を進む",
                 "destination": "左折して{destination}へ向かう"
             },
             "right": {
-                "default": "右折する",
+                "default": "右折です",
                 "name": "右折して{way_name}を進む",
                 "destination": "右折して{destination}へ向かう"
             },
             "straight": {
-                "default": "直進する",
-                "name": "{way_name}を直進する",
-                "destination": "{destination}へ直進する"
+                "default": "直進です",
+                "name": "{way_name}を直進です",
+                "destination": "{destination}へ直進です"
             }
         },
         "exit roundabout": {
             "default": {
-                "default": "ランアバウトを出る",
-                "name": "ランアバウトを出て{way_name}を進む",
-                "destination": "ランアバウトを出て{destination}へ向かう"
+                "default": "環状交差点を出る",
+                "name": "環状交差点を出て{way_name}を進む",
+                "destination": "環状交差点を出て{destination}へ向かう"
             }
         },
         "exit rotary": {
             "default": {
-                "default": "ランアバウトを出る",
-                "name": "ランアバウトを出て{way_name}を進む",
-                "destination": "ランアバウトを出て{destination}へ向かう"
+                "default": "円形交差点を出る",
+                "name": "円形交差点を出て{way_name}を進む",
+                "destination": "円形交差点を出て{destination}へ向かう"
             }
         },
         "turn": {
@@ -475,27 +475,27 @@
                 "junction_name": "{junction_name}を{modifier}です"
             },
             "left": {
-                "default": "左折する",
+                "default": "左折です",
                 "name": "左折して{way_name}を進む",
                 "destination": "左折して{destination}へ向かう",
                 "junction_name": "{junction_name}を左折です"
             },
             "right": {
-                "default": "右折する",
+                "default": "右折です",
                 "name": "右折して{way_name}を進む",
                 "destination": "右折して{destination}へ向かう",
                 "junction_name": "{junction_name}を右折です"
             },
             "straight": {
-                "default": "直進する",
-                "name": "{way_name}を直進する",
-                "destination": "{destination}に向けて直進する",
-                "junction_name": "{junction_name}を直進です"
+                "default": "直進です",
+                "name": "{way_name}を直進です",
+                "destination": "{destination}に向けて直進です",
+                "junction_name": "{junction_name}で直進です"
             }
         },
         "use lane": {
             "no_lanes": {
-                "default": "直進する"
+                "default": "直進です"
             },
             "default": {
                 "default": "{lane_instruction}"

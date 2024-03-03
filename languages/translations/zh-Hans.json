@@ -184,7 +184,7 @@
                 "default": "在道路尽头调头",
                 "name": "在道路尽头调头驶入{way_name}",
                 "destination": "在道路尽头调头，前往{destination}",
-                "junction_name": "Make a U-turn at {junction_name} at the end of the road"
+                "junction_name": "Make a U-turn at {junction_name}"
             }
         },
         "fork": {
@@ -407,8 +407,8 @@
                 },
                 "exit": {
                     "default": "进入环岛后从{exit_number}出口驶出",
-                    "name": "进入环岛后从{exit_number}出口驶出，上{way_name}",
-                    "destination": "进入环岛后从{exit_number}出口驶出，前往{destination}"
+                    "name": "进入环岛后从{exit_number}出口驶出前往{way_name}",
+                    "destination": "进入环岛后从{exit_number}出口驶出前往{destination}"
                 },
                 "name_exit": {
                     "default": "进入{rotary_name}环岛后从{exit_number}出口驶出",
@@ -421,8 +421,8 @@
             "default": {
                 "exit": {
                     "default": "进入环岛后从{exit_number}出口驶出",
-                    "name": "进入环岛后从{exit_number}出口驶出，上{way_name}",
-                    "destination": "进入环岛后从{exit_number}出口驶出，前往{destination}"
+                    "name": "进入环岛后从{exit_number}出口驶出前往{way_name}",
+                    "destination": "进入环岛后从{exit_number}出口驶出前往{destination}"
                 },
                 "default": {
                     "default": "进入环岛",

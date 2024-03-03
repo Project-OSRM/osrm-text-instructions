@@ -11,6 +11,7 @@
     },
     "instructions": {
         "ar": "انعطف يميناً قليلاً نحو Destination 1",
+        "ca": "Mantingueu-vos a la dreta cap a Destination 1",
         "da": "Hold til højre mod Destination 1",
         "de": "Rechts halten an der Gabelung Richtung Destination 1",
         "en": "Keep right towards Destination 1",
@@ -26,7 +27,7 @@
         "ja": "Destination 1へ向けて右車線を進む",
         "ko": "우회전 해서 Destination 1까지 가세요.",
         "my": "Destination 1ဆီသို့ညာဘက်ကို ဆက်သွားပါ",
-        "nl": "Houd rechts aan, richting Destination 1",
+        "nl": "Houd rechts aan richting Destination 1",
         "no": "Hold til høyre mot Destination 1",
         "pl": "Na rozwidleniu trzymaj się prawej strony w kierunku Destination 1",
         "pt-BR": "Permaneça à direita em direção à Destination 1",

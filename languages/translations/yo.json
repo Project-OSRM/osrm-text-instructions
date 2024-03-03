@@ -5,10 +5,10 @@
     "v5": {
         "constants": {
             "ordinalize": {
-                "1": "1st",
-                "2": "2nd",
+                "1": "Ọgọta 1",
+                "2": "Keji",
                 "3": "3rd",
-                "4": "4th",
+                "4": "Kẹrin",
                 "5": "5th",
                 "6": "6th",
                 "7": "7th",
@@ -117,10 +117,10 @@
         },
         "continue": {
             "default": {
-                "default": "Tan-an {modifier}",
-                "name": "Tan-an {modifier} lati duro si {way_name}",
-                "destination": "Tan-an {modifier} si ọna {destination}",
-                "exit": "Tan-an {modifier} pẹlẹpẹlẹ {way_name}"
+                "default": "Yipada {modifier}",
+                "name": "Yipada {modifier} lati duro si {way_name}",
+                "destination": "Yipada {modifier} si ọna {destination}",
+                "exit": "Yipada {modifier} pẹlẹpẹlẹ {way_name}"
             },
             "straight": {
                 "default": "Tẹsiwaju ni gígùn",
@@ -154,9 +154,9 @@
                 "junction_name": "Ṣe diẹ diẹ si ọtun ni {junction_name}"
             },
             "uturn": {
-                "default": "Ṣe ayipada U",
-                "name": "Ṣe ayipada U ati tẹsiwaju {way_name}",
-                "destination": "Ṣe ọna U-ọna si ọna {destination}",
+                "default": "Ṣe U-Tan",
+                "name": "Ṣe U-Tan ki o tẹsiwaju {way_name}",
+                "destination": "Ṣe U-Tan si ọna{destination}",
                 "junction_name": "Ṣe ayipada U ni {junction_name}"
             }
         },
@@ -169,9 +169,9 @@
         },
         "end of road": {
             "default": {
-                "default": "Tan-an {modifier}",
-                "name": "Tan-an {modifier} pẹlẹpẹlẹ {way_name}",
-                "destination": "Tan-an {modifier} si ọna {destination}",
+                "default": "Yipada {modifier}",
+                "name": "Yipada {modifier} pẹlẹpẹlẹ {way_name}",
+                "destination": "Yipada {modifier} si ọna {destination}",
                 "junction_name": "Tan-an {modifier} ni {junction_name}"
             },
             "straight": {
@@ -181,9 +181,9 @@
                 "junction_name": "Tẹsiwaju ni gígùn ni {junction_name}"
             },
             "uturn": {
-                "default": "Ṣe a-ẹ-yipada ni opin ọna",
+                "default": "Ṣe U-Tan ni opin opopona",
                 "name": "Ṣe U-tan pẹlẹpẹlẹ {way_name} ni opin ọna",
-                "destination": "Ṣe ọna U-ọna si ọna {destination} ni opin ọna",
+                "destination": "Ṣe U-Tan si ọna{destination} ni ipari ni opopona",
                 "junction_name": "Ṣe ayipada U ni {junction_name}"
             }
         },
@@ -214,9 +214,9 @@
                 "destination": "Mu ọna didasilẹ taara si ọna {destination}"
             },
             "uturn": {
-                "default": "Ṣe ayipada U",
+                "default": "Ṣe U-Tan",
                 "name": "Ṣe U-tan pẹlẹpẹlẹ {way_name}",
-                "destination": "Ṣe ọna U-ọna si ọna {destination}"
+                "destination": "Ṣe U-Tan si ọna {destination}"
             }
         },
         "merge": {
@@ -251,7 +251,7 @@
                 "destination": "Darapọ ọtun si ọna {destination}"
             },
             "uturn": {
-                "default": "Ṣe ayipada U",
+                "default": "Ṣe U-Tan",
                 "name": "Ṣe U-tan pẹlẹpẹlẹ {way_name}",
                 "destination": "Ṣe ọna U-ọna si ọna {destination}"
             }
@@ -290,7 +290,7 @@
             "uturn": {
                 "default": "Ṣe ayipada U",
                 "name": "Ṣe U-tan pẹlẹpẹlẹ {way_name}",
-                "destination": "Ṣe ọna U-ọna si ọna {destination}"
+                "destination": "Ṣe U-Tan si ọna {destination}"
             }
         },
         "notification": {
@@ -300,9 +300,9 @@
                 "destination": "Tesiwaju {modifier} si ọna {destination}"
             },
             "uturn": {
-                "default": "Ṣe ayipada U",
+                "default": "Ṣe U-Tan",
                 "name": "Ṣe U-tan pẹlẹpẹlẹ {way_name}",
-                "destination": "Ṣe ọna U-ọna si ọna {destination}"
+                "destination": "Ṣe U-Tan si ọna {destination}"
             }
         },
         "off ramp": {
@@ -396,9 +396,9 @@
         "rotary": {
             "default": {
                 "default": {
-                    "default": "Tẹ ẹkun ijabọ",
-                    "name": "Tẹ atẹgun iṣowo ati jade ni pẹlẹpẹlẹ {way_name}",
-                    "destination": "Tẹ ọna iṣọwo ati jade lọ si ọna {destination}"
+                    "default": "Tẹ iyipo naa",
+                    "name": "Tẹ iyipo ki o jade ni pẹtẹlẹ{way_name}",
+                    "destination": "Tẹ iyipo ki o jade ni ita{destination}"
                 },
                 "name": {
                     "default": "Tẹ {rotary_name}",
@@ -406,9 +406,9 @@
                     "destination": "Tẹ {rotary_name} ati jade lọ si ọna {destination}"
                 },
                 "exit": {
-                    "default": "Tẹ ẹkun ijabọ ati ki o ya {exit_number} jade",
-                    "name": "Tẹ ẹkun ijabọ ati ki o ya {exit_number} jade pẹlẹpẹlẹ {way_name}",
-                    "destination": "Tẹ ẹkun ijabọ ati ki o ya {exit_number} jade si ọna {destination}"
+                    "default": "Tẹ iyipo ki o mu awọn{exit_number}Jade",
+                    "name": "Tẹ iyipo ki o mu awọn{exit_number}jade ita{way_name}",
+                    "destination": "Tẹ iyipo ki o mu awọn{exit_number}jade si ọna{destination}"
                 },
                 "name_exit": {
                     "default": "Tẹ {rotary_name} ki o si ya {exit_number} jade",
@@ -420,14 +420,14 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "Tẹ ẹkun ijabọ ati ki o ya {exit_number} jade",
-                    "name": "Tẹ ẹkun ijabọ ati ki o ya {exit_number} jade pẹlẹpẹlẹ {way_name}",
-                    "destination": "Tẹ ẹkun ijabọ ati ki o ya {exit_number} jade si ọna {destination}"
+                    "default": "Tẹ iyipo ki o mu awọn{exit_number}Jade",
+                    "name": "Tẹ iyipo ki o mu awọn{exit_number}jade ita{way_name}",
+                    "destination": "Tẹ iyipo ki o mu awọn{exit_number}jade si ọna{destination}"
                 },
                 "default": {
-                    "default": "Tẹ ẹkun ijabọ",
-                    "name": "Tẹ atẹgun iṣowo ati jade ni pẹlẹpẹlẹ {way_name}",
-                    "destination": "Tẹ ọna iṣọwo ati jade lọ si ọna {destination}"
+                    "default": "Tẹ iyipo naa",
+                    "name": "Tẹ iyipo ki o jade ni pẹtẹlẹ{way_name}",
+                    "destination": "Tẹ iyipo ki o jade ni ita{destination}"
                 }
             }
         },
@@ -439,13 +439,13 @@
             },
             "left": {
                 "default": "Ya si apa osi",
-                "name": "Tan apa osi pẹlẹpẹlẹ {way_name}",
-                "destination": "Tan apa osi si ọna {destination}"
+                "name": "Ya si apa osi {way_name}",
+                "destination": "Yipada si apa osi{destination}"
             },
             "right": {
                 "default": "Ya sowo otun",
-                "name": "Tan ọtun si {way_name}",
-                "destination": "Tan-ọtun si ọna {destination}"
+                "name": "Ya si apa ọtun {way_name}",
+                "destination": "Ya si ọna ọtun {destination}"
             },
             "straight": {
                 "default": "Tẹsiwaju ni gígùn",
@@ -455,16 +455,16 @@
         },
         "exit roundabout": {
             "default": {
-                "default": "Jade ni ọna iṣowo",
-                "name": "Jade ni ọna iṣakoso pẹlẹpẹlẹ {way_name}",
-                "destination": "Jade ọna opopona si ọna {destination}"
+                "default": "Jade lo si ọna iyipo",
+                "name": "Jade lo si ọna yika{way_name}",
+                "destination": "Jade ọna iyipo si ọna{destination}"
             }
         },
         "exit rotary": {
             "default": {
-                "default": "Jade ni ọna iṣowo",
-                "name": "Jade ni ọna iṣakoso pẹlẹpẹlẹ {way_name}",
-                "destination": "Jade ọna opopona si ọna {destination}"
+                "default": "Jade lo si ọna iyipo",
+                "name": "Jade lo si ọna yika{way_name}",
+                "destination": "Jade ọna iyipo si ọna{destination}"
             }
         },
         "turn": {
@@ -476,14 +476,14 @@
             },
             "left": {
                 "default": "Ya si apa osi",
-                "name": "Tan apa osi pẹlẹpẹlẹ {way_name}",
-                "destination": "Tan apa osi si ọna {destination}",
+                "name": "Ya si apa osi {way_name}",
+                "destination": "Yipada si apa osi{destination}",
                 "junction_name": "Ya si apa osi ni {junction_name}"
             },
             "right": {
                 "default": "Ya sowo otun",
-                "name": "Tan ọtun si {way_name}",
-                "destination": "Tan-ọtun si ọna {destination}",
+                "name": "Ya si apa ọtun{way_name}",
+                "destination": "Ya si ọna ọtun{destination}",
                 "junction_name": "Ya sowo otun ni {junction_name}"
             },
             "straight": {

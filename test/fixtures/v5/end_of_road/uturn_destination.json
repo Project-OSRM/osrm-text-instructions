@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "انعطف دوراناً عكسياً نحو Destination 1 عند نهاية الطريق",
+        "ca": "Feu un canvi de sentit cap a Destination 1 al final del vial",
         "da": "Foretag en U-vending mod Destination 1 for enden af vejen",
         "de": "180°-Wendung Richtung Destination 1 am Ende der Straße",
         "en": "Make a U-turn towards Destination 1 at the end of the road",
@@ -19,13 +20,13 @@
         "fi": "Tien päässä tee U-käännös suuntana Destination 1",
         "fr": "Faire demi-tour à la fin de la route en direction de Destination 1",
         "he": "פנה פניית פרסה לכיוון Destination 1 בסוף הדרך",
-        "hu": "Forduljon vissza a Destination 1 irányában az út végén",
+        "hu": "Forduljon vissza Destination 1 irányában az út végén",
         "id": "Putar balik menuju Destination 1 di akhir jalan",
         "it": "Fai un’inversione a U verso Destination 1 alla fine della strada",
         "ja": "突き当たりでUターンし、Destination 1へ向かう",
         "ko": "도로 끝까지 가서 유턴해서 Destination 1 까지 가세요.",
         "my": "လမ်းအဆုံးတွင်Destination 1ဆီသို့ ဂကွေ့ချိုးကွေ့ပါ",
-        "nl": "Keer om richting Destination 1",
+        "nl": "Keer om richting Destination 1 aan het einde van de weg",
         "no": "Ta en U-sving mot Destination 1 i enden av veien",
         "pl": "Zawróć na końcu ulicy w kierunku Destination 1",
         "pt-BR": "Faça o retorno sentido Destination 1 no fim da rua",
@@ -33,11 +34,11 @@
         "ro": "Întoarceți-vă spre Destination 1 la sfârșitul drumului",
         "ru": "В конце дороги развернитесь в направлении Destination 1",
         "sl": "Na koncu ceste polkrožno obrnite v smeri proti Destination 1",
-        "sv": "Gör en U-sväng mot Destination 1 i slutet av vägen",
+        "sv": "Gör en U-sväng mot Destination 1 där vägen slutar",
         "tr": "Yolun sonunda Destination 1 istikametinde bir U-dönüşü yap",
         "uk": "Здійсніть розворот у напрямку Destination 1 в кінці дороги",
         "vi": "Quẹo ngược về Destination 1 tại cuối đường",
-        "yo": "Ṣe ọna U-ọna si ọna Destination 1 ni opin ọna",
+        "yo": "Ṣe U-Tan si ọnaDestination 1 ni ipari ni opopona",
         "zh-Hans": "在道路尽头调头，前往Destination 1"
     }
 }

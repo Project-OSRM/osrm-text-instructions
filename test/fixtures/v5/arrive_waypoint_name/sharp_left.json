@@ -8,6 +8,7 @@
     },
     "instructions": {
         "ar": "لقد وصلت إلى Somewhere، على يسارك",
+        "ca": "Heu arribat a Somewhere, a l’esquerra",
         "da": "Du er ankommet til Somewhere, som befinder sig til venstre",
         "de": "Sie haben Ihr Somewhere, es befindet sich links",
         "en": "You have arrived at Somewhere, on the left",
@@ -23,7 +24,7 @@
         "ja": "Somewhereに到着しました。目的地は左側です",
         "ko": "좌측에 경유지 Somewhere에 도착하였습니다.",
         "my": "သင် သည် Somewhereမှာဘယ်ဘက်ကွေ့ကာ ရောက်ရှိပြီ",
-        "nl": "U bent gearriveerd bij Somewhere, de bestemming is aan de linkerkant",
+        "nl": "U bent gearriveerd bij Somewhere, dit bevindt zich aan de linkerkant",
         "no": "Du har ankommet Somewhere, på din venstre side",
         "pl": "Dojechano do Somewhere, po lewej stronie",
         "pt-BR": "Você chegou Somewhere, à esquerda",

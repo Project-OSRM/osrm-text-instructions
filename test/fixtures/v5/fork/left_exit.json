@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "الزم يسار على Way Name",
+        "ca": "Mantingueu-vos esquerra per Way Name",
         "da": "Hold til venstre på Way Name",
         "de": "Links halten an der Gabelung auf Way Name",
         "en": "Keep left onto Way Name",
@@ -25,7 +26,7 @@
         "ja": "Way Nameの左車線を進む",
         "ko": "좌회전하고 Way Name로 가세요.",
         "my": "Way Name​ပေါ်သို့ ဘယ်ဘက်ကိုဆက်သွားပါ",
-        "nl": "Houd links aan, tot Way Name",
+        "nl": "Houd links aan tot Way Name",
         "no": "Hold til venstre inn på Way Name",
         "pl": "Na rozwidleniu trzymaj się lewo na Way Name",
         "pt-BR": "Permaneça à esquerda para Way Name",

@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "اتبع المنحدر على Way Name",
+        "ca": "Pren la rampa a Way Name",
         "da": "Tag afkørslen ad Way Name",
         "de": "Ausfahrt nehmen auf Way Name",
         "en": "Take the ramp onto Way Name",
@@ -22,7 +23,7 @@
         "hu": "Hajtson az átkötő útszakaszra a Way Name felé",
         "id": "Ambil jalan melandai ke Way Name",
         "it": "Prendi la rampa in Way Name",
-        "ja": "Way Name方面、出口です",
+        "ja": "Way Name方面です",
         "ko": "램프로 진출해서 Way Name로 가세요.",
         "my": "Way Nameပေါ်သို့ချဉ်းကပ်လမ်းကိုယူပါ",
         "nl": "Neem de afrit naar Way Name",

@@ -11,6 +11,7 @@
     },
     "instructions": {
         "ar": "اتبع المنحدر باتجاه Destination 1",
+        "ca": "Pren la rampa cap a Destination 1",
         "da": "Tag afkørslen mod Destination 1",
         "de": "Auffahrt nehmen Richtung Destination 1",
         "en": "Take the ramp towards Destination 1",
@@ -26,7 +27,7 @@
         "ja": "Destination 1方面、入口です",
         "ko": "램프로 진입해서 Destination 1까지 가세요.",
         "my": "Destination 1ဆီသို့ ချဉ်းကပ်လမ်းကိုယူပါ",
-        "nl": "Neem de oprit richting Destination 1",
+        "nl": "Neem de afrit richting Destination 1",
         "no": "Ta avkjørselen mot Destination 1",
         "pl": "Weź zjazd w kierunku Destination 1",
         "pt-BR": "Pegue a rampa sentido Destination 1",

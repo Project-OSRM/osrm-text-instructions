@@ -396,9 +396,9 @@
         "rotary": {
             "default": {
                 "default": {
-                    "default": "Incorpórate en la rotonda",
-                    "name": "En la rotonda sal por {way_name}",
-                    "destination": "En la rotonda sal hacia {destination}"
+                    "default": "Entra en la rotonda",
+                    "name": "Entra en la rotonda y sal por {way_name}",
+                    "destination": "Entra en la rotonda y sal hacia {destination}"
                 },
                 "name": {
                     "default": "En {rotary_name}",
@@ -406,9 +406,9 @@
                     "destination": "En {rotary_name} sal hacia {destination}"
                 },
                 "exit": {
-                    "default": "En la rotonda toma la {exit_number} salida",
-                    "name": "En la rotonda toma la {exit_number} salida por {way_name}",
-                    "destination": "En la rotonda toma la {exit_number} salida hacia {destination}"
+                    "default": "Entra en la rotonda y toma la {exit_number} salida",
+                    "name": "Entra en la rotonda y toma la {exit_number} salida por {way_name}",
+                    "destination": "Entra en la rotonda y toma la {exit_number} salida hacia {destination}"
                 },
                 "name_exit": {
                     "default": "En {rotary_name} toma la {exit_number} salida",
@@ -420,14 +420,14 @@
         "roundabout": {
             "default": {
                 "exit": {
-                    "default": "En la rotonda toma la {exit_number} salida",
-                    "name": "En la rotonda toma la {exit_number} salida por {way_name}",
-                    "destination": "En la rotonda toma la {exit_number} salida hacia {destination}"
+                    "default": "Entra en la rotonda y toma la {exit_number} salida",
+                    "name": "Entra en la rotonda y toma la {exit_number} salida por {way_name}",
+                    "destination": "Entra en la rotonda y toma la {exit_number} salida hacia {destination}"
                 },
                 "default": {
-                    "default": "Incorpórate en la rotonda",
-                    "name": "Incorpórate en la rotonda y sal en {way_name}",
-                    "destination": "Incorpórate en la rotonda y sal hacia {destination}"
+                    "default": "Entra en la rotonda",
+                    "name": "Entra en la rotonda y sal por {way_name}",
+                    "destination": "Entra en la rotonda y sal hacia {destination}"
                 }
             }
         },

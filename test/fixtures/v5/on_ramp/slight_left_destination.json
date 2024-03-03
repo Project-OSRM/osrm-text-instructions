@@ -10,6 +10,7 @@
     },
     "instructions": {
         "ar": "اسلك المدخل يسارا قليلا نحو Destination 1",
+        "ca": "Pren la rampa a l’esquerra cap a Destination 1",
         "da": "Tag afkørslen til venstre mod Destination 1",
         "de": "Auffahrt links nehmen Richtung Destination 1",
         "en": "Take the ramp on the left towards Destination 1",
@@ -25,7 +26,7 @@
         "ja": "左方向、Destination 1方面、入口です",
         "ko": "왼쪽의 램프로 진입해서 Destination 1까지 가세요.",
         "my": "Destination 1ဆီသို့ ဘယ်ဘက်ပေါ်တွင်ချဉ်းကပ်လမ်းကိုယူပါ",
-        "nl": "Neem de oprit links richting Destination 1",
+        "nl": "Neem de afrit aan de linkerkant richting Destination 1",
         "no": "Ta avkjørselen på venstre side mot Destination 1",
         "pl": "Weź zjazd po lewej w kierunku Destination 1",
         "pt-BR": "Pegue a rampa à esquerda sentido Destination 1",

@@ -9,6 +9,7 @@
     },
     "instructions": {
         "ar": "انعطف يمينا لتبقى على Cool highway (Ref1)",
+        "ca": "Giri a dreta per a mantenir-se a Cool highway (Ref1)",
         "da": "Drej til højre videre ad Cool highway (Ref1)",
         "de": "Rechts weiterfahren auf Cool highway (Ref1)",
         "en": "Turn right to stay on Cool highway (Ref1)",
@@ -24,7 +25,7 @@
         "ja": "右に曲がり、Cool highway(Ref1)を進む",
         "ko": "우회전 회전하고 Cool highway (Ref1)로 직진해 주세요.",
         "my": "Cool highway( Ref1)​ပေါ်တွင်နေရန် ညာဘက်ကိုလှည့်ပါ",
-        "nl": "Sla rechts om op Cool highway (Ref1) te blijven",
+        "nl": "Ga rechts om op Cool highway (Ref1) te blijven",
         "no": "Ta til høyre for å bli værende på Cool highway (Ref1)",
         "pl": "Skręć w prawo, aby pozostać na Cool highway (Ref1)",
         "pt-BR": "Vire à direita para manter-se na Cool highway (Ref1)",
@@ -36,7 +37,7 @@
         "tr": "Cool highway (Ref1) üzerinde kalmak için sağ yöne dön",
         "uk": "Повернітьправоруч залишаючись на Cool highway (Ref1)",
         "vi": "Quẹo phải để chạy tiếp trên Cool highway (Ref1)",
-        "yo": "Tan-an ọtun lati duro si Cool highway (Ref1)",
+        "yo": "Yipada ọtun lati duro si Cool highway (Ref1)",
         "zh-Hans": "在Cool highway（Ref1）上继续向右行驶"
     },
     "options": {

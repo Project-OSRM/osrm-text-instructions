@@ -8,6 +8,7 @@
     },
     "instructions": {
         "ar": "توجّه غرباً",
+        "ca": "Dirigiu-vos oest",
         "da": "Kør mod vest",
         "de": "Fahren Sie Richtung Westen",
         "en": "Head west",
@@ -23,7 +24,7 @@
         "ja": "西に進む",
         "ko": "서쪽로 가세요",
         "my": "အနောက်အရပ်သို့ ဦးတည်ပါ",
-        "nl": "Vertrek in westelijke richting",
+        "nl": "Ga richting het westen",
         "no": "Kjør i retning vest",
         "pl": "Kieruj się zachód",
         "pt-BR": "Siga oeste",
