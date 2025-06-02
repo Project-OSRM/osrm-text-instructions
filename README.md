@@ -1,4 +1,4 @@
-[<img src="https://travis-ci.org/Project-OSRM/osrm-text-instructions.svg?branch=master" align="right" alt="Build status">](https://travis-ci.org/Project-OSRM/osrm-text-instructions)
+[<img src="https://github.com/Project-OSRM/osrm-text-instructions/workflows/CI/badge.svg" align="right" alt="Build status">](https://github.com/Project-OSRM/osrm-text-instructions/actions)
 
 # OSRM Text Instructions
 
@@ -67,4 +67,4 @@ and returns a string.
 
 We welcome feedback, code contributions, and translations! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-[![Transifex](https://www.transifex.com/projects/p/osrm-text-instructions/resource/enjson/chart/image_png)](https://www.transifex.com/project-osrm/osrm-text-instructions/)
+[Help translate OSRM Text Instructions](https://www.transifex.com/project-osrm/osrm-text-instructions/)
