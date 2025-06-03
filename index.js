@@ -106,19 +106,60 @@ module.exports = function(version) {
 
             return wayName;
         },
+        scaleOf: function(number) {
+            return Math.pow(10, parseInt(Math.log10(number)))
+        },
+        roundToIntPrecision: function(distance, precision) {
+            var value = Math.round(precision)*parseInt(parseFloat(distance)/parseFloat(precision))
+            return value
+        },
+        getInstruction: function(step, instructionObject, wayName, options) {
+            // Decide which instruction string to use
+            // In order of precedence:
+            //   - exit + destination signage
+            //   - destination signage
+            //   - exit signage
+            //   - junction name
+            //   - road name
+            //   - waypoint name (for arrive maneuver)
+            //   - default
+            if (step.destinations && step.exits && instructionObject.exit_destination)
+                return instructionObject.exit_destination;
 
+            if (step.destinations && instructionObject.destination)
+                return  instructionObject.destination;
+
+            if (step.exits && instructionObject.exit)
+                return instructionObject.exit;
+
+            if (step.junction_name && instructionObject.junction_name)
+                return instructionObject.junction_name;
+
+            if (wayName && instructionObject.name)
+                return instructionObject.name;
+
+            if (options.waypointName && instructionObject.named)
+                return instructionObject.named;
+
+            return  instructionObject.default;
+        },
         /**
          * Formulate a localized text instruction from a step.
          *
-         * @param  {string} language           Language code.
-         * @param  {object} step               Step including maneuver property.
-         * @param  {object} opts               Additional options.
-         * @param  {string} opts.legIndex      Index of leg in the route.
-         * @param  {string} opts.legCount      Total number of legs in the route.
-         * @param  {array}  opts.classes       List of road classes.
-         * @param  {string} opts.waypointName  Name of waypoint for arrival instruction.
+         * @param  {string} language                                Language code.
+         * @param  {object} step                                    Step including maneuver property.
+         * @param  {object} opts                                    Additional options.
+         * @param  {string} opts.legIndex                           Index of leg in the route.
+         * @param  {string} opts.legCount                           Total number of legs in the route.
+         * @param  {array}  opts.classes                            List of road classes.
+         * @param  {string} opts.waypointName                       Name of waypoint for arrival instruction.
+         * @param  {bool}   opts.verboseNavigation                  Enable verbose navigation
+         * @param  {double} opts.announcementsDistancesBelow500m    Distances of announcements below 500m    
+         * @param  {double} opts.announcementsWayMinimumDistance    Minimum distance to include way name into instruction
+         * @param  {double} opts.distanceLastAnnouncement           Distance for last announcement of step
          *
-         * @return {string} Localized text instruction.
+         * @return {string}                                         Localized text instruction. 
+         * @return {void}                                           If verbose navigation is enabled  
          */
         compile: function(language, step, opts) {
             if (!language) throw new Error('No language code provided');
@@ -189,31 +230,7 @@ module.exports = function(version) {
             // Decide way_name with special handling for name and ref
             var wayName = this.getWayName(language, step, options);
 
-            // Decide which instruction string to use
-            // In order of precedence:
-            //   - exit + destination signage
-            //   - destination signage
-            //   - exit signage
-            //   - junction name
-            //   - road name
-            //   - waypoint name (for arrive maneuver)
-            //   - default
-            var instruction;
-            if (step.destinations && step.exits && instructionObject.exit_destination) {
-                instruction = instructionObject.exit_destination;
-            } else if (step.destinations && instructionObject.destination) {
-                instruction = instructionObject.destination;
-            } else if (step.exits && instructionObject.exit) {
-                instruction = instructionObject.exit;
-            } else if (step.junction_name && instructionObject.junction_name) {
-                instruction = instructionObject.junction_name;
-            } else if (wayName && instructionObject.name) {
-                instruction = instructionObject.name;
-            } else if (options.waypointName && instructionObject.named) {
-                instruction = instructionObject.named;
-            } else {
-                instruction = instructionObject.default;
-            }
+            var instruction = this.getInstruction(step, instructionObject, wayName, options);
 
             var destinations = step.destinations && step.destinations.split(': ');
             var destinationRef = destinations && destinations[0].split(',')[0];
@@ -242,8 +259,103 @@ module.exports = function(version) {
                 'waypoint_name': options.waypointName,
                 'junction_name': (step.junction_name || '').split(';')[0]
             };
+            
+            var instruction_one = this.tokenize(language, instruction, replaceTokens, options);
 
-            return this.tokenize(language, instruction, replaceTokens, options);
+            if (!options.verboseNavigation)
+                return instruction_one
+            
+            var announcements = []
+            
+            var announcementsWayMinimumDistance = options.announcementsWayMinimumDistance ||250.0
+            var announcementsDistanceBelow500m = options.announcementsDistancesBelow500m || 150.0
+            
+            var announcementsDistance;
+            
+            var phrase = instructions[language][version].phrase['one in distance'] ||
+            instructions.en[version].phrase['one in distance'];
+            
+            // Get the rounding of distance based on the scale of step.distance
+            // Ex.: 3606.5 -> 3000
+            var distance = this.roundToIntPrecision(step.distance, this.scaleOf(step.distance))
+
+            var distanceLastAnnouncement = options.distanceLastAnnouncement || 30.0 
+            if (distanceLastAnnouncement > 100.0)
+                throw new Error('Reduce last announcement distance');
+
+            if (distanceLastAnnouncement > step.distance)
+                distanceLastAnnouncement = step.distance
+
+            do{
+
+                announcementsDistance = announcementsDistanceBelow500m
+                if (distance >= 500)
+                    // If the distance is longer than 500 meters the announcementsDistance is the half of rounding distance to the scale
+                    // Ex.
+                    // d: distance, s: scaleOf(distance), rD: roundToIntPrecision(d, tPd), aD: announcementsDistance
+                    // IN
+                    // d: 3000
+                    // s: 1000
+                    // OUT
+                    // rD: 3000
+                    // aD: 1500
+                    announcementsDistance = this.roundToIntPrecision(distance, this.scaleOf(distance))/2 
+
+                replaceTokens.instruction_one = instruction_one
+
+                if(distance > announcementsWayMinimumDistance) {
+
+                    var noWayNameInstruction = this.getInstruction(step, instructionObject, null, options)
+                    replaceTokens.instruction_one = this.tokenize(language, noWayNameInstruction, replaceTokens, options);
+                }
+
+                // Rounded distance to integer multiple of announcementsDistance  
+                var thatDistance = this.roundToIntPrecision(distance, announcementsDistance)
+
+                var announcement = ""
+
+                if (thatDistance > distanceLastAnnouncement) {
+                    
+                    replaceTokens.distance = thatDistance
+                    announcement = this.tokenize(language, phrase, replaceTokens, options);
+                    distanceAlongGeometry = thatDistance                
+                } else {
+                    announcement = instruction_one
+                    distanceAlongGeometry = distanceLastAnnouncement
+                }
+
+                announcements.push(
+                    {
+                        announcement: announcement,
+                        ssmlAnnouncement: `<speak>${announcement}</speak>`,
+                        distanceAlongGeometry: distanceAlongGeometry
+                    }
+                )
+
+                distance -= announcementsDistance;
+                
+            } while(distance >= 0);
+
+            step.bannerInstructions = [
+                {
+                    primary: {
+                        type: type,
+                        modifier: modifier,
+                        text: wayName,
+                        components: [
+                            {
+                                text: wayName,
+                                type: "text"
+                            }
+                        ]
+                    },
+                    distanceAlongGeometry: step.distance
+                }
+            ]
+            step.voiceInstructions = announcements;
+
+            return;
+
         },
         grammarize: function(language, name, grammar) {
             if (!language) throw new Error('No language code provided');

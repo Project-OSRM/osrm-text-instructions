@@ -48,6 +48,10 @@ key | type | description
 `legIndex` | integer | Zero-based index of the leg containing the step; together with `legCount`, this option determines which waypoint the user has arrived at
 `formatToken` | function | Function that formats the given token value after grammaticalization and capitalization but before the value is inserted into the instruction string; useful for wrapping tokens in markup
 `waypointName` | string | Optional custom name for the leg's destination, replaces `"your {nth} destination"`
+`verboseNavigation` | boolean |Allows you to add voice and banner instructions (default: false)
+`announcementsDistancesBelow500m` | double | Determines how often to receive instructions under 500 meter (default: `150`) 
+`announcementsWayMinimumDistance` | double | Determines the distance from maneauver location to include way name into instruction (default: `250`) 
+`distanceLastAnnouncement` | double |Determines when to receive last announcement (default: `30`)
 
 `formatToken` takes two parameters:
 

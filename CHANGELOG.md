@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. For change log formatting, see http://keepachangelog.com/
 
+## master
+
+- Added voice and banner instructions
+
 ## 0.15.0 2024-03-03
 
 - This package now requires Node 16 and above. [#312](https://github.com/Project-OSRM/osrm-text-instructions/pull/312)
