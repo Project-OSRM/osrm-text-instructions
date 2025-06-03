@@ -11,6 +11,25 @@ on:
 jobs:
   test:
     runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        node-version: ['18', '20', '22']
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install dependencies
+        run: npm install
+      - name: Run lint
+        run: npm run lint
+      - name: Run tests
+        run: npm run test
+
+  typescript:
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -20,7 +39,17 @@ jobs:
           node-version: '22'
       - name: Install dependencies
         run: npm install
-      - name: Run lint
-        run: npm run lint
-      - name: Run tests
-        run: npm run test
+      - name: Validate TypeScript declarations
+        run: npm run validate-types
+      - name: Type check TypeScript example
+        run: npm run type-check
+      - name: Test TypeScript example compilation and execution
+        run: |
+          npx tsc example.ts
+          node example.js
+          rm example.js
+      - name: Verify TypeScript can consume the package
+        run: |
+          echo "import osrmTextInstructions = require('./index'); const compiler = osrmTextInstructions('v5'); console.log('TypeScript import works!');" > test-import.ts
+          npx tsc --noEmit test-import.ts
+          rm test-import.ts

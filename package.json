@@ -5,6 +5,7 @@
   "homepage": "http://project-osrm.org",
   "version": "0.15.0",
   "main": "./index.js",
+  "types": "./index.d.ts",
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/Project-OSRM/osrm-text-instructions.js/issues"
@@ -15,15 +16,19 @@
   },
   "devDependencies": {
     "@transifex/api": "^7.1.0",
+    "@types/node": "^20.0.0",
     "eslint": "^8.57.0",
     "mkdirp": "^0.5.1",
     "request": "^2.79.0",
-    "tape": "^4.9.2"
+    "tape": "^4.9.2",
+    "typescript": "^5.0.0"
   },
   "scripts": {
     "lint": "eslint *.js test/*.js scripts/*.js",
     "pretest": "npm run lint",
     "test": "tape test/*_test.js",
-    "transifex": "node scripts/transifex.js"
+    "transifex": "node scripts/transifex.js",
+    "type-check": "tsc --noEmit example.ts",
+    "validate-types": "tsc --noEmit index.d.ts"
   }
 }

@@ -8,6 +8,7 @@ OSRM Text Instructions is a Node.js library that transforms route data generated
 * **Customizable**: Flexible options allow you to format and tweak the results to your liking.
 * **Cross-platform**: A data-driven approach facilitates implementations in other programming languages. OSRM Text Instructions is also available [in Swift and Objective-C](https://github.com/Project-OSRM/osrm-text-instructions.swift/) (for iOS, macOS, tvOS, and watchOS) and [in Java](https://github.com/Project-OSRM/osrm-text-instructions.java/) (for Android and Java SE).
 * **Well-tested**: A data-driven test suite ensures compatibility across languages and platforms.
+* **TypeScript Support**: Full TypeScript type definitions are included for enhanced development experience.
 
 ## Usage
 
@@ -22,6 +23,32 @@ response.legs.forEach(function(leg) {
     instruction = osrmTextInstructions.compile('en', step, options)
   });
 });
+```
+
+### TypeScript Usage
+
+```typescript
+import osrmTextInstructions = require('osrm-text-instructions');
+
+const compiler = osrmTextInstructions('v5');
+
+const step: osrmTextInstructions.RouteStep = {
+  maneuver: {
+    type: 'turn',
+    modifier: 'left'
+  },
+  name: 'Main Street'
+};
+
+const options: osrmTextInstructions.CompileOptions = {
+  legCount: 2,
+  legIndex: 0,
+  formatToken: (token: string, value: string) => {
+    return token === 'way_name' ? `<strong>${value}</strong>` : value;
+  }
+};
+
+const instruction = compiler.compile('en', step, options);
 ```
 
 If you are unsure if the user's locale is supported by osrm-text-inustrctions, use [@mapbox/locale-utils](https://github.com/mapbox/locale-utils) for finding the best fitting language.
