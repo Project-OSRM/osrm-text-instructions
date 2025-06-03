@@ -29,6 +29,6 @@
     "test": "tape test/*_test.js",
     "transifex": "node scripts/transifex.js",
     "type-check": "tsc --noEmit example.ts",
-    "validate-types": "tsc --noEmit index.d.ts && tsc --noEmit languages.d.ts"
+    "validate-types": "tsc --noEmit index.d.ts"
   }
 }
