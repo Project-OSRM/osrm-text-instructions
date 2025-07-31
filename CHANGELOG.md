@@ -10,6 +10,8 @@ All notable changes to this project will be documented in this file. For change 
 - Added a Catalan localization. [#312](https://github.com/Project-OSRM/osrm-text-instructions/pull/312)
 - Updated translations in Brazilian Portuguese, Danish, Esperanto, French, Hungarian, Japanese, Polish, Russian, Simplified Chinese, Swedish, Ukrainian, and Yoruba. [#312](https://github.com/Project-OSRM/osrm-text-instructions/pull/312)
 
+- Global search option is now required for all grammar rules. [#228] (https://github.com/Project-OSRM/osrm-text-instructions/pull/228)
+
 ## 0.14.0 2019-12-04
 
 - Update Japanese localization, add named intersections. [#290](https://github.com/Project-OSRM/osrm-text-instructions/pull/290)
