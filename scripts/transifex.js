@@ -2,7 +2,6 @@
 
 const fs = require('fs');
 
-const request = require('request').defaults({maxSockets: 1});
 const transifexApi = require('@transifex/api').transifexApi;
 
 const languages = require(`${__dirname}/../languages.js`);
@@ -36,22 +35,19 @@ transifexApi.setup({auth: auth.token});
             resource,
             language
         });
-        const options = {
-            uri: url,
-            json: true
-        };
-        request.get(options, (err, resp, body) => {
-            if (err) throw err;
-            let content = body;
 
-            // Apply language-specific overrides
-            const override = `${__dirname}/../languages/overrides/${code}.js`;
-            if (fs.existsSync(override)) {
-                content = require(override)(content);
-            }
+        const response = await fetch(url);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const body = await response.json();
+        let content = body;
 
-            // Write language file
-            fs.writeFileSync(`${__dirname}/../languages/translations/${code}.json`, JSON.stringify(content, null, 4) + '\n');
-        });
+        // Apply language-specific overrides
+        const override = `${__dirname}/../languages/overrides/${code}.js`;
+        if (fs.existsSync(override)) {
+            content = require(override)(content);
+        }
+
+        // Write language file
+        fs.writeFileSync(`${__dirname}/../languages/translations/${code}.json`, JSON.stringify(content, null, 4) + '\n');
     });
 }());
