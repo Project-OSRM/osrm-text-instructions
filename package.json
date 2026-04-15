@@ -19,7 +19,7 @@
     "@types/node": "^20.0.0",
     "eslint": "^8.57.0",
     "mkdirp": "^0.5.1",
-    "tape": "^4.9.2",
+    "tape": "^5.9.0",
     "typescript": "^5.0.0"
   },
   "scripts": {
