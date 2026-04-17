@@ -50,6 +50,6 @@ jobs:
           rm example.js
       - name: Verify TypeScript can consume the package
         run: |
-          echo "import osrmTextInstructions = require('./index'); const compiler = osrmTextInstructions('v5'); console.log('TypeScript import works!');" > test-import.ts
+          echo "import osrmTextInstructions from './index'; const compiler = osrmTextInstructions('v5'); console.log('TypeScript import works!');" > test-import.ts
           npx tsc --noEmit test-import.ts
           rm test-import.ts
