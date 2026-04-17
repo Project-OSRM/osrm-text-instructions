@@ -15,9 +15,10 @@
     "url": "git://github.com/Project-OSRM/osrm-text-instructions.js/"
   },
   "devDependencies": {
+    "@eslint/js": "^9.0.0",
     "@transifex/api": "^7.1.0",
     "@types/node": "^25.6.0",
-    "eslint": "^8.57.0",
+    "eslint": "^10.2.0",
     "mkdirp": "^3.0.1",
     "tape": "^5.9.0",
     "typescript": "^5.0.0"
