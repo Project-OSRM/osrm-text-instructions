@@ -1,6 +1,6 @@
 // Example usage of osrm-text-instructions with TypeScript
 
-import osrmTextInstructions = require('./index');
+import osrmTextInstructions from './index.js';
 
 // Initialize the compiler for OSRM v5
 const compiler = osrmTextInstructions('v5');

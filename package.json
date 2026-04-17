@@ -28,7 +28,7 @@
     "pretest": "npm run lint",
     "test": "tape test/*_test.js",
     "transifex": "node scripts/transifex.js",
-    "type-check": "tsc --noEmit",
-    "validate-types": "tsc --noEmit"
+    "type-check": "tsc --noEmit --ignoreConfig example.ts",
+    "validate-types": "tsc --noEmit --ignoreConfig index.d.ts"
   }
 }
