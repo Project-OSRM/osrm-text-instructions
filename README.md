@@ -28,7 +28,7 @@ response.legs.forEach(function(leg) {
 ### TypeScript Usage
 
 ```typescript
-import osrmTextInstructions = require('osrm-text-instructions');
+import osrmTextInstructions from 'osrm-text-instructions';
 
 const compiler = osrmTextInstructions('v5');
 

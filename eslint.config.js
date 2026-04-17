@@ -2,7 +2,7 @@ const js = require('@eslint/js');
 
 module.exports = [
     {
-        ignores: ['node_modules/**', 'eslint.config.js'],
+        ignores: ['node_modules/**', 'dist/**', 'example.js']
     },
     {
         files: ['**/*.js'],
@@ -19,8 +19,8 @@ module.exports = [
                 global: 'readonly',
                 module: 'writable',
                 require: 'readonly',
-                fetch: 'readonly',
-            },
+                fetch: 'readonly'
+            }
         },
         rules: {
             ...js.configs.recommended.rules,
@@ -32,12 +32,17 @@ module.exports = [
             'arrow-spacing': 'error',
             'block-scoped-var': 'error',
             'block-spacing': ['error', 'always'],
-            'brace-style': ['error', '1tbs', {allowSingleLine: true}],
+            'brace-style': ['error', '1tbs', {
+                allowSingleLine: true
+            }],
             'callback-return': 'error',
             camelcase: 'error',
             'class-methods-use-this': 'error',
             'comma-dangle': 'error',
-            'comma-spacing': ['error', {after: true, before: false}],
+            'comma-spacing': ['error', {
+                after: true,
+                before: false
+            }],
             'comma-style': 'error',
             complexity: 'off',
             'computed-property-spacing': ['error', 'never'],
@@ -60,7 +65,10 @@ module.exports = [
             'init-declarations': 'off',
             'jsx-quotes': 'error',
             'key-spacing': 'error',
-            'keyword-spacing': ['error', {after: true, before: true}],
+            'keyword-spacing': ['error', {
+                after: true,
+                before: true
+            }],
             'linebreak-style': ['error', 'unix'],
             'lines-around-comment': 'error',
             'max-depth': 'error',

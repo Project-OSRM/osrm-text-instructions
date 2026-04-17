@@ -1,2 +1,4 @@
 node_modules
 transifex.auth
+dist
+example.js
