@@ -137,7 +137,7 @@ module.exports = function(version) {
 
             if (!instructions[language][version][type]) {
                 // Log for debugging
-                console.log('Encountered unknown instruction type: ' + type); // eslint-disable-line no-console
+                console.log('Encountered unknown instruction type: ' + type);
                 // OSRM specification assumes turn types can be added without
                 // major version changes. Unknown types are to be treated as
                 // type `turn` by clients
