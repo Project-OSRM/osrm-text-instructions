@@ -24,11 +24,11 @@
     "typescript": "^6.0.3"
   },
   "scripts": {
-    "lint": "eslint *.js test/*.js scripts/*.js",
+    "lint": "eslint eslint.config.js index.js languages.js test/*.js scripts/*.js",
     "pretest": "npm run lint",
     "test": "tape test/*_test.js",
     "transifex": "node scripts/transifex.js",
-    "type-check": "tsc --noEmit --ignoreConfig example.ts",
-    "validate-types": "tsc --noEmit --ignoreConfig index.d.ts"
+    "type-check": "tsc --noEmit --project tsconfig.example.json",
+    "validate-types": "tsc --noEmit --project tsconfig.types.json"
   }
 }

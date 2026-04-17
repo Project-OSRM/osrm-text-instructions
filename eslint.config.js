@@ -2,7 +2,7 @@ const js = require('@eslint/js');
 
 module.exports = [
     {
-        ignores: ['node_modules/**']
+        ignores: ['node_modules/**', 'dist/**', 'example.js']
     },
     {
         files: ['**/*.js'],
