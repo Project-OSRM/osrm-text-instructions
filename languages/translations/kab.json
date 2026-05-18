@@ -1,0 +1,505 @@
+{
+    "meta": {
+        "capitalizeFirstLetter": true
+    },
+    "v5": {
+        "constants": {
+            "ordinalize": {
+                "1": "tamezwarut",
+                "2": "tis snat",
+                "3": "tis tlata",
+                "4": "tis rebɛa",
+                "5": "tis xemsa",
+                "6": "tis setta",
+                "7": "tis sebɛa",
+                "8": "tis tmanya",
+                "9": "tis tesɛa",
+                "10": "tis ɛecra"
+            },
+            "direction": {
+                "north": "agafa",
+                "northeast": "agafa-usammar",
+                "east": "asammar",
+                "southeast": "anẓul-usammar",
+                "south": "anẓul",
+                "southwest": "anẓul-umalu",
+                "west": "amalu",
+                "northwest": "agafa-umalu"
+            },
+            "modifier": {
+                "left": "tama taẓelmaḍt",
+                "right": "tama tayeffust",
+                "sharp left": "tama taẓelmaḍt mliḥ",
+                "sharp right": "tama tayeffust mliḥ",
+                "slight left": "am wacemma ɣer tama taẓelmaḍt",
+                "slight right": "am wacemma ɣer tama tayeffust",
+                "straight": "qbala",
+                "uturn": "tuɣalin ɣer deffir"
+            },
+            "lanes": {
+                "xo": "Qqim deg tama tayeffust",
+                "ox": "Qqim deg tama taẓelmaḍt",
+                "xox": "Qqim deg tlemmast",
+                "oxo": "Qqim deg tama taẓelmaḍt neɣ tayeffust"
+            }
+        },
+        "modes": {
+            "ferry": {
+                "default": "Ṭṭef aɣerrabu",
+                "name": "Ṭṭef aɣerrabu {way_name}",
+                "destination": "Ṭṭef aɣerrabu twal {destination}"
+            }
+        },
+        "phrase": {
+            "two linked by distance": "{instruction_one}, syin, deg {distance}, {instruction_two}",
+            "two linked": "{instruction_one}, syin {instruction_two}",
+            "one in distance": "Deg {distance}, {instruction_one}",
+            "name and ref": "{name} ({ref})",
+            "exit with number": "tuffɣa {exit}"
+        },
+        "arrive": {
+            "default": {
+                "default": "Tewwḍeḍ ɣer wendaweḍ-ik {nth}",
+                "upcoming": "Ad tawḍed ɣer wendaweḍ-ik {nth}",
+                "short": "Tewwḍeḍ",
+                "short-upcoming": "Ad tawḍed",
+                "named": "Tewwḍeḍ ɣer {waypoint_name}"
+            },
+            "left": {
+                "default": "Tewwḍeḍ ɣer wendaweḍ-ik {nth}, ɣef tama taẓelmaḍt",
+                "upcoming": "Ad tawḍed ɣer wendaweḍ-ik {nth}, ɣef tama taẓelmaḍt",
+                "short": "Tewwḍeḍ",
+                "short-upcoming": "Ad tawḍed",
+                "named": "Tewwḍeḍ ɣer {waypoint_name}, ɣef tama taẓelmaḍt"
+            },
+            "right": {
+                "default": "Tewwḍeḍ ɣer wendaweḍ-ik {nth}, ɣef tama tayeffust",
+                "upcoming": "Ad tawḍed ɣer wendaweḍ-ik {nth}, ɣef tama tayeffust",
+                "short": "Tewwḍed",
+                "short-upcoming": "Ad tawḍed",
+                "named": "Tewwḍeḍ ɣer {waypoint_name}, ɣef tama tayeffust"
+            },
+            "sharp left": {
+                "default": "Tewwḍeḍ ɣer wendaweḍ-ik {nth}, ɣef tama taẓelmaḍt",
+                "upcoming": "Ad tawḍed ɣer wendaweḍ-ik {nth}, ɣef tama taẓelmaḍt",
+                "short": "Tewwḍeḍ",
+                "short-upcoming": "Ad tawḍed",
+                "named": "Tewwḍeḍ ɣer {waypoint_name}, ɣer tama taẓelmaḍt"
+            },
+            "sharp right": {
+                "default": "Tewwḍeḍ ɣer wendaweḍ-ik {nth}, ɣef tama tayeffust",
+                "upcoming": "Ad tawḍed ɣer wendaweḍ-ik {nth}, ɣef tama tayeffust",
+                "short": "Tewwḍeḍ",
+                "short-upcoming": "Ad tawḍed",
+                "named": "Tewwḍeḍ ɣer {waypoint_name}, ɣef tama tayeffust"
+            },
+            "slight right": {
+                "default": "Tewwḍeḍ ɣer wendaweḍ-ik {nth}, ɣef tama tayeffust",
+                "upcoming": "Ad tawḍed ɣer wendaweḍ-ik {nth}, ɣef tama tayeffust",
+                "short": "Tewwḍeḍ",
+                "short-upcoming": "Ad tawḍed",
+                "named": "Tewwḍeḍ ɣer {waypoint_name}, ɣef tama tayeffust"
+            },
+            "slight left": {
+                "default": "Tewwḍeḍ ɣer wendaweḍ-ik {nth}, ɣef tama taẓelmaḍt",
+                "upcoming": "Ad tawḍed ɣer wendaweḍ-ik {nth}, ɣef tama taẓelmaḍt",
+                "short": "Tewwḍeḍ",
+                "short-upcoming": "Ad tawḍed",
+                "named": "Tewwḍeḍ ɣer {waypoint_name}, ɣef tama taẓelmaḍt"
+            },
+            "straight": {
+                "default": "Tewwḍeḍ ɣer wendaweḍ-ik {nth}, qbala kan",
+                "upcoming": "Ad tawḍed ɣer wendaweḍ-ik {nth}, qbala kan",
+                "short": "Tewwḍeḍ",
+                "short-upcoming": "Ad tawḍed",
+                "named": "Tewwḍeḍ ɣer {waypoint_name}, qbala"
+            }
+        },
+        "continue": {
+            "default": {
+                "default": "Bren ɣer {modifier}",
+                "name": "Bren ɣer {modifier} i wakken ad teqqimed ɣef {way_name}",
+                "destination": "Bren ɣer {modifier} twal {destination}",
+                "exit": "Bren ɣer {modifier} ɣef {way_name}"
+            },
+            "straight": {
+                "default": "Kemmel qbala",
+                "name": "Kemmel qbala i wakken ad teqqimed ɣef {way_name}",
+                "destination": "Kemmel twal {destination}",
+                "distance": "Kemmel qbala azal n {distance}",
+                "namedistance": "Kemmel ɣef {way_name} azal n {distance}"
+            },
+            "sharp left": {
+                "default": "Bren mliḥ ɣer tama taẓelmaḍt",
+                "name": "Bren mliḥ ɣer tama taẓelmaḍt i wakken ad teqqimed ɣef {way_name}",
+                "destination": "Bren mliḥ ɣer tama taẓelmaḍt twal {destination}",
+                "junction_name": "Bren mliḥ ɣer tama taẓelmaḍt deg {junction_name}"
+            },
+            "sharp right": {
+                "default": "Bren mliḥ ɣer tama tayeffust",
+                "name": "Bren mliḥ ɣer tama tayeffust i wakken ad teqqimed ɣef {way_name}",
+                "destination": "Bren mliḥ ɣer tama tayeffust twal {destination}",
+                "junction_name": "Bren mliḥ ɣer tama tayeffust deg {junction_name}"
+            },
+            "slight left": {
+                "default": "Bren am wacemma ɣer tama taẓelmaḍt",
+                "name": "Bren am wacemma ɣer tama taẓelmaḍt i wakken ad teqqimed ɣef {way_name}",
+                "destination": "Bren am wacemma ɣer tama taẓelmaḍt twal {destination}",
+                "junction_name": "Bren am wacemma ɣer tama taẓelmaḍt deg {junction_name}"
+            },
+            "slight right": {
+                "default": "Bren am wacemma ɣer tama tayeffust",
+                "name": "Bren am wacemma ɣer tama tayeffust i wakken ad teqqimed ɣef {way_name}",
+                "destination": "Bren am wacemma ɣer tama tayeffust twal {destination}",
+                "junction_name": "Bren am wacemma ɣer tama tayeffust deg {junction_name}"
+            },
+            "uturn": {
+                "default": "Bren ɣer deffir",
+                "name": "Bren ɣer deffir syin kemmel ɣef {way_name}",
+                "destination": "Bren ɣer deffir twal {destination}",
+                "junction_name": "Bren ɣer deffir deg {junction_name}"
+            }
+        },
+        "depart": {
+            "default": {
+                "default": "Bdu tikli twal {direction}",
+                "name": "Bdu tikli twal {direction} ɣef {way_name}",
+                "namedistance": "Bdu tikli twal {direction} def {way_name} azal n {distance}"
+            }
+        },
+        "end of road": {
+            "default": {
+                "default": "Bren {modifier}",
+                "name": "Bren {modifier} ɣef {way_name}",
+                "destination": "Bren {modifier} twal {destination}",
+                "junction_name": "Bren {modifier} deg {junction_name}"
+            },
+            "straight": {
+                "default": "Kemmel qbala",
+                "name": "Kemmel qbala ɣef {way_name}",
+                "destination": "Kemmel qbala twal {destination}",
+                "junction_name": "Kemmel qbala ɣef {junction_name}"
+            },
+            "uturn": {
+                "default": "Bren ɣer deffir mi ara ifakk ubrid",
+                "name": "Bren ɣer deffir ɣef {way_name} mi ara ifakk ubrid",
+                "destination": "Bren ɣer deffir twal {destination} mi ara ifakk ubrid",
+                "junction_name": "Bren ɣer deffir deg {junction_name}"
+            }
+        },
+        "fork": {
+            "default": {
+                "default": "Ṭṭef {modifier} deg gar yiberdan",
+                "name": "Qqim af {modifier} ɣef {way_name}",
+                "destination": "Qqim deg {modifier} twal {destination}"
+            },
+            "slight left": {
+                "default": "Qqim deg tama taẓelmaḍt deg gar yiberdan",
+                "name": "Qqim deg tama taẓelmaḍt ɣef {way_name}",
+                "destination": "Qqim deg tama taẓelmaḍt twal {destination}"
+            },
+            "slight right": {
+                "default": "Qqim deg tama tayeffust deg gar yiberdan",
+                "name": "Qqim deg tama tayeffust ɣef {way_name}",
+                "destination": "Qqim deg tama tayeffust twal {destination}"
+            },
+            "sharp left": {
+                "default": "Bren mliḥ ɣer tama taẓelmaḍt deg gar yiberdan",
+                "name": "Bren mliḥ ɣer tama taẓelmaḍt ɣef {way_name}",
+                "destination": "Bren mliḥ ɣer tama taẓelmaḍt twal {destination}"
+            },
+            "sharp right": {
+                "default": "Bren mliḥ ɣer tama tayeffust deg gar yiberdan",
+                "name": "Bren mliḥ ɣer tama tayeffust ɣef {way_name}",
+                "destination": "Bren mliḥ ɣer tama tayeffust twal {destination}"
+            },
+            "uturn": {
+                "default": "Bren ɣer deffir",
+                "name": "Bren ɣer deffir ɣef {way_name}",
+                "destination": "Bren ɣer deffir twal {destination}"
+            }
+        },
+        "merge": {
+            "default": {
+                "default": "Kcem {modifier}",
+                "name": "Kcem {modifier} ɣef {way_name}",
+                "destination": "Kcem {modifier} twal {destination}"
+            },
+            "straight": {
+                "default": "Kcem",
+                "name": "Kcem ɣer {way_name}",
+                "destination": "Kcem twal {destination}"
+            },
+            "slight left": {
+                "default": "Kcem s ttawil ɣer tama taẓelmaḍt",
+                "name": "Kcem s ttawil ɣer tama taẓelmaḍt ɣef {way_name}",
+                "destination": "Kcem ɣer tama taẓelmaḍt twal {destination}"
+            },
+            "slight right": {
+                "default": "Kcem s ttawil ɣer tama tayeffust",
+                "name": "Kcem s ttawil ɣer tama tayeffust ɣef {way_name}",
+                "destination": "Kcem ɣer tama tayeffust twal {destination}"
+            },
+            "sharp left": {
+                "default": "Kcem ɣer tama taẓelmaḍt",
+                "name": "Kcem ɣer tama taẓelmaḍt ɣef {way_name}",
+                "destination": "Kcem ɣer tama taẓelmaḍt twal {destination}"
+            },
+            "sharp right": {
+                "default": "Kcem ɣer tama tayeffust",
+                "name": "Kcem ɣer tama tayeffust ɣef {way_name}",
+                "destination": "Kcem ɣer tama tayeffust twal {destination}"
+            },
+            "uturn": {
+                "default": "Bren ɣer deffir",
+                "name": "Bren ɣer deffir ɣer {way_name}",
+                "destination": "Bren ɣer deffir twal {destination}"
+            }
+        },
+        "new name": {
+            "default": {
+                "default": "Kemmel {modifier}",
+                "name": "Kemmel {modifier} ɣer {way_name}",
+                "destination": "Kemmel ɣef {modifier} twal {destination}"
+            },
+            "straight": {
+                "default": "Kemmel qbala",
+                "name": "Kemmel ɣef {way_name}",
+                "destination": "Kemmel twal {destination}"
+            },
+            "sharp left": {
+                "default": "Bren mliḥ ɣer tama taẓelmaḍt",
+                "name": "Bren mliḥ ɣer tama taẓelmaḍt ɣef {way_name}",
+                "destination": "Bren mliḥ ɣer tama taẓelmaḍt twal {destination}"
+            },
+            "sharp right": {
+                "default": "Bren mliḥ ɣer tama tayeffust",
+                "name": "Bren mliḥ ɣer tama tayeffust ɣef {way_name}",
+                "destination": "Bren mliḥ ɣer tama tayeffust twal {destination}"
+            },
+            "slight left": {
+                "default": "Kemmel am wacemma ɣer tama taẓelmaḍt",
+                "name": "Kemmel am wacemma ɣer tama taẓelmaḍt ɣef {way_name}",
+                "destination": "Kemmel kra kan ɣef tama taẓelmaḍt twal {destination}"
+            },
+            "slight right": {
+                "default": "Kemmel am wacemma ɣer tama tayeffust",
+                "name": "Kemmel am wacemma ɣer tama tayeffust ɣef {way_name}",
+                "destination": "Kemmel kra kan ɣef tama tayeffust twal {destination}"
+            },
+            "uturn": {
+                "default": "Bren ɣer deffir",
+                "name": "Uɣal ɣer deffir ɣef {way_name}",
+                "destination": "Bren ɣer deffir twal {destination}"
+            }
+        },
+        "notification": {
+            "default": {
+                "default": "Kemmel {modifier}",
+                "name": "Kemmel {modifier} ɣef {way_name}",
+                "destination": "Kemmel ɣef {modifier} twal {destination}"
+            },
+            "uturn": {
+                "default": "Bren ɣer deffir",
+                "name": "Bren ɣer deffir ɣef {way_name}",
+                "destination": "Bren ɣer deffir twal {destination}"
+            }
+        },
+        "off ramp": {
+            "default": {
+                "default": "Awi uffuɣ",
+                "name": "Awi uffuɣ ɣer {way_name}",
+                "destination": "Awi uffuɣ yettawin twal {destination}",
+                "exit": "Awi tuffɣa {exit}",
+                "exit_destination": "Awi tuffɣa {exit} twal {destination}"
+            },
+            "left": {
+                "default": "Awi uffuɣ i yellan ɣer tama taẓelmaḍt",
+                "name": "Awi uffuɣ i yellan ɣer tama taẓelmaḍt ɣef {way_name}",
+                "destination": "Awi uffuɣ ɣer tama taẓelmaḍt yettawin twal {destination}",
+                "exit": "Awi tuffɣa {exit} ɣer tama taẓelmaḍt",
+                "exit_destination": "Awi tuffɣa {exit} ɣef tama taẓelmaḍt twal {destination}"
+            },
+            "right": {
+                "default": "Awi uffuɣ i yellan ɣer tama tayeffust",
+                "name": "Awi uffuɣ i yellan ɣer tama tayeffust ɣef {way_name}",
+                "destination": "Awi uffuɣ ɣer tama tayeffust twal {destination}",
+                "exit": "Awi tuffɣa {exit} ɣer tama tayeffust",
+                "exit_destination": "Awi tuffɣa {exit} ɣef tama tayeffust twal {destination}"
+            },
+            "sharp left": {
+                "default": "Awi uffuɣ ɣer tama taẓelmaḍt",
+                "name": "Awi uffuɣ ɣer tama taẓelmaḍt ɣef {way_name}",
+                "destination": "Awi uffuɣ ɣer tama taẓelmaḍt twal {destination}",
+                "exit": "Awi tuffɣa {exit} ɣer tama taẓelmaḍt",
+                "exit_destination": "Awi tuffɣa {exit} ɣef tama taẓelmaḍt twal {destination}"
+            },
+            "sharp right": {
+                "default": "Awi uffuɣ ɣer tama tayeffust",
+                "name": "Awi uffuɣ ɣer tama tayeffust ɣef {way_name}",
+                "destination": "Awi uffuɣ ɣer tama tayeffust twal {destination}",
+                "exit": "Awi tuffɣa {exit} ɣer tama tayeffust",
+                "exit_destination": "Awi tuffɣa {exit} ɣef tama tayeffust twal {destination}"
+            },
+            "slight left": {
+                "default": "Awi uffuɣ ɣer tama taẓelmaḍt",
+                "name": "Awi uffuɣ ɣer tama taẓelmaḍt ɣef {way_name}",
+                "destination": "Awi uffuɣ ɣer tama taẓelmaḍt twal {destination}",
+                "exit": "Awi tuffɣa {exit} ɣer tama taẓelmaḍt",
+                "exit_destination": "Awi tuffɣa {exit} ɣer tama taẓelmaḍt twal {destination}"
+            },
+            "slight right": {
+                "default": "Awi uffuɣ ɣer tama tayeffust",
+                "name": "Awi uffuɣ ɣer tama tayeffust ɣef {way_name}",
+                "destination": "Awi uffuɣ ɣer tama tayeffust twal {destination}",
+                "exit": "Awi tuffɣa {exit} ɣer tama tayeffust",
+                "exit_destination": "Awi tuffɣa {exit} ɣer tama tayeffust twal {destination}"
+            }
+        },
+        "on ramp": {
+            "default": {
+                "default": "Awi uffuɣ",
+                "name": "Awi uffuɣ ɣer {way_name}",
+                "destination": "Awi uffuɣ twal {destination}"
+            },
+            "left": {
+                "default": "Awi uffuɣ i yellan ɣer tama taẓelmaḍt",
+                "name": "Awi uffuɣ ɣer tama taẓelmaḍt ɣef {way_name}",
+                "destination": "Awi uffuɣ ɣer tama taẓelmaḍt twal {destination}"
+            },
+            "right": {
+                "default": "Awi uffuɣ i yellan ɣer tama tayeffust",
+                "name": "Awi uffuɣ ɣer tama tayeffust ɣef {way_name}",
+                "destination": "Awi uffuɣ i yellan ɣer tama tayeffust twal {destination}"
+            },
+            "sharp left": {
+                "default": "Awi uffuɣ i yellan ɣer tama taẓelmaḍt",
+                "name": "Awi uffuɣ i yellan ɣer tama taẓelmaḍt ɣef {way_name}",
+                "destination": "Awi uffuɣ i yellan ɣer tama taẓelmaḍt twal {destination}"
+            },
+            "sharp right": {
+                "default": "Awi uffuɣ i yellan ɣer tama tayeffust",
+                "name": "Awi uffuɣ i yellan ɣer tama tayeffust ɣef {way_name}",
+                "destination": "Awi uffuɣ i yellan ɣer tama tayeffust twal {destination}"
+            },
+            "slight left": {
+                "default": "Awi uffuɣ i yellan ɣer tama taẓelmaḍt",
+                "name": "Awi uffuɣ i yellan ɣer tama taẓelmaḍt ɣef {way_name}",
+                "destination": "Awi uffuɣ i yellan ɣer tama taẓelmaḍt twal {destination}"
+            },
+            "slight right": {
+                "default": "Awi uffuɣ i yellan ɣer tama tayeffust",
+                "name": "Awi uffuɣ ɣer tama tayeffust ɣef {way_name}",
+                "destination": "Awi uffuɣ ɣer tama tayeffust twal {destination}"
+            }
+        },
+        "rotary": {
+            "default": {
+                "default": {
+                    "default": "Kcem asezzi",
+                    "name": "Kcem asezzi syin ffeɣ ɣer {way_name}",
+                    "destination": "Kcem asezzi syin ffeɣ twal {destination}"
+                },
+                "name": {
+                    "default": "Kcem {rotary_name}",
+                    "name": "Kcem {rotary_name} syin ffeɣ ɣer {way_name}",
+                    "destination": "Kcem {rotary_name} syin ffeɣ twal {destination}"
+                },
+                "exit": {
+                    "default": "Kcem asezzi syin awi tuffɣa {exit_number}",
+                    "name": "Kcem asezzi syin awi tuffɣa {exit_number} ɣer {way_name}",
+                    "destination": "Kcem asezzi syin awi tuffɣa {exit_number} yettawin ɣer {destination}"
+                },
+                "name_exit": {
+                    "default": "Kcem {rotary_name} syin awi tuffɣa {exit_number}",
+                    "name": "Kcem {rotary_name} syin awi tuffɣa {exit_number} ɣer {way_name}",
+                    "destination": "Kcem {rotary_name} syin awi tuffɣa {exit_number} yettawin ɣer {destination}"
+                }
+            }
+        },
+        "roundabout": {
+            "default": {
+                "exit": {
+                    "default": "Kcem asezzi syin awi tuffɣa {exit_number}",
+                    "name": "Kcem asezzi syin awi tuffɣa {exit_number} ɣer {way_name}",
+                    "destination": "Kcem asezzi syin awi tuffɣa {exit_number} yettawin ɣer {destination}"
+                },
+                "default": {
+                    "default": "Kcem asezzi",
+                    "name": "Kcem asezzi syin ffeɣ ɣer {way_name}",
+                    "destination": "Kcem asezzi syin ffeɣ twal {destination}"
+                }
+            }
+        },
+        "roundabout turn": {
+            "default": {
+                "default": "Bren {modifier}",
+                "name": "Bren {modifier} ɣef {way_name}",
+                "destination": "Bren {modifier} twal {destination}"
+            },
+            "left": {
+                "default": "Bren ɣer tama taẓelmaḍt",
+                "name": "Bren ɣer tama taẓelmaḍt ɣef {way_name}",
+                "destination": "Bren ɣer tama taẓelmaḍt twal {destination}"
+            },
+            "right": {
+                "default": "Bren ɣer tama tayeffust",
+                "name": "Bren ɣer tama tayeffust ɣef {way_name}",
+                "destination": "Bren ɣer tama tayeffust twal {destination}"
+            },
+            "straight": {
+                "default": "Kemmel qbala",
+                "name": "Kemmel qbala ɣef {way_name}",
+                "destination": "Kemmel qbala twal {destination}"
+            }
+        },
+        "exit roundabout": {
+            "default": {
+                "default": "Ffeɣ seg usezzi",
+                "name": "Ffeɣ seg usezzi ɣef {way_name}",
+                "destination": "Ffeɣ seg usezzi twal {destination}"
+            }
+        },
+        "exit rotary": {
+            "default": {
+                "default": "Ffeɣ seg usezzi",
+                "name": "Ffeɣ seg usezzi ɣef {way_name}",
+                "destination": "Ffeɣ seg usezzi twal {destination}"
+            }
+        },
+        "turn": {
+            "default": {
+                "default": "Bren {modifier}",
+                "name": "Bren {modifier} ɣef {way_name}",
+                "destination": "Bren {modifier} twal {destination}",
+                "junction_name": "Bren {modifier} deg {junction_name}"
+            },
+            "left": {
+                "default": "Bren ɣer tama taẓelmaḍt",
+                "name": "Bren ɣer tama taẓelmaḍt ɣef {way_name}",
+                "destination": "Bren ɣer tama taẓelmaḍt twal {destination}",
+                "junction_name": "Bren ɣer tama taẓelmaḍt deg {junction_name}"
+            },
+            "right": {
+                "default": "Bren ɣer tama tayeffust",
+                "name": "Bren ɣer tama tayeffust ɣef {way_name}",
+                "destination": "Bren ɣer tama tayeffust twal {destination}",
+                "junction_name": "Bren ɣer tama tayeffust deg {junction_name}"
+            },
+            "straight": {
+                "default": "Ddu qbala",
+                "name": "Ddu qbala ɣef {way_name}",
+                "destination": "Kker qbala twal {destination}",
+                "junction_name": "Kker qbala deg {junction_name}"
+            }
+        },
+        "use lane": {
+            "no_lanes": {
+                "default": "Kemmel qbala"
+            },
+            "default": {
+                "default": "{lane_instruction}"
+            }
+        }
+    }
+}
