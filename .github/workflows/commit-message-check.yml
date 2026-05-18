@@ -1,0 +1,66 @@
+name: "Conventional Commit Message Check"
+
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  commit-message-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Lint commit messages
+        run: |
+          set -euo pipefail
+          echo "Event: ${{ github.event_name }}"
+
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            range="${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }}"
+          else
+            before="${{ github.event.before }}"
+            sha="${{ github.sha }}"
+            if [ "$before" = "0000000000000000000000000000000000000000" ]; then
+              # new branch or initial push, check last commit only
+              range="$sha^..$sha"
+            else
+              range="$before..$sha"
+            fi
+          fi
+
+          echo "Commit range: $range"
+          # list commit subjects, skip merge commits
+          commits=$(git log --no-merges --pretty=format:%s "$range" || true)
+          if [ -z "$commits" ]; then
+            echo "No commits found to lint."
+            exit 0
+          fi
+
+          failed=0
+          while IFS= read -r subject; do
+            [ -z "$subject" ] && continue
+            # allow and skip merge commits if any slipped through
+            if echo "$subject" | grep -q -i "^Merge "; then
+              echo "Skipping merge commit: $subject"
+              continue
+            fi
+
+            if ! echo "$subject" | grep -E -q '^(revert: )?(feat|fix|docs|style|refactor|perf|test|build|ci|chore)(\([a-zA-Z0-9_.\/-]+\))?(!)?: .+'; then
+              echo "::error ::Conventional commit validation failed for: $subject"
+              failed=1
+            else
+              echo "OK: $subject"
+            fi
+          done <<< "$commits"
+
+          if [ $failed -ne 0 ]; then
+            echo "One or more commits do not follow Conventional Commits."
+            exit 1
+          fi
+
