@@ -1,9 +1,6 @@
 name: "Conventional Commit Message Check"
 
 on:
-  push:
-    branches:
-      - '**'
   pull_request:
     types: [opened, synchronize, reopened]
 
@@ -51,7 +48,7 @@ jobs:
               continue
             fi
 
-            if ! echo "$subject" | grep -E -q '^(revert: )?(feat|fix|docs|style|refactor|perf|test|build|ci|chore)(\([a-zA-Z0-9_.\/-]+\))?(!)?: .+'; then
+            if ! echo "$subject" | grep -E -q '^(revert: )?(feat|fix|docs|style|refactor|perf|test|build|ci|chore)(\([a-zA-Z0-9_.\-/]+\))?(!)?: .+'; then
               echo "::error ::Conventional commit validation failed for: $subject"
               failed=1
             else
@@ -63,4 +60,3 @@ jobs:
             echo "One or more commits do not follow Conventional Commits."
             exit 1
           fi
-
