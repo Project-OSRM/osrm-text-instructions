@@ -63,15 +63,6 @@ Once you’ve finished translating OSRM Text Instructions into a new language in
 
 After we merge the PR containing your localization updates and release a new version of OSRM Text Instructions, the [Mapbox Directions API](https://www.mapbox.com/api-documentation/#directions) will begin to accept the new language in the `language` query parameter. If you also want the OSRM demo server to display instructions in the new language, add the language to [osrm-frontend](https://github.com/Project-OSRM/osrm-frontend/).
 
-### Related projects
-
-Please consider also translating the following related projects, which work together with OSRM Text Instructions to give the user a complete turn-by-turn navigation experience:
-
-* [Mapbox Navigation SDK for Android](https://www.transifex.com/mapbox/mapbox-navigation-sdk-for-android/), which adds turn-by-turn navigation functionality to an Android application, including voice instructions powered by this library ([instructions](https://github.com/mapbox/mapbox-navigation-android/#translations))
-* [Mapbox Navigation SDK for iOS](https://www.transifex.com/mapbox/mapbox-navigation-ios/), the corresponding library for iOS applications ([instructions](https://github.com/mapbox/mapbox-navigation-ios/blob/main/CONTRIBUTING.md#adding-or-updating-a-localization))
-  * This SDK automatically requests [voice instructions in the system language](https://docs.mapbox.com/ios/navigation/overview/localization-and-internationalization/#spoken-instructions) if the SDK is also available in that language.
-* [Mapbox Maps SDK](https://www.transifex.com/mapbox/mapbox-gl-native/), which is responsible for the map view and minor UI elements such as the compass ([instructions](https://github.com/mapbox/mapbox-gl-native/blob/master/platform/ios/DEVELOPING.md#adding-a-localization))
-
 ## Releasing a new version
 
 1. In CHANGELOG.md, replace the “master” heading with the new version number.
