@@ -45,6 +45,12 @@ transifexApi.setup({auth: auth.token});
         const override = `${__dirname}/../languages/overrides/${code}.js`;
         if (fs.existsSync(override)) {
             content = require(override)(content);
+        } else {
+            var language = code.split('-')[0];
+            override = `${__dirname}/../languages/overrides/${language}.js`;
+            if (fs.existsSync(override)) {
+                content = require(override)(content);
+            }
         }
 
         // Write language file
