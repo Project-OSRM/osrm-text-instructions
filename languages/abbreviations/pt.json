@@ -1,0 +1,31 @@
+{
+    "abbreviations": {
+        "quadra": "Qd",
+        "vila": "Vil"
+    },
+    "classifications": {
+        "avenida": "Av",
+        "caminho": "Cam",
+        "estrada": "Estr",
+        "rua": "R",
+        "travessa": "Tv"
+    },
+    "directions": {
+        "lés-nordeste": "ENE",
+        "nordeste": "NE",
+        "oeste": "O",
+        "sudeste": "SE",
+        "lés-sudeste": "ESE",
+        "nor-nordeste": "NNE",
+        "sul": "S",
+        "nor-noroeste": "NNO",
+        "noroeste": "NO",
+        "norte": "N",
+        "oés-sudoeste": "OSO",
+        "oés-noroeste": "ONO",
+        "sudoeste": "SO",
+        "sul-sudeste": "SSE",
+        "su-sudoeste": "SSO",
+        "leste": "L"
+    }
+}
