@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@transifex/api": "^7.1.0",
+    "@transifex/api": "^8.0.0",
     "@types/node": "^25.6.0",
     "eslint": "^10.2.0",
     "mkdirp": "^3.0.1",
