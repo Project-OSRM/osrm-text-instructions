@@ -21,7 +21,7 @@
     "eslint": "^10.2.0",
     "mkdirp": "^3.0.1",
     "tape": "^5.9.0",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "scripts": {
     "lint": "eslint eslint.config.js index.js languages.js test/*.js scripts/*.js",
