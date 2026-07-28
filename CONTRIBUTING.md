@@ -42,11 +42,11 @@ This library relies on automatically generated test fixtures to show the effect 
 
 ## Adding or updating a localization
 
-We welcome your help in making OSRM Text Instructions available in the languages that you and your users speak. Localizations are maintained [at Transifex](https://www.transifex.com/project-osrm/osrm-text-instructions/), then committed to the [languages/](https://github.com/Project-OSRM/osrm-text-instructions/tree/master/languages/) folder of this repository when ready. If your language already has a translation, feel free to complete or proofread it. Otherwise, please [request your language](https://www.transifex.com/project-osrm/osrm-text-instructions/) so you can start translating. Transifex has a Web interface, so you don’t need specialized software to get started.
+We welcome your help in making OSRM Text Instructions available in the languages that you and your users speak. Localizations are maintained [at Transifex](https://explore.transifex.com/project-osrm/osrm-text-instructions/), then committed to the [languages/](https://github.com/Project-OSRM/osrm-text-instructions/tree/master/languages/) folder of this repository when ready. If your language already has a translation, feel free to complete or proofread it. Otherwise, please [request your language](https://explore.transifex.com/project-osrm/osrm-text-instructions/) so you can start translating. Transifex has a Web interface, so you don’t need specialized software to get started.
 
 Once you’ve finished translating OSRM Text Instructions into a new language in Transifex, open an issue in this repository asking to pull in your localization. Or do it yourself and open a pull request with the results:
 
-1. _(First time only.)_ Create a plain text file named transifex.auth, and it put in the root folder of this repository. (This file is ignored by Git, so you don’t need to worry about accidentally committing it.) Fill in your [Transifex credentials](https://docs.transifex.com/api/introduction#authentication):
+1. _(First time only.)_ Create a plain text file named transifex.auth, and it put in the root folder of this repository. (This file is ignored by Git, so you don’t need to worry about accidentally committing it.) Fill in your [Transifex credentials](https://help.transifex.com/en/articles/6248858-generating-an-api-token):
    ```json
    {
        "user": "username",
