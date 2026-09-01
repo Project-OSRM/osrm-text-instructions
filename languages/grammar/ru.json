@@ -1,6 +1,6 @@
 {
     "meta": {
-        "regExpFlags": ""
+        "regExpFlags": "g"
     },
     "v5": {
         "accusative": [
