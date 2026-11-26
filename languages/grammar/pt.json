@@ -1,0 +1,48 @@
+{
+    "meta": {
+        "regExpFlags": "gi"
+    },
+    "v5": {
+        "em": [
+            ["^ A(s?) ", " na$1 "],
+            ["^ O(s?) ", " no$1 "],
+            
+            ["^ (Marginal|Parte|Passagem|Ponte|Radial|Rede|Servid[aã]o) ", " na $1 "],
+            ["^ (Anel|Bosque|Boulevard|Cais|Canal|Caracol|Casal|Catete|Coronel|Duque|Fim|General|Impasse|Jardim|Juiz|Lote|Marechal|Mirante|Oriente|Parque|Professor|Setor|Tenente|Terminal|T[uú]nel) ", " no $1 "],
+
+            ["^ ([^\\- ]+dade)(s?) ", " na$2 $1$2 "],
+            ["^ ([^\\- ]+z) ", " na $1 "],
+            ["^ ([^\\- ]+z)es ", " nas $1es "],
+            ["^ ([^\\- ]+[cçz][aã]o) ", " na $1 "],
+            ["^ ([^\\- ]+[cçz][oõ]es) ", " nas $1 "],
+
+            ["^ ([^\\- ]+dor) ", " no $1 "],
+            ["^ ([^\\- ]+dor)es ", " nos $1es "],
+
+            ["^ (?!n[ao]s? )([^\\- ]+)([ao]s?) ", " n$2 $1$2 "],
+
+            ["^ (?!n[ao]s? )(\\S)", " em $1"]
+        ],
+        "a": [
+            ["^ A(s?) ", " à$1 "],
+            ["^ O(s?) ", " ao$1 "],
+            
+            ["^ (Marginal|Parte|Passagem|Ponte|Radial|Rede|Servid[aã]o) ", " à $1 "],
+            ["^ (Anel|Bosque|Boulevard|Cais|Canal|Caracol|Casal|Catete|Coronel|Duque|Fim|General|Impasse|Jardim|Juiz|Lote|Marechal|Mirante|Oriente|Parque|Professor|Setor|Tenente|Terminal|T[uú]nel) ", " ao $1 "],
+
+            ["^ ([^\\- ]+dade)(s?) ", " à$2 $1$2 "],
+            ["^ ([^\\- ]+z) ", " à $1 "],
+            ["^ ([^\\- ]+z)es ", " às $1es "],
+            ["^ ([^\\- ]+[cçz][aã]o) ", " à $1 "],
+            ["^ ([^\\- ]+[cçz][oõ]es) ", " às $1 "],
+
+            ["^ ([^\\- ]+dor) ", " ao $1 "],
+            ["^ ([^\\- ]+dor)es ", " aos $1es "],
+
+            ["^ ([^\\- ]+)a(s?) ", " à$2 $1a$2 "],
+            ["^ (?!aos? )([^\\- ]+)o(s?) ", " ao$2 $1o$2 "],
+
+            ["^ (?!aos? |às? )(\\S)", " a $1"]
+        ]
+    }
+}
